@@ -6,34 +6,35 @@ The application uses ReliefWeb API V2 metadata to help humanitarians, local orga
 
 > **Analytical boundary:** reporting volume, reporting momentum, source diversity, thematic breadth and source ecology are information-environment indicators. They are not direct measures of humanitarian severity.
 
-## v0.3.0-alpha scope
+## v0.4.0-beta scope
+
+v0.4 retains the v0.3 analytical layer and adds production hardening for public-service use.
 
 - Live ReliefWeb API V2 snapshot synchronization
 - Global Overview with KPIs and 30-day reporting trend
 - Country reporting ranking using `primary_country.iso3`
 - Crisis Pulse with low-base acceleration safeguards
 - Humanitarian Information Signal Index (HISI), with full/provisional basis labels
-- Country names and coordinates derived from embedded ReliefWeb `primary_country` metadata where available
-- Daily/manual quota-conserving enrichment for up to 40 country profiles per pass, combining the top 30 reporting countries with standing priority countries
+- Daily/manual quota-conserving enrichment for up to 40 country profiles per pass
 - Country workspaces with themes, sources, formats, true 30-day timelines, reports and active disaster contexts when enriched
 - 7-day vs previous-7-day theme momentum
-- Source ecology with top-source share, top-five concentration, Shannon entropy and effective source count
+- Source ecology with concentration and effective-source-count measures
 - Country deep links using `?country=ISO3`
-- Country provenance/freshness drawer
-- Watchlist dashboard using browser-local watchlist state
-- Saved Query Lab profiles stored locally
-- Expanded QAP v2 JSON export with timeline, theme momentum, source ecology, disaster context, provenance and QAP placeholder fields
-- Interactive Leaflet global reporting map using ReliefWeb-embedded country centroids where available
-- Disaster Explorer with map and disaster-type filters
-- Reports search and triage workspace
-- Query Lab with reproducible ReliefWeb POST-body generation and snapshot testing
-- CSV/JSON exports
-- Community view
-- GitHub Pages static deployment
+- Watchlist dashboard and saved Query Lab profiles stored locally
+- Expanded QAP v2 JSON export
+- Interactive Leaflet global reporting map
+- Disaster Explorer with related-report drilldowns; exact ReliefWeb disaster links are preferred when available and country + disaster-type matches are explicitly labeled as inferred
+- Global Source Register and provenance view
+- Panel-level freshness labels plus a global Data Health control
+- Print-friendly report styling
+- Keyboard focus improvements, skip navigation, ARIA live announcements and current-page navigation state
+- Installable web-app manifest and service-worker caching for low-bandwidth/temporary offline continuity
+- Network-first snapshot caching so the latest valid ReliefWeb snapshot is preferred while a cached snapshot remains available during connectivity loss
+- Automated static quality gate validating application assets, snapshot contract and JavaScript parsing
+- Automated Chromium smoke tests across desktop and mobile profiles
+- CSV/JSON exports and Community View
 - Hourly core synchronization plus separate daily country enrichment
 - Last-known-good retention for recoverable ReliefWeb failures
-- Backward-compatible client normalization for earlier snapshot shapes
-- Provenance and methodology controls
 - Local caching of available ReliefWeb report preview thumbnails
 
 ## Repository structure
@@ -41,9 +42,14 @@ The application uses ReliefWeb API V2 metadata to help humanitarians, local orga
 ```text
 /
 ├── index.html
+├── manifest.webmanifest
+├── sw.js
+├── package.json
+├── playwright.config.mjs
 ├── css/
 │   ├── app.css
-│   └── ui-patch.css
+│   ├── ui-patch.css
+│   └── v04.css
 ├── js/
 │   ├── app.js
 │   ├── charts.js
@@ -52,16 +58,21 @@ The application uses ReliefWeb API V2 metadata to help humanitarians, local orga
 │   ├── signals.js
 │   ├── storage.js
 │   ├── ui-patch.js
-│   └── v03.js
+│   ├── v03.js
+│   └── v04.js
 ├── data/snapshot.json
 ├── assets/report-thumbs/
 ├── scripts/
 │   ├── sync-reliefweb.mjs
 │   ├── enrich-reliefweb.mjs
-│   └── cache-reliefweb-thumbnails.mjs
+│   ├── cache-reliefweb-thumbnails.mjs
+│   └── quality-gate.mjs
+├── tests/smoke.spec.mjs
 ├── .github/workflows/
 │   ├── reliefweb-sync.yml
-│   └── reliefweb-enrichment.yml
+│   ├── reliefweb-enrichment.yml
+│   ├── quality-gate.yml
+│   └── browser-smoke.yml
 └── docs/
     ├── BUILD-DESIGN-MANUAL.md
     └── IMPLEMENTATION-STATUS.md
@@ -81,7 +92,7 @@ Failed core refreshes leave the last known good public snapshot in place. If onl
 
 ## API conservation
 
-The core snapshot relies on ReliefWeb server-side facets for country, theme, source, format and date distributions. Detailed country enrichment runs separately once per day, or manually, rather than on every hourly refresh. v0.3 expands the enrichment set while keeping it capped so the public operational picture remains current without avoidable API load.
+The core snapshot relies on ReliefWeb server-side facets for country, theme, source, format and date distributions. Detailed country enrichment runs separately once per day, or manually, rather than on every hourly refresh. The enrichment set remains capped so the public operational picture stays current without avoidable API load.
 
 ## GitHub Pages
 
@@ -96,6 +107,14 @@ python -m http.server 8080
 ```
 
 Then open `http://localhost:8080`.
+
+For the automated browser checks:
+
+```bash
+npm install
+npx playwright install chromium
+npm run test:smoke
+```
 
 ## Data provenance
 
