@@ -1,3 +1,5 @@
+import './v09.js';
+
 const NETWORK_FLOW_STYLE=`
 #network-analysis-flow{display:flex;flex-direction:column;min-width:0}
 #network-analysis-flow>.network-shell{order:1}
