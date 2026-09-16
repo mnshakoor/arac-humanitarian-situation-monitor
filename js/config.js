@@ -1,6 +1,6 @@
 export const CONFIG = {
   appName: 'ARAC Humanitarian Situation Monitor',
-  version: '0.2.0-alpha',
+  version: '0.3.0-alpha',
   snapshotUrl: './data/snapshot.json',
   defaultWindow: '30d',
   lowBase: {
