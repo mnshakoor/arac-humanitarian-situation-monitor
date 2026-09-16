@@ -29,18 +29,28 @@ function normalize(values, value) {
 export function computeHisi(countries) {
   const volumes = countries.map(c => c.reports30d || 0);
   const momenta = countries.map(c => Math.max(-100, Math.min(200, c.change7d ?? 0)));
-  const sources = countries.map(c => c.uniqueSources || 0);
-  const themes = countries.map(c => c.themeBreadth || 0);
+  const enriched = countries.filter(c => (c.uniqueSources || 0) > 0 || (c.themeBreadth || 0) > 0);
+  const sources = enriched.map(c => c.uniqueSources || 0);
+  const themes = enriched.map(c => c.themeBreadth || 0);
 
   return countries.map(c => {
+    const hasEnrichment = (c.uniqueSources || 0) > 0 || (c.themeBreadth || 0) > 0;
     const parts = {
       volume: normalize(volumes, c.reports30d || 0),
       momentum: normalize(momenta, Math.max(-100, Math.min(200, c.change7d ?? 0))),
-      sourceDiversity: normalize(sources, c.uniqueSources || 0),
-      themeBreadth: normalize(themes, c.themeBreadth || 0)
+      sourceDiversity: hasEnrichment ? normalize(sources, c.uniqueSources || 0) : null,
+      themeBreadth: hasEnrichment ? normalize(themes, c.themeBreadth || 0) : null
     };
-    const w = CONFIG.hisiWeights;
-    const score = Math.round(parts.volume*w.volume + parts.momentum*w.momentum + parts.sourceDiversity*w.sourceDiversity + parts.themeBreadth*w.themeBreadth);
-    return { ...c, hisi: score, hisiParts: parts };
+    let score;
+    let hisiBasis;
+    if (hasEnrichment) {
+      const w = CONFIG.hisiWeights;
+      score = Math.round(parts.volume*w.volume + parts.momentum*w.momentum + parts.sourceDiversity*w.sourceDiversity + parts.themeBreadth*w.themeBreadth);
+      hisiBasis = 'FULL';
+    } else {
+      score = Math.round(parts.volume*0.65 + parts.momentum*0.35);
+      hisiBasis = 'PROVISIONAL';
+    }
+    return { ...c, hisi: score, hisiBasis, hisiParts: parts };
   });
 }
