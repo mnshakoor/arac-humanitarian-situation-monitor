@@ -10,8 +10,9 @@ Implemented:
 - Rule-based reporting acceleration with low-base safeguards
 - Humanitarian Information Signal Index (HISI)
 - Full versus provisional HISI transparency depending on enrichment availability
-- Canonical country-name normalization from ReliefWeb country metadata
-- Quota-conserving enrichment of the 20 highest-volume country profiles
+- Country names and coordinates derived from embedded ReliefWeb `primary_country` metadata where available
+- Backward-compatible client normalization for both v1 and v2 snapshot shapes
+- Separate daily/manual enrichment of the 16 highest-volume country profiles
 - Country workspace selector with reporting, themes, sources, formats, trends, active disaster contexts, recent reports and watchlist controls
 - QAP-ready country signal JSON export
 - Global Leaflet reporting map using ReliefWeb-embedded country centroids where available
@@ -23,16 +24,24 @@ Implemented:
 - Community view toggle
 - Local watchlist persistence
 - Methodology and analytical-boundary language
-- ReliefWeb Actions synchronization script
-- Hourly workflow plus ingestion-pipeline validation on sync-code changes
-- Last-known-good semantics through commit-only-on-success workflow behavior
+- Hourly ReliefWeb core synchronization workflow
+- Separate daily ReliefWeb country-enrichment workflow
+- Recoverable 7-day momentum queries with last-known-good retention when ReliefWeb returns a transient timeout
+- Preservation of prior country enrichment across hourly core refreshes
+- Last-known-good snapshot semantics through commit-only-on-success workflow behavior
+- Five-minute cap on hourly core workflow and eight-minute cap on enrichment workflow
 - GitHub Pages production deployment enabled
 
 Current validation focus:
-- Confirm enriched ReliefWeb snapshot v2 completes successfully under the approved appname
+- Confirm the hardened hourly core v2 snapshot completes after recent ReliefWeb 504 responses
 - Confirm country and disaster maps populate from embedded ReliefWeb centroid data
-- Confirm the 20 enriched country profiles remain within the daily ReliefWeb API call budget
+- Confirm daily/manual top-16 country enrichment completes independently of the hourly core workflow
 - Browser smoke test across desktop and mobile layouts
+
+Provider behavior observed during validation:
+- ReliefWeb has intermittently returned HTTP 504 on a previous-7-day comparison request after approximately two minutes.
+- AHSM now treats that comparison as recoverable rather than allowing it to invalidate the entire operational snapshot.
+- The public site continues serving the last known good snapshot during failed provider refreshes.
 
 Next development pass:
 - Add 7d/30d theme momentum comparison
