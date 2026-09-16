@@ -84,3 +84,17 @@ test('v0.8 temporal evidence and app-wide fullscreen controls are available', as
   await expect(page.locator('#temporal-watch')).toBeVisible();
   await expect(page.locator('#temporal-snapshots')).toBeVisible();
 });
+
+test('v0.8.3 Network Explorer follows graph-first investigation hierarchy', async ({page}) => {
+  await page.goto('/');
+  await page.locator('[data-view="network"]').click();
+  const flow=page.locator('#network-analysis-flow');
+  await expect(flow).toBeVisible();
+  await expect(page.locator('#view-network')).toHaveAttribute('data-workflow-layout','graph-first');
+  const order=await flow.locator(':scope > *').evaluateAll(nodes=>nodes.map(n=>n.id||n.className));
+  expect(String(order[0])).toContain('network-shell');
+  expect(String(order[1])).toContain('ticker');
+  expect(order[2]).toBe('temporal-intelligence');
+  expect(order[3]).toBe('temporal-investigation');
+  expect(String(order[4])).toContain('investigation-tray');
+});
