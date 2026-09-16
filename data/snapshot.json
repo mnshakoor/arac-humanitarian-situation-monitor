@@ -1,34 +1,34 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-09-16T13:53:24.419Z",
-  "lastSyncAttemptAt": "2026-09-16T14:29:17.229Z",
+  "generatedAt": "2026-09-16T16:15:18.721Z",
+  "lastSyncAttemptAt": "2026-09-16T16:15:18.721Z",
   "enrichedAt": null,
-  "status": "RELIEFWEB PARTIAL / LAST-KNOWN-GOOD",
-  "stale": true,
+  "status": "RELIEFWEB LIVE SNAPSHOT",
+  "stale": false,
   "syncHealth": {
-    "state": "degraded",
+    "state": "healthy",
     "componentFresh": {
-      "aggregate": false,
-      "latestReports": false,
-      "momentum": false,
-      "disasters": false
+      "aggregate": true,
+      "latestReports": true,
+      "momentum": true,
+      "disasters": true
     },
     "errors": {
-      "aggregate": "The operation was aborted due to timeout",
-      "latestReports": "The operation was aborted due to timeout",
-      "current7": "The operation was aborted due to timeout",
-      "previous7": "The operation was aborted due to timeout",
-      "disasters": "The operation was aborted due to timeout"
+      "aggregate": null,
+      "latestReports": null,
+      "current7": null,
+      "previous7": null,
+      "disasters": null
     }
   },
   "summary": {
-    "reports30d": 2331,
+    "reports30d": 2334,
     "countries": 126,
-    "uniqueSources": 250,
+    "uniqueSources": 150,
     "activeDisasters": 106,
     "profiledCountries": 0,
     "profileTargets": 16,
-    "momentumFresh": false
+    "momentumFresh": true
   },
   "timeline": [
     {
@@ -97,7 +97,7 @@
     },
     {
       "date": "2026-09-03T00:00:00+00:00",
-      "count": 100
+      "count": 101
     },
     {
       "date": "2026-09-04T00:00:00+00:00",
@@ -141,7 +141,7 @@
     },
     {
       "date": "2026-09-14T00:00:00+00:00",
-      "count": 97
+      "count": 98
     },
     {
       "date": "2026-09-15T00:00:00+00:00",
@@ -149,1806 +149,4796 @@
     },
     {
       "date": "2026-09-16T00:00:00+00:00",
-      "count": 26
+      "count": 27
     }
   ],
-  "globalThemes": [],
-  "globalSources": [],
-  "globalFormats": [],
+  "globalThemes": [
+    {
+      "name": "Protection and Human Rights",
+      "count": 1045
+    },
+    {
+      "name": "Health",
+      "count": 775
+    },
+    {
+      "name": "Food and Nutrition",
+      "count": 559
+    },
+    {
+      "name": "Shelter and Non-Food Items",
+      "count": 438
+    },
+    {
+      "name": "Water Sanitation Hygiene",
+      "count": 420
+    },
+    {
+      "name": "Coordination",
+      "count": 322
+    },
+    {
+      "name": "Agriculture",
+      "count": 243
+    },
+    {
+      "name": "Education",
+      "count": 236
+    },
+    {
+      "name": "Logistics and Telecommunications",
+      "count": 172
+    },
+    {
+      "name": "Recovery and Reconstruction",
+      "count": 99
+    },
+    {
+      "name": "Contributions",
+      "count": 90
+    },
+    {
+      "name": "Disaster Management",
+      "count": 89
+    },
+    {
+      "name": "Safety and Security",
+      "count": 87
+    },
+    {
+      "name": "Gender",
+      "count": 73
+    },
+    {
+      "name": "Climate Change and Environment",
+      "count": 58
+    },
+    {
+      "name": "Camp Coordination and Camp Management",
+      "count": 54
+    },
+    {
+      "name": "Humanitarian Financing",
+      "count": 49
+    },
+    {
+      "name": "Peacekeeping and Peacebuilding",
+      "count": 29
+    },
+    {
+      "name": "Mine Action",
+      "count": 22
+    },
+    {
+      "name": "HIV/Aids",
+      "count": 5
+    }
+  ],
+  "globalSources": [
+    {
+      "name": "UNHCR",
+      "count": 366
+    },
+    {
+      "name": "IOM",
+      "count": 240
+    },
+    {
+      "name": "OCHA",
+      "count": 238
+    },
+    {
+      "name": "WFP",
+      "count": 215
+    },
+    {
+      "name": "WHO",
+      "count": 136
+    },
+    {
+      "name": "IFRC",
+      "count": 97
+    },
+    {
+      "name": "UNICEF",
+      "count": 97
+    },
+    {
+      "name": "Logistics Cluster",
+      "count": 69
+    },
+    {
+      "name": "FAO",
+      "count": 56
+    },
+    {
+      "name": "ETC",
+      "count": 49
+    },
+    {
+      "name": "FEWS NET",
+      "count": 46
+    },
+    {
+      "name": "Health Cluster",
+      "count": 41
+    },
+    {
+      "name": "MSF",
+      "count": 36
+    },
+    {
+      "name": "Govt. Philippines",
+      "count": 32
+    },
+    {
+      "name": "MapAction",
+      "count": 32
+    },
+    {
+      "name": "Save the Children",
+      "count": 32
+    },
+    {
+      "name": "ICRC",
+      "count": 31
+    },
+    {
+      "name": "ECHO",
+      "count": 30
+    },
+    {
+      "name": "Govt. Pakistan",
+      "count": 29
+    },
+    {
+      "name": "Protection Cluster",
+      "count": 27
+    },
+    {
+      "name": "Govt. Sri Lanka",
+      "count": 26
+    },
+    {
+      "name": "UN Women",
+      "count": 26
+    },
+    {
+      "name": "REACH",
+      "count": 24
+    },
+    {
+      "name": "UNFPA",
+      "count": 23
+    },
+    {
+      "name": "PAHO",
+      "count": 21
+    },
+    {
+      "name": "Shelter Cluster",
+      "count": 21
+    },
+    {
+      "name": "CCCM Cluster",
+      "count": 19
+    },
+    {
+      "name": "Oxfam",
+      "count": 19
+    },
+    {
+      "name": "EHP Colombia",
+      "count": 16
+    },
+    {
+      "name": "NRC",
+      "count": 16
+    },
+    {
+      "name": "Caritas",
+      "count": 14
+    },
+    {
+      "name": "DFS",
+      "count": 14
+    },
+    {
+      "name": "SPC",
+      "count": 14
+    },
+    {
+      "name": "UNDP",
+      "count": 14
+    },
+    {
+      "name": "ACTED",
+      "count": 13
+    },
+    {
+      "name": "Nutrition Cluster",
+      "count": 13
+    },
+    {
+      "name": "UNDRR",
+      "count": 13
+    },
+    {
+      "name": "IRC",
+      "count": 12
+    },
+    {
+      "name": "Insecurity Insight",
+      "count": 12
+    },
+    {
+      "name": "ODI - HPN",
+      "count": 12
+    },
+    {
+      "name": "SI",
+      "count": 12
+    },
+    {
+      "name": "IHCP",
+      "count": 11
+    },
+    {
+      "name": "Islamic Relief",
+      "count": 11
+    },
+    {
+      "name": "World Vision",
+      "count": 11
+    },
+    {
+      "name": "CARE",
+      "count": 10
+    },
+    {
+      "name": "DRC",
+      "count": 10
+    },
+    {
+      "name": "IMC",
+      "count": 9
+    },
+    {
+      "name": "MIMU",
+      "count": 9
+    },
+    {
+      "name": "Plan International",
+      "count": 9
+    },
+    {
+      "name": "Qatar Charity",
+      "count": 9
+    },
+    {
+      "name": "AHA Centre",
+      "count": 8
+    },
+    {
+      "name": "AMDA",
+      "count": 8
+    },
+    {
+      "name": "Amnesty",
+      "count": 8
+    },
+    {
+      "name": "Concern",
+      "count": 8
+    },
+    {
+      "name": "Education Cluster",
+      "count": 8
+    },
+    {
+      "name": "GBV AoR",
+      "count": 8
+    },
+    {
+      "name": "3iS",
+      "count": 7
+    },
+    {
+      "name": "GCR2P",
+      "count": 7
+    },
+    {
+      "name": "GPEI",
+      "count": 7
+    },
+    {
+      "name": "Govt. Bangladesh",
+      "count": 7
+    },
+    {
+      "name": "Govt. DR Congo",
+      "count": 7
+    },
+    {
+      "name": "Govt. Uganda",
+      "count": 7
+    },
+    {
+      "name": "HOPE",
+      "count": 7
+    },
+    {
+      "name": "HRW",
+      "count": 7
+    },
+    {
+      "name": "IPC",
+      "count": 7
+    },
+    {
+      "name": "KHRG",
+      "count": 7
+    },
+    {
+      "name": "MAP",
+      "count": 7
+    },
+    {
+      "name": "Mercy Corps",
+      "count": 7
+    },
+    {
+      "name": "UN RC Nepal",
+      "count": 7
+    },
+    {
+      "name": "UNOSAT",
+      "count": 7
+    },
+    {
+      "name": "ACLED",
+      "count": 6
+    },
+    {
+      "name": "Direct Relief",
+      "count": 6
+    },
+    {
+      "name": "FSNAU",
+      "count": 6
+    },
+    {
+      "name": "Int'l Charter",
+      "count": 6
+    },
+    {
+      "name": "Tzu Chi Foundation",
+      "count": 6
+    },
+    {
+      "name": "WASH Cluster",
+      "count": 6
+    },
+    {
+      "name": "ACF",
+      "count": 5
+    },
+    {
+      "name": "Action Against Hunger",
+      "count": 5
+    },
+    {
+      "name": "EUAA",
+      "count": 5
+    },
+    {
+      "name": "Govt. Canada",
+      "count": 5
+    },
+    {
+      "name": "Govt. Japan",
+      "count": 5
+    },
+    {
+      "name": "Govt. Vanuatu",
+      "count": 5
+    },
+    {
+      "name": "IMPACT Initiatives",
+      "count": 5
+    },
+    {
+      "name": "Safeguarding Health in Conflict",
+      "count": 5
+    },
+    {
+      "name": "ACAPS",
+      "count": 4
+    },
+    {
+      "name": "CBM",
+      "count": 4
+    },
+    {
+      "name": "Data for Afghanistan",
+      "count": 4
+    },
+    {
+      "name": "EC",
+      "count": 4
+    },
+    {
+      "name": "Govt. Australia",
+      "count": 4
+    },
+    {
+      "name": "Govt. Chad",
+      "count": 4
+    },
+    {
+      "name": "Govt. Haiti",
+      "count": 4
+    },
+    {
+      "name": "Govt. Rep. Korea",
+      "count": 4
+    },
+    {
+      "name": "IAEA",
+      "count": 4
+    },
+    {
+      "name": "Nigerian Red Cross Society",
+      "count": 4
+    },
+    {
+      "name": "PMI",
+      "count": 4
+    },
+    {
+      "name": "Qatar Red Crescent",
+      "count": 4
+    },
+    {
+      "name": "R4V",
+      "count": 4
+    },
+    {
+      "name": "Turkish Red Crescent",
+      "count": 4
+    },
+    {
+      "name": "UN DPPA",
+      "count": 4
+    },
+    {
+      "name": "UN HRC",
+      "count": 4
+    },
+    {
+      "name": "UN RC/HC South Sudan",
+      "count": 4
+    },
+    {
+      "name": "Ukraine CWG",
+      "count": 4
+    },
+    {
+      "name": "Africa CDC",
+      "count": 3
+    },
+    {
+      "name": "Bangladesh Red Crescent",
+      "count": 3
+    },
+    {
+      "name": "Boxtribute",
+      "count": 3
+    },
+    {
+      "name": "FSC",
+      "count": 3
+    },
+    {
+      "name": "GEOGLAM Crop Monitor",
+      "count": 3
+    },
+    {
+      "name": "Germanwatch",
+      "count": 3
+    },
+    {
+      "name": "Govt. UK",
+      "count": 3
+    },
+    {
+      "name": "IRDR",
+      "count": 3
+    },
+    {
+      "name": "OHCHR",
+      "count": 3
+    },
+    {
+      "name": "PSEA Network DRC",
+      "count": 3
+    },
+    {
+      "name": "SLSC Cluster",
+      "count": 3
+    },
+    {
+      "name": "UNAIDS",
+      "count": 3
+    },
+    {
+      "name": "UNAMA",
+      "count": 3
+    },
+    {
+      "name": "UNCT DRC",
+      "count": 3
+    },
+    {
+      "name": "UNCT Nepal",
+      "count": 3
+    },
+    {
+      "name": "UNRWA",
+      "count": 3
+    },
+    {
+      "name": "Vietnam Red Cross",
+      "count": 3
+    },
+    {
+      "name": "WMO",
+      "count": 3
+    },
+    {
+      "name": "ACBAR",
+      "count": 2
+    },
+    {
+      "name": "ADSP",
+      "count": 2
+    },
+    {
+      "name": "Alkhidmat Foundation",
+      "count": 2
+    },
+    {
+      "name": "CESVI",
+      "count": 2
+    },
+    {
+      "name": "CIVICUS",
+      "count": 2
+    },
+    {
+      "name": "CORUS",
+      "count": 2
+    },
+    {
+      "name": "CP AoR",
+      "count": 2
+    },
+    {
+      "name": "Call to Action on GBV",
+      "count": 2
+    },
+    {
+      "name": "Croix-Rouge de la RDC",
+      "count": 2
+    },
+    {
+      "name": "DEC",
+      "count": 2
+    },
+    {
+      "name": "ECW",
+      "count": 2
+    },
+    {
+      "name": "FACT",
+      "count": 2
+    },
+    {
+      "name": "FIDH",
+      "count": 2
+    },
+    {
+      "name": "Govt. Netherlands",
+      "count": 2
+    },
+    {
+      "name": "Govt. Sweden",
+      "count": 2
+    },
+    {
+      "name": "HADR",
+      "count": 2
+    },
+    {
+      "name": "HI",
+      "count": 2
+    },
+    {
+      "name": "IBA",
+      "count": 2
+    },
+    {
+      "name": "IGAD",
+      "count": 2
+    },
+    {
+      "name": "INSO",
+      "count": 2
+    },
+    {
+      "name": "IPI",
+      "count": 2
+    },
+    {
+      "name": "InterAction",
+      "count": 2
+    },
+    {
+      "name": "La Red PEAS Venezuela",
+      "count": 2
+    },
+    {
+      "name": "MDM",
+      "count": 2
+    },
+    {
+      "name": "MONUSCO",
+      "count": 2
+    },
+    {
+      "name": "OSESGY",
+      "count": 2
+    },
+    {
+      "name": "Protect Humanitarians",
+      "count": 2
+    },
+    {
+      "name": "RCSBiH",
+      "count": 2
+    },
+    {
+      "name": "Radio Ergo",
+      "count": 2
+    },
+    {
+      "name": "SIPRI",
+      "count": 2
+    }
+  ],
+  "globalFormats": [
+    {
+      "name": "Situation Report",
+      "count": 652
+    },
+    {
+      "name": "News and Press Release",
+      "count": 608
+    },
+    {
+      "name": "Infographic",
+      "count": 505
+    },
+    {
+      "name": "Analysis",
+      "count": 177
+    },
+    {
+      "name": "Map",
+      "count": 126
+    },
+    {
+      "name": "Other",
+      "count": 98
+    },
+    {
+      "name": "Assessment",
+      "count": 94
+    },
+    {
+      "name": "Manual and Guideline",
+      "count": 40
+    },
+    {
+      "name": "Evaluation and Lessons Learned",
+      "count": 22
+    },
+    {
+      "name": "Appeal",
+      "count": 12
+    }
+  ],
   "countries": [
     {
-      "name": "wld",
+      "name": "World",
+      "shortname": "World",
       "iso3": "wld",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 198,
       "reports7d": 46,
       "previous7d": 51,
       "change7d": -9.803921568627452,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230037",
+          "title": "WMO bulletin shows successes and challenges in ozone layer recovery",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "WMO",
+          "format": "News and Press Release",
+          "themes": [
+            "Climate Change and Environment"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/wmo-bulletin-shows-successes-and-challenges-ozone-layer-recovery"
+        },
+        {
+          "id": "4230076",
+          "title": "We can adapt to anything, but not to war - Delivering for people in conflict settings: Reflections on an evolving humanitarian landscape",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "ICRC, South Sudan Red Cross, Ukrainian Red Cross Society",
+          "format": "Analysis",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/c2/9f/c29f4a56-7df6-4ecb-be68-c68716b04264.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/we-can-adapt-anything-not-war-delivering-people-conflict-settings-reflections-evolving-humanitarian-landscape"
+        },
+        {
+          "id": "4230069",
+          "title": "Quarterly Overview of Asylum Case Law",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "EUAA",
+          "format": "Analysis",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/d8/7e/d87ef4c4-4fc5-5960-99de-bcf792071a6e.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/quarterly-overview-asylum-case-law"
+        },
+        {
+          "id": "4229869",
+          "title": "GPC Interagency Field Support Trends Overview (January-June 2026)",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "Protection Cluster",
+          "format": "Assessment",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/59/99/5999f084-71f9-5508-9cd4-7015a5be1d5b.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/gpc-interagency-field-support-trends-overview-january-june-2026"
+        },
+        {
+          "id": "4229921",
+          "title": "WHO and Commonwealth Secretariat renew partnership to strengthen health systems and advance universal health coverage",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "WHO",
+          "format": "News and Press Release",
+          "themes": [
+            "Health"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/who-and-commonwealth-secretariat-renew-partnership-strengthen-health-systems-and-advance-universal-health-coverage"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "npl",
+      "name": "Nepal",
+      "shortname": "Nepal",
       "iso3": "npl",
+      "location": {
+        "lat": 28.25,
+        "lon": 83.94
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 189,
       "reports7d": 15,
       "previous7d": 80,
       "change7d": -81.25,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "cod",
+      "name": "Democratic Republic of the Congo",
+      "shortname": "Democratic Republic of the Congo",
       "iso3": "cod",
+      "location": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 185,
       "reports7d": 42,
       "previous7d": 32,
       "change7d": 31.25,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230115",
+          "title": "MSF DRC: Ebola teams warn of serious risk as outbreak spreads to new areas",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "MSF",
+          "format": "News and Press Release",
+          "themes": [
+            "Health"
+          ],
+          "disasterTypes": [
+            "Epidemic"
+          ],
+          "thumbnail": "",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/msf-drc-ebola-teams-warn-serious-risk-outbreak-spreads-new-areas"
+        },
+        {
+          "id": "4229846",
+          "title": "République démocratique du Congo - Sud-Kivu : Évolution de la situation humanitaire (Au 30 juin 2026)",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "OCHA",
+          "format": "Infographic",
+          "themes": [
+            "Education",
+            "Food and Nutrition",
+            "Health",
+            "Protection and Human Rights",
+            "Safety and Security",
+            "Shelter and Non-Food Items"
+          ],
+          "disasterTypes": [
+            "Epidemic"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/ee/5c/ee5c99ec-b552-409a-8e9f-959022cad24c.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-sud-kivu-evolution-de-la-situation-humanitaire-au-30-juin-2026"
+        },
+        {
+          "id": "4229845",
+          "title": "République démocratique du Congo - Nord-Kivu : Évolution de la situation humanitaire (au 30 juin 2026)",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "OCHA",
+          "format": "Infographic",
+          "themes": [
+            "Education",
+            "Food and Nutrition",
+            "Health",
+            "Protection and Human Rights",
+            "Safety and Security",
+            "Shelter and Non-Food Items"
+          ],
+          "disasterTypes": [
+            "Epidemic"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/7f/b8/7fb8759c-88f4-46a2-b486-1478a7a8cc4d.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-nord-kivu-evolution-de-la-situation-humanitaire-au-30-juin-2026"
+        },
+        {
+          "id": "4229856",
+          "title": "Democratic Republic of the Congo - DRC At A Glance - 31 August 2026",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/eb/26/eb26a7d9-8236-5911-afbd-bbd174807205.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-drc-glance-31-august-2026"
+        },
+        {
+          "id": "4229859",
+          "title": "Democratic Republic of the Congo - Voluntary Repatriation from/to DRC (31 August 2026)",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/8b/13/8b13156b-70f1-5b37-8df2-c691b6d24cd5.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-voluntary-repatriation-fromto-drc-31-august-2026"
+        },
+        {
+          "id": "4229943",
+          "title": "The air support behind Ebola response in the Democratic Republic of the Congo",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "WHO",
+          "format": "News and Press Release",
+          "themes": [
+            "Health",
+            "Logistics and Telecommunications"
+          ],
+          "disasterTypes": [
+            "Epidemic"
+          ],
+          "thumbnail": "",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/air-support-behind-ebola-response-democratic-republic-congo"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "yem",
+      "name": "Yemen",
+      "shortname": "Yemen",
       "iso3": "yem",
-      "reports30d": 108,
-      "reports7d": 32,
-      "previous7d": 22,
-      "change7d": 45.45454545454545,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": 15.94,
         "lon": 47.62
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 109,
+      "reports7d": 32,
+      "previous7d": 23,
+      "change7d": 39.130434782608695,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230089",
+          "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #2 (14 September 2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Yemen",
+          "primaryCountryIso3": "yem",
+          "primaryCountryLocation": {
+            "lat": 15.94,
+            "lon": 47.62
+          },
+          "source": "IOM",
+          "format": "Situation Report",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-2-14-september-2026"
+        },
+        {
+          "id": "4230092",
+          "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #3 (15 September 2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Yemen",
+          "primaryCountryIso3": "yem",
+          "primaryCountryLocation": {
+            "lat": 15.94,
+            "lon": 47.62
+          },
+          "source": "IOM",
+          "format": "Situation Report",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/ac/d5/acd5733a-0141-522c-aa7a-4e728bbc5067.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-3-15-september-2026"
+        },
+        {
+          "id": "4230016",
+          "title": "Yemen: latest violence threatens to shatter an already threadbare health system for children",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Yemen",
+          "primaryCountryIso3": "yem",
+          "primaryCountryLocation": {
+            "lat": 15.94,
+            "lon": 47.62
+          },
+          "source": "Save the Children",
+          "format": "News and Press Release",
+          "themes": [
+            "Health"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/yemen/yemen-latest-violence-threatens-shatter-already-threadbare-health-system-children"
+        },
+        {
+          "id": "4230096",
+          "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #1 (13 September 2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Yemen",
+          "primaryCountryIso3": "yem",
+          "primaryCountryLocation": {
+            "lat": 15.94,
+            "lon": 47.62
+          },
+          "source": "IOM",
+          "format": "Situation Report",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/1b/ed/1bed817e-b5f6-5a8b-8fc4-6ee3df8e598d.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-1-13-september-2026"
+        },
+        {
+          "id": "4229948",
+          "title": "Yemen: la escalada del conflicto provoca nuevos desplazamientos y la llegada de refugiados a Yibuti",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Yemen",
+          "primaryCountryIso3": "yem",
+          "primaryCountryLocation": {
+            "lat": 15.94,
+            "lon": 47.62
+          },
+          "source": "UNHCR",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/yemen/yemen-la-escalada-del-conflicto-provoca-nuevos-desplazamientos-y-la-llegada-de-refugiados-yibuti"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "col",
+      "name": "Colombia",
+      "shortname": "Colombia",
       "iso3": "col",
+      "location": {
+        "lat": 3.9,
+        "lon": -73.07
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 105,
       "reports7d": 18,
       "previous7d": 17,
       "change7d": 5.88235294117647,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 3.9,
-        "lon": -73.07
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230050",
+          "title": "Análisis de Situación y Respuesta al terremoto - 10 de septiembre 2026",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Colombia",
+          "primaryCountryIso3": "col",
+          "primaryCountryLocation": {
+            "lat": 3.9,
+            "lon": -73.07
+          },
+          "source": "Action Against Hunger",
+          "format": "Situation Report",
+          "themes": [
+            "Disaster Management",
+            "Food and Nutrition",
+            "Health",
+            "Protection and Human Rights",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Earthquake"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/17/d7/17d7e1df-d290-405a-8b15-1ee5eeff07d1.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/colombia/analisis-de-situacion-y-respuesta-al-terremoto-10-de-septiembre-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "sdn",
+      "name": "Sudan",
+      "shortname": "Sudan",
       "iso3": "sdn",
+      "location": {
+        "lat": 15,
+        "lon": 30
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 86,
       "reports7d": 22,
       "previous7d": 18,
       "change7d": 22.22222222222222,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4229824",
+          "title": "Sudan - National Health Cluster Meeting, 9th September 2026 [Meeting Minutes]",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Sudan",
+          "primaryCountryIso3": "sdn",
+          "primaryCountryLocation": {
+            "lat": 15,
+            "lon": 30
+          },
+          "source": "Health Cluster, WHO",
+          "format": "Other",
+          "themes": [
+            "Coordination",
+            "Health"
+          ],
+          "disasterTypes": [
+            "Epidemic"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/a5/18/a5189f3e-0f37-45d7-9b9d-d9c1ad90ce9b.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/sudan/sudan-national-health-cluster-meeting-9th-september-2026-meeting-minutes"
+        },
+        {
+          "id": "4229861",
+          "title": "CORE Sudan: Influx from South Sudan - 31 August 2026",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Sudan",
+          "primaryCountryIso3": "sdn",
+          "primaryCountryLocation": {
+            "lat": 15,
+            "lon": 30
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/sudan/core-sudan-influx-south-sudan-31-august-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "afg",
+      "name": "Afghanistan",
+      "shortname": "Afghanistan",
       "iso3": "afg",
+      "location": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 82,
       "reports7d": 11,
       "previous7d": 20,
       "change7d": -45,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 33.84,
-        "lon": 66.03
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230104",
+          "title": "EMR Polio Bulletin - Issue No. 1458, Week 36 (ending on 13/09/2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Afghanistan",
+          "primaryCountryIso3": "afg",
+          "primaryCountryLocation": {
+            "lat": 33.84,
+            "lon": 66.03
+          },
+          "source": "WHO",
+          "format": "Infographic",
+          "themes": [
+            "Health"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/45/dd/45ddac81-1a5a-5c62-b690-1efdfb402424.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/afghanistan/emr-polio-bulletin-issue-no-1458-week-36-ending-13092026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "pse",
+      "name": "occupied Palestinian territory",
+      "shortname": "occupied Palestinian territory",
       "iso3": "pse",
+      "location": {
+        "lat": 31.9522,
+        "lon": 35.2332
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 79,
       "reports7d": 11,
       "previous7d": 17,
       "change7d": -35.294117647058826,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230051",
+          "title": "Patient killed inside MAP-supported health centre after Israeli military quadcopter attack",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "occupied Palestinian territory",
+          "primaryCountryIso3": "pse",
+          "primaryCountryLocation": {
+            "lat": 31.9522,
+            "lon": 35.2332
+          },
+          "source": "MAP",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/occupied-palestinian-territory/patient-killed-inside-map-supported-health-centre-after-israeli-military-quadcopter-attack"
+        },
+        {
+          "id": "4230040",
+          "title": "UNRWA Situation Report #234 on the Humanitarian Crisis in the Gaza Strip and the occupied West Bank, including East Jerusalem [EN/AR]",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "occupied Palestinian territory",
+          "primaryCountryIso3": "pse",
+          "primaryCountryLocation": {
+            "lat": 31.9522,
+            "lon": 35.2332
+          },
+          "source": "UNRWA",
+          "format": "Situation Report",
+          "themes": [
+            "Food and Nutrition",
+            "Health",
+            "Protection and Human Rights",
+            "Shelter and Non-Food Items",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/0c/30/0c30414c-7c2b-41d1-ba8a-a7313b897c42.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/occupied-palestinian-territory/unrwa-situation-report-234-humanitarian-crisis-gaza-strip-and-occupied-west-bank-including-east-jerusalem-enar"
+        },
+        {
+          "id": "4229854",
+          "title": "Women in the occupied West Bank fear violence and arrest, as settler attacks, military operations, and movement restrictions reach two-decade high",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "occupied Palestinian territory",
+          "primaryCountryIso3": "pse",
+          "primaryCountryLocation": {
+            "lat": 31.9522,
+            "lon": 35.2332
+          },
+          "source": "UN Women",
+          "format": "News and Press Release",
+          "themes": [
+            "Gender",
+            "Health",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/occupied-palestinian-territory/women-occupied-west-bank-fear-violence-and-arrest-settler-attacks-military-operations-and-movement-restrictions-reach-two-decade-high"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "ukr",
+      "name": "Ukraine",
+      "shortname": "Ukraine",
       "iso3": "ukr",
+      "location": {
+        "lat": 49.32,
+        "lon": 31.32
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 65,
       "reports7d": 8,
       "previous7d": 12,
       "change7d": -33.33333333333333,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230103",
+          "title": "Ukraine war situation update | 29 August – 4 September 2026",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Ukraine",
+          "primaryCountryIso3": "ukr",
+          "primaryCountryLocation": {
+            "lat": 49.32,
+            "lon": 31.32
+          },
+          "source": "ACLED",
+          "format": "Situation Report",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-29-august-4-september-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "lbn",
+      "name": "Lebanon",
+      "shortname": "Lebanon",
       "iso3": "lbn",
+      "location": {
+        "lat": 33.92,
+        "lon": 35.89
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 64,
       "reports7d": 13,
       "previous7d": 15,
       "change7d": -13.333333333333334,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230091",
+          "title": "Escalation in the Middle East and Beyond — Special Focus on Yemen (07 June - 14 September 2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Lebanon",
+          "primaryCountryIso3": "lbn",
+          "primaryCountryLocation": {
+            "lat": 33.92,
+            "lon": 35.89
+          },
+          "source": "IOM",
+          "format": "Assessment",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/e6/09/e6093e8c-a364-57f6-b442-8c4edb660231.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/lebanon/escalation-middle-east-and-beyond-special-focus-yemen-07-june-14-september-2026"
+        },
+        {
+          "id": "4230039",
+          "title": "Lebanon Cash Working Group: Situation Report #5 (Reporting period: as of August 2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Lebanon",
+          "primaryCountryIso3": "lbn",
+          "primaryCountryLocation": {
+            "lat": 33.92,
+            "lon": 35.89
+          },
+          "source": "UNHCR",
+          "format": "Situation Report",
+          "themes": [
+            "Coordination",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/e9/f6/e9f68279-8c25-5b1f-9da4-03c155560475.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/lebanon/lebanon-cash-working-group-situation-report-5-reporting-period-august-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "pak",
+      "shortname": "pak",
       "iso3": "pak",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 61,
       "reports7d": 9,
       "previous7d": 14,
       "change7d": -35.714285714285715,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "som",
+      "name": "Somalia",
+      "shortname": "Somalia",
       "iso3": "som",
-      "reports30d": 57,
-      "reports7d": 11,
-      "previous7d": 6,
-      "change7d": 83.33333333333334,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": 5.79,
         "lon": 47.33
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 58,
+      "reports7d": 12,
+      "previous7d": 6,
+      "change7d": 100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230095",
+          "title": "Somalia: Emergency Trend Tracking Report — Week 13 (September 2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "IOM",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [
+            "Drought",
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/2b/67/2b674ce2-e2c5-5c07-ab33-d8af113098db.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/somalia-emergency-trend-tracking-report-week-13-september-2026"
+        },
+        {
+          "id": "4230118",
+          "title": "Somalia: Multi-hazard Displacement Projections — Q4 (October - December 2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "IOM",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights",
+            "Shelter and Non-Food Items"
+          ],
+          "disasterTypes": [
+            "Drought",
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/30/3d/303d937e-9128-57f4-a7c3-1d2c11fe1a4d.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/somalia-multi-hazard-displacement-projections-q4-october-december-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "syr",
+      "name": "Syrian Arab Republic",
+      "shortname": "Syrian Arab Republic",
       "iso3": "syr",
+      "location": {
+        "lat": 35.01,
+        "lon": 38.51
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 56,
       "reports7d": 7,
       "previous7d": 9,
       "change7d": -22.22222222222222,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 35.01,
-        "lon": 38.51
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230106",
+          "title": "Syria advances towards a national multi-hazard early warning system",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Syrian Arab Republic",
+          "primaryCountryIso3": "syr",
+          "primaryCountryLocation": {
+            "lat": 35.01,
+            "lon": 38.51
+          },
+          "source": "UNDRR",
+          "format": "News and Press Release",
+          "themes": [
+            "Disaster Management"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/syrian-arab-republic/syria-advances-towards-national-multi-hazard-early-warning-system"
+        },
+        {
+          "id": "4229973",
+          "title": "MSF Syria: One year of strengthening access to healthcare in Daraa Governate",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Syrian Arab Republic",
+          "primaryCountryIso3": "syr",
+          "primaryCountryLocation": {
+            "lat": 35.01,
+            "lon": 38.51
+          },
+          "source": "MSF",
+          "format": "News and Press Release",
+          "themes": [
+            "Health",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/syrian-arab-republic/msf-syria-one-year-strengthening-access-healthcare-daraa-governate"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "ven",
+      "name": "Venezuela (Bolivarian Republic of)",
+      "shortname": "Venezuela (Bolivarian Republic of)",
       "iso3": "ven",
+      "location": {
+        "lat": 7.62,
+        "lon": -65.8
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 53,
       "reports7d": 5,
       "previous7d": 10,
       "change7d": -50,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 7.62,
-        "lon": -65.8
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "tcd",
+      "name": "Chad",
+      "shortname": "Chad",
       "iso3": "tcd",
+      "location": {
+        "lat": 15.36,
+        "lon": 18.66
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 52,
       "reports7d": 7,
       "previous7d": 19,
       "change7d": -63.1578947368421,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 15.36,
-        "lon": 18.66
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "ssd",
+      "name": "South Sudan",
+      "shortname": "South Sudan",
       "iso3": "ssd",
-      "reports30d": 50,
-      "reports7d": 6,
-      "previous7d": 13,
-      "change7d": -53.84615384615385,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": 6.9,
         "lon": 30.5
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 51,
+      "reports7d": 7,
+      "previous7d": 13,
+      "change7d": -46.15384615384615,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "hti",
+      "name": "Haiti",
+      "shortname": "Haiti",
       "iso3": "hti",
+      "location": {
+        "lat": 19.18,
+        "lon": -72.43
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 44,
       "reports7d": 10,
       "previous7d": 9,
       "change7d": 11.11111111111111,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 19.18,
-        "lon": -72.43
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "phl",
+      "name": "Philippines",
+      "shortname": "Philippines",
       "iso3": "phl",
+      "location": {
+        "lat": 11.74,
+        "lon": 122.88
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 44,
       "reports7d": 16,
       "previous7d": 22,
       "change7d": -27.27272727272727,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 11.74,
-        "lon": 122.88
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230028",
+          "title": "DSWD DROMIC Report #90 on the Combined Effects of Enhanced Southwest Monsoon and Tropical Cyclones “Luis”, “Maymay”, “Neneng”, and “Pilandok” as of 16 September 2026, 6AM",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Philippines",
+          "primaryCountryIso3": "phl",
+          "primaryCountryLocation": {
+            "lat": 11.74,
+            "lon": 122.88
+          },
+          "source": "Govt. Philippines",
+          "format": "Situation Report",
+          "themes": [
+            "Food and Nutrition",
+            "Shelter and Non-Food Items"
+          ],
+          "disasterTypes": [
+            "Flood",
+            "Land Slide",
+            "Tropical Cyclone"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/3b/5a/3b5a91f0-ea1d-4f70-90e8-f3b1c75fb158.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/philippines/dswd-dromic-report-90-combined-effects-enhanced-southwest-monsoon-and-tropical-cyclones-luis-maymay-neneng-and-pilandok-16-september-2026-6am"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "uga",
+      "name": "Uganda",
+      "shortname": "Uganda",
       "iso3": "uga",
+      "location": {
+        "lat": 1.28,
+        "lon": 32.39
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 42,
       "reports7d": 22,
       "previous7d": 9,
       "change7d": 144.44444444444443,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4229933",
+          "title": "Uganda Refugee Response: Livelihoods and Resilience dashboard - Quarter 2 2026",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Uganda",
+          "primaryCountryIso3": "uga",
+          "primaryCountryLocation": {
+            "lat": 1.28,
+            "lon": 32.39
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Agriculture",
+            "Protection and Human Rights",
+            "Recovery and Reconstruction"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/8d/fa/8dfa977d-be6b-515c-8a0b-367778c55858.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-livelihoods-and-resilience-dashboard-quarter-2-2026"
+        },
+        {
+          "id": "4229929",
+          "title": "Uganda Refugee Response: Gender-based Violence (GBV) dashboard - Quarter 2 2026",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Uganda",
+          "primaryCountryIso3": "uga",
+          "primaryCountryLocation": {
+            "lat": 1.28,
+            "lon": 32.39
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Gender",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/66/a4/66a4db8d-7a43-5f78-b651-2686bc1ab314.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-gender-based-violence-gbv-dashboard-quarter-2-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "bgd",
+      "name": "Bangladesh",
+      "shortname": "Bangladesh",
       "iso3": "bgd",
+      "location": {
+        "lat": 23.84,
+        "lon": 90.27
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 39,
       "reports7d": 4,
       "previous7d": 12,
       "change7d": -66.66666666666666,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 23.84,
-        "lon": 90.27
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "nga",
+      "name": "Nigeria",
+      "shortname": "Nigeria",
       "iso3": "nga",
+      "location": {
+        "lat": 9.59,
+        "lon": 8.11
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 39,
       "reports7d": 7,
       "previous7d": 7,
       "change7d": 0,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 9.59,
-        "lon": 8.11
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230097",
+          "title": "Nigeria: North-west Nigeria — Katsina State Flash Report 298 (23 August 2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Nigeria",
+          "primaryCountryIso3": "nga",
+          "primaryCountryLocation": {
+            "lat": 9.59,
+            "lon": 8.11
+          },
+          "source": "IOM",
+          "format": "Situation Report",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/9f/76/9f764327-a4a3-5468-986b-5bad7a6d3bc9.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/nigeria/nigeria-north-west-nigeria-katsina-state-flash-report-298-23-august-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "mmr",
+      "name": "Myanmar",
+      "shortname": "Myanmar",
       "iso3": "mmr",
+      "location": {
+        "lat": 21.15,
+        "lon": 96.51
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 38,
       "reports7d": 9,
       "previous7d": 3,
       "change7d": 200,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 21.15,
-        "lon": 96.51
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230029",
+          "title": "UNICEF Myanmar Humanitarian Situation Report No. 1 (Mid-Year), January-June 2026",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "UNICEF",
+          "format": "Situation Report",
+          "themes": [
+            "Coordination",
+            "Education",
+            "Food and Nutrition",
+            "Health",
+            "Mine Action",
+            "Protection and Human Rights",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Epidemic",
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/91/1b/911ba92d-49be-458b-8d0e-19794ad4c1b6.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/unicef-myanmar-humanitarian-situation-report-no-1-mid-year-january-june-2026"
+        },
+        {
+          "id": "4230038",
+          "title": "Mergui-Tavoy District Short Update: Burma Army air strike killed a villager in Ler Muh Lah Township (August 2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "KHRG",
+          "format": "Situation Report",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/17/31/1731f3e3-5b1c-574a-bda6-e12398dc5be2.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/mergui-tavoy-district-short-update-burma-army-air-strike-killed-villager-ler-muh-lah-township-august-2026"
+        },
+        {
+          "id": "4230070",
+          "title": "A Route-Based Snapshot: Data & Trends for Refugees from Myanmar, as of end-August 2026",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [
+            "Earthquake",
+            "Flood",
+            "Tropical Cyclone"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/66/36/6636d9b0-326d-4833-a043-a94781231e84.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/route-based-snapshot-data-trends-refugees-myanmar-end-august-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "idn",
+      "name": "Indonesia",
+      "shortname": "Indonesia",
       "iso3": "idn",
+      "location": {
+        "lat": -2.28,
+        "lon": 117.37
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 32,
       "reports7d": 4,
       "previous7d": 5,
       "change7d": -20,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "lka",
+      "name": "Sri Lanka",
+      "shortname": "Sri Lanka",
       "iso3": "lka",
+      "location": {
+        "lat": 7.61,
+        "lon": 80.7
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 31,
       "reports7d": 7,
       "previous7d": 8,
       "change7d": -12.5,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 7.61,
-        "lon": 80.7
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "caf",
+      "name": "Central African Republic",
+      "shortname": "Central African Republic",
       "iso3": "caf",
+      "location": {
+        "lat": 6.57,
+        "lon": 20.48
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 30,
       "reports7d": 9,
       "previous7d": 5,
       "change7d": 80,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4229974",
+          "title": "UNHCR Central African Republic Situation: 2026 Funding Update (as of 31 August 2026)",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Central African Republic",
+          "primaryCountryIso3": "caf",
+          "primaryCountryLocation": {
+            "lat": 6.57,
+            "lon": 20.48
+          },
+          "source": "UNHCR",
+          "format": "Other",
+          "themes": [
+            "Contributions"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/03/51/0351d735-0529-4ff7-9cd9-bc062e6b3208.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/central-african-republic/unhcr-central-african-republic-situation-2026-funding-update-31-august-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "eth",
+      "name": "Ethiopia",
+      "shortname": "Ethiopia",
       "iso3": "eth",
+      "location": {
+        "lat": 8.63,
+        "lon": 39.62
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 27,
       "reports7d": 4,
       "previous7d": 1,
       "change7d": 300,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 8.63,
-        "lon": 39.62
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "moz",
+      "name": "Mozambique",
+      "shortname": "Mozambique",
       "iso3": "moz",
+      "location": {
+        "lat": -18.09,
+        "lon": 34.75
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 25,
       "reports7d": 3,
       "previous7d": 9,
       "change7d": -66.66666666666666,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": -18.09,
-        "lon": 34.75
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230111",
+          "title": "Protecting Education from El Niño: A Call for Anticipatory Action and Response in Mozambique (2026-2027)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Mozambique",
+          "primaryCountryIso3": "moz",
+          "primaryCountryLocation": {
+            "lat": -18.09,
+            "lon": 34.75
+          },
+          "source": "Education Cluster, Save the Children, UNICEF",
+          "format": "News and Press Release",
+          "themes": [
+            "Education",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/40/80/4080a548-a0ef-40c1-a7e8-001db465d1cf.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/mozambique/protecting-education-el-nino-call-anticipatory-action-and-response-mozambique-2026-2027"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "ner",
+      "name": "Niger",
+      "shortname": "Niger",
       "iso3": "ner",
+      "location": {
+        "lat": 17.43,
+        "lon": 9.4
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 25,
       "reports7d": 10,
       "previous7d": 2,
       "change7d": 400,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4229888",
+          "title": "UNHCR Niger - Niamey Map Population of Concern - Aout 2026",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Niger",
+          "primaryCountryIso3": "ner",
+          "primaryCountryLocation": {
+            "lat": 17.43,
+            "lon": 9.4
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/niger/unhcr-niger-niamey-map-population-concern-aout-2026"
+        },
+        {
+          "id": "4229886",
+          "title": "UNHCR Niger - Maradi -- Personnes relevant de la compétence du HCR - Août 2026",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Niger",
+          "primaryCountryIso3": "ner",
+          "primaryCountryLocation": {
+            "lat": 17.43,
+            "lon": 9.4
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/0c/db/0cdbb865-f208-522a-8279-aa640dba1c9a.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/niger/unhcr-niger-maradi-personnes-relevant-de-la-competence-du-hcr-aout-2026"
+        },
+        {
+          "id": "4229883",
+          "title": "UNHCR Niger - Agadez - Personnes relevant de la compétence du HCR - Août 2026",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Niger",
+          "primaryCountryIso3": "ner",
+          "primaryCountryLocation": {
+            "lat": 17.43,
+            "lon": 9.4
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/08/3d/083d6290-d768-5865-bebb-a2518fa1cb76.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/niger/unhcr-niger-agadez-personnes-relevant-de-la-competence-du-hcr-aout-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "tur",
+      "shortname": "tur",
       "iso3": "tur",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 24,
       "reports7d": 0,
       "previous7d": 3,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "cmr",
+      "name": "Cameroon",
+      "shortname": "Cameroon",
       "iso3": "cmr",
+      "location": {
+        "lat": 4.81,
+        "lon": 12.21
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 21,
       "reports7d": 3,
       "previous7d": 3,
       "change7d": 0,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 4.81,
-        "lon": 12.21
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4229966",
+          "title": "Cameroon MCO Funding Update 2026 (as of 31 August 2026)",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Cameroon",
+          "primaryCountryIso3": "cmr",
+          "primaryCountryLocation": {
+            "lat": 4.81,
+            "lon": 12.21
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Contributions"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/3f/d0/3fd00766-f2d0-4079-9140-72fabd63a601.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/cameroon/cameroon-mco-funding-update-2026-31-august-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "ken",
+      "name": "Kenya",
+      "shortname": "Kenya",
       "iso3": "ken",
+      "location": {
+        "lat": 0.53,
+        "lon": 37.86
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 20,
       "reports7d": 8,
       "previous7d": 5,
       "change7d": 60,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 0.53,
-        "lon": 37.86
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4229827",
+          "title": "Kenya: IPC Acute Food Insecurity and Acute Malnutrition Analysis (July 2026 – January 2027), Published on 14 September 2026",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Kenya",
+          "primaryCountryIso3": "ken",
+          "primaryCountryLocation": {
+            "lat": 0.53,
+            "lon": 37.86
+          },
+          "source": "IPC",
+          "format": "Analysis",
+          "themes": [
+            "Food and Nutrition",
+            "Health"
+          ],
+          "disasterTypes": [
+            "Drought"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/60/ba/60ba29d4-6e6a-4423-b897-ec669580552a.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/kenya/kenya-ipc-acute-food-insecurity-and-acute-malnutrition-analysis-july-2026-january-2027-published-14-september-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "mli",
+      "name": "Mali",
+      "shortname": "Mali",
       "iso3": "mli",
+      "location": {
+        "lat": 17.35,
+        "lon": -1.25
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 18,
       "reports7d": 4,
       "previous7d": 1,
       "change7d": 300,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230098",
+          "title": "Mali: Dashboard thématique sur la présence des migrants au Mali 3 — Régions de Kayes, Koulikoro et Sikasso (décembre 2025 – janvier 2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Mali",
+          "primaryCountryIso3": "mli",
+          "primaryCountryLocation": {
+            "lat": 17.35,
+            "lon": -1.25
+          },
+          "source": "IOM",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/2e/76/2e76cd97-efe9-55bb-8f64-f27581f2ad03.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/mali/mali-dashboard-thematique-sur-la-presence-des-migrants-au-mali-3-regions-de-kayes-koulikoro-et-sikasso-decembre-2025-janvier-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "per",
+      "name": "Peru",
+      "shortname": "Peru",
       "iso3": "per",
+      "location": {
+        "lat": -10.15,
+        "lon": -75.31
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 14,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": -10.15,
-        "lon": -75.31
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "ago",
+      "name": "Angola",
+      "shortname": "Angola",
       "iso3": "ago",
+      "location": {
+        "lat": -12.1,
+        "lon": 17.91
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 12,
       "reports7d": 1,
       "previous7d": 10,
       "change7d": -90,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": -12.1,
-        "lon": 17.91
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "hnd",
+      "name": "Honduras",
+      "shortname": "Honduras",
       "iso3": "hnd",
+      "location": {
+        "lat": 14.82,
+        "lon": -86.62
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 11,
       "reports7d": 3,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 14.82,
-        "lon": -86.62
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "bfa",
+      "name": "Burkina Faso",
+      "shortname": "Burkina Faso",
       "iso3": "bfa",
+      "location": {
+        "lat": 12.28,
+        "lon": -1.57
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 9,
       "reports7d": 2,
       "previous7d": 4,
       "change7d": -50,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "cub",
+      "name": "Cuba",
+      "shortname": "Cuba",
       "iso3": "cub",
+      "location": {
+        "lat": 21.95,
+        "lon": -79.24
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 9,
       "reports7d": 5,
       "previous7d": 1,
       "change7d": 400,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 21.95,
-        "lon": -79.24
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "ita",
+      "shortname": "ita",
       "iso3": "ita",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 9,
       "reports7d": 2,
       "previous7d": 2,
       "change7d": 0,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "mrt",
+      "name": "Mauritania",
+      "shortname": "Mauritania",
       "iso3": "mrt",
+      "location": {
+        "lat": 19.76,
+        "lon": -10.53
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 9,
       "reports7d": 2,
       "previous7d": 5,
       "change7d": -60,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230090",
+          "title": "Mauritanie — Etude sur la vulnérabilité climatique (Décembre 2025 – Janvier 2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Mauritania",
+          "primaryCountryIso3": "mrt",
+          "primaryCountryLocation": {
+            "lat": 19.76,
+            "lon": -10.53
+          },
+          "source": "IOM",
+          "format": "Analysis",
+          "themes": [
+            "Climate Change and Environment"
+          ],
+          "disasterTypes": [
+            "Drought"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/1f/3a/1f3a9193-9b13-5722-9f11-d749780d5a23.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/mauritania/mauritanie-etude-sur-la-vulnerabilite-climatique-decembre-2025-janvier-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "vut",
+      "shortname": "vut",
       "iso3": "vut",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 9,
       "reports7d": 0,
       "previous7d": 2,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "rou",
+      "shortname": "rou",
       "iso3": "rou",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 8,
       "reports7d": 2,
       "previous7d": 3,
       "change7d": -33.33333333333333,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "tza",
+      "shortname": "tza",
       "iso3": "tza",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 8,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "bdi",
+      "name": "Burundi",
+      "shortname": "Burundi",
       "iso3": "bdi",
+      "location": {
+        "lat": -3.53,
+        "lon": 29.89
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 7,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": -3.53,
-        "lon": 29.89
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "bra",
+      "shortname": "bra",
       "iso3": "bra",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 7,
       "reports7d": 2,
       "previous7d": 3,
       "change7d": -33.33333333333333,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "civ",
+      "name": "Côte d'Ivoire",
+      "shortname": "Côte d'Ivoire",
       "iso3": "civ",
+      "location": {
+        "lat": 7.81,
+        "lon": -5.38
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 7,
       "reports7d": 1,
       "previous7d": 2,
       "change7d": -50,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 7.81,
-        "lon": -5.38
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4230105",
+          "title": "Côte d'Ivoire's online flood-risk platform sets out the cost of inaction",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Côte d'Ivoire",
+          "primaryCountryIso3": "civ",
+          "primaryCountryLocation": {
+            "lat": 7.81,
+            "lon": -5.38
+          },
+          "source": "UNDRR",
+          "format": "News and Press Release",
+          "themes": [
+            "Disaster Management"
+          ],
+          "disasterTypes": [
+            "Flood"
+          ],
+          "thumbnail": "",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/cote-divoire/cote-divoires-online-flood-risk-platform-sets-out-cost-inaction"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "dji",
+      "name": "Djibouti",
+      "shortname": "Djibouti",
       "iso3": "dji",
+      "location": {
+        "lat": 11.75,
+        "lon": 42.58
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 7,
       "reports7d": 6,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4229830",
+          "title": "Djibouti: New arrivals from Yemen Flash Update No.1 ( 15 September 2026 )",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Djibouti",
+          "primaryCountryIso3": "dji",
+          "primaryCountryLocation": {
+            "lat": 11.75,
+            "lon": 42.58
+          },
+          "source": "OCHA",
+          "format": "Situation Report",
+          "themes": [
+            "Coordination",
+            "Food and Nutrition",
+            "Protection and Human Rights",
+            "Shelter and Non-Food Items",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/d2/fd/d2fd2936-ca3e-42c6-9464-1f724f497d01.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/djibouti/djibouti-new-arrivals-yemen-flash-update-no1-15-september-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "ecu",
+      "name": "Ecuador",
+      "shortname": "Ecuador",
       "iso3": "ecu",
-      "reports30d": 7,
-      "reports7d": 0,
-      "previous7d": 1,
-      "change7d": -100,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": -1.16,
         "lon": -78.43
-      }
-    },
-    {
-      "name": "mdg",
-      "iso3": "mdg",
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 7,
       "reports7d": 0,
       "previous7d": 1,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "Madagascar",
+      "shortname": "Madagascar",
+      "iso3": "mdg",
       "location": {
         "lat": -19.37,
         "lon": 46.71
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 7,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "egy",
+      "shortname": "egy",
       "iso3": "egy",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 6,
       "reports7d": 1,
       "previous7d": 2,
       "change7d": -50,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "gnb",
+      "name": "Guinea-Bissau",
+      "shortname": "Guinea-Bissau",
       "iso3": "gnb",
+      "location": {
+        "lat": 12.03,
+        "lon": -14.96
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 6,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 12.03,
-        "lon": -14.96
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "jor",
+      "shortname": "jor",
       "iso3": "jor",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 6,
       "reports7d": 4,
       "previous7d": 2,
       "change7d": 100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "mwi",
+      "name": "Malawi",
+      "shortname": "Malawi",
       "iso3": "mwi",
+      "location": {
+        "lat": -13.22,
+        "lon": 33.74
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 6,
       "reports7d": 0,
       "previous7d": 1,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": -13.22,
-        "lon": 33.74
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "sen",
+      "shortname": "sen",
       "iso3": "sen",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 6,
       "reports7d": 6,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "slv",
+      "shortname": "slv",
       "iso3": "slv",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 6,
       "reports7d": 0,
       "previous7d": 3,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "zmb",
+      "name": "Zambia",
+      "shortname": "Zambia",
       "iso3": "zmb",
+      "location": {
+        "lat": -14,
+        "lon": 27.43
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 6,
       "reports7d": 2,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": -14,
-        "lon": 27.43
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "alb",
+      "shortname": "alb",
       "iso3": "alb",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 5,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "bih",
+      "shortname": "bih",
       "iso3": "bih",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 5,
       "reports7d": 1,
       "previous7d": 4,
       "change7d": -75,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "bol",
+      "name": "Bolivia (Plurinational State of)",
+      "shortname": "Bolivia (Plurinational State of)",
       "iso3": "bol",
-      "reports30d": 5,
-      "reports7d": 1,
-      "previous7d": 4,
-      "change7d": -75,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": -16.97,
         "lon": -64.27
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 5,
+      "reports7d": 1,
+      "previous7d": 4,
+      "change7d": -75,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "gtm",
+      "name": "Guatemala",
+      "shortname": "Guatemala",
       "iso3": "gtm",
+      "location": {
+        "lat": 15.61,
+        "lon": -90.39
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 5,
       "reports7d": 1,
       "previous7d": 1,
       "change7d": 0,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 15.61,
-        "lon": -90.39
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "irn",
+      "shortname": "irn",
       "iso3": "irn",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 5,
       "reports7d": 3,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "irq",
+      "shortname": "irq",
       "iso3": "irq",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 5,
       "reports7d": 1,
       "previous7d": 2,
       "change7d": -50,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "lao",
+      "name": "Lao People's Democratic Republic (the)",
+      "shortname": "Lao People's Democratic Republic (the)",
       "iso3": "lao",
-      "reports30d": 5,
-      "reports7d": 1,
-      "previous7d": 1,
-      "change7d": 0,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": 19.92,
         "lon": 102.59
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 5,
+      "reports7d": 1,
+      "previous7d": 1,
+      "change7d": 0,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "mda",
+      "shortname": "mda",
       "iso3": "mda",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 5,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "pan",
+      "name": "Panama",
+      "shortname": "Panama",
       "iso3": "pan",
-      "reports30d": 5,
-      "reports7d": 1,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": 8.7,
         "lon": -80.27
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 5,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "ben",
+      "shortname": "ben",
       "iso3": "ben",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 4,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "gmb",
+      "shortname": "gmb",
       "iso3": "gmb",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 4,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "kaz",
+      "shortname": "kaz",
       "iso3": "kaz",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 4,
       "reports7d": 1,
       "previous7d": 1,
       "change7d": 0,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "pol",
+      "shortname": "pol",
       "iso3": "pol",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 4,
       "reports7d": 1,
       "previous7d": 1,
       "change7d": 0,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "srb",
+      "name": "Serbia",
+      "shortname": "Serbia",
       "iso3": "srb",
-      "reports30d": 4,
-      "reports7d": 0,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": 44.23,
         "lon": 20.8
-      }
-    },
-    {
-      "name": "tgo",
-      "iso3": "tgo",
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 4,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "tgo",
+      "shortname": "tgo",
+      "iso3": "tgo",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 4,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "vnm",
+      "shortname": "vnm",
       "iso3": "vnm",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 4,
       "reports7d": 0,
       "previous7d": 1,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "zwe",
+      "name": "Zimbabwe",
+      "shortname": "Zimbabwe",
       "iso3": "zwe",
+      "location": {
+        "lat": -19.19,
+        "lon": 29.94
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 4,
       "reports7d": 0,
       "previous7d": 2,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": -19.19,
-        "lon": 29.94
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "cog",
+      "name": "Congo",
+      "shortname": "Congo",
       "iso3": "cog",
+      "location": {
+        "lat": -0.31,
+        "lon": 15.99
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 3,
       "reports7d": 0,
       "previous7d": 2,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": -0.31,
-        "lon": 15.99
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "fji",
+      "shortname": "fji",
       "iso3": "fji",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 3,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "ind",
+      "name": "India",
+      "shortname": "India",
       "iso3": "ind",
+      "location": {
+        "lat": 22.76,
+        "lon": 79.28
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 3,
       "reports7d": 1,
       "previous7d": 1,
       "change7d": 0,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 22.76,
-        "lon": 79.28
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "lso",
+      "shortname": "lso",
       "iso3": "lso",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 3,
       "reports7d": 2,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "png",
+      "shortname": "png",
       "iso3": "png",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 3,
       "reports7d": 0,
       "previous7d": 1,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "sle",
+      "name": "Sierra Leone",
+      "shortname": "Sierra Leone",
       "iso3": "sle",
-      "reports30d": 3,
-      "reports7d": 0,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": 8.56,
         "lon": -11.79
-      }
-    },
-    {
-      "name": "arg",
-      "iso3": "arg",
-      "reports30d": 2,
-      "reports7d": 1,
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 3,
+      "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "Argentina",
+      "shortname": "Argentina",
+      "iso3": "arg",
       "location": {
         "lat": -35.38,
         "lon": -64
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 2,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "blz",
+      "shortname": "blz",
       "iso3": "blz",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "brb",
+      "shortname": "brb",
       "iso3": "brb",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "btn",
+      "shortname": "btn",
       "iso3": "btn",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
       "reports7d": 0,
       "previous7d": 1,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "chl",
+      "shortname": "chl",
       "iso3": "chl",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "dom",
+      "name": "Dominican Republic",
+      "shortname": "Dominican Republic",
       "iso3": "dom",
-      "reports30d": 2,
-      "reports7d": 1,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": 18.85,
         "lon": -70.11
-      }
-    },
-    {
-      "name": "dza",
-      "iso3": "dza",
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
-      "reports7d": 0,
-      "previous7d": 1,
-      "change7d": -100,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "Algeria",
+      "shortname": "Algeria",
+      "iso3": "dza",
       "location": {
         "lat": 28.16,
         "lon": 2.63
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 2,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "esp",
+      "name": "Spain",
+      "shortname": "Spain",
       "iso3": "esp",
+      "location": {
+        "lat": 40.3,
+        "lon": -3.28
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
       "reports7d": 2,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4229904",
+          "title": "Spain Arrivals Snapshot - August 2026",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Spain",
+          "primaryCountryIso3": "esp",
+          "primaryCountryLocation": {
+            "lat": 40.3,
+            "lon": -3.28
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/8b/26/8b26ffec-743d-5377-a115-638c1d708279.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/spain/spain-arrivals-snapshot-august-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "jpn",
+      "shortname": "jpn",
       "iso3": "jpn",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "kgz",
+      "name": "Kyrgyzstan",
+      "shortname": "Kyrgyzstan",
       "iso3": "kgz",
+      "location": {
+        "lat": 41.47,
+        "lon": 74.56
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
       "reports7d": 0,
       "previous7d": 1,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 41.47,
-        "lon": 74.56
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "khm",
+      "shortname": "khm",
       "iso3": "khm",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "lbr",
+      "name": "Liberia",
+      "shortname": "Liberia",
       "iso3": "lbr",
-      "reports30d": 2,
-      "reports7d": 1,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": 6.45,
         "lon": -9.31
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 2,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "mar",
+      "name": "Morocco",
+      "shortname": "Morocco",
       "iso3": "mar",
+      "location": {
+        "lat": 32.35,
+        "lon": -6.02
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
       "reports7d": 2,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": {
-        "lat": 32.35,
-        "lon": -6.02
-      }
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "nam",
+      "name": "Namibia",
+      "shortname": "Namibia",
       "iso3": "nam",
-      "reports30d": 2,
-      "reports7d": 0,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": -21.2,
         "lon": 17.29
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 2,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "rwa",
+      "shortname": "rwa",
       "iso3": "rwa",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "tha",
+      "shortname": "tha",
       "iso3": "tha",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "tls",
+      "shortname": "tls",
       "iso3": "tls",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 2,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "arm",
+      "name": "Armenia",
+      "shortname": "Armenia",
       "iso3": "arm",
-      "reports30d": 1,
-      "reports7d": 1,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": 40.61,
         "lon": 44.66
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "aus",
+      "shortname": "aus",
       "iso3": "aus",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "aut",
+      "shortname": "aut",
       "iso3": "aut",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "aze",
+      "shortname": "aze",
       "iso3": "aze",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 1,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "can",
+      "shortname": "can",
       "iso3": "can",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "chn",
+      "shortname": "chn",
       "iso3": "chn",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "com",
+      "shortname": "com",
       "iso3": "com",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "cri",
+      "shortname": "cri",
       "iso3": "cri",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "cyp",
+      "shortname": "cyp",
       "iso3": "cyp",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "gha",
+      "name": "Ghana",
+      "shortname": "Ghana",
       "iso3": "gha",
-      "reports30d": 1,
-      "reports7d": 0,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": 7.28,
         "lon": -1.19
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "gin",
+      "name": "Guinea",
+      "shortname": "Guinea",
       "iso3": "gin",
+      "location": {
+        "lat": 10.79,
+        "lon": -11.03
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4229905",
+          "title": "WFP Guinea Country Brief, September 2026",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Guinea",
+          "primaryCountryIso3": "gin",
+          "primaryCountryLocation": {
+            "lat": 10.79,
+            "lon": -11.03
+          },
+          "source": "WFP",
+          "format": "Situation Report",
+          "themes": [
+            "Education",
+            "Food and Nutrition"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/5e/9f/5e9fc6bb-8c5e-43fb-ac51-a960d073ca1b.png",
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/guinea/wfp-guinea-country-brief-september-2026"
+        }
+      ],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "grc",
+      "shortname": "grc",
       "iso3": "grc",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "guy",
+      "shortname": "guy",
       "iso3": "guy",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "hrv",
+      "shortname": "hrv",
       "iso3": "hrv",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "kir",
+      "shortname": "kir",
       "iso3": "kir",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 1,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "kor",
+      "shortname": "kor",
       "iso3": "kor",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "lby",
+      "shortname": "lby",
       "iso3": "lby",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "mex",
+      "shortname": "mex",
       "iso3": "mex",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "mys",
+      "shortname": "mys",
       "iso3": "mys",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "pri",
+      "shortname": "pri",
       "iso3": "pri",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "prk",
+      "shortname": "prk",
       "iso3": "prk",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 1,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "qat",
+      "shortname": "qat",
       "iso3": "qat",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
       "name": "sau",
+      "shortname": "sau",
       "iso3": "sau",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 1,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "slb",
+      "name": "Solomon Islands",
+      "shortname": "Solomon Islands",
       "iso3": "slb",
-      "reports30d": 1,
-      "reports7d": 0,
-      "previous7d": 1,
-      "change7d": -100,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
       "location": {
         "lat": -8.92,
         "lon": 159.63
-      }
-    },
-    {
-      "name": "sur",
-      "iso3": "sur",
-      "reports30d": 1,
-      "reports7d": 1,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
-      "location": {
-        "lat": 3.69,
-        "lon": -55.91
-      }
-    },
-    {
-      "name": "svn",
-      "iso3": "svn",
-      "reports30d": 1,
-      "reports7d": 0,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
-      "location": null
-    },
-    {
-      "name": "swz",
-      "iso3": "swz",
-      "reports30d": 1,
-      "reports7d": 0,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
-      "location": null
-    },
-    {
-      "name": "tjk",
-      "iso3": "tjk",
-      "reports30d": 1,
-      "reports7d": 1,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
-      "location": {
-        "lat": 38.84,
-        "lon": 71.04
-      }
-    },
-    {
-      "name": "tun",
-      "iso3": "tun",
-      "reports30d": 1,
-      "reports7d": 0,
-      "previous7d": 0,
-      "change7d": null,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
-      "location": null
-    },
-    {
-      "name": "wsm",
-      "iso3": "wsm",
+      },
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 1,
       "change7d": -100,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
-      "location": null
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "zaf",
-      "iso3": "zaf",
+      "name": "Suriname",
+      "shortname": "Suriname",
+      "iso3": "sur",
+      "location": {
+        "lat": 3.69,
+        "lon": -55.91
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "svn",
+      "shortname": "svn",
+      "iso3": "svn",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
       "reports30d": 1,
       "reports7d": 0,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 0,
       "themeBreadth": 0,
+      "formatBreadth": 0,
       "topThemes": [],
       "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "swz",
+      "shortname": "swz",
+      "iso3": "swz",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "Tajikistan",
+      "shortname": "Tajikistan",
+      "iso3": "tjk",
+      "location": {
+        "lat": 38.84,
+        "lon": 71.04
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "tun",
+      "shortname": "tun",
+      "iso3": "tun",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "wsm",
+      "shortname": "wsm",
+      "iso3": "wsm",
+      "location": null,
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "South Africa",
+      "shortname": "South Africa",
+      "iso3": "zaf",
       "location": {
         "lat": -28.38,
         "lon": 23.91
-      }
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
     }
   ],
   "reports": [
@@ -1957,11 +4947,19 @@
       "title": "EMR Polio Bulletin - Issue No. 1458, Week 36 (ending on 13/09/2026)",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
+      "primaryCountryLocation": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
       "source": "WHO",
       "format": "Infographic",
       "themes": [
         "Health"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/45/dd/45ddac81-1a5a-5c62-b690-1efdfb402424.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/afghanistan/emr-polio-bulletin-issue-no-1458-week-36-ending-13092026"
     },
     {
@@ -1969,6 +4967,11 @@
       "title": "UNICEF Myanmar Humanitarian Situation Report No. 1 (Mid-Year), January-June 2026",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Myanmar",
+      "primaryCountryIso3": "mmr",
+      "primaryCountryLocation": {
+        "lat": 21.15,
+        "lon": 96.51
+      },
       "source": "UNICEF",
       "format": "Situation Report",
       "themes": [
@@ -1980,6 +4983,12 @@
         "Protection and Human Rights",
         "Water Sanitation Hygiene"
       ],
+      "disasterTypes": [
+        "Epidemic",
+        "Flood"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/91/1b/911ba92d-49be-458b-8d0e-19794ad4c1b6.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/myanmar/unicef-myanmar-humanitarian-situation-report-no-1-mid-year-january-june-2026"
     },
     {
@@ -1987,12 +4996,24 @@
       "title": "DSWD DROMIC Report #90 on the Combined Effects of Enhanced Southwest Monsoon and Tropical Cyclones “Luis”, “Maymay”, “Neneng”, and “Pilandok” as of 16 September 2026, 6AM",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Philippines",
+      "primaryCountryIso3": "phl",
+      "primaryCountryLocation": {
+        "lat": 11.74,
+        "lon": 122.88
+      },
       "source": "Govt. Philippines",
       "format": "Situation Report",
       "themes": [
         "Food and Nutrition",
         "Shelter and Non-Food Items"
       ],
+      "disasterTypes": [
+        "Flood",
+        "Land Slide",
+        "Tropical Cyclone"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/3b/5a/3b5a91f0-ea1d-4f70-90e8-f3b1c75fb158.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/philippines/dswd-dromic-report-90-combined-effects-enhanced-southwest-monsoon-and-tropical-cyclones-luis-maymay-neneng-and-pilandok-16-september-2026-6am"
     },
     {
@@ -2000,11 +5021,16 @@
       "title": "WMO bulletin shows successes and challenges in ozone layer recovery",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
       "source": "WMO",
       "format": "News and Press Release",
       "themes": [
         "Climate Change and Environment"
       ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/wmo-bulletin-shows-successes-and-challenges-ozone-layer-recovery"
     },
     {
@@ -2012,6 +5038,11 @@
       "title": "Análisis de Situación y Respuesta al terremoto - 10 de septiembre 2026",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Colombia",
+      "primaryCountryIso3": "col",
+      "primaryCountryLocation": {
+        "lat": 3.9,
+        "lon": -73.07
+      },
       "source": "Action Against Hunger",
       "format": "Situation Report",
       "themes": [
@@ -2021,6 +5052,11 @@
         "Protection and Human Rights",
         "Water Sanitation Hygiene"
       ],
+      "disasterTypes": [
+        "Earthquake"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/17/d7/17d7e1df-d290-405a-8b15-1ee5eeff07d1.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/colombia/analisis-de-situacion-y-respuesta-al-terremoto-10-de-septiembre-2026"
     },
     {
@@ -2028,11 +5064,21 @@
       "title": "Mauritanie — Etude sur la vulnérabilité climatique (Décembre 2025 – Janvier 2026)",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Mauritania",
+      "primaryCountryIso3": "mrt",
+      "primaryCountryLocation": {
+        "lat": 19.76,
+        "lon": -10.53
+      },
       "source": "IOM",
       "format": "Analysis",
       "themes": [
         "Climate Change and Environment"
       ],
+      "disasterTypes": [
+        "Drought"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/1f/3a/1f3a9193-9b13-5722-9f11-d749780d5a23.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/mauritania/mauritanie-etude-sur-la-vulnerabilite-climatique-decembre-2025-janvier-2026"
     },
     {
@@ -2040,11 +5086,19 @@
       "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #2 (14 September 2026)",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
       "source": "IOM",
       "format": "Situation Report",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-2-14-september-2026"
     },
     {
@@ -2052,11 +5106,19 @@
       "title": "Nigeria: North-west Nigeria — Katsina State Flash Report 298 (23 August 2026)",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Nigeria",
+      "primaryCountryIso3": "nga",
+      "primaryCountryLocation": {
+        "lat": 9.59,
+        "lon": 8.11
+      },
       "source": "IOM",
       "format": "Situation Report",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/9f/76/9f764327-a4a3-5468-986b-5bad7a6d3bc9.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/nigeria/nigeria-north-west-nigeria-katsina-state-flash-report-298-23-august-2026"
     },
     {
@@ -2064,11 +5126,19 @@
       "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #3 (15 September 2026)",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
       "source": "IOM",
       "format": "Situation Report",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/ac/d5/acd5733a-0141-522c-aa7a-4e728bbc5067.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-3-15-september-2026"
     },
     {
@@ -2076,84 +5146,41 @@
       "title": "MSF DRC: Ebola teams warn of serious risk as outbreak spreads to new areas",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
       "source": "MSF",
       "format": "News and Press Release",
       "themes": [
         "Health"
       ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/democratic-republic-congo/msf-drc-ebola-teams-warn-serious-risk-outbreak-spreads-new-areas"
-    },
-    {
-      "id": "4230105",
-      "title": "Côte d'Ivoire's online flood-risk platform sets out the cost of inaction",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Côte d'Ivoire",
-      "source": "UNDRR",
-      "format": "News and Press Release",
-      "themes": [
-        "Disaster Management"
-      ],
-      "url": "https://reliefweb.int/report/cote-divoire/cote-divoires-online-flood-risk-platform-sets-out-cost-inaction"
-    },
-    {
-      "id": "4230111",
-      "title": "Protecting Education from El Niño: A Call for Anticipatory Action and Response in Mozambique (2026-2027)",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Mozambique",
-      "source": "Education Cluster, Save the Children, UNICEF",
-      "format": "News and Press Release",
-      "themes": [
-        "Education",
-        "Protection and Human Rights"
-      ],
-      "url": "https://reliefweb.int/report/mozambique/protecting-education-el-nino-call-anticipatory-action-and-response-mozambique-2026-2027"
-    },
-    {
-      "id": "4230103",
-      "title": "Ukraine war situation update | 29 August – 4 September 2026",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Ukraine",
-      "source": "ACLED",
-      "format": "Situation Report",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-29-august-4-september-2026"
-    },
-    {
-      "id": "4230091",
-      "title": "Escalation in the Middle East and Beyond — Special Focus on Yemen (07 June - 14 September 2026)",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Lebanon",
-      "source": "IOM",
-      "format": "Assessment",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "url": "https://reliefweb.int/report/lebanon/escalation-middle-east-and-beyond-special-focus-yemen-07-june-14-september-2026"
-    },
-    {
-      "id": "4230096",
-      "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #1 (13 September 2026)",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "source": "IOM",
-      "format": "Situation Report",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-1-13-september-2026"
     },
     {
       "id": "4230016",
       "title": "Yemen: latest violence threatens to shatter an already threadbare health system for children",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
       "source": "Save the Children",
       "format": "News and Press Release",
       "themes": [
         "Health"
       ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/yemen/yemen-latest-violence-threatens-shatter-already-threadbare-health-system-children"
     },
     {
@@ -2161,11 +5188,19 @@
       "title": "Patient killed inside MAP-supported health centre after Israeli military quadcopter attack",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "occupied Palestinian territory",
+      "primaryCountryIso3": "pse",
+      "primaryCountryLocation": {
+        "lat": 31.9522,
+        "lon": 35.2332
+      },
       "source": "MAP",
       "format": "News and Press Release",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/occupied-palestinian-territory/patient-killed-inside-map-supported-health-centre-after-israeli-military-quadcopter-attack"
     },
     {
@@ -2173,42 +5208,208 @@
       "title": "We can adapt to anything, but not to war - Delivering for people in conflict settings: Reflections on an evolving humanitarian landscape",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
       "source": "ICRC, South Sudan Red Cross, Ukrainian Red Cross Society",
       "format": "Analysis",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/c2/9f/c29f4a56-7df6-4ecb-be68-c68716b04264.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/we-can-adapt-anything-not-war-delivering-people-conflict-settings-reflections-evolving-humanitarian-landscape"
+    },
+    {
+      "id": "4230105",
+      "title": "Côte d'Ivoire's online flood-risk platform sets out the cost of inaction",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Côte d'Ivoire",
+      "primaryCountryIso3": "civ",
+      "primaryCountryLocation": {
+        "lat": 7.81,
+        "lon": -5.38
+      },
+      "source": "UNDRR",
+      "format": "News and Press Release",
+      "themes": [
+        "Disaster Management"
+      ],
+      "disasterTypes": [
+        "Flood"
+      ],
+      "thumbnail": "",
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/cote-divoire/cote-divoires-online-flood-risk-platform-sets-out-cost-inaction"
+    },
+    {
+      "id": "4230111",
+      "title": "Protecting Education from El Niño: A Call for Anticipatory Action and Response in Mozambique (2026-2027)",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Mozambique",
+      "primaryCountryIso3": "moz",
+      "primaryCountryLocation": {
+        "lat": -18.09,
+        "lon": 34.75
+      },
+      "source": "Education Cluster, Save the Children, UNICEF",
+      "format": "News and Press Release",
+      "themes": [
+        "Education",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/40/80/4080a548-a0ef-40c1-a7e8-001db465d1cf.png",
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/mozambique/protecting-education-el-nino-call-anticipatory-action-and-response-mozambique-2026-2027"
+    },
+    {
+      "id": "4230103",
+      "title": "Ukraine war situation update | 29 August – 4 September 2026",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Ukraine",
+      "primaryCountryIso3": "ukr",
+      "primaryCountryLocation": {
+        "lat": 49.32,
+        "lon": 31.32
+      },
+      "source": "ACLED",
+      "format": "Situation Report",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-29-august-4-september-2026"
+    },
+    {
+      "id": "4230091",
+      "title": "Escalation in the Middle East and Beyond — Special Focus on Yemen (07 June - 14 September 2026)",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Lebanon",
+      "primaryCountryIso3": "lbn",
+      "primaryCountryLocation": {
+        "lat": 33.92,
+        "lon": 35.89
+      },
+      "source": "IOM",
+      "format": "Assessment",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/e6/09/e6093e8c-a364-57f6-b442-8c4edb660231.png",
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/lebanon/escalation-middle-east-and-beyond-special-focus-yemen-07-june-14-september-2026"
+    },
+    {
+      "id": "4230096",
+      "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #1 (13 September 2026)",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "source": "IOM",
+      "format": "Situation Report",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/1b/ed/1bed817e-b5f6-5a8b-8fc4-6ee3df8e598d.png",
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-1-13-september-2026"
     },
     {
       "id": "4230098",
       "title": "Mali: Dashboard thématique sur la présence des migrants au Mali 3 — Régions de Kayes, Koulikoro et Sikasso (décembre 2025 – janvier 2026)",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Mali",
+      "primaryCountryIso3": "mli",
+      "primaryCountryLocation": {
+        "lat": 17.35,
+        "lon": -1.25
+      },
       "source": "IOM",
       "format": "Infographic",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/2e/76/2e76cd97-efe9-55bb-8f64-f27581f2ad03.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/mali/mali-dashboard-thematique-sur-la-presence-des-migrants-au-mali-3-regions-de-kayes-koulikoro-et-sikasso-decembre-2025-janvier-2026"
+    },
+    {
+      "id": "4230069",
+      "title": "Quarterly Overview of Asylum Case Law",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "EUAA",
+      "format": "Analysis",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/d8/7e/d87ef4c4-4fc5-5960-99de-bcf792071a6e.png",
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/quarterly-overview-asylum-case-law"
     },
     {
       "id": "4230038",
       "title": "Mergui-Tavoy District Short Update: Burma Army air strike killed a villager in Ler Muh Lah Township (August 2026)",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Myanmar",
+      "primaryCountryIso3": "mmr",
+      "primaryCountryLocation": {
+        "lat": 21.15,
+        "lon": 96.51
+      },
       "source": "KHRG",
       "format": "Situation Report",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/17/31/1731f3e3-5b1c-574a-bda6-e12398dc5be2.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/myanmar/mergui-tavoy-district-short-update-burma-army-air-strike-killed-villager-ler-muh-lah-township-august-2026"
+    },
+    {
+      "id": "4230106",
+      "title": "Syria advances towards a national multi-hazard early warning system",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Syrian Arab Republic",
+      "primaryCountryIso3": "syr",
+      "primaryCountryLocation": {
+        "lat": 35.01,
+        "lon": 38.51
+      },
+      "source": "UNDRR",
+      "format": "News and Press Release",
+      "themes": [
+        "Disaster Management"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/syrian-arab-republic/syria-advances-towards-national-multi-hazard-early-warning-system"
     },
     {
       "id": "4230040",
       "title": "UNRWA Situation Report #234 on the Humanitarian Crisis in the Gaza Strip and the occupied West Bank, including East Jerusalem [EN/AR]",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "occupied Palestinian territory",
+      "primaryCountryIso3": "pse",
+      "primaryCountryLocation": {
+        "lat": 31.9522,
+        "lon": 35.2332
+      },
       "source": "UNRWA",
       "format": "Situation Report",
       "themes": [
@@ -2218,6 +5419,9 @@
         "Shelter and Non-Food Items",
         "Water Sanitation Hygiene"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/0c/30/0c30414c-7c2b-41d1-ba8a-a7313b897c42.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/occupied-palestinian-territory/unrwa-situation-report-234-humanitarian-crisis-gaza-strip-and-occupied-west-bank-including-east-jerusalem-enar"
     },
     {
@@ -2225,67 +5429,103 @@
       "title": "Lebanon Cash Working Group: Situation Report #5 (Reporting period: as of August 2026)",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Lebanon",
+      "primaryCountryIso3": "lbn",
+      "primaryCountryLocation": {
+        "lat": 33.92,
+        "lon": 35.89
+      },
       "source": "UNHCR",
       "format": "Situation Report",
       "themes": [
         "Coordination",
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/e9/f6/e9f68279-8c25-5b1f-9da4-03c155560475.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/lebanon/lebanon-cash-working-group-situation-report-5-reporting-period-august-2026"
-    },
-    {
-      "id": "4230069",
-      "title": "Quarterly Overview of Asylum Case Law",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "World",
-      "source": "EUAA",
-      "format": "Analysis",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "url": "https://reliefweb.int/report/world/quarterly-overview-asylum-case-law"
     },
     {
       "id": "4230070",
       "title": "A Route-Based Snapshot: Data & Trends for Refugees from Myanmar, as of end-August 2026",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Myanmar",
+      "primaryCountryIso3": "mmr",
+      "primaryCountryLocation": {
+        "lat": 21.15,
+        "lon": 96.51
+      },
       "source": "UNHCR",
       "format": "Infographic",
       "themes": [
         "Protection and Human Rights"
       ],
-      "url": "https://reliefweb.int/report/myanmar/route-based-snapshot-data-trends-refugees-myanmar-end-august-2026"
-    },
-    {
-      "id": "4230106",
-      "title": "Syria advances towards a national multi-hazard early warning system",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Syrian Arab Republic",
-      "source": "UNDRR",
-      "format": "News and Press Release",
-      "themes": [
-        "Disaster Management"
+      "disasterTypes": [
+        "Earthquake",
+        "Flood",
+        "Tropical Cyclone"
       ],
-      "url": "https://reliefweb.int/report/syrian-arab-republic/syria-advances-towards-national-multi-hazard-early-warning-system"
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/66/36/6636d9b0-326d-4833-a043-a94781231e84.png",
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/myanmar/route-based-snapshot-data-trends-refugees-myanmar-end-august-2026"
     },
     {
       "id": "4230095",
       "title": "Somalia: Emergency Trend Tracking Report — Week 13 (September 2026)",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
       "primaryCountry": "Somalia",
+      "primaryCountryIso3": "som",
+      "primaryCountryLocation": {
+        "lat": 5.79,
+        "lon": 47.33
+      },
       "source": "IOM",
       "format": "Infographic",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [
+        "Drought",
+        "Flood"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/2b/67/2b674ce2-e2c5-5c07-ab33-d8af113098db.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/somalia/somalia-emergency-trend-tracking-report-week-13-september-2026"
+    },
+    {
+      "id": "4230118",
+      "title": "Somalia: Multi-hazard Displacement Projections — Q4 (October - December 2026)",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Somalia",
+      "primaryCountryIso3": "som",
+      "primaryCountryLocation": {
+        "lat": 5.79,
+        "lon": 47.33
+      },
+      "source": "IOM",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights",
+        "Shelter and Non-Food Items"
+      ],
+      "disasterTypes": [
+        "Drought",
+        "Flood"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/30/3d/303d937e-9128-57f4-a7c3-1d2c11fe1a4d.png",
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/somalia/somalia-multi-hazard-displacement-projections-q4-october-december-2026"
     },
     {
       "id": "4229830",
       "title": "Djibouti: New arrivals from Yemen Flash Update No.1 ( 15 September 2026 )",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Djibouti",
+      "primaryCountryIso3": "dji",
+      "primaryCountryLocation": {
+        "lat": 11.75,
+        "lon": 42.58
+      },
       "source": "OCHA",
       "format": "Situation Report",
       "themes": [
@@ -2295,6 +5535,9 @@
         "Shelter and Non-Food Items",
         "Water Sanitation Hygiene"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/d2/fd/d2fd2936-ca3e-42c6-9464-1f724f497d01.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/djibouti/djibouti-new-arrivals-yemen-flash-update-no1-15-september-2026"
     },
     {
@@ -2302,12 +5545,22 @@
       "title": "Kenya: IPC Acute Food Insecurity and Acute Malnutrition Analysis (July 2026 – January 2027), Published on 14 September 2026",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Kenya",
+      "primaryCountryIso3": "ken",
+      "primaryCountryLocation": {
+        "lat": 0.53,
+        "lon": 37.86
+      },
       "source": "IPC",
       "format": "Analysis",
       "themes": [
         "Food and Nutrition",
         "Health"
       ],
+      "disasterTypes": [
+        "Drought"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/60/ba/60ba29d4-6e6a-4423-b897-ec669580552a.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/kenya/kenya-ipc-acute-food-insecurity-and-acute-malnutrition-analysis-july-2026-january-2027-published-14-september-2026"
     },
     {
@@ -2315,12 +5568,22 @@
       "title": "Sudan - National Health Cluster Meeting, 9th September 2026 [Meeting Minutes]",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Sudan",
+      "primaryCountryIso3": "sdn",
+      "primaryCountryLocation": {
+        "lat": 15,
+        "lon": 30
+      },
       "source": "Health Cluster, WHO",
       "format": "Other",
       "themes": [
         "Coordination",
         "Health"
       ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/a5/18/a5189f3e-0f37-45d7-9b9d-d9c1ad90ce9b.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/sudan/sudan-national-health-cluster-meeting-9th-september-2026-meeting-minutes"
     },
     {
@@ -2328,6 +5591,11 @@
       "title": "Women in the occupied West Bank fear violence and arrest, as settler attacks, military operations, and movement restrictions reach two-decade high",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "occupied Palestinian territory",
+      "primaryCountryIso3": "pse",
+      "primaryCountryLocation": {
+        "lat": 31.9522,
+        "lon": 35.2332
+      },
       "source": "UN Women",
       "format": "News and Press Release",
       "themes": [
@@ -2335,6 +5603,9 @@
         "Health",
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/occupied-palestinian-territory/women-occupied-west-bank-fear-violence-and-arrest-settler-attacks-military-operations-and-movement-restrictions-reach-two-decade-high"
     },
     {
@@ -2342,6 +5613,11 @@
       "title": "République démocratique du Congo - Sud-Kivu : Évolution de la situation humanitaire (Au 30 juin 2026)",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
       "source": "OCHA",
       "format": "Infographic",
       "themes": [
@@ -2352,6 +5628,11 @@
         "Safety and Security",
         "Shelter and Non-Food Items"
       ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/ee/5c/ee5c99ec-b552-409a-8e9f-959022cad24c.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-sud-kivu-evolution-de-la-situation-humanitaire-au-30-juin-2026"
     },
     {
@@ -2359,6 +5640,11 @@
       "title": "République démocratique du Congo - Nord-Kivu : Évolution de la situation humanitaire (au 30 juin 2026)",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
       "source": "OCHA",
       "format": "Infographic",
       "themes": [
@@ -2369,6 +5655,11 @@
         "Safety and Security",
         "Shelter and Non-Food Items"
       ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/7f/b8/7fb8759c-88f4-46a2-b486-1478a7a8cc4d.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-nord-kivu-evolution-de-la-situation-humanitaire-au-30-juin-2026"
     },
     {
@@ -2376,11 +5667,19 @@
       "title": "Democratic Republic of the Congo - DRC At A Glance - 31 August 2026",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
       "source": "UNHCR",
       "format": "Infographic",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/eb/26/eb26a7d9-8236-5911-afbd-bbd174807205.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-drc-glance-31-august-2026"
     },
     {
@@ -2388,11 +5687,16 @@
       "title": "GPC Interagency Field Support Trends Overview (January-June 2026)",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
       "source": "Protection Cluster",
       "format": "Assessment",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/59/99/5999f084-71f9-5508-9cd4-7015a5be1d5b.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/gpc-interagency-field-support-trends-overview-january-june-2026"
     },
     {
@@ -2400,11 +5704,19 @@
       "title": "Democratic Republic of the Congo - Voluntary Repatriation from/to DRC (31 August 2026)",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
       "source": "UNHCR",
       "format": "Infographic",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/8b/13/8b13156b-70f1-5b37-8df2-c691b6d24cd5.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-voluntary-repatriation-fromto-drc-31-august-2026"
     },
     {
@@ -2412,11 +5724,19 @@
       "title": "UNHCR Niger - Niamey Map Population of Concern - Aout 2026",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Niger",
+      "primaryCountryIso3": "ner",
+      "primaryCountryLocation": {
+        "lat": 17.43,
+        "lon": 9.4
+      },
       "source": "UNHCR",
       "format": "Infographic",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/niger/unhcr-niger-niamey-map-population-concern-aout-2026"
     },
     {
@@ -2424,11 +5744,19 @@
       "title": "CORE Sudan: Influx from South Sudan - 31 August 2026",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Sudan",
+      "primaryCountryIso3": "sdn",
+      "primaryCountryLocation": {
+        "lat": 15,
+        "lon": 30
+      },
       "source": "UNHCR",
       "format": "Infographic",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/sudan/core-sudan-influx-south-sudan-31-august-2026"
     },
     {
@@ -2436,11 +5764,19 @@
       "title": "Spain Arrivals Snapshot - August 2026",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Spain",
+      "primaryCountryIso3": "esp",
+      "primaryCountryLocation": {
+        "lat": 40.3,
+        "lon": -3.28
+      },
       "source": "UNHCR",
       "format": "Infographic",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/8b/26/8b26ffec-743d-5377-a115-638c1d708279.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/spain/spain-arrivals-snapshot-august-2026"
     },
     {
@@ -2448,12 +5784,22 @@
       "title": "The air support behind Ebola response in the Democratic Republic of the Congo",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
       "source": "WHO",
       "format": "News and Press Release",
       "themes": [
         "Health",
         "Logistics and Telecommunications"
       ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/democratic-republic-congo/air-support-behind-ebola-response-democratic-republic-congo"
     },
     {
@@ -2461,11 +5807,16 @@
       "title": "WHO and Commonwealth Secretariat renew partnership to strengthen health systems and advance universal health coverage",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
       "source": "WHO",
       "format": "News and Press Release",
       "themes": [
         "Health"
       ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/who-and-commonwealth-secretariat-renew-partnership-strengthen-health-systems-and-advance-universal-health-coverage"
     },
     {
@@ -2473,12 +5824,20 @@
       "title": "WFP Guinea Country Brief, September 2026",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Guinea",
+      "primaryCountryIso3": "gin",
+      "primaryCountryLocation": {
+        "lat": 10.79,
+        "lon": -11.03
+      },
       "source": "WFP",
       "format": "Situation Report",
       "themes": [
         "Education",
         "Food and Nutrition"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/5e/9f/5e9fc6bb-8c5e-43fb-ac51-a960d073ca1b.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/guinea/wfp-guinea-country-brief-september-2026"
     },
     {
@@ -2486,6 +5845,11 @@
       "title": "Uganda Refugee Response: Livelihoods and Resilience dashboard - Quarter 2 2026",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Uganda",
+      "primaryCountryIso3": "uga",
+      "primaryCountryLocation": {
+        "lat": 1.28,
+        "lon": 32.39
+      },
       "source": "UNHCR",
       "format": "Infographic",
       "themes": [
@@ -2493,6 +5857,9 @@
         "Protection and Human Rights",
         "Recovery and Reconstruction"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/8d/fa/8dfa977d-be6b-515c-8a0b-367778c55858.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-livelihoods-and-resilience-dashboard-quarter-2-2026"
     },
     {
@@ -2500,11 +5867,19 @@
       "title": "UNHCR Niger - Maradi -- Personnes relevant de la compétence du HCR - Août 2026",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Niger",
+      "primaryCountryIso3": "ner",
+      "primaryCountryLocation": {
+        "lat": 17.43,
+        "lon": 9.4
+      },
       "source": "UNHCR",
       "format": "Infographic",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/0c/db/0cdbb865-f208-522a-8279-aa640dba1c9a.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/niger/unhcr-niger-maradi-personnes-relevant-de-la-competence-du-hcr-aout-2026"
     },
     {
@@ -2512,11 +5887,19 @@
       "title": "UNHCR Niger - Agadez - Personnes relevant de la compétence du HCR - Août 2026",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Niger",
+      "primaryCountryIso3": "ner",
+      "primaryCountryLocation": {
+        "lat": 17.43,
+        "lon": 9.4
+      },
       "source": "UNHCR",
       "format": "Infographic",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/08/3d/083d6290-d768-5865-bebb-a2518fa1cb76.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/niger/unhcr-niger-agadez-personnes-relevant-de-la-competence-du-hcr-aout-2026"
     },
     {
@@ -2524,11 +5907,19 @@
       "title": "Yemen: la escalada del conflicto provoca nuevos desplazamientos y la llegada de refugiados a Yibuti",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
       "source": "UNHCR",
       "format": "News and Press Release",
       "themes": [
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/yemen/yemen-la-escalada-del-conflicto-provoca-nuevos-desplazamientos-y-la-llegada-de-refugiados-yibuti"
     },
     {
@@ -2536,12 +5927,20 @@
       "title": "Uganda Refugee Response: Gender-based Violence (GBV) dashboard - Quarter 2 2026",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Uganda",
+      "primaryCountryIso3": "uga",
+      "primaryCountryLocation": {
+        "lat": 1.28,
+        "lon": 32.39
+      },
       "source": "UNHCR",
       "format": "Infographic",
       "themes": [
         "Gender",
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/66/a4/66a4db8d-7a43-5f78-b651-2686bc1ab314.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-gender-based-violence-gbv-dashboard-quarter-2-2026"
     },
     {
@@ -2549,12 +5948,20 @@
       "title": "MSF Syria: One year of strengthening access to healthcare in Daraa Governate",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Syrian Arab Republic",
+      "primaryCountryIso3": "syr",
+      "primaryCountryLocation": {
+        "lat": 35.01,
+        "lon": 38.51
+      },
       "source": "MSF",
       "format": "News and Press Release",
       "themes": [
         "Health",
         "Protection and Human Rights"
       ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/syrian-arab-republic/msf-syria-one-year-strengthening-access-healthcare-daraa-governate"
     },
     {
@@ -2562,11 +5969,19 @@
       "title": "UNHCR Central African Republic Situation: 2026 Funding Update (as of 31 August 2026)",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Central African Republic",
+      "primaryCountryIso3": "caf",
+      "primaryCountryLocation": {
+        "lat": 6.57,
+        "lon": 20.48
+      },
       "source": "UNHCR",
       "format": "Other",
       "themes": [
         "Contributions"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/03/51/0351d735-0529-4ff7-9cd9-bc062e6b3208.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/central-african-republic/unhcr-central-african-republic-situation-2026-funding-update-31-august-2026"
     },
     {
@@ -2574,27 +5989,114 @@
       "title": "Cameroon MCO Funding Update 2026 (as of 31 August 2026)",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
       "primaryCountry": "Cameroon",
+      "primaryCountryIso3": "cmr",
+      "primaryCountryLocation": {
+        "lat": 4.81,
+        "lon": 12.21
+      },
       "source": "UNHCR",
       "format": "Infographic",
       "themes": [
         "Contributions"
       ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/small/public/previews/3f/d0/3fd00766-f2d0-4079-9140-72fabd63a601.png",
+      "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/cameroon/cameroon-mco-funding-update-2026-31-august-2026"
-    },
-    {
-      "id": "4229967",
-      "title": "UNHCR Burkina Faso: 2026 Funding Update (as of 31 August 2026)",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Burkina Faso",
-      "source": "UNHCR",
-      "format": "Other",
-      "themes": [
-        "Contributions"
-      ],
-      "url": "https://reliefweb.int/report/burkina-faso/unhcr-burkina-faso-2026-funding-update-31-august-2026"
     }
   ],
   "disasters": [
+    {
+      "id": "52563",
+      "name": "Liberia: Windstorms - Mar 2026",
+      "status": "ongoing",
+      "glide": "VW-2026-000054-LBR",
+      "dateEvent": "2026-03-24T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52563",
+      "primaryCountry": "Liberia",
+      "primaryCountryIso3": "lbr",
+      "location": {
+        "lat": 6.45,
+        "lon": -9.31
+      },
+      "primaryType": "Severe Local Storm",
+      "types": [
+        "Severe Local Storm"
+      ]
+    },
+    {
+      "id": "52549",
+      "name": "Suriname: Chikungunya Virus Outbreak - Mar 2026",
+      "status": "ongoing",
+      "glide": "EP-2026-000037-SUR",
+      "dateEvent": "2026-03-04T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52549",
+      "primaryCountry": "Suriname",
+      "primaryCountryIso3": "sur",
+      "location": {
+        "lat": 3.69,
+        "lon": -55.91
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52512",
+      "name": "Tropical Cyclone Fytia - Jan 2026",
+      "status": "ongoing",
+      "glide": "TC-2026-000009-MDG",
+      "dateEvent": "2026-02-28T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52512",
+      "primaryCountry": "Madagascar",
+      "primaryCountryIso3": "mdg",
+      "location": {
+        "lat": -19.37,
+        "lon": 46.71
+      },
+      "primaryType": "Tropical Cyclone",
+      "types": [
+        "Flood",
+        "Tropical Cyclone"
+      ]
+    },
+    {
+      "id": "52503",
+      "name": "Zambia: Floods - Jan 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000020-ZMB",
+      "dateEvent": "2026-01-08T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52503",
+      "primaryCountry": "Zambia",
+      "primaryCountryIso3": "zmb",
+      "location": {
+        "lat": -14,
+        "lon": 27.43
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52496",
+      "name": "Mozambique: Floods - Dec 2025",
+      "status": "ongoing",
+      "glide": "FL-2025-000227-MOZ",
+      "dateEvent": "2025-12-27T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52496",
+      "primaryCountry": "Mozambique",
+      "primaryCountryIso3": "moz",
+      "location": {
+        "lat": -18.09,
+        "lon": 34.75
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
     {
       "id": "52419",
       "name": "Somalia: Diphtheria Outbreak - Jul 2025",
@@ -2827,97 +6329,6 @@
       "primaryType": "Epidemic",
       "types": [
         "Epidemic"
-      ]
-    },
-    {
-      "id": "52563",
-      "name": "Liberia: Windstorms - Mar 2026",
-      "status": "ongoing",
-      "glide": "VW-2026-000054-LBR",
-      "dateEvent": "2026-03-24T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52563",
-      "primaryCountry": "Liberia",
-      "primaryCountryIso3": "lbr",
-      "location": {
-        "lat": 6.45,
-        "lon": -9.31
-      },
-      "primaryType": "Severe Local Storm",
-      "types": [
-        "Severe Local Storm"
-      ]
-    },
-    {
-      "id": "52549",
-      "name": "Suriname: Chikungunya Virus Outbreak - Mar 2026",
-      "status": "ongoing",
-      "glide": "EP-2026-000037-SUR",
-      "dateEvent": "2026-03-04T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52549",
-      "primaryCountry": "Suriname",
-      "primaryCountryIso3": "sur",
-      "location": {
-        "lat": 3.69,
-        "lon": -55.91
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52512",
-      "name": "Tropical Cyclone Fytia - Jan 2026",
-      "status": "ongoing",
-      "glide": "TC-2026-000009-MDG",
-      "dateEvent": "2026-02-28T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52512",
-      "primaryCountry": "Madagascar",
-      "primaryCountryIso3": "mdg",
-      "location": {
-        "lat": -19.37,
-        "lon": 46.71
-      },
-      "primaryType": "Tropical Cyclone",
-      "types": [
-        "Flood",
-        "Tropical Cyclone"
-      ]
-    },
-    {
-      "id": "52503",
-      "name": "Zambia: Floods - Jan 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000020-ZMB",
-      "dateEvent": "2026-01-08T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52503",
-      "primaryCountry": "Zambia",
-      "primaryCountryIso3": "zmb",
-      "location": {
-        "lat": -14,
-        "lon": 27.43
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52496",
-      "name": "Mozambique: Floods - Dec 2025",
-      "status": "ongoing",
-      "glide": "FL-2025-000227-MOZ",
-      "dateEvent": "2025-12-27T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52496",
-      "primaryCountry": "Mozambique",
-      "primaryCountryIso3": "moz",
-      "location": {
-        "lat": -18.09,
-        "lon": 34.75
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
       ]
     },
     {
@@ -4424,19 +7835,130 @@
       "types": [
         "Epidemic"
       ]
+    },
+    {
+      "id": "52684",
+      "name": "Nepal: Flash Floods - Aug 2026",
+      "status": "ongoing",
+      "glide": "FF-2026-000162-NPL",
+      "dateEvent": "2026-08-26T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52684",
+      "primaryCountry": "Nepal",
+      "primaryCountryIso3": "npl",
+      "location": {
+        "lat": 28.25,
+        "lon": 83.94
+      },
+      "primaryType": "Flash Flood",
+      "types": [
+        "Flash Flood",
+        "Flood",
+        "Land Slide"
+      ]
+    },
+    {
+      "id": "52676",
+      "name": "Indonesia: Earthquake - Aug 2026",
+      "status": "ongoing",
+      "glide": "EQ-2026-000150-IDN",
+      "dateEvent": "2026-08-15T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52676",
+      "primaryCountry": "Indonesia",
+      "primaryCountryIso3": "idn",
+      "location": {
+        "lat": -2.28,
+        "lon": 117.37
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake"
+      ]
+    },
+    {
+      "id": "52508",
+      "name": "Zimbabwe: Floods - Jan 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000023-ZWE",
+      "dateEvent": "2026-01-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52508",
+      "primaryCountry": "Zimbabwe",
+      "primaryCountryIso3": "zwe",
+      "location": {
+        "lat": -19.19,
+        "lon": 29.94
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52612",
+      "name": "Central African Republic: Cholera Outbreak - Jun 2026",
+      "status": "ongoing",
+      "glide": "EP-2026-000107-CAF",
+      "dateEvent": "2026-06-26T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52612",
+      "primaryCountry": "Central African Republic",
+      "primaryCountryIso3": "caf",
+      "location": {
+        "lat": 6.57,
+        "lon": 20.48
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52543",
+      "name": "Burkina Faso: Measles Outbreak - Jan 2026",
+      "status": "ongoing",
+      "glide": "EP-2026-000176-BFA",
+      "dateEvent": "2026-01-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52543",
+      "primaryCountry": "Burkina Faso",
+      "primaryCountryIso3": "bfa",
+      "location": {
+        "lat": 12.28,
+        "lon": -1.57
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52699",
+      "name": "Liberia: Floods - Aug 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000175-LBR",
+      "dateEvent": "2026-08-24T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52699",
+      "primaryCountry": "Liberia",
+      "primaryCountryIso3": "lbr",
+      "location": {
+        "lat": 6.45,
+        "lon": -9.31
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
     }
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
     "appname": "arac-quanta-analytica+HID+6276e9b739d968248cb923e7",
-    "queryGeneratedAt": "2026-09-16T14:29:17.229Z",
+    "queryGeneratedAt": "2026-09-16T16:15:18.721Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
     "aggregateStrategy": "Component-resilient hourly snapshot with separate daily country enrichment",
-    "momentumStatus": "last-known-good",
+    "momentumStatus": "fresh",
     "coordinateSource": "Embedded ReliefWeb primary_country.location where available",
     "countryNameSource": "Embedded ReliefWeb primary_country names; ISO3 fallback where unavailable",
-    "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures."
+    "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
+    "reportThumbnailSource": "ReliefWeb image or attachment preview fields when available"
   }
 }
