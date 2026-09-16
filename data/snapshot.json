@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-09-16T16:47:46.383Z",
-  "lastSyncAttemptAt": "2026-09-16T16:47:46.383Z",
+  "generatedAt": "2026-09-16T17:01:08.862Z",
+  "lastSyncAttemptAt": "2026-09-16T17:01:08.862Z",
   "enrichedAt": null,
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -1247,32 +1247,6 @@
       "timeline": [],
       "recentReports": [
         {
-          "id": "4230089",
-          "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #2 (14 September 2026)",
-          "dateOriginal": "2026-09-16T00:00:00+00:00",
-          "primaryCountry": "Yemen",
-          "primaryCountryIso3": "yem",
-          "primaryCountryLocation": {
-            "lat": 15.94,
-            "lon": 47.62
-          },
-          "source": "IOM",
-          "format": "Situation Report",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
-            "https://reliefweb.int/sites/default/files/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-2-14-september-2026"
-        },
-        {
           "id": "4230092",
           "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #3 (15 September 2026)",
           "dateOriginal": "2026-09-16T00:00:00+00:00",
@@ -1297,6 +1271,32 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-3-15-september-2026"
+        },
+        {
+          "id": "4230089",
+          "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #2 (14 September 2026)",
+          "dateOriginal": "2026-09-16T00:00:00+00:00",
+          "primaryCountry": "Yemen",
+          "primaryCountryIso3": "yem",
+          "primaryCountryLocation": {
+            "lat": 15.94,
+            "lon": 47.62
+          },
+          "source": "IOM",
+          "format": "Situation Report",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
+            "https://reliefweb.int/sites/default/files/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-2-14-september-2026"
         },
         {
           "id": "4230016",
@@ -1940,28 +1940,6 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/syrian-arab-republic/syria-advances-towards-national-multi-hazard-early-warning-system"
-        },
-        {
-          "id": "4229973",
-          "title": "MSF Syria: One year of strengthening access to healthcare in Daraa Governate",
-          "dateOriginal": "2026-09-15T00:00:00+00:00",
-          "primaryCountry": "Syrian Arab Republic",
-          "primaryCountryIso3": "syr",
-          "primaryCountryLocation": {
-            "lat": 35.01,
-            "lon": 38.51
-          },
-          "source": "MSF",
-          "format": "News and Press Release",
-          "themes": [
-            "Health",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/syrian-arab-republic/msf-syria-one-year-strengthening-access-healthcare-daraa-governate"
         }
       ],
       "enrichmentStatus": "pending-daily"
@@ -2602,32 +2580,6 @@
       "timeline": [],
       "recentReports": [
         {
-          "id": "4229888",
-          "title": "UNHCR Niger - Niamey Map Population of Concern - Aout 2026",
-          "dateOriginal": "2026-09-15T00:00:00+00:00",
-          "primaryCountry": "Niger",
-          "primaryCountryIso3": "ner",
-          "primaryCountryLocation": {
-            "lat": 17.43,
-            "lon": 9.4
-          },
-          "source": "UNHCR",
-          "format": "Infographic",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
-            "https://reliefweb.int/sites/default/files/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/niger/unhcr-niger-niamey-map-population-concern-aout-2026"
-        },
-        {
           "id": "4229886",
           "title": "UNHCR Niger - Maradi -- Personnes relevant de la compétence du HCR - Août 2026",
           "dateOriginal": "2026-09-15T00:00:00+00:00",
@@ -2678,6 +2630,32 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/niger/unhcr-niger-agadez-personnes-relevant-de-la-competence-du-hcr-aout-2026"
+        },
+        {
+          "id": "4229888",
+          "title": "UNHCR Niger - Niamey Map Population of Concern - Aout 2026",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Niger",
+          "primaryCountryIso3": "ner",
+          "primaryCountryLocation": {
+            "lat": 17.43,
+            "lon": 9.4
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
+            "https://reliefweb.int/sites/default/files/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/niger/unhcr-niger-niamey-map-population-concern-aout-2026"
         }
       ],
       "enrichmentStatus": "pending-daily"
@@ -2960,7 +2938,34 @@
       "topFormats": [],
       "disasterTypes": [],
       "timeline": [],
-      "recentReports": [],
+      "recentReports": [
+        {
+          "id": "4229967",
+          "title": "UNHCR Burkina Faso: 2026 Funding Update (as of 31 August 2026)",
+          "dateOriginal": "2026-09-15T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "UNHCR",
+          "format": "Other",
+          "themes": [
+            "Contributions"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c4/e6/c4e6023d-759c-41d0-abe9-e1090c7a42da.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c4/e6/c4e6023d-759c-41d0-abe9-e1090c7a42da.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/c4/e6/c4e6023d-759c-41d0-abe9-e1090c7a42da.png",
+            "https://reliefweb.int/sites/default/files/previews/c4/e6/c4e6023d-759c-41d0-abe9-e1090c7a42da.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/c4/e6/c4e6023d-759c-41d0-abe9-e1090c7a42da.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/unhcr-burkina-faso-2026-funding-update-31-august-2026"
+        }
+      ],
       "enrichmentStatus": "pending-daily"
     },
     {
@@ -5187,32 +5192,6 @@
   ],
   "reports": [
     {
-      "id": "4230104",
-      "title": "EMR Polio Bulletin - Issue No. 1458, Week 36 (ending on 13/09/2026)",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "primaryCountryLocation": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "source": "WHO",
-      "format": "Infographic",
-      "themes": [
-        "Health"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/45/dd/45ddac81-1a5a-5c62-b690-1efdfb402424.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/45/dd/45ddac81-1a5a-5c62-b690-1efdfb402424.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/45/dd/45ddac81-1a5a-5c62-b690-1efdfb402424.png",
-        "https://reliefweb.int/sites/default/files/previews/45/dd/45ddac81-1a5a-5c62-b690-1efdfb402424.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/45/dd/45ddac81-1a5a-5c62-b690-1efdfb402424.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/afghanistan/emr-polio-bulletin-issue-no-1458-week-36-ending-13092026"
-    },
-    {
       "id": "4230029",
       "title": "UNICEF Myanmar Humanitarian Situation Report No. 1 (Mid-Year), January-June 2026",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
@@ -5326,7 +5305,35 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/17/d7/17d7e1df-d290-405a-8b15-1ee5eeff07d1.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/colombia/analisis-de-situacion-y-respuesta-al-terremoto-10-de-septiembre-2026"
+      "url": "https://reliefweb.int/report/colombia/analisis-de-situacion-y-respuesta-al-terremoto-10-de-septiembre-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230050.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/17/d7/17d7e1df-d290-405a-8b15-1ee5eeff07d1.png"
+    },
+    {
+      "id": "4230104",
+      "title": "EMR Polio Bulletin - Issue No. 1458, Week 36 (ending on 13/09/2026)",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
+      "primaryCountryLocation": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
+      "source": "WHO",
+      "format": "Infographic",
+      "themes": [
+        "Health"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/45/dd/45ddac81-1a5a-5c62-b690-1efdfb402424.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/45/dd/45ddac81-1a5a-5c62-b690-1efdfb402424.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/45/dd/45ddac81-1a5a-5c62-b690-1efdfb402424.png",
+        "https://reliefweb.int/sites/default/files/previews/45/dd/45ddac81-1a5a-5c62-b690-1efdfb402424.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/45/dd/45ddac81-1a5a-5c62-b690-1efdfb402424.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/afghanistan/emr-polio-bulletin-issue-no-1458-week-36-ending-13092026"
     },
     {
       "id": "4230090",
@@ -5357,58 +5364,6 @@
       "url": "https://reliefweb.int/report/mauritania/mauritanie-etude-sur-la-vulnerabilite-climatique-decembre-2025-janvier-2026"
     },
     {
-      "id": "4230089",
-      "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #2 (14 September 2026)",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
-      "primaryCountryLocation": {
-        "lat": 15.94,
-        "lon": 47.62
-      },
-      "source": "IOM",
-      "format": "Situation Report",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
-        "https://reliefweb.int/sites/default/files/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-2-14-september-2026"
-    },
-    {
-      "id": "4230097",
-      "title": "Nigeria: North-west Nigeria — Katsina State Flash Report 298 (23 August 2026)",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Nigeria",
-      "primaryCountryIso3": "nga",
-      "primaryCountryLocation": {
-        "lat": 9.59,
-        "lon": 8.11
-      },
-      "source": "IOM",
-      "format": "Situation Report",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9f/76/9f764327-a4a3-5468-986b-5bad7a6d3bc9.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9f/76/9f764327-a4a3-5468-986b-5bad7a6d3bc9.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9f/76/9f764327-a4a3-5468-986b-5bad7a6d3bc9.png",
-        "https://reliefweb.int/sites/default/files/previews/9f/76/9f764327-a4a3-5468-986b-5bad7a6d3bc9.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9f/76/9f764327-a4a3-5468-986b-5bad7a6d3bc9.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/nigeria/nigeria-north-west-nigeria-katsina-state-flash-report-298-23-august-2026"
-    },
-    {
       "id": "4230092",
       "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #3 (15 September 2026)",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
@@ -5435,6 +5390,32 @@
       "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-3-15-september-2026"
     },
     {
+      "id": "4230089",
+      "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #2 (14 September 2026)",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "source": "IOM",
+      "format": "Situation Report",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
+        "https://reliefweb.int/sites/default/files/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/56/82/56821cb2-a9f9-5740-ae77-a4dc21e71f0d.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-2-14-september-2026"
+    },
+    {
       "id": "4230115",
       "title": "MSF DRC: Ebola teams warn of serious risk as outbreak spreads to new areas",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
@@ -5456,6 +5437,32 @@
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/democratic-republic-congo/msf-drc-ebola-teams-warn-serious-risk-outbreak-spreads-new-areas"
+    },
+    {
+      "id": "4230097",
+      "title": "Nigeria: North-west Nigeria — Katsina State Flash Report 298 (23 August 2026)",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Nigeria",
+      "primaryCountryIso3": "nga",
+      "primaryCountryLocation": {
+        "lat": 9.59,
+        "lon": 8.11
+      },
+      "source": "IOM",
+      "format": "Situation Report",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9f/76/9f764327-a4a3-5468-986b-5bad7a6d3bc9.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9f/76/9f764327-a4a3-5468-986b-5bad7a6d3bc9.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9f/76/9f764327-a4a3-5468-986b-5bad7a6d3bc9.png",
+        "https://reliefweb.int/sites/default/files/previews/9f/76/9f764327-a4a3-5468-986b-5bad7a6d3bc9.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9f/76/9f764327-a4a3-5468-986b-5bad7a6d3bc9.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/nigeria/nigeria-north-west-nigeria-katsina-state-flash-report-298-23-august-2026"
     },
     {
       "id": "4230016",
@@ -5617,7 +5624,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/e6/09/e6093e8c-a364-57f6-b442-8c4edb660231.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/lebanon/escalation-middle-east-and-beyond-special-focus-yemen-07-june-14-september-2026"
+      "url": "https://reliefweb.int/report/lebanon/escalation-middle-east-and-beyond-special-focus-yemen-07-june-14-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230091.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/previews/e6/09/e6093e8c-a364-57f6-b442-8c4edb660231.png"
     },
     {
       "id": "4230098",
@@ -5809,7 +5818,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/66/36/6636d9b0-326d-4833-a043-a94781231e84.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/myanmar/route-based-snapshot-data-trends-refugees-myanmar-end-august-2026"
+      "url": "https://reliefweb.int/report/myanmar/route-based-snapshot-data-trends-refugees-myanmar-end-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230070.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/66/36/6636d9b0-326d-4833-a043-a94781231e84.png"
     },
     {
       "id": "4230106",
@@ -5951,35 +5962,6 @@
       "url": "https://reliefweb.int/report/kenya/kenya-ipc-acute-food-insecurity-and-acute-malnutrition-analysis-july-2026-january-2027-published-14-september-2026"
     },
     {
-      "id": "4229824",
-      "title": "Sudan - National Health Cluster Meeting, 9th September 2026 [Meeting Minutes]",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "primaryCountryIso3": "sdn",
-      "primaryCountryLocation": {
-        "lat": 15,
-        "lon": 30
-      },
-      "source": "Health Cluster, WHO",
-      "format": "Other",
-      "themes": [
-        "Coordination",
-        "Health"
-      ],
-      "disasterTypes": [
-        "Epidemic"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a5/18/a5189f3e-0f37-45d7-9b9d-d9c1ad90ce9b.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a5/18/a5189f3e-0f37-45d7-9b9d-d9c1ad90ce9b.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/a5/18/a5189f3e-0f37-45d7-9b9d-d9c1ad90ce9b.png",
-        "https://reliefweb.int/sites/default/files/previews/a5/18/a5189f3e-0f37-45d7-9b9d-d9c1ad90ce9b.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/a5/18/a5189f3e-0f37-45d7-9b9d-d9c1ad90ce9b.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/sudan-national-health-cluster-meeting-9th-september-2026-meeting-minutes"
-    },
-    {
       "id": "4229854",
       "title": "Women in the occupied West Bank fear violence and arrest, as settler attacks, military operations, and movement restrictions reach two-decade high",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
@@ -6092,30 +6074,38 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/eb/26/eb26a7d9-8236-5911-afbd-bbd174807205.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-drc-glance-31-august-2026"
+      "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-drc-glance-31-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4229856.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/large/public/previews/eb/26/eb26a7d9-8236-5911-afbd-bbd174807205.png"
     },
     {
-      "id": "4229869",
-      "title": "GPC Interagency Field Support Trends Overview (January-June 2026)",
+      "id": "4229824",
+      "title": "Sudan - National Health Cluster Meeting, 9th September 2026 [Meeting Minutes]",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "Protection Cluster",
-      "format": "Assessment",
+      "primaryCountry": "Sudan",
+      "primaryCountryIso3": "sdn",
+      "primaryCountryLocation": {
+        "lat": 15,
+        "lon": 30
+      },
+      "source": "Health Cluster, WHO",
+      "format": "Other",
       "themes": [
-        "Protection and Human Rights"
+        "Coordination",
+        "Health"
       ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/59/99/5999f084-71f9-5508-9cd4-7015a5be1d5b.png",
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a5/18/a5189f3e-0f37-45d7-9b9d-d9c1ad90ce9b.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/59/99/5999f084-71f9-5508-9cd4-7015a5be1d5b.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/59/99/5999f084-71f9-5508-9cd4-7015a5be1d5b.png",
-        "https://reliefweb.int/sites/default/files/previews/59/99/5999f084-71f9-5508-9cd4-7015a5be1d5b.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/59/99/5999f084-71f9-5508-9cd4-7015a5be1d5b.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a5/18/a5189f3e-0f37-45d7-9b9d-d9c1ad90ce9b.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/a5/18/a5189f3e-0f37-45d7-9b9d-d9c1ad90ce9b.png",
+        "https://reliefweb.int/sites/default/files/previews/a5/18/a5189f3e-0f37-45d7-9b9d-d9c1ad90ce9b.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/a5/18/a5189f3e-0f37-45d7-9b9d-d9c1ad90ce9b.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/gpc-interagency-field-support-trends-overview-january-june-2026"
+      "url": "https://reliefweb.int/report/sudan/sudan-national-health-cluster-meeting-9th-september-2026-meeting-minutes"
     },
     {
       "id": "4229859",
@@ -6141,109 +6131,32 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/8b/13/8b13156b-70f1-5b37-8df2-c691b6d24cd5.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-voluntary-repatriation-fromto-drc-31-august-2026"
+      "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-voluntary-repatriation-fromto-drc-31-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4229859.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8b/13/8b13156b-70f1-5b37-8df2-c691b6d24cd5.png"
     },
     {
-      "id": "4229888",
-      "title": "UNHCR Niger - Niamey Map Population of Concern - Aout 2026",
+      "id": "4229869",
+      "title": "GPC Interagency Field Support Trends Overview (January-June 2026)",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Niger",
-      "primaryCountryIso3": "ner",
-      "primaryCountryLocation": {
-        "lat": 17.43,
-        "lon": 9.4
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "Protection Cluster",
+      "format": "Assessment",
       "themes": [
         "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/59/99/5999f084-71f9-5508-9cd4-7015a5be1d5b.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
-        "https://reliefweb.int/sites/default/files/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/59/99/5999f084-71f9-5508-9cd4-7015a5be1d5b.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/59/99/5999f084-71f9-5508-9cd4-7015a5be1d5b.png",
+        "https://reliefweb.int/sites/default/files/previews/59/99/5999f084-71f9-5508-9cd4-7015a5be1d5b.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/59/99/5999f084-71f9-5508-9cd4-7015a5be1d5b.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/niger/unhcr-niger-niamey-map-population-concern-aout-2026"
-    },
-    {
-      "id": "4229861",
-      "title": "CORE Sudan: Influx from South Sudan - 31 August 2026",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "primaryCountryIso3": "sdn",
-      "primaryCountryLocation": {
-        "lat": 15,
-        "lon": 30
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png",
-        "https://reliefweb.int/sites/default/files/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/core-sudan-influx-south-sudan-31-august-2026"
-    },
-    {
-      "id": "4229904",
-      "title": "Spain Arrivals Snapshot - August 2026",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Spain",
-      "primaryCountryIso3": "esp",
-      "primaryCountryLocation": {
-        "lat": 40.3,
-        "lon": -3.28
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8b/26/8b26ffec-743d-5377-a115-638c1d708279.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8b/26/8b26ffec-743d-5377-a115-638c1d708279.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/8b/26/8b26ffec-743d-5377-a115-638c1d708279.png",
-        "https://reliefweb.int/sites/default/files/previews/8b/26/8b26ffec-743d-5377-a115-638c1d708279.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/8b/26/8b26ffec-743d-5377-a115-638c1d708279.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/spain/spain-arrivals-snapshot-august-2026"
-    },
-    {
-      "id": "4229943",
-      "title": "The air support behind Ebola response in the Democratic Republic of the Congo",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "primaryCountryLocation": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "source": "WHO",
-      "format": "News and Press Release",
-      "themes": [
-        "Health",
-        "Logistics and Telecommunications"
-      ],
-      "disasterTypes": [
-        "Epidemic"
-      ],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/democratic-republic-congo/air-support-behind-ebola-response-democratic-republic-congo"
+      "url": "https://reliefweb.int/report/world/gpc-interagency-field-support-trends-overview-january-june-2026"
     },
     {
       "id": "4229921",
@@ -6289,34 +6202,6 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/guinea/wfp-guinea-country-brief-september-2026"
-    },
-    {
-      "id": "4229933",
-      "title": "Uganda Refugee Response: Livelihoods and Resilience dashboard - Quarter 2 2026",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Uganda",
-      "primaryCountryIso3": "uga",
-      "primaryCountryLocation": {
-        "lat": 1.28,
-        "lon": 32.39
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Agriculture",
-        "Protection and Human Rights",
-        "Recovery and Reconstruction"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8d/fa/8dfa977d-be6b-515c-8a0b-367778c55858.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8d/fa/8dfa977d-be6b-515c-8a0b-367778c55858.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/8d/fa/8dfa977d-be6b-515c-8a0b-367778c55858.png",
-        "https://reliefweb.int/sites/default/files/previews/8d/fa/8dfa977d-be6b-515c-8a0b-367778c55858.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/8d/fa/8dfa977d-be6b-515c-8a0b-367778c55858.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-livelihoods-and-resilience-dashboard-quarter-2-2026"
     },
     {
       "id": "4229886",
@@ -6371,6 +6256,60 @@
       "url": "https://reliefweb.int/report/niger/unhcr-niger-agadez-personnes-relevant-de-la-competence-du-hcr-aout-2026"
     },
     {
+      "id": "4229888",
+      "title": "UNHCR Niger - Niamey Map Population of Concern - Aout 2026",
+      "dateOriginal": "2026-09-15T00:00:00+00:00",
+      "primaryCountry": "Niger",
+      "primaryCountryIso3": "ner",
+      "primaryCountryLocation": {
+        "lat": 17.43,
+        "lon": 9.4
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
+        "https://reliefweb.int/sites/default/files/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/72/cb/72cb3d8c-a77f-5331-8a78-50fa63fbdebe.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/niger/unhcr-niger-niamey-map-population-concern-aout-2026"
+    },
+    {
+      "id": "4229861",
+      "title": "CORE Sudan: Influx from South Sudan - 31 August 2026",
+      "dateOriginal": "2026-09-15T00:00:00+00:00",
+      "primaryCountry": "Sudan",
+      "primaryCountryIso3": "sdn",
+      "primaryCountryLocation": {
+        "lat": 15,
+        "lon": 30
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png",
+        "https://reliefweb.int/sites/default/files/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/sudan/core-sudan-influx-south-sudan-31-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4229861.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/87/4d/874d9653-fa0b-54c0-b749-409b57b4b221.png"
+    },
+    {
       "id": "4229948",
       "title": "Yemen: la escalada del conflicto provoca nuevos desplazamientos y la llegada de refugiados a Yibuti",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
@@ -6390,6 +6329,58 @@
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/yemen/yemen-la-escalada-del-conflicto-provoca-nuevos-desplazamientos-y-la-llegada-de-refugiados-yibuti"
+    },
+    {
+      "id": "4229943",
+      "title": "The air support behind Ebola response in the Democratic Republic of the Congo",
+      "dateOriginal": "2026-09-15T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "source": "WHO",
+      "format": "News and Press Release",
+      "themes": [
+        "Health",
+        "Logistics and Telecommunications"
+      ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/democratic-republic-congo/air-support-behind-ebola-response-democratic-republic-congo"
+    },
+    {
+      "id": "4229933",
+      "title": "Uganda Refugee Response: Livelihoods and Resilience dashboard - Quarter 2 2026",
+      "dateOriginal": "2026-09-15T00:00:00+00:00",
+      "primaryCountry": "Uganda",
+      "primaryCountryIso3": "uga",
+      "primaryCountryLocation": {
+        "lat": 1.28,
+        "lon": 32.39
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Agriculture",
+        "Protection and Human Rights",
+        "Recovery and Reconstruction"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8d/fa/8dfa977d-be6b-515c-8a0b-367778c55858.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8d/fa/8dfa977d-be6b-515c-8a0b-367778c55858.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/8d/fa/8dfa977d-be6b-515c-8a0b-367778c55858.png",
+        "https://reliefweb.int/sites/default/files/previews/8d/fa/8dfa977d-be6b-515c-8a0b-367778c55858.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/8d/fa/8dfa977d-be6b-515c-8a0b-367778c55858.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-livelihoods-and-resilience-dashboard-quarter-2-2026"
     },
     {
       "id": "4229929",
@@ -6417,28 +6408,6 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-gender-based-violence-gbv-dashboard-quarter-2-2026"
-    },
-    {
-      "id": "4229973",
-      "title": "MSF Syria: One year of strengthening access to healthcare in Daraa Governate",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Syrian Arab Republic",
-      "primaryCountryIso3": "syr",
-      "primaryCountryLocation": {
-        "lat": 35.01,
-        "lon": 38.51
-      },
-      "source": "MSF",
-      "format": "News and Press Release",
-      "themes": [
-        "Health",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/syrian-arab-republic/msf-syria-one-year-strengthening-access-healthcare-daraa-governate"
     },
     {
       "id": "4229974",
@@ -6491,9 +6460,152 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/cameroon/cameroon-mco-funding-update-2026-31-august-2026"
+    },
+    {
+      "id": "4229967",
+      "title": "UNHCR Burkina Faso: 2026 Funding Update (as of 31 August 2026)",
+      "dateOriginal": "2026-09-15T00:00:00+00:00",
+      "primaryCountry": "Burkina Faso",
+      "primaryCountryIso3": "bfa",
+      "primaryCountryLocation": {
+        "lat": 12.28,
+        "lon": -1.57
+      },
+      "source": "UNHCR",
+      "format": "Other",
+      "themes": [
+        "Contributions"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c4/e6/c4e6023d-759c-41d0-abe9-e1090c7a42da.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c4/e6/c4e6023d-759c-41d0-abe9-e1090c7a42da.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/c4/e6/c4e6023d-759c-41d0-abe9-e1090c7a42da.png",
+        "https://reliefweb.int/sites/default/files/previews/c4/e6/c4e6023d-759c-41d0-abe9-e1090c7a42da.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/c4/e6/c4e6023d-759c-41d0-abe9-e1090c7a42da.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/burkina-faso/unhcr-burkina-faso-2026-funding-update-31-august-2026"
+    },
+    {
+      "id": "4229904",
+      "title": "Spain Arrivals Snapshot - August 2026",
+      "dateOriginal": "2026-09-15T00:00:00+00:00",
+      "primaryCountry": "Spain",
+      "primaryCountryIso3": "esp",
+      "primaryCountryLocation": {
+        "lat": 40.3,
+        "lon": -3.28
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8b/26/8b26ffec-743d-5377-a115-638c1d708279.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8b/26/8b26ffec-743d-5377-a115-638c1d708279.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/8b/26/8b26ffec-743d-5377-a115-638c1d708279.png",
+        "https://reliefweb.int/sites/default/files/previews/8b/26/8b26ffec-743d-5377-a115-638c1d708279.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/8b/26/8b26ffec-743d-5377-a115-638c1d708279.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/spain/spain-arrivals-snapshot-august-2026"
     }
   ],
   "disasters": [
+    {
+      "id": "52563",
+      "name": "Liberia: Windstorms - Mar 2026",
+      "status": "ongoing",
+      "glide": "VW-2026-000054-LBR",
+      "dateEvent": "2026-03-24T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52563",
+      "primaryCountry": "Liberia",
+      "primaryCountryIso3": "lbr",
+      "location": {
+        "lat": 6.45,
+        "lon": -9.31
+      },
+      "primaryType": "Severe Local Storm",
+      "types": [
+        "Severe Local Storm"
+      ]
+    },
+    {
+      "id": "52549",
+      "name": "Suriname: Chikungunya Virus Outbreak - Mar 2026",
+      "status": "ongoing",
+      "glide": "EP-2026-000037-SUR",
+      "dateEvent": "2026-03-04T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52549",
+      "primaryCountry": "Suriname",
+      "primaryCountryIso3": "sur",
+      "location": {
+        "lat": 3.69,
+        "lon": -55.91
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52512",
+      "name": "Tropical Cyclone Fytia - Jan 2026",
+      "status": "ongoing",
+      "glide": "TC-2026-000009-MDG",
+      "dateEvent": "2026-02-28T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52512",
+      "primaryCountry": "Madagascar",
+      "primaryCountryIso3": "mdg",
+      "location": {
+        "lat": -19.37,
+        "lon": 46.71
+      },
+      "primaryType": "Tropical Cyclone",
+      "types": [
+        "Flood",
+        "Tropical Cyclone"
+      ]
+    },
+    {
+      "id": "52503",
+      "name": "Zambia: Floods - Jan 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000020-ZMB",
+      "dateEvent": "2026-01-08T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52503",
+      "primaryCountry": "Zambia",
+      "primaryCountryIso3": "zmb",
+      "location": {
+        "lat": -14,
+        "lon": 27.43
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52496",
+      "name": "Mozambique: Floods - Dec 2025",
+      "status": "ongoing",
+      "glide": "FL-2025-000227-MOZ",
+      "dateEvent": "2025-12-27T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52496",
+      "primaryCountry": "Mozambique",
+      "primaryCountryIso3": "moz",
+      "location": {
+        "lat": -18.09,
+        "lon": 34.75
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
     {
       "id": "52419",
       "name": "Somalia: Diphtheria Outbreak - Jul 2025",
@@ -6726,97 +6838,6 @@
       "primaryType": "Epidemic",
       "types": [
         "Epidemic"
-      ]
-    },
-    {
-      "id": "52563",
-      "name": "Liberia: Windstorms - Mar 2026",
-      "status": "ongoing",
-      "glide": "VW-2026-000054-LBR",
-      "dateEvent": "2026-03-24T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52563",
-      "primaryCountry": "Liberia",
-      "primaryCountryIso3": "lbr",
-      "location": {
-        "lat": 6.45,
-        "lon": -9.31
-      },
-      "primaryType": "Severe Local Storm",
-      "types": [
-        "Severe Local Storm"
-      ]
-    },
-    {
-      "id": "52549",
-      "name": "Suriname: Chikungunya Virus Outbreak - Mar 2026",
-      "status": "ongoing",
-      "glide": "EP-2026-000037-SUR",
-      "dateEvent": "2026-03-04T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52549",
-      "primaryCountry": "Suriname",
-      "primaryCountryIso3": "sur",
-      "location": {
-        "lat": 3.69,
-        "lon": -55.91
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52512",
-      "name": "Tropical Cyclone Fytia - Jan 2026",
-      "status": "ongoing",
-      "glide": "TC-2026-000009-MDG",
-      "dateEvent": "2026-02-28T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52512",
-      "primaryCountry": "Madagascar",
-      "primaryCountryIso3": "mdg",
-      "location": {
-        "lat": -19.37,
-        "lon": 46.71
-      },
-      "primaryType": "Tropical Cyclone",
-      "types": [
-        "Flood",
-        "Tropical Cyclone"
-      ]
-    },
-    {
-      "id": "52503",
-      "name": "Zambia: Floods - Jan 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000020-ZMB",
-      "dateEvent": "2026-01-08T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52503",
-      "primaryCountry": "Zambia",
-      "primaryCountryIso3": "zmb",
-      "location": {
-        "lat": -14,
-        "lon": 27.43
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52496",
-      "name": "Mozambique: Floods - Dec 2025",
-      "status": "ongoing",
-      "glide": "FL-2025-000227-MOZ",
-      "dateEvent": "2025-12-27T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52496",
-      "primaryCountry": "Mozambique",
-      "primaryCountryIso3": "moz",
-      "location": {
-        "lat": -18.09,
-        "lon": 34.75
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
       ]
     },
     {
@@ -7137,6 +7158,187 @@
       ]
     },
     {
+      "id": "52435",
+      "name": "Bolivia: Wild Fires - Aug 2025",
+      "status": "ongoing",
+      "glide": "WF-2025-000163-BOL",
+      "dateEvent": "2025-08-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52435",
+      "primaryCountry": "Bolivia (Plurinational State of)",
+      "primaryCountryIso3": "bol",
+      "location": {
+        "lat": -16.97,
+        "lon": -64.27
+      },
+      "primaryType": "Wild Fire",
+      "types": [
+        "Wild Fire"
+      ]
+    },
+    {
+      "id": "52423",
+      "name": "Cabo Verde: Flash Floods - Aug 2025",
+      "status": "ongoing",
+      "glide": "FL-2025-000147-CPV",
+      "dateEvent": "2025-08-11T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52423",
+      "primaryCountry": "Cabo Verde",
+      "primaryCountryIso3": "cpv",
+      "location": {
+        "lat": 15.98,
+        "lon": -23.97
+      },
+      "primaryType": "Flash Flood",
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ]
+    },
+    {
+      "id": "52415",
+      "name": "Congo: Cholera Outbreak - Jul 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000130-COG",
+      "dateEvent": "2025-07-26T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52415",
+      "primaryCountry": "Congo",
+      "primaryCountryIso3": "cog",
+      "location": {
+        "lat": -0.31,
+        "lon": 15.99
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52406",
+      "name": "Guatemala: Earthquake - Jul 2025",
+      "status": "ongoing",
+      "glide": "EQ-2025-000111-GTM",
+      "dateEvent": "2025-07-08T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52406",
+      "primaryCountry": "Guatemala",
+      "primaryCountryIso3": "gtm",
+      "location": {
+        "lat": 15.61,
+        "lon": -90.39
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake"
+      ]
+    },
+    {
+      "id": "52388",
+      "name": "Côte d'Ivoire: Cholera Outbreak - Jun 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000087-CIV",
+      "dateEvent": "2025-06-05T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52388",
+      "primaryCountry": "Côte d'Ivoire",
+      "primaryCountryIso3": "civ",
+      "location": {
+        "lat": 7.81,
+        "lon": -5.38
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52372",
+      "name": "Zimbabwe: Malaria Outbreak - May 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000075-ZWE",
+      "dateEvent": "2025-05-03T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52372",
+      "primaryCountry": "Zimbabwe",
+      "primaryCountryIso3": "zwe",
+      "location": {
+        "lat": -19.19,
+        "lon": 29.94
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52318",
+      "name": "Ecuador: Oil Spill - Mar 2025",
+      "status": "ongoing",
+      "glide": "AC-2025-000037-ECU",
+      "dateEvent": "2025-03-13T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52318",
+      "primaryCountry": "Ecuador",
+      "primaryCountryIso3": "ecu",
+      "location": {
+        "lat": -1.16,
+        "lon": -78.43
+      },
+      "primaryType": "Technological Disaster",
+      "types": [
+        "Technological Disaster"
+      ]
+    },
+    {
+      "id": "52262",
+      "name": "Angola: Cholera Outbreak - Jan 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000013-AGO",
+      "dateEvent": "2025-01-07T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52262",
+      "primaryCountry": "Angola",
+      "primaryCountryIso3": "ago",
+      "location": {
+        "lat": -12.1,
+        "lon": 17.91
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52040",
+      "name": "Angola: Drought - 2024-2026",
+      "status": "ongoing",
+      "glide": "DR-2024-000095-AGO",
+      "dateEvent": "2024-05-22T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52040",
+      "primaryCountry": "Angola",
+      "primaryCountryIso3": "ago",
+      "location": {
+        "lat": -12.1,
+        "lon": 17.91
+      },
+      "primaryType": "Drought",
+      "types": [
+        "Drought"
+      ]
+    },
+    {
+      "id": "52015",
+      "name": "Mozambique: Drought - May 2024",
+      "status": "ongoing",
+      "glide": "DR-2024-000073-MOZ",
+      "dateEvent": "2024-05-23T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52015",
+      "primaryCountry": "Mozambique",
+      "primaryCountryIso3": "moz",
+      "location": {
+        "lat": -18.09,
+        "lon": 34.75
+      },
+      "primaryType": "Drought",
+      "types": [
+        "Drought"
+      ]
+    },
+    {
       "id": "52554",
       "name": "Botswana: Floods - Mar 2026",
       "status": "ongoing",
@@ -7322,187 +7524,6 @@
       ]
     },
     {
-      "id": "52435",
-      "name": "Bolivia: Wild Fires - Aug 2025",
-      "status": "ongoing",
-      "glide": "WF-2025-000163-BOL",
-      "dateEvent": "2025-08-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52435",
-      "primaryCountry": "Bolivia (Plurinational State of)",
-      "primaryCountryIso3": "bol",
-      "location": {
-        "lat": -16.97,
-        "lon": -64.27
-      },
-      "primaryType": "Wild Fire",
-      "types": [
-        "Wild Fire"
-      ]
-    },
-    {
-      "id": "52423",
-      "name": "Cabo Verde: Flash Floods - Aug 2025",
-      "status": "ongoing",
-      "glide": "FL-2025-000147-CPV",
-      "dateEvent": "2025-08-11T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52423",
-      "primaryCountry": "Cabo Verde",
-      "primaryCountryIso3": "cpv",
-      "location": {
-        "lat": 15.98,
-        "lon": -23.97
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood",
-        "Flood"
-      ]
-    },
-    {
-      "id": "52415",
-      "name": "Congo: Cholera Outbreak - Jul 2025",
-      "status": "ongoing",
-      "glide": "EP-2025-000130-COG",
-      "dateEvent": "2025-07-26T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52415",
-      "primaryCountry": "Congo",
-      "primaryCountryIso3": "cog",
-      "location": {
-        "lat": -0.31,
-        "lon": 15.99
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52406",
-      "name": "Guatemala: Earthquake - Jul 2025",
-      "status": "ongoing",
-      "glide": "EQ-2025-000111-GTM",
-      "dateEvent": "2025-07-08T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52406",
-      "primaryCountry": "Guatemala",
-      "primaryCountryIso3": "gtm",
-      "location": {
-        "lat": 15.61,
-        "lon": -90.39
-      },
-      "primaryType": "Earthquake",
-      "types": [
-        "Earthquake"
-      ]
-    },
-    {
-      "id": "52388",
-      "name": "Côte d'Ivoire: Cholera Outbreak - Jun 2025",
-      "status": "ongoing",
-      "glide": "EP-2025-000087-CIV",
-      "dateEvent": "2025-06-05T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52388",
-      "primaryCountry": "Côte d'Ivoire",
-      "primaryCountryIso3": "civ",
-      "location": {
-        "lat": 7.81,
-        "lon": -5.38
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52372",
-      "name": "Zimbabwe: Malaria Outbreak - May 2025",
-      "status": "ongoing",
-      "glide": "EP-2025-000075-ZWE",
-      "dateEvent": "2025-05-03T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52372",
-      "primaryCountry": "Zimbabwe",
-      "primaryCountryIso3": "zwe",
-      "location": {
-        "lat": -19.19,
-        "lon": 29.94
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52318",
-      "name": "Ecuador: Oil Spill - Mar 2025",
-      "status": "ongoing",
-      "glide": "AC-2025-000037-ECU",
-      "dateEvent": "2025-03-13T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52318",
-      "primaryCountry": "Ecuador",
-      "primaryCountryIso3": "ecu",
-      "location": {
-        "lat": -1.16,
-        "lon": -78.43
-      },
-      "primaryType": "Technological Disaster",
-      "types": [
-        "Technological Disaster"
-      ]
-    },
-    {
-      "id": "52262",
-      "name": "Angola: Cholera Outbreak - Jan 2025",
-      "status": "ongoing",
-      "glide": "EP-2025-000013-AGO",
-      "dateEvent": "2025-01-07T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52262",
-      "primaryCountry": "Angola",
-      "primaryCountryIso3": "ago",
-      "location": {
-        "lat": -12.1,
-        "lon": 17.91
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52040",
-      "name": "Angola: Drought - 2024-2026",
-      "status": "ongoing",
-      "glide": "DR-2024-000095-AGO",
-      "dateEvent": "2024-05-22T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52040",
-      "primaryCountry": "Angola",
-      "primaryCountryIso3": "ago",
-      "location": {
-        "lat": -12.1,
-        "lon": 17.91
-      },
-      "primaryType": "Drought",
-      "types": [
-        "Drought"
-      ]
-    },
-    {
-      "id": "52015",
-      "name": "Mozambique: Drought - May 2024",
-      "status": "ongoing",
-      "glide": "DR-2024-000073-MOZ",
-      "dateEvent": "2024-05-23T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52015",
-      "primaryCountry": "Mozambique",
-      "primaryCountryIso3": "moz",
-      "location": {
-        "lat": -18.09,
-        "lon": 34.75
-      },
-      "primaryType": "Drought",
-      "types": [
-        "Drought"
-      ]
-    },
-    {
       "id": "46459",
       "name": "Madagascar: Drought - 2018-2025",
       "status": "ongoing",
@@ -7557,79 +7578,6 @@
       ]
     },
     {
-      "id": "52601",
-      "name": "Syria: Floods - May 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000080-SYR",
-      "dateEvent": "2026-05-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52601",
-      "primaryCountry": "Syrian Arab Republic",
-      "primaryCountryIso3": "syr",
-      "location": {
-        "lat": 35.01,
-        "lon": 38.51
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52659",
-      "name": "Afghanistan: Flash Floods - Jul 2026",
-      "status": "ongoing",
-      "glide": "FF-2026-000120-AFG",
-      "dateEvent": "2026-07-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52659",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "location": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood",
-        "Flood"
-      ]
-    },
-    {
-      "id": "52670",
-      "name": "Colombia: Earthquake - Aug 2026",
-      "status": "ongoing",
-      "glide": "EQ-2026-000146-COL",
-      "dateEvent": "2026-08-10T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52670",
-      "primaryCountry": "Colombia",
-      "primaryCountryIso3": "col",
-      "location": {
-        "lat": 3.9,
-        "lon": -73.07
-      },
-      "primaryType": "Earthquake",
-      "types": [
-        "Earthquake"
-      ]
-    },
-    {
-      "id": "52658",
-      "name": "Myanmar: Floods - Jul 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000141-MMR",
-      "dateEvent": "2026-07-30T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52658",
-      "primaryCountry": "Myanmar",
-      "primaryCountryIso3": "mmr",
-      "location": {
-        "lat": 21.15,
-        "lon": 96.51
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
       "id": "50824",
       "name": "Syria: Drought - 2021-2026",
       "status": "ongoing",
@@ -7645,24 +7593,6 @@
       "primaryType": "Drought",
       "types": [
         "Drought"
-      ]
-    },
-    {
-      "id": "52562",
-      "name": "Typhoon Sinlaku - Apr 2026",
-      "status": "ongoing",
-      "glide": "TC-2026-000050-FSM",
-      "dateEvent": "2026-04-09T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52562",
-      "primaryCountry": "Micronesia (Federated States of)",
-      "primaryCountryIso3": "fsm",
-      "location": {
-        "lat": 6.08,
-        "lon": 160.4
-      },
-      "primaryType": "Tropical Cyclone",
-      "types": [
-        "Tropical Cyclone"
       ]
     },
     {
@@ -7703,6 +7633,42 @@
       ]
     },
     {
+      "id": "52658",
+      "name": "Myanmar: Floods - Jul 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000141-MMR",
+      "dateEvent": "2026-07-30T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52658",
+      "primaryCountry": "Myanmar",
+      "primaryCountryIso3": "mmr",
+      "location": {
+        "lat": 21.15,
+        "lon": 96.51
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52562",
+      "name": "Typhoon Sinlaku - Apr 2026",
+      "status": "ongoing",
+      "glide": "TC-2026-000050-FSM",
+      "dateEvent": "2026-04-09T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52562",
+      "primaryCountry": "Micronesia (Federated States of)",
+      "primaryCountryIso3": "fsm",
+      "location": {
+        "lat": 6.08,
+        "lon": 160.4
+      },
+      "primaryType": "Tropical Cyclone",
+      "types": [
+        "Tropical Cyclone"
+      ]
+    },
+    {
       "id": "23121",
       "name": "Ethiopia: Drought - 2015-2026",
       "status": "ongoing",
@@ -7739,6 +7705,79 @@
       ]
     },
     {
+      "id": "52601",
+      "name": "Syria: Floods - May 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000080-SYR",
+      "dateEvent": "2026-05-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52601",
+      "primaryCountry": "Syrian Arab Republic",
+      "primaryCountryIso3": "syr",
+      "location": {
+        "lat": 35.01,
+        "lon": 38.51
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52604",
+      "name": "Sri Lanka: Dengue Outbreak - May 2026",
+      "status": "ongoing",
+      "glide": "EP-2026-000085-LKA",
+      "dateEvent": "2026-05-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52604",
+      "primaryCountry": "Sri Lanka",
+      "primaryCountryIso3": "lka",
+      "location": {
+        "lat": 7.61,
+        "lon": 80.7
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52659",
+      "name": "Afghanistan: Flash Floods - Jul 2026",
+      "status": "ongoing",
+      "glide": "FF-2026-000120-AFG",
+      "dateEvent": "2026-07-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52659",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
+      "location": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
+      "primaryType": "Flash Flood",
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ]
+    },
+    {
+      "id": "52670",
+      "name": "Colombia: Earthquake - Aug 2026",
+      "status": "ongoing",
+      "glide": "EQ-2026-000146-COL",
+      "dateEvent": "2026-08-10T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52670",
+      "primaryCountry": "Colombia",
+      "primaryCountryIso3": "col",
+      "location": {
+        "lat": 3.9,
+        "lon": -73.07
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake"
+      ]
+    },
+    {
       "id": "52187",
       "name": "South Sudan: Cholera Outbreak - Oct 2024",
       "status": "ongoing",
@@ -7750,6 +7789,24 @@
       "location": {
         "lat": 6.9,
         "lon": 30.5
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52586",
+      "name": "Central/Eastern Africa: Ebola Outbreak - May 2026",
+      "status": "ongoing",
+      "glide": "EP-2026-000071-COD",
+      "dateEvent": "2026-05-05T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52586",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "location": {
+        "lat": -4.03833,
+        "lon": 21.7587
       },
       "primaryType": "Epidemic",
       "types": [
@@ -7775,24 +7832,6 @@
       ]
     },
     {
-      "id": "52604",
-      "name": "Sri Lanka: Dengue Outbreak - May 2026",
-      "status": "ongoing",
-      "glide": "EP-2026-000085-LKA",
-      "dateEvent": "2026-05-01T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52604",
-      "primaryCountry": "Sri Lanka",
-      "primaryCountryIso3": "lka",
-      "location": {
-        "lat": 7.61,
-        "lon": 80.7
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
       "id": "52679",
       "name": "Sierra Leone: Flash Floods - Aug 2026",
       "status": "ongoing",
@@ -7808,24 +7847,6 @@
       "primaryType": "Flash Flood",
       "types": [
         "Flash Flood"
-      ]
-    },
-    {
-      "id": "52586",
-      "name": "Central/Eastern Africa: Ebola Outbreak - May 2026",
-      "status": "ongoing",
-      "glide": "EP-2026-000071-COD",
-      "dateEvent": "2026-05-05T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52586",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "location": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
       ]
     },
     {
@@ -8160,25 +8181,6 @@
       ]
     },
     {
-      "id": "52500",
-      "name": "Syria: Severe Weather - Dec 2025",
-      "status": "ongoing",
-      "glide": "FL-2026-000018-SYR",
-      "dateEvent": "2025-12-31T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52500",
-      "primaryCountry": "Syrian Arab Republic",
-      "primaryCountryIso3": "syr",
-      "location": {
-        "lat": 35.01,
-        "lon": 38.51
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Cold Wave",
-        "Flood"
-      ]
-    },
-    {
       "id": "51911",
       "name": "Zambia: Drought - 2024-2026",
       "status": "ongoing",
@@ -8249,6 +8251,25 @@
       "primaryType": "Tropical Cyclone",
       "types": [
         "Tropical Cyclone"
+      ]
+    },
+    {
+      "id": "52500",
+      "name": "Syria: Severe Weather - Dec 2025",
+      "status": "ongoing",
+      "glide": "FL-2026-000018-SYR",
+      "dateEvent": "2025-12-31T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52500",
+      "primaryCountry": "Syrian Arab Republic",
+      "primaryCountryIso3": "syr",
+      "location": {
+        "lat": 35.01,
+        "lon": 38.51
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Cold Wave",
+        "Flood"
       ]
     },
     {
@@ -8438,7 +8459,7 @@
   "provenance": {
     "provider": "ReliefWeb API V2",
     "appname": "arac-quanta-analytica+HID+6276e9b739d968248cb923e7",
-    "queryGeneratedAt": "2026-09-16T16:47:46.383Z",
+    "queryGeneratedAt": "2026-09-16T17:01:08.862Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -8447,6 +8468,8 @@
     "coordinateSource": "Embedded ReliefWeb primary_country.location where available",
     "countryNameSource": "Embedded ReliefWeb primary_country names; ISO3 fallback where unavailable",
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
-    "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI"
+    "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
+    "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
+    "reportThumbnailCacheAt": "2026-09-16T17:01:12.428Z"
   }
 }
