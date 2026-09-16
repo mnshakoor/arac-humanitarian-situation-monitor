@@ -1,74 +1,110 @@
 # Implementation Status
 
-## v0.4.0-beta
+## Current build: v0.7.0-beta
 
-Implemented and retained from v0.3:
-- Static GitHub Pages application with live ReliefWeb snapshot pipeline
-- Responsive ARAC public-service visual system
-- Global KPI cards and 30-day reporting timeline
-- Country ranking using `primary_country.iso3`
-- Rule-based reporting acceleration with low-base safeguards
-- Humanitarian Information Signal Index (HISI)
-- Full versus provisional HISI transparency depending on enrichment availability
-- Expanded country enrichment targeting the top 30 reporting countries plus standing priority countries, capped at 40 profiles per pass
-- Country workspaces with themes, sources, formats, true 30-day timelines when enriched, reports and active disaster contexts
-- 7-day versus previous-7-day theme momentum
-- Source and format momentum in the enriched snapshot
-- Source ecology metrics using source-assignment concentration, Shannon entropy and effective source count
-- Dedicated country deep links using `?country=ISO3`
-- Country provenance/freshness drawer
-- Browser-local watchlist dashboard
-- Saved Query Lab profiles
-- Expanded QAP v2 export
+AHSM is now a live GitHub Pages humanitarian information-monitoring application using synchronized ReliefWeb API data with regional monitoring, country workspaces, disaster analysis, source provenance, query tooling, network intelligence, and temporal network comparison.
+
+## Core platform retained
+
+- Live ReliefWeb API V2 synchronization
+- Responsive ARAC public-service interface
+- Global KPI dashboard and reporting trend
+- Country rankings using `primary_country.iso3`
+- Crisis Pulse with low-base safeguards
+- Humanitarian Information Signal Index (HISI), including full/provisional transparency
+- Expanded daily/manual enrichment for up to 40 country profiles per pass
+- Country workspaces with themes, sources, formats, timelines, reports, disaster contexts, provenance and QAP export
+- Theme momentum and source ecology
+- Country deep links and local watchlists
 - Global Leaflet reporting map
-- Disaster Explorer with active/alert contexts, type filter and interactive map
-- Reports search and triage workspace
-- Query Lab with structured ReliefWeb POST-body generation and local snapshot execution
+- Disaster Explorer and disaster-to-report drilldowns
+- Reports search and Query Lab
+- Source Register
+- Data Health and component freshness controls
 - CSV/JSON exports and Community View
-- Hourly ReliefWeb core synchronization plus separate daily enrichment
-- Recoverable component failures with last-known-good retention
-- Local caching of available ReliefWeb report preview thumbnails
+- Installable web-app manifest, service-worker caching and last-known-good resilience
+- Automated quality gate and Playwright desktop/mobile smoke tests
 
-Production hardening added in v0.4:
-- Data Health control showing snapshot and component freshness
-- Panel-level freshness/source badges
-- Global Source Register with snapshot provenance and source-presence rankings
-- Disaster-to-report drilldowns using exact ReliefWeb disaster links when present and clearly labeled country + disaster-type inference otherwise
-- Print command and print-focused stylesheet
-- Skip navigation link
-- Strong keyboard focus treatment
-- ARIA live region for operational UI announcements
-- `aria-current` navigation state
-- Installable web-app manifest
-- Service worker with cached application shell
-- Network-first `data/snapshot.json` strategy with cached fallback for temporary connectivity loss
-- Static production quality gate validating required assets, snapshot contract and JavaScript syntax
-- Playwright Chromium smoke-test suite covering desktop and mobile profiles
-- Browser smoke workflow for country workspace, Source Register, Disaster Explorer, data-health controls and accessibility interaction
-- Version advanced to `0.4.0-beta`
+## v0.5 additions
 
-Validated during v0.3 transition:
-- Expanded ReliefWeb enrichment completed 40/40 country profiles in the first validation run
-- Enriched snapshot validation passed
-- Thumbnail cache successfully added local previews for available reports
-- Desktop and mobile layouts were reviewed operationally before beginning v0.4
+- Regional Humanitarian Monitoring workspace
+- Quanta Analytica | ReliefWeb Network Explorer
+- Report, country, source and theme network nodes
+- Interactive node-analysis side panel
+- Keyword, theme, source, country and region filtering
+- Dynamic topic/keyword word cloud
+- ReliefWeb headline ticker using RSS when available with synchronized-report fallback
 
-Current v0.4 validation focus:
-- Confirm GitHub Pages deployment of the complete v0.4 shell
-- Confirm production quality gate remains green after all hardening commits
-- Confirm Playwright desktop/mobile smoke workflow completes successfully
-- Observe service-worker update behavior on the deployed GitHub Pages origin
-- Confirm Data Health correctly reflects degraded/last-known-good component states during a future partial ReliefWeb refresh
-- Continue visual review of print output and long Source Register lists
+## v0.6 additions
 
-Provider behavior retained in the design:
-- ReliefWeb may intermittently return HTTP 504 on comparison queries.
-- AHSM treats recoverable comparison failures independently rather than allowing them to invalidate the public snapshot.
-- The hourly public snapshot remains separate from deeper country enrichment so provider latency in one layer does not prevent the public operational picture from refreshing.
+- Degree centrality
+- Weighted influence
+- Betweenness centrality
+- Weighted label-propagation community detection
+- Community focus mode
+- Weak-tie threshold controls
+- Centrality leader rankings
+- Analyst Investigation Pinboard
+- `quanta.reliefweb.network-investigation.v1` JSON export
+- Native/fallback full-screen Network Explorer mode
+- `F` keyboard shortcut for full-screen investigation mode
+- Expanded network methodology documentation
 
-Next phase after v0.4 beta validation:
-- Stabilize exact ReliefWeb disaster-to-report identifiers in the normalized report schema
-- Add release-level changelog and public About/Public Service Initiative page
-- Consider optional region-level humanitarian reporting views
-- Add formal accessibility audit results and remediation register
-- Prepare v1.0 public-service release candidate
+## v0.7 additions
+
+### Temporal Network Intelligence
+
+The Network Explorer now compares the selected time window with the immediately preceding equivalent period. Supported comparison windows are:
+
+- 24 hours vs previous 24 hours
+- 7 days vs previous 7 days
+- 30 days vs previous 30 days
+
+Temporal analysis uses an entity-projection network of country, source and theme nodes linked by co-occurrence in the same ReliefWeb reports.
+
+The temporal layer currently provides:
+
+- current vs prior report counts
+- emerging relationships
+- disappearing relationships
+- strengthening relationships
+- weakening relationships
+- rising weighted centrality
+- falling weighted centrality
+- weighted community comparison
+- cluster-reassignment indicator
+- compact temporal network comparison visualization
+- integration with existing keyword, theme, source, country and region filters
+- temporal panel retained in full-screen investigation mode
+
+### Analytical boundary
+
+Temporal network change describes changes in the synchronized ReliefWeb information structure. It does not independently establish humanitarian deterioration or improvement, causality, influence, coordination, source independence, actor intent, severity or factual corroboration.
+
+## Validation status
+
+- v0.6 network intelligence desktop/mobile Playwright suite: **passed**
+- v0.7 temporal network Playwright suite: **passed**
+- v0.7 production quality gate: **passed** after correcting a validator case-sensitivity mismatch
+- JavaScript module parsing: **passed**
+- GitHub Pages deployment: active and continuously deploying from `main`
+
+## Current provider-resilience behavior
+
+- ReliefWeb comparison/API failures are isolated by component where practical.
+- Last-known-good public data remain available during recoverable upstream failures.
+- Hourly global synchronization remains separate from deeper country enrichment.
+- ReliefWeb RSS may return HTTP 406 to automated requests; the ticker falls back to synchronized current ReliefWeb report URLs without taking the application offline.
+
+## Recommended next phase
+
+The next phase should focus on **temporal investigation depth and release readiness**, including:
+
+1. persistable temporal investigation snapshots;
+2. temporal node/edge export for downstream QAP analysis;
+3. change alerts for watched countries/themes/sources;
+4. cross-window community lineage rather than numerical-label comparison alone;
+5. network evidence cards linking temporal changes directly to the underlying ReliefWeb reports;
+6. accessibility audit/remediation register;
+7. About/Public Service Initiative and public methodology pages;
+8. v1.0 release-candidate changelog and release checklist.
