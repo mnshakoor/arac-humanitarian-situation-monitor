@@ -22,7 +22,7 @@ jobs:
           node-version: '24'
       - name: Refresh ReliefWeb snapshot
         env:
-          RELIEFWEB_APPNAME: ${{ vars.RELIEFWEB_APPNAME }}
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
         run: node scripts/sync-reliefweb.mjs
       - name: Validate JSON
         run: node -e "JSON.parse(require('fs').readFileSync('data/snapshot.json','utf8')); console.log('snapshot valid')"
