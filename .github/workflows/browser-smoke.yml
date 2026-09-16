@@ -1,0 +1,46 @@
+name: AHSM browser smoke tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'manifest.webmanifest'
+      - 'sw.js'
+      - 'css/**'
+      - 'js/**'
+      - 'tests/**'
+      - 'playwright.config.mjs'
+      - 'package.json'
+      - '.github/workflows/browser-smoke.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ahsm-browser-smoke
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install browser test dependency
+        run: npm install --no-audit --no-fund
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Start static server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/ahsm-http.log 2>&1 &
+          echo $! > /tmp/ahsm-http.pid
+      - name: Run desktop and mobile smoke tests
+        run: npm run test:smoke
+      - name: Stop static server
+        if: always()
+        run: kill $(cat /tmp/ahsm-http.pid) 2>/dev/null || true
