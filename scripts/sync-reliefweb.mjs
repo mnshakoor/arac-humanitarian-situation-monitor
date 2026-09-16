@@ -16,9 +16,14 @@ const now = new Date();
 const reliefWebIso = d => d.toISOString().replace(/\.\d{3}Z$/, '+00:00');
 const daysAgo = n => new Date(now.getTime()-n*86400000);
 
+function facetRoot(obj) {
+  return obj?.embedded?.facets || obj?._embedded?.facets || obj?.facets || {};
+}
+
 function facetMap(obj, name) {
-  const f = obj?.facets?.[name] || obj?.facets?.find?.(x => x.name === name);
-  const data = f?.data || f || [];
+  const facets = facetRoot(obj);
+  const f = facets?.[name] || (Array.isArray(facets) ? facets.find(x => x?.name === name) : null);
+  const data = f?.data || (Array.isArray(f) ? f : []);
   return Array.isArray(data) ? data : [];
 }
 
@@ -47,7 +52,6 @@ const [global, current7, previous7, disasters] = await Promise.all([
   post('disasters', {limit:100,filter:{field:'status',value:['current','alert'],operator:'OR'},fields:{include:['name','date.event','status','glide','country','primary_country','primary_type','type','url']}})
 ]);
 
-// ReliefWeb facet response details can evolve. Preserve raw facet blocks for audit/debugging while normalizing what is safely available.
 const c30 = facetMap(global,'countries');
 const c7 = facetMap(current7,'countries');
 const p7 = facetMap(previous7,'countries');
@@ -71,7 +75,7 @@ const snapshot = {
   timeline:facetMap(global,'timeline').map(x=>({date:x.value??x.name??x.term,count:x.count??0})),
   countries, reports,
   disasters:(disasters.data||[]).map(d=>({id:d.id,...(d.fields||{})})),
-  rawFacets:global.facets,
+  rawFacets:facetRoot(global),
   provenance:{provider:'ReliefWeb API V2',appname,queryGeneratedAt:now.toISOString(),dateBasis:'date.original',status:'published',countryCounting:'primary_country.iso3'}
 };
 
@@ -79,4 +83,4 @@ await fs.mkdir('data',{recursive:true});
 const target='data/snapshot.json', tmp='data/snapshot.next.json';
 await fs.writeFile(tmp,JSON.stringify(snapshot,null,2));
 await fs.rename(tmp,target);
-console.log(`Wrote ${target}: ${snapshot.summary.reports30d} reports, ${snapshot.summary.countries} country facets.`);
+console.log(`Wrote ${target}: ${snapshot.summary.reports30d} reports, ${snapshot.summary.countries} country facets, ${snapshot.summary.uniqueSources} source facets.`);
