@@ -23,13 +23,15 @@ function normalizeCountryControls(root=document){
     for(const opt of select.options||[]){
       if(!opt.value)continue;
       const c=countryByIso.get(norm(opt.value));
-      opt.textContent=countryLabel(opt.value,c?.name||opt.textContent);
+      const label=countryLabel(opt.value,c?.name||opt.textContent);
+      if(opt.textContent!==label)opt.textContent=label;
     }
   }
   for(const el of root.querySelectorAll?.('.country-open,.country-open-pulse')||[]){
     const iso=norm(el.dataset.iso3);if(!iso)continue;
     const c=countryByIso.get(iso);
-    el.textContent=countryLabel(iso,c?.name||el.textContent);
+    const label=countryLabel(iso,c?.name||el.textContent);
+    if(el.textContent!==label)el.textContent=label;
   }
 }
 
@@ -41,8 +43,8 @@ function normalizeWorkspace(root=document){
   const c=countryByIso.get(iso);const name=isoName(iso,c?.name);
   const head=workspace.querySelector('.country-head');
   if(head){
-    const eyebrow=head.querySelector('.eyebrow');if(eyebrow)eyebrow.textContent=`${name} (${iso.toUpperCase()}) · COUNTRY WORKSPACE`;
-    const h2=head.querySelector('h2');if(h2)h2.textContent=name;
+    const eyebrow=head.querySelector('.eyebrow');const eyebrowText=`${name} (${iso.toUpperCase()}) · COUNTRY WORKSPACE`;if(eyebrow&&eyebrow.textContent!==eyebrowText)eyebrow.textContent=eyebrowText;
+    const h2=head.querySelector('h2');if(h2&&h2.textContent!==name)h2.textContent=name;
   }
 }
 
