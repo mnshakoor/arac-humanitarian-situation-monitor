@@ -13,8 +13,8 @@ The application uses ReliefWeb API V2 metadata to help humanitarians, local orga
 - Country reporting ranking using `primary_country.iso3`
 - Crisis Pulse with low-base acceleration safeguards
 - Humanitarian Information Signal Index (HISI), with full/provisional basis labels
-- Canonical country names from ReliefWeb country metadata
-- Quota-conserving enrichment for the 20 highest-volume country profiles
+- Country names and coordinates derived from embedded ReliefWeb `primary_country` metadata where available
+- Daily/manual quota-conserving enrichment for the 16 highest-volume country profiles
 - Country workspaces with themes, sources, formats, timelines, reports and active disaster contexts
 - Interactive Leaflet global reporting map using ReliefWeb-embedded country centroids where available
 - Disaster Explorer with map and disaster-type filters
@@ -24,7 +24,9 @@ The application uses ReliefWeb API V2 metadata to help humanitarians, local orga
 - CSV/JSON exports
 - Community view and local watchlists
 - GitHub Pages static deployment
-- Hourly GitHub Actions synchronization and pipeline validation
+- Hourly core synchronization plus separate daily country enrichment
+- Last-known-good retention for recoverable 7-day momentum query failures
+- Backward-compatible client normalization for v1/v2 snapshots
 - Provenance and methodology controls
 
 ## Repository structure
@@ -41,8 +43,12 @@ The application uses ReliefWeb API V2 metadata to help humanitarians, local orga
 │   ├── signals.js
 │   └── storage.js
 ├── data/snapshot.json
-├── scripts/sync-reliefweb.mjs
-├── .github/workflows/reliefweb-sync.yml
+├── scripts/
+│   ├── sync-reliefweb.mjs
+│   └── enrich-reliefweb.mjs
+├── .github/workflows/
+│   ├── reliefweb-sync.yml
+│   └── reliefweb-enrichment.yml
 └── docs/
     ├── BUILD-DESIGN-MANUAL.md
     └── IMPLEMENTATION-STATUS.md
@@ -56,15 +62,17 @@ ReliefWeb requires a pre-approved `appname`. The repository uses a GitHub Action
 RELIEFWEB_APPNAME
 ```
 
-The scheduled workflow reads `${{ secrets.RELIEFWEB_APPNAME }}` and refreshes `data/snapshot.json` only after a successful API retrieval and JSON validation. Failed refreshes therefore leave the last known good public snapshot in place.
+Both data workflows read `${{ secrets.RELIEFWEB_APPNAME }}`. The hourly core workflow refreshes global aggregates, latest reports and current disaster entities. The daily/manual enrichment workflow adds deeper theme, source, format, timeline and report context for the 16 highest-volume countries.
+
+Failed core refreshes leave the last known good public snapshot in place. If only one of the two 7-day momentum comparison requests is unavailable, the new core snapshot can still publish while retaining the prior known-good momentum values and marking that component accordingly in provenance.
 
 ## API conservation
 
-The global snapshot uses ReliefWeb server-side facets for country, theme, source, format and date distributions. Detailed country enrichment is limited to the 20 highest-volume countries per refresh to remain comfortably within the ReliefWeb daily request budget while still supporting high-value country workspaces.
+The core snapshot relies on ReliefWeb server-side facets for country, theme, source, format and date distributions. Detailed country enrichment runs separately once per day, or manually, rather than on every hourly refresh. This keeps the public operational picture current while reducing avoidable API load.
 
 ## GitHub Pages
 
-The application is designed for deployment from the `main` branch root. No application server or client-side API credential is required.
+The application deploys from the `main` branch root. No application server or client-side API credential is required.
 
 ## Local preview
 
