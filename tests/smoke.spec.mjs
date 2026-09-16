@@ -71,3 +71,16 @@ test('temporal network intelligence compares equivalent windows', async ({page})
   await expect(page.locator('#temporal-emerging')).toBeVisible();
   await expect(page.locator('#temporal-disappearing')).toBeVisible();
 });
+
+test('v0.8 temporal evidence and app-wide fullscreen controls are available', async ({page}) => {
+  await page.goto('/');
+  await expect(page.locator('#app-fullscreen')).toBeVisible();
+  await expect(page.locator('#app-fullscreen')).toContainText('App full screen');
+  await page.locator('[data-view="network"]').click();
+  await expect(page.locator('#temporal-investigation')).toBeVisible();
+  await expect(page.locator('#save-temporal')).toBeVisible();
+  await expect(page.locator('#export-temporal')).toBeVisible();
+  await expect(page.locator('#community-lineage')).toBeVisible();
+  await expect(page.locator('#temporal-watch')).toBeVisible();
+  await expect(page.locator('#temporal-snapshots')).toBeVisible();
+});
