@@ -4,23 +4,28 @@ A public-service humanitarian information monitoring application developed for *
 
 The application uses ReliefWeb API V2 metadata to help humanitarians, local organizations, researchers, journalists, and communities understand where humanitarian reporting is concentrated and where the information environment is changing.
 
-> **Analytical boundary:** reporting volume and reporting momentum are information-environment indicators. They are not direct measures of humanitarian severity.
+> **Analytical boundary:** reporting volume, reporting momentum, source diversity and thematic breadth are information-environment indicators. They are not direct measures of humanitarian severity.
 
-## Initial release scope
+## v0.2.0-alpha scope
 
-- Global Overview
-- Country Explorer
-- Crisis Pulse
-- Themes and source ecology panels
-- Reports workspace
-- Disaster Explorer shell
-- Query Lab shell
-- Humanitarian Information Signal Index (transparent information-signal metric)
+- Live ReliefWeb API V2 snapshot synchronization
+- Global Overview with KPIs and 30-day reporting trend
+- Country reporting ranking using `primary_country.iso3`
+- Crisis Pulse with low-base acceleration safeguards
+- Humanitarian Information Signal Index (HISI), with full/provisional basis labels
+- Canonical country names from ReliefWeb country metadata
+- Quota-conserving enrichment for the 20 highest-volume country profiles
+- Country workspaces with themes, sources, formats, timelines, reports and active disaster contexts
+- Interactive Leaflet global reporting map using ReliefWeb-embedded country centroids where available
+- Disaster Explorer with map and disaster-type filters
+- Reports search and triage workspace
+- Query Lab with reproducible ReliefWeb POST-body generation and snapshot testing
+- QAP-ready country signal JSON export
 - CSV/JSON exports
-- Responsive and accessible public interface
-- Snapshot-first architecture for GitHub Pages
-- Scheduled ReliefWeb synchronization through GitHub Actions
-- Provenance and methodology views
+- Community view and local watchlists
+- GitHub Pages static deployment
+- Hourly GitHub Actions synchronization and pipeline validation
+- Provenance and methodology controls
 
 ## Repository structure
 
@@ -35,27 +40,31 @@ The application uses ReliefWeb API V2 metadata to help humanitarians, local orga
 │   ├── export.js
 │   ├── signals.js
 │   └── storage.js
-├── data/
-│   ├── snapshot.json
-│   └── world-lite.geojson
+├── data/snapshot.json
 ├── scripts/sync-reliefweb.mjs
 ├── .github/workflows/reliefweb-sync.yml
-└── docs/BUILD-DESIGN-MANUAL.md
+└── docs/
+    ├── BUILD-DESIGN-MANUAL.md
+    └── IMPLEMENTATION-STATUS.md
 ```
 
 ## ReliefWeb configuration
 
-ReliefWeb requires a pre-approved `appname`. Add a GitHub Actions repository variable named:
+ReliefWeb requires a pre-approved `appname`. The repository uses a GitHub Actions **repository secret** named:
 
 ```text
 RELIEFWEB_APPNAME
 ```
 
-The scheduled workflow uses that value to refresh `data/snapshot.json`.
+The scheduled workflow reads `${{ secrets.RELIEFWEB_APPNAME }}` and refreshes `data/snapshot.json` only after a successful API retrieval and JSON validation. Failed refreshes therefore leave the last known good public snapshot in place.
+
+## API conservation
+
+The global snapshot uses ReliefWeb server-side facets for country, theme, source, format and date distributions. Detailed country enrichment is limited to the 20 highest-volume countries per refresh to remain comfortably within the ReliefWeb daily request budget while still supporting high-value country workspaces.
 
 ## GitHub Pages
 
-Set GitHub Pages to deploy from the `main` branch root. No application server is required.
+The application is designed for deployment from the `main` branch root. No application server or client-side API credential is required.
 
 ## Local preview
 
