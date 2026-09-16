@@ -72,7 +72,7 @@ test('temporal network intelligence compares equivalent windows', async ({page})
   await expect(page.locator('#temporal-disappearing')).toBeVisible();
 });
 
-test('v0.8 temporal evidence and app-wide fullscreen controls are available', async ({page}) => {
+test('temporal evidence and app-wide fullscreen controls are available', async ({page}) => {
   await page.goto('/');
   await expect(page.locator('#app-fullscreen')).toBeVisible();
   await expect(page.locator('#app-fullscreen')).toContainText('App full screen');
@@ -85,7 +85,7 @@ test('v0.8 temporal evidence and app-wide fullscreen controls are available', as
   await expect(page.locator('#temporal-snapshots')).toBeVisible();
 });
 
-test('v0.8.3 Network Explorer follows graph-first investigation hierarchy', async ({page}) => {
+test('Network Explorer follows graph-first investigation hierarchy', async ({page}) => {
   await page.goto('/');
   await page.locator('[data-view="network"]').click();
   const flow=page.locator('#network-analysis-flow');
@@ -97,4 +97,52 @@ test('v0.8.3 Network Explorer follows graph-first investigation hierarchy', asyn
   expect(order[2]).toBe('temporal-intelligence');
   expect(order[3]).toBe('temporal-investigation');
   expect(String(order[4])).toContain('investigation-tray');
+});
+
+test('RC1 runtime diagnostics remain stable through repeated Data Health use', async ({page}) => {
+  const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto('/');
+  await expect(page.locator('#version')).toHaveText('0.9.0-rc1');
+  for(let i=0;i<8;i++){
+    await page.locator('#data-health').click();
+    await expect(page.locator('#data-health-panel')).toBeVisible();
+    await expect(page.locator('#rc-health-section')).toBeVisible();
+    await page.keyboard.press('Escape');
+    await expect(page.locator('#data-health-panel')).toBeHidden();
+  }
+  expect(errors).toEqual([]);
+  const rc=await page.evaluate(()=>({errors:window.__AHSM_RC_HEALTH__?.errors,rejections:window.__AHSM_RC_HEALTH__?.rejections}));
+  expect(rc.errors||0).toBe(0);expect(rc.rejections||0).toBe(0);
+});
+
+test('RC1 survives repeated network filtering and page navigation without page errors', async ({page}) => {
+  const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto('/');
+  for(let round=0;round<5;round++){
+    await page.locator('[data-view="network"]').click();
+    await expect(page.locator('#network-svg')).toBeVisible();
+    const search=page.locator('#network-search');
+    await search.fill(round%2?'health':'protection');
+    await page.waitForTimeout(220);
+    await search.fill('');
+    await page.waitForTimeout(220);
+    await page.locator('[data-view="global"]').click();
+    await expect(page.locator('#view-global')).toBeVisible();
+  }
+  expect(errors).toEqual([]);
+  await expect(page.locator('#data-status')).not.toHaveText('...');
+});
+
+test('service worker converges on RC1 cache and supports offline shell recovery', async ({page,context}) => {
+  await page.goto('/');
+  await page.evaluate(async()=>{if('serviceWorker' in navigator)await navigator.serviceWorker.ready;});
+  await page.reload();
+  const state=await page.evaluate(async()=>({controller:!!navigator.serviceWorker?.controller,caches:await caches.keys()}));
+  expect(state.caches.some(x=>x.includes('ahsm-shell-v090-rc1-r1'))).toBeTruthy();
+  await context.setOffline(true);
+  await page.reload({waitUntil:'domcontentloaded'});
+  await expect(page.locator('header.topbar')).toBeVisible();
+  await context.setOffline(false);
+  await page.reload();
+  await expect(page.locator('#version')).toHaveText('0.9.0-rc1');
 });
