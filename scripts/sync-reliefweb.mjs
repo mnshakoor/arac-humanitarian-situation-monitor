@@ -41,24 +41,41 @@ const countByValue=arr=>new Map(arr.map(x=>[String(facetValue(x)).toLowerCase(),
 const normalizeFacet=arr=>arr.map(x=>({name:String(facetValue(x)),count:facetCount(x)}));
 
 const reportFields=['title','date.original','primary_country','country','source','theme','format','disaster','disaster_type','language','url','url_alias'];
-const globalBody={
-  limit:50,sort:['date.original:desc'],
-  filter:{operator:'AND',conditions:[{field:'status',value:'published'},{field:'date.original',value:{from:reliefWebIso(daysAgo(30)),to:reliefWebIso(now)}}]},
-  fields:{include:reportFields},
+const date30={field:'date.original',value:{from:reliefWebIso(daysAgo(30)),to:reliefWebIso(now)}};
+const published={field:'status',value:'published'};
+
+const aggregateBody={
+  limit:0,
+  filter:{operator:'AND',conditions:[published,date30]},
   facets:[
-    {name:'countries',field:'primary_country.iso3',limit:250,sort:'count:desc'},
-    {name:'themes',field:'theme.name',limit:100,sort:'count:desc'},
-    {name:'sources',field:'source.shortname',limit:250,sort:'count:desc'},
-    {name:'formats',field:'format.name',limit:100,sort:'count:desc'},
+    {name:'countries',field:'primary_country.iso3',limit:200,sort:'count:desc'},
+    {name:'themes',field:'theme.name',limit:60,sort:'count:desc'},
+    {name:'sources',field:'source.shortname',limit:150,sort:'count:desc'},
+    {name:'formats',field:'format.name',limit:60,sort:'count:desc'},
     {name:'timeline',field:'date.original',interval:'day'}
   ]
 };
-const current7Body={...globalBody,limit:0,filter:{operator:'AND',conditions:[{field:'status',value:'published'},{field:'date.original',value:{from:reliefWebIso(daysAgo(7)),to:reliefWebIso(now)}}]},facets:[{name:'countries',field:'primary_country.iso3',limit:250,sort:'count:desc'}]};
-const previous7Body={...globalBody,limit:0,filter:{operator:'AND',conditions:[{field:'status',value:'published'},{field:'date.original',value:{from:reliefWebIso(daysAgo(14)),to:reliefWebIso(daysAgo(7))}}]},facets:[{name:'countries',field:'primary_country.iso3',limit:250,sort:'count:desc'}]};
+const latestBody={
+  limit:50,
+  sort:['date.original:desc'],
+  filter:{operator:'AND',conditions:[published,date30]},
+  fields:{include:reportFields}
+};
+const current7Body={
+  limit:0,
+  filter:{operator:'AND',conditions:[published,{field:'date.original',value:{from:reliefWebIso(daysAgo(7)),to:reliefWebIso(now)}}]},
+  facets:[{name:'countries',field:'primary_country.iso3',limit:200,sort:'count:desc'}]
+};
+const previous7Body={
+  limit:0,
+  filter:{operator:'AND',conditions:[published,{field:'date.original',value:{from:reliefWebIso(daysAgo(14)),to:reliefWebIso(daysAgo(7))}}]},
+  facets:[{name:'countries',field:'primary_country.iso3',limit:200,sort:'count:desc'}]
+};
 const disasterBody={limit:150,filter:{field:'status',value:['ongoing','alert'],operator:'OR'},fields:{include:['name','date.event','status','glide','country','primary_country','primary_type','type','url']}};
 
-const [global,current7,previous7,disasters]=await Promise.all([
-  post('reports',globalBody),
+const [aggregate,latest,current7,previous7,disasters]=await Promise.all([
+  post('reports',aggregateBody),
+  post('reports',latestBody),
   post('reports',current7Body),
   post('reports',previous7Body),
   post('disasters',disasterBody)
@@ -69,7 +86,7 @@ function normalizeReport(item) {
   const pc=f.primary_country || {};
   return {id:item.id,title:f.title,dateOriginal:f.date?.original||f['date.original'],primaryCountry:pc?.name||pc?.[0]?.name||'',primaryCountryIso3:String(pc?.iso3||pc?.[0]?.iso3||'').toLowerCase(),primaryCountryLocation:pc?.location||pc?.[0]?.location||null,source:(f.source||[]).map(s=>s.shortname||s.name).join(', '),format:(f.format||[]).map(x=>x.name).join(', '),themes:(f.theme||[]).map(x=>x.name),disasterTypes:(f.disaster_type||[]).map(x=>x.name),url:f.url_alias||f.url||item.href};
 }
-const reports=(global.data||[]).map(normalizeReport);
+const reports=(latest.data||[]).map(normalizeReport);
 
 const normalizedDisasters=(disasters.data||[]).map(d=>{
   const f=d.fields||{};
@@ -89,7 +106,7 @@ for (const d of normalizedDisasters) {
 
 const m7=countByValue(facetMap(current7,'countries'));
 const mp7=countByValue(facetMap(previous7,'countries'));
-const countries=facetMap(global,'countries').map(x=>{
+const countries=facetMap(aggregate,'countries').map(x=>{
   const iso3=String(facetValue(x)).toLowerCase();
   const reports30d=facetCount(x),reports7d=m7.get(iso3)||0,previous7d=mp7.get(iso3)||0;
   const change7d=previous7d>0?((reports7d-previous7d)/previous7d)*100:null;
@@ -99,7 +116,7 @@ const countries=facetMap(global,'countries').map(x=>{
 function countryProfileBody(c) {
   return {
     limit:12,sort:['date.original:desc'],
-    filter:{operator:'AND',conditions:[{field:'status',value:'published'},{field:'primary_country.iso3',value:c.iso3},{field:'date.original',value:{from:reliefWebIso(daysAgo(30)),to:reliefWebIso(now)}}]},
+    filter:{operator:'AND',conditions:[published,{field:'primary_country.iso3',value:c.iso3},date30]},
     fields:{include:reportFields},
     facets:[{name:'themes',field:'theme.name',limit:20,sort:'count:desc'},{name:'sources',field:'source.shortname',limit:30,sort:'count:desc'},{name:'formats',field:'format.name',limit:20,sort:'count:desc'},{name:'disasterTypes',field:'disaster_type.name',limit:20,sort:'count:desc'},{name:'timeline',field:'date.original',interval:'day'}]
   };
@@ -139,11 +156,11 @@ for (let i=0;i<profileTargets.length;i+=PROFILE_BATCH_SIZE) {
 
 const snapshot={
   schema:'arac.ahsm.snapshot.v2',generatedAt:now.toISOString(),status:'RELIEFWEB LIVE SNAPSHOT',stale:false,
-  summary:{reports30d:global.totalCount??global.total_count??reports.length,countries:countries.length,uniqueSources:facetMap(global,'sources').length,activeDisasters:disasters.totalCount??disasters.total_count??normalizedDisasters.length,profiledCountries:enrichedCount,profileTargets:profileTargets.length},
-  timeline:facetMap(global,'timeline').map(x=>({date:facetValue(x),count:facetCount(x)})),
-  globalThemes:normalizeFacet(facetMap(global,'themes')),globalSources:normalizeFacet(facetMap(global,'sources')),globalFormats:normalizeFacet(facetMap(global,'formats')),
+  summary:{reports30d:aggregate.totalCount??aggregate.total_count??0,countries:countries.length,uniqueSources:facetMap(aggregate,'sources').length,activeDisasters:disasters.totalCount??disasters.total_count??normalizedDisasters.length,profiledCountries:enrichedCount,profileTargets:profileTargets.length},
+  timeline:facetMap(aggregate,'timeline').map(x=>({date:facetValue(x),count:facetCount(x)})),
+  globalThemes:normalizeFacet(facetMap(aggregate,'themes')),globalSources:normalizeFacet(facetMap(aggregate,'sources')),globalFormats:normalizeFacet(facetMap(aggregate,'formats')),
   countries,reports,disasters:normalizedDisasters,
-  provenance:{provider:'ReliefWeb API V2',appname,queryGeneratedAt:now.toISOString(),dateBasis:'date.original',status:'published',countryCounting:'primary_country.iso3',countryProfileLimit:PROFILE_LIMIT,profileBatchSize:PROFILE_BATCH_SIZE,coordinateSource:'Embedded ReliefWeb primary_country.location where available',countryNameSource:'Embedded ReliefWeb primary_country names; ISO3 fallback where not present in the synchronized report/disaster set',analyticalBoundary:'Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.'}
+  provenance:{provider:'ReliefWeb API V2',appname,queryGeneratedAt:now.toISOString(),dateBasis:'date.original',status:'published',countryCounting:'primary_country.iso3',countryProfileLimit:PROFILE_LIMIT,profileBatchSize:PROFILE_BATCH_SIZE,aggregateStrategy:'Facet-only aggregate request plus separate latest-report retrieval',coordinateSource:'Embedded ReliefWeb primary_country.location where available',countryNameSource:'Embedded ReliefWeb primary_country names; ISO3 fallback where not present in the synchronized report/disaster set',analyticalBoundary:'Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.'}
 };
 
 await fs.mkdir('data',{recursive:true});
