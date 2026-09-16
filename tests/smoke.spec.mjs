@@ -14,20 +14,6 @@ test('core monitor loads and country workspace opens', async ({page}) => {
   await expect(page.locator('#country-workspace .v03-analytics')).toBeVisible();
 });
 
-test('regional monitor and network explorer are operational', async ({page}) => {
-  await page.goto('/');
-  await page.locator('[data-view="regions"]').click();
-  await expect(page.locator('#view-regions')).toBeVisible();
-  await expect(page.locator('#region-select option')).not.toHaveCount(0);
-  await expect(page.locator('.region-card').first()).toBeVisible();
-  await page.locator('[data-view="network"]').click();
-  await expect(page.locator('#view-network')).toBeVisible();
-  await expect(page.locator('#network-svg')).toBeVisible();
-  await expect(page.locator('#network-stats')).not.toBeEmpty();
-  await expect(page.locator('#network-wordcloud')).not.toBeEmpty();
-  await expect(page.locator('#rw-ticker-track')).not.toBeEmpty();
-});
-
 test('source register and disaster explorer are operational', async ({page}) => {
   await page.goto('/');
   await expect(page.locator('[data-view="sources"]')).toBeVisible();
@@ -47,4 +33,28 @@ test('production controls are keyboard accessible', async ({page}) => {
   await page.keyboard.press('Escape');
   await expect(page.locator('#data-health-panel')).toBeHidden();
   await expect(page.locator('.skip-link')).toHaveAttribute('href','#main-content');
+});
+
+test('regional monitor and ReliefWeb network explorer are operational', async ({page}) => {
+  await page.goto('/');
+  await page.locator('[data-view="regions"]').click();
+  await expect(page.locator('#region-select')).toBeVisible();
+  await expect(page.locator('.region-card').first()).toBeVisible();
+  await page.locator('[data-view="network"]').click();
+  await expect(page.locator('#network-svg')).toBeVisible();
+  await expect(page.locator('#network-results .network-result').first()).toBeVisible();
+  await expect(page.locator('#network-wordcloud button').first()).toBeVisible();
+  await expect(page.locator('#rw-ticker-track a').first()).toBeVisible();
+});
+
+test('network intelligence and fullscreen controls are available', async ({page}) => {
+  await page.goto('/');
+  await page.locator('[data-view="network"]').click();
+  await expect(page.locator('#network-fullscreen')).toBeVisible();
+  await expect(page.locator('#network-intelligence-controls')).toBeVisible();
+  await expect(page.locator('#network-centrality .intel-row').first()).toBeVisible();
+  await expect(page.locator('#network-communities .community-row').first()).toBeVisible();
+  await expect(page.locator('#network-pinboard')).toBeVisible();
+  await page.locator('#network-metric').selectOption('betweenness');
+  await expect(page.locator('#centrality-heading')).toContainText('Betweenness');
 });
