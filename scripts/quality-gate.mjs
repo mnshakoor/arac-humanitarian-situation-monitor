@@ -11,7 +11,7 @@ if(!config.includes("0.7.0-beta"))throw new Error('Build version is not v0.7.0-b
 const v06=fs.readFileSync('js/v06.js','utf8');
 for(const marker of ['betweenness','labelCommunities','network-fullscreen','network-pinboard','network-centrality'])if(!v06.includes(marker))throw new Error(`Network intelligence layer missing ${marker}`);
 const v07=fs.readFileSync('js/v07.js','utf8');
-for(const marker of ['Temporal Network Intelligence','24h','7d','30d','clusterShift','emerging','disappearing','entityGraph'])if(!v07.includes(marker))throw new Error(`Temporal network layer missing ${marker}`);
+for(const marker of ['TEMPORAL NETWORK INTELLIGENCE','24h','7d','30d','clusterShift','emerging','disappearing','entityGraph'])if(!v07.includes(marker))throw new Error(`Temporal network layer missing ${marker}`);
 const snapshot=JSON.parse(fs.readFileSync('data/snapshot.json','utf8'));
 if(!snapshot.generatedAt||!snapshot.summary||!Array.isArray(snapshot.countries)||!Array.isArray(snapshot.reports)||!Array.isArray(snapshot.disasters))throw new Error('Snapshot schema missing required operational fields');
 if(!snapshot.provenance?.provider)throw new Error('Snapshot provenance provider missing');
