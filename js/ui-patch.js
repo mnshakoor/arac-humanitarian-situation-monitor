@@ -8,6 +8,7 @@ const norm=s=>String(s||'').trim().toLowerCase();
 const isoName=(iso,raw='')=>{const code=norm(iso);const value=String(raw||'').trim();return !value||norm(value)===code?(ISO_NAMES[code]||value||code.toUpperCase()):value;};
 const countryLabel=(iso,raw='')=>`${isoName(iso,raw)} (${String(iso||'').toUpperCase()})`;
 const dateLabel=value=>{if(!value)return'';const d=new Date(value);return Number.isNaN(d.getTime())?String(value):new Intl.DateTimeFormat(undefined,{year:'numeric',month:'short',day:'numeric'}).format(d);};
+const absoluteUrl=value=>{const v=String(value||'').trim();if(!v)return'';if(/^https?:\/\//i.test(v))return v;if(v.startsWith('//'))return`https:${v}`;if(v.startsWith('/'))return`https://reliefweb.int${v}`;return'';};
 
 function indexSnapshot(data){
   snapshot=data;
@@ -60,14 +61,29 @@ function fallbackTrend(root=document){
   canvas.replaceWith(box);
 }
 
+function thumbnailCandidates(r){
+  const values=[...(Array.isArray(r.thumbnailCandidates)?r.thumbnailCandidates:[]),r.thumbnail,r.previewThumb,r.imageThumb];
+  return [...new Set(values.map(absoluteUrl).filter(Boolean))];
+}
+
+function addThumbnail(card,r){
+  const candidates=thumbnailCandidates(r);if(!candidates.length)return;
+  const img=document.createElement('img');
+  img.className='report-thumb';img.loading='lazy';img.decoding='async';img.alt='Report preview';
+  let i=0;
+  const fail=()=>{i+=1;if(i<candidates.length){img.src=candidates[i];return;}img.remove();card.classList.remove('has-thumb');};
+  img.addEventListener('error',fail);
+  img.src=candidates[0];
+  card.prepend(img);card.classList.add('has-thumb');
+}
+
 function enhanceReportCards(root=document){
   for(const card of root.querySelectorAll?.('.report-card')||[]){
     if(card.dataset.enhanced==='1')continue;
     const title=card.querySelector('h3')?.textContent?.trim();if(!title)continue;
     const r=reportByTitle.get(norm(title));if(!r)continue;
     card.dataset.enhanced='1';
-    const thumb=r.thumbnail||r.imageThumb||r.previewThumb||'';
-    if(thumb){const img=document.createElement('img');img.className='report-thumb';img.loading='lazy';img.alt='';img.src=thumb;img.referrerPolicy='no-referrer';card.prepend(img);card.classList.add('has-thumb');}
+    addThumbnail(card,r);
     const p=card.querySelector('p');
     if(p&&r.dateOriginal){p.className='report-meta-date';p.innerHTML=`${String(r.source||'ReliefWeb')} · <time datetime="${String(r.dateOriginal).replace(/"/g,'&quot;')}">${dateLabel(r.dateOriginal)}</time>`;}
   }
