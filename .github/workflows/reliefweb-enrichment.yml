@@ -4,6 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '37 2 * * *'
+  push:
+    paths:
+      - 'scripts/enrich-reliefweb.mjs'
+      - 'scripts/cache-reliefweb-thumbnails.mjs'
+      - '.github/workflows/reliefweb-enrichment.yml'
 
 permissions:
   contents: write
@@ -15,13 +20,13 @@ concurrency:
 jobs:
   enrich:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Enrich highest-volume countries
+      - name: Enrich country analytics
         env:
           RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
         run: node scripts/enrich-reliefweb.mjs
@@ -30,7 +35,7 @@ jobs:
           RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
         run: node scripts/cache-reliefweb-thumbnails.mjs
       - name: Validate enriched snapshot
-        run: node -e "const x=JSON.parse(require('fs').readFileSync('data/snapshot.json','utf8')); if(!x.countries||!x.provenance) process.exit(1); console.log('enriched snapshot valid')"
+        run: node -e "const x=JSON.parse(require('fs').readFileSync('data/snapshot.json','utf8')); if(!x.countries||!x.provenance) process.exit(1); const done=x.countries.filter(c=>String(c.enrichmentStatus||'').startsWith('complete')).length; console.log('enriched snapshot valid; complete profiles='+done)"
       - name: Commit enriched snapshot and thumbnails
         run: |
           set -e
@@ -38,7 +43,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/snapshot.json assets/report-thumbs
           git diff --cached --quiet && exit 0
-          git commit -m "data: enrich ReliefWeb country profiles and thumbnails"
+          git commit -m "data: enrich ReliefWeb country analytics and thumbnails"
 
           for attempt in 1 2 3; do
             echo "Push attempt ${attempt}: rebasing onto latest main"
