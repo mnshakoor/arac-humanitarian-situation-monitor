@@ -12,10 +12,77 @@ const pct = n => n == null ? 'n/a' : `${n >= 0 ? '+' : ''}${Number(n).toFixed(1)
 const safe = v => String(v ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));
 const escapeAttr = safe;
 
+function normalizeReport(r={}) {
+  if (r.primaryCountryIso3 !== undefined) return r;
+  const pc = r.primary_country || {};
+  const sources = r.source || [];
+  const formats = r.format || [];
+  const themes = r.theme || r.themes || [];
+  return {
+    ...r,
+    dateOriginal:r.dateOriginal || r.date?.original || r['date.original'] || '',
+    primaryCountry:r.primaryCountry || pc?.name || pc?.[0]?.name || '',
+    primaryCountryIso3:String(pc?.iso3 || pc?.[0]?.iso3 || '').toLowerCase(),
+    primaryCountryLocation:r.primaryCountryLocation || pc?.location || pc?.[0]?.location || null,
+    source:typeof r.source === 'string' ? r.source : sources.map(s=>s.shortname||s.name).join(', '),
+    format:typeof r.format === 'string' ? r.format : formats.map(x=>x.name).join(', '),
+    themes:themes.map?.(x=>typeof x === 'string' ? x : x.name) || [],
+    disasterTypes:(r.disasterTypes || r.disaster_type || []).map?.(x=>typeof x === 'string' ? x : x.name) || [],
+    url:r.url_alias || r.url || r.href || ''
+  };
+}
+
+function normalizeDisaster(d={}) {
+  if (d.primaryCountryIso3 !== undefined) return d;
+  const pc = d.primary_country || {};
+  const pt = d.primary_type || {};
+  const types = d.type || d.types || [];
+  return {
+    ...d,
+    dateEvent:d.dateEvent || d.date?.event || '',
+    primaryCountry:d.primaryCountry || pc?.name || '',
+    primaryCountryIso3:String(pc?.iso3 || '').toLowerCase(),
+    location:d.location || pc?.location || null,
+    primaryType:d.primaryType || pt?.name || '',
+    types:types.map?.(x=>typeof x === 'string' ? x : x.name) || [],
+    url:d.url || d.href || ''
+  };
+}
+
+function normalizeSnapshot(snapshot) {
+  const reports = (snapshot.reports || []).map(normalizeReport);
+  const disasters = (snapshot.disasters || []).map(normalizeDisaster);
+  const names = new Map();
+  const locations = new Map();
+  for (const d of disasters) {
+    if (d.primaryCountryIso3 && d.primaryCountry) names.set(d.primaryCountryIso3,d.primaryCountry);
+    if (d.primaryCountryIso3 && d.location) locations.set(d.primaryCountryIso3,d.location);
+  }
+  for (const r of reports) {
+    if (r.primaryCountryIso3 && r.primaryCountry) names.set(r.primaryCountryIso3,r.primaryCountry);
+    if (r.primaryCountryIso3 && r.primaryCountryLocation) locations.set(r.primaryCountryIso3,r.primaryCountryLocation);
+  }
+  const countries = (snapshot.countries || []).map(c => {
+    const iso3=String(c.iso3||'').toLowerCase();
+    const name = c.name && c.name.toLowerCase() !== iso3 ? c.name : (names.get(iso3) || c.name || iso3.toUpperCase());
+    const recentReports = c.recentReports?.length ? c.recentReports.map(normalizeReport) : reports.filter(r=>r.primaryCountryIso3===iso3 || (r.primaryCountry && r.primaryCountry===name));
+    return {
+      topThemes:[],topSources:[],topFormats:[],disasterTypes:[],timeline:[],uniqueSources:0,themeBreadth:0,formatBreadth:0,enrichmentStatus:'legacy',
+      ...c,
+      iso3,
+      name,
+      shortname:c.shortname || name,
+      location:c.location || locations.get(iso3) || null,
+      recentReports
+    };
+  });
+  return {...snapshot,reports,disasters,countries};
+}
+
 async function loadSnapshot() {
   const res = await fetch(CONFIG.snapshotUrl, {cache:'no-store'});
   if (!res.ok) throw new Error(`Snapshot load failed (${res.status})`);
-  state.snapshot = await res.json();
+  state.snapshot = normalizeSnapshot(await res.json());
   state.countries = computeHisi(state.snapshot.countries || []);
 }
 
@@ -46,12 +113,12 @@ function renderKpis() {
 
 function renderGlobalThemes() {
   const items = (state.snapshot.globalThemes || []).slice(0,6);
-  $('#global-top-themes').innerHTML = `<h3>Leading themes</h3>${items.map(x=>`<div class="rank-row"><span>${safe(x.name)}</span><strong>${fmt(x.count)}</strong></div>`).join('')}`;
+  $('#global-top-themes').innerHTML = `<h3>Leading themes</h3>${items.length ? items.map(x=>`<div class="rank-row"><span>${safe(x.name)}</span><strong>${fmt(x.count)}</strong></div>`).join('') : '<p class="micro">Theme aggregates will populate on the next v2 core refresh.</p>'}`;
 }
 
 function countryRow(c) {
   const momentum = classifyMomentum(c.reports7d,c.previous7d);
-  return `<tr><td><button class="link country-open" data-iso3="${escapeAttr(c.iso3)}">${safe(c.name)}</button></td><td>${fmt(c.reports30d)}</td><td>${fmt(c.reports7d)}</td><td>${pct(c.change7d)}</td><td>${c.uniqueSources?fmt(c.uniqueSources):'—'}</td><td>${c.themeBreadth?fmt(c.themeBreadth):'—'}</td><td><strong title="${c.hisiBasis==='FULL'?'Full HISI':'Provisional HISI using volume and momentum only'}">${c.hisi}${c.hisiBasis==='PROVISIONAL'?'*':''}</strong></td><td><span class="badge ${momentum.level}">${safe(momentum.label)}</span></td></tr>`;
+  return `<tr><td><button class="link country-open" data-iso3="${escapeAttr(c.iso3)}">${safe(c.name)}</button></td><td>${fmt(c.reports30d)}</td><td>${fmt(c.reports7d)}</td><td>${pct(c.change7d)}</td><td>${c.uniqueSources?fmt(c.uniqueSources):'n/a'}</td><td>${c.themeBreadth?fmt(c.themeBreadth):'n/a'}</td><td><strong title="${c.hisiBasis==='FULL'?'Full HISI':'Provisional HISI using volume and momentum only'}">${c.hisi}${c.hisiBasis==='PROVISIONAL'?'*':''}</strong></td><td><span class="badge ${momentum.level}">${safe(momentum.label)}</span></td></tr>`;
 }
 
 function renderCountriesTable() {
@@ -87,22 +154,18 @@ function renderReports(reports=state.snapshot.reports||[], target='#reports-list
 }
 
 function rankBlock(title,items=[]) {
-  return `<section class="workspace-card"><h3>${safe(title)}</h3><div class="rank-list">${items.length?items.slice(0,10).map(x=>`<div class="rank-row"><span>${safe(x.name)}</span><strong>${fmt(x.count)}</strong></div>`).join(''):'<p class="micro">Detailed enrichment not available for this country in the current quota-conserving snapshot.</p>'}</div></section>`;
+  return `<section class="workspace-card"><h3>${safe(title)}</h3><div class="rank-list">${items.length?items.slice(0,10).map(x=>`<div class="rank-row"><span>${safe(x.name)}</span><strong>${fmt(x.count)}</strong></div>`).join(''):'<p class="micro">Detailed enrichment is pending for this country.</p>'}</div></section>`;
 }
 
 function qapPayload(c) {
   return {
-    schema:'arac.qap.reliefweb-signal.v1',
-    generatedAt:new Date().toISOString(),
-    sourceSnapshotGeneratedAt:state.snapshot.generatedAt,
+    schema:'arac.qap.reliefweb-signal.v1',generatedAt:new Date().toISOString(),sourceSnapshotGeneratedAt:state.snapshot.generatedAt,
     scope:{country:c.name,iso3:c.iso3,periodDays:30},
     reporting:{reports30d:c.reports30d,reports7d:c.reports7d,previous7d:c.previous7d,change7d:c.change7d,momentum:classifyMomentum(c.reports7d,c.previous7d)},
     informationSignal:{hisi:c.hisi,basis:c.hisiBasis,components:c.hisiParts},
     themes:c.topThemes||[],sources:c.topSources||[],formats:c.topFormats||[],disasterTypes:c.disasterTypes||[],
-    activeDisasters:(state.snapshot.disasters||[]).filter(d=>d.primaryCountryIso3===c.iso3),
-    recentReports:c.recentReports||[],
-    methodology:{dateBasis:'date.original',countryCounting:'primary_country.iso3',severityBoundary:'Information-environment signal only; not a humanitarian severity determination.'},
-    provenance:state.snapshot.provenance
+    activeDisasters:(state.snapshot.disasters||[]).filter(d=>d.primaryCountryIso3===c.iso3),recentReports:c.recentReports||[],
+    methodology:{dateBasis:'date.original',countryCounting:'primary_country.iso3',severityBoundary:'Information-environment signal only; not a humanitarian severity determination.'},provenance:state.snapshot.provenance
   };
 }
 
@@ -115,7 +178,7 @@ function openCountry(iso3,switchView=false) {
   const disasters = (state.snapshot.disasters||[]).filter(d=>d.primaryCountryIso3===iso3);
   const momentum = classifyMomentum(c.reports7d,c.previous7d);
   $('#country-workspace').className='';
-  $('#country-workspace').innerHTML = `<section class="panel"><div class="country-head"><div><span class="eyebrow">${safe(c.iso3.toUpperCase())} · COUNTRY WORKSPACE</span><h2>${safe(c.name)}</h2><p class="country-overview">${safe(c.overview || 'ReliefWeb country metadata and current reporting signals.')}</p></div><div class="actions"><button id="country-watch" class="button ghost">${storage.getWatchlist().includes(iso3)?'Remove from watchlist':'Add to watchlist'}</button><button id="qap-export" class="button">Export QAP JSON</button></div></div><div class="detail-grid workspace-section"><article><span>Reports 30d</span><strong>${fmt(c.reports30d)}</strong></article><article><span>Reports 7d</span><strong>${fmt(c.reports7d)}</strong></article><article><span>7d change</span><strong>${pct(c.change7d)}</strong></article><article><span>Signal</span><strong>${safe(momentum.label)}</strong></article><article><span>HISI</span><strong>${c.hisi}${c.hisiBasis==='PROVISIONAL'?'*':''}/100</strong></article><article><span>Active contexts</span><strong>${fmt(disasters.length)}</strong></article></div></section><div class="workspace-grid workspace-section">${rankBlock('Leading themes',c.topThemes)}${rankBlock('Leading sources',c.topSources)}${rankBlock('Report formats',c.topFormats)}</div><div class="grid-2 workspace-section"><section class="panel"><h2>30-day reporting trend</h2><canvas id="country-trend" class="chart"></canvas></section><section class="panel"><h2>Current disaster contexts</h2><div class="rank-list">${disasters.length?disasters.map(d=>`<div class="rank-row"><span>${safe(d.name)}</span><strong>${safe(d.primaryType)}</strong></div>`).join(''):'<p class="micro">No active/alert ReliefWeb disaster entity in the synchronized set.</p>'}</div></section></div><section class="panel workspace-section"><h2>Recent reports</h2><div id="country-reports"></div></section><p class="micro">${c.hisiBasis==='PROVISIONAL'?'* Provisional HISI uses volume and momentum only because this country is outside the enriched profile set for the current snapshot.':''}</p>`;
+  $('#country-workspace').innerHTML = `<section class="panel"><div class="country-head"><div><span class="eyebrow">${safe(c.iso3.toUpperCase())} · COUNTRY WORKSPACE</span><h2>${safe(c.name)}</h2><p class="country-overview">${safe(c.overview || 'ReliefWeb country reporting signals and current disaster context.')}</p></div><div class="actions"><button id="country-watch" class="button ghost">${storage.getWatchlist().includes(iso3)?'Remove from watchlist':'Add to watchlist'}</button><button id="qap-export" class="button">Export QAP JSON</button></div></div><div class="detail-grid workspace-section"><article><span>Reports 30d</span><strong>${fmt(c.reports30d)}</strong></article><article><span>Reports 7d</span><strong>${fmt(c.reports7d)}</strong></article><article><span>7d change</span><strong>${pct(c.change7d)}</strong></article><article><span>Signal</span><strong>${safe(momentum.label)}</strong></article><article><span>HISI</span><strong>${c.hisi}${c.hisiBasis==='PROVISIONAL'?'*':''}/100</strong></article><article><span>Active contexts</span><strong>${fmt(disasters.length)}</strong></article></div></section><div class="workspace-grid workspace-section">${rankBlock('Leading themes',c.topThemes)}${rankBlock('Leading sources',c.topSources)}${rankBlock('Report formats',c.topFormats)}</div><div class="grid-2 workspace-section"><section class="panel"><h2>30-day reporting trend</h2><canvas id="country-trend" class="chart"></canvas></section><section class="panel"><h2>Current disaster contexts</h2><div class="rank-list">${disasters.length?disasters.map(d=>`<div class="rank-row"><span>${safe(d.name)}</span><strong>${safe(d.primaryType)}</strong></div>`).join(''):'<p class="micro">No active or alert ReliefWeb disaster entity in the synchronized set.</p>'}</div></section></div><section class="panel workspace-section"><h2>Recent reports</h2><div id="country-reports"></div></section><p class="micro">${c.hisiBasis==='PROVISIONAL'?'* Provisional HISI uses volume and momentum only until detailed country enrichment is available.':''}</p>`;
   $('#country-watch').addEventListener('click',()=>{storage.toggleWatchlist(iso3);openCountry(iso3,false);});
   $('#qap-export').addEventListener('click',()=>exportJson(`ahsm-${iso3}-qap-signal.json`,qapPayload(c)));
   renderReports(c.recentReports||[], '#country-reports', 12);
@@ -123,7 +186,6 @@ function openCountry(iso3,switchView=false) {
 }
 
 function mapCircleRadius(count,max) { return Math.max(4,Math.min(26,4+22*Math.sqrt((count||0)/(max||1)))); }
-
 function renderGlobalMap() {
   if (!window.L || state.maps.global) return;
   const points = state.countries.filter(c=>Number.isFinite(c.location?.lat)&&Number.isFinite(c.location?.lon));
@@ -133,8 +195,7 @@ function renderGlobalMap() {
   points.forEach(c=>{
     const marker=L.circleMarker([c.location.lat,c.location.lon],{radius:mapCircleRadius(c.reports30d,max),weight:1,fillOpacity:.65});
     marker.bindPopup(`<b>${safe(c.name)}</b><br>${fmt(c.reports30d)} reports · 30d<br>${fmt(c.reports7d)} reports · 7d<br>${safe(classifyMomentum(c.reports7d,c.previous7d).label)}`);
-    marker.on('click',()=>{state.selectedIso3=c.iso3;});
-    marker.addTo(map);
+    marker.on('dblclick',()=>openCountry(c.iso3,true));marker.addTo(map);
   });
   state.maps.global=map;
 }
@@ -147,9 +208,7 @@ function renderDisasters(filter='') {
   if (state.maps.disasters) { state.maps.disasters.remove(); state.maps.disasters=null; }
   const map=L.map('disaster-map',{worldCopyJump:true,minZoom:2}).setView([15,10],2);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:8,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
-  rows.filter(d=>Number.isFinite(d.location?.lat)&&Number.isFinite(d.location?.lon)).forEach(d=>{
-    L.circleMarker([d.location.lat,d.location.lon],{radius:7,weight:1,fillOpacity:.75}).bindPopup(`<b>${safe(d.name)}</b><br>${safe(d.primaryCountry)}<br>${safe(d.primaryType)} · ${safe(d.status)}`).addTo(map);
-  });
+  rows.filter(d=>Number.isFinite(d.location?.lat)&&Number.isFinite(d.location?.lon)).forEach(d=>L.circleMarker([d.location.lat,d.location.lon],{radius:7,weight:1,fillOpacity:.75}).bindPopup(`<b>${safe(d.name)}</b><br>${safe(d.primaryCountry)}<br>${safe(d.primaryType)} · ${safe(d.status)}`).addTo(map));
   state.maps.disasters=map;
 }
 
@@ -159,10 +218,7 @@ function populateDisasterTypes() {
 }
 
 function buildQueryBody() {
-  const keywords=$('#query-keywords').value.trim();
-  const iso3=$('#query-country').value;
-  const theme=$('#query-theme').value;
-  const format=$('#query-format').value;
+  const keywords=$('#query-keywords').value.trim(), iso3=$('#query-country').value, theme=$('#query-theme').value, format=$('#query-format').value;
   const conditions=[{field:'status',value:'published'}];
   if (iso3) conditions.push({field:'primary_country.iso3',value:iso3});
   if (theme) conditions.push({field:'theme.name',value:theme});
@@ -173,10 +229,7 @@ function buildQueryBody() {
 }
 
 function runSnapshotQuery() {
-  const keywords=$('#query-keywords').value.trim().toLowerCase();
-  const iso3=$('#query-country').value;
-  const theme=$('#query-theme').value;
-  const format=$('#query-format').value;
+  const keywords=$('#query-keywords').value.trim().toLowerCase(), iso3=$('#query-country').value, theme=$('#query-theme').value, format=$('#query-format').value;
   const results=(state.snapshot.reports||[]).filter(r=>{
     if (iso3 && r.primaryCountryIso3!==iso3) return false;
     if (theme && !(r.themes||[]).includes(theme)) return false;
@@ -184,10 +237,7 @@ function runSnapshotQuery() {
     if (keywords && !JSON.stringify(r).toLowerCase().includes(keywords)) return false;
     return true;
   });
-  state.queryResults=results;
-  $('#query-preview').textContent=JSON.stringify(buildQueryBody(),null,2);
-  $('#query-count').textContent=`(${results.length})`;
-  renderReports(results,'#query-results',100);
+  state.queryResults=results;$('#query-preview').textContent=JSON.stringify(buildQueryBody(),null,2);$('#query-count').textContent=`(${results.length})`;renderReports(results,'#query-results',100);
 }
 
 function bind() {
@@ -205,14 +255,8 @@ function bind() {
 
 async function init() {
   try {
-    await loadSnapshot();
-    renderHeader();renderKpis();renderGlobalThemes();renderCountriesTable();renderPulse();renderReports();populateSelectors();populateDisasterTypes();bind();
-    drawLineChart($('#global-trend'),state.snapshot.timeline||[]);
-    renderGlobalMap();renderDisasters();runSnapshotQuery();
+    await loadSnapshot();renderHeader();renderKpis();renderGlobalThemes();renderCountriesTable();renderPulse();renderReports();populateSelectors();populateDisasterTypes();bind();drawLineChart($('#global-trend'),state.snapshot.timeline||[]);renderGlobalMap();renderDisasters();runSnapshotQuery();
     if (storage.getMode()==='community'){document.body.classList.add('community');$('#mode-toggle').textContent='Standard view';}
-  } catch(error) {
-    $('#app-error').hidden=false;
-    $('#app-error').textContent=`Unable to load humanitarian snapshot: ${error.message}`;
-  }
+  } catch(error) { $('#app-error').hidden=false;$('#app-error').textContent=`Unable to load humanitarian snapshot: ${error.message}`; }
 }
 init();
