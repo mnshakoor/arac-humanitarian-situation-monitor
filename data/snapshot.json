@@ -1,0 +1,28 @@
+{
+  "schema":"arac.ahsm.snapshot.v1",
+  "generatedAt":"2026-09-15T21:00:00-04:00",
+  "status":"DEMO SNAPSHOT",
+  "stale":false,
+  "summary":{"reports30d":1468,"countries":12,"uniqueSources":128,"activeDisasters":17},
+  "timeline":[{"date":"2026-08-17","count":36},{"date":"2026-08-20","count":44},{"date":"2026-08-23","count":41},{"date":"2026-08-26","count":57},{"date":"2026-08-29","count":48},{"date":"2026-09-01","count":62},{"date":"2026-09-04","count":52},{"date":"2026-09-07","count":69},{"date":"2026-09-10","count":73},{"date":"2026-09-13","count":81},{"date":"2026-09-15","count":78}],
+  "countries":[
+    {"name":"Sudan","iso3":"SDN","reports30d":312,"reports7d":111,"previous7d":73,"change7d":52.1,"uniqueSources":34,"themeBreadth":15,"topThemes":[{"name":"Protection","count":74},{"name":"Food and Nutrition","count":61},{"name":"Health","count":42}],"topSources":[{"name":"OCHA","count":43},{"name":"WFP","count":31},{"name":"UNHCR","count":27}]},
+    {"name":"Democratic Republic of the Congo","iso3":"COD","reports30d":246,"reports7d":76,"previous7d":58,"change7d":31.0,"uniqueSources":31,"themeBreadth":14,"topThemes":[{"name":"Protection","count":55},{"name":"Health","count":39}],"topSources":[{"name":"OCHA","count":37},{"name":"UNICEF","count":22}]},
+    {"name":"Somalia","iso3":"SOM","reports30d":171,"reports7d":51,"previous7d":48,"change7d":6.3,"uniqueSources":29,"themeBreadth":13,"topThemes":[{"name":"Food and Nutrition","count":49},{"name":"Water Sanitation Hygiene","count":28}],"topSources":[{"name":"OCHA","count":24},{"name":"WFP","count":20}]},
+    {"name":"Ethiopia","iso3":"ETH","reports30d":143,"reports7d":44,"previous7d":35,"change7d":25.7,"uniqueSources":26,"themeBreadth":12,"topThemes":[{"name":"Food and Nutrition","count":41},{"name":"Protection","count":21}],"topSources":[{"name":"OCHA","count":21},{"name":"UNICEF","count":17}]},
+    {"name":"South Sudan","iso3":"SSD","reports30d":132,"reports7d":39,"previous7d":31,"change7d":25.8,"uniqueSources":24,"themeBreadth":11,"topThemes":[{"name":"Food and Nutrition","count":37}],"topSources":[{"name":"WFP","count":19}]},
+    {"name":"Mozambique","iso3":"MOZ","reports30d":112,"reports7d":35,"previous7d":21,"change7d":66.7,"uniqueSources":22,"themeBreadth":10,"topThemes":[{"name":"Shelter and Non-Food Items","count":26}],"topSources":[{"name":"IOM","count":18}]},
+    {"name":"Chad","iso3":"TCD","reports30d":96,"reports7d":24,"previous7d":23,"change7d":4.3,"uniqueSources":19,"themeBreadth":10,"topThemes":[{"name":"Protection","count":23}],"topSources":[{"name":"UNHCR","count":15}]},
+    {"name":"Nigeria","iso3":"NGA","reports30d":88,"reports7d":27,"previous7d":19,"change7d":42.1,"uniqueSources":21,"themeBreadth":12,"topThemes":[{"name":"Food and Nutrition","count":24}],"topSources":[{"name":"OCHA","count":12}]},
+    {"name":"Burkina Faso","iso3":"BFA","reports30d":71,"reports7d":18,"previous7d":15,"change7d":20.0,"uniqueSources":16,"themeBreadth":9,"topThemes":[{"name":"Protection","count":17}],"topSources":[{"name":"OCHA","count":10}]},
+    {"name":"Mali","iso3":"MLI","reports30d":52,"reports7d":14,"previous7d":13,"change7d":7.7,"uniqueSources":14,"themeBreadth":8,"topThemes":[{"name":"Protection","count":13}],"topSources":[{"name":"OCHA","count":8}]},
+    {"name":"Cameroon","iso3":"CMR","reports30d":27,"reports7d":7,"previous7d":8,"change7d":-12.5,"uniqueSources":9,"themeBreadth":6,"topThemes":[{"name":"Protection","count":8}],"topSources":[{"name":"UNHCR","count":5}]},
+    {"name":"Mauritania","iso3":"MRT","reports30d":18,"reports7d":4,"previous7d":5,"change7d":-20.0,"uniqueSources":7,"themeBreadth":5,"topThemes":[{"name":"Food and Nutrition","count":5}],"topSources":[{"name":"WFP","count":3}]}
+  ],
+  "reports":[
+    {"id":"demo-1","title":"Humanitarian situation update: displacement, protection and basic needs","dateOriginal":"2026-09-15","primaryCountry":"Sudan","source":"OCHA","format":"Situation Report","themes":["Protection","Coordination","Food and Nutrition"],"url":"https://reliefweb.int/"},
+    {"id":"demo-2","title":"Regional displacement and protection update","dateOriginal":"2026-09-15","primaryCountry":"Democratic Republic of the Congo","source":"UNHCR","format":"Assessment","themes":["Protection","Displacement"],"url":"https://reliefweb.int/"},
+    {"id":"demo-3","title":"Food security and nutrition operational update","dateOriginal":"2026-09-14","primaryCountry":"Somalia","source":"WFP","format":"Situation Report","themes":["Food and Nutrition"],"url":"https://reliefweb.int/"}
+  ],
+  "provenance":{"provider":"ReliefWeb API V2","mode":"demonstration fixture","methodology":"date.original; published status; primary_country ranking"}
+}
