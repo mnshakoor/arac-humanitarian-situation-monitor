@@ -8,7 +8,7 @@ const norm=s=>String(s||'').trim().toLowerCase();
 const isoName=(iso,raw='')=>{const code=norm(iso);const value=String(raw||'').trim();return !value||norm(value)===code?(ISO_NAMES[code]||value||code.toUpperCase()):value;};
 const countryLabel=(iso,raw='')=>`${isoName(iso,raw)} (${String(iso||'').toUpperCase()})`;
 const dateLabel=value=>{if(!value)return'';const d=new Date(value);return Number.isNaN(d.getTime())?String(value):new Intl.DateTimeFormat(undefined,{year:'numeric',month:'short',day:'numeric'}).format(d);};
-const absoluteUrl=value=>{const v=String(value||'').trim();if(!v)return'';if(/^https?:\/\//i.test(v))return v;if(v.startsWith('//'))return`https:${v}`;if(v.startsWith('/'))return`https://reliefweb.int${v}`;return'';};
+const localAsset=value=>{const v=String(value||'').trim();return v.startsWith('./assets/report-thumbs/')?v:'';};
 
 function indexSnapshot(data){
   snapshot=data;
@@ -61,19 +61,11 @@ function fallbackTrend(root=document){
   canvas.replaceWith(box);
 }
 
-function thumbnailCandidates(r){
-  const values=[...(Array.isArray(r.thumbnailCandidates)?r.thumbnailCandidates:[]),r.thumbnail,r.previewThumb,r.imageThumb];
-  return [...new Set(values.map(absoluteUrl).filter(Boolean))];
-}
-
 function addThumbnail(card,r){
-  const candidates=thumbnailCandidates(r);if(!candidates.length)return;
+  const src=localAsset(r.localThumbnail);if(!src)return;
   const img=document.createElement('img');
-  img.className='report-thumb';img.loading='lazy';img.decoding='async';img.alt='Report preview';
-  let i=0;
-  const fail=()=>{i+=1;if(i<candidates.length){img.src=candidates[i];return;}img.remove();card.classList.remove('has-thumb');};
-  img.addEventListener('error',fail);
-  img.src=candidates[0];
+  img.className='report-thumb';img.loading='lazy';img.decoding='async';img.alt='ReliefWeb report preview';img.src=src;
+  img.addEventListener('error',()=>{img.remove();card.classList.remove('has-thumb');},{once:true});
   card.prepend(img);card.classList.add('has-thumb');
 }
 
