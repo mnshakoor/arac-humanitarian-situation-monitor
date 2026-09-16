@@ -4,6 +4,12 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 * * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/reliefweb-sync.yml'
+      - 'scripts/sync-reliefweb.mjs'
 
 permissions:
   contents: write
