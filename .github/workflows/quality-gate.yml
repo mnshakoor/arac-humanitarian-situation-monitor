@@ -1,0 +1,41 @@
+name: AHSM production quality gate
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'manifest.webmanifest'
+      - 'sw.js'
+      - 'css/**'
+      - 'js/**'
+      - 'scripts/quality-gate.mjs'
+      - 'data/snapshot.json'
+      - '.github/workflows/quality-gate.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ahsm-quality-gate
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validate static application and snapshot contract
+        run: node scripts/quality-gate.mjs
+      - name: Parse JavaScript modules
+        run: |
+          node --check js/app.js
+          node --check js/ui-patch.js
+          node --check js/v03.js
+          node --check js/v04.js
+          node --check scripts/quality-gate.mjs
