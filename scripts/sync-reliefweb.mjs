@@ -41,14 +41,25 @@ const mergeReports=(fresh=[],preserved=[])=>{
 };
 const reason = result => result.status === 'rejected' ? String(result.reason?.message || result.reason || 'unavailable').slice(0,240) : null;
 const first=x=>Array.isArray(x)?x[0]:x;
-const thumbnailFromFields=f=>{
-  const image=first(f?.image);
+const absoluteReliefWebUrl=value=>{
+  const v=String(value||'').trim();
+  if(!v) return '';
+  if(/^https?:\/\//i.test(v)) return v;
+  if(v.startsWith('//')) return `https:${v}`;
+  if(v.startsWith('/')) return `https://reliefweb.int${v}`;
+  return '';
+};
+const thumbnailCandidatesFromFields=f=>{
   const files=Array.isArray(f?.file)?f.file:(f?.file?[f.file]:[]);
-  const preview=files.map(x=>first(x?.preview)).find(Boolean);
-  return image?.['url-small']||image?.['url-thumb']||image?.url||preview?.['url-small']||preview?.['url-thumb']||preview?.url||'';
+  const previews=files.map(x=>first(x?.preview)).filter(Boolean);
+  const image=first(f?.image);
+  const values=[];
+  for(const p of previews) values.push(p?.['url-thumb'],p?.['url-small'],p?.url,p?.['url-large']);
+  if(image) values.push(image?.['url-thumb'],image?.['url-small'],image?.url,image?.['url-large']);
+  return [...new Set(values.map(absoluteReliefWebUrl).filter(Boolean))];
 };
 
-const reportFields=['title','date.original','primary_country','country','source','theme','format','disaster','disaster_type','language','url','url_alias','image.url','image.url-small','image.url-thumb','image.copyright','file.preview.url','file.preview.url-small','file.preview.url-thumb'];
+const reportFields=['title','date.original','primary_country','country','source','theme','format','disaster','disaster_type','language','url','url_alias','image','image.url','image.url-large','image.url-small','image.url-thumb','image.copyright','file','file.url','file.preview','file.preview.url','file.preview.url-large','file.preview.url-small','file.preview.url-thumb'];
 const published={field:'status',value:'published'};
 const date30={field:'date.original',value:{from:reliefWebIso(daysAgo(30)),to:reliefWebIso(now)}};
 const aggregateBody={limit:0,filter:{operator:'AND',conditions:[published,date30]},facets:[
@@ -58,7 +69,7 @@ const aggregateBody={limit:0,filter:{operator:'AND',conditions:[published,date30
   {name:'formats',field:'format.name',limit:60,sort:'count:desc'},
   {name:'timeline',field:'date.original',interval:'day'}
 ]};
-const latestBody={limit:50,sort:['date.original:desc'],filter:{operator:'AND',conditions:[published,date30]},fields:{include:reportFields}};
+const latestBody={limit:50,profile:'list',sort:['date.original:desc'],filter:{operator:'AND',conditions:[published,date30]},fields:{include:reportFields}};
 const current7Body={limit:0,filter:{operator:'AND',conditions:[published,{field:'date.original',value:{from:reliefWebIso(daysAgo(7)),to:reliefWebIso(now)}}]},facets:[{name:'countries',field:'primary_country.iso3',limit:200,sort:'count:desc'}]};
 const previous7Body={limit:0,filter:{operator:'AND',conditions:[published,{field:'date.original',value:{from:reliefWebIso(daysAgo(14)),to:reliefWebIso(daysAgo(7))}}]},facets:[{name:'countries',field:'primary_country.iso3',limit:200,sort:'count:desc'}]};
 const disasterBody={limit:150,filter:{field:'status',value:['ongoing','alert'],operator:'OR'},fields:{include:['name','date.event','status','glide','country','primary_country','primary_type','type','url']}};
@@ -85,12 +96,13 @@ if (!momentumFresh) console.warn('Momentum comparison retained from last known g
 function normalizeReport(item) {
   if (item?.primaryCountry !== undefined) return item;
   const f=item.fields || {}, pc=f.primary_country || {}, image=first(f.image);
-  return {id:item.id,title:f.title,dateOriginal:f.date?.original||f['date.original'],primaryCountry:pc?.name||pc?.[0]?.name||'',primaryCountryIso3:String(pc?.iso3||pc?.[0]?.iso3||'').toLowerCase(),primaryCountryLocation:pc?.location||pc?.[0]?.location||null,source:(f.source||[]).map(s=>s.shortname||s.name).join(', '),format:(f.format||[]).map(x=>x.name).join(', '),themes:(f.theme||[]).map(x=>x.name),disasterTypes:(f.disaster_type||[]).map(x=>x.name),thumbnail:thumbnailFromFields(f),thumbnailCopyright:image?.copyright||'',url:f.url_alias||f.url||item.href};
+  const thumbnailCandidates=thumbnailCandidatesFromFields(f);
+  return {id:item.id,title:f.title,dateOriginal:f.date?.original||f['date.original'],primaryCountry:pc?.name||pc?.[0]?.name||'',primaryCountryIso3:String(pc?.iso3||pc?.[0]?.iso3||'').toLowerCase(),primaryCountryLocation:pc?.location||pc?.[0]?.location||null,source:(f.source||[]).map(s=>s.shortname||s.name).join(', '),format:(f.format||[]).map(x=>x.name).join(', '),themes:(f.theme||[]).map(x=>x.name),disasterTypes:(f.disaster_type||[]).map(x=>x.name),thumbnail:thumbnailCandidates[0]||'',thumbnailCandidates,thumbnailCopyright:image?.copyright||'',url:f.url_alias||f.url||item.href};
 }
 function normalizeDisaster(d) {
   if (d?.primaryCountryIso3 !== undefined) return d;
   const f=d.fields||d||{};
-  return {id:d.id,name:f.name,status:f.status,glide:f.glide,dateEvent:f.date?.event,url:f.url||d.href,primaryCountry:f.primary_country?.name||'',primaryCountryIso3:String(f.primary_country?.iso3||'').toLowerCase(),location:f.primary_country?.location||null,primaryType:f.primary_type?.name||'',types:(f.type||[]).map(x=>x.name)};
+  return {id:d.id,name:f.name,status:f.status,glide:f.glide,dateEvent:f.date?.event,url:f.url||d.href,primaryCountry:f.primary_country?.name||'',primaryCountryIso3:String(f.primary_country?.iso3||'').toLowerCase(),location:f.primary_country?.location||null,primaryType:f.primary_type?.name||'',types:(f.type||[]).map(x=>typeof x==='string'?x:x.name)};
 }
 
 const aggregate=aggregateFresh?aggregateResult.value:null;
@@ -149,7 +161,7 @@ const snapshot={
   globalSources:aggregateFresh?normalizeFacet(facetMap(aggregate,'sources')):(previousSnapshot?.globalSources||[]),
   globalFormats:aggregateFresh?normalizeFacet(facetMap(aggregate,'formats')):(previousSnapshot?.globalFormats||[]),
   countries,reports,disasters:normalizedDisasters,
-  provenance:{...(previousSnapshot?.provenance||{}),provider:'ReliefWeb API V2',appname,queryGeneratedAt:now.toISOString(),dateBasis:'date.original',status:'published',countryCounting:'primary_country.iso3',aggregateStrategy:'Component-resilient hourly snapshot with separate daily country enrichment',momentumStatus:momentumFresh?'fresh':'last-known-good',coordinateSource:'Embedded ReliefWeb primary_country.location where available',countryNameSource:'Embedded ReliefWeb primary_country names; ISO3 fallback where unavailable',reportThumbnailSource:'ReliefWeb image or attachment preview fields when available',analyticalBoundary:'Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.'}
+  provenance:{...(previousSnapshot?.provenance||{}),provider:'ReliefWeb API V2',appname,queryGeneratedAt:now.toISOString(),dateBasis:'date.original',status:'published',countryCounting:'primary_country.iso3',aggregateStrategy:'Component-resilient hourly snapshot with separate daily country enrichment',momentumStatus:momentumFresh?'fresh':'last-known-good',coordinateSource:'Embedded ReliefWeb primary_country.location where available',countryNameSource:'Embedded ReliefWeb primary_country names; ISO3 fallback where unavailable',reportThumbnailSource:'ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI',analyticalBoundary:'Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.'}
 };
 
 await fs.mkdir('data',{recursive:true});
