@@ -16,13 +16,15 @@ function facetMap(obj,name){const root=facetRoot(obj);const f=root?.[name]||(Arr
 const facetValue=x=>x?.value??x?.name??x?.term??'';
 const facetCount=x=>x?.count??x?.value_count??0;
 const normalizeFacet=arr=>arr.map(x=>({name:String(facetValue(x)),count:facetCount(x)}));
-const reportFields=['title','date.original','primary_country','country','source','theme','format','disaster','disaster_type','language','url','url_alias'];
+const first=x=>Array.isArray(x)?x[0]:x;
+const thumbnailFromFields=f=>{const image=first(f?.image);const files=Array.isArray(f?.file)?f.file:(f?.file?[f.file]:[]);const preview=files.map(x=>first(x?.preview)).find(Boolean);return image?.['url-small']||image?.['url-thumb']||image?.url||preview?.['url-small']||preview?.['url-thumb']||preview?.url||'';};
+const reportFields=['title','date.original','primary_country','country','source','theme','format','disaster','disaster_type','language','url','url_alias','image.url','image.url-small','image.url-thumb','image.copyright','file.preview.url','file.preview.url-small','file.preview.url-thumb'];
 const snapshot=JSON.parse(await fs.readFile('data/snapshot.json','utf8'));
 const now=new Date();
 const reliefWebIso=d=>d.toISOString().replace(/\.\d{3}Z$/,'+00:00');
 const from=new Date(now.getTime()-30*86400000);
 
-function normalizeReport(item){const f=item.fields||{},pc=f.primary_country||{};return{id:item.id,title:f.title,dateOriginal:f.date?.original||f['date.original'],primaryCountry:pc?.name||pc?.[0]?.name||'',primaryCountryIso3:String(pc?.iso3||pc?.[0]?.iso3||'').toLowerCase(),primaryCountryLocation:pc?.location||pc?.[0]?.location||null,source:(f.source||[]).map(s=>s.shortname||s.name).join(', '),format:(f.format||[]).map(x=>x.name).join(', '),themes:(f.theme||[]).map(x=>x.name),disasterTypes:(f.disaster_type||[]).map(x=>x.name),url:f.url_alias||f.url||item.href};}
+function normalizeReport(item){const f=item.fields||{},pc=f.primary_country||{},image=first(f.image);return{id:item.id,title:f.title,dateOriginal:f.date?.original||f['date.original'],primaryCountry:pc?.name||pc?.[0]?.name||'',primaryCountryIso3:String(pc?.iso3||pc?.[0]?.iso3||'').toLowerCase(),primaryCountryLocation:pc?.location||pc?.[0]?.location||null,source:(f.source||[]).map(s=>s.shortname||s.name).join(', '),format:(f.format||[]).map(x=>x.name).join(', '),themes:(f.theme||[]).map(x=>x.name),disasterTypes:(f.disaster_type||[]).map(x=>x.name),thumbnail:thumbnailFromFields(f),thumbnailCopyright:image?.copyright||'',url:f.url_alias||f.url||item.href};}
 function bodyFor(c){return{limit:12,sort:['date.original:desc'],filter:{operator:'AND',conditions:[{field:'status',value:'published'},{field:'primary_country.iso3',value:c.iso3},{field:'date.original',value:{from:reliefWebIso(from),to:reliefWebIso(now)}}]},fields:{include:reportFields},facets:[{name:'themes',field:'theme.name',limit:20,sort:'count:desc'},{name:'sources',field:'source.shortname',limit:30,sort:'count:desc'},{name:'formats',field:'format.name',limit:20,sort:'count:desc'},{name:'disasterTypes',field:'disaster_type.name',limit:20,sort:'count:desc'},{name:'timeline',field:'date.original',interval:'day'}]};}
 
 const targets=[...(snapshot.countries||[])].sort((a,b)=>(b.reports30d||0)-(a.reports30d||0)).slice(0,LIMIT);
@@ -51,6 +53,6 @@ for(let i=0;i<targets.length;i+=BATCH){
 
 snapshot.summary={...(snapshot.summary||{}),profiledCountries:completed,profileTargets:targets.length};
 snapshot.enrichedAt=now.toISOString();
-snapshot.provenance={...(snapshot.provenance||{}),countryEnrichment:'Daily/manual isolated ReliefWeb country profile pass',countryProfileLimit:LIMIT};
+snapshot.provenance={...(snapshot.provenance||{}),countryEnrichment:'Daily/manual isolated ReliefWeb country profile pass',countryProfileLimit:LIMIT,reportThumbnailSource:'ReliefWeb image or attachment preview fields when available'};
 await fs.writeFile('data/snapshot.json',JSON.stringify(snapshot,null,2));
 console.log(`Enriched ${completed}/${targets.length} country profiles.`);
