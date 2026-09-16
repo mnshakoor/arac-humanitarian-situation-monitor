@@ -24,6 +24,7 @@ function enhanceWorkspace(){
   const select=document.querySelector('#country-select');
   if(!workspace||!select?.value)return;
   const iso=norm(select.value), c=countries.get(iso); if(!c)return;
+  if(workspace.dataset.v03Iso===iso&&workspace.querySelector('.v03-analytics'))return;
   const existing=workspace.querySelector('.v03-analytics');
   if(existing)existing.remove();
   const eco=sourceEcology(c);
@@ -31,6 +32,7 @@ function enhanceWorkspace(){
   wrap.innerHTML=`<div class="grid-2"><section class="panel"><div class="panel-head"><div><h2>Theme momentum</h2><p>Current 7 days compared with the previous 7 days.</p></div></div>${c.themeMomentum?.length?`<div class="momentum-table">${momentumRows(c.themeMomentum)}</div>`:'<p class="micro">Theme momentum will populate after the next country enrichment pass.</p>'}</section><section class="panel"><div class="panel-head"><div><h2>Source ecology</h2><p>Concentration and diversity of source assignments in the 30-day country profile.</p></div></div>${eco?`<div class="ecology-grid"><article><span>Unique sources</span><strong>${fmt(c.uniqueSources||0)}</strong></article><article><span>Top source share</span><strong>${eco.top1Share.toFixed(1)}%</strong></article><article><span>Top 5 share</span><strong>${eco.top5Share.toFixed(1)}%</strong></article><article><span>Effective source count</span><strong>${eco.effectiveSourceCount.toFixed(1)}</strong></article></div>`:'<p class="micro">Source ecology will populate after the next country enrichment pass.</p>'}<p class="micro">Source diversity and concentration do not establish independent corroboration.</p></section></div><details class="panel provenance-drawer"><summary>Data provenance & freshness</summary><div class="provenance-grid"><span>Snapshot generated</span><strong>${safe(data.generatedAt||'n/a')}</strong><span>Country enriched</span><strong>${safe(c.enrichedAt||data.enrichedAt||'pending')}</strong><span>Enrichment status</span><strong>${safe(c.enrichmentStatus||'unknown')}</strong><span>Data provider</span><strong>${safe(data.provenance?.provider||'ReliefWeb API V2')}</strong><span>Date basis</span><strong>${safe(data.provenance?.dateBasis||'date.original')}</strong><span>Country counting</span><strong>${safe(data.provenance?.countryCounting||'primary_country.iso3')}</strong></div><p class="micro">Reporting intensity, momentum, thematic breadth and source ecology describe the information environment. They do not independently determine humanitarian severity.</p></details>`;
   const recent=[...workspace.querySelectorAll('.workspace-section')].find(x=>x.querySelector?.('#country-reports'));
   (recent||workspace.lastElementChild)?.before?.(wrap);
+  workspace.dataset.v03Iso=iso;
   replaceQapExport(c);
   const url=new URL(location.href);url.searchParams.set('country',iso.toUpperCase());history.replaceState(null,'',url);
 }
@@ -81,7 +83,8 @@ async function boot(){
   try{const r=await fetch('./data/snapshot.json',{cache:'no-store'});data=await r.json();countries=new Map((data.countries||[]).map(c=>[norm(c.iso3),c]));}catch{return;}
   addWatchlistView();addSavedQueries();deepLink();
   document.querySelector('#country-select')?.addEventListener('change',()=>setTimeout(enhanceWorkspace,60));
-  const obs=new MutationObserver(()=>{if(document.querySelector('#country-workspace .country-head'))enhanceWorkspace();renderWatchlist();});obs.observe(document.querySelector('#country-workspace')||document.body,{childList:true,subtree:true});
+  const root=document.querySelector('#country-workspace')||document.body;
+  const obs=new MutationObserver(()=>{if(document.querySelector('#country-workspace .country-head'))enhanceWorkspace();renderWatchlist();});obs.observe(root,{childList:true,subtree:true});
   setTimeout(enhanceWorkspace,250);
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});else boot();
