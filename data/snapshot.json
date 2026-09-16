@@ -1,17 +1,1663 @@
 {
   "schema": "arac.ahsm.snapshot.v1",
-  "generatedAt": "2026-09-16T13:51:20.077Z",
+  "generatedAt": "2026-09-16T13:53:24.419Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
   "summary": {
     "reports30d": 2331,
-    "countries": 0,
-    "uniqueSources": 0,
+    "countries": 126,
+    "uniqueSources": 250,
     "activeDisasters": 106
   },
-  "timeline": [],
-  "countries": [],
+  "timeline": [
+    {
+      "date": "2026-08-18T00:00:00+00:00",
+      "count": 102
+    },
+    {
+      "date": "2026-08-19T00:00:00+00:00",
+      "count": 157
+    },
+    {
+      "date": "2026-08-20T00:00:00+00:00",
+      "count": 92
+    },
+    {
+      "date": "2026-08-21T00:00:00+00:00",
+      "count": 91
+    },
+    {
+      "date": "2026-08-22T00:00:00+00:00",
+      "count": 5
+    },
+    {
+      "date": "2026-08-23T00:00:00+00:00",
+      "count": 32
+    },
+    {
+      "date": "2026-08-24T00:00:00+00:00",
+      "count": 104
+    },
+    {
+      "date": "2026-08-25T00:00:00+00:00",
+      "count": 83
+    },
+    {
+      "date": "2026-08-26T00:00:00+00:00",
+      "count": 68
+    },
+    {
+      "date": "2026-08-27T00:00:00+00:00",
+      "count": 134
+    },
+    {
+      "date": "2026-08-28T00:00:00+00:00",
+      "count": 124
+    },
+    {
+      "date": "2026-08-29T00:00:00+00:00",
+      "count": 15
+    },
+    {
+      "date": "2026-08-30T00:00:00+00:00",
+      "count": 27
+    },
+    {
+      "date": "2026-08-31T00:00:00+00:00",
+      "count": 115
+    },
+    {
+      "date": "2026-09-01T00:00:00+00:00",
+      "count": 93
+    },
+    {
+      "date": "2026-09-02T00:00:00+00:00",
+      "count": 98
+    },
+    {
+      "date": "2026-09-03T00:00:00+00:00",
+      "count": 100
+    },
+    {
+      "date": "2026-09-04T00:00:00+00:00",
+      "count": 90
+    },
+    {
+      "date": "2026-09-05T00:00:00+00:00",
+      "count": 21
+    },
+    {
+      "date": "2026-09-06T00:00:00+00:00",
+      "count": 38
+    },
+    {
+      "date": "2026-09-07T00:00:00+00:00",
+      "count": 87
+    },
+    {
+      "date": "2026-09-08T00:00:00+00:00",
+      "count": 100
+    },
+    {
+      "date": "2026-09-09T00:00:00+00:00",
+      "count": 94
+    },
+    {
+      "date": "2026-09-10T00:00:00+00:00",
+      "count": 105
+    },
+    {
+      "date": "2026-09-11T00:00:00+00:00",
+      "count": 71
+    },
+    {
+      "date": "2026-09-12T00:00:00+00:00",
+      "count": 24
+    },
+    {
+      "date": "2026-09-13T00:00:00+00:00",
+      "count": 23
+    },
+    {
+      "date": "2026-09-14T00:00:00+00:00",
+      "count": 97
+    },
+    {
+      "date": "2026-09-15T00:00:00+00:00",
+      "count": 115
+    },
+    {
+      "date": "2026-09-16T00:00:00+00:00",
+      "count": 26
+    }
+  ],
+  "countries": [
+    {
+      "name": "wld",
+      "iso3": "wld",
+      "reports30d": 198,
+      "reports7d": 46,
+      "previous7d": 51,
+      "change7d": -9.803921568627452,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "npl",
+      "iso3": "npl",
+      "reports30d": 189,
+      "reports7d": 15,
+      "previous7d": 80,
+      "change7d": -81.25,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "cod",
+      "iso3": "cod",
+      "reports30d": 185,
+      "reports7d": 42,
+      "previous7d": 32,
+      "change7d": 31.25,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "yem",
+      "iso3": "yem",
+      "reports30d": 108,
+      "reports7d": 32,
+      "previous7d": 22,
+      "change7d": 45.45454545454545,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "col",
+      "iso3": "col",
+      "reports30d": 105,
+      "reports7d": 18,
+      "previous7d": 17,
+      "change7d": 5.88235294117647,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "sdn",
+      "iso3": "sdn",
+      "reports30d": 86,
+      "reports7d": 22,
+      "previous7d": 18,
+      "change7d": 22.22222222222222,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "afg",
+      "iso3": "afg",
+      "reports30d": 82,
+      "reports7d": 11,
+      "previous7d": 20,
+      "change7d": -45,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "pse",
+      "iso3": "pse",
+      "reports30d": 79,
+      "reports7d": 11,
+      "previous7d": 17,
+      "change7d": -35.294117647058826,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "ukr",
+      "iso3": "ukr",
+      "reports30d": 65,
+      "reports7d": 8,
+      "previous7d": 12,
+      "change7d": -33.33333333333333,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "lbn",
+      "iso3": "lbn",
+      "reports30d": 64,
+      "reports7d": 13,
+      "previous7d": 15,
+      "change7d": -13.333333333333334,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "pak",
+      "iso3": "pak",
+      "reports30d": 61,
+      "reports7d": 9,
+      "previous7d": 14,
+      "change7d": -35.714285714285715,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "som",
+      "iso3": "som",
+      "reports30d": 57,
+      "reports7d": 11,
+      "previous7d": 6,
+      "change7d": 83.33333333333334,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "syr",
+      "iso3": "syr",
+      "reports30d": 56,
+      "reports7d": 7,
+      "previous7d": 9,
+      "change7d": -22.22222222222222,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "ven",
+      "iso3": "ven",
+      "reports30d": 53,
+      "reports7d": 5,
+      "previous7d": 10,
+      "change7d": -50,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "tcd",
+      "iso3": "tcd",
+      "reports30d": 52,
+      "reports7d": 7,
+      "previous7d": 19,
+      "change7d": -63.1578947368421,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "ssd",
+      "iso3": "ssd",
+      "reports30d": 50,
+      "reports7d": 6,
+      "previous7d": 13,
+      "change7d": -53.84615384615385,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "hti",
+      "iso3": "hti",
+      "reports30d": 44,
+      "reports7d": 10,
+      "previous7d": 9,
+      "change7d": 11.11111111111111,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "phl",
+      "iso3": "phl",
+      "reports30d": 44,
+      "reports7d": 16,
+      "previous7d": 22,
+      "change7d": -27.27272727272727,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "uga",
+      "iso3": "uga",
+      "reports30d": 42,
+      "reports7d": 22,
+      "previous7d": 9,
+      "change7d": 144.44444444444443,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "bgd",
+      "iso3": "bgd",
+      "reports30d": 39,
+      "reports7d": 4,
+      "previous7d": 12,
+      "change7d": -66.66666666666666,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "nga",
+      "iso3": "nga",
+      "reports30d": 39,
+      "reports7d": 7,
+      "previous7d": 7,
+      "change7d": 0,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "mmr",
+      "iso3": "mmr",
+      "reports30d": 38,
+      "reports7d": 9,
+      "previous7d": 3,
+      "change7d": 200,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "idn",
+      "iso3": "idn",
+      "reports30d": 32,
+      "reports7d": 4,
+      "previous7d": 5,
+      "change7d": -20,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "lka",
+      "iso3": "lka",
+      "reports30d": 31,
+      "reports7d": 7,
+      "previous7d": 8,
+      "change7d": -12.5,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "caf",
+      "iso3": "caf",
+      "reports30d": 30,
+      "reports7d": 9,
+      "previous7d": 5,
+      "change7d": 80,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "eth",
+      "iso3": "eth",
+      "reports30d": 27,
+      "reports7d": 4,
+      "previous7d": 1,
+      "change7d": 300,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "moz",
+      "iso3": "moz",
+      "reports30d": 25,
+      "reports7d": 3,
+      "previous7d": 9,
+      "change7d": -66.66666666666666,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "ner",
+      "iso3": "ner",
+      "reports30d": 25,
+      "reports7d": 10,
+      "previous7d": 2,
+      "change7d": 400,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "tur",
+      "iso3": "tur",
+      "reports30d": 24,
+      "reports7d": 0,
+      "previous7d": 3,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "cmr",
+      "iso3": "cmr",
+      "reports30d": 21,
+      "reports7d": 3,
+      "previous7d": 3,
+      "change7d": 0,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "ken",
+      "iso3": "ken",
+      "reports30d": 20,
+      "reports7d": 8,
+      "previous7d": 5,
+      "change7d": 60,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "mli",
+      "iso3": "mli",
+      "reports30d": 18,
+      "reports7d": 4,
+      "previous7d": 1,
+      "change7d": 300,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "per",
+      "iso3": "per",
+      "reports30d": 14,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "ago",
+      "iso3": "ago",
+      "reports30d": 12,
+      "reports7d": 1,
+      "previous7d": 10,
+      "change7d": -90,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "hnd",
+      "iso3": "hnd",
+      "reports30d": 11,
+      "reports7d": 3,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "bfa",
+      "iso3": "bfa",
+      "reports30d": 9,
+      "reports7d": 2,
+      "previous7d": 4,
+      "change7d": -50,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "cub",
+      "iso3": "cub",
+      "reports30d": 9,
+      "reports7d": 5,
+      "previous7d": 1,
+      "change7d": 400,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "ita",
+      "iso3": "ita",
+      "reports30d": 9,
+      "reports7d": 2,
+      "previous7d": 2,
+      "change7d": 0,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "mrt",
+      "iso3": "mrt",
+      "reports30d": 9,
+      "reports7d": 2,
+      "previous7d": 5,
+      "change7d": -60,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "vut",
+      "iso3": "vut",
+      "reports30d": 9,
+      "reports7d": 0,
+      "previous7d": 2,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "rou",
+      "iso3": "rou",
+      "reports30d": 8,
+      "reports7d": 2,
+      "previous7d": 3,
+      "change7d": -33.33333333333333,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "tza",
+      "iso3": "tza",
+      "reports30d": 8,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "bdi",
+      "iso3": "bdi",
+      "reports30d": 7,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "bra",
+      "iso3": "bra",
+      "reports30d": 7,
+      "reports7d": 2,
+      "previous7d": 3,
+      "change7d": -33.33333333333333,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "civ",
+      "iso3": "civ",
+      "reports30d": 7,
+      "reports7d": 1,
+      "previous7d": 2,
+      "change7d": -50,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "dji",
+      "iso3": "dji",
+      "reports30d": 7,
+      "reports7d": 6,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "ecu",
+      "iso3": "ecu",
+      "reports30d": 7,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "mdg",
+      "iso3": "mdg",
+      "reports30d": 7,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "egy",
+      "iso3": "egy",
+      "reports30d": 6,
+      "reports7d": 1,
+      "previous7d": 2,
+      "change7d": -50,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "gnb",
+      "iso3": "gnb",
+      "reports30d": 6,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "jor",
+      "iso3": "jor",
+      "reports30d": 6,
+      "reports7d": 4,
+      "previous7d": 2,
+      "change7d": 100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "mwi",
+      "iso3": "mwi",
+      "reports30d": 6,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "sen",
+      "iso3": "sen",
+      "reports30d": 6,
+      "reports7d": 6,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "slv",
+      "iso3": "slv",
+      "reports30d": 6,
+      "reports7d": 0,
+      "previous7d": 3,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "zmb",
+      "iso3": "zmb",
+      "reports30d": 6,
+      "reports7d": 2,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "alb",
+      "iso3": "alb",
+      "reports30d": 5,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "bih",
+      "iso3": "bih",
+      "reports30d": 5,
+      "reports7d": 1,
+      "previous7d": 4,
+      "change7d": -75,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "bol",
+      "iso3": "bol",
+      "reports30d": 5,
+      "reports7d": 1,
+      "previous7d": 4,
+      "change7d": -75,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "gtm",
+      "iso3": "gtm",
+      "reports30d": 5,
+      "reports7d": 1,
+      "previous7d": 1,
+      "change7d": 0,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "irn",
+      "iso3": "irn",
+      "reports30d": 5,
+      "reports7d": 3,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "irq",
+      "iso3": "irq",
+      "reports30d": 5,
+      "reports7d": 1,
+      "previous7d": 2,
+      "change7d": -50,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "lao",
+      "iso3": "lao",
+      "reports30d": 5,
+      "reports7d": 1,
+      "previous7d": 1,
+      "change7d": 0,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "mda",
+      "iso3": "mda",
+      "reports30d": 5,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "pan",
+      "iso3": "pan",
+      "reports30d": 5,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "ben",
+      "iso3": "ben",
+      "reports30d": 4,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "gmb",
+      "iso3": "gmb",
+      "reports30d": 4,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "kaz",
+      "iso3": "kaz",
+      "reports30d": 4,
+      "reports7d": 1,
+      "previous7d": 1,
+      "change7d": 0,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "pol",
+      "iso3": "pol",
+      "reports30d": 4,
+      "reports7d": 1,
+      "previous7d": 1,
+      "change7d": 0,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "srb",
+      "iso3": "srb",
+      "reports30d": 4,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "tgo",
+      "iso3": "tgo",
+      "reports30d": 4,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "vnm",
+      "iso3": "vnm",
+      "reports30d": 4,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "zwe",
+      "iso3": "zwe",
+      "reports30d": 4,
+      "reports7d": 0,
+      "previous7d": 2,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "cog",
+      "iso3": "cog",
+      "reports30d": 3,
+      "reports7d": 0,
+      "previous7d": 2,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "fji",
+      "iso3": "fji",
+      "reports30d": 3,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "ind",
+      "iso3": "ind",
+      "reports30d": 3,
+      "reports7d": 1,
+      "previous7d": 1,
+      "change7d": 0,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "lso",
+      "iso3": "lso",
+      "reports30d": 3,
+      "reports7d": 2,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "png",
+      "iso3": "png",
+      "reports30d": 3,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "sle",
+      "iso3": "sle",
+      "reports30d": 3,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "arg",
+      "iso3": "arg",
+      "reports30d": 2,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "blz",
+      "iso3": "blz",
+      "reports30d": 2,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "brb",
+      "iso3": "brb",
+      "reports30d": 2,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "btn",
+      "iso3": "btn",
+      "reports30d": 2,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "chl",
+      "iso3": "chl",
+      "reports30d": 2,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "dom",
+      "iso3": "dom",
+      "reports30d": 2,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "dza",
+      "iso3": "dza",
+      "reports30d": 2,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "esp",
+      "iso3": "esp",
+      "reports30d": 2,
+      "reports7d": 2,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "jpn",
+      "iso3": "jpn",
+      "reports30d": 2,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "kgz",
+      "iso3": "kgz",
+      "reports30d": 2,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "khm",
+      "iso3": "khm",
+      "reports30d": 2,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "lbr",
+      "iso3": "lbr",
+      "reports30d": 2,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "mar",
+      "iso3": "mar",
+      "reports30d": 2,
+      "reports7d": 2,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "nam",
+      "iso3": "nam",
+      "reports30d": 2,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "rwa",
+      "iso3": "rwa",
+      "reports30d": 2,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "tha",
+      "iso3": "tha",
+      "reports30d": 2,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "tls",
+      "iso3": "tls",
+      "reports30d": 2,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "arm",
+      "iso3": "arm",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "aus",
+      "iso3": "aus",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "aut",
+      "iso3": "aut",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "aze",
+      "iso3": "aze",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "can",
+      "iso3": "can",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "chn",
+      "iso3": "chn",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "com",
+      "iso3": "com",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "cri",
+      "iso3": "cri",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "cyp",
+      "iso3": "cyp",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "gha",
+      "iso3": "gha",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "gin",
+      "iso3": "gin",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "grc",
+      "iso3": "grc",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "guy",
+      "iso3": "guy",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "hrv",
+      "iso3": "hrv",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "kir",
+      "iso3": "kir",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "kor",
+      "iso3": "kor",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "lby",
+      "iso3": "lby",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "mex",
+      "iso3": "mex",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "mys",
+      "iso3": "mys",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "pri",
+      "iso3": "pri",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "prk",
+      "iso3": "prk",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "qat",
+      "iso3": "qat",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "sau",
+      "iso3": "sau",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "slb",
+      "iso3": "slb",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "sur",
+      "iso3": "sur",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "svn",
+      "iso3": "svn",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "swz",
+      "iso3": "swz",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "tjk",
+      "iso3": "tjk",
+      "reports30d": 1,
+      "reports7d": 1,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "tun",
+      "iso3": "tun",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "wsm",
+      "iso3": "wsm",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 1,
+      "change7d": -100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    },
+    {
+      "name": "zaf",
+      "iso3": "zaf",
+      "reports30d": 1,
+      "reports7d": 0,
+      "previous7d": 0,
+      "change7d": null,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "topThemes": [],
+      "topSources": []
+    }
+  ],
   "reports": [
+    {
+      "id": "4230104",
+      "title": "EMR Polio Bulletin - Issue No. 1458, Week 36 (ending on 13/09/2026)",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Afghanistan",
+      "source": "WHO",
+      "format": "Infographic",
+      "themes": [
+        "Health"
+      ],
+      "url": "https://reliefweb.int/report/afghanistan/emr-polio-bulletin-issue-no-1458-week-36-ending-13092026"
+    },
     {
       "id": "4230029",
       "title": "UNICEF Myanmar Humanitarian Situation Report No. 1 (Mid-Year), January-June 2026",
@@ -72,18 +1718,6 @@
       "url": "https://reliefweb.int/report/colombia/analisis-de-situacion-y-respuesta-al-terremoto-10-de-septiembre-2026"
     },
     {
-      "id": "4230104",
-      "title": "EMR Polio Bulletin - Issue No. 1458, Week 36 (ending on 13/09/2026)",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Afghanistan",
-      "source": "WHO",
-      "format": "Infographic",
-      "themes": [
-        "Health"
-      ],
-      "url": "https://reliefweb.int/report/afghanistan/emr-polio-bulletin-issue-no-1458-week-36-ending-13092026"
-    },
-    {
       "id": "4230090",
       "title": "Mauritanie — Etude sur la vulnérabilité climatique (Décembre 2025 – Janvier 2026)",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
@@ -94,18 +1728,6 @@
         "Climate Change and Environment"
       ],
       "url": "https://reliefweb.int/report/mauritania/mauritanie-etude-sur-la-vulnerabilite-climatique-decembre-2025-janvier-2026"
-    },
-    {
-      "id": "4230092",
-      "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #3 (15 September 2026)",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "source": "IOM",
-      "format": "Situation Report",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-3-15-september-2026"
     },
     {
       "id": "4230089",
@@ -132,6 +1754,18 @@
       "url": "https://reliefweb.int/report/nigeria/nigeria-north-west-nigeria-katsina-state-flash-report-298-23-august-2026"
     },
     {
+      "id": "4230092",
+      "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #3 (15 September 2026)",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "source": "IOM",
+      "format": "Situation Report",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-3-15-september-2026"
+    },
+    {
       "id": "4230115",
       "title": "MSF DRC: Ebola teams warn of serious risk as outbreak spreads to new areas",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
@@ -142,42 +1776,6 @@
         "Health"
       ],
       "url": "https://reliefweb.int/report/democratic-republic-congo/msf-drc-ebola-teams-warn-serious-risk-outbreak-spreads-new-areas"
-    },
-    {
-      "id": "4230016",
-      "title": "Yemen: latest violence threatens to shatter an already threadbare health system for children",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "source": "Save the Children",
-      "format": "News and Press Release",
-      "themes": [
-        "Health"
-      ],
-      "url": "https://reliefweb.int/report/yemen/yemen-latest-violence-threatens-shatter-already-threadbare-health-system-children"
-    },
-    {
-      "id": "4230051",
-      "title": "Patient killed inside MAP-supported health centre after Israeli military quadcopter attack",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "occupied Palestinian territory",
-      "source": "MAP",
-      "format": "News and Press Release",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "url": "https://reliefweb.int/report/occupied-palestinian-territory/patient-killed-inside-map-supported-health-centre-after-israeli-military-quadcopter-attack"
-    },
-    {
-      "id": "4230076",
-      "title": "We can adapt to anything, but not to war - Delivering for people in conflict settings: Reflections on an evolving humanitarian landscape",
-      "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "World",
-      "source": "ICRC, South Sudan Red Cross, Ukrainian Red Cross Society",
-      "format": "Analysis",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "url": "https://reliefweb.int/report/world/we-can-adapt-anything-not-war-delivering-people-conflict-settings-reflections-evolving-humanitarian-landscape"
     },
     {
       "id": "4230105",
@@ -217,6 +1815,18 @@
       "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-29-august-4-september-2026"
     },
     {
+      "id": "4230091",
+      "title": "Escalation in the Middle East and Beyond — Special Focus on Yemen (07 June - 14 September 2026)",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "Lebanon",
+      "source": "IOM",
+      "format": "Assessment",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "url": "https://reliefweb.int/report/lebanon/escalation-middle-east-and-beyond-special-focus-yemen-07-june-14-september-2026"
+    },
+    {
       "id": "4230096",
       "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #1 (13 September 2026)",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
@@ -229,16 +1839,40 @@
       "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-1-13-september-2026"
     },
     {
-      "id": "4230091",
-      "title": "Escalation in the Middle East and Beyond — Special Focus on Yemen (07 June - 14 September 2026)",
+      "id": "4230016",
+      "title": "Yemen: latest violence threatens to shatter an already threadbare health system for children",
       "dateOriginal": "2026-09-16T00:00:00+00:00",
-      "primaryCountry": "Lebanon",
-      "source": "IOM",
-      "format": "Assessment",
+      "primaryCountry": "Yemen",
+      "source": "Save the Children",
+      "format": "News and Press Release",
+      "themes": [
+        "Health"
+      ],
+      "url": "https://reliefweb.int/report/yemen/yemen-latest-violence-threatens-shatter-already-threadbare-health-system-children"
+    },
+    {
+      "id": "4230051",
+      "title": "Patient killed inside MAP-supported health centre after Israeli military quadcopter attack",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "occupied Palestinian territory",
+      "source": "MAP",
+      "format": "News and Press Release",
       "themes": [
         "Protection and Human Rights"
       ],
-      "url": "https://reliefweb.int/report/lebanon/escalation-middle-east-and-beyond-special-focus-yemen-07-june-14-september-2026"
+      "url": "https://reliefweb.int/report/occupied-palestinian-territory/patient-killed-inside-map-supported-health-centre-after-israeli-military-quadcopter-attack"
+    },
+    {
+      "id": "4230076",
+      "title": "We can adapt to anything, but not to war - Delivering for people in conflict settings: Reflections on an evolving humanitarian landscape",
+      "dateOriginal": "2026-09-16T00:00:00+00:00",
+      "primaryCountry": "World",
+      "source": "ICRC, South Sudan Red Cross, Ukrainian Red Cross Society",
+      "format": "Analysis",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "url": "https://reliefweb.int/report/world/we-can-adapt-anything-not-war-delivering-people-conflict-settings-reflections-evolving-humanitarian-landscape"
     },
     {
       "id": "4230098",
@@ -371,6 +2005,19 @@
       "url": "https://reliefweb.int/report/kenya/kenya-ipc-acute-food-insecurity-and-acute-malnutrition-analysis-july-2026-january-2027-published-14-september-2026"
     },
     {
+      "id": "4229824",
+      "title": "Sudan - National Health Cluster Meeting, 9th September 2026 [Meeting Minutes]",
+      "dateOriginal": "2026-09-15T00:00:00+00:00",
+      "primaryCountry": "Sudan",
+      "source": "Health Cluster, WHO",
+      "format": "Other",
+      "themes": [
+        "Coordination",
+        "Health"
+      ],
+      "url": "https://reliefweb.int/report/sudan/sudan-national-health-cluster-meeting-9th-september-2026-meeting-minutes"
+    },
+    {
       "id": "4229854",
       "title": "Women in the occupied West Bank fear violence and arrest, as settler attacks, military operations, and movement restrictions reach two-decade high",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
@@ -431,17 +2078,16 @@
       "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-drc-glance-31-august-2026"
     },
     {
-      "id": "4229824",
-      "title": "Sudan - National Health Cluster Meeting, 9th September 2026 [Meeting Minutes]",
+      "id": "4229869",
+      "title": "GPC Interagency Field Support Trends Overview (January-June 2026)",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "source": "Health Cluster, WHO",
-      "format": "Other",
+      "primaryCountry": "World",
+      "source": "Protection Cluster",
+      "format": "Assessment",
       "themes": [
-        "Coordination",
-        "Health"
+        "Protection and Human Rights"
       ],
-      "url": "https://reliefweb.int/report/sudan/sudan-national-health-cluster-meeting-9th-september-2026-meeting-minutes"
+      "url": "https://reliefweb.int/report/world/gpc-interagency-field-support-trends-overview-january-june-2026"
     },
     {
       "id": "4229859",
@@ -456,16 +2102,53 @@
       "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-voluntary-repatriation-fromto-drc-31-august-2026"
     },
     {
-      "id": "4229869",
-      "title": "GPC Interagency Field Support Trends Overview (January-June 2026)",
+      "id": "4229888",
+      "title": "UNHCR Niger - Niamey Map Population of Concern - Aout 2026",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "World",
-      "source": "Protection Cluster",
-      "format": "Assessment",
+      "primaryCountry": "Niger",
+      "source": "UNHCR",
+      "format": "Infographic",
       "themes": [
         "Protection and Human Rights"
       ],
-      "url": "https://reliefweb.int/report/world/gpc-interagency-field-support-trends-overview-january-june-2026"
+      "url": "https://reliefweb.int/report/niger/unhcr-niger-niamey-map-population-concern-aout-2026"
+    },
+    {
+      "id": "4229861",
+      "title": "CORE Sudan: Influx from South Sudan - 31 August 2026",
+      "dateOriginal": "2026-09-15T00:00:00+00:00",
+      "primaryCountry": "Sudan",
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "url": "https://reliefweb.int/report/sudan/core-sudan-influx-south-sudan-31-august-2026"
+    },
+    {
+      "id": "4229904",
+      "title": "Spain Arrivals Snapshot - August 2026",
+      "dateOriginal": "2026-09-15T00:00:00+00:00",
+      "primaryCountry": "Spain",
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "url": "https://reliefweb.int/report/spain/spain-arrivals-snapshot-august-2026"
+    },
+    {
+      "id": "4229943",
+      "title": "The air support behind Ebola response in the Democratic Republic of the Congo",
+      "dateOriginal": "2026-09-15T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "source": "WHO",
+      "format": "News and Press Release",
+      "themes": [
+        "Health",
+        "Logistics and Telecommunications"
+      ],
+      "url": "https://reliefweb.int/report/democratic-republic-congo/air-support-behind-ebola-response-democratic-republic-congo"
     },
     {
       "id": "4229921",
@@ -493,6 +2176,20 @@
       "url": "https://reliefweb.int/report/guinea/wfp-guinea-country-brief-september-2026"
     },
     {
+      "id": "4229933",
+      "title": "Uganda Refugee Response: Livelihoods and Resilience dashboard - Quarter 2 2026",
+      "dateOriginal": "2026-09-15T00:00:00+00:00",
+      "primaryCountry": "Uganda",
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Agriculture",
+        "Protection and Human Rights",
+        "Recovery and Reconstruction"
+      ],
+      "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-livelihoods-and-resilience-dashboard-quarter-2-2026"
+    },
+    {
       "id": "4229886",
       "title": "UNHCR Niger - Maradi -- Personnes relevant de la compétence du HCR - Août 2026",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
@@ -517,30 +2214,6 @@
       "url": "https://reliefweb.int/report/niger/unhcr-niger-agadez-personnes-relevant-de-la-competence-du-hcr-aout-2026"
     },
     {
-      "id": "4229888",
-      "title": "UNHCR Niger - Niamey Map Population of Concern - Aout 2026",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Niger",
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "url": "https://reliefweb.int/report/niger/unhcr-niger-niamey-map-population-concern-aout-2026"
-    },
-    {
-      "id": "4229861",
-      "title": "CORE Sudan: Influx from South Sudan - 31 August 2026",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "url": "https://reliefweb.int/report/sudan/core-sudan-influx-south-sudan-31-august-2026"
-    },
-    {
       "id": "4229948",
       "title": "Yemen: la escalada del conflicto provoca nuevos desplazamientos y la llegada de refugiados a Yibuti",
       "dateOriginal": "2026-09-15T00:00:00+00:00",
@@ -551,33 +2224,6 @@
         "Protection and Human Rights"
       ],
       "url": "https://reliefweb.int/report/yemen/yemen-la-escalada-del-conflicto-provoca-nuevos-desplazamientos-y-la-llegada-de-refugiados-yibuti"
-    },
-    {
-      "id": "4229943",
-      "title": "The air support behind Ebola response in the Democratic Republic of the Congo",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "source": "WHO",
-      "format": "News and Press Release",
-      "themes": [
-        "Health",
-        "Logistics and Telecommunications"
-      ],
-      "url": "https://reliefweb.int/report/democratic-republic-congo/air-support-behind-ebola-response-democratic-republic-congo"
-    },
-    {
-      "id": "4229933",
-      "title": "Uganda Refugee Response: Livelihoods and Resilience dashboard - Quarter 2 2026",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Uganda",
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Agriculture",
-        "Protection and Human Rights",
-        "Recovery and Reconstruction"
-      ],
-      "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-livelihoods-and-resilience-dashboard-quarter-2-2026"
     },
     {
       "id": "4229929",
@@ -591,6 +2237,19 @@
         "Protection and Human Rights"
       ],
       "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-gender-based-violence-gbv-dashboard-quarter-2-2026"
+    },
+    {
+      "id": "4229973",
+      "title": "MSF Syria: One year of strengthening access to healthcare in Daraa Governate",
+      "dateOriginal": "2026-09-15T00:00:00+00:00",
+      "primaryCountry": "Syrian Arab Republic",
+      "source": "MSF",
+      "format": "News and Press Release",
+      "themes": [
+        "Health",
+        "Protection and Human Rights"
+      ],
+      "url": "https://reliefweb.int/report/syrian-arab-republic/msf-syria-one-year-strengthening-access-healthcare-daraa-governate"
     },
     {
       "id": "4229974",
@@ -627,30 +2286,6 @@
         "Contributions"
       ],
       "url": "https://reliefweb.int/report/burkina-faso/unhcr-burkina-faso-2026-funding-update-31-august-2026"
-    },
-    {
-      "id": "4229904",
-      "title": "Spain Arrivals Snapshot - August 2026",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "Spain",
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "url": "https://reliefweb.int/report/spain/spain-arrivals-snapshot-august-2026"
-    },
-    {
-      "id": "4229970",
-      "title": "UNHCR China: 2026 Funding Update (as of 31 August 2026)",
-      "dateOriginal": "2026-09-15T00:00:00+00:00",
-      "primaryCountry": "China",
-      "source": "UNHCR",
-      "format": "Other",
-      "themes": [
-        "Contributions"
-      ],
-      "url": "https://reliefweb.int/report/china/unhcr-china-2026-funding-update-31-august-2026"
     }
   ],
   "disasters": [
@@ -2439,6 +4074,347 @@
       }
     },
     {
+      "id": "52435",
+      "name": "Bolivia: Wild Fires - Aug 2025",
+      "status": "ongoing",
+      "glide": "WF-2025-000163-BOL",
+      "primary_country": {
+        "href": "https://api.reliefweb.int/v2/countries/39",
+        "id": 39,
+        "name": "Bolivia (Plurinational State of)",
+        "shortname": "Bolivia",
+        "iso3": "bol",
+        "location": {
+          "lat": -16.97,
+          "lon": -64.27
+        }
+      },
+      "primary_type": {
+        "id": 4648,
+        "name": "Wild Fire",
+        "code": "WF"
+      },
+      "country": [
+        {
+          "href": "https://api.reliefweb.int/v2/countries/39",
+          "id": 39,
+          "name": "Bolivia (Plurinational State of)",
+          "shortname": "Bolivia",
+          "iso3": "bol",
+          "location": {
+            "lat": -16.97,
+            "lon": -64.27
+          },
+          "primary": true
+        }
+      ],
+      "type": [
+        {
+          "id": 4648,
+          "name": "Wild Fire",
+          "code": "WF",
+          "primary": true
+        }
+      ],
+      "url": "https://reliefweb.int/taxonomy/term/52435",
+      "date": {
+        "event": "2025-08-20T00:00:00+00:00"
+      }
+    },
+    {
+      "id": "52423",
+      "name": "Cabo Verde: Flash Floods - Aug 2025",
+      "status": "ongoing",
+      "glide": "FL-2025-000147-CPV",
+      "primary_country": {
+        "href": "https://api.reliefweb.int/v2/countries/52",
+        "id": 52,
+        "name": "Cabo Verde",
+        "shortname": "Cabo Verde",
+        "iso3": "cpv",
+        "location": {
+          "lat": 15.98,
+          "lon": -23.97
+        }
+      },
+      "primary_type": {
+        "id": 4624,
+        "name": "Flash Flood",
+        "code": "FF"
+      },
+      "country": [
+        {
+          "href": "https://api.reliefweb.int/v2/countries/52",
+          "id": 52,
+          "name": "Cabo Verde",
+          "shortname": "Cabo Verde",
+          "iso3": "cpv",
+          "location": {
+            "lat": 15.98,
+            "lon": -23.97
+          },
+          "primary": true
+        }
+      ],
+      "type": [
+        {
+          "id": 4624,
+          "name": "Flash Flood",
+          "code": "FF",
+          "primary": true
+        },
+        {
+          "id": 4611,
+          "name": "Flood",
+          "code": "FL"
+        }
+      ],
+      "url": "https://reliefweb.int/taxonomy/term/52423",
+      "date": {
+        "event": "2025-08-11T00:00:00+00:00"
+      }
+    },
+    {
+      "id": "52415",
+      "name": "Congo: Cholera Outbreak - Jul 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000130-COG",
+      "primary_country": {
+        "href": "https://api.reliefweb.int/v2/countries/66",
+        "id": 66,
+        "name": "Congo",
+        "shortname": "Congo",
+        "iso3": "cog",
+        "location": {
+          "lat": -0.31,
+          "lon": 15.99
+        }
+      },
+      "primary_type": {
+        "id": 4642,
+        "name": "Epidemic",
+        "code": "EP"
+      },
+      "country": [
+        {
+          "href": "https://api.reliefweb.int/v2/countries/66",
+          "id": 66,
+          "name": "Congo",
+          "shortname": "Congo",
+          "iso3": "cog",
+          "location": {
+            "lat": -0.31,
+            "lon": 15.99
+          },
+          "primary": true
+        }
+      ],
+      "type": [
+        {
+          "id": 4642,
+          "name": "Epidemic",
+          "code": "EP",
+          "primary": true
+        }
+      ],
+      "url": "https://reliefweb.int/taxonomy/term/52415",
+      "date": {
+        "event": "2025-07-26T00:00:00+00:00"
+      }
+    },
+    {
+      "id": "52406",
+      "name": "Guatemala: Earthquake - Jul 2025",
+      "status": "ongoing",
+      "glide": "EQ-2025-000111-GTM",
+      "primary_country": {
+        "href": "https://api.reliefweb.int/v2/countries/109",
+        "id": 109,
+        "name": "Guatemala",
+        "shortname": "Guatemala",
+        "iso3": "gtm",
+        "location": {
+          "lat": 15.61,
+          "lon": -90.39
+        }
+      },
+      "primary_type": {
+        "id": 4628,
+        "name": "Earthquake",
+        "code": "EQ"
+      },
+      "country": [
+        {
+          "href": "https://api.reliefweb.int/v2/countries/109",
+          "id": 109,
+          "name": "Guatemala",
+          "shortname": "Guatemala",
+          "iso3": "gtm",
+          "location": {
+            "lat": 15.61,
+            "lon": -90.39
+          },
+          "primary": true
+        }
+      ],
+      "type": [
+        {
+          "id": 4628,
+          "name": "Earthquake",
+          "code": "EQ",
+          "primary": true
+        }
+      ],
+      "url": "https://reliefweb.int/taxonomy/term/52406",
+      "date": {
+        "event": "2025-07-08T00:00:00+00:00"
+      }
+    },
+    {
+      "id": "52388",
+      "name": "Côte d'Ivoire: Cholera Outbreak - Jun 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000087-CIV",
+      "primary_country": {
+        "href": "https://api.reliefweb.int/v2/countries/69",
+        "id": 69,
+        "name": "Côte d'Ivoire",
+        "shortname": "Côte d'Ivoire",
+        "iso3": "civ",
+        "location": {
+          "lat": 7.81,
+          "lon": -5.38
+        }
+      },
+      "primary_type": {
+        "id": 4642,
+        "name": "Epidemic",
+        "code": "EP"
+      },
+      "country": [
+        {
+          "href": "https://api.reliefweb.int/v2/countries/69",
+          "id": 69,
+          "name": "Côte d'Ivoire",
+          "shortname": "Côte d'Ivoire",
+          "iso3": "civ",
+          "location": {
+            "lat": 7.81,
+            "lon": -5.38
+          },
+          "primary": true
+        }
+      ],
+      "type": [
+        {
+          "id": 4642,
+          "name": "Epidemic",
+          "code": "EP",
+          "primary": true
+        }
+      ],
+      "url": "https://reliefweb.int/taxonomy/term/52388",
+      "date": {
+        "event": "2025-06-05T00:00:00+00:00"
+      }
+    },
+    {
+      "id": "52372",
+      "name": "Zimbabwe: Malaria Outbreak - May 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000075-ZWE",
+      "primary_country": {
+        "href": "https://api.reliefweb.int/v2/countries/257",
+        "id": 257,
+        "name": "Zimbabwe",
+        "shortname": "Zimbabwe",
+        "iso3": "zwe",
+        "location": {
+          "lat": -19.19,
+          "lon": 29.94
+        }
+      },
+      "primary_type": {
+        "id": 4642,
+        "name": "Epidemic",
+        "code": "EP"
+      },
+      "country": [
+        {
+          "href": "https://api.reliefweb.int/v2/countries/257",
+          "id": 257,
+          "name": "Zimbabwe",
+          "shortname": "Zimbabwe",
+          "iso3": "zwe",
+          "location": {
+            "lat": -19.19,
+            "lon": 29.94
+          },
+          "primary": true
+        }
+      ],
+      "type": [
+        {
+          "id": 4642,
+          "name": "Epidemic",
+          "code": "EP",
+          "primary": true
+        }
+      ],
+      "url": "https://reliefweb.int/taxonomy/term/52372",
+      "date": {
+        "event": "2025-05-03T00:00:00+00:00"
+      }
+    },
+    {
+      "id": "52318",
+      "name": "Ecuador: Oil Spill - Mar 2025",
+      "status": "ongoing",
+      "glide": "AC-2025-000037-ECU",
+      "primary_country": {
+        "href": "https://api.reliefweb.int/v2/countries/81",
+        "id": 81,
+        "name": "Ecuador",
+        "shortname": "Ecuador",
+        "iso3": "ecu",
+        "location": {
+          "lat": -1.16,
+          "lon": -78.43
+        }
+      },
+      "primary_type": {
+        "id": 4620,
+        "name": "Technological Disaster",
+        "code": "AC"
+      },
+      "country": [
+        {
+          "href": "https://api.reliefweb.int/v2/countries/81",
+          "id": 81,
+          "name": "Ecuador",
+          "shortname": "Ecuador",
+          "iso3": "ecu",
+          "location": {
+            "lat": -1.16,
+            "lon": -78.43
+          },
+          "primary": true
+        }
+      ],
+      "type": [
+        {
+          "id": 4620,
+          "name": "Technological Disaster",
+          "code": "AC",
+          "primary": true
+        }
+      ],
+      "url": "https://reliefweb.int/taxonomy/term/52318",
+      "date": {
+        "event": "2025-03-13T00:00:00+00:00"
+      }
+    },
+    {
       "id": "52262",
       "name": "Angola: Cholera Outbreak - Jan 2025",
       "status": "ongoing",
@@ -3088,347 +5064,6 @@
       }
     },
     {
-      "id": "52435",
-      "name": "Bolivia: Wild Fires - Aug 2025",
-      "status": "ongoing",
-      "glide": "WF-2025-000163-BOL",
-      "primary_country": {
-        "href": "https://api.reliefweb.int/v2/countries/39",
-        "id": 39,
-        "name": "Bolivia (Plurinational State of)",
-        "shortname": "Bolivia",
-        "iso3": "bol",
-        "location": {
-          "lat": -16.97,
-          "lon": -64.27
-        }
-      },
-      "primary_type": {
-        "id": 4648,
-        "name": "Wild Fire",
-        "code": "WF"
-      },
-      "country": [
-        {
-          "href": "https://api.reliefweb.int/v2/countries/39",
-          "id": 39,
-          "name": "Bolivia (Plurinational State of)",
-          "shortname": "Bolivia",
-          "iso3": "bol",
-          "location": {
-            "lat": -16.97,
-            "lon": -64.27
-          },
-          "primary": true
-        }
-      ],
-      "type": [
-        {
-          "id": 4648,
-          "name": "Wild Fire",
-          "code": "WF",
-          "primary": true
-        }
-      ],
-      "url": "https://reliefweb.int/taxonomy/term/52435",
-      "date": {
-        "event": "2025-08-20T00:00:00+00:00"
-      }
-    },
-    {
-      "id": "52423",
-      "name": "Cabo Verde: Flash Floods - Aug 2025",
-      "status": "ongoing",
-      "glide": "FL-2025-000147-CPV",
-      "primary_country": {
-        "href": "https://api.reliefweb.int/v2/countries/52",
-        "id": 52,
-        "name": "Cabo Verde",
-        "shortname": "Cabo Verde",
-        "iso3": "cpv",
-        "location": {
-          "lat": 15.98,
-          "lon": -23.97
-        }
-      },
-      "primary_type": {
-        "id": 4624,
-        "name": "Flash Flood",
-        "code": "FF"
-      },
-      "country": [
-        {
-          "href": "https://api.reliefweb.int/v2/countries/52",
-          "id": 52,
-          "name": "Cabo Verde",
-          "shortname": "Cabo Verde",
-          "iso3": "cpv",
-          "location": {
-            "lat": 15.98,
-            "lon": -23.97
-          },
-          "primary": true
-        }
-      ],
-      "type": [
-        {
-          "id": 4624,
-          "name": "Flash Flood",
-          "code": "FF",
-          "primary": true
-        },
-        {
-          "id": 4611,
-          "name": "Flood",
-          "code": "FL"
-        }
-      ],
-      "url": "https://reliefweb.int/taxonomy/term/52423",
-      "date": {
-        "event": "2025-08-11T00:00:00+00:00"
-      }
-    },
-    {
-      "id": "52415",
-      "name": "Congo: Cholera Outbreak - Jul 2025",
-      "status": "ongoing",
-      "glide": "EP-2025-000130-COG",
-      "primary_country": {
-        "href": "https://api.reliefweb.int/v2/countries/66",
-        "id": 66,
-        "name": "Congo",
-        "shortname": "Congo",
-        "iso3": "cog",
-        "location": {
-          "lat": -0.31,
-          "lon": 15.99
-        }
-      },
-      "primary_type": {
-        "id": 4642,
-        "name": "Epidemic",
-        "code": "EP"
-      },
-      "country": [
-        {
-          "href": "https://api.reliefweb.int/v2/countries/66",
-          "id": 66,
-          "name": "Congo",
-          "shortname": "Congo",
-          "iso3": "cog",
-          "location": {
-            "lat": -0.31,
-            "lon": 15.99
-          },
-          "primary": true
-        }
-      ],
-      "type": [
-        {
-          "id": 4642,
-          "name": "Epidemic",
-          "code": "EP",
-          "primary": true
-        }
-      ],
-      "url": "https://reliefweb.int/taxonomy/term/52415",
-      "date": {
-        "event": "2025-07-26T00:00:00+00:00"
-      }
-    },
-    {
-      "id": "52406",
-      "name": "Guatemala: Earthquake - Jul 2025",
-      "status": "ongoing",
-      "glide": "EQ-2025-000111-GTM",
-      "primary_country": {
-        "href": "https://api.reliefweb.int/v2/countries/109",
-        "id": 109,
-        "name": "Guatemala",
-        "shortname": "Guatemala",
-        "iso3": "gtm",
-        "location": {
-          "lat": 15.61,
-          "lon": -90.39
-        }
-      },
-      "primary_type": {
-        "id": 4628,
-        "name": "Earthquake",
-        "code": "EQ"
-      },
-      "country": [
-        {
-          "href": "https://api.reliefweb.int/v2/countries/109",
-          "id": 109,
-          "name": "Guatemala",
-          "shortname": "Guatemala",
-          "iso3": "gtm",
-          "location": {
-            "lat": 15.61,
-            "lon": -90.39
-          },
-          "primary": true
-        }
-      ],
-      "type": [
-        {
-          "id": 4628,
-          "name": "Earthquake",
-          "code": "EQ",
-          "primary": true
-        }
-      ],
-      "url": "https://reliefweb.int/taxonomy/term/52406",
-      "date": {
-        "event": "2025-07-08T00:00:00+00:00"
-      }
-    },
-    {
-      "id": "52388",
-      "name": "Côte d'Ivoire: Cholera Outbreak - Jun 2025",
-      "status": "ongoing",
-      "glide": "EP-2025-000087-CIV",
-      "primary_country": {
-        "href": "https://api.reliefweb.int/v2/countries/69",
-        "id": 69,
-        "name": "Côte d'Ivoire",
-        "shortname": "Côte d'Ivoire",
-        "iso3": "civ",
-        "location": {
-          "lat": 7.81,
-          "lon": -5.38
-        }
-      },
-      "primary_type": {
-        "id": 4642,
-        "name": "Epidemic",
-        "code": "EP"
-      },
-      "country": [
-        {
-          "href": "https://api.reliefweb.int/v2/countries/69",
-          "id": 69,
-          "name": "Côte d'Ivoire",
-          "shortname": "Côte d'Ivoire",
-          "iso3": "civ",
-          "location": {
-            "lat": 7.81,
-            "lon": -5.38
-          },
-          "primary": true
-        }
-      ],
-      "type": [
-        {
-          "id": 4642,
-          "name": "Epidemic",
-          "code": "EP",
-          "primary": true
-        }
-      ],
-      "url": "https://reliefweb.int/taxonomy/term/52388",
-      "date": {
-        "event": "2025-06-05T00:00:00+00:00"
-      }
-    },
-    {
-      "id": "52372",
-      "name": "Zimbabwe: Malaria Outbreak - May 2025",
-      "status": "ongoing",
-      "glide": "EP-2025-000075-ZWE",
-      "primary_country": {
-        "href": "https://api.reliefweb.int/v2/countries/257",
-        "id": 257,
-        "name": "Zimbabwe",
-        "shortname": "Zimbabwe",
-        "iso3": "zwe",
-        "location": {
-          "lat": -19.19,
-          "lon": 29.94
-        }
-      },
-      "primary_type": {
-        "id": 4642,
-        "name": "Epidemic",
-        "code": "EP"
-      },
-      "country": [
-        {
-          "href": "https://api.reliefweb.int/v2/countries/257",
-          "id": 257,
-          "name": "Zimbabwe",
-          "shortname": "Zimbabwe",
-          "iso3": "zwe",
-          "location": {
-            "lat": -19.19,
-            "lon": 29.94
-          },
-          "primary": true
-        }
-      ],
-      "type": [
-        {
-          "id": 4642,
-          "name": "Epidemic",
-          "code": "EP",
-          "primary": true
-        }
-      ],
-      "url": "https://reliefweb.int/taxonomy/term/52372",
-      "date": {
-        "event": "2025-05-03T00:00:00+00:00"
-      }
-    },
-    {
-      "id": "52318",
-      "name": "Ecuador: Oil Spill - Mar 2025",
-      "status": "ongoing",
-      "glide": "AC-2025-000037-ECU",
-      "primary_country": {
-        "href": "https://api.reliefweb.int/v2/countries/81",
-        "id": 81,
-        "name": "Ecuador",
-        "shortname": "Ecuador",
-        "iso3": "ecu",
-        "location": {
-          "lat": -1.16,
-          "lon": -78.43
-        }
-      },
-      "primary_type": {
-        "id": 4620,
-        "name": "Technological Disaster",
-        "code": "AC"
-      },
-      "country": [
-        {
-          "href": "https://api.reliefweb.int/v2/countries/81",
-          "id": 81,
-          "name": "Ecuador",
-          "shortname": "Ecuador",
-          "iso3": "ecu",
-          "location": {
-            "lat": -1.16,
-            "lon": -78.43
-          },
-          "primary": true
-        }
-      ],
-      "type": [
-        {
-          "id": 4620,
-          "name": "Technological Disaster",
-          "code": "AC",
-          "primary": true
-        }
-      ],
-      "url": "https://reliefweb.int/taxonomy/term/52318",
-      "date": {
-        "event": "2025-03-13T00:00:00+00:00"
-      }
-    },
-    {
       "id": "46459",
       "name": "Madagascar: Drought - 2018-2025",
       "status": "ongoing",
@@ -3570,76 +5205,6 @@
       "url": "https://reliefweb.int/taxonomy/term/14127",
       "date": {
         "event": "2013-01-01T00:00:00+00:00"
-      }
-    },
-    {
-      "id": "52562",
-      "name": "Typhoon Sinlaku - Apr 2026",
-      "status": "ongoing",
-      "glide": "TC-2026-000050-FSM",
-      "primary_country": {
-        "href": "https://api.reliefweb.int/v2/countries/157",
-        "id": 157,
-        "name": "Micronesia (Federated States of)",
-        "shortname": "Micronesia",
-        "iso3": "fsm",
-        "location": {
-          "lat": 6.08,
-          "lon": 160.4
-        }
-      },
-      "primary_type": {
-        "id": 4618,
-        "name": "Tropical Cyclone",
-        "code": "TC"
-      },
-      "country": [
-        {
-          "href": "https://api.reliefweb.int/v2/countries/108",
-          "id": 108,
-          "name": "Guam",
-          "shortname": "Guam",
-          "iso3": "gum",
-          "location": {
-            "lat": 13.44,
-            "lon": 144.78
-          }
-        },
-        {
-          "href": "https://api.reliefweb.int/v2/countries/157",
-          "id": 157,
-          "name": "Micronesia (Federated States of)",
-          "shortname": "Micronesia",
-          "iso3": "fsm",
-          "location": {
-            "lat": 6.08,
-            "lon": 160.4
-          },
-          "primary": true
-        },
-        {
-          "href": "https://api.reliefweb.int/v2/countries/178",
-          "id": 178,
-          "name": "Northern Mariana Islands (The United States of America)",
-          "shortname": "Northern Mariana Islands (The United States of America)",
-          "iso3": "mnp",
-          "location": {
-            "lat": 15.09,
-            "lon": 145.68
-          }
-        }
-      ],
-      "type": [
-        {
-          "id": 4618,
-          "name": "Tropical Cyclone",
-          "code": "TC",
-          "primary": true
-        }
-      ],
-      "url": "https://reliefweb.int/taxonomy/term/52562",
-      "date": {
-        "event": "2026-04-09T00:00:00+00:00"
       }
     },
     {
@@ -3803,54 +5368,6 @@
       }
     },
     {
-      "id": "23121",
-      "name": "Ethiopia: Drought - 2015-2026",
-      "status": "ongoing",
-      "glide": "DR-2015-000109-ETH",
-      "primary_country": {
-        "href": "https://api.reliefweb.int/v2/countries/87",
-        "id": 87,
-        "name": "Ethiopia",
-        "shortname": "Ethiopia",
-        "iso3": "eth",
-        "location": {
-          "lat": 8.63,
-          "lon": 39.62
-        }
-      },
-      "primary_type": {
-        "id": 4672,
-        "name": "Drought",
-        "code": "DR"
-      },
-      "country": [
-        {
-          "href": "https://api.reliefweb.int/v2/countries/87",
-          "id": 87,
-          "name": "Ethiopia",
-          "shortname": "Ethiopia",
-          "iso3": "eth",
-          "location": {
-            "lat": 8.63,
-            "lon": 39.62
-          },
-          "primary": true
-        }
-      ],
-      "type": [
-        {
-          "id": 4672,
-          "name": "Drought",
-          "code": "DR",
-          "primary": true
-        }
-      ],
-      "url": "https://reliefweb.int/taxonomy/term/23121",
-      "date": {
-        "event": "2015-06-09T00:00:00+00:00"
-      }
-    },
-    {
       "id": "52658",
       "name": "Myanmar: Floods - Jul 2026",
       "status": "ongoing",
@@ -3896,6 +5413,124 @@
       "url": "https://reliefweb.int/taxonomy/term/52658",
       "date": {
         "event": "2026-07-30T00:00:00+00:00"
+      }
+    },
+    {
+      "id": "52562",
+      "name": "Typhoon Sinlaku - Apr 2026",
+      "status": "ongoing",
+      "glide": "TC-2026-000050-FSM",
+      "primary_country": {
+        "href": "https://api.reliefweb.int/v2/countries/157",
+        "id": 157,
+        "name": "Micronesia (Federated States of)",
+        "shortname": "Micronesia",
+        "iso3": "fsm",
+        "location": {
+          "lat": 6.08,
+          "lon": 160.4
+        }
+      },
+      "primary_type": {
+        "id": 4618,
+        "name": "Tropical Cyclone",
+        "code": "TC"
+      },
+      "country": [
+        {
+          "href": "https://api.reliefweb.int/v2/countries/108",
+          "id": 108,
+          "name": "Guam",
+          "shortname": "Guam",
+          "iso3": "gum",
+          "location": {
+            "lat": 13.44,
+            "lon": 144.78
+          }
+        },
+        {
+          "href": "https://api.reliefweb.int/v2/countries/157",
+          "id": 157,
+          "name": "Micronesia (Federated States of)",
+          "shortname": "Micronesia",
+          "iso3": "fsm",
+          "location": {
+            "lat": 6.08,
+            "lon": 160.4
+          },
+          "primary": true
+        },
+        {
+          "href": "https://api.reliefweb.int/v2/countries/178",
+          "id": 178,
+          "name": "Northern Mariana Islands (The United States of America)",
+          "shortname": "Northern Mariana Islands (The United States of America)",
+          "iso3": "mnp",
+          "location": {
+            "lat": 15.09,
+            "lon": 145.68
+          }
+        }
+      ],
+      "type": [
+        {
+          "id": 4618,
+          "name": "Tropical Cyclone",
+          "code": "TC",
+          "primary": true
+        }
+      ],
+      "url": "https://reliefweb.int/taxonomy/term/52562",
+      "date": {
+        "event": "2026-04-09T00:00:00+00:00"
+      }
+    },
+    {
+      "id": "23121",
+      "name": "Ethiopia: Drought - 2015-2026",
+      "status": "ongoing",
+      "glide": "DR-2015-000109-ETH",
+      "primary_country": {
+        "href": "https://api.reliefweb.int/v2/countries/87",
+        "id": 87,
+        "name": "Ethiopia",
+        "shortname": "Ethiopia",
+        "iso3": "eth",
+        "location": {
+          "lat": 8.63,
+          "lon": 39.62
+        }
+      },
+      "primary_type": {
+        "id": 4672,
+        "name": "Drought",
+        "code": "DR"
+      },
+      "country": [
+        {
+          "href": "https://api.reliefweb.int/v2/countries/87",
+          "id": 87,
+          "name": "Ethiopia",
+          "shortname": "Ethiopia",
+          "iso3": "eth",
+          "location": {
+            "lat": 8.63,
+            "lon": 39.62
+          },
+          "primary": true
+        }
+      ],
+      "type": [
+        {
+          "id": 4672,
+          "name": "Drought",
+          "code": "DR",
+          "primary": true
+        }
+      ],
+      "url": "https://reliefweb.int/taxonomy/term/23121",
+      "date": {
+        "event": "2015-06-09T00:00:00+00:00"
       }
     },
     {
@@ -5913,10 +7548,1821 @@
       }
     }
   ],
+  "rawFacets": {
+    "timeline": {
+      "type": "date",
+      "data": [
+        {
+          "value": "2026-08-18T00:00:00+00:00",
+          "epoch_ms": 1787011200000,
+          "count": 102
+        },
+        {
+          "value": "2026-08-19T00:00:00+00:00",
+          "epoch_ms": 1787097600000,
+          "count": 157
+        },
+        {
+          "value": "2026-08-20T00:00:00+00:00",
+          "epoch_ms": 1787184000000,
+          "count": 92
+        },
+        {
+          "value": "2026-08-21T00:00:00+00:00",
+          "epoch_ms": 1787270400000,
+          "count": 91
+        },
+        {
+          "value": "2026-08-22T00:00:00+00:00",
+          "epoch_ms": 1787356800000,
+          "count": 5
+        },
+        {
+          "value": "2026-08-23T00:00:00+00:00",
+          "epoch_ms": 1787443200000,
+          "count": 32
+        },
+        {
+          "value": "2026-08-24T00:00:00+00:00",
+          "epoch_ms": 1787529600000,
+          "count": 104
+        },
+        {
+          "value": "2026-08-25T00:00:00+00:00",
+          "epoch_ms": 1787616000000,
+          "count": 83
+        },
+        {
+          "value": "2026-08-26T00:00:00+00:00",
+          "epoch_ms": 1787702400000,
+          "count": 68
+        },
+        {
+          "value": "2026-08-27T00:00:00+00:00",
+          "epoch_ms": 1787788800000,
+          "count": 134
+        },
+        {
+          "value": "2026-08-28T00:00:00+00:00",
+          "epoch_ms": 1787875200000,
+          "count": 124
+        },
+        {
+          "value": "2026-08-29T00:00:00+00:00",
+          "epoch_ms": 1787961600000,
+          "count": 15
+        },
+        {
+          "value": "2026-08-30T00:00:00+00:00",
+          "epoch_ms": 1788048000000,
+          "count": 27
+        },
+        {
+          "value": "2026-08-31T00:00:00+00:00",
+          "epoch_ms": 1788134400000,
+          "count": 115
+        },
+        {
+          "value": "2026-09-01T00:00:00+00:00",
+          "epoch_ms": 1788220800000,
+          "count": 93
+        },
+        {
+          "value": "2026-09-02T00:00:00+00:00",
+          "epoch_ms": 1788307200000,
+          "count": 98
+        },
+        {
+          "value": "2026-09-03T00:00:00+00:00",
+          "epoch_ms": 1788393600000,
+          "count": 100
+        },
+        {
+          "value": "2026-09-04T00:00:00+00:00",
+          "epoch_ms": 1788480000000,
+          "count": 90
+        },
+        {
+          "value": "2026-09-05T00:00:00+00:00",
+          "epoch_ms": 1788566400000,
+          "count": 21
+        },
+        {
+          "value": "2026-09-06T00:00:00+00:00",
+          "epoch_ms": 1788652800000,
+          "count": 38
+        },
+        {
+          "value": "2026-09-07T00:00:00+00:00",
+          "epoch_ms": 1788739200000,
+          "count": 87
+        },
+        {
+          "value": "2026-09-08T00:00:00+00:00",
+          "epoch_ms": 1788825600000,
+          "count": 100
+        },
+        {
+          "value": "2026-09-09T00:00:00+00:00",
+          "epoch_ms": 1788912000000,
+          "count": 94
+        },
+        {
+          "value": "2026-09-10T00:00:00+00:00",
+          "epoch_ms": 1788998400000,
+          "count": 105
+        },
+        {
+          "value": "2026-09-11T00:00:00+00:00",
+          "epoch_ms": 1789084800000,
+          "count": 71
+        },
+        {
+          "value": "2026-09-12T00:00:00+00:00",
+          "epoch_ms": 1789171200000,
+          "count": 24
+        },
+        {
+          "value": "2026-09-13T00:00:00+00:00",
+          "epoch_ms": 1789257600000,
+          "count": 23
+        },
+        {
+          "value": "2026-09-14T00:00:00+00:00",
+          "epoch_ms": 1789344000000,
+          "count": 97
+        },
+        {
+          "value": "2026-09-15T00:00:00+00:00",
+          "epoch_ms": 1789430400000,
+          "count": 115
+        },
+        {
+          "value": "2026-09-16T00:00:00+00:00",
+          "epoch_ms": 1789516800000,
+          "count": 26
+        }
+      ],
+      "missing": 0,
+      "more": false
+    },
+    "themes": {
+      "type": "term",
+      "data": [
+        {
+          "value": "Protection and Human Rights",
+          "count": 1042
+        },
+        {
+          "value": "Health",
+          "count": 775
+        },
+        {
+          "value": "Food and Nutrition",
+          "count": 558
+        },
+        {
+          "value": "Shelter and Non-Food Items",
+          "count": 435
+        },
+        {
+          "value": "Water Sanitation Hygiene",
+          "count": 419
+        },
+        {
+          "value": "Coordination",
+          "count": 321
+        },
+        {
+          "value": "Agriculture",
+          "count": 243
+        },
+        {
+          "value": "Education",
+          "count": 236
+        },
+        {
+          "value": "Logistics and Telecommunications",
+          "count": 172
+        },
+        {
+          "value": "Recovery and Reconstruction",
+          "count": 98
+        },
+        {
+          "value": "Contributions",
+          "count": 90
+        },
+        {
+          "value": "Disaster Management",
+          "count": 89
+        },
+        {
+          "value": "Safety and Security",
+          "count": 87
+        },
+        {
+          "value": "Gender",
+          "count": 73
+        },
+        {
+          "value": "Climate Change and Environment",
+          "count": 58
+        },
+        {
+          "value": "Camp Coordination and Camp Management",
+          "count": 54
+        },
+        {
+          "value": "Humanitarian Financing",
+          "count": 49
+        },
+        {
+          "value": "Peacekeeping and Peacebuilding",
+          "count": 29
+        },
+        {
+          "value": "Mine Action",
+          "count": 22
+        },
+        {
+          "value": "HIV/Aids",
+          "count": 5
+        }
+      ],
+      "missing": 104,
+      "more": false
+    },
+    "formats": {
+      "type": "term",
+      "data": [
+        {
+          "value": "Situation Report",
+          "count": 650
+        },
+        {
+          "value": "News and Press Release",
+          "count": 608
+        },
+        {
+          "value": "Infographic",
+          "count": 504
+        },
+        {
+          "value": "Analysis",
+          "count": 177
+        },
+        {
+          "value": "Map",
+          "count": 126
+        },
+        {
+          "value": "Other",
+          "count": 98
+        },
+        {
+          "value": "Assessment",
+          "count": 94
+        },
+        {
+          "value": "Manual and Guideline",
+          "count": 40
+        },
+        {
+          "value": "Evaluation and Lessons Learned",
+          "count": 22
+        },
+        {
+          "value": "Appeal",
+          "count": 12
+        }
+      ],
+      "missing": 0,
+      "more": false
+    },
+    "countries": {
+      "type": "term",
+      "data": [
+        {
+          "value": "wld",
+          "count": 198
+        },
+        {
+          "value": "npl",
+          "count": 189
+        },
+        {
+          "value": "cod",
+          "count": 185
+        },
+        {
+          "value": "yem",
+          "count": 108
+        },
+        {
+          "value": "col",
+          "count": 105
+        },
+        {
+          "value": "sdn",
+          "count": 86
+        },
+        {
+          "value": "afg",
+          "count": 82
+        },
+        {
+          "value": "pse",
+          "count": 79
+        },
+        {
+          "value": "ukr",
+          "count": 65
+        },
+        {
+          "value": "lbn",
+          "count": 64
+        },
+        {
+          "value": "pak",
+          "count": 61
+        },
+        {
+          "value": "som",
+          "count": 57
+        },
+        {
+          "value": "syr",
+          "count": 56
+        },
+        {
+          "value": "ven",
+          "count": 53
+        },
+        {
+          "value": "tcd",
+          "count": 52
+        },
+        {
+          "value": "ssd",
+          "count": 50
+        },
+        {
+          "value": "hti",
+          "count": 44
+        },
+        {
+          "value": "phl",
+          "count": 44
+        },
+        {
+          "value": "uga",
+          "count": 42
+        },
+        {
+          "value": "bgd",
+          "count": 39
+        },
+        {
+          "value": "nga",
+          "count": 39
+        },
+        {
+          "value": "mmr",
+          "count": 38
+        },
+        {
+          "value": "idn",
+          "count": 32
+        },
+        {
+          "value": "lka",
+          "count": 31
+        },
+        {
+          "value": "caf",
+          "count": 30
+        },
+        {
+          "value": "eth",
+          "count": 27
+        },
+        {
+          "value": "moz",
+          "count": 25
+        },
+        {
+          "value": "ner",
+          "count": 25
+        },
+        {
+          "value": "tur",
+          "count": 24
+        },
+        {
+          "value": "cmr",
+          "count": 21
+        },
+        {
+          "value": "ken",
+          "count": 20
+        },
+        {
+          "value": "mli",
+          "count": 18
+        },
+        {
+          "value": "per",
+          "count": 14
+        },
+        {
+          "value": "ago",
+          "count": 12
+        },
+        {
+          "value": "hnd",
+          "count": 11
+        },
+        {
+          "value": "bfa",
+          "count": 9
+        },
+        {
+          "value": "cub",
+          "count": 9
+        },
+        {
+          "value": "ita",
+          "count": 9
+        },
+        {
+          "value": "mrt",
+          "count": 9
+        },
+        {
+          "value": "vut",
+          "count": 9
+        },
+        {
+          "value": "rou",
+          "count": 8
+        },
+        {
+          "value": "tza",
+          "count": 8
+        },
+        {
+          "value": "bdi",
+          "count": 7
+        },
+        {
+          "value": "bra",
+          "count": 7
+        },
+        {
+          "value": "civ",
+          "count": 7
+        },
+        {
+          "value": "dji",
+          "count": 7
+        },
+        {
+          "value": "ecu",
+          "count": 7
+        },
+        {
+          "value": "mdg",
+          "count": 7
+        },
+        {
+          "value": "egy",
+          "count": 6
+        },
+        {
+          "value": "gnb",
+          "count": 6
+        },
+        {
+          "value": "jor",
+          "count": 6
+        },
+        {
+          "value": "mwi",
+          "count": 6
+        },
+        {
+          "value": "sen",
+          "count": 6
+        },
+        {
+          "value": "slv",
+          "count": 6
+        },
+        {
+          "value": "zmb",
+          "count": 6
+        },
+        {
+          "value": "alb",
+          "count": 5
+        },
+        {
+          "value": "bih",
+          "count": 5
+        },
+        {
+          "value": "bol",
+          "count": 5
+        },
+        {
+          "value": "gtm",
+          "count": 5
+        },
+        {
+          "value": "irn",
+          "count": 5
+        },
+        {
+          "value": "irq",
+          "count": 5
+        },
+        {
+          "value": "lao",
+          "count": 5
+        },
+        {
+          "value": "mda",
+          "count": 5
+        },
+        {
+          "value": "pan",
+          "count": 5
+        },
+        {
+          "value": "ben",
+          "count": 4
+        },
+        {
+          "value": "gmb",
+          "count": 4
+        },
+        {
+          "value": "kaz",
+          "count": 4
+        },
+        {
+          "value": "pol",
+          "count": 4
+        },
+        {
+          "value": "srb",
+          "count": 4
+        },
+        {
+          "value": "tgo",
+          "count": 4
+        },
+        {
+          "value": "vnm",
+          "count": 4
+        },
+        {
+          "value": "zwe",
+          "count": 4
+        },
+        {
+          "value": "cog",
+          "count": 3
+        },
+        {
+          "value": "fji",
+          "count": 3
+        },
+        {
+          "value": "ind",
+          "count": 3
+        },
+        {
+          "value": "lso",
+          "count": 3
+        },
+        {
+          "value": "png",
+          "count": 3
+        },
+        {
+          "value": "sle",
+          "count": 3
+        },
+        {
+          "value": "arg",
+          "count": 2
+        },
+        {
+          "value": "blz",
+          "count": 2
+        },
+        {
+          "value": "brb",
+          "count": 2
+        },
+        {
+          "value": "btn",
+          "count": 2
+        },
+        {
+          "value": "chl",
+          "count": 2
+        },
+        {
+          "value": "dom",
+          "count": 2
+        },
+        {
+          "value": "dza",
+          "count": 2
+        },
+        {
+          "value": "esp",
+          "count": 2
+        },
+        {
+          "value": "jpn",
+          "count": 2
+        },
+        {
+          "value": "kgz",
+          "count": 2
+        },
+        {
+          "value": "khm",
+          "count": 2
+        },
+        {
+          "value": "lbr",
+          "count": 2
+        },
+        {
+          "value": "mar",
+          "count": 2
+        },
+        {
+          "value": "nam",
+          "count": 2
+        },
+        {
+          "value": "rwa",
+          "count": 2
+        },
+        {
+          "value": "tha",
+          "count": 2
+        },
+        {
+          "value": "tls",
+          "count": 2
+        },
+        {
+          "value": "arm",
+          "count": 1
+        },
+        {
+          "value": "aus",
+          "count": 1
+        },
+        {
+          "value": "aut",
+          "count": 1
+        },
+        {
+          "value": "aze",
+          "count": 1
+        },
+        {
+          "value": "can",
+          "count": 1
+        },
+        {
+          "value": "chn",
+          "count": 1
+        },
+        {
+          "value": "com",
+          "count": 1
+        },
+        {
+          "value": "cri",
+          "count": 1
+        },
+        {
+          "value": "cyp",
+          "count": 1
+        },
+        {
+          "value": "gha",
+          "count": 1
+        },
+        {
+          "value": "gin",
+          "count": 1
+        },
+        {
+          "value": "grc",
+          "count": 1
+        },
+        {
+          "value": "guy",
+          "count": 1
+        },
+        {
+          "value": "hrv",
+          "count": 1
+        },
+        {
+          "value": "kir",
+          "count": 1
+        },
+        {
+          "value": "kor",
+          "count": 1
+        },
+        {
+          "value": "lby",
+          "count": 1
+        },
+        {
+          "value": "mex",
+          "count": 1
+        },
+        {
+          "value": "mys",
+          "count": 1
+        },
+        {
+          "value": "pri",
+          "count": 1
+        },
+        {
+          "value": "prk",
+          "count": 1
+        },
+        {
+          "value": "qat",
+          "count": 1
+        },
+        {
+          "value": "sau",
+          "count": 1
+        },
+        {
+          "value": "slb",
+          "count": 1
+        },
+        {
+          "value": "sur",
+          "count": 1
+        },
+        {
+          "value": "svn",
+          "count": 1
+        },
+        {
+          "value": "swz",
+          "count": 1
+        },
+        {
+          "value": "tjk",
+          "count": 1
+        },
+        {
+          "value": "tun",
+          "count": 1
+        },
+        {
+          "value": "wsm",
+          "count": 1
+        },
+        {
+          "value": "zaf",
+          "count": 1
+        }
+      ],
+      "missing": 0,
+      "more": false
+    },
+    "sources": {
+      "type": "term",
+      "data": [
+        {
+          "value": "UNHCR",
+          "count": 365
+        },
+        {
+          "value": "IOM",
+          "count": 239
+        },
+        {
+          "value": "OCHA",
+          "count": 237
+        },
+        {
+          "value": "WFP",
+          "count": 215
+        },
+        {
+          "value": "WHO",
+          "count": 136
+        },
+        {
+          "value": "IFRC",
+          "count": 97
+        },
+        {
+          "value": "UNICEF",
+          "count": 97
+        },
+        {
+          "value": "Logistics Cluster",
+          "count": 69
+        },
+        {
+          "value": "FAO",
+          "count": 56
+        },
+        {
+          "value": "ETC",
+          "count": 49
+        },
+        {
+          "value": "FEWS NET",
+          "count": 46
+        },
+        {
+          "value": "Health Cluster",
+          "count": 41
+        },
+        {
+          "value": "MSF",
+          "count": 36
+        },
+        {
+          "value": "Govt. Philippines",
+          "count": 32
+        },
+        {
+          "value": "MapAction",
+          "count": 32
+        },
+        {
+          "value": "Save the Children",
+          "count": 32
+        },
+        {
+          "value": "ICRC",
+          "count": 31
+        },
+        {
+          "value": "ECHO",
+          "count": 30
+        },
+        {
+          "value": "Govt. Pakistan",
+          "count": 29
+        },
+        {
+          "value": "Protection Cluster",
+          "count": 27
+        },
+        {
+          "value": "Govt. Sri Lanka",
+          "count": 26
+        },
+        {
+          "value": "UN Women",
+          "count": 26
+        },
+        {
+          "value": "REACH",
+          "count": 24
+        },
+        {
+          "value": "UNFPA",
+          "count": 23
+        },
+        {
+          "value": "PAHO",
+          "count": 21
+        },
+        {
+          "value": "Shelter Cluster",
+          "count": 21
+        },
+        {
+          "value": "CCCM Cluster",
+          "count": 19
+        },
+        {
+          "value": "Oxfam",
+          "count": 19
+        },
+        {
+          "value": "EHP Colombia",
+          "count": 16
+        },
+        {
+          "value": "NRC",
+          "count": 16
+        },
+        {
+          "value": "Caritas",
+          "count": 14
+        },
+        {
+          "value": "DFS",
+          "count": 14
+        },
+        {
+          "value": "SPC",
+          "count": 14
+        },
+        {
+          "value": "UNDP",
+          "count": 14
+        },
+        {
+          "value": "ACTED",
+          "count": 13
+        },
+        {
+          "value": "Nutrition Cluster",
+          "count": 13
+        },
+        {
+          "value": "UNDRR",
+          "count": 13
+        },
+        {
+          "value": "IRC",
+          "count": 12
+        },
+        {
+          "value": "Insecurity Insight",
+          "count": 12
+        },
+        {
+          "value": "ODI - HPN",
+          "count": 12
+        },
+        {
+          "value": "SI",
+          "count": 12
+        },
+        {
+          "value": "IHCP",
+          "count": 11
+        },
+        {
+          "value": "Islamic Relief",
+          "count": 11
+        },
+        {
+          "value": "World Vision",
+          "count": 11
+        },
+        {
+          "value": "CARE",
+          "count": 10
+        },
+        {
+          "value": "DRC",
+          "count": 10
+        },
+        {
+          "value": "IMC",
+          "count": 9
+        },
+        {
+          "value": "MIMU",
+          "count": 9
+        },
+        {
+          "value": "Plan International",
+          "count": 9
+        },
+        {
+          "value": "Qatar Charity",
+          "count": 9
+        },
+        {
+          "value": "AHA Centre",
+          "count": 8
+        },
+        {
+          "value": "AMDA",
+          "count": 8
+        },
+        {
+          "value": "Amnesty",
+          "count": 8
+        },
+        {
+          "value": "Concern",
+          "count": 8
+        },
+        {
+          "value": "Education Cluster",
+          "count": 8
+        },
+        {
+          "value": "GBV AoR",
+          "count": 8
+        },
+        {
+          "value": "3iS",
+          "count": 7
+        },
+        {
+          "value": "GCR2P",
+          "count": 7
+        },
+        {
+          "value": "GPEI",
+          "count": 7
+        },
+        {
+          "value": "Govt. Bangladesh",
+          "count": 7
+        },
+        {
+          "value": "Govt. DR Congo",
+          "count": 7
+        },
+        {
+          "value": "Govt. Uganda",
+          "count": 7
+        },
+        {
+          "value": "HOPE",
+          "count": 7
+        },
+        {
+          "value": "HRW",
+          "count": 7
+        },
+        {
+          "value": "IPC",
+          "count": 7
+        },
+        {
+          "value": "KHRG",
+          "count": 7
+        },
+        {
+          "value": "MAP",
+          "count": 7
+        },
+        {
+          "value": "Mercy Corps",
+          "count": 7
+        },
+        {
+          "value": "UN RC Nepal",
+          "count": 7
+        },
+        {
+          "value": "UNOSAT",
+          "count": 7
+        },
+        {
+          "value": "ACLED",
+          "count": 6
+        },
+        {
+          "value": "Direct Relief",
+          "count": 6
+        },
+        {
+          "value": "FSNAU",
+          "count": 6
+        },
+        {
+          "value": "Int'l Charter",
+          "count": 6
+        },
+        {
+          "value": "Tzu Chi Foundation",
+          "count": 6
+        },
+        {
+          "value": "WASH Cluster",
+          "count": 6
+        },
+        {
+          "value": "ACF",
+          "count": 5
+        },
+        {
+          "value": "Action Against Hunger",
+          "count": 5
+        },
+        {
+          "value": "EUAA",
+          "count": 5
+        },
+        {
+          "value": "Govt. Canada",
+          "count": 5
+        },
+        {
+          "value": "Govt. Japan",
+          "count": 5
+        },
+        {
+          "value": "Govt. Vanuatu",
+          "count": 5
+        },
+        {
+          "value": "IMPACT Initiatives",
+          "count": 5
+        },
+        {
+          "value": "Safeguarding Health in Conflict",
+          "count": 5
+        },
+        {
+          "value": "ACAPS",
+          "count": 4
+        },
+        {
+          "value": "CBM",
+          "count": 4
+        },
+        {
+          "value": "Data for Afghanistan",
+          "count": 4
+        },
+        {
+          "value": "EC",
+          "count": 4
+        },
+        {
+          "value": "Govt. Australia",
+          "count": 4
+        },
+        {
+          "value": "Govt. Chad",
+          "count": 4
+        },
+        {
+          "value": "Govt. Haiti",
+          "count": 4
+        },
+        {
+          "value": "Govt. Rep. Korea",
+          "count": 4
+        },
+        {
+          "value": "IAEA",
+          "count": 4
+        },
+        {
+          "value": "Nigerian Red Cross Society",
+          "count": 4
+        },
+        {
+          "value": "PMI",
+          "count": 4
+        },
+        {
+          "value": "Qatar Red Crescent",
+          "count": 4
+        },
+        {
+          "value": "R4V",
+          "count": 4
+        },
+        {
+          "value": "Turkish Red Crescent",
+          "count": 4
+        },
+        {
+          "value": "UN DPPA",
+          "count": 4
+        },
+        {
+          "value": "UN HRC",
+          "count": 4
+        },
+        {
+          "value": "UN RC/HC South Sudan",
+          "count": 4
+        },
+        {
+          "value": "Ukraine CWG",
+          "count": 4
+        },
+        {
+          "value": "Africa CDC",
+          "count": 3
+        },
+        {
+          "value": "Bangladesh Red Crescent",
+          "count": 3
+        },
+        {
+          "value": "Boxtribute",
+          "count": 3
+        },
+        {
+          "value": "FSC",
+          "count": 3
+        },
+        {
+          "value": "GEOGLAM Crop Monitor",
+          "count": 3
+        },
+        {
+          "value": "Germanwatch",
+          "count": 3
+        },
+        {
+          "value": "Govt. UK",
+          "count": 3
+        },
+        {
+          "value": "IRDR",
+          "count": 3
+        },
+        {
+          "value": "OHCHR",
+          "count": 3
+        },
+        {
+          "value": "PSEA Network DRC",
+          "count": 3
+        },
+        {
+          "value": "SLSC Cluster",
+          "count": 3
+        },
+        {
+          "value": "UNAIDS",
+          "count": 3
+        },
+        {
+          "value": "UNAMA",
+          "count": 3
+        },
+        {
+          "value": "UNCT DRC",
+          "count": 3
+        },
+        {
+          "value": "UNCT Nepal",
+          "count": 3
+        },
+        {
+          "value": "UNRWA",
+          "count": 3
+        },
+        {
+          "value": "Vietnam Red Cross",
+          "count": 3
+        },
+        {
+          "value": "WMO",
+          "count": 3
+        },
+        {
+          "value": "ACBAR",
+          "count": 2
+        },
+        {
+          "value": "ADSP",
+          "count": 2
+        },
+        {
+          "value": "Alkhidmat Foundation",
+          "count": 2
+        },
+        {
+          "value": "CESVI",
+          "count": 2
+        },
+        {
+          "value": "CIVICUS",
+          "count": 2
+        },
+        {
+          "value": "CORUS",
+          "count": 2
+        },
+        {
+          "value": "CP AoR",
+          "count": 2
+        },
+        {
+          "value": "Call to Action on GBV",
+          "count": 2
+        },
+        {
+          "value": "Croix-Rouge de la RDC",
+          "count": 2
+        },
+        {
+          "value": "DEC",
+          "count": 2
+        },
+        {
+          "value": "ECW",
+          "count": 2
+        },
+        {
+          "value": "FACT",
+          "count": 2
+        },
+        {
+          "value": "FIDH",
+          "count": 2
+        },
+        {
+          "value": "Govt. Netherlands",
+          "count": 2
+        },
+        {
+          "value": "Govt. Sweden",
+          "count": 2
+        },
+        {
+          "value": "HADR",
+          "count": 2
+        },
+        {
+          "value": "HI",
+          "count": 2
+        },
+        {
+          "value": "IBA",
+          "count": 2
+        },
+        {
+          "value": "IGAD",
+          "count": 2
+        },
+        {
+          "value": "INSO",
+          "count": 2
+        },
+        {
+          "value": "IPI",
+          "count": 2
+        },
+        {
+          "value": "InterAction",
+          "count": 2
+        },
+        {
+          "value": "La Red PEAS Venezuela",
+          "count": 2
+        },
+        {
+          "value": "MDM",
+          "count": 2
+        },
+        {
+          "value": "MONUSCO",
+          "count": 2
+        },
+        {
+          "value": "OSESGY",
+          "count": 2
+        },
+        {
+          "value": "Protect Humanitarians",
+          "count": 2
+        },
+        {
+          "value": "RCSBiH",
+          "count": 2
+        },
+        {
+          "value": "Radio Ergo",
+          "count": 2
+        },
+        {
+          "value": "SIPRI",
+          "count": 2
+        },
+        {
+          "value": "SOS",
+          "count": 2
+        },
+        {
+          "value": "SUN Movement",
+          "count": 2
+        },
+        {
+          "value": "Thai Red Cross",
+          "count": 2
+        },
+        {
+          "value": "UNCT Cuba",
+          "count": 2
+        },
+        {
+          "value": "UNSCO",
+          "count": 2
+        },
+        {
+          "value": "War Child",
+          "count": 2
+        },
+        {
+          "value": "World Bank",
+          "count": 2
+        },
+        {
+          "value": "iMMAP Inc.",
+          "count": 2
+        },
+        {
+          "value": "AGF",
+          "count": 1
+        },
+        {
+          "value": "AGRA",
+          "count": 1
+        },
+        {
+          "value": "AIDMI",
+          "count": 1
+        },
+        {
+          "value": "ALNAP",
+          "count": 1
+        },
+        {
+          "value": "ANU",
+          "count": 1
+        },
+        {
+          "value": "AP GiHA WG",
+          "count": 1
+        },
+        {
+          "value": "AVSI",
+          "count": 1
+        },
+        {
+          "value": "Action for Humanity",
+          "count": 1
+        },
+        {
+          "value": "ActionAid",
+          "count": 1
+        },
+        {
+          "value": "African Centre for Justice and Peace Studies",
+          "count": 1
+        },
+        {
+          "value": "AidEx",
+          "count": 1
+        },
+        {
+          "value": "Anera",
+          "count": 1
+        },
+        {
+          "value": "BINUH",
+          "count": 1
+        },
+        {
+          "value": "CCY",
+          "count": 1
+        },
+        {
+          "value": "CDAC",
+          "count": 1
+        },
+        {
+          "value": "CDEMA",
+          "count": 1
+        },
+        {
+          "value": "CFE-DM",
+          "count": 1
+        },
+        {
+          "value": "CPJ",
+          "count": 1
+        },
+        {
+          "value": "CSF",
+          "count": 1
+        },
+        {
+          "value": "CSRF",
+          "count": 1
+        },
+        {
+          "value": "Cruz Roja Argentina",
+          "count": 1
+        },
+        {
+          "value": "Cruz Roja Chilena",
+          "count": 1
+        },
+        {
+          "value": "Cruz Roja Costarricense",
+          "count": 1
+        },
+        {
+          "value": "Cruz Roja Panameña",
+          "count": 1
+        },
+        {
+          "value": "Cruz Roja Peruana",
+          "count": 1
+        },
+        {
+          "value": "Cruz Roja Salvadoreña",
+          "count": 1
+        },
+        {
+          "value": "DACAAR",
+          "count": 1
+        },
+        {
+          "value": "DOZ",
+          "count": 1
+        },
+        {
+          "value": "ERC",
+          "count": 1
+        },
+        {
+          "value": "ETANA",
+          "count": 1
+        },
+        {
+          "value": "EU",
+          "count": 1
+        },
+        {
+          "value": "Educo",
+          "count": 1
+        },
+        {
+          "value": "FSNWG",
+          "count": 1
+        },
+        {
+          "value": "ForAfrika",
+          "count": 1
+        },
+        {
+          "value": "FundLife International",
+          "count": 1
+        },
+        {
+          "value": "Fundación Abba Colombia",
+          "count": 1
+        },
+        {
+          "value": "GAVI",
+          "count": 1
+        },
+        {
+          "value": "GIFMM",
+          "count": 1
+        },
+        {
+          "value": "Good Neighbors International",
+          "count": 1
+        },
+        {
+          "value": "Govt. Belgium",
+          "count": 1
+        },
+        {
+          "value": "Govt. France",
+          "count": 1
+        },
+        {
+          "value": "Govt. Germany",
+          "count": 1
+        },
+        {
+          "value": "Govt. Indonesia",
+          "count": 1
+        },
+        {
+          "value": "Govt. Italy",
+          "count": 1
+        },
+        {
+          "value": "Govt. Mali",
+          "count": 1
+        },
+        {
+          "value": "Govt. Mozambique",
+          "count": 1
+        },
+        {
+          "value": "Govt. Nepal",
+          "count": 1
+        },
+        {
+          "value": "Govt. New Zealand",
+          "count": 1
+        },
+        {
+          "value": "Govt. Niger",
+          "count": 1
+        },
+        {
+          "value": "Govt. Nigeria",
+          "count": 1
+        },
+        {
+          "value": "Govt. Norway",
+          "count": 1
+        },
+        {
+          "value": "Govt. South Sudan",
+          "count": 1
+        },
+        {
+          "value": "HAI",
+          "count": 1
+        },
+        {
+          "value": "HALO",
+          "count": 1
+        },
+        {
+          "value": "HCI",
+          "count": 1
+        },
+        {
+          "value": "HCT Philippines",
+          "count": 1
+        },
+        {
+          "value": "HDA",
+          "count": 1
+        },
+        {
+          "value": "Humanitarian Outcomes",
+          "count": 1
+        },
+        {
+          "value": "IASC",
+          "count": 1
+        },
+        {
+          "value": "ICJ",
+          "count": 1
+        },
+        {
+          "value": "IFPRI",
+          "count": 1
+        },
+        {
+          "value": "INEW",
+          "count": 1
+        },
+        {
+          "value": "INTERSOS",
+          "count": 1
+        },
+        {
+          "value": "ISHR",
+          "count": 1
+        },
+        {
+          "value": "Kyrgyzstan Red Crescent",
+          "count": 1
+        },
+        {
+          "value": "LIFE",
+          "count": 1
+        },
+        {
+          "value": "Liberian Red Cross",
+          "count": 1
+        },
+        {
+          "value": "MAG",
+          "count": 1
+        },
+        {
+          "value": "MCC",
+          "count": 1
+        },
+        {
+          "value": "MDM-T DDD",
+          "count": 1
+        },
+        {
+          "value": "MLHCP",
+          "count": 1
+        },
+        {
+          "value": "NGO Girls",
+          "count": 1
+        },
+        {
+          "value": "NGO Platform Cox's Bazar",
+          "count": 1
+        },
+        {
+          "value": "NORCAP",
+          "count": 1
+        },
+        {
+          "value": "Nepal Red Cross",
+          "count": 1
+        },
+        {
+          "value": "OMCT",
+          "count": 1
+        },
+        {
+          "value": "OPCW",
+          "count": 1
+        },
+        {
+          "value": "OSES",
+          "count": 1
+        },
+        {
+          "value": "PAX",
+          "count": 1
+        },
+        {
+          "value": "PDC",
+          "count": 1
+        },
+        {
+          "value": "PINGON",
+          "count": 1
+        },
+        {
+          "value": "Pakistan Red Crescent",
+          "count": 1
+        },
+        {
+          "value": "Philippine Red Cross",
+          "count": 1
+        },
+        {
+          "value": "QFFD",
+          "count": 1
+        },
+        {
+          "value": "RCC",
+          "count": 1
+        },
+        {
+          "value": "REDRESS",
+          "count": 1
+        },
+        {
+          "value": "SARD",
+          "count": 1
+        },
+        {
+          "value": "SARI Global",
+          "count": 1
+        },
+        {
+          "value": "SASDO",
+          "count": 1
+        },
+        {
+          "value": "SIHA Network",
+          "count": 1
+        },
+        {
+          "value": "SNC",
+          "count": 1
+        },
+        {
+          "value": "SOS Méditerranée",
+          "count": 1
+        }
+      ],
+      "missing": 0,
+      "more": true
+    }
+  },
   "provenance": {
     "provider": "ReliefWeb API V2",
     "appname": "arac-quanta-analytica+HID+6276e9b739d968248cb923e7",
-    "queryGeneratedAt": "2026-09-16T13:51:20.077Z",
+    "queryGeneratedAt": "2026-09-16T13:53:24.419Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3"
