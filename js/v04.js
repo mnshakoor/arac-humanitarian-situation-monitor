@@ -1,6 +1,6 @@
 const V04 = { data:null, reports:[] };
 const v04norm = v => String(v || '').trim().toLowerCase();
-const v04safe = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+const v04safe = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#039;'}[c]));
 const v04date = value => { const d = new Date(value); return Number.isNaN(d.getTime()) ? 'unknown' : d.toLocaleString(); };
 
 function dedupeReports(data){
@@ -79,6 +79,18 @@ function enhanceDisasterCards(root=document){
   }
 }
 
+function addSourceRegister(){
+  const nav=document.querySelector('.nav'), content=document.querySelector('.content'); if(!nav||!content||document.querySelector('[data-view="sources"]'))return;
+  const btn=document.createElement('button'); btn.dataset.view='sources'; btn.textContent='Source Register';
+  const methodology=[...nav.querySelectorAll('button')].find(x=>x.dataset.view==='methodology'); nav.insertBefore(btn,methodology||null);
+  const rows=(V04.data.globalSources||[]).slice(0,100);
+  const section=document.createElement('section'); section.id='view-sources'; section.className='view'; section.hidden=true;
+  const prov=V04.data.provenance||{};
+  section.innerHTML=`<div class="hero"><div><span class="eyebrow">PROVENANCE & SOURCE ECOLOGY</span><h1>Source Register</h1><p>Global ReliefWeb source presence in the synchronized 30-day reporting window. Counts reflect report assignments, not independent corroboration.</p></div></div><div class="grid-2"><section class="panel"><h2>Global source presence</h2><div class="source-register">${rows.map((x,i)=>`<div class="source-row"><span>${i+1}. ${v04safe(x.name)}</span><strong>${Number(x.count||0).toLocaleString()}</strong></div>`).join('')||'<p class="micro">No source aggregate is available in this snapshot.</p>'}</div></section><section class="panel"><h2>Snapshot provenance</h2><dl class="provenance-list"><dt>Provider</dt><dd>${v04safe(prov.provider||'ReliefWeb API V2')}</dd><dt>Date basis</dt><dd>${v04safe(prov.dateBasis||'date.original')}</dd><dt>Record status</dt><dd>${v04safe(prov.status||'published')}</dd><dt>Country counting</dt><dd>${v04safe(prov.countryCounting||'primary_country.iso3')}</dd><dt>Aggregation strategy</dt><dd>${v04safe(prov.aggregateStrategy||'snapshot')}</dd><dt>Snapshot generated</dt><dd>${v04safe(v04date(V04.data.generatedAt))}</dd></dl><p class="micro">A source appearing frequently may indicate operational prominence, publication cadence, or reporting access. It is not by itself evidence of source independence or evidentiary quality.</p></section></div>`;
+  content.append(section);
+  btn.addEventListener('click',()=>{document.querySelectorAll('[data-view]').forEach(x=>x.classList.toggle('active',x===btn));document.querySelectorAll('.view').forEach(v=>v.hidden=v!==section);announce('Source Register opened');});
+}
+
 function navAccessibility(){
   const update=()=>document.querySelectorAll('[data-view]').forEach(b=>{if(b.classList.contains('active'))b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');}); update();
   const nav=document.querySelector('.nav'); if(nav)new MutationObserver(update).observe(nav,{attributes:true,subtree:true,attributeFilter:['class']});
@@ -90,7 +102,7 @@ function registerOffline(){
 
 async function bootV04(){
   try{const r=await fetch('./data/snapshot.json',{cache:'no-store'});if(!r.ok)return;V04.data=await r.json();V04.reports=dedupeReports(V04.data);}catch{return;}
-  addSkipAndLiveRegion();addHealthControl();navAccessibility();registerOffline();addPanelFreshness();enhanceDisasterCards();
+  addSkipAndLiveRegion();addHealthControl();addSourceRegister();navAccessibility();registerOffline();addPanelFreshness();enhanceDisasterCards();
   const observer=new MutationObserver(m=>{let changed=false;for(const x of m)if(x.addedNodes.length){changed=true;break;}if(changed){addPanelFreshness();enhanceDisasterCards();}});observer.observe(document.querySelector('main')||document.body,{subtree:true,childList:true});
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',bootV04,{once:true});else bootV04();
