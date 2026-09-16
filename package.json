@@ -1,0 +1,13 @@
+{
+  "name": "arac-humanitarian-situation-monitor",
+  "private": true,
+  "version": "0.4.0-beta",
+  "type": "module",
+  "scripts": {
+    "quality": "node scripts/quality-gate.mjs",
+    "test:smoke": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.55.0"
+  }
+}
