@@ -1,8 +1,8 @@
 # Implementation Status
 
-## Current build: v0.8.0-beta
+## Current build: v0.9.0-rc1
 
-AHSM is a live GitHub Pages humanitarian information-monitoring application using synchronized ReliefWeb API data with regional monitoring, country workspaces, disaster analysis, source provenance, query tooling, structural network intelligence, temporal network comparison, and temporal evidence packaging.
+AHSM is now in release-candidate preparation. Major analytical feature expansion is frozen while the application is hardened for reliability, performance, update convergence, accessibility, documentation and public release readiness.
 
 ## Core platform retained
 
@@ -35,14 +35,13 @@ AHSM is a live GitHub Pages humanitarian information-monitoring application usin
 - Weak-tie threshold controls
 - Investigation Pinboard and `quanta.reliefweb.network-investigation.v1` export
 - Dedicated Network Explorer full-screen mode
+- Graph-first workflow hierarchy on desktop and mobile
 
-## v0.7 temporal network intelligence
+## Temporal network intelligence retained
 
 The Explorer compares 24h, 7d and 30d windows with the immediately preceding equivalent period using an entity-projection network of country, source and theme nodes. It surfaces current/prior report volume, emerging and disappearing relationships, strengthening and weakening relationships, rising/falling weighted centrality and temporal community change.
 
-## v0.8 additions
-
-### Temporal evidence and investigation packaging
+## Temporal evidence and investigation packaging
 
 - persistent browser-local temporal investigation snapshots;
 - report-level evidence cards for high-priority emerging, strengthening and disappearing relationships;
@@ -50,23 +49,59 @@ The Explorer compares 24h, 7d and 30d windows with the immediately preceding equ
 - watched country/source/theme entities with current vs prior weighted-connectivity change;
 - cross-window community lineage matching using node-set overlap rather than numerical community labels alone;
 - structured `quanta.reliefweb.temporal-network.v1` JSON export containing temporal nodes, relationship changes, community lineage, watched entities, filters and provenance;
-- saved temporal investigations may be re-exported locally;
 - saved investigations and watched entities remain browser-local and are not uploaded by AHSM.
 
-### Entire-application full-screen mode
+## Entire-application full-screen mode
 
-AHSM now provides an **App full screen** control in the global top bar. It expands the full application, including header, navigation, active workspace and footer behavior, using the browser Fullscreen API with a pseudo-fullscreen fallback. `Alt+Enter` toggles app-level full screen. The existing Network Explorer full-screen control remains available as a separate investigation-focused mode.
+AHSM provides an **App full screen** control in the global top bar. It expands the full application, including header, navigation and active workspace, using the browser Fullscreen API with a pseudo-fullscreen fallback. `Alt+Enter` toggles app-level full screen. The existing Network Explorer full-screen control remains available as a separate investigation-focused mode.
+
+## v0.9.0-rc1 reliability hardening
+
+### Runtime stability diagnostics
+
+Data Health now receives a browser-local **Release Candidate Runtime** block reporting:
+
+- session uptime;
+- snapshot age;
+- synchronized core-component freshness;
+- browser long-task count and maximum long-task duration;
+- script-error count;
+- unhandled-promise-rejection count;
+- connectivity transitions;
+- foreground/background page state.
+
+These diagnostics are local to the browser session and are not transmitted.
+
+### Background and reduced-motion safeguards
+
+- ReliefWeb ticker animation pauses when the page is backgrounded.
+- Network graph transitions are disabled while the page is backgrounded.
+- `prefers-reduced-motion` disables ticker animation and graph transitions.
+- The runtime-health attachment uses a bounded one-shot observer rather than an always-on document mutation loop.
+
+### Service-worker convergence
+
+- critical application assets remain network-first while online;
+- offline cache remains available as last-known-good continuity;
+- RC1 cache generation is `ahsm-shell-v090-rc1-r1`;
+- previous AHSM cache generations are removed on activation;
+- `js/v09.js` is included in the offline shell.
+
+### RC1 automated regression coverage
+
+Playwright now adds explicit stress/regression tests for:
+
+- repeated Data Health open/close cycles;
+- repeated Network Explorer filtering and navigation;
+- browser page-error detection during those cycles;
+- RC1 service-worker cache convergence;
+- offline shell recovery and return to a network-current session.
+
+The static quality gate also validates RC1 version alignment, runtime diagnostics, service-worker cache generation, snapshot sync-health fields and regression guards against recursive Build Health observers.
 
 ## Analytical boundary
 
 Structural and temporal network changes describe the synchronized ReliefWeb information environment. They do not independently establish humanitarian deterioration or improvement, causality, institutional influence, coordination, source independence, actor intent, severity or factual corroboration. Evidence cards provide traceability to underlying reports, not automatic validation of a substantive hypothesis.
-
-## Validation focus
-
-- v0.8 production quality gate verifies the new investigation layer, app-wide full-screen control, temporal export schema and required assets;
-- Playwright desktop/mobile smoke tests cover app-wide full-screen control availability and temporal investigation panels;
-- service-worker cache advanced to the v0.8 application shell;
-- GitHub Pages continues to deploy from `main`.
 
 ## Provider-resilience behavior
 
@@ -75,6 +110,17 @@ Structural and temporal network changes describe the synchronized ReliefWeb info
 - Hourly global synchronization remains separate from deeper country enrichment.
 - ReliefWeb RSS may return HTTP 406 to automated requests; the ticker falls back to synchronized ReliefWeb report URLs.
 
-## Recommended next phase
+## Remaining release-candidate work
 
-The next phase should focus on release-candidate preparation: formal accessibility audit/remediation, About/Public Service Initiative page, public methodology navigation, changelog/release notes, SEO/social metadata, final mobile/print review, and v1.0 release checklist.
+- formal accessibility audit/remediation;
+- exact ReliefWeb disaster/report identifier normalization where supported;
+- About/Public Service Initiative page;
+- expanded public methodology and provenance navigation;
+- SEO/social metadata and release metadata;
+- final mobile/tablet/fullscreen/print review;
+- cosmetic UI placement and spacing pass;
+- public user guide and operator/administrator guide;
+- changelog and v1.0 release notes;
+- final Windows and iPad endurance validation.
+
+See `docs/RELEASE-CANDIDATE.md` for the RC validation plan.
