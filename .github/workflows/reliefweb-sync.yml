@@ -40,9 +40,23 @@ jobs:
         run: node -e "JSON.parse(require('fs').readFileSync('data/snapshot.json','utf8')); console.log('snapshot valid')"
       - name: Commit updated snapshot and thumbnails
         run: |
+          set -e
           git config user.name "ARAC Humanitarian Monitor Bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/snapshot.json assets/report-thumbs
           git diff --cached --quiet && exit 0
           git commit -m "data: refresh ReliefWeb snapshot and thumbnails"
-          git push
+
+          for attempt in 1 2 3; do
+            echo "Push attempt ${attempt}: rebasing onto latest main"
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "ReliefWeb snapshot and thumbnails published successfully."
+              exit 0
+            fi
+            echo "Push attempt ${attempt} failed; retrying..." >&2
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 2))
+          done
+
+          echo "Failed to publish ReliefWeb snapshot after 3 attempts." >&2
+          exit 1
