@@ -40,8 +40,15 @@ const mergeReports=(fresh=[],preserved=[])=>{
   return out.slice(0,12);
 };
 const reason = result => result.status === 'rejected' ? String(result.reason?.message || result.reason || 'unavailable').slice(0,240) : null;
+const first=x=>Array.isArray(x)?x[0]:x;
+const thumbnailFromFields=f=>{
+  const image=first(f?.image);
+  const files=Array.isArray(f?.file)?f.file:(f?.file?[f.file]:[]);
+  const preview=files.map(x=>first(x?.preview)).find(Boolean);
+  return image?.['url-small']||image?.['url-thumb']||image?.url||preview?.['url-small']||preview?.['url-thumb']||preview?.url||'';
+};
 
-const reportFields=['title','date.original','primary_country','country','source','theme','format','disaster','disaster_type','language','url','url_alias'];
+const reportFields=['title','date.original','primary_country','country','source','theme','format','disaster','disaster_type','language','url','url_alias','image.url','image.url-small','image.url-thumb','image.copyright','file.preview.url','file.preview.url-small','file.preview.url-thumb'];
 const published={field:'status',value:'published'};
 const date30={field:'date.original',value:{from:reliefWebIso(daysAgo(30)),to:reliefWebIso(now)}};
 const aggregateBody={limit:0,filter:{operator:'AND',conditions:[published,date30]},facets:[
@@ -77,8 +84,8 @@ if (!momentumFresh) console.warn('Momentum comparison retained from last known g
 
 function normalizeReport(item) {
   if (item?.primaryCountry !== undefined) return item;
-  const f=item.fields || {}, pc=f.primary_country || {};
-  return {id:item.id,title:f.title,dateOriginal:f.date?.original||f['date.original'],primaryCountry:pc?.name||pc?.[0]?.name||'',primaryCountryIso3:String(pc?.iso3||pc?.[0]?.iso3||'').toLowerCase(),primaryCountryLocation:pc?.location||pc?.[0]?.location||null,source:(f.source||[]).map(s=>s.shortname||s.name).join(', '),format:(f.format||[]).map(x=>x.name).join(', '),themes:(f.theme||[]).map(x=>x.name),disasterTypes:(f.disaster_type||[]).map(x=>x.name),url:f.url_alias||f.url||item.href};
+  const f=item.fields || {}, pc=f.primary_country || {}, image=first(f.image);
+  return {id:item.id,title:f.title,dateOriginal:f.date?.original||f['date.original'],primaryCountry:pc?.name||pc?.[0]?.name||'',primaryCountryIso3:String(pc?.iso3||pc?.[0]?.iso3||'').toLowerCase(),primaryCountryLocation:pc?.location||pc?.[0]?.location||null,source:(f.source||[]).map(s=>s.shortname||s.name).join(', '),format:(f.format||[]).map(x=>x.name).join(', '),themes:(f.theme||[]).map(x=>x.name),disasterTypes:(f.disaster_type||[]).map(x=>x.name),thumbnail:thumbnailFromFields(f),thumbnailCopyright:image?.copyright||'',url:f.url_alias||f.url||item.href};
 }
 function normalizeDisaster(d) {
   if (d?.primaryCountryIso3 !== undefined) return d;
@@ -142,7 +149,7 @@ const snapshot={
   globalSources:aggregateFresh?normalizeFacet(facetMap(aggregate,'sources')):(previousSnapshot?.globalSources||[]),
   globalFormats:aggregateFresh?normalizeFacet(facetMap(aggregate,'formats')):(previousSnapshot?.globalFormats||[]),
   countries,reports,disasters:normalizedDisasters,
-  provenance:{...(previousSnapshot?.provenance||{}),provider:'ReliefWeb API V2',appname,queryGeneratedAt:now.toISOString(),dateBasis:'date.original',status:'published',countryCounting:'primary_country.iso3',aggregateStrategy:'Component-resilient hourly snapshot with separate daily country enrichment',momentumStatus:momentumFresh?'fresh':'last-known-good',coordinateSource:'Embedded ReliefWeb primary_country.location where available',countryNameSource:'Embedded ReliefWeb primary_country names; ISO3 fallback where unavailable',analyticalBoundary:'Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.'}
+  provenance:{...(previousSnapshot?.provenance||{}),provider:'ReliefWeb API V2',appname,queryGeneratedAt:now.toISOString(),dateBasis:'date.original',status:'published',countryCounting:'primary_country.iso3',aggregateStrategy:'Component-resilient hourly snapshot with separate daily country enrichment',momentumStatus:momentumFresh?'fresh':'last-known-good',coordinateSource:'Embedded ReliefWeb primary_country.location where available',countryNameSource:'Embedded ReliefWeb primary_country names; ISO3 fallback where unavailable',reportThumbnailSource:'ReliefWeb image or attachment preview fields when available',analyticalBoundary:'Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.'}
 };
 
 await fs.mkdir('data',{recursive:true});
