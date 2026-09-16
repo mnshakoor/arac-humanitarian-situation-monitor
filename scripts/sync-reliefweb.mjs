@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 
 const appname = process.env.RELIEFWEB_APPNAME;
-if (!appname) throw new Error('RELIEFWEB_APPNAME is required. Add it as a GitHub Actions repository variable.');
+if (!appname) throw new Error('RELIEFWEB_APPNAME is required. Add it as a GitHub Actions repository secret.');
 const base = `https://api.reliefweb.int/v2`;
 
 async function post(endpoint, body) {
@@ -13,7 +13,7 @@ async function post(endpoint, body) {
 }
 
 const now = new Date();
-const iso = d => d.toISOString();
+const reliefWebIso = d => d.toISOString().replace(/\.\d{3}Z$/, '+00:00');
 const daysAgo = n => new Date(now.getTime()-n*86400000);
 
 function facetMap(obj, name) {
@@ -27,7 +27,7 @@ const globalBody = {
   sort: ['date.original:desc'],
   filter: {operator:'AND',conditions:[
     {field:'status',value:'published'},
-    {field:'date.original',value:{from:iso(daysAgo(30)),to:iso(now)}}
+    {field:'date.original',value:{from:reliefWebIso(daysAgo(30)),to:reliefWebIso(now)}}
   ]},
   fields: {include:['title','date.original','primary_country','country','source','theme','format','disaster','disaster_type','language','url','url_alias']},
   facets: [
@@ -39,8 +39,8 @@ const globalBody = {
   ]
 };
 
-const current7Body = {...globalBody, limit:0, filter:{operator:'AND',conditions:[{field:'status',value:'published'},{field:'date.original',value:{from:iso(daysAgo(7)),to:iso(now)}}]}, facets:[{name:'countries',field:'primary_country.iso3',limit:250,sort:'count:desc'}]};
-const previous7Body = {...globalBody, limit:0, filter:{operator:'AND',conditions:[{field:'status',value:'published'},{field:'date.original',value:{from:iso(daysAgo(14)),to:iso(daysAgo(7))}}]}, facets:[{name:'countries',field:'primary_country.iso3',limit:250,sort:'count:desc'}]};
+const current7Body = {...globalBody, limit:0, filter:{operator:'AND',conditions:[{field:'status',value:'published'},{field:'date.original',value:{from:reliefWebIso(daysAgo(7)),to:reliefWebIso(now)}}]}, facets:[{name:'countries',field:'primary_country.iso3',limit:250,sort:'count:desc'}]};
+const previous7Body = {...globalBody, limit:0, filter:{operator:'AND',conditions:[{field:'status',value:'published'},{field:'date.original',value:{from:reliefWebIso(daysAgo(14)),to:reliefWebIso(daysAgo(7))}}]}, facets:[{name:'countries',field:'primary_country.iso3',limit:250,sort:'count:desc'}]};
 
 const [global, current7, previous7, disasters] = await Promise.all([
   post('reports', globalBody), post('reports', current7Body), post('reports', previous7Body),
