@@ -6,14 +6,15 @@ const base = 'https://api.reliefweb.int/v2';
 const PROFILE_LIMIT = 16;
 const PROFILE_BATCH_SIZE = 4;
 
-async function post(endpoint, body, timeoutMs = 45000) {
+async function post(endpoint, body, timeoutMs = null) {
   try {
-    const res = await fetch(`${base}/${endpoint}?appname=${encodeURIComponent(appname)}`, {
+    const options = {
       method:'POST',
       headers:{'content-type':'application/json','accept':'application/json'},
-      body:JSON.stringify(body),
-      signal:AbortSignal.timeout(timeoutMs)
-    });
+      body:JSON.stringify(body)
+    };
+    if (timeoutMs) options.signal = AbortSignal.timeout(timeoutMs);
+    const res = await fetch(`${base}/${endpoint}?appname=${encodeURIComponent(appname)}`, options);
     if (!res.ok) throw new Error(`${res.status} ${await res.text()}`);
     return res.json();
   } catch (error) {
