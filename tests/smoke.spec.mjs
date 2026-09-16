@@ -10,7 +10,7 @@ test('core monitor loads and country workspace opens', async ({page}) => {
   const values=await select.locator('option').evaluateAll(opts=>opts.map(o=>o.value).filter(Boolean));
   expect(values.length).toBeGreaterThan(0);
   await select.selectOption(values[0]);
-  await expect(page.locator('#country-workspace h2')).toBeVisible();
+  await expect(page.locator('#country-workspace .country-head h2')).toBeVisible();
   await expect(page.locator('#country-workspace .v03-analytics')).toBeVisible();
 });
 
