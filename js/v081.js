@@ -8,90 +8,27 @@ const BUILD_HEALTH_STYLE=`
 .build-health-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
 .build-health-head h3{margin:0;font-size:14px}
 .build-health dl{display:grid;grid-template-columns:minmax(115px,.8fr) minmax(0,1.2fr);gap:7px 14px;margin:0}
-.build-health dt{color:var(--muted);font-size:12px}
-.build-health dd{margin:0;text-align:right;font-size:12px;overflow-wrap:anywhere}
-.build-health .health-current{color:var(--ok)}
-.build-health .health-warn{color:#f1c66d}
-.build-health .health-bad{color:var(--danger)}
-.build-health-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
-.build-health-actions .button{font-size:11px;padding:7px 9px}
+.build-health dt{color:var(--muted);font-size:12px}.build-health dd{margin:0;text-align:right;font-size:12px;overflow-wrap:anywhere}
+.build-health .health-current{color:var(--ok)}.build-health .health-warn{color:#f1c66d}.build-health .health-bad{color:var(--danger)}
+.build-health-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.build-health-actions .button{font-size:11px;padding:7px 9px}
 @media(max-width:760px){.status{min-width:0;max-width:none;width:100%}.status-row{grid-template-columns:minmax(82px,.65fr) minmax(0,1.35fr);gap:14px}.build-health dl{grid-template-columns:minmax(105px,.75fr) minmax(0,1.25fr)}}
 @media(max-width:430px){.status-row{grid-template-columns:1fr;gap:3px}.status-row>span:last-child,.status-row>strong:last-child{text-align:left}.build-health dl{grid-template-columns:1fr;gap:2px}.build-health dd{text-align:left;margin-bottom:6px}}
 `;
 
 let healthState={checking:false,lastChecked:null,displayedVersion:null,deployedVersion:null,cacheVersion:null,source:null,online:navigator.onLine,controller:false,registration:false,error:null};
+let healthPanelObserver=null;
 
-function injectBuildHealthStyle(){
-  if(document.querySelector('#ahsm-build-health-style'))return;
-  const style=document.createElement('style');style.id='ahsm-build-health-style';style.textContent=BUILD_HEALTH_STYLE;document.head.append(style);
-}
+function injectBuildHealthStyle(){if(document.querySelector('#ahsm-build-health-style'))return;const style=document.createElement('style');style.id='ahsm-build-health-style';style.textContent=BUILD_HEALTH_STYLE;document.head.append(style);}
 function extractVersion(text=''){return text.match(/version\s*:\s*['\"]([^'\"]+)['\"]/)?.[1]||null;}
 function extractCache(text=''){return text.match(/const\s+CACHE\s*=\s*['\"]([^'\"]+)['\"]/)?.[1]||null;}
 function sourceLabel(source){if(source==='network')return 'Network current';if(source==='offline-cache')return 'Offline cache fallback';return navigator.onLine?'Network status unverified':'Offline';}
-function currentStatus(){
-  const displayed=healthState.displayedVersion||document.querySelector('#version')?.textContent?.trim()||'unknown';
-  const deployed=healthState.deployedVersion;
-  if(!navigator.onLine||healthState.source==='offline-cache')return {label:'OFFLINE FALLBACK',cls:'health-warn',detail:'Serving verified cached assets because the network could not be reached.'};
-  if(deployed&&displayed!==deployed)return {label:'UPDATE AVAILABLE',cls:'health-warn',detail:`This page is ${displayed}; the deployed build is ${deployed}. Reload to update.`};
-  if(deployed&&displayed===deployed)return {label:'CURRENT',cls:'health-current',detail:'Displayed build matches the network-verified deployment.'};
-  if(healthState.error)return {label:'VERIFY FAILED',cls:'health-bad',detail:'The current deployment could not be verified.'};
-  return {label:'CHECKING',cls:'',detail:'Checking deployment state.'};
-}
-function ensureHealthSection(){
-  const panel=document.querySelector('#data-health-panel');if(!panel)return null;
-  let host=panel.querySelector('#build-health-section');
-  if(!host){host=document.createElement('section');host.id='build-health-section';host.className='build-health';panel.append(host);}
-  return host;
-}
-function renderBuildHealth(){
-  const host=ensureHealthSection();if(!host)return;
-  healthState.displayedVersion=document.querySelector('#version')?.textContent?.trim()||healthState.displayedVersion||'unknown';
-  const s=currentStatus();
-  host.innerHTML=`<div class="build-health-head"><h3>Build Health / Update Status</h3><strong class="${s.cls}">${s.label}</strong></div><dl>
-    <dt>Displayed build</dt><dd>${healthState.displayedVersion||'unknown'}</dd>
-    <dt>Deployed build</dt><dd>${healthState.deployedVersion||'checking...'}</dd>
-    <dt>Service-worker cache</dt><dd>${healthState.cacheVersion||'checking...'}</dd>
-    <dt>Worker control</dt><dd>${healthState.controller?'active':'not controlling this page'}</dd>
-    <dt>Connectivity</dt><dd>${navigator.onLine?'online':'offline'}</dd>
-    <dt>Verification source</dt><dd>${sourceLabel(healthState.source)}</dd>
-    <dt>Last checked</dt><dd>${healthState.lastChecked?new Date(healthState.lastChecked).toLocaleString():'not yet'}</dd>
-  </dl><p class="micro">${s.detail}</p><div class="build-health-actions"><button id="build-health-check" class="button ghost" type="button">Check for updates</button>${s.label==='UPDATE AVAILABLE'?'<button id="build-health-reload" class="button" type="button">Reload current build</button>':''}</div>`;
-  host.querySelector('#build-health-check')?.addEventListener('click',()=>checkBuildHealth(true));
-  host.querySelector('#build-health-reload')?.addEventListener('click',()=>location.reload());
-}
-async function fetchDiagnostic(url){
-  const res=await fetch(`${url}${url.includes('?')?'&':'?'}ahsm_health=${Date.now()}`,{cache:'no-store'});
-  if(!res.ok)throw new Error(`${url} returned ${res.status}`);
-  return {text:await res.text(),source:res.headers.get('X-AHSM-Source')||'network'};
-}
-async function checkBuildHealth(forceWorkerUpdate=false){
-  if(healthState.checking)return;healthState.checking=true;healthState.error=null;renderBuildHealth();
-  try{
-    if('serviceWorker' in navigator){
-      const reg=await navigator.serviceWorker.getRegistration();healthState.registration=!!reg;healthState.controller=!!navigator.serviceWorker.controller;
-      if(forceWorkerUpdate&&reg)await reg.update().catch(()=>{});
-    }
-    const [configResult,swResult]=await Promise.allSettled([fetchDiagnostic('./js/config.js'),fetchDiagnostic('./sw.js')]);
-    if(configResult.status==='fulfilled'){healthState.deployedVersion=extractVersion(configResult.value.text);healthState.source=configResult.value.source;}
-    else healthState.error=configResult.reason?.message||'config verification failed';
-    if(swResult.status==='fulfilled'){healthState.cacheVersion=extractCache(swResult.value.text)||'unreported';if(!healthState.source)healthState.source=swResult.value.source;}
-    healthState.lastChecked=new Date().toISOString();
-  }catch(err){healthState.error=err?.message||String(err);healthState.lastChecked=new Date().toISOString();}
-  finally{healthState.checking=false;renderBuildHealth();}
-}
-async function hardenWorkerRegistration(){
-  if(!('serviceWorker' in navigator)||!location.protocol.startsWith('http'))return;
-  try{
-    const reg=await navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'});healthState.registration=true;healthState.controller=!!navigator.serviceWorker.controller;await reg.update().catch(()=>{});
-    navigator.serviceWorker.addEventListener('controllerchange',()=>{healthState.controller=true;renderBuildHealth();if(!sessionStorage.getItem('ahsm-controller-refresh')){sessionStorage.setItem('ahsm-controller-refresh','1');location.reload();}});
-  }catch{}
-}
-function watchHealthPanel(){
-  const attach=()=>{const button=document.querySelector('#data-health');if(button&&!button.dataset.buildHealthBound){button.dataset.buildHealthBound='1';button.addEventListener('click',()=>setTimeout(()=>{renderBuildHealth();checkBuildHealth(false);},0));}if(document.querySelector('#data-health-panel'))renderBuildHealth();};
-  attach();new MutationObserver(attach).observe(document.body,{childList:true,subtree:true});
-}
-function bootBuildHealth(){
-  injectBuildHealthStyle();watchHealthPanel();hardenWorkerRegistration();checkBuildHealth(false);
-  window.addEventListener('online',()=>{healthState.online=true;checkBuildHealth(true);});window.addEventListener('offline',()=>{healthState.online=false;renderBuildHealth();});
-}
+function currentStatus(){const displayed=healthState.displayedVersion||document.querySelector('#version')?.textContent?.trim()||'unknown';const deployed=healthState.deployedVersion;if(!navigator.onLine||healthState.source==='offline-cache')return {label:'OFFLINE FALLBACK',cls:'health-warn',detail:'Serving cached assets because the network could not be reached.'};if(deployed&&displayed!==deployed)return {label:'UPDATE AVAILABLE',cls:'health-warn',detail:`This page is ${displayed}; the deployed build is ${deployed}. Reload to update.`};if(deployed&&displayed===deployed)return {label:'CURRENT',cls:'health-current',detail:'Displayed build matches the network-verified deployment.'};if(healthState.error)return {label:'VERIFY FAILED',cls:'health-bad',detail:'The current deployment could not be verified.'};return {label:'CHECKING',cls:'',detail:'Checking deployment state.'};}
+function ensureHealthSection(){const panel=document.querySelector('#data-health-panel');if(!panel)return null;let host=panel.querySelector('#build-health-section');if(!host){host=document.createElement('section');host.id='build-health-section';host.className='build-health';panel.append(host);}return host;}
+function renderBuildHealth(){const host=ensureHealthSection();if(!host)return;healthState.displayedVersion=document.querySelector('#version')?.textContent?.trim()||healthState.displayedVersion||'unknown';const s=currentStatus();host.innerHTML=`<div class="build-health-head"><h3>Build Health / Update Status</h3><strong class="${s.cls}">${s.label}</strong></div><dl><dt>Displayed build</dt><dd>${healthState.displayedVersion||'unknown'}</dd><dt>Deployed build</dt><dd>${healthState.deployedVersion||'checking...'}</dd><dt>Service-worker cache</dt><dd>${healthState.cacheVersion||'checking...'}</dd><dt>Worker control</dt><dd>${healthState.controller?'active':'not controlling this page'}</dd><dt>Connectivity</dt><dd>${navigator.onLine?'online':'offline'}</dd><dt>Verification source</dt><dd>${sourceLabel(healthState.source)}</dd><dt>Last checked</dt><dd>${healthState.lastChecked?new Date(healthState.lastChecked).toLocaleString():'not yet'}</dd></dl><p class="micro">${s.detail}</p><div class="build-health-actions"><button id="build-health-check" class="button ghost" type="button">Check for updates</button>${s.label==='UPDATE AVAILABLE'?'<button id="build-health-reload" class="button" type="button">Reload current build</button>':''}</div>`;host.querySelector('#build-health-check')?.addEventListener('click',()=>checkBuildHealth(true),{once:true});host.querySelector('#build-health-reload')?.addEventListener('click',()=>location.reload(),{once:true});}
+async function fetchDiagnostic(url){const res=await fetch(`${url}${url.includes('?')?'&':'?'}ahsm_health=${Date.now()}`,{cache:'no-store'});if(!res.ok)throw new Error(`${url} returned ${res.status}`);return {text:await res.text(),source:res.headers.get('X-AHSM-Source')||'network'};}
+async function checkBuildHealth(forceWorkerUpdate=false){if(healthState.checking)return;healthState.checking=true;healthState.error=null;renderBuildHealth();try{if('serviceWorker' in navigator){const reg=await navigator.serviceWorker.getRegistration();healthState.registration=!!reg;healthState.controller=!!navigator.serviceWorker.controller;if(forceWorkerUpdate&&reg)await reg.update().catch(()=>{});}const [configResult,swResult]=await Promise.allSettled([fetchDiagnostic('./js/config.js'),fetchDiagnostic('./sw.js')]);if(configResult.status==='fulfilled'){healthState.deployedVersion=extractVersion(configResult.value.text);healthState.source=configResult.value.source;}else healthState.error=configResult.reason?.message||'config verification failed';if(swResult.status==='fulfilled'){healthState.cacheVersion=extractCache(swResult.value.text)||'unreported';if(!healthState.source)healthState.source=swResult.value.source;}healthState.lastChecked=new Date().toISOString();}catch(err){healthState.error=err?.message||String(err);healthState.lastChecked=new Date().toISOString();}finally{healthState.checking=false;renderBuildHealth();}}
+async function hardenWorkerRegistration(){if(!('serviceWorker' in navigator)||!location.protocol.startsWith('http'))return;try{const reg=await navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'});healthState.registration=true;healthState.controller=!!navigator.serviceWorker.controller;await reg.update().catch(()=>{});navigator.serviceWorker.addEventListener('controllerchange',()=>{healthState.controller=true;renderBuildHealth();if(!sessionStorage.getItem('ahsm-controller-refresh')){sessionStorage.setItem('ahsm-controller-refresh','1');location.reload();}});}catch{}}
+function bindHealthButton(){const button=document.querySelector('#data-health');const panel=document.querySelector('#data-health-panel');if(!button||!panel)return false;if(!button.dataset.buildHealthBound){button.dataset.buildHealthBound='1';button.addEventListener('click',()=>setTimeout(()=>{renderBuildHealth();checkBuildHealth(false);},0));}renderBuildHealth();return true;}
+function watchHealthPanel(){if(bindHealthButton())return;healthPanelObserver=new MutationObserver(()=>{if(bindHealthButton()&&healthPanelObserver){healthPanelObserver.disconnect();healthPanelObserver=null;}});healthPanelObserver.observe(document.body,{childList:true,subtree:true});setTimeout(()=>{if(healthPanelObserver){healthPanelObserver.disconnect();healthPanelObserver=null;}bindHealthButton();},10000);}
+function bootBuildHealth(){injectBuildHealthStyle();watchHealthPanel();hardenWorkerRegistration();setTimeout(()=>checkBuildHealth(false),250);window.addEventListener('online',()=>{healthState.online=true;checkBuildHealth(true);});window.addEventListener('offline',()=>{healthState.online=false;renderBuildHealth();});}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',bootBuildHealth,{once:true});else bootBuildHealth();
