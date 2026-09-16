@@ -14,6 +14,20 @@ test('core monitor loads and country workspace opens', async ({page}) => {
   await expect(page.locator('#country-workspace .v03-analytics')).toBeVisible();
 });
 
+test('regional monitor and network explorer are operational', async ({page}) => {
+  await page.goto('/');
+  await page.locator('[data-view="regions"]').click();
+  await expect(page.locator('#view-regions')).toBeVisible();
+  await expect(page.locator('#region-select option')).not.toHaveCount(0);
+  await expect(page.locator('.region-card').first()).toBeVisible();
+  await page.locator('[data-view="network"]').click();
+  await expect(page.locator('#view-network')).toBeVisible();
+  await expect(page.locator('#network-svg')).toBeVisible();
+  await expect(page.locator('#network-stats')).not.toBeEmpty();
+  await expect(page.locator('#network-wordcloud')).not.toBeEmpty();
+  await expect(page.locator('#rw-ticker-track')).not.toBeEmpty();
+});
+
 test('source register and disaster explorer are operational', async ({page}) => {
   await page.goto('/');
   await expect(page.locator('[data-view="sources"]')).toBeVisible();
