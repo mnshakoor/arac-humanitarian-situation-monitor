@@ -58,3 +58,16 @@ test('network intelligence and fullscreen controls are available', async ({page}
   await page.locator('#network-metric').selectOption('betweenness');
   await expect(page.locator('#centrality-heading')).toContainText('Betweenness');
 });
+
+test('temporal network intelligence compares equivalent windows', async ({page}) => {
+  await page.goto('/');
+  await page.locator('[data-view="network"]').click();
+  await expect(page.locator('#temporal-intelligence')).toBeVisible();
+  await expect(page.locator('#temporal-kpis article')).toHaveCount(6);
+  await expect(page.locator('#temporal-period')).not.toHaveText('');
+  await expect(page.locator('#temporal-summary-svg')).toBeVisible();
+  await page.locator('#temporal-window').selectOption('30d');
+  await expect(page.locator('#temporal-period')).not.toHaveText('');
+  await expect(page.locator('#temporal-emerging')).toBeVisible();
+  await expect(page.locator('#temporal-disappearing')).toBeVisible();
+});
