@@ -6,15 +6,19 @@ const base = 'https://api.reliefweb.int/v2';
 const PROFILE_LIMIT = 16;
 const PROFILE_BATCH_SIZE = 4;
 
-async function post(endpoint, body, timeoutMs = 20000) {
-  const res = await fetch(`${base}/${endpoint}?appname=${encodeURIComponent(appname)}`, {
-    method:'POST',
-    headers:{'content-type':'application/json','accept':'application/json'},
-    body:JSON.stringify(body),
-    signal:AbortSignal.timeout(timeoutMs)
-  });
-  if (!res.ok) throw new Error(`${endpoint} request failed: ${res.status} ${await res.text()}`);
-  return res.json();
+async function post(endpoint, body, timeoutMs = 45000) {
+  try {
+    const res = await fetch(`${base}/${endpoint}?appname=${encodeURIComponent(appname)}`, {
+      method:'POST',
+      headers:{'content-type':'application/json','accept':'application/json'},
+      body:JSON.stringify(body),
+      signal:AbortSignal.timeout(timeoutMs)
+    });
+    if (!res.ok) throw new Error(`${res.status} ${await res.text()}`);
+    return res.json();
+  } catch (error) {
+    throw new Error(`${endpoint} request failed: ${error.message}`);
+  }
 }
 
 const now = new Date();
@@ -52,16 +56,12 @@ const current7Body={...globalBody,limit:0,filter:{operator:'AND',conditions:[{fi
 const previous7Body={...globalBody,limit:0,filter:{operator:'AND',conditions:[{field:'status',value:'published'},{field:'date.original',value:{from:reliefWebIso(daysAgo(14)),to:reliefWebIso(daysAgo(7))}}]},facets:[{name:'countries',field:'primary_country.iso3',limit:250,sort:'count:desc'}]};
 const disasterBody={limit:150,filter:{field:'status',value:['ongoing','alert'],operator:'OR'},fields:{include:['name','date.event','status','glide','country','primary_country','primary_type','type','url']}};
 
-const [global,current7,previous7,disasters,catalogResponse]=await Promise.all([
-  post('reports',globalBody),post('reports',current7Body),post('reports',previous7Body),post('disasters',disasterBody),post('countries',{limit:300})
+const [global,current7,previous7,disasters]=await Promise.all([
+  post('reports',globalBody),
+  post('reports',current7Body),
+  post('reports',previous7Body),
+  post('disasters',disasterBody)
 ]);
-
-const countryCatalog=new Map();
-for (const item of catalogResponse.data || []) {
-  const f=item.fields || {};
-  if (!f.iso3) continue;
-  countryCatalog.set(String(f.iso3).toLowerCase(),{id:item.id,name:f.name||f.shortname||String(f.iso3).toUpperCase(),shortname:f.shortname||f.name,iso3:String(f.iso3).toLowerCase(),overview:f.profile?.overview||'',url:f.url||item.href||''});
-}
 
 function normalizeReport(item) {
   const f=item.fields || {};
@@ -74,18 +74,25 @@ const normalizedDisasters=(disasters.data||[]).map(d=>{
   const f=d.fields||{};
   return {id:d.id,name:f.name,status:f.status,glide:f.glide,dateEvent:f.date?.event,url:f.url||d.href,primaryCountry:f.primary_country?.name||'',primaryCountryIso3:String(f.primary_country?.iso3||'').toLowerCase(),location:f.primary_country?.location||null,primaryType:f.primary_type?.name||'',types:(f.type||[]).map(x=>x.name)};
 });
+
+const nameMap=new Map();
 const locationMap=new Map();
-for (const r of reports) if (r.primaryCountryIso3&&r.primaryCountryLocation) locationMap.set(r.primaryCountryIso3,r.primaryCountryLocation);
-for (const d of normalizedDisasters) if (d.primaryCountryIso3&&d.location) locationMap.set(d.primaryCountryIso3,d.location);
+for (const r of reports) {
+  if (r.primaryCountryIso3 && r.primaryCountry) nameMap.set(r.primaryCountryIso3,r.primaryCountry);
+  if (r.primaryCountryIso3 && r.primaryCountryLocation) locationMap.set(r.primaryCountryIso3,r.primaryCountryLocation);
+}
+for (const d of normalizedDisasters) {
+  if (d.primaryCountryIso3 && d.primaryCountry) nameMap.set(d.primaryCountryIso3,d.primaryCountry);
+  if (d.primaryCountryIso3 && d.location) locationMap.set(d.primaryCountryIso3,d.location);
+}
 
 const m7=countByValue(facetMap(current7,'countries'));
 const mp7=countByValue(facetMap(previous7,'countries'));
 const countries=facetMap(global,'countries').map(x=>{
   const iso3=String(facetValue(x)).toLowerCase();
-  const meta=countryCatalog.get(iso3)||{};
   const reports30d=facetCount(x),reports7d=m7.get(iso3)||0,previous7d=mp7.get(iso3)||0;
   const change7d=previous7d>0?((reports7d-previous7d)/previous7d)*100:null;
-  return {name:meta.name||iso3.toUpperCase(),shortname:meta.shortname||meta.name||iso3.toUpperCase(),iso3,location:locationMap.get(iso3)||null,overview:meta.overview||'',countryUrl:meta.url||'',reports30d,reports7d,previous7d,change7d,uniqueSources:0,themeBreadth:0,formatBreadth:0,topThemes:[],topSources:[],topFormats:[],disasterTypes:[],timeline:[],recentReports:[],enrichmentStatus:'not-profiled'};
+  return {name:nameMap.get(iso3)||iso3.toUpperCase(),shortname:nameMap.get(iso3)||iso3.toUpperCase(),iso3,location:locationMap.get(iso3)||null,overview:'',countryUrl:'',reports30d,reports7d,previous7d,change7d,uniqueSources:0,themeBreadth:0,formatBreadth:0,topThemes:[],topSources:[],topFormats:[],disasterTypes:[],timeline:[],recentReports:[],enrichmentStatus:'not-profiled'};
 });
 
 function countryProfileBody(c) {
@@ -105,8 +112,12 @@ async function enrichCountry(c) {
     c.topFormats=normalizeFacet(facetMap(response,'formats'));
     c.disasterTypes=normalizeFacet(facetMap(response,'disasterTypes'));
     c.timeline=facetMap(response,'timeline').map(x=>({date:facetValue(x),count:facetCount(x)}));
-    c.uniqueSources=c.topSources.length;c.themeBreadth=c.topThemes.length;c.formatBreadth=c.topFormats.length;
+    c.uniqueSources=c.topSources.length;
+    c.themeBreadth=c.topThemes.length;
+    c.formatBreadth=c.topFormats.length;
     c.recentReports=(response.data||[]).map(normalizeReport);
+    const exemplar=c.recentReports.find(r=>r.primaryCountry);
+    if (exemplar?.primaryCountry) { c.name=exemplar.primaryCountry; c.shortname=exemplar.primaryCountry; }
     if (!c.location) { const loc=c.recentReports.find(r=>r.primaryCountryLocation)?.primaryCountryLocation; if (loc) c.location=loc; }
     c.enrichmentStatus='complete';
     return true;
@@ -131,7 +142,7 @@ const snapshot={
   timeline:facetMap(global,'timeline').map(x=>({date:facetValue(x),count:facetCount(x)})),
   globalThemes:normalizeFacet(facetMap(global,'themes')),globalSources:normalizeFacet(facetMap(global,'sources')),globalFormats:normalizeFacet(facetMap(global,'formats')),
   countries,reports,disasters:normalizedDisasters,
-  provenance:{provider:'ReliefWeb API V2',appname,queryGeneratedAt:now.toISOString(),dateBasis:'date.original',status:'published',countryCounting:'primary_country.iso3',countryProfileLimit:PROFILE_LIMIT,profileBatchSize:PROFILE_BATCH_SIZE,coordinateSource:'Embedded ReliefWeb primary_country.location where available',analyticalBoundary:'Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.'}
+  provenance:{provider:'ReliefWeb API V2',appname,queryGeneratedAt:now.toISOString(),dateBasis:'date.original',status:'published',countryCounting:'primary_country.iso3',countryProfileLimit:PROFILE_LIMIT,profileBatchSize:PROFILE_BATCH_SIZE,coordinateSource:'Embedded ReliefWeb primary_country.location where available',countryNameSource:'Embedded ReliefWeb primary_country names; ISO3 fallback where not present in the synchronized report/disaster set',analyticalBoundary:'Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.'}
 };
 
 await fs.mkdir('data',{recursive:true});
