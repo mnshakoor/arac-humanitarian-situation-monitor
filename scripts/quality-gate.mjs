@@ -21,7 +21,7 @@ if(/new MutationObserver\(attach\)/.test(v081))throw new Error('Recursive Build 
 const v083=fs.readFileSync('js/v083.js','utf8');
 for(const marker of ["import './v09.js'",'network-analysis-flow','graph-first','temporal-intelligence','temporal-investigation','investigation-tray','nth-child(2){order:1'])if(!v083.includes(marker))throw new Error(`Network Explorer layout layer missing ${marker}`);
 const v09=fs.readFileSync('js/v09.js','utf8');
-for(const marker of ['Release Candidate Runtime','PerformanceObserver','longtask','visibilitychange','ahsm-background','__AHSM_RC_HEALTH__','observer.disconnect'])if(!v09.includes(marker))throw new Error(`RC1 reliability layer missing ${marker}`);
+for(const marker of ['Release Candidate Runtime','PerformanceObserver','longtask','visibilitychange','ahsm-background','__AHSM_RC_HEALTH__','observer?.disconnect'])if(!v09.includes(marker))throw new Error(`RC1 reliability layer missing ${marker}`);
 if(/new MutationObserver\([^)]*renderRcHealth/.test(v09))throw new Error('RC1 runtime observer must not recursively render diagnostics');
 const v091=fs.readFileSync('js/v091.js','utf8');
 for(const marker of ['PARTIAL','progressive-controls','Related reports (0 in snapshot)','methodology-public-grid','rc-mobile-collapsed','primary_country.iso3'])if(!v091.includes(marker))throw new Error(`RC1 field-test refinement layer missing ${marker}`);
