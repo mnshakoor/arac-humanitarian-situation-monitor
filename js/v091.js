@@ -13,6 +13,8 @@ function injectStyles(){
     .provenance-list{display:grid!important;grid-template-columns:minmax(120px,.8fr) minmax(0,1.2fr)!important;gap:8px 14px!important}.provenance-list dt{color:var(--muted)}.provenance-list dd{margin:0!important;overflow-wrap:anywhere!important;word-break:normal!important}
     .rc-mobile-toggle{display:none;margin:10px 0 0}
     .disaster-card .disaster-snapshot-note{display:block;margin-top:4px;color:var(--muted);font-size:12px}
+    #view-network .network-shell{align-items:start}
+    @media(min-width:1181px){#view-network .network-column.analysis{max-height:650px;overflow:auto}}
     @media(max-width:820px){
       .rc-mobile-toggle{display:inline-flex}
       #temporal-intelligence.rc-mobile-collapsed>:not(.temporal-head):not(.rc-mobile-toggle),#temporal-investigation.rc-mobile-collapsed>:not(.panel-head):not(.rc-mobile-toggle){display:none!important}
@@ -27,8 +29,8 @@ function deriveHealth(snapshot){
   const fresh=snapshot?.syncHealth?.componentFresh||{};
   const secondary=['latestReports','momentum','disasters'];
   const secondaryOld=secondary.filter(k=>fresh[k]===false);
-  if(snapshot?.stale||!Number.isFinite(age)||age>30)return{label:'STALE',level:'bad',note:'The aggregate snapshot is older than the operational freshness window. AHSM is serving the last known-good dataset.'};
-  if(fresh.aggregate===false)return{label:'DEGRADED',level:'bad',note:'The current global aggregate was unavailable. AHSM is preserving the last known-good aggregate and component data.'};
+  if(!Number.isFinite(age)||age>30)return{label:'STALE',level:'bad',note:'The retained aggregate snapshot is older than the operational freshness window. AHSM is serving the last known-good dataset.'};
+  if(fresh.aggregate===false)return{label:'DEGRADED',level:'bad',note:`The latest global aggregate request was unavailable. AHSM is preserving a ${age.toFixed(1)}-hour-old last-known-good aggregate while newer component data are retained where available.`};
   if(secondaryOld.length)return{label:'PARTIAL',level:'warn',note:`The global aggregate is fresh. ${secondaryOld.length} secondary component${secondaryOld.length===1?' is':'s are'} using last-known-good data: ${secondaryOld.join(', ')}.`};
   if(age>6)return{label:'PARTIAL',level:'warn',note:'The snapshot is usable but is older than the preferred six-hour freshness window.'};
   return{label:'LIVE',level:'good',note:'All synchronized components are current within the operational freshness window.'};
@@ -87,7 +89,7 @@ function enhanceMethodology(){
   const prov=RC1_PATCH.snapshot.provenance||{};
   const grid=document.createElement('div');grid.className='methodology-public-grid';grid.innerHTML=`
     <article><h3>Data source & scope</h3><p>Provider: ${esc(prov.provider||'ReliefWeb API V2')}. Public analytical views use synchronized published ReliefWeb records and preserve component freshness separately.</p></article>
-    <article><h3>Freshness model</h3><p><strong>LIVE</strong> means current core components. <strong>PARTIAL</strong> means the aggregate is current while one or more secondary components use last-known-good data. <strong>DEGRADED</strong> means the aggregate itself fell back. <strong>STALE</strong> means the operational freshness window has been exceeded.</p></article>
+    <article><h3>Freshness model</h3><p><strong>LIVE</strong> means current core components. <strong>PARTIAL</strong> means the aggregate is current while one or more secondary components use last-known-good data. <strong>DEGRADED</strong> means the latest aggregate request failed but a still-current last-known-good aggregate is retained. <strong>STALE</strong> means the retained aggregate has exceeded the operational freshness window.</p></article>
     <article><h3>Interpretation boundary</h3><p>Report volume, HISI, regional roll-ups, source ecology and network measures describe the humanitarian information environment. They do not independently determine humanitarian severity, causality, source independence or organizational influence.</p></article>
     <article><h3>Network methods</h3><p>Network links represent co-occurrence among reports, countries, sources and themes in the synchronized corpus. Temporal comparisons use equivalent current and prior windows; centrality and community measures describe position inside that information network.</p></article>
     <article><h3>Regional aggregation</h3><p>Regional views roll up the same country-level signals used elsewhere in AHSM. Sparse enrichment can reduce available theme or source detail for low-volume countries and regions.</p></article>
