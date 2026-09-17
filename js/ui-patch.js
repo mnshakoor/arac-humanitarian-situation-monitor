@@ -9,6 +9,7 @@ import './v08-style.js';
 import './v08.js';
 import './v081.js';
 import './v083.js';
+import './v091.js';
 
 const ISO_NAMES={wld:'World',npl:'Nepal',sdn:'Sudan',pse:'State of Palestine',ukr:'Ukraine',lbn:'Lebanon',pak:'Pakistan',uga:'Uganda',idn:'Indonesia',caf:'Central African Republic',ner:'Niger',tur:'Türkiye',mli:'Mali',bfa:'Burkina Faso',ita:'Italy',mrt:'Mauritania',vut:'Vanuatu',rou:'Romania',tza:'United Republic of Tanzania',bra:'Brazil',dji:'Djibouti',egy:'Egypt',jor:'Jordan',sen:'Senegal',slv:'El Salvador',alb:'Albania',bih:'Bosnia and Herzegovina',irn:'Iran (Islamic Republic of)',irq:'Iraq',mda:'Republic of Moldova',ben:'Benin',gmb:'Gambia',kaz:'Kazakhstan',pol:'Poland',tgo:'Togo',vnm:'Viet Nam',fji:'Fiji',lso:'Lesotho',png:'Papua New Guinea',blz:'Belize',brb:'Barbados',btn:'Bhutan',chl:'Chile',esp:'Spain',jpn:'Japan',khm:'Cambodia',rwa:'Rwanda',tha:'Thailand',tls:'Timor-Leste',aus:'Australia',aut:'Austria',aze:'Azerbaijan',can:'Canada',chn:'China',com:'Comoros',cri:'Costa Rica',cyp:'Cyprus',gin:'Guinea',grc:'Greece',guy:'Guyana',hrv:'Croatia',kir:'Kiribati',kor:'Republic of Korea',lby:'Libya',mex:'Mexico',mys:'Malaysia',pri:'Puerto Rico',prk:"Democratic People's Republic of Korea",qat:'Qatar',sau:'Saudi Arabia',svn:'Slovenia',swz:'Eswatini',tun:'Tunisia',wsm:'Samoa'};
 
