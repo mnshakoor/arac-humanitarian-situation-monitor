@@ -1,14 +1,16 @@
 import fs from 'node:fs';
 
-const required=['index.html','manifest.webmanifest','sw.js','css/app.css','css/ui-patch.css','css/v04.css','css/v05.css','css/v06.css','css/v07.css','css/v08.css','js/app.js','js/ui-patch.js','js/v03.js','js/v04.js','js/v05.js','js/v06.js','js/v07.js','js/v07-style.js','js/v08.js','js/v08-style.js','js/v081.js','js/v083.js','js/v09.js','js/v091.js','js/v092.js','js/region-map.js','js/config.js','data/snapshot.json'];
+const required=['index.html','manifest.webmanifest','favicon.png','favicon.ico','robots.txt','sitemap.xml','CHANGELOG.md','docs/USER-GUIDE.md','docs/OPERATIONS-GUIDE.md','sw.js','css/app.css','css/ui-patch.css','css/v04.css','css/v05.css','css/v06.css','css/v07.css','css/v08.css','js/app.js','js/ui-patch.js','js/v03.js','js/v04.js','js/v05.js','js/v06.js','js/v07.js','js/v07-style.js','js/v08.js','js/v08-style.js','js/v081.js','js/v083.js','js/v09.js','js/v091.js','js/v092.js','js/region-map.js','js/config.js','data/snapshot.json'];
 for(const file of required){if(!fs.existsSync(file))throw new Error(`Missing required asset: ${file}`);}
 const html=fs.readFileSync('index.html','utf8');
 for(const marker of ['id="main-content"','manifest.webmanifest','css/v04.css','css/v05.css','css/v06.css','aria-label="Primary navigation"','data-view="network"','id="network-svg"'])if(!html.includes(marker))throw new Error(`index.html missing ${marker}`);
+const manifest=JSON.parse(fs.readFileSync('manifest.webmanifest','utf8'));
+if(!Array.isArray(manifest.icons)||!manifest.icons.some(x=>x.src==='./favicon.png'))throw new Error('Manifest favicon entry missing');
 const ui=fs.readFileSync('js/ui-patch.js','utf8');
 for(const layer of ["import './v04.js'","import './v05.js'","import './v06.js'","import './v07.js'","import './v08.js'","import './v081.js'","import './v083.js'","import './v091.js'","import './v092.js'","import './v07-style.js'","import './v08-style.js'","import './region-map.js'"])if(!ui.includes(layer))throw new Error(`UI layer missing ${layer}`);
 const config=fs.readFileSync('js/config.js','utf8');
-if(!config.includes("0.9.0-rc1.1"))throw new Error('Build version is not v0.9.0-rc1.1');
-const pkg=JSON.parse(fs.readFileSync('package.json','utf8'));if(pkg.version!=='0.9.0-rc1.1')throw new Error('package.json version does not match RC1.1');
+if(!config.includes("0.9.0-rc2"))throw new Error('Build version is not v0.9.0-rc2');
+const pkg=JSON.parse(fs.readFileSync('package.json','utf8'));if(pkg.version!=='0.9.0-rc2')throw new Error('package.json version does not match RC2');
 const v06=fs.readFileSync('js/v06.js','utf8');
 for(const marker of ['betweenness','labelCommunities','network-fullscreen','network-pinboard','network-centrality'])if(!v06.includes(marker))throw new Error(`Network intelligence layer missing ${marker}`);
 const v07=fs.readFileSync('js/v07.js','utf8');
@@ -31,11 +33,13 @@ const sync=fs.readFileSync('scripts/sync-reliefweb.mjs','utf8');
 for(const marker of ['delete previousProvenance.appname','aggregateStale','RELIEFWEB STALE / LAST-KNOWN-GOOD'])if(!sync.includes(marker))throw new Error(`ReliefWeb sync hardening missing ${marker}`);
 if(/provenance:\{[^}]*appname/s.test(sync))throw new Error('ReliefWeb application identifier must not be written into public snapshot provenance');
 const sw=fs.readFileSync('sw.js','utf8');
-for(const marker of ['ahsm-shell-v090-rc1-1-r1','X-AHSM-Source','offline-cache','ignoreSearch:true','./js/v081.js','./js/v083.js','./js/v09.js','./js/v091.js','./js/v092.js'])if(!sw.includes(marker))throw new Error(`Service-worker RC1.1 diagnostics missing ${marker}`);
+for(const marker of ['ahsm-shell-v090-rc2-r1','X-AHSM-Source','offline-cache','ignoreSearch:true','./favicon.png','./favicon.ico','./js/v081.js','./js/v083.js','./js/v09.js','./js/v091.js','./js/v092.js'])if(!sw.includes(marker))throw new Error(`Service-worker RC2 diagnostics missing ${marker}`);
+const robots=fs.readFileSync('robots.txt','utf8');if(!robots.includes('sitemap.xml'))throw new Error('robots.txt sitemap reference missing');
+const sitemap=fs.readFileSync('sitemap.xml','utf8');if(!sitemap.includes('arac-humanitarian-situation-monitor'))throw new Error('sitemap deployment URL missing');
 const snapshot=JSON.parse(fs.readFileSync('data/snapshot.json','utf8'));
 if(!snapshot.generatedAt||!snapshot.summary||!Array.isArray(snapshot.countries)||!Array.isArray(snapshot.reports)||!Array.isArray(snapshot.disasters))throw new Error('Snapshot schema missing required operational fields');
 if(!snapshot.provenance?.provider)throw new Error('Snapshot provenance provider missing');
 const badCountries=snapshot.countries.filter(c=>!c.iso3||typeof c.reports30d!=='number');
 if(badCountries.length)throw new Error(`${badCountries.length} country records failed minimum schema validation`);
 const health=snapshot.syncHealth?.componentFresh||{};for(const key of ['aggregate','latestReports','momentum','disasters'])if(!(key in health))throw new Error(`Snapshot syncHealth missing ${key}`);
-console.log(`AHSM v0.9.0-rc1.1 quality gate passed: ${snapshot.countries.length} countries, ${snapshot.reports.length} core reports, ${snapshot.disasters.length} disaster contexts.`);
+console.log(`AHSM v0.9.0-rc2 quality gate passed: ${snapshot.countries.length} countries, ${snapshot.reports.length} core reports, ${snapshot.disasters.length} disaster contexts.`);
