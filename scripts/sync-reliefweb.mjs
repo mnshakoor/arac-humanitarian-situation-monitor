@@ -22,6 +22,8 @@ const daysAgo = n => new Date(now.getTime() - n * 86400000);
 let previousSnapshot = null;
 try { previousSnapshot = JSON.parse(await fs.readFile('data/snapshot.json','utf8')); } catch { previousSnapshot = null; }
 const previousCountryByIso = new Map((previousSnapshot?.countries || []).map(c => [String(c.iso3 || '').toLowerCase(), c]));
+const previousProvenance = {...(previousSnapshot?.provenance || {})};
+delete previousProvenance.appname;
 
 function facetRoot(obj) { return obj?.embedded?.facets || obj?._embedded?.facets || obj?.facets || {}; }
 function facetMap(obj,name) {
@@ -140,14 +142,17 @@ if (aggregateFresh) {
 const profiledCountries=countries.filter(c=>c.enrichmentStatus==='complete'||c.topThemes?.length||c.topSources?.length).length;
 const componentFresh={aggregate:aggregateFresh,latestReports:latestFresh,momentum:momentumFresh,disasters:disastersFresh};
 const degraded=Object.values(componentFresh).some(v=>!v);
+const retainedGeneratedAt=aggregateFresh?now.toISOString():(previousSnapshot?.generatedAt||now.toISOString());
+const retainedAgeHours=Math.max(0,(now-new Date(retainedGeneratedAt))/36e5);
+const aggregateStale=!aggregateFresh&&(!Number.isFinite(retainedAgeHours)||retainedAgeHours>30);
 
 const snapshot={
   schema:'arac.ahsm.snapshot.v2',
-  generatedAt:aggregateFresh?now.toISOString():(previousSnapshot?.generatedAt||now.toISOString()),
+  generatedAt:retainedGeneratedAt,
   lastSyncAttemptAt:now.toISOString(),
   enrichedAt:previousSnapshot?.enrichedAt||null,
-  status:degraded?'RELIEFWEB PARTIAL / LAST-KNOWN-GOOD':'RELIEFWEB LIVE SNAPSHOT',
-  stale:!aggregateFresh,
+  status:aggregateStale?'RELIEFWEB STALE / LAST-KNOWN-GOOD':degraded?'RELIEFWEB PARTIAL / LAST-KNOWN-GOOD':'RELIEFWEB LIVE SNAPSHOT',
+  stale:aggregateStale,
   syncHealth:{state:degraded?'degraded':'healthy',componentFresh,errors:{aggregate:reason(aggregateResult),latestReports:reason(latestResult),current7:reason(current7Result),previous7:reason(previous7Result),disasters:reason(disastersResult)}},
   summary:{
     reports30d:aggregateFresh?(aggregate.totalCount??aggregate.total_count??0):(previousSnapshot?.summary?.reports30d??0),
@@ -161,11 +166,11 @@ const snapshot={
   globalSources:aggregateFresh?normalizeFacet(facetMap(aggregate,'sources')):(previousSnapshot?.globalSources||[]),
   globalFormats:aggregateFresh?normalizeFacet(facetMap(aggregate,'formats')):(previousSnapshot?.globalFormats||[]),
   countries,reports,disasters:normalizedDisasters,
-  provenance:{...(previousSnapshot?.provenance||{}),provider:'ReliefWeb API V2',appname,queryGeneratedAt:now.toISOString(),dateBasis:'date.original',status:'published',countryCounting:'primary_country.iso3',aggregateStrategy:'Component-resilient hourly snapshot with separate daily country enrichment',momentumStatus:momentumFresh?'fresh':'last-known-good',coordinateSource:'Embedded ReliefWeb primary_country.location where available',countryNameSource:'Embedded ReliefWeb primary_country names; ISO3 fallback where unavailable',reportThumbnailSource:'ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI',analyticalBoundary:'Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.'}
+  provenance:{...previousProvenance,provider:'ReliefWeb API V2',queryGeneratedAt:now.toISOString(),dateBasis:'date.original',status:'published',countryCounting:'primary_country.iso3',aggregateStrategy:'Component-resilient hourly snapshot with separate daily country enrichment',momentumStatus:momentumFresh?'fresh':'last-known-good',coordinateSource:'Embedded ReliefWeb primary_country.location where available',countryNameSource:'Embedded ReliefWeb primary_country names; ISO3 fallback where unavailable',reportThumbnailSource:'ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI',analyticalBoundary:'Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.'}
 };
 
 await fs.mkdir('data',{recursive:true});
 const target='data/snapshot.json',tmp='data/snapshot.next.json';
 await fs.writeFile(tmp,JSON.stringify(snapshot,null,2));
 await fs.rename(tmp,target);
-console.log(`Wrote ${target}: state=${snapshot.syncHealth.state}, ${snapshot.summary.reports30d} reports, ${snapshot.summary.countries} countries, ${snapshot.summary.activeDisasters} active/alert disasters.`);
+console.log(`Wrote ${target}: state=${snapshot.syncHealth.state}, stale=${snapshot.stale}, ${snapshot.summary.reports30d} reports, ${snapshot.summary.countries} countries, ${snapshot.summary.activeDisasters} active/alert disasters.`);
