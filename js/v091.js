@@ -1,8 +1,9 @@
-const RC1_PATCH={snapshot:null,reportObserver:null,disasterObserver:null};
+const RC1_PATCH={snapshot:null,reportObserver:null,disasterObserver:null,viewportBound:false,viewportTimer:null};
 const $=(s,r=document)=>r.querySelector(s);
 const $$=(s,r=document)=>[...r.querySelectorAll(s)];
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 const fmtDate=value=>{if(!value)return'unknown';const d=new Date(value);return Number.isNaN(d.getTime())?String(value):new Intl.DateTimeFormat(undefined,{year:'numeric',month:'short',day:'numeric'}).format(d);};
+const responsivePageSize=()=>matchMedia('(max-width: 820px) and (orientation: portrait)').matches||innerWidth<=700?15:25;
 
 function injectStyles(){
   if($('#ahsm-rc1-field-style'))return;
@@ -14,7 +15,6 @@ function injectStyles(){
     .rc-mobile-toggle{display:none;margin:10px 0 0}
     .disaster-card .disaster-snapshot-note{display:block;margin-top:4px;color:var(--muted);font-size:12px}
     #view-network .network-shell{align-items:start}
-    @media(min-width:1181px){#view-network .network-column.analysis{max-height:650px;overflow:auto}}
     @media(max-width:820px){
       .rc-mobile-toggle{display:inline-flex}
       #temporal-intelligence.rc-mobile-collapsed>:not(.temporal-head):not(.rc-mobile-toggle),#temporal-investigation.rc-mobile-collapsed>:not(.panel-head):not(.rc-mobile-toggle){display:none!important}
@@ -44,7 +44,7 @@ function patchHealth(){
   return true;
 }
 
-function makePager(target,selector,key,pageSize=25){
+function makePager(target,selector,key,pageSize=responsivePageSize()){
   if(!target)return;
   let host=document.querySelector(`[data-pager-for="${key}"]`);
   if(!host){host=document.createElement('div');host.className='progressive-controls';host.dataset.pagerFor=key;target.parentElement?.insertBefore(host,target.nextSibling);}
@@ -58,9 +58,23 @@ function makePager(target,selector,key,pageSize=25){
   host.querySelector('[data-show-all]')?.addEventListener('click',()=>{target.dataset.visibleRows=String(items.length);items.forEach(x=>x.hidden=false);host.hidden=true;});
 }
 
+function resetProgressiveForViewport(){
+  const pageSize=responsivePageSize();
+  const table=$('#country-table-body');if(table)table.dataset.visibleRows=String(pageSize);
+  const reports=$('#reports-list');if(reports)reports.dataset.visibleRows=String(pageSize);
+  setupProgressiveRendering();
+}
+
 function setupProgressiveRendering(){
-  const table=$('#country-table-body');if(table){makePager(table,'tr','countries',25);}
-  const reports=$('#reports-list');if(reports){makePager(reports,'.report-card','reports',25);let timer=null;RC1_PATCH.reportObserver?.disconnect();RC1_PATCH.reportObserver=new MutationObserver(()=>{clearTimeout(timer);timer=setTimeout(()=>{reports.dataset.visibleRows='25';makePager(reports,'.report-card','reports',25);},40);});RC1_PATCH.reportObserver.observe(reports,{childList:true});}
+  const pageSize=responsivePageSize();
+  const table=$('#country-table-body');if(table){makePager(table,'tr','countries',pageSize);}
+  const reports=$('#reports-list');if(reports){makePager(reports,'.report-card','reports',pageSize);let timer=null;RC1_PATCH.reportObserver?.disconnect();RC1_PATCH.reportObserver=new MutationObserver(()=>{clearTimeout(timer);timer=setTimeout(()=>{const currentSize=responsivePageSize();reports.dataset.visibleRows=String(currentSize);makePager(reports,'.report-card','reports',currentSize);},40);});RC1_PATCH.reportObserver.observe(reports,{childList:true});}
+  if(!RC1_PATCH.viewportBound){
+    RC1_PATCH.viewportBound=true;
+    const onViewport=()=>{clearTimeout(RC1_PATCH.viewportTimer);RC1_PATCH.viewportTimer=setTimeout(resetProgressiveForViewport,140);};
+    window.addEventListener('resize',onViewport,{passive:true});
+    window.addEventListener('orientationchange',onViewport,{passive:true});
+  }
 }
 
 function patchDisasterCards(){
