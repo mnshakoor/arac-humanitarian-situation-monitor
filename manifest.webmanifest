@@ -8,5 +8,12 @@
   "background_color": "#07111d",
   "theme_color": "#07111d",
   "orientation": "any",
-  "icons": []
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
