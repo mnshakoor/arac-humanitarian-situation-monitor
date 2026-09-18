@@ -1,3 +1,10 @@
+## AI Quick Analysis preview
+
+- Added Country, Region, Crisis Pulse and Query Lab AI-generated analytical briefs.
+- Added Supabase Edge Function integration with evidence-bounded Gemini prompting and server-side usage controls.
+- Added on-screen analytical drawer, local Saved Analysis library, Markdown export and JSON export.
+- Preserved the AHSM analytical boundary that reporting activity and HISI do not independently measure humanitarian severity.
+
 # Changelog
 
 ## 0.9.0-rc2

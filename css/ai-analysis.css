@@ -1,0 +1,26 @@
+.ai-brief-trigger{white-space:nowrap}
+.ai-drawer{position:fixed;inset:0 0 0 auto;width:min(620px,100vw);height:100dvh;background:#07111d;border-left:1px solid rgba(212,164,62,.35);box-shadow:-18px 0 42px rgba(0,0,0,.45);z-index:1200;display:flex;flex-direction:column}
+.ai-drawer[hidden]{display:none}
+.ai-drawer-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;padding:20px;border-bottom:1px solid rgba(255,255,255,.1)}
+.ai-drawer-head h2{margin:.2rem 0 0;font-size:1.35rem}
+.ai-drawer-body{padding:20px;overflow:auto;flex:1}
+.ai-drawer-actions{display:flex;gap:8px;flex-wrap:wrap;padding:14px 20px;border-top:1px solid rgba(255,255,255,.1)}
+.ai-section{margin:0 0 22px}
+.ai-section h3{font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;color:#d4a43e;margin:0 0 8px}
+.ai-section p,.ai-section li{line-height:1.55}
+.ai-section ul{padding-left:20px;margin:0}
+.ai-meta{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-size:.78rem;margin-bottom:18px;color:#aebdca}
+.ai-meta strong{color:#eef4f8}
+.ai-confidence{display:inline-flex;padding:4px 9px;border:1px solid rgba(212,164,62,.45);border-radius:999px}
+.ai-loading{display:flex;gap:10px;align-items:center;padding:28px 0}
+.ai-loading::before{content:"";width:18px;height:18px;border:2px solid rgba(255,255,255,.25);border-top-color:#d4a43e;border-radius:50%;animation:ai-spin .8s linear infinite}
+@keyframes ai-spin{to{transform:rotate(360deg)}}
+.ai-error{padding:12px 14px;border:1px solid rgba(219,82,82,.45);background:rgba(219,82,82,.08);border-radius:8px}
+.ai-boundary{border-left:3px solid #d4a43e;padding:10px 12px;background:rgba(212,164,62,.07)}
+.ai-saved-list{display:grid;gap:12px}
+.ai-saved-card{padding:16px;border:1px solid rgba(255,255,255,.1);border-radius:10px;background:rgba(255,255,255,.025)}
+.ai-saved-card header{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.ai-saved-card h3{margin:0 0 5px}
+.ai-saved-card .actions{margin-top:12px}
+.ai-local-note{font-size:.78rem;color:#aebdca}
+@media(max-width:720px){.ai-drawer{width:100vw}.ai-drawer-head,.ai-drawer-body,.ai-drawer-actions{padding-left:15px;padding-right:15px}}
