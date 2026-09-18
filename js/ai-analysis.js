@@ -73,6 +73,36 @@ function momentum(c={}){
   return {label,absolute,percent};
 }
 
+function normalizeScore(values,value){
+  const finite=values.filter(Number.isFinite);
+  if(!finite.length)return 0;
+  const min=Math.min(...finite),max=Math.max(...finite);
+  if(max===min)return max>0?50:0;
+  return ((value-min)/(max-min))*100;
+}
+
+function enrichCountries(countries){
+  const volumes=countries.map(c=>Number(c.reports30d||0));
+  const momenta=countries.map(c=>Math.max(-100,Math.min(200,Number(c.change7d??0))));
+  const enriched=countries.filter(c=>Number(c.uniqueSources||0)>0||Number(c.themeBreadth||0)>0);
+  const sources=enriched.map(c=>Number(c.uniqueSources||0));
+  const themes=enriched.map(c=>Number(c.themeBreadth||0));
+  return countries.map(c=>{
+    if(Number.isFinite(c.hisi))return c;
+    const hasEnrichment=Number(c.uniqueSources||0)>0||Number(c.themeBreadth||0)>0;
+    const parts={
+      volume:normalizeScore(volumes,Number(c.reports30d||0)),
+      momentum:normalizeScore(momenta,Math.max(-100,Math.min(200,Number(c.change7d??0)))),
+      sourceDiversity:hasEnrichment?normalizeScore(sources,Number(c.uniqueSources||0)):null,
+      themeBreadth:hasEnrichment?normalizeScore(themes,Number(c.themeBreadth||0)):null
+    };
+    const score=hasEnrichment
+      ?Math.round(parts.volume*.30+parts.momentum*.30+parts.sourceDiversity*.20+parts.themeBreadth*.20)
+      :Math.round(parts.volume*.65+parts.momentum*.35);
+    return {...c,hisi:score,hisiBasis:hasEnrichment?'FULL':'PROVISIONAL',hisiParts:parts};
+  });
+}
+
 function countryPayload(iso3,focus='country'){
   const c=(AI.snapshot.countries||[]).find(x=>norm(x.iso3)===norm(iso3));
   if(!c)throw new Error('Country data is unavailable in the current snapshot.');
@@ -298,7 +328,7 @@ async function boot(){
   ensureStyle();ensureDrawer();ensureSavedView();
   try{
     const r=await fetch('./data/snapshot.json',{cache:'no-store'});if(!r.ok)throw new Error('snapshot unavailable');
-    AI.snapshot=await r.json();AI.reports=dedupeReports(AI.snapshot);
+    AI.snapshot=await r.json();AI.snapshot.countries=enrichCountries(AI.snapshot.countries||[]);AI.reports=dedupeReports(AI.snapshot);
   }catch{return;}
   enhance();renderSavedView();
   const observer=new MutationObserver(()=>enhance());
