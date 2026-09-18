@@ -27,6 +27,8 @@ AHSM uses ReliefWeb API V2 metadata to help humanitarians, local organizations, 
 - Network-first service-worker behavior with offline fallback
 - Windows and iPad portrait/landscape field validation
 - Automated static quality gate and Playwright smoke tests
+- AI Quick Analysis for Country, Region, Crisis Pulse and Query Lab views
+- Local Saved Analysis library with Markdown and JSON export
 
 ## Data freshness states
 
@@ -67,6 +69,7 @@ Favicon: `favicon.png` / `favicon.ico`
 - `docs/NETWORK-INTELLIGENCE.md`
 - `docs/RELEASE-CANDIDATE.md`
 - `docs/IMPLEMENTATION-STATUS.md`
+- `docs/AI-QUICK-ANALYSIS.md`
 - `CHANGELOG.md`
 
 ## Local preview
