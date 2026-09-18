@@ -226,10 +226,18 @@ async function generate(type,scopeKey,payload,title){
       body:JSON.stringify({analysisType:type,scopeKey,title,snapshotGeneratedAt:AI.snapshot.generatedAt||null,payload})
     });
     const data=await res.json().catch(()=>({error:`Request failed (${res.status})`}));
-    if(!res.ok)throw new Error(data.error||`Request failed (${res.status})`);
+    if(!res.ok){
+      const provider=data.providerStatus? ` · Provider HTTP ${data.providerStatus}` : '';
+      const code=data.providerCode? ` · ${data.providerCode}` : '';
+      const detail=data.detail? `<p class="micro">${safe(data.detail)}</p>` : '';
+      const retry=data.retryable? '<p class="micro">This provider error is retryable. Wait briefly and try again.</p>' : '';
+      const e=new Error(`${data.error||`Request failed (${res.status})`}${provider}${code}`);
+      e.detailHtml=detail+retry;
+      throw e;
+    }
     renderBrief(data);
   }catch(err){
-    $('#ai-drawer-body').innerHTML=`<div class="ai-error"><strong>AI Quick Analysis unavailable</strong><p>${safe(err?.message||err)}</p></div>`;
+    $('#ai-drawer-body').innerHTML=`<div class="ai-error"><strong>AI Quick Analysis unavailable</strong><p>${safe(err?.message||err)}</p>${err?.detailHtml||''}</div>`;
     setActionState(false);
   }finally{AI.busy=false;}
 }
