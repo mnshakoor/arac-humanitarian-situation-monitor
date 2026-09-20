@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-09-20T19:27:20.743Z",
-  "lastSyncAttemptAt": "2026-09-20T19:27:20.743Z",
+  "generatedAt": "2026-09-20T22:29:17.421Z",
+  "lastSyncAttemptAt": "2026-09-20T22:29:17.421Z",
   "enrichedAt": "2026-09-20T07:54:52.150Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -2203,6 +2203,33 @@
       ],
       "recentReports": [
         {
+          "id": "4230501",
+          "title": "The Changing Funding Landscape for Education in Emergencies: Navigating shifts in international financing",
+          "dateOriginal": "2026-09-18T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "EiE Hub",
+          "format": "Analysis",
+          "themes": [
+            "Education"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
+            "https://reliefweb.int/sites/default/files/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png",
+            "https://reliefweb.int/sites/default/files/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/changing-funding-landscape-education-emergencies-navigating-shifts-international-financing"
+        },
+        {
           "id": "4230405",
           "title": "El Niño, shipping disruptions and food aid funding cuts collide to deepen dire global hunger crisis | The IRC",
           "dateOriginal": "2026-09-18T00:00:00+00:00",
@@ -2245,33 +2272,6 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/world/2025-international-humanitarian-law-report-eu-continues-efforts-promote-respect-international-humanitarian-law-across-globe"
-        },
-        {
-          "id": "4230501",
-          "title": "The Changing Funding Landscape for Education in Emergencies: Navigating shifts in international financing",
-          "dateOriginal": "2026-09-18T00:00:00+00:00",
-          "primaryCountry": "World",
-          "primaryCountryIso3": "wld",
-          "primaryCountryLocation": null,
-          "source": "EiE Hub",
-          "format": "Analysis",
-          "themes": [
-            "Education"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
-            "https://reliefweb.int/sites/default/files/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png",
-            "https://reliefweb.int/sites/default/files/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/changing-funding-landscape-education-emergencies-navigating-shifts-international-financing"
         },
         {
           "id": "4230432",
@@ -3664,6 +3664,28 @@
       ],
       "recentReports": [
         {
+          "id": "4230499",
+          "title": "Yémen : Médecins du Monde déploie une réponse d’urgence",
+          "dateOriginal": "2026-09-18T00:00:00+00:00",
+          "primaryCountry": "Yemen",
+          "primaryCountryIso3": "yem",
+          "primaryCountryLocation": {
+            "lat": 15.94,
+            "lon": 47.62
+          },
+          "source": "MDM",
+          "format": "News and Press Release",
+          "themes": [
+            "Health",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/yemen/yemen-medecins-du-monde-deploie-une-reponse-durgence"
+        },
+        {
           "id": "4230480",
           "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #5 (17 September 2026)",
           "dateOriginal": "2026-09-18T00:00:00+00:00",
@@ -3688,28 +3710,6 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-5-17-september-2026"
-        },
-        {
-          "id": "4230499",
-          "title": "Yémen : Médecins du Monde déploie une réponse d’urgence",
-          "dateOriginal": "2026-09-18T00:00:00+00:00",
-          "primaryCountry": "Yemen",
-          "primaryCountryIso3": "yem",
-          "primaryCountryLocation": {
-            "lat": 15.94,
-            "lon": 47.62
-          },
-          "source": "MDM",
-          "format": "News and Press Release",
-          "themes": [
-            "Health",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/yemen/yemen-medecins-du-monde-deploie-une-reponse-durgence"
         },
         {
           "id": "4230436",
@@ -9253,6 +9253,32 @@
           "url": "https://reliefweb.int/report/south-sudan/south-sudan-event-tracking-report-114-01-31-august-2026"
         },
         {
+          "id": "4230421",
+          "title": "South Sudan - Arrivals from Sudan RAS Population - August 2026",
+          "dateOriginal": "2026-09-18T00:00:00+00:00",
+          "primaryCountry": "South Sudan",
+          "primaryCountryIso3": "ssd",
+          "primaryCountryLocation": {
+            "lat": 6.9,
+            "lon": 30.5
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
+            "https://reliefweb.int/sites/default/files/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-arrivals-sudan-ras-population-august-2026"
+        },
+        {
           "id": "4230416",
           "title": "South Sudan: Refugee and Asylum-seekers Population - 31 August 2026",
           "dateOriginal": "2026-09-18T00:00:00+00:00",
@@ -9277,6 +9303,32 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/map/south-sudan/south-sudan-refugee-and-asylum-seekers-population-31-august-2026"
+        },
+        {
+          "id": "4230420",
+          "title": "South Sudan - Refugees, Returnees and IDP Map - 31 August 2026",
+          "dateOriginal": "2026-09-18T00:00:00+00:00",
+          "primaryCountry": "South Sudan",
+          "primaryCountryIso3": "ssd",
+          "primaryCountryLocation": {
+            "lat": 6.9,
+            "lon": 30.5
+          },
+          "source": "UNHCR",
+          "format": "Map",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
+            "https://reliefweb.int/sites/default/files/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/map/south-sudan/south-sudan-refugees-returnees-and-idp-map-31-august-2026"
         },
         {
           "id": "4230417",
@@ -9329,58 +9381,6 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/map/south-sudan/south-sudan-refugee-population-upper-nile-state-31-august-2026"
-        },
-        {
-          "id": "4230421",
-          "title": "South Sudan - Arrivals from Sudan RAS Population - August 2026",
-          "dateOriginal": "2026-09-18T00:00:00+00:00",
-          "primaryCountry": "South Sudan",
-          "primaryCountryIso3": "ssd",
-          "primaryCountryLocation": {
-            "lat": 6.9,
-            "lon": 30.5
-          },
-          "source": "UNHCR",
-          "format": "Infographic",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
-            "https://reliefweb.int/sites/default/files/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-arrivals-sudan-ras-population-august-2026"
-        },
-        {
-          "id": "4230420",
-          "title": "South Sudan - Refugees, Returnees and IDP Map - 31 August 2026",
-          "dateOriginal": "2026-09-18T00:00:00+00:00",
-          "primaryCountry": "South Sudan",
-          "primaryCountryIso3": "ssd",
-          "primaryCountryLocation": {
-            "lat": 6.9,
-            "lon": 30.5
-          },
-          "source": "UNHCR",
-          "format": "Map",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
-            "https://reliefweb.int/sites/default/files/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/map/south-sudan/south-sudan-refugees-returnees-and-idp-map-31-august-2026"
         },
         {
           "id": "4230423",
@@ -22460,6 +22460,32 @@
       "timeline": [],
       "recentReports": [
         {
+          "id": "4230494",
+          "title": "New arrivals in Djibouti from Yemen - 17 September 2026",
+          "dateOriginal": "2026-09-18T00:00:00+00:00",
+          "primaryCountry": "Djibouti",
+          "primaryCountryIso3": "dji",
+          "primaryCountryLocation": {
+            "lat": 11.75,
+            "lon": 42.58
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
+            "https://reliefweb.int/sites/default/files/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/djibouti/new-arrivals-djibouti-yemen-17-september-2026"
+        },
+        {
           "id": "4230448",
           "title": "UNHCR: more help urgently needed as thousands arrive in Djibouti fleeing Yemen",
           "dateOriginal": "2026-09-18T00:00:00+00:00",
@@ -22505,32 +22531,6 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/djibouti/hcr-une-aide-supplementaire-est-necessaire-de-toute-urgence-alors-que-des-milliers-de-personnes-arrivent-djibouti-apres-avoir-fui-le-yemen-hcr"
-        },
-        {
-          "id": "4230494",
-          "title": "New arrivals in Djibouti from Yemen - 17 September 2026",
-          "dateOriginal": "2026-09-18T00:00:00+00:00",
-          "primaryCountry": "Djibouti",
-          "primaryCountryIso3": "dji",
-          "primaryCountryLocation": {
-            "lat": 11.75,
-            "lon": 42.58
-          },
-          "source": "UNHCR",
-          "format": "Infographic",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
-            "https://reliefweb.int/sites/default/files/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/djibouti/new-arrivals-djibouti-yemen-17-september-2026"
         }
       ],
       "enrichmentStatus": "pending-daily"
@@ -25973,6 +25973,165 @@
       "localThumbnail": "./assets/report-thumbs/rw-4230386.png"
     },
     {
+      "id": "4230477",
+      "title": "Vulnerability and Food Security in the Kyrgyz Republic | World Food Programme",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Kyrgyzstan",
+      "primaryCountryIso3": "kgz",
+      "primaryCountryLocation": {
+        "lat": 41.47,
+        "lon": 74.56
+      },
+      "source": "WFP",
+      "format": "Assessment",
+      "themes": [
+        "Agriculture",
+        "Food and Nutrition"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/e7/c9e7f2a5-25ef-5e81-9ec4-4da7202f2d2e.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/e7/c9e7f2a5-25ef-5e81-9ec4-4da7202f2d2e.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/c9/e7/c9e7f2a5-25ef-5e81-9ec4-4da7202f2d2e.png",
+        "https://reliefweb.int/sites/default/files/previews/c9/e7/c9e7f2a5-25ef-5e81-9ec4-4da7202f2d2e.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/c9/e7/c9e7f2a5-25ef-5e81-9ec4-4da7202f2d2e.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/kyrgyzstan/vulnerability-and-food-security-kyrgyz-republic-world-food-programme",
+      "localThumbnail": "./assets/report-thumbs/rw-4230477.png"
+    },
+    {
+      "id": "4230501",
+      "title": "The Changing Funding Landscape for Education in Emergencies: Navigating shifts in international financing",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "EiE Hub",
+      "format": "Analysis",
+      "themes": [
+        "Education"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
+        "https://reliefweb.int/sites/default/files/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png",
+        "https://reliefweb.int/sites/default/files/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/changing-funding-landscape-education-emergencies-navigating-shifts-international-financing",
+      "localThumbnail": "./assets/report-thumbs/rw-4230501.png"
+    },
+    {
+      "id": "4230499",
+      "title": "Yémen : Médecins du Monde déploie une réponse d’urgence",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "source": "MDM",
+      "format": "News and Press Release",
+      "themes": [
+        "Health",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/yemen/yemen-medecins-du-monde-deploie-une-reponse-durgence"
+    },
+    {
+      "id": "4230488",
+      "title": "Mozambique: Movement Alert Report — #167 (16 September 2026)",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Mozambique",
+      "primaryCountryIso3": "moz",
+      "primaryCountryLocation": {
+        "lat": -18.09,
+        "lon": 34.75
+      },
+      "source": "IOM",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/04/6d/046d6ebc-514b-5697-9b92-465977562e74.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/04/6d/046d6ebc-514b-5697-9b92-465977562e74.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/04/6d/046d6ebc-514b-5697-9b92-465977562e74.png",
+        "https://reliefweb.int/sites/default/files/previews/04/6d/046d6ebc-514b-5697-9b92-465977562e74.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/04/6d/046d6ebc-514b-5697-9b92-465977562e74.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/mozambique/mozambique-movement-alert-report-167-16-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230488.png"
+    },
+    {
+      "id": "4230480",
+      "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #5 (17 September 2026)",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "source": "IOM",
+      "format": "Situation Report",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e2/7b/e27be684-5606-585e-8620-47f7b02c20af.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e2/7b/e27be684-5606-585e-8620-47f7b02c20af.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/e2/7b/e27be684-5606-585e-8620-47f7b02c20af.png",
+        "https://reliefweb.int/sites/default/files/previews/e2/7b/e27be684-5606-585e-8620-47f7b02c20af.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/e2/7b/e27be684-5606-585e-8620-47f7b02c20af.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-5-17-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230480.png"
+    },
+    {
+      "id": "4230494",
+      "title": "New arrivals in Djibouti from Yemen - 17 September 2026",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Djibouti",
+      "primaryCountryIso3": "dji",
+      "primaryCountryLocation": {
+        "lat": 11.75,
+        "lon": 42.58
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
+        "https://reliefweb.int/sites/default/files/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/djibouti/new-arrivals-djibouti-yemen-17-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230494.png"
+    },
+    {
       "id": "4230435",
       "title": "Nepal: Rasuwa Flood Situation Report No. 8 (As of 15 September 2026)",
       "dateOriginal": "2026-09-18T00:00:00+00:00",
@@ -26060,6 +26219,33 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/occupied-palestinian-territory/continuum-civilian-harm-and-path-protection-how-explosive-ordnance-shapes-protection-risks-and-imperative-humanitarian-mine-action-occupied-palestinian-territory",
       "localThumbnail": "./assets/report-thumbs/rw-4230442.png"
+    },
+    {
+      "id": "4230448",
+      "title": "UNHCR: more help urgently needed as thousands arrive in Djibouti fleeing Yemen",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Djibouti",
+      "primaryCountryIso3": "dji",
+      "primaryCountryLocation": {
+        "lat": 11.75,
+        "lon": 42.58
+      },
+      "source": "UNHCR",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/images/reports/4d/d3/4dd3d9f4-2281-46ef-81f4-a436a031bc29.webp",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/images/reports/4d/d3/4dd3d9f4-2281-46ef-81f4-a436a031bc29.webp",
+        "https://reliefweb.int/sites/default/files/styles/small/public/images/reports/4d/d3/4dd3d9f4-2281-46ef-81f4-a436a031bc29.webp",
+        "https://reliefweb.int/sites/default/files/images/reports/4d/d3/4dd3d9f4-2281-46ef-81f4-a436a031bc29.webp",
+        "https://reliefweb.int/sites/default/files/styles/large/public/images/reports/4d/d3/4dd3d9f4-2281-46ef-81f4-a436a031bc29.webp"
+      ],
+      "thumbnailCopyright": "UNHCR",
+      "url": "https://reliefweb.int/report/djibouti/unhcr-more-help-urgently-needed-thousands-arrive-djibouti-fleeing-yemen",
+      "localThumbnail": "./assets/report-thumbs/rw-4230448.webp"
     },
     {
       "id": "4230440",
@@ -26197,8 +26383,8 @@
       "url": "https://reliefweb.int/report/world/el-nino-shipping-disruptions-and-food-aid-funding-cuts-collide-deepen-dire-global-hunger-crisis-irc"
     },
     {
-      "id": "4230448",
-      "title": "UNHCR: more help urgently needed as thousands arrive in Djibouti fleeing Yemen",
+      "id": "4230471",
+      "title": "HCR : une aide supplémentaire est nécessaire de toute urgence alors que des milliers de personnes arrivent à Djibouti après avoir fui le Yémen | HCR",
       "dateOriginal": "2026-09-18T00:00:00+00:00",
       "primaryCountry": "Djibouti",
       "primaryCountryIso3": "dji",
@@ -26212,16 +26398,10 @@
         "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/images/reports/4d/d3/4dd3d9f4-2281-46ef-81f4-a436a031bc29.webp",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/images/reports/4d/d3/4dd3d9f4-2281-46ef-81f4-a436a031bc29.webp",
-        "https://reliefweb.int/sites/default/files/styles/small/public/images/reports/4d/d3/4dd3d9f4-2281-46ef-81f4-a436a031bc29.webp",
-        "https://reliefweb.int/sites/default/files/images/reports/4d/d3/4dd3d9f4-2281-46ef-81f4-a436a031bc29.webp",
-        "https://reliefweb.int/sites/default/files/styles/large/public/images/reports/4d/d3/4dd3d9f4-2281-46ef-81f4-a436a031bc29.webp"
-      ],
-      "thumbnailCopyright": "UNHCR",
-      "url": "https://reliefweb.int/report/djibouti/unhcr-more-help-urgently-needed-thousands-arrive-djibouti-fleeing-yemen",
-      "localThumbnail": "./assets/report-thumbs/rw-4230448.webp"
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/djibouti/hcr-une-aide-supplementaire-est-necessaire-de-toute-urgence-alors-que-des-milliers-de-personnes-arrivent-djibouti-apres-avoir-fui-le-yemen-hcr"
     },
     {
       "id": "4230469",
@@ -26286,109 +26466,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4230453.png"
     },
     {
-      "id": "4230471",
-      "title": "HCR : une aide supplémentaire est nécessaire de toute urgence alors que des milliers de personnes arrivent à Djibouti après avoir fui le Yémen | HCR",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Djibouti",
-      "primaryCountryIso3": "dji",
-      "primaryCountryLocation": {
-        "lat": 11.75,
-        "lon": 42.58
-      },
-      "source": "UNHCR",
-      "format": "News and Press Release",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/djibouti/hcr-une-aide-supplementaire-est-necessaire-de-toute-urgence-alors-que-des-milliers-de-personnes-arrivent-djibouti-apres-avoir-fui-le-yemen-hcr"
-    },
-    {
-      "id": "4230477",
-      "title": "Vulnerability and Food Security in the Kyrgyz Republic | World Food Programme",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Kyrgyzstan",
-      "primaryCountryIso3": "kgz",
-      "primaryCountryLocation": {
-        "lat": 41.47,
-        "lon": 74.56
-      },
-      "source": "WFP",
-      "format": "Assessment",
-      "themes": [
-        "Agriculture",
-        "Food and Nutrition"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/e7/c9e7f2a5-25ef-5e81-9ec4-4da7202f2d2e.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/e7/c9e7f2a5-25ef-5e81-9ec4-4da7202f2d2e.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/c9/e7/c9e7f2a5-25ef-5e81-9ec4-4da7202f2d2e.png",
-        "https://reliefweb.int/sites/default/files/previews/c9/e7/c9e7f2a5-25ef-5e81-9ec4-4da7202f2d2e.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/c9/e7/c9e7f2a5-25ef-5e81-9ec4-4da7202f2d2e.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/kyrgyzstan/vulnerability-and-food-security-kyrgyz-republic-world-food-programme",
-      "localThumbnail": "./assets/report-thumbs/rw-4230477.png"
-    },
-    {
-      "id": "4230488",
-      "title": "Mozambique: Movement Alert Report — #167 (16 September 2026)",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Mozambique",
-      "primaryCountryIso3": "moz",
-      "primaryCountryLocation": {
-        "lat": -18.09,
-        "lon": 34.75
-      },
-      "source": "IOM",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/04/6d/046d6ebc-514b-5697-9b92-465977562e74.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/04/6d/046d6ebc-514b-5697-9b92-465977562e74.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/04/6d/046d6ebc-514b-5697-9b92-465977562e74.png",
-        "https://reliefweb.int/sites/default/files/previews/04/6d/046d6ebc-514b-5697-9b92-465977562e74.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/04/6d/046d6ebc-514b-5697-9b92-465977562e74.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/mozambique/mozambique-movement-alert-report-167-16-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230488.png"
-    },
-    {
-      "id": "4230480",
-      "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #5 (17 September 2026)",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
-      "primaryCountryLocation": {
-        "lat": 15.94,
-        "lon": 47.62
-      },
-      "source": "IOM",
-      "format": "Situation Report",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e2/7b/e27be684-5606-585e-8620-47f7b02c20af.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e2/7b/e27be684-5606-585e-8620-47f7b02c20af.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/e2/7b/e27be684-5606-585e-8620-47f7b02c20af.png",
-        "https://reliefweb.int/sites/default/files/previews/e2/7b/e27be684-5606-585e-8620-47f7b02c20af.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/e2/7b/e27be684-5606-585e-8620-47f7b02c20af.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-5-17-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230480.png"
-    },
-    {
       "id": "4230478",
       "title": "2025 International Humanitarian Law report: The EU continues efforts to promote the respect of international humanitarian law across the globe",
       "dateOriginal": "2026-09-18T00:00:00+00:00",
@@ -26405,83 +26482,6 @@
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/2025-international-humanitarian-law-report-eu-continues-efforts-promote-respect-international-humanitarian-law-across-globe"
-    },
-    {
-      "id": "4230501",
-      "title": "The Changing Funding Landscape for Education in Emergencies: Navigating shifts in international financing",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "EiE Hub",
-      "format": "Analysis",
-      "themes": [
-        "Education"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
-        "https://reliefweb.int/sites/default/files/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/85/3d/853d0c72-fc9f-46c5-b83a-4b3942d9e184.png",
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png",
-        "https://reliefweb.int/sites/default/files/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/ab/04/ab045d75-ec3b-4df8-a1f2-2e00afc3e650.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/changing-funding-landscape-education-emergencies-navigating-shifts-international-financing",
-      "localThumbnail": "./assets/report-thumbs/rw-4230501.png"
-    },
-    {
-      "id": "4230499",
-      "title": "Yémen : Médecins du Monde déploie une réponse d’urgence",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
-      "primaryCountryLocation": {
-        "lat": 15.94,
-        "lon": 47.62
-      },
-      "source": "MDM",
-      "format": "News and Press Release",
-      "themes": [
-        "Health",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/yemen-medecins-du-monde-deploie-une-reponse-durgence"
-    },
-    {
-      "id": "4230494",
-      "title": "New arrivals in Djibouti from Yemen - 17 September 2026",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Djibouti",
-      "primaryCountryIso3": "dji",
-      "primaryCountryLocation": {
-        "lat": 11.75,
-        "lon": 42.58
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
-        "https://reliefweb.int/sites/default/files/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6e/b9/6eb98c7b-2281-56b3-a5d0-bdc4cd61f129.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/djibouti/new-arrivals-djibouti-yemen-17-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230494.png"
     },
     {
       "id": "4230481",
@@ -26509,371 +26509,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/south-sudan/south-sudan-event-tracking-report-114-01-31-august-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4230481.png"
-    },
-    {
-      "id": "4230426",
-      "title": "Islamic Relief Pakistan: Humanitarian Situation Report (Period: 26-June to 17-September 2026)",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Pakistan",
-      "primaryCountryIso3": "pak",
-      "primaryCountryLocation": {
-        "lat": 29.97,
-        "lon": 69.39
-      },
-      "source": "Islamic Relief",
-      "format": "Situation Report",
-      "themes": [
-        "Agriculture",
-        "Shelter and Non-Food Items"
-      ],
-      "disasterTypes": [
-        "Flood"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ec/61/ec61bdae-7559-488e-af1b-de955416db7f.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ec/61/ec61bdae-7559-488e-af1b-de955416db7f.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/ec/61/ec61bdae-7559-488e-af1b-de955416db7f.png",
-        "https://reliefweb.int/sites/default/files/previews/ec/61/ec61bdae-7559-488e-af1b-de955416db7f.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/ec/61/ec61bdae-7559-488e-af1b-de955416db7f.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/pakistan/islamic-relief-pakistan-humanitarian-situation-report-period-26-june-17-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230426.png"
-    },
-    {
-      "id": "4230400",
-      "title": "UNHCR Afghanistan: When Return is Only the Beginning",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "primaryCountryLocation": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "source": "UNHCR",
-      "format": "News and Press Release",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9a/79/9a794ed7-eefc-51c5-badf-ff1445118a1f.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9a/79/9a794ed7-eefc-51c5-badf-ff1445118a1f.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9a/79/9a794ed7-eefc-51c5-badf-ff1445118a1f.png",
-        "https://reliefweb.int/sites/default/files/previews/9a/79/9a794ed7-eefc-51c5-badf-ff1445118a1f.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9a/79/9a794ed7-eefc-51c5-badf-ff1445118a1f.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/afghanistan/unhcr-afghanistan-when-return-only-beginning",
-      "localThumbnail": "./assets/report-thumbs/rw-4230400.png"
-    },
-    {
-      "id": "4230451",
-      "title": "Lebanon Response Plan 2026 Addendum",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Lebanon",
-      "primaryCountryIso3": "lbn",
-      "primaryCountryLocation": {
-        "lat": 33.92,
-        "lon": 35.89
-      },
-      "source": "Govt. Lebanon, UN",
-      "format": "Appeal",
-      "themes": [
-        "Humanitarian Financing"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4e/11/4e1130fc-f4f0-4d43-b571-c647f52b5f97.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4e/11/4e1130fc-f4f0-4d43-b571-c647f52b5f97.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/4e/11/4e1130fc-f4f0-4d43-b571-c647f52b5f97.png",
-        "https://reliefweb.int/sites/default/files/previews/4e/11/4e1130fc-f4f0-4d43-b571-c647f52b5f97.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/4e/11/4e1130fc-f4f0-4d43-b571-c647f52b5f97.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/lebanon/lebanon-response-plan-2026-addendum",
-      "localThumbnail": "./assets/report-thumbs/rw-4230451.png"
-    },
-    {
-      "id": "4230434",
-      "title": "Radio Ergo Weekly Feedback Report, Issued: 18 Sept 2026",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Somalia",
-      "primaryCountryIso3": "som",
-      "primaryCountryLocation": {
-        "lat": 5.79,
-        "lon": 47.33
-      },
-      "source": "Radio Ergo",
-      "format": "News and Press Release",
-      "themes": [
-        "Agriculture",
-        "Food and Nutrition",
-        "Health",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [
-        "Drought"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/97/3e/973e2e5c-f685-4883-a2a2-d074df9f875b.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/97/3e/973e2e5c-f685-4883-a2a2-d074df9f875b.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/97/3e/973e2e5c-f685-4883-a2a2-d074df9f875b.png",
-        "https://reliefweb.int/sites/default/files/previews/97/3e/973e2e5c-f685-4883-a2a2-d074df9f875b.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/97/3e/973e2e5c-f685-4883-a2a2-d074df9f875b.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-18-sept-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230434.png"
-    },
-    {
-      "id": "4230432",
-      "title": "Journée des Nations Unies pour la coopération Sud-Sud 2026 - La solidarité croissante en Afrique : transformer les expériences nationales en solutions régionales grâce à la coopération Sud-Sud",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "CERFAM",
-      "format": "Analysis",
-      "themes": [
-        "Food and Nutrition"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ad/a9/ada9b461-b334-4057-ae22-22aaf626c28a.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ad/a9/ada9b461-b334-4057-ae22-22aaf626c28a.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/ad/a9/ada9b461-b334-4057-ae22-22aaf626c28a.png",
-        "https://reliefweb.int/sites/default/files/previews/ad/a9/ada9b461-b334-4057-ae22-22aaf626c28a.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/ad/a9/ada9b461-b334-4057-ae22-22aaf626c28a.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/journee-des-nations-unies-pour-la-cooperation-sud-sud-2026-la-solidarite-croissante-en-afrique-transformer-les-experiences-nationales-en-solutions-regionales-grace-la-cooperation-sud-sud",
-      "localThumbnail": "./assets/report-thumbs/rw-4230432.png"
-    },
-    {
-      "id": "4230416",
-      "title": "South Sudan: Refugee and Asylum-seekers Population - 31 August 2026",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "South Sudan",
-      "primaryCountryIso3": "ssd",
-      "primaryCountryLocation": {
-        "lat": 6.9,
-        "lon": 30.5
-      },
-      "source": "UNHCR",
-      "format": "Map",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f1/ec/f1ec3704-8452-5bd8-85fd-6bc0b640582f.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f1/ec/f1ec3704-8452-5bd8-85fd-6bc0b640582f.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f1/ec/f1ec3704-8452-5bd8-85fd-6bc0b640582f.png",
-        "https://reliefweb.int/sites/default/files/previews/f1/ec/f1ec3704-8452-5bd8-85fd-6bc0b640582f.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f1/ec/f1ec3704-8452-5bd8-85fd-6bc0b640582f.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/map/south-sudan/south-sudan-refugee-and-asylum-seekers-population-31-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230416.png"
-    },
-    {
-      "id": "4230417",
-      "title": "South Sudan - Refugee Population - Maban - 31 August 2026",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "South Sudan",
-      "primaryCountryIso3": "ssd",
-      "primaryCountryLocation": {
-        "lat": 6.9,
-        "lon": 30.5
-      },
-      "source": "UNHCR",
-      "format": "Map",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a7/bf/a7bfb6af-414d-5c05-a2f2-2aa874b13e87.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a7/bf/a7bfb6af-414d-5c05-a2f2-2aa874b13e87.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/a7/bf/a7bfb6af-414d-5c05-a2f2-2aa874b13e87.png",
-        "https://reliefweb.int/sites/default/files/previews/a7/bf/a7bfb6af-414d-5c05-a2f2-2aa874b13e87.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/a7/bf/a7bfb6af-414d-5c05-a2f2-2aa874b13e87.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/map/south-sudan/south-sudan-refugee-population-maban-31-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230417.png"
-    },
-    {
-      "id": "4230411",
-      "title": "Ukraine: Evacuation Transit Centers January-August 2026 [EN/UK]",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Ukraine",
-      "primaryCountryIso3": "ukr",
-      "primaryCountryLocation": {
-        "lat": 49.32,
-        "lon": 31.32
-      },
-      "source": "Protection Cluster, UNHCR",
-      "format": "Map",
-      "themes": [
-        "Coordination"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f4/0d/f40d455c-1d1f-4e3e-8961-d626f72afee3.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f4/0d/f40d455c-1d1f-4e3e-8961-d626f72afee3.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f4/0d/f40d455c-1d1f-4e3e-8961-d626f72afee3.png",
-        "https://reliefweb.int/sites/default/files/previews/f4/0d/f40d455c-1d1f-4e3e-8961-d626f72afee3.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f4/0d/f40d455c-1d1f-4e3e-8961-d626f72afee3.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/map/ukraine/ukraine-evacuation-transit-centers-january-august-2026-enuk",
-      "localThumbnail": "./assets/report-thumbs/rw-4230411.png"
-    },
-    {
-      "id": "4230418",
-      "title": "South Sudan - Refugee Population in Upper Nile State - 31 August 2026",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "South Sudan",
-      "primaryCountryIso3": "ssd",
-      "primaryCountryLocation": {
-        "lat": 6.9,
-        "lon": 30.5
-      },
-      "source": "UNHCR",
-      "format": "Map",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/00/eb/00eb0307-42e9-5dc5-a433-56f301c84061.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/00/eb/00eb0307-42e9-5dc5-a433-56f301c84061.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/00/eb/00eb0307-42e9-5dc5-a433-56f301c84061.png",
-        "https://reliefweb.int/sites/default/files/previews/00/eb/00eb0307-42e9-5dc5-a433-56f301c84061.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/00/eb/00eb0307-42e9-5dc5-a433-56f301c84061.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/map/south-sudan/south-sudan-refugee-population-upper-nile-state-31-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230418.png"
-    },
-    {
-      "id": "4230452",
-      "title": "Colombia Earthquake Response - Situation Report# 10 | 14 September 2026",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Colombia",
-      "primaryCountryIso3": "col",
-      "primaryCountryLocation": {
-        "lat": 3.9,
-        "lon": -73.07
-      },
-      "source": "IOM",
-      "format": "Situation Report",
-      "themes": [
-        "Coordination",
-        "Health",
-        "Protection and Human Rights",
-        "Shelter and Non-Food Items"
-      ],
-      "disasterTypes": [
-        "Earthquake"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/92/9a/929aa262-99bc-5313-b4a1-4340644d1bf9.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/92/9a/929aa262-99bc-5313-b4a1-4340644d1bf9.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/92/9a/929aa262-99bc-5313-b4a1-4340644d1bf9.png",
-        "https://reliefweb.int/sites/default/files/previews/92/9a/929aa262-99bc-5313-b4a1-4340644d1bf9.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/92/9a/929aa262-99bc-5313-b4a1-4340644d1bf9.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/colombia/colombia-earthquake-response-situation-report-10-14-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230452.png"
-    },
-    {
-      "id": "4230410",
-      "title": "Myanmar Humanitarian Access Snapshot - August 2026",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Myanmar",
-      "primaryCountryIso3": "mmr",
-      "primaryCountryLocation": {
-        "lat": 21.15,
-        "lon": 96.51
-      },
-      "source": "OCHA",
-      "format": "Infographic",
-      "themes": [
-        "Coordination",
-        "Protection and Human Rights",
-        "Safety and Security"
-      ],
-      "disasterTypes": [
-        "Flood"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fb/ec/fbecffb7-9e9f-4b12-9a99-4a772774ca62.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fb/ec/fbecffb7-9e9f-4b12-9a99-4a772774ca62.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/fb/ec/fbecffb7-9e9f-4b12-9a99-4a772774ca62.png",
-        "https://reliefweb.int/sites/default/files/previews/fb/ec/fbecffb7-9e9f-4b12-9a99-4a772774ca62.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/fb/ec/fbecffb7-9e9f-4b12-9a99-4a772774ca62.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/myanmar/myanmar-humanitarian-access-snapshot-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230410.png"
-    },
-    {
-      "id": "4230421",
-      "title": "South Sudan - Arrivals from Sudan RAS Population - August 2026",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "South Sudan",
-      "primaryCountryIso3": "ssd",
-      "primaryCountryLocation": {
-        "lat": 6.9,
-        "lon": 30.5
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
-        "https://reliefweb.int/sites/default/files/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/south-sudan/south-sudan-arrivals-sudan-ras-population-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230421.png"
-    },
-    {
-      "id": "4230420",
-      "title": "South Sudan - Refugees, Returnees and IDP Map - 31 August 2026",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "South Sudan",
-      "primaryCountryIso3": "ssd",
-      "primaryCountryLocation": {
-        "lat": 6.9,
-        "lon": 30.5
-      },
-      "source": "UNHCR",
-      "format": "Map",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
-        "https://reliefweb.int/sites/default/files/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/map/south-sudan/south-sudan-refugees-returnees-and-idp-map-31-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230420.png"
     },
     {
       "id": "4230381",
@@ -26968,6 +26603,371 @@
       "localThumbnail": "./assets/report-thumbs/rw-4230397.png"
     },
     {
+      "id": "4230400",
+      "title": "UNHCR Afghanistan: When Return is Only the Beginning",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
+      "primaryCountryLocation": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
+      "source": "UNHCR",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9a/79/9a794ed7-eefc-51c5-badf-ff1445118a1f.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9a/79/9a794ed7-eefc-51c5-badf-ff1445118a1f.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9a/79/9a794ed7-eefc-51c5-badf-ff1445118a1f.png",
+        "https://reliefweb.int/sites/default/files/previews/9a/79/9a794ed7-eefc-51c5-badf-ff1445118a1f.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9a/79/9a794ed7-eefc-51c5-badf-ff1445118a1f.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/afghanistan/unhcr-afghanistan-when-return-only-beginning",
+      "localThumbnail": "./assets/report-thumbs/rw-4230400.png"
+    },
+    {
+      "id": "4230451",
+      "title": "Lebanon Response Plan 2026 Addendum",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Lebanon",
+      "primaryCountryIso3": "lbn",
+      "primaryCountryLocation": {
+        "lat": 33.92,
+        "lon": 35.89
+      },
+      "source": "Govt. Lebanon, UN",
+      "format": "Appeal",
+      "themes": [
+        "Humanitarian Financing"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4e/11/4e1130fc-f4f0-4d43-b571-c647f52b5f97.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4e/11/4e1130fc-f4f0-4d43-b571-c647f52b5f97.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/4e/11/4e1130fc-f4f0-4d43-b571-c647f52b5f97.png",
+        "https://reliefweb.int/sites/default/files/previews/4e/11/4e1130fc-f4f0-4d43-b571-c647f52b5f97.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/4e/11/4e1130fc-f4f0-4d43-b571-c647f52b5f97.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/lebanon/lebanon-response-plan-2026-addendum",
+      "localThumbnail": "./assets/report-thumbs/rw-4230451.png"
+    },
+    {
+      "id": "4230434",
+      "title": "Radio Ergo Weekly Feedback Report, Issued: 18 Sept 2026",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Somalia",
+      "primaryCountryIso3": "som",
+      "primaryCountryLocation": {
+        "lat": 5.79,
+        "lon": 47.33
+      },
+      "source": "Radio Ergo",
+      "format": "News and Press Release",
+      "themes": [
+        "Agriculture",
+        "Food and Nutrition",
+        "Health",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [
+        "Drought"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/97/3e/973e2e5c-f685-4883-a2a2-d074df9f875b.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/97/3e/973e2e5c-f685-4883-a2a2-d074df9f875b.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/97/3e/973e2e5c-f685-4883-a2a2-d074df9f875b.png",
+        "https://reliefweb.int/sites/default/files/previews/97/3e/973e2e5c-f685-4883-a2a2-d074df9f875b.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/97/3e/973e2e5c-f685-4883-a2a2-d074df9f875b.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-18-sept-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230434.png"
+    },
+    {
+      "id": "4230426",
+      "title": "Islamic Relief Pakistan: Humanitarian Situation Report (Period: 26-June to 17-September 2026)",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Pakistan",
+      "primaryCountryIso3": "pak",
+      "primaryCountryLocation": {
+        "lat": 29.97,
+        "lon": 69.39
+      },
+      "source": "Islamic Relief",
+      "format": "Situation Report",
+      "themes": [
+        "Agriculture",
+        "Shelter and Non-Food Items"
+      ],
+      "disasterTypes": [
+        "Flood"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ec/61/ec61bdae-7559-488e-af1b-de955416db7f.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ec/61/ec61bdae-7559-488e-af1b-de955416db7f.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/ec/61/ec61bdae-7559-488e-af1b-de955416db7f.png",
+        "https://reliefweb.int/sites/default/files/previews/ec/61/ec61bdae-7559-488e-af1b-de955416db7f.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/ec/61/ec61bdae-7559-488e-af1b-de955416db7f.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/pakistan/islamic-relief-pakistan-humanitarian-situation-report-period-26-june-17-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230426.png"
+    },
+    {
+      "id": "4230432",
+      "title": "Journée des Nations Unies pour la coopération Sud-Sud 2026 - La solidarité croissante en Afrique : transformer les expériences nationales en solutions régionales grâce à la coopération Sud-Sud",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "CERFAM",
+      "format": "Analysis",
+      "themes": [
+        "Food and Nutrition"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ad/a9/ada9b461-b334-4057-ae22-22aaf626c28a.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ad/a9/ada9b461-b334-4057-ae22-22aaf626c28a.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/ad/a9/ada9b461-b334-4057-ae22-22aaf626c28a.png",
+        "https://reliefweb.int/sites/default/files/previews/ad/a9/ada9b461-b334-4057-ae22-22aaf626c28a.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/ad/a9/ada9b461-b334-4057-ae22-22aaf626c28a.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/journee-des-nations-unies-pour-la-cooperation-sud-sud-2026-la-solidarite-croissante-en-afrique-transformer-les-experiences-nationales-en-solutions-regionales-grace-la-cooperation-sud-sud",
+      "localThumbnail": "./assets/report-thumbs/rw-4230432.png"
+    },
+    {
+      "id": "4230411",
+      "title": "Ukraine: Evacuation Transit Centers January-August 2026 [EN/UK]",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Ukraine",
+      "primaryCountryIso3": "ukr",
+      "primaryCountryLocation": {
+        "lat": 49.32,
+        "lon": 31.32
+      },
+      "source": "Protection Cluster, UNHCR",
+      "format": "Map",
+      "themes": [
+        "Coordination"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f4/0d/f40d455c-1d1f-4e3e-8961-d626f72afee3.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f4/0d/f40d455c-1d1f-4e3e-8961-d626f72afee3.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f4/0d/f40d455c-1d1f-4e3e-8961-d626f72afee3.png",
+        "https://reliefweb.int/sites/default/files/previews/f4/0d/f40d455c-1d1f-4e3e-8961-d626f72afee3.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f4/0d/f40d455c-1d1f-4e3e-8961-d626f72afee3.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/ukraine/ukraine-evacuation-transit-centers-january-august-2026-enuk",
+      "localThumbnail": "./assets/report-thumbs/rw-4230411.png"
+    },
+    {
+      "id": "4230452",
+      "title": "Colombia Earthquake Response - Situation Report# 10 | 14 September 2026",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Colombia",
+      "primaryCountryIso3": "col",
+      "primaryCountryLocation": {
+        "lat": 3.9,
+        "lon": -73.07
+      },
+      "source": "IOM",
+      "format": "Situation Report",
+      "themes": [
+        "Coordination",
+        "Health",
+        "Protection and Human Rights",
+        "Shelter and Non-Food Items"
+      ],
+      "disasterTypes": [
+        "Earthquake"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/92/9a/929aa262-99bc-5313-b4a1-4340644d1bf9.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/92/9a/929aa262-99bc-5313-b4a1-4340644d1bf9.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/92/9a/929aa262-99bc-5313-b4a1-4340644d1bf9.png",
+        "https://reliefweb.int/sites/default/files/previews/92/9a/929aa262-99bc-5313-b4a1-4340644d1bf9.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/92/9a/929aa262-99bc-5313-b4a1-4340644d1bf9.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/colombia/colombia-earthquake-response-situation-report-10-14-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230452.png"
+    },
+    {
+      "id": "4230410",
+      "title": "Myanmar Humanitarian Access Snapshot - August 2026",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Myanmar",
+      "primaryCountryIso3": "mmr",
+      "primaryCountryLocation": {
+        "lat": 21.15,
+        "lon": 96.51
+      },
+      "source": "OCHA",
+      "format": "Infographic",
+      "themes": [
+        "Coordination",
+        "Protection and Human Rights",
+        "Safety and Security"
+      ],
+      "disasterTypes": [
+        "Flood"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fb/ec/fbecffb7-9e9f-4b12-9a99-4a772774ca62.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fb/ec/fbecffb7-9e9f-4b12-9a99-4a772774ca62.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/fb/ec/fbecffb7-9e9f-4b12-9a99-4a772774ca62.png",
+        "https://reliefweb.int/sites/default/files/previews/fb/ec/fbecffb7-9e9f-4b12-9a99-4a772774ca62.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/fb/ec/fbecffb7-9e9f-4b12-9a99-4a772774ca62.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/myanmar/myanmar-humanitarian-access-snapshot-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230410.png"
+    },
+    {
+      "id": "4230421",
+      "title": "South Sudan - Arrivals from Sudan RAS Population - August 2026",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
+      "primaryCountryLocation": {
+        "lat": 6.9,
+        "lon": 30.5
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
+        "https://reliefweb.int/sites/default/files/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/1d/19/1d195fe8-e292-5c60-9647-99792721ca52.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/south-sudan/south-sudan-arrivals-sudan-ras-population-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230421.png"
+    },
+    {
+      "id": "4230416",
+      "title": "South Sudan: Refugee and Asylum-seekers Population - 31 August 2026",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
+      "primaryCountryLocation": {
+        "lat": 6.9,
+        "lon": 30.5
+      },
+      "source": "UNHCR",
+      "format": "Map",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f1/ec/f1ec3704-8452-5bd8-85fd-6bc0b640582f.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f1/ec/f1ec3704-8452-5bd8-85fd-6bc0b640582f.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f1/ec/f1ec3704-8452-5bd8-85fd-6bc0b640582f.png",
+        "https://reliefweb.int/sites/default/files/previews/f1/ec/f1ec3704-8452-5bd8-85fd-6bc0b640582f.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f1/ec/f1ec3704-8452-5bd8-85fd-6bc0b640582f.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/south-sudan/south-sudan-refugee-and-asylum-seekers-population-31-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230416.png"
+    },
+    {
+      "id": "4230420",
+      "title": "South Sudan - Refugees, Returnees and IDP Map - 31 August 2026",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
+      "primaryCountryLocation": {
+        "lat": 6.9,
+        "lon": 30.5
+      },
+      "source": "UNHCR",
+      "format": "Map",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
+        "https://reliefweb.int/sites/default/files/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/0a/be/0abe645b-7e7c-597b-97e9-3f6101df6ad0.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/south-sudan/south-sudan-refugees-returnees-and-idp-map-31-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230420.png"
+    },
+    {
+      "id": "4230417",
+      "title": "South Sudan - Refugee Population - Maban - 31 August 2026",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
+      "primaryCountryLocation": {
+        "lat": 6.9,
+        "lon": 30.5
+      },
+      "source": "UNHCR",
+      "format": "Map",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a7/bf/a7bfb6af-414d-5c05-a2f2-2aa874b13e87.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a7/bf/a7bfb6af-414d-5c05-a2f2-2aa874b13e87.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/a7/bf/a7bfb6af-414d-5c05-a2f2-2aa874b13e87.png",
+        "https://reliefweb.int/sites/default/files/previews/a7/bf/a7bfb6af-414d-5c05-a2f2-2aa874b13e87.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/a7/bf/a7bfb6af-414d-5c05-a2f2-2aa874b13e87.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/south-sudan/south-sudan-refugee-population-maban-31-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230417.png"
+    },
+    {
+      "id": "4230418",
+      "title": "South Sudan - Refugee Population in Upper Nile State - 31 August 2026",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
+      "primaryCountryLocation": {
+        "lat": 6.9,
+        "lon": 30.5
+      },
+      "source": "UNHCR",
+      "format": "Map",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/00/eb/00eb0307-42e9-5dc5-a433-56f301c84061.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/00/eb/00eb0307-42e9-5dc5-a433-56f301c84061.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/00/eb/00eb0307-42e9-5dc5-a433-56f301c84061.png",
+        "https://reliefweb.int/sites/default/files/previews/00/eb/00eb0307-42e9-5dc5-a433-56f301c84061.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/00/eb/00eb0307-42e9-5dc5-a433-56f301c84061.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/south-sudan/south-sudan-refugee-population-upper-nile-state-31-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230418.png"
+    },
+    {
       "id": "4230489",
       "title": "Alertes de maladies épidémiques et émergentes en Océanie le 15 septembre 2026",
       "dateOriginal": "2026-09-18T00:00:00+00:00",
@@ -26992,65 +26992,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/map/world/alertes-de-maladies-epidemiques-et-emergentes-en-oceanie-le-15-septembre-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4230489.png"
-    },
-    {
-      "id": "4230483",
-      "title": "Afghanistan — Flow Monitoring Update (30 August–12 September 2026)",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "primaryCountryLocation": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "source": "IOM",
-      "format": "Situation Report",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/52/fd52d49a-2a73-57aa-8583-e7c8d07dff92.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/52/fd52d49a-2a73-57aa-8583-e7c8d07dff92.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/fd/52/fd52d49a-2a73-57aa-8583-e7c8d07dff92.png",
-        "https://reliefweb.int/sites/default/files/previews/fd/52/fd52d49a-2a73-57aa-8583-e7c8d07dff92.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/fd/52/fd52d49a-2a73-57aa-8583-e7c8d07dff92.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/afghanistan/afghanistan-flow-monitoring-update-30-august-12-september-2026-0",
-      "localThumbnail": "./assets/report-thumbs/rw-4230483.png"
-    },
-    {
-      "id": "4230491",
-      "title": "Turkish Red Crescent Pakistan Cash Assistance for Flood-Affected Families (17 September 2026)",
-      "dateOriginal": "2026-09-18T00:00:00+00:00",
-      "primaryCountry": "Pakistan",
-      "primaryCountryIso3": "pak",
-      "primaryCountryLocation": {
-        "lat": 29.97,
-        "lon": 69.39
-      },
-      "source": "Turkish Red Crescent",
-      "format": "Infographic",
-      "themes": [
-        "Education",
-        "Food and Nutrition",
-        "Health",
-        "Shelter and Non-Food Items"
-      ],
-      "disasterTypes": [
-        "Flash Flood"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cf/c7/cfc73e71-9e9d-4052-85ef-0873a6407d34.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cf/c7/cfc73e71-9e9d-4052-85ef-0873a6407d34.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/cf/c7/cfc73e71-9e9d-4052-85ef-0873a6407d34.png",
-        "https://reliefweb.int/sites/default/files/previews/cf/c7/cfc73e71-9e9d-4052-85ef-0873a6407d34.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/cf/c7/cfc73e71-9e9d-4052-85ef-0873a6407d34.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/pakistan/turkish-red-crescent-pakistan-cash-assistance-flood-affected-families-17-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4230491.png"
     },
     {
       "id": "4230476",
@@ -27190,6 +27131,65 @@
       "localThumbnail": "./assets/report-thumbs/rw-4230495.png"
     },
     {
+      "id": "4230483",
+      "title": "Afghanistan — Flow Monitoring Update (30 August–12 September 2026)",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
+      "primaryCountryLocation": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
+      "source": "IOM",
+      "format": "Situation Report",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/52/fd52d49a-2a73-57aa-8583-e7c8d07dff92.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/52/fd52d49a-2a73-57aa-8583-e7c8d07dff92.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/fd/52/fd52d49a-2a73-57aa-8583-e7c8d07dff92.png",
+        "https://reliefweb.int/sites/default/files/previews/fd/52/fd52d49a-2a73-57aa-8583-e7c8d07dff92.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/fd/52/fd52d49a-2a73-57aa-8583-e7c8d07dff92.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/afghanistan/afghanistan-flow-monitoring-update-30-august-12-september-2026-0",
+      "localThumbnail": "./assets/report-thumbs/rw-4230483.png"
+    },
+    {
+      "id": "4230491",
+      "title": "Turkish Red Crescent Pakistan Cash Assistance for Flood-Affected Families (17 September 2026)",
+      "dateOriginal": "2026-09-18T00:00:00+00:00",
+      "primaryCountry": "Pakistan",
+      "primaryCountryIso3": "pak",
+      "primaryCountryLocation": {
+        "lat": 29.97,
+        "lon": 69.39
+      },
+      "source": "Turkish Red Crescent",
+      "format": "Infographic",
+      "themes": [
+        "Education",
+        "Food and Nutrition",
+        "Health",
+        "Shelter and Non-Food Items"
+      ],
+      "disasterTypes": [
+        "Flash Flood"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cf/c7/cfc73e71-9e9d-4052-85ef-0873a6407d34.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cf/c7/cfc73e71-9e9d-4052-85ef-0873a6407d34.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/cf/c7/cfc73e71-9e9d-4052-85ef-0873a6407d34.png",
+        "https://reliefweb.int/sites/default/files/previews/cf/c7/cfc73e71-9e9d-4052-85ef-0873a6407d34.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/cf/c7/cfc73e71-9e9d-4052-85ef-0873a6407d34.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/pakistan/turkish-red-crescent-pakistan-cash-assistance-flood-affected-families-17-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4230491.png"
+    },
+    {
       "id": "4230401",
       "title": "Pakistan | Joint IOM and UNHCR border monitoring report on inflows from the Islamic Republic of Iran #22 (1 March - 10 Sep 2026)",
       "dateOriginal": "2026-09-18T00:00:00+00:00",
@@ -27324,6 +27324,79 @@
     }
   ],
   "disasters": [
+    {
+      "id": "52549",
+      "name": "Suriname: Chikungunya Virus Outbreak - Mar 2026",
+      "status": "ongoing",
+      "glide": "EP-2026-000037-SUR",
+      "dateEvent": "2026-03-04T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52549",
+      "primaryCountry": "Suriname",
+      "primaryCountryIso3": "sur",
+      "location": {
+        "lat": 3.69,
+        "lon": -55.91
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52512",
+      "name": "Tropical Cyclone Fytia - Jan 2026",
+      "status": "ongoing",
+      "glide": "TC-2026-000009-MDG",
+      "dateEvent": "2026-02-28T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52512",
+      "primaryCountry": "Madagascar",
+      "primaryCountryIso3": "mdg",
+      "location": {
+        "lat": -19.37,
+        "lon": 46.71
+      },
+      "primaryType": "Tropical Cyclone",
+      "types": [
+        "Flood",
+        "Tropical Cyclone"
+      ]
+    },
+    {
+      "id": "52503",
+      "name": "Zambia: Floods - Jan 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000020-ZMB",
+      "dateEvent": "2026-01-08T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52503",
+      "primaryCountry": "Zambia",
+      "primaryCountryIso3": "zmb",
+      "location": {
+        "lat": -14,
+        "lon": 27.43
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52496",
+      "name": "Mozambique: Floods - Dec 2025",
+      "status": "ongoing",
+      "glide": "FL-2025-000227-MOZ",
+      "dateEvent": "2025-12-27T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52496",
+      "primaryCountry": "Mozambique",
+      "primaryCountryIso3": "moz",
+      "location": {
+        "lat": -18.09,
+        "lon": 34.75
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
     {
       "id": "52419",
       "name": "Somalia: Diphtheria Outbreak - Jul 2025",
@@ -27556,79 +27629,6 @@
       "primaryType": "Epidemic",
       "types": [
         "Epidemic"
-      ]
-    },
-    {
-      "id": "52549",
-      "name": "Suriname: Chikungunya Virus Outbreak - Mar 2026",
-      "status": "ongoing",
-      "glide": "EP-2026-000037-SUR",
-      "dateEvent": "2026-03-04T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52549",
-      "primaryCountry": "Suriname",
-      "primaryCountryIso3": "sur",
-      "location": {
-        "lat": 3.69,
-        "lon": -55.91
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52512",
-      "name": "Tropical Cyclone Fytia - Jan 2026",
-      "status": "ongoing",
-      "glide": "TC-2026-000009-MDG",
-      "dateEvent": "2026-02-28T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52512",
-      "primaryCountry": "Madagascar",
-      "primaryCountryIso3": "mdg",
-      "location": {
-        "lat": -19.37,
-        "lon": 46.71
-      },
-      "primaryType": "Tropical Cyclone",
-      "types": [
-        "Flood",
-        "Tropical Cyclone"
-      ]
-    },
-    {
-      "id": "52503",
-      "name": "Zambia: Floods - Jan 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000020-ZMB",
-      "dateEvent": "2026-01-08T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52503",
-      "primaryCountry": "Zambia",
-      "primaryCountryIso3": "zmb",
-      "location": {
-        "lat": -14,
-        "lon": 27.43
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52496",
-      "name": "Mozambique: Floods - Dec 2025",
-      "status": "ongoing",
-      "glide": "FL-2025-000227-MOZ",
-      "dateEvent": "2025-12-27T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52496",
-      "primaryCountry": "Mozambique",
-      "primaryCountryIso3": "moz",
-      "location": {
-        "lat": -18.09,
-        "lon": 34.75
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
       ]
     },
     {
@@ -28954,25 +28954,6 @@
       ]
     },
     {
-      "id": "52500",
-      "name": "Syria: Severe Weather - Dec 2025",
-      "status": "ongoing",
-      "glide": "FL-2026-000018-SYR",
-      "dateEvent": "2025-12-31T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52500",
-      "primaryCountry": "Syrian Arab Republic",
-      "primaryCountryIso3": "syr",
-      "location": {
-        "lat": 35.01,
-        "lon": 38.51
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Cold Wave",
-        "Flood"
-      ]
-    },
-    {
       "id": "51911",
       "name": "Zambia: Drought - 2024-2026",
       "status": "ongoing",
@@ -29024,6 +29005,25 @@
       "primaryType": "Tropical Cyclone",
       "types": [
         "Tropical Cyclone"
+      ]
+    },
+    {
+      "id": "52500",
+      "name": "Syria: Severe Weather - Dec 2025",
+      "status": "ongoing",
+      "glide": "FL-2026-000018-SYR",
+      "dateEvent": "2025-12-31T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52500",
+      "primaryCountry": "Syrian Arab Republic",
+      "primaryCountryIso3": "syr",
+      "location": {
+        "lat": 35.01,
+        "lon": 38.51
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Cold Wave",
+        "Flood"
       ]
     },
     {
@@ -29230,7 +29230,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-09-20T19:27:20.743Z",
+    "queryGeneratedAt": "2026-09-20T22:29:17.421Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -29241,7 +29241,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-09-20T19:27:22.804Z",
+    "reportThumbnailCacheAt": "2026-09-20T22:29:19.682Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
