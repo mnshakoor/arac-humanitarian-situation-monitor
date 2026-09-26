@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-09-26T01:34:58.161Z",
-  "lastSyncAttemptAt": "2026-09-26T01:34:58.161Z",
+  "generatedAt": "2026-09-26T07:43:26.178Z",
+  "lastSyncAttemptAt": "2026-09-26T07:43:26.178Z",
   "enrichedAt": "2026-09-25T08:09:59.208Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -1417,24 +1417,6 @@
       ],
       "recentReports": [
         {
-          "id": "4231399",
-          "title": "Sendai Framework data shows progress and persistent gaps in reducing disaster risk",
-          "dateOriginal": "2026-09-25T00:00:00+00:00",
-          "primaryCountry": "World",
-          "primaryCountryIso3": "wld",
-          "primaryCountryLocation": null,
-          "source": "UNDRR",
-          "format": "News and Press Release",
-          "themes": [
-            "Disaster Management"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/sendai-framework-data-shows-progress-and-persistent-gaps-reducing-disaster-risk"
-        },
-        {
           "id": "4231421",
           "title": "\"Did the Mother Benefit?\": Baitulmaal CEO Addresses Global Health Leaders at UNGA81",
           "dateOriginal": "2026-09-25T00:00:00+00:00",
@@ -1452,6 +1434,24 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/world/did-mother-benefit-baitulmaal-ceo-addresses-global-health-leaders-unga81"
+        },
+        {
+          "id": "4231399",
+          "title": "Sendai Framework data shows progress and persistent gaps in reducing disaster risk",
+          "dateOriginal": "2026-09-25T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "UNDRR",
+          "format": "News and Press Release",
+          "themes": [
+            "Disaster Management"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/sendai-framework-data-shows-progress-and-persistent-gaps-reducing-disaster-risk"
         },
         {
           "id": "4231458",
@@ -26724,8 +26724,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/colombia/colombia-earthquake-response-situation-report-11-21-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4231405.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/ca/87/ca87b3ce-d300-5e30-a898-e8f5bfa25a53.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4231405.png"
     },
     {
       "id": "4231392",
@@ -26856,7 +26855,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/5b/e7/5be7bd9e-cc1a-5306-9e1f-c27728050191.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/chad/tchad-suivi-des-urgences-i-mouvements-de-populations-227-septembre-2026"
+      "url": "https://reliefweb.int/report/chad/tchad-suivi-des-urgences-i-mouvements-de-populations-227-septembre-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4231425.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/5b/e7/5be7bd9e-cc1a-5306-9e1f-c27728050191.png"
     },
     {
       "id": "4231494",
@@ -27035,47 +27036,6 @@
       "url": "https://reliefweb.int/report/madagascar/giews-country-brief-madagascar-23-september-2026"
     },
     {
-      "id": "4231399",
-      "title": "Sendai Framework data shows progress and persistent gaps in reducing disaster risk",
-      "dateOriginal": "2026-09-25T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "UNDRR",
-      "format": "News and Press Release",
-      "themes": [
-        "Disaster Management"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/sendai-framework-data-shows-progress-and-persistent-gaps-reducing-disaster-risk"
-    },
-    {
-      "id": "4231397",
-      "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
-      "dateOriginal": "2026-09-25T00:00:00+00:00",
-      "primaryCountry": "Ukraine",
-      "primaryCountryIso3": "ukr",
-      "primaryCountryLocation": {
-        "lat": 49.32,
-        "lon": 31.32
-      },
-      "source": "IAEA",
-      "format": "News and Press Release",
-      "themes": [
-        "Disaster Management"
-      ],
-      "disasterTypes": [
-        "Technological Disaster"
-      ],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ukraine/update-368-iaea-director-general-statement-situation-ukraine"
-    },
-    {
       "id": "4231409",
       "title": "One month after the Nepal floods, women are running community kitchens, feeding their communities, and rebuilding their lives",
       "dateOriginal": "2026-09-25T00:00:00+00:00",
@@ -27115,32 +27075,6 @@
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/did-mother-benefit-baitulmaal-ceo-addresses-global-health-leaders-unga81"
-    },
-    {
-      "id": "4231404",
-      "title": "Lebanon Response Plan: Shelter Sector Mid-Year 2026 - Q2 2026",
-      "dateOriginal": "2026-09-25T00:00:00+00:00",
-      "primaryCountry": "Lebanon",
-      "primaryCountryIso3": "lbn",
-      "primaryCountryLocation": {
-        "lat": 33.92,
-        "lon": 35.89
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Shelter and Non-Food Items"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
-        "https://reliefweb.int/sites/default/files/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/lebanon/lebanon-response-plan-shelter-sector-mid-year-2026-q2-2026"
     },
     {
       "id": "4231418",
@@ -27218,29 +27152,71 @@
       "url": "https://reliefweb.int/report/south-sudan/south-sudan-population-mobility-mapping-pmm-report-mobility-related-public-health-emergency-preparedness-juba-county-south-sudan-june-2026"
     },
     {
-      "id": "4231437",
-      "title": "WFP continues to provide lifeline for thousands one month since the deadly Nepal floods",
+      "id": "4231399",
+      "title": "Sendai Framework data shows progress and persistent gaps in reducing disaster risk",
       "dateOriginal": "2026-09-25T00:00:00+00:00",
-      "primaryCountry": "Nepal",
-      "primaryCountryIso3": "npl",
-      "primaryCountryLocation": {
-        "lat": 28.25,
-        "lon": 83.94
-      },
-      "source": "WFP",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "UNDRR",
       "format": "News and Press Release",
       "themes": [
-        "Food and Nutrition"
+        "Disaster Management"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/sendai-framework-data-shows-progress-and-persistent-gaps-reducing-disaster-risk"
+    },
+    {
+      "id": "4231397",
+      "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
+      "dateOriginal": "2026-09-25T00:00:00+00:00",
+      "primaryCountry": "Ukraine",
+      "primaryCountryIso3": "ukr",
+      "primaryCountryLocation": {
+        "lat": 49.32,
+        "lon": 31.32
+      },
+      "source": "IAEA",
+      "format": "News and Press Release",
+      "themes": [
+        "Disaster Management"
       ],
       "disasterTypes": [
-        "Flash Flood",
-        "Flood",
-        "Land Slide"
+        "Technological Disaster"
       ],
       "thumbnail": "",
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/nepal/wfp-continues-provide-lifeline-thousands-one-month-deadly-nepal-floods"
+      "url": "https://reliefweb.int/report/ukraine/update-368-iaea-director-general-statement-situation-ukraine"
+    },
+    {
+      "id": "4231404",
+      "title": "Lebanon Response Plan: Shelter Sector Mid-Year 2026 - Q2 2026",
+      "dateOriginal": "2026-09-25T00:00:00+00:00",
+      "primaryCountry": "Lebanon",
+      "primaryCountryIso3": "lbn",
+      "primaryCountryLocation": {
+        "lat": 33.92,
+        "lon": 35.89
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Shelter and Non-Food Items"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
+        "https://reliefweb.int/sites/default/files/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/lebanon/lebanon-response-plan-shelter-sector-mid-year-2026-q2-2026"
     },
     {
       "id": "4231442",
@@ -27328,6 +27304,31 @@
       "localThumbnail": "./assets/report-thumbs/rw-4231476.png"
     },
     {
+      "id": "4231437",
+      "title": "WFP continues to provide lifeline for thousands one month since the deadly Nepal floods",
+      "dateOriginal": "2026-09-25T00:00:00+00:00",
+      "primaryCountry": "Nepal",
+      "primaryCountryIso3": "npl",
+      "primaryCountryLocation": {
+        "lat": 28.25,
+        "lon": 83.94
+      },
+      "source": "WFP",
+      "format": "News and Press Release",
+      "themes": [
+        "Food and Nutrition"
+      ],
+      "disasterTypes": [
+        "Flash Flood",
+        "Flood",
+        "Land Slide"
+      ],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/nepal/wfp-continues-provide-lifeline-thousands-one-month-deadly-nepal-floods"
+    },
+    {
       "id": "4231443",
       "title": "South Sudan Situation: Population of Concern to UNHCR - 31 August 2026",
       "dateOriginal": "2026-09-25T00:00:00+00:00",
@@ -27378,33 +27379,6 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/sudan/regional-dashboard-rbesa-idps-dashboard-31-august-2026"
-    },
-    {
-      "id": "4231446",
-      "title": "Somalia Situation: Population of Concern to UNHCR - 31 August 2026",
-      "dateOriginal": "2026-09-25T00:00:00+00:00",
-      "primaryCountry": "Somalia",
-      "primaryCountryIso3": "som",
-      "primaryCountryLocation": {
-        "lat": 5.79,
-        "lon": 47.33
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
-        "https://reliefweb.int/sites/default/files/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/somalia/somalia-situation-population-concern-unhcr-31-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4231446.png"
     },
     {
       "id": "4231428",
@@ -27538,6 +27512,33 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/conceptos-basicos-de-grupo-mayoritario-alcanzado-plataforma-345w"
+    },
+    {
+      "id": "4231446",
+      "title": "Somalia Situation: Population of Concern to UNHCR - 31 August 2026",
+      "dateOriginal": "2026-09-25T00:00:00+00:00",
+      "primaryCountry": "Somalia",
+      "primaryCountryIso3": "som",
+      "primaryCountryLocation": {
+        "lat": 5.79,
+        "lon": 47.33
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
+        "https://reliefweb.int/sites/default/files/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/somalia/somalia-situation-population-concern-unhcr-31-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4231446.png"
     },
     {
       "id": "4231427",
@@ -29886,7 +29887,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-09-26T01:34:58.161Z",
+    "queryGeneratedAt": "2026-09-26T07:43:26.178Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -29897,7 +29898,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-09-26T01:35:00.491Z",
+    "reportThumbnailCacheAt": "2026-09-26T07:43:29.041Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
