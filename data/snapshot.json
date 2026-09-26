@@ -1,8 +1,8 @@
 {
-  "schema": "arac.ahsm.snapshot.v2",
+  "schema": "arac.ahsm.snapshot.v3",
   "generatedAt": "2026-09-26T07:43:26.178Z",
   "lastSyncAttemptAt": "2026-09-26T07:43:26.178Z",
-  "enrichedAt": "2026-09-25T08:09:59.208Z",
+  "enrichedAt": "2026-09-26T07:59:10.114Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
   "syncHealth": {
@@ -26,8 +26,8 @@
     "countries": 117,
     "uniqueSources": 150,
     "activeDisasters": 108,
-    "profiledCountries": 42,
-    "profileTargets": 16,
+    "profiledCountries": 6,
+    "profileTargets": 40,
     "momentumFresh": true
   },
   "timeline": [
@@ -892,11 +892,11 @@
       "topThemes": [
         {
           "name": "Protection and Human Rights",
-          "count": 86
+          "count": 83
         },
         {
           "name": "Health",
-          "count": 58
+          "count": 59
         },
         {
           "name": "Climate Change and Environment",
@@ -904,11 +904,7 @@
         },
         {
           "name": "Disaster Management",
-          "count": 21
-        },
-        {
-          "name": "Coordination",
-          "count": 20
+          "count": 22
         },
         {
           "name": "Agriculture",
@@ -919,8 +915,12 @@
           "count": 18
         },
         {
+          "name": "Coordination",
+          "count": 17
+        },
+        {
           "name": "Contributions",
-          "count": 14
+          "count": 13
         },
         {
           "name": "Education",
@@ -928,15 +928,15 @@
         },
         {
           "name": "Gender",
-          "count": 10
-        },
-        {
-          "name": "Humanitarian Financing",
-          "count": 10
+          "count": 11
         },
         {
           "name": "Water Sanitation Hygiene",
           "count": 8
+        },
+        {
+          "name": "Humanitarian Financing",
+          "count": 7
         },
         {
           "name": "Safety and Security",
@@ -978,7 +978,7 @@
         },
         {
           "name": "UNHCR",
-          "count": 16
+          "count": 15
         },
         {
           "name": "UNICEF",
@@ -1001,27 +1001,27 @@
           "count": 8
         },
         {
-          "name": "OCHA",
+          "name": "PAHO",
           "count": 8
         },
         {
-          "name": "PAHO",
+          "name": "SPC",
           "count": 8
+        },
+        {
+          "name": "OCHA",
+          "count": 7
         },
         {
           "name": "Oxfam",
           "count": 7
         },
         {
-          "name": "SPC",
-          "count": 7
+          "name": "FEWS NET",
+          "count": 6
         },
         {
           "name": "Save the Children",
-          "count": 7
-        },
-        {
-          "name": "FEWS NET",
           "count": 6
         },
         {
@@ -1041,10 +1041,6 @@
           "count": 4
         },
         {
-          "name": "ODI - HPN",
-          "count": 4
-        },
-        {
           "name": "UNFPA",
           "count": 4
         },
@@ -1057,15 +1053,7 @@
           "count": 3
         },
         {
-          "name": "GCR2P",
-          "count": 3
-        },
-        {
           "name": "GEOGLAM Crop Monitor",
-          "count": 3
-        },
-        {
-          "name": "GPEI",
           "count": 3
         },
         {
@@ -1089,6 +1077,10 @@
           "count": 3
         },
         {
+          "name": "UNDRR",
+          "count": 3
+        },
+        {
           "name": "WMO",
           "count": 3
         },
@@ -1102,6 +1094,14 @@
         },
         {
           "name": "FAO",
+          "count": 2
+        },
+        {
+          "name": "GCR2P",
+          "count": 2
+        },
+        {
+          "name": "GPEI",
           "count": 2
         },
         {
@@ -1129,10 +1129,6 @@
           "count": 2
         },
         {
-          "name": "UNDRR",
-          "count": 2
-        },
-        {
           "name": "AGRA",
           "count": 1
         },
@@ -1150,6 +1146,10 @@
         },
         {
           "name": "AidEx",
+          "count": 1
+        },
+        {
+          "name": "Baitulmaal",
           "count": 1
         },
         {
@@ -1212,7 +1212,7 @@
       "topFormats": [
         {
           "name": "News and Press Release",
-          "count": 97
+          "count": 93
         },
         {
           "name": "Analysis",
@@ -1223,16 +1223,16 @@
           "count": 22
         },
         {
-          "name": "Manual and Guideline",
-          "count": 15
+          "name": "Map",
+          "count": 14
         },
         {
-          "name": "Map",
+          "name": "Manual and Guideline",
           "count": 13
         },
         {
           "name": "Other",
-          "count": 12
+          "count": 11
         },
         {
           "name": "Assessment",
@@ -1298,10 +1298,6 @@
         }
       ],
       "timeline": [
-        {
-          "date": "2026-08-27T00:00:00+00:00",
-          "count": 9
-        },
         {
           "date": "2026-08-28T00:00:00+00:00",
           "count": 8
@@ -1413,6 +1409,10 @@
         {
           "date": "2026-09-24T00:00:00+00:00",
           "count": 22
+        },
+        {
+          "date": "2026-09-25T00:00:00+00:00",
+          "count": 3
         }
       ],
       "recentReports": [
@@ -1626,6 +1626,25 @@
           "localThumbnail": "./assets/report-thumbs/rw-4231322.png"
         },
         {
+          "id": "4231249",
+          "title": "Save the Children and Vodafone Foundation launch global partnership to support children before, during and after crises",
+          "dateOriginal": "2026-09-24T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "Save the Children",
+          "format": "News and Press Release",
+          "themes": [
+            "Coordination",
+            "Disaster Management"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/save-children-and-vodafone-foundation-launch-global-partnership-support-children-during-and-after-crises"
+        },
+        {
           "id": "4231268",
           "title": "ODA for Development, Not Migration Control | Oxfam International",
           "dateOriginal": "2026-09-24T00:00:00+00:00",
@@ -1648,28 +1667,633 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/world/oda-development-not-migration-control-oxfam-international",
           "localThumbnail": "./assets/report-thumbs/rw-4231268.png"
-        },
-        {
-          "id": "4231249",
-          "title": "Save the Children and Vodafone Foundation launch global partnership to support children before, during and after crises",
-          "dateOriginal": "2026-09-24T00:00:00+00:00",
-          "primaryCountry": "World",
-          "primaryCountryIso3": "wld",
-          "primaryCountryLocation": null,
-          "source": "Save the Children",
-          "format": "News and Press Release",
-          "themes": [
-            "Coordination",
-            "Disaster Management"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/save-children-and-vodafone-foundation-launch-global-partnership-support-children-during-and-after-crises"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "complete-v0.3",
+      "themeMomentum": [
+        {
+          "name": "Protection and Human Rights",
+          "current": 27,
+          "previous": 16,
+          "absolute": 11,
+          "changePct": 68.75
+        },
+        {
+          "name": "Health",
+          "current": 19,
+          "previous": 10,
+          "absolute": 9,
+          "changePct": 90
+        },
+        {
+          "name": "Climate Change and Environment",
+          "current": 6,
+          "previous": 8,
+          "absolute": -2,
+          "changePct": -25
+        },
+        {
+          "name": "Disaster Management",
+          "current": 5,
+          "previous": 7,
+          "absolute": -2,
+          "changePct": -28.57142857142857
+        },
+        {
+          "name": "Agriculture",
+          "current": 4,
+          "previous": 8,
+          "absolute": -4,
+          "changePct": -50
+        },
+        {
+          "name": "Food and Nutrition",
+          "current": 3,
+          "previous": 9,
+          "absolute": -6,
+          "changePct": -66.66666666666666
+        },
+        {
+          "name": "Coordination",
+          "current": 6,
+          "previous": 4,
+          "absolute": 2,
+          "changePct": 50
+        },
+        {
+          "name": "Contributions",
+          "current": 7,
+          "previous": 2,
+          "absolute": 5,
+          "changePct": 250
+        },
+        {
+          "name": "Gender",
+          "current": 5,
+          "previous": 2,
+          "absolute": 3,
+          "changePct": 150
+        },
+        {
+          "name": "Humanitarian Financing",
+          "current": 2,
+          "previous": 4,
+          "absolute": -2,
+          "changePct": -50
+        },
+        {
+          "name": "Safety and Security",
+          "current": 4,
+          "previous": 1,
+          "absolute": 3,
+          "changePct": 300
+        },
+        {
+          "name": "Education",
+          "current": 1,
+          "previous": 4,
+          "absolute": -3,
+          "changePct": -75
+        },
+        {
+          "name": "Peacekeeping and Peacebuilding",
+          "current": 3,
+          "previous": 1,
+          "absolute": 2,
+          "changePct": 200
+        },
+        {
+          "name": "Recovery and Reconstruction",
+          "current": 3,
+          "previous": 1,
+          "absolute": 2,
+          "changePct": 200
+        },
+        {
+          "name": "Water Sanitation Hygiene",
+          "current": 2,
+          "previous": 1,
+          "absolute": 1,
+          "changePct": 100
+        },
+        {
+          "name": "Mine Action",
+          "current": 0,
+          "previous": 3,
+          "absolute": -3,
+          "changePct": -100
+        },
+        {
+          "name": "HIV/Aids",
+          "current": 2,
+          "previous": 0,
+          "absolute": 2,
+          "changePct": null
+        }
+      ],
+      "sourceMomentum": [
+        {
+          "name": "WHO",
+          "current": 5,
+          "previous": 5,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "ECHO",
+          "current": 3,
+          "previous": 4,
+          "absolute": -1,
+          "changePct": -25
+        },
+        {
+          "name": "Oxfam",
+          "current": 5,
+          "previous": 1,
+          "absolute": 4,
+          "changePct": 400
+        },
+        {
+          "name": "UNDP",
+          "current": 5,
+          "previous": 0,
+          "absolute": 5,
+          "changePct": null
+        },
+        {
+          "name": "IOM",
+          "current": 4,
+          "previous": 1,
+          "absolute": 3,
+          "changePct": 300
+        },
+        {
+          "name": "UNICEF",
+          "current": 4,
+          "previous": 1,
+          "absolute": 3,
+          "changePct": 300
+        },
+        {
+          "name": "UNHCR",
+          "current": 3,
+          "previous": 2,
+          "absolute": 1,
+          "changePct": 50
+        },
+        {
+          "name": "ICRC",
+          "current": 2,
+          "previous": 3,
+          "absolute": -1,
+          "changePct": -33.33333333333333
+        },
+        {
+          "name": "PAHO",
+          "current": 3,
+          "previous": 1,
+          "absolute": 2,
+          "changePct": 200
+        },
+        {
+          "name": "OCHA",
+          "current": 2,
+          "previous": 2,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "SPC",
+          "current": 2,
+          "previous": 2,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Save the Children",
+          "current": 2,
+          "previous": 2,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Govt. UK",
+          "current": 2,
+          "previous": 1,
+          "absolute": 1,
+          "changePct": 100
+        },
+        {
+          "name": "IRC",
+          "current": 2,
+          "previous": 1,
+          "absolute": 1,
+          "changePct": 100
+        },
+        {
+          "name": "Protection Cluster",
+          "current": 2,
+          "previous": 1,
+          "absolute": 1,
+          "changePct": 100
+        },
+        {
+          "name": "UN Women",
+          "current": 2,
+          "previous": 1,
+          "absolute": 1,
+          "changePct": 100
+        },
+        {
+          "name": "FEWS NET",
+          "current": 1,
+          "previous": 2,
+          "absolute": -1,
+          "changePct": -50
+        },
+        {
+          "name": "WFP",
+          "current": 1,
+          "previous": 2,
+          "absolute": -1,
+          "changePct": -50
+        },
+        {
+          "name": "Germanwatch",
+          "current": 0,
+          "previous": 3,
+          "absolute": -3,
+          "changePct": -100
+        },
+        {
+          "name": "Caritas",
+          "current": 2,
+          "previous": 0,
+          "absolute": 2,
+          "changePct": null
+        },
+        {
+          "name": "UN DPPA",
+          "current": 2,
+          "previous": 0,
+          "absolute": 2,
+          "changePct": null
+        },
+        {
+          "name": "UNFPA",
+          "current": 2,
+          "previous": 0,
+          "absolute": 2,
+          "changePct": null
+        },
+        {
+          "name": "EUAA",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "CERFAM",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "IFRC",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "WMO",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "ARC",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Baitulmaal",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "EIB",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "FAO",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "GCR2P",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "GPEI",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Govt. Norway",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "IPI",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "MSF",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "OHCHR",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "OSRSG Sexual Violence in Conflict",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "RUB",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "UNAIDS",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "UNDRR",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "UNODC",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "AGRA",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "ALNAP",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "EU",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "EiE Hub",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "Govt. Jordan",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "Govt. Netherlands",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "IEP",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "INEW",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "IPC",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "Insecurity Insight",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "KoboToolbox",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "LIFE",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "NPA",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "PHR",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "South Sudan Red Cross",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "UN",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "UN DESA",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "Ukrainian Red Cross Society",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "WEFA",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "WHH",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        }
+      ],
+      "formatMomentum": [
+        {
+          "name": "News and Press Release",
+          "current": 42,
+          "previous": 11,
+          "absolute": 31,
+          "changePct": 281.8181818181818
+        },
+        {
+          "name": "Analysis",
+          "current": 8,
+          "previous": 19,
+          "absolute": -11,
+          "changePct": -57.89473684210527
+        },
+        {
+          "name": "Situation Report",
+          "current": 6,
+          "previous": 8,
+          "absolute": -2,
+          "changePct": -25
+        },
+        {
+          "name": "Map",
+          "current": 3,
+          "previous": 5,
+          "absolute": -2,
+          "changePct": -40
+        },
+        {
+          "name": "Other",
+          "current": 3,
+          "previous": 2,
+          "absolute": 1,
+          "changePct": 50
+        },
+        {
+          "name": "Manual and Guideline",
+          "current": 2,
+          "previous": 2,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Infographic",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Assessment",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "Appeal",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        }
+      ],
+      "sourceEcology": {
+        "sourceAssignments": 236,
+        "uniqueSources": 60,
+        "top1Share": 7.627118644067797,
+        "top5Share": 31.35593220338983,
+        "shannonEntropy": 3.684553257098456,
+        "effectiveSourceCount": 39.82732589978297
+      },
+      "enrichedAt": "2026-09-26T07:59:10.114Z"
     },
     {
       "name": "Nepal",
@@ -1685,49 +2309,49 @@
       "reports7d": 21,
       "previous7d": 17,
       "change7d": 23.52941176470588,
-      "uniqueSources": 47,
+      "uniqueSources": 45,
       "themeBreadth": 16,
       "formatBreadth": 9,
       "topThemes": [
         {
-          "name": "Shelter and Non-Food Items",
-          "count": 71
-        },
-        {
           "name": "Health",
-          "count": 70
+          "count": 63
         },
         {
-          "name": "Water Sanitation Hygiene",
-          "count": 59
+          "name": "Shelter and Non-Food Items",
+          "count": 57
         },
         {
           "name": "Food and Nutrition",
-          "count": 54
+          "count": 53
+        },
+        {
+          "name": "Water Sanitation Hygiene",
+          "count": 52
         },
         {
           "name": "Logistics and Telecommunications",
-          "count": 47
+          "count": 46
         },
         {
           "name": "Protection and Human Rights",
-          "count": 41
-        },
-        {
-          "name": "Coordination",
-          "count": 24
+          "count": 42
         },
         {
           "name": "Education",
           "count": 21
         },
         {
+          "name": "Coordination",
+          "count": 19
+        },
+        {
           "name": "Contributions",
-          "count": 17
+          "count": 16
         },
         {
           "name": "Recovery and Reconstruction",
-          "count": 12
+          "count": 14
         },
         {
           "name": "Camp Coordination and Camp Management",
@@ -1735,7 +2359,7 @@
         },
         {
           "name": "Agriculture",
-          "count": 6
+          "count": 8
         },
         {
           "name": "Gender",
@@ -1751,13 +2375,13 @@
         },
         {
           "name": "Humanitarian Financing",
-          "count": 3
+          "count": 2
         }
       ],
       "topSources": [
         {
           "name": "WFP",
-          "count": 34
+          "count": 36
         },
         {
           "name": "MapAction",
@@ -1769,18 +2393,18 @@
         },
         {
           "name": "ETC",
-          "count": 18
-        },
-        {
-          "name": "IOM",
           "count": 17
         },
         {
-          "name": "UNICEF",
-          "count": 13
+          "name": "IOM",
+          "count": 14
         },
         {
           "name": "OCHA",
+          "count": 10
+        },
+        {
+          "name": "UNICEF",
           "count": 10
         },
         {
@@ -1793,14 +2417,10 @@
         },
         {
           "name": "Save the Children",
-          "count": 8
-        },
-        {
-          "name": "ECHO",
           "count": 7
         },
         {
-          "name": "Plan International",
+          "name": "ECHO",
           "count": 6
         },
         {
@@ -1808,39 +2428,23 @@
           "count": 6
         },
         {
-          "name": "Direct Relief",
+          "name": "Plan International",
           "count": 5
         },
         {
-          "name": "Oxfam",
+          "name": "UN Women",
           "count": 5
+        },
+        {
+          "name": "Direct Relief",
+          "count": 4
         },
         {
           "name": "Govt. Japan",
           "count": 4
         },
         {
-          "name": "Govt. Rep. Korea",
-          "count": 4
-        },
-        {
           "name": "HOPE",
-          "count": 4
-        },
-        {
-          "name": "Int'l Charter",
-          "count": 4
-        },
-        {
-          "name": "Qatar Charity",
-          "count": 4
-        },
-        {
-          "name": "UN Women",
-          "count": 4
-        },
-        {
-          "name": "UNOSAT",
           "count": 4
         },
         {
@@ -1852,11 +2456,19 @@
           "count": 3
         },
         {
+          "name": "Govt. Rep. Korea",
+          "count": 3
+        },
+        {
           "name": "IRDR",
           "count": 3
         },
         {
           "name": "Islamic Relief",
+          "count": 3
+        },
+        {
+          "name": "Qatar Charity",
           "count": 3
         },
         {
@@ -1872,10 +2484,6 @@
           "count": 3
         },
         {
-          "name": "CORUS",
-          "count": 2
-        },
-        {
           "name": "FAO",
           "count": 2
         },
@@ -1888,7 +2496,19 @@
           "count": 2
         },
         {
+          "name": "Int'l Charter",
+          "count": 2
+        },
+        {
+          "name": "Oxfam",
+          "count": 2
+        },
+        {
           "name": "PDC",
+          "count": 2
+        },
+        {
+          "name": "UNOSAT",
           "count": 2
         },
         {
@@ -1904,7 +2524,7 @@
           "count": 1
         },
         {
-          "name": "DFS",
+          "name": "CORUS",
           "count": 1
         },
         {
@@ -1928,10 +2548,6 @@
           "count": 1
         },
         {
-          "name": "MSF",
-          "count": 1
-        },
-        {
           "name": "UNDP",
           "count": 1
         },
@@ -1947,64 +2563,60 @@
       "topFormats": [
         {
           "name": "News and Press Release",
-          "count": 84
+          "count": 73
         },
         {
           "name": "Situation Report",
-          "count": 57
+          "count": 52
         },
         {
           "name": "Map",
-          "count": 36
+          "count": 33
         },
         {
           "name": "Other",
-          "count": 11
+          "count": 10
+        },
+        {
+          "name": "Manual and Guideline",
+          "count": 6
         },
         {
           "name": "Appeal",
           "count": 5
         },
         {
-          "name": "Manual and Guideline",
-          "count": 5
+          "name": "Assessment",
+          "count": 4
         },
         {
           "name": "Infographic",
           "count": 4
         },
         {
-          "name": "Assessment",
-          "count": 3
-        },
-        {
           "name": "Analysis",
-          "count": 2
+          "count": 3
         }
       ],
       "disasterTypes": [
         {
           "name": "Flood",
-          "count": 204
-        },
-        {
-          "name": "Flash Flood",
-          "count": 199
+          "count": 184
         },
         {
           "name": "Land Slide",
-          "count": 197
+          "count": 183
+        },
+        {
+          "name": "Flash Flood",
+          "count": 179
         },
         {
           "name": "Snow Avalanche",
-          "count": 3
+          "count": 2
         }
       ],
       "timeline": [
-        {
-          "date": "2026-08-27T00:00:00+00:00",
-          "count": 26
-        },
         {
           "date": "2026-08-28T00:00:00+00:00",
           "count": 22
@@ -2115,7 +2727,11 @@
         },
         {
           "date": "2026-09-24T00:00:00+00:00",
-          "count": 2
+          "count": 3
+        },
+        {
+          "date": "2026-09-25T00:00:00+00:00",
+          "count": 8
         }
       ],
       "recentReports": [
@@ -2146,28 +2762,6 @@
           "url": "https://reliefweb.int/report/nepal/one-month-nepal-floods-homeless-survivors-still-need-aid-hunger-spreads-0"
         },
         {
-          "id": "4231409",
-          "title": "One month after the Nepal floods, women are running community kitchens, feeding their communities, and rebuilding their lives",
-          "dateOriginal": "2026-09-25T00:00:00+00:00",
-          "primaryCountry": "Nepal",
-          "primaryCountryIso3": "npl",
-          "primaryCountryLocation": {
-            "lat": 28.25,
-            "lon": 83.94
-          },
-          "source": "UN Women",
-          "format": "News and Press Release",
-          "themes": [
-            "Food and Nutrition",
-            "Recovery and Reconstruction"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/nepal/one-month-after-nepal-floods-women-are-running-community-kitchens-feeding-their-communities-and-rebuilding-their-lives"
-        },
-        {
           "id": "4231419",
           "title": "Nepal floods: One month on - Red Cross steps up support as heavy rains continue",
           "dateOriginal": "2026-09-25T00:00:00+00:00",
@@ -2192,6 +2786,28 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/nepal/nepal-floods-one-month-red-cross-steps-support-heavy-rains-continue"
+        },
+        {
+          "id": "4231409",
+          "title": "One month after the Nepal floods, women are running community kitchens, feeding their communities, and rebuilding their lives",
+          "dateOriginal": "2026-09-25T00:00:00+00:00",
+          "primaryCountry": "Nepal",
+          "primaryCountryIso3": "npl",
+          "primaryCountryLocation": {
+            "lat": 28.25,
+            "lon": 83.94
+          },
+          "source": "UN Women",
+          "format": "News and Press Release",
+          "themes": [
+            "Food and Nutrition",
+            "Recovery and Reconstruction"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/nepal/one-month-after-nepal-floods-women-are-running-community-kitchens-feeding-their-communities-and-rebuilding-their-lives"
         },
         {
           "id": "4231437",
@@ -2393,6 +3009,31 @@
           "url": "https://reliefweb.int/report/nepal/nepal-flash-floods-2026-how-red-cross-responding"
         },
         {
+          "id": "4231280",
+          "title": "Nepal: Protection for girls must be stepped up as trafficking and violence risks rise one month after devastating floods",
+          "dateOriginal": "2026-09-24T00:00:00+00:00",
+          "primaryCountry": "Nepal",
+          "primaryCountryIso3": "npl",
+          "primaryCountryLocation": {
+            "lat": 28.25,
+            "lon": 83.94
+          },
+          "source": "Save the Children",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [
+            "Flash Flood",
+            "Flood",
+            "Land Slide"
+          ],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/nepal/nepal-protection-girls-must-be-stepped-trafficking-and-violence-risks-rise-one-month-after-devastating-floods"
+        },
+        {
           "id": "4231106",
           "title": "Japan contributes USD 1 million to support WFP’s emergency flood response in Nepal | World Food Programme",
           "dateOriginal": "2026-09-23T00:00:00+00:00",
@@ -2418,34 +3059,318 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/nepal/japan-contributes-usd-1-million-support-wfps-emergency-flood-response-nepal-world-food-programme"
-        },
-        {
-          "id": "4231136",
-          "title": "One month after the floods, efforts to restore education are helping children return to learning in Nepal",
-          "dateOriginal": "2026-09-23T00:00:00+00:00",
-          "primaryCountry": "Nepal",
-          "primaryCountryIso3": "npl",
-          "primaryCountryLocation": {
-            "lat": 28.25,
-            "lon": 83.94
-          },
-          "source": "UNICEF",
-          "format": "News and Press Release",
-          "themes": [
-            "Education"
-          ],
-          "disasterTypes": [
-            "Flash Flood",
-            "Flood",
-            "Land Slide"
-          ],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/nepal/one-month-after-floods-efforts-restore-education-are-helping-children-return-learning-nepal"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "complete-v0.3",
+      "themeMomentum": [
+        {
+          "name": "Logistics and Telecommunications",
+          "current": 8,
+          "previous": 7,
+          "absolute": 1,
+          "changePct": 14.285714285714285
+        },
+        {
+          "name": "Food and Nutrition",
+          "current": 10,
+          "previous": 4,
+          "absolute": 6,
+          "changePct": 150
+        },
+        {
+          "name": "Health",
+          "current": 5,
+          "previous": 5,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Protection and Human Rights",
+          "current": 6,
+          "previous": 2,
+          "absolute": 4,
+          "changePct": 200
+        },
+        {
+          "name": "Water Sanitation Hygiene",
+          "current": 4,
+          "previous": 4,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Recovery and Reconstruction",
+          "current": 4,
+          "previous": 2,
+          "absolute": 2,
+          "changePct": 100
+        },
+        {
+          "name": "Coordination",
+          "current": 2,
+          "previous": 4,
+          "absolute": -2,
+          "changePct": -50
+        },
+        {
+          "name": "Education",
+          "current": 4,
+          "previous": 1,
+          "absolute": 3,
+          "changePct": 300
+        },
+        {
+          "name": "Shelter and Non-Food Items",
+          "current": 3,
+          "previous": 2,
+          "absolute": 1,
+          "changePct": 50
+        },
+        {
+          "name": "Agriculture",
+          "current": 3,
+          "previous": 0,
+          "absolute": 3,
+          "changePct": null
+        },
+        {
+          "name": "Contributions",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Gender",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Camp Coordination and Camp Management",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Disaster Management",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        }
+      ],
+      "sourceMomentum": [
+        {
+          "name": "WFP",
+          "current": 10,
+          "previous": 6,
+          "absolute": 4,
+          "changePct": 66.66666666666666
+        },
+        {
+          "name": "Logistics Cluster",
+          "current": 5,
+          "previous": 5,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "ETC",
+          "current": 3,
+          "previous": 5,
+          "absolute": -2,
+          "changePct": -40
+        },
+        {
+          "name": "UNICEF",
+          "current": 2,
+          "previous": 2,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "OCHA",
+          "current": 1,
+          "previous": 2,
+          "absolute": -1,
+          "changePct": -50
+        },
+        {
+          "name": "IFRC",
+          "current": 2,
+          "previous": 0,
+          "absolute": 2,
+          "changePct": null
+        },
+        {
+          "name": "Plan International",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "UN RC Nepal",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "FAO",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Islamic Relief",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Save the Children",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "UN Women",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "UNFPA",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Direct Relief",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "ECHO",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "Govt. Japan",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "IOM",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "PDC",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "World Vision",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        }
+      ],
+      "formatMomentum": [
+        {
+          "name": "Situation Report",
+          "current": 6,
+          "previous": 6,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "News and Press Release",
+          "current": 8,
+          "previous": 3,
+          "absolute": 5,
+          "changePct": 166.66666666666669
+        },
+        {
+          "name": "Other",
+          "current": 3,
+          "previous": 3,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Manual and Guideline",
+          "current": 1,
+          "previous": 2,
+          "absolute": -1,
+          "changePct": -50
+        },
+        {
+          "name": "Map",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "Analysis",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Appeal",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Assessment",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Infographic",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        }
+      ],
+      "sourceEcology": {
+        "sourceAssignments": 244,
+        "uniqueSources": 45,
+        "top1Share": 14.754098360655737,
+        "top5Share": 46.31147540983606,
+        "shannonEntropy": 3.2504214142070835,
+        "effectiveSourceCount": 25.801210623213784
+      },
+      "enrichedAt": "2026-09-26T07:59:10.114Z"
     },
     {
       "name": "Democratic Republic of the Congo",
@@ -2467,23 +3392,23 @@
       "topThemes": [
         {
           "name": "Health",
-          "count": 113
+          "count": 109
         },
         {
           "name": "Protection and Human Rights",
-          "count": 63
+          "count": 61
         },
         {
           "name": "Coordination",
-          "count": 34
+          "count": 32
         },
         {
           "name": "Food and Nutrition",
-          "count": 24
+          "count": 22
         },
         {
           "name": "Water Sanitation Hygiene",
-          "count": 18
+          "count": 17
         },
         {
           "name": "Logistics and Telecommunications",
@@ -2491,14 +3416,10 @@
         },
         {
           "name": "Education",
-          "count": 10
+          "count": 9
         },
         {
           "name": "Safety and Security",
-          "count": 7
-        },
-        {
-          "name": "Shelter and Non-Food Items",
           "count": 7
         },
         {
@@ -2510,8 +3431,12 @@
           "count": 6
         },
         {
-          "name": "Humanitarian Financing",
+          "name": "Shelter and Non-Food Items",
           "count": 6
+        },
+        {
+          "name": "Humanitarian Financing",
+          "count": 5
         },
         {
           "name": "Contributions",
@@ -2533,7 +3458,7 @@
       "topSources": [
         {
           "name": "OCHA",
-          "count": 35
+          "count": 33
         },
         {
           "name": "WHO",
@@ -2545,11 +3470,11 @@
         },
         {
           "name": "IOM",
-          "count": 19
+          "count": 17
         },
         {
           "name": "UNICEF",
-          "count": 15
+          "count": 14
         },
         {
           "name": "WFP",
@@ -2577,7 +3502,7 @@
         },
         {
           "name": "Nutrition Cluster",
-          "count": 7
+          "count": 6
         },
         {
           "name": "Govt. DR Congo",
@@ -2589,6 +3514,10 @@
         },
         {
           "name": "IFRC",
+          "count": 4
+        },
+        {
+          "name": "Protection Cluster",
           "count": 4
         },
         {
@@ -2609,10 +3538,6 @@
         },
         {
           "name": "PSEA Network DRC",
-          "count": 3
-        },
-        {
-          "name": "Protection Cluster",
           "count": 3
         },
         {
@@ -2694,20 +3619,20 @@
           "count": 35
         },
         {
-          "name": "Other",
-          "count": 11
-        },
-        {
           "name": "Analysis",
           "count": 9
         },
         {
-          "name": "Assessment",
-          "count": 8
+          "name": "Other",
+          "count": 9
         },
         {
           "name": "Map",
-          "count": 8
+          "count": 7
+        },
+        {
+          "name": "Assessment",
+          "count": 6
         },
         {
           "name": "Manual and Guideline",
@@ -2717,7 +3642,7 @@
       "disasterTypes": [
         {
           "name": "Epidemic",
-          "count": 114
+          "count": 111
         },
         {
           "name": "Flood",
@@ -2737,10 +3662,6 @@
         }
       ],
       "timeline": [
-        {
-          "date": "2026-08-27T00:00:00+00:00",
-          "count": 7
-        },
         {
           "date": "2026-08-28T00:00:00+00:00",
           "count": 14
@@ -2852,6 +3773,10 @@
         {
           "date": "2026-09-24T00:00:00+00:00",
           "count": 5
+        },
+        {
+          "date": "2026-09-25T00:00:00+00:00",
+          "count": 2
         }
       ],
       "recentReports": [
@@ -2880,6 +3805,32 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/democratic-republic-congo/rbesa-sadc-region-population-concern-unhcr-31-august-2026"
+        },
+        {
+          "id": "4231461",
+          "title": "Cluster Protection RDC : Points saillants de la situation de protection en République démocratique du Congo du mois d’août 2026",
+          "dateOriginal": "2026-09-25T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "Protection Cluster, UNHCR",
+          "format": "Situation Report",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6a/1a/6a1a70d0-fa10-49d9-8f74-eb2f39298488.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6a/1a/6a1a70d0-fa10-49d9-8f74-eb2f39298488.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/6a/1a/6a1a70d0-fa10-49d9-8f74-eb2f39298488.png",
+            "https://reliefweb.int/sites/default/files/previews/6a/1a/6a1a70d0-fa10-49d9-8f74-eb2f39298488.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/6a/1a/6a1a70d0-fa10-49d9-8f74-eb2f39298488.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-points-saillants-de-la-situation-de-protection-en-republique-democratique-du-congo-du-mois-daout-2026"
         },
         {
           "id": "4231211",
@@ -3002,8 +3953,7 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/democratic-republic-congo/unicef-democratic-republic-congo-humanitarian-situation-report-no-3-ebola-outbreak-bundibugyo-virus-31-august",
-          "localThumbnail": "./assets/report-thumbs/rw-4231395.png",
-          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/8e/2b/8e2b01d0-d0bc-4ec9-985e-e54b1d8ad1a1.png"
+          "localThumbnail": "./assets/report-thumbs/rw-4231395.png"
         },
         {
           "id": "4231212",
@@ -3174,34 +4124,332 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/democratic-republic-congo/caring-children-ebola-democratic-republic-congo"
-        },
-        {
-          "id": "4230920",
-          "title": "La Directrice générale de l'OIM appelle à un soutien urgent alors que la RDC fait face à la plus grande épidémie d'Ebola jamais enregistrée",
-          "dateOriginal": "2026-09-22T00:00:00+00:00",
-          "primaryCountry": "Democratic Republic of the Congo",
-          "primaryCountryIso3": "cod",
-          "primaryCountryLocation": {
-            "lat": -4.03833,
-            "lon": 21.7587
-          },
-          "source": "IOM",
-          "format": "News and Press Release",
-          "themes": [
-            "Health"
-          ],
-          "disasterTypes": [
-            "Flood",
-            "Land Slide",
-            "Severe Local Storm"
-          ],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/la-directrice-generale-de-loim-appelle-un-soutien-urgent-alors-que-la-rdc-fait-face-la-plus-grande-epidemie-debola-jamais-enregistree"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "complete-v0.3",
+      "themeMomentum": [
+        {
+          "name": "Health",
+          "current": 22,
+          "previous": 26,
+          "absolute": -4,
+          "changePct": -15.384615384615385
+        },
+        {
+          "name": "Protection and Human Rights",
+          "current": 9,
+          "previous": 27,
+          "absolute": -18,
+          "changePct": -66.66666666666666
+        },
+        {
+          "name": "Food and Nutrition",
+          "current": 8,
+          "previous": 7,
+          "absolute": 1,
+          "changePct": 14.285714285714285
+        },
+        {
+          "name": "Coordination",
+          "current": 6,
+          "previous": 9,
+          "absolute": -3,
+          "changePct": -33.33333333333333
+        },
+        {
+          "name": "Water Sanitation Hygiene",
+          "current": 8,
+          "previous": 4,
+          "absolute": 4,
+          "changePct": 100
+        },
+        {
+          "name": "Education",
+          "current": 2,
+          "previous": 4,
+          "absolute": -2,
+          "changePct": -50
+        },
+        {
+          "name": "Logistics and Telecommunications",
+          "current": 2,
+          "previous": 3,
+          "absolute": -1,
+          "changePct": -33.33333333333333
+        },
+        {
+          "name": "Agriculture",
+          "current": 3,
+          "previous": 1,
+          "absolute": 2,
+          "changePct": 200
+        },
+        {
+          "name": "Shelter and Non-Food Items",
+          "current": 1,
+          "previous": 3,
+          "absolute": -2,
+          "changePct": -66.66666666666666
+        },
+        {
+          "name": "Disaster Management",
+          "current": 1,
+          "previous": 2,
+          "absolute": -1,
+          "changePct": -50
+        },
+        {
+          "name": "Humanitarian Financing",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Safety and Security",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "Contributions",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Gender",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        }
+      ],
+      "sourceMomentum": [
+        {
+          "name": "OCHA",
+          "current": 6,
+          "previous": 12,
+          "absolute": -6,
+          "changePct": -50
+        },
+        {
+          "name": "UNHCR",
+          "current": 3,
+          "previous": 15,
+          "absolute": -12,
+          "changePct": -80
+        },
+        {
+          "name": "WHO",
+          "current": 5,
+          "previous": 2,
+          "absolute": 3,
+          "changePct": 150
+        },
+        {
+          "name": "IOM",
+          "current": 3,
+          "previous": 4,
+          "absolute": -1,
+          "changePct": -25
+        },
+        {
+          "name": "REACH",
+          "current": 2,
+          "previous": 3,
+          "absolute": -1,
+          "changePct": -33.33333333333333
+        },
+        {
+          "name": "UNICEF",
+          "current": 2,
+          "previous": 3,
+          "absolute": -1,
+          "changePct": -33.33333333333333
+        },
+        {
+          "name": "WFP",
+          "current": 2,
+          "previous": 2,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "IFRC",
+          "current": 1,
+          "previous": 2,
+          "absolute": -1,
+          "changePct": -50
+        },
+        {
+          "name": "MSF",
+          "current": 1,
+          "previous": 2,
+          "absolute": -1,
+          "changePct": -50
+        },
+        {
+          "name": "CARE",
+          "current": 2,
+          "previous": 0,
+          "absolute": 2,
+          "changePct": null
+        },
+        {
+          "name": "FEWS NET",
+          "current": 2,
+          "previous": 0,
+          "absolute": 2,
+          "changePct": null
+        },
+        {
+          "name": "Health Cluster",
+          "current": 2,
+          "previous": 0,
+          "absolute": 2,
+          "changePct": null
+        },
+        {
+          "name": "Mercy Corps",
+          "current": 2,
+          "previous": 0,
+          "absolute": 2,
+          "changePct": null
+        },
+        {
+          "name": "Africa CDC",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Croix-Rouge de la RDC",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "ETC",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "Logistics Cluster",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "Nutrition Cluster",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "Protection Cluster",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "WASH Cluster",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "GPEI",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "Govt. DR Congo",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "UN Women",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        }
+      ],
+      "formatMomentum": [
+        {
+          "name": "Infographic",
+          "current": 9,
+          "previous": 28,
+          "absolute": -19,
+          "changePct": -67.85714285714286
+        },
+        {
+          "name": "Situation Report",
+          "current": 7,
+          "previous": 11,
+          "absolute": -4,
+          "changePct": -36.36363636363637
+        },
+        {
+          "name": "News and Press Release",
+          "current": 9,
+          "previous": 6,
+          "absolute": 3,
+          "changePct": 50
+        },
+        {
+          "name": "Analysis",
+          "current": 5,
+          "previous": 0,
+          "absolute": 5,
+          "changePct": null
+        },
+        {
+          "name": "Assessment",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Map",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Manual and Guideline",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        }
+      ],
+      "sourceEcology": {
+        "sourceAssignments": 223,
+        "uniqueSources": 37,
+        "top1Share": 14.798206278026907,
+        "top5Share": 50.672645739910315,
+        "shannonEntropy": 3.0410307565031283,
+        "effectiveSourceCount": 20.926802559805054
+      },
+      "enrichedAt": "2026-09-26T07:59:10.114Z"
     },
     {
       "name": "Yemen",
@@ -3223,11 +4471,11 @@
       "topThemes": [
         {
           "name": "Protection and Human Rights",
-          "count": 87
+          "count": 86
         },
         {
           "name": "Health",
-          "count": 34
+          "count": 31
         },
         {
           "name": "Coordination",
@@ -3239,7 +4487,7 @@
         },
         {
           "name": "Food and Nutrition",
-          "count": 13
+          "count": 14
         },
         {
           "name": "Water Sanitation Hygiene",
@@ -3259,15 +4507,15 @@
         },
         {
           "name": "Contributions",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Education",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Gender",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Humanitarian Financing",
@@ -3316,15 +4564,15 @@
           "count": 8
         },
         {
-          "name": "UNFPA",
-          "count": 5
-        },
-        {
           "name": "Oxfam",
           "count": 4
         },
         {
-          "name": "Save the Children",
+          "name": "UNFPA",
+          "count": 4
+        },
+        {
+          "name": "UNICEF",
           "count": 4
         },
         {
@@ -3348,10 +4596,6 @@
           "count": 3
         },
         {
-          "name": "UNICEF",
-          "count": 3
-        },
-        {
           "name": "WFP",
           "count": 3
         },
@@ -3361,10 +4605,6 @@
         },
         {
           "name": "CCY",
-          "count": 2
-        },
-        {
-          "name": "ECHO",
           "count": 2
         },
         {
@@ -3381,6 +4621,10 @@
         },
         {
           "name": "NRC",
+          "count": 2
+        },
+        {
+          "name": "Save the Children",
           "count": 2
         },
         {
@@ -3405,6 +4649,10 @@
         },
         {
           "name": "DRC",
+          "count": 1
+        },
+        {
+          "name": "ECHO",
           "count": 1
         },
         {
@@ -3467,14 +4715,14 @@
       "topFormats": [
         {
           "name": "News and Press Release",
-          "count": 66
-        },
-        {
-          "name": "Infographic",
-          "count": 30
+          "count": 63
         },
         {
           "name": "Situation Report",
+          "count": 31
+        },
+        {
+          "name": "Infographic",
           "count": 30
         },
         {
@@ -3493,7 +4741,7 @@
       "disasterTypes": [
         {
           "name": "Epidemic",
-          "count": 4
+          "count": 3
         },
         {
           "name": "Flash Flood",
@@ -3505,10 +4753,6 @@
         }
       ],
       "timeline": [
-        {
-          "date": "2026-08-27T00:00:00+00:00",
-          "count": 4
-        },
         {
           "date": "2026-08-28T00:00:00+00:00",
           "count": 1
@@ -3620,6 +4864,10 @@
         {
           "date": "2026-09-24T00:00:00+00:00",
           "count": 5
+        },
+        {
+          "date": "2026-09-25T00:00:00+00:00",
+          "count": 2
         }
       ],
       "recentReports": [
@@ -3646,35 +4894,30 @@
           "url": "https://reliefweb.int/report/yemen/hunger-and-malnutrition-stalking-yemens-children-violence-escalates"
         },
         {
-          "id": "4231215",
-          "title": "Critical funding needs across the Middle East and North Africa - September 2026",
-          "dateOriginal": "2026-09-24T00:00:00+00:00",
+          "id": "4231426",
+          "title": "Escalation in the Middle East and Beyond — Mobility Report (08 – 21 September 2026)",
+          "dateOriginal": "2026-09-25T00:00:00+00:00",
           "primaryCountry": "Yemen",
           "primaryCountryIso3": "yem",
           "primaryCountryLocation": {
             "lat": 15.94,
             "lon": 47.62
           },
-          "source": "UNHCR",
-          "format": "Appeal",
+          "source": "IOM",
+          "format": "Situation Report",
           "themes": [
-            "Camp Coordination and Camp Management",
-            "Health",
-            "Protection and Human Rights",
-            "Shelter and Non-Food Items",
-            "Water Sanitation Hygiene"
+            "Protection and Human Rights"
           ],
           "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f8/bf/f8bf18bd-039e-5c8a-b086-3e491c38533e.png",
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c8/4b/c84b15e8-41a8-528e-b571-4b094cbd5e4d.png",
           "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f8/bf/f8bf18bd-039e-5c8a-b086-3e491c38533e.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/f8/bf/f8bf18bd-039e-5c8a-b086-3e491c38533e.png",
-            "https://reliefweb.int/sites/default/files/previews/f8/bf/f8bf18bd-039e-5c8a-b086-3e491c38533e.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/f8/bf/f8bf18bd-039e-5c8a-b086-3e491c38533e.png"
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c8/4b/c84b15e8-41a8-528e-b571-4b094cbd5e4d.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/c8/4b/c84b15e8-41a8-528e-b571-4b094cbd5e4d.png",
+            "https://reliefweb.int/sites/default/files/previews/c8/4b/c84b15e8-41a8-528e-b571-4b094cbd5e4d.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/c8/4b/c84b15e8-41a8-528e-b571-4b094cbd5e4d.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/yemen/critical-funding-needs-across-middle-east-and-north-africa-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4231215.png"
+          "url": "https://reliefweb.int/report/yemen/escalation-middle-east-and-beyond-mobility-report-08-21-september-2026"
         },
         {
           "id": "4231328",
@@ -3719,6 +4962,37 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/yemen/ksrelief-y-la-oim-unen-fuerzas-para-ofrecer-alojamiento-mas-seguro-y-asistencia-vital-frente-una-crisis-cada-vez-mas-grave"
+        },
+        {
+          "id": "4231215",
+          "title": "Critical funding needs across the Middle East and North Africa - September 2026",
+          "dateOriginal": "2026-09-24T00:00:00+00:00",
+          "primaryCountry": "Yemen",
+          "primaryCountryIso3": "yem",
+          "primaryCountryLocation": {
+            "lat": 15.94,
+            "lon": 47.62
+          },
+          "source": "UNHCR",
+          "format": "Appeal",
+          "themes": [
+            "Camp Coordination and Camp Management",
+            "Health",
+            "Protection and Human Rights",
+            "Shelter and Non-Food Items",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f8/bf/f8bf18bd-039e-5c8a-b086-3e491c38533e.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f8/bf/f8bf18bd-039e-5c8a-b086-3e491c38533e.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/f8/bf/f8bf18bd-039e-5c8a-b086-3e491c38533e.png",
+            "https://reliefweb.int/sites/default/files/previews/f8/bf/f8bf18bd-039e-5c8a-b086-3e491c38533e.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/f8/bf/f8bf18bd-039e-5c8a-b086-3e491c38533e.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/yemen/critical-funding-needs-across-middle-east-and-north-africa-september-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4231215.png"
         },
         {
           "id": "4231299",
@@ -3770,8 +5044,8 @@
           "localThumbnail": "./assets/report-thumbs/rw-4231178.png"
         },
         {
-          "id": "4231097",
-          "title": "Situation Update No. 3: Escalation of hostilities and displacement across Yemen | Update No. 3 | as of 21 September 2026 | Reporting period: 1 August –20 September 2026 | Countrywide",
+          "id": "4231068",
+          "title": "WFP Yemen Country Brief #8, September 2026",
           "dateOriginal": "2026-09-23T00:00:00+00:00",
           "primaryCountry": "Yemen",
           "primaryCountryIso3": "yem",
@@ -3779,20 +5053,26 @@
             "lat": 15.94,
             "lon": 47.62
           },
-          "source": "OCHA",
+          "source": "WFP",
           "format": "Situation Report",
-          "themes": [],
+          "themes": [
+            "Education",
+            "Food and Nutrition",
+            "Logistics and Telecommunications",
+            "Protection and Human Rights",
+            "Shelter and Non-Food Items"
+          ],
           "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ce/cd/cecdf60b-2a81-4350-9e95-5db5945aef7e.png",
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/91/c8/91c89e6d-b6e8-4d32-bde0-7c345949f14c.png",
           "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ce/cd/cecdf60b-2a81-4350-9e95-5db5945aef7e.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ce/cd/cecdf60b-2a81-4350-9e95-5db5945aef7e.png",
-            "https://reliefweb.int/sites/default/files/previews/ce/cd/cecdf60b-2a81-4350-9e95-5db5945aef7e.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ce/cd/cecdf60b-2a81-4350-9e95-5db5945aef7e.png"
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/91/c8/91c89e6d-b6e8-4d32-bde0-7c345949f14c.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/91/c8/91c89e6d-b6e8-4d32-bde0-7c345949f14c.png",
+            "https://reliefweb.int/sites/default/files/previews/91/c8/91c89e6d-b6e8-4d32-bde0-7c345949f14c.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/91/c8/91c89e6d-b6e8-4d32-bde0-7c345949f14c.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/yemen/situation-update-no-3-escalation-hostilities-and-displacement-across-yemen-update-no-3-21-september-2026-reporting-period-1-august-20-september-2026-countrywide",
-          "localThumbnail": "./assets/report-thumbs/rw-4231097.png"
+          "url": "https://reliefweb.int/report/yemen/wfp-yemen-country-brief-8-september-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4231068.png"
         },
         {
           "id": "4231129",
@@ -3826,8 +5106,8 @@
           "localThumbnail": "./assets/report-thumbs/rw-4231129.png"
         },
         {
-          "id": "4231068",
-          "title": "WFP Yemen Country Brief #8, September 2026",
+          "id": "4231097",
+          "title": "Situation Update No. 3: Escalation of hostilities and displacement across Yemen | Update No. 3 | as of 21 September 2026 | Reporting period: 1 August –20 September 2026 | Countrywide",
           "dateOriginal": "2026-09-23T00:00:00+00:00",
           "primaryCountry": "Yemen",
           "primaryCountryIso3": "yem",
@@ -3835,26 +5115,20 @@
             "lat": 15.94,
             "lon": 47.62
           },
-          "source": "WFP",
+          "source": "OCHA",
           "format": "Situation Report",
-          "themes": [
-            "Education",
-            "Food and Nutrition",
-            "Logistics and Telecommunications",
-            "Protection and Human Rights",
-            "Shelter and Non-Food Items"
-          ],
+          "themes": [],
           "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/91/c8/91c89e6d-b6e8-4d32-bde0-7c345949f14c.png",
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ce/cd/cecdf60b-2a81-4350-9e95-5db5945aef7e.png",
           "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/91/c8/91c89e6d-b6e8-4d32-bde0-7c345949f14c.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/91/c8/91c89e6d-b6e8-4d32-bde0-7c345949f14c.png",
-            "https://reliefweb.int/sites/default/files/previews/91/c8/91c89e6d-b6e8-4d32-bde0-7c345949f14c.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/91/c8/91c89e6d-b6e8-4d32-bde0-7c345949f14c.png"
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ce/cd/cecdf60b-2a81-4350-9e95-5db5945aef7e.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ce/cd/cecdf60b-2a81-4350-9e95-5db5945aef7e.png",
+            "https://reliefweb.int/sites/default/files/previews/ce/cd/cecdf60b-2a81-4350-9e95-5db5945aef7e.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ce/cd/cecdf60b-2a81-4350-9e95-5db5945aef7e.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/yemen/wfp-yemen-country-brief-8-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4231068.png"
+          "url": "https://reliefweb.int/report/yemen/situation-update-no-3-escalation-hostilities-and-displacement-across-yemen-update-no-3-21-september-2026-reporting-period-1-august-20-september-2026-countrywide",
+          "localThumbnail": "./assets/report-thumbs/rw-4231097.png"
         },
         {
           "id": "4231360",
@@ -3886,8 +5160,7 @@
           ],
           "thumbnailCopyright": "WHO Yemen",
           "url": "https://reliefweb.int/report/yemen/who-scales-health-response-escalating-conflict-deepens-health-needs-yemen-enar",
-          "localThumbnail": "./assets/report-thumbs/rw-4231360.png",
-          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/57/1a/571a456e-e122-4000-9d7c-c4b5ae6fe75f.png"
+          "localThumbnail": "./assets/report-thumbs/rw-4231360.png"
         },
         {
           "id": "4231089",
@@ -3913,36 +5186,430 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/yemen/yemen-cannot-wait-joint-statement-humanitarian-development-and-civil-society-organizations"
-        },
-        {
-          "id": "4230804",
-          "title": "Yemen - Displacement Caused by Escalation in the West Coast — Update #8 (20 September 2026)",
-          "dateOriginal": "2026-09-22T00:00:00+00:00",
-          "primaryCountry": "Yemen",
-          "primaryCountryIso3": "yem",
-          "primaryCountryLocation": {
-            "lat": 15.94,
-            "lon": 47.62
-          },
-          "source": "IOM",
-          "format": "Situation Report",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7d/cf/7dcfb1f8-c801-5352-873a-c5ac4036fcf7.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7d/cf/7dcfb1f8-c801-5352-873a-c5ac4036fcf7.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/7d/cf/7dcfb1f8-c801-5352-873a-c5ac4036fcf7.png",
-            "https://reliefweb.int/sites/default/files/previews/7d/cf/7dcfb1f8-c801-5352-873a-c5ac4036fcf7.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/7d/cf/7dcfb1f8-c801-5352-873a-c5ac4036fcf7.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/yemen/yemen-displacement-caused-escalation-west-coast-update-8-20-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4230804.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "complete-v0.3",
+      "themeMomentum": [
+        {
+          "name": "Protection and Human Rights",
+          "current": 28,
+          "previous": 28,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Coordination",
+          "current": 2,
+          "previous": 19,
+          "absolute": -17,
+          "changePct": -89.47368421052632
+        },
+        {
+          "name": "Health",
+          "current": 7,
+          "previous": 11,
+          "absolute": -4,
+          "changePct": -36.36363636363637
+        },
+        {
+          "name": "Shelter and Non-Food Items",
+          "current": 8,
+          "previous": 4,
+          "absolute": 4,
+          "changePct": 100
+        },
+        {
+          "name": "Food and Nutrition",
+          "current": 4,
+          "previous": 2,
+          "absolute": 2,
+          "changePct": 100
+        },
+        {
+          "name": "Water Sanitation Hygiene",
+          "current": 4,
+          "previous": 2,
+          "absolute": 2,
+          "changePct": 100
+        },
+        {
+          "name": "Logistics and Telecommunications",
+          "current": 2,
+          "previous": 1,
+          "absolute": 1,
+          "changePct": 100
+        },
+        {
+          "name": "Contributions",
+          "current": 2,
+          "previous": 0,
+          "absolute": 2,
+          "changePct": null
+        },
+        {
+          "name": "Gender",
+          "current": 2,
+          "previous": 0,
+          "absolute": 2,
+          "changePct": null
+        },
+        {
+          "name": "Camp Coordination and Camp Management",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Education",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Agriculture",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Climate Change and Environment",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Safety and Security",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Disaster Management",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "Humanitarian Financing",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        }
+      ],
+      "sourceMomentum": [
+        {
+          "name": "IOM",
+          "current": 13,
+          "previous": 13,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "OCHA",
+          "current": 1,
+          "previous": 19,
+          "absolute": -18,
+          "changePct": -94.73684210526315
+        },
+        {
+          "name": "UNHCR",
+          "current": 7,
+          "previous": 4,
+          "absolute": 3,
+          "changePct": 75
+        },
+        {
+          "name": "WHO",
+          "current": 2,
+          "previous": 2,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "UNFPA",
+          "current": 3,
+          "previous": 0,
+          "absolute": 3,
+          "changePct": null
+        },
+        {
+          "name": "UNICEF",
+          "current": 1,
+          "previous": 2,
+          "absolute": -1,
+          "changePct": -50
+        },
+        {
+          "name": "ICRC",
+          "current": 0,
+          "previous": 3,
+          "absolute": -3,
+          "changePct": -100
+        },
+        {
+          "name": "CCY",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Health Cluster",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Oxfam",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "WFP",
+          "current": 1,
+          "previous": 1,
+          "absolute": 0,
+          "changePct": 0
+        },
+        {
+          "name": "Islamic Relief",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "MSF",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "NRC",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "Save the Children",
+          "current": 0,
+          "previous": 2,
+          "absolute": -2,
+          "changePct": -100
+        },
+        {
+          "name": "Action for Humanity",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Concern",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "FAO",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "GBV AoR",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "OSESGY",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "ACTED",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "CARE",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "CCCM Cluster",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "DRC",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "ECHO",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "GCR2P",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "Govt. Yemen",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "IMC",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "IRC",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "MDM",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "Mercy Corps",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "RKI",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "SI",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "SLSC Cluster",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "Shelter Cluster",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        },
+        {
+          "name": "UN DPPA",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        }
+      ],
+      "formatMomentum": [
+        {
+          "name": "News and Press Release",
+          "current": 17,
+          "previous": 27,
+          "absolute": -10,
+          "changePct": -37.03703703703704
+        },
+        {
+          "name": "Situation Report",
+          "current": 14,
+          "previous": 9,
+          "absolute": 5,
+          "changePct": 55.55555555555556
+        },
+        {
+          "name": "Infographic",
+          "current": 1,
+          "previous": 20,
+          "absolute": -19,
+          "changePct": -95
+        },
+        {
+          "name": "Analysis",
+          "current": 1,
+          "previous": 2,
+          "absolute": -1,
+          "changePct": -50
+        },
+        {
+          "name": "Appeal",
+          "current": 1,
+          "previous": 0,
+          "absolute": 1,
+          "changePct": null
+        },
+        {
+          "name": "Assessment",
+          "current": 0,
+          "previous": 1,
+          "absolute": -1,
+          "changePct": -100
+        }
+      ],
+      "sourceEcology": {
+        "sourceAssignments": 161,
+        "uniqueSources": 42,
+        "top1Share": 24.22360248447205,
+        "top5Share": 59.627329192546576,
+        "shannonEntropy": 2.93344078821871,
+        "effectiveSourceCount": 18.792179292735852
+      },
+      "enrichedAt": "2026-09-26T07:59:10.114Z"
     },
     {
       "name": "occupied Palestinian territory",
@@ -4678,7 +6345,7 @@
           "url": "https://reliefweb.int/report/occupied-palestinian-territory/her-majesty-queen-rania-al-abdullah-jordan-opens-high-level-dialogue-palestinian-children-military-detention-taoiseach-palestinian-and-other-world-representatives-un"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Afghanistan",
@@ -5394,7 +7061,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230554.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Sudan",
@@ -6074,7 +7741,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230719.jpg"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "South Sudan",
@@ -6736,7 +8403,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230438.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Ukraine",
@@ -7468,7 +9135,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230859.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Colombia",
@@ -8206,7 +9873,7 @@
           "url": "https://reliefweb.int/report/colombia/terremoto-en-colombia-el-cicr-apoya-la-recuperacion-de-infraestructura-comunitaria-esencial-en-zonas-afectadas-por-los-conflictos-armados"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Lebanon",
@@ -8884,7 +10551,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230637.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Pakistan",
@@ -9506,7 +11173,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230589.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Haiti",
@@ -10141,7 +11808,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230768.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Philippines",
@@ -10798,7 +12465,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230213.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Chad",
@@ -11414,7 +13081,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230395.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Somalia",
@@ -12141,7 +13808,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4231103.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Venezuela (Bolivarian Republic of)",
@@ -12851,7 +14518,7 @@
           "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/41/00/4100d097-2de6-4216-b2da-ea16898f11fb.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Syrian Arab Republic",
@@ -13542,7 +15209,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230899.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Central African Republic",
@@ -14133,7 +15800,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4231025.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Uganda",
@@ -14759,7 +16426,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4229954.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Nigeria",
@@ -15423,7 +17090,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4229559.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Sri Lanka",
@@ -15999,7 +17666,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4229638.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Bangladesh",
@@ -16629,7 +18296,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4228901.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Cameroon",
@@ -17269,7 +18936,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4228305.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Mali",
@@ -17847,7 +19514,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230098.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Myanmar",
@@ -18502,7 +20169,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230042.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Mozambique",
@@ -19158,7 +20825,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4228847.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Türkiye",
@@ -19722,7 +21389,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230658.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Kenya",
@@ -20349,7 +22016,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4229362.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Niger",
@@ -20937,7 +22604,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4229388.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Ethiopia",
@@ -21545,7 +23212,7 @@
           "url": "https://reliefweb.int/report/ethiopia/emergency-medical-teams-experts-three-regions-strengthen-multidisciplinary-approaches-outbreak-response"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Indonesia",
@@ -22896,7 +24563,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4227684.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Cuba",
@@ -23406,7 +25073,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4228310.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Honduras",
@@ -23945,7 +25612,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4228880.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Ecuador",
@@ -24479,7 +26146,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4229335.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Fiji",
@@ -24843,7 +26510,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4229385.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Malawi",
@@ -25057,7 +26724,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4227272.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Tajikistan",
@@ -25271,7 +26938,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4231018.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "Guinea-Bissau",
@@ -25745,7 +27412,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4227859.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "tls",
@@ -26121,7 +27788,7 @@
           "localThumbnail": "./assets/report-thumbs/rw-4229905.png"
         }
       ],
-      "enrichmentStatus": "complete"
+      "enrichmentStatus": "deferred"
     },
     {
       "name": "hrv",
@@ -29898,7 +31565,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-09-26T07:43:29.041Z",
+    "reportThumbnailCacheAt": "2026-09-26T07:59:12.750Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
