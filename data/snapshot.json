@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-09-26T17:11:39.664Z",
-  "lastSyncAttemptAt": "2026-09-26T17:11:39.664Z",
+  "generatedAt": "2026-09-26T19:52:31.815Z",
+  "lastSyncAttemptAt": "2026-09-26T19:52:31.815Z",
   "enrichedAt": "2026-09-26T07:59:10.114Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -1417,24 +1417,6 @@
       ],
       "recentReports": [
         {
-          "id": "4231399",
-          "title": "Sendai Framework data shows progress and persistent gaps in reducing disaster risk",
-          "dateOriginal": "2026-09-25T00:00:00+00:00",
-          "primaryCountry": "World",
-          "primaryCountryIso3": "wld",
-          "primaryCountryLocation": null,
-          "source": "UNDRR",
-          "format": "News and Press Release",
-          "themes": [
-            "Disaster Management"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/sendai-framework-data-shows-progress-and-persistent-gaps-reducing-disaster-risk"
-        },
-        {
           "id": "4231421",
           "title": "\"Did the Mother Benefit?\": Baitulmaal CEO Addresses Global Health Leaders at UNGA81",
           "dateOriginal": "2026-09-25T00:00:00+00:00",
@@ -1452,6 +1434,24 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/world/did-mother-benefit-baitulmaal-ceo-addresses-global-health-leaders-unga81"
+        },
+        {
+          "id": "4231399",
+          "title": "Sendai Framework data shows progress and persistent gaps in reducing disaster risk",
+          "dateOriginal": "2026-09-25T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "UNDRR",
+          "format": "News and Press Release",
+          "themes": [
+            "Disaster Management"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/sendai-framework-data-shows-progress-and-persistent-gaps-reducing-disaster-risk"
         },
         {
           "id": "4231458",
@@ -2138,6 +2138,28 @@
           "url": "https://reliefweb.int/report/nepal/one-month-nepal-floods-homeless-survivors-still-need-aid-hunger-spreads-0"
         },
         {
+          "id": "4231409",
+          "title": "One month after the Nepal floods, women are running community kitchens, feeding their communities, and rebuilding their lives",
+          "dateOriginal": "2026-09-25T00:00:00+00:00",
+          "primaryCountry": "Nepal",
+          "primaryCountryIso3": "npl",
+          "primaryCountryLocation": {
+            "lat": 28.25,
+            "lon": 83.94
+          },
+          "source": "UN Women",
+          "format": "News and Press Release",
+          "themes": [
+            "Food and Nutrition",
+            "Recovery and Reconstruction"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/nepal/one-month-after-nepal-floods-women-are-running-community-kitchens-feeding-their-communities-and-rebuilding-their-lives"
+        },
+        {
           "id": "4231419",
           "title": "Nepal floods: One month on - Red Cross steps up support as heavy rains continue",
           "dateOriginal": "2026-09-25T00:00:00+00:00",
@@ -2162,28 +2184,6 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/nepal/nepal-floods-one-month-red-cross-steps-support-heavy-rains-continue"
-        },
-        {
-          "id": "4231409",
-          "title": "One month after the Nepal floods, women are running community kitchens, feeding their communities, and rebuilding their lives",
-          "dateOriginal": "2026-09-25T00:00:00+00:00",
-          "primaryCountry": "Nepal",
-          "primaryCountryIso3": "npl",
-          "primaryCountryLocation": {
-            "lat": 28.25,
-            "lon": 83.94
-          },
-          "source": "UN Women",
-          "format": "News and Press Release",
-          "themes": [
-            "Food and Nutrition",
-            "Recovery and Reconstruction"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/nepal/one-month-after-nepal-floods-women-are-running-community-kitchens-feeding-their-communities-and-rebuilding-their-lives"
         },
         {
           "id": "4231437",
@@ -2897,7 +2897,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/6a/1a/6a1a70d0-fa10-49d9-8f74-eb2f39298488.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-points-saillants-de-la-situation-de-protection-en-republique-democratique-du-congo-du-mois-daout-2026"
+          "url": "https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-points-saillants-de-la-situation-de-protection-en-republique-democratique-du-congo-du-mois-daout-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4231461.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6a/1a/6a1a70d0-fa10-49d9-8f74-eb2f39298488.png"
         },
         {
           "id": "4231211",
@@ -9852,7 +9854,8 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/images/reports/7c/9b/7c9b74b4-4bda-47b1-abca-5f47be1fd42a.jpg"
           ],
           "thumbnailCopyright": "IOM",
-          "url": "https://reliefweb.int/report/haiti/nouvelles-donnees-de-loim-pres-de-15-million-de-personnes-deplacees-en-haiti-alors-que-les-risques-douragans-sintensifient"
+          "url": "https://reliefweb.int/report/haiti/nouvelles-donnees-de-loim-pres-de-15-million-de-personnes-deplacees-en-haiti-alors-que-les-risques-douragans-sintensifient",
+          "localThumbnail": "./assets/report-thumbs/rw-4231487.jpg"
         },
         {
           "id": "4231186",
@@ -13841,8 +13844,7 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/50/36/5036591b-695f-5518-a4f1-a05b775cbcff.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/central-african-republic/tableau-de-bord-de-fin-dannee-scolaire-2025-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4231447.png"
+          "url": "https://reliefweb.int/report/central-african-republic/tableau-de-bord-de-fin-dannee-scolaire-2025-2026"
         },
         {
           "id": "4231460",
@@ -27027,45 +27029,26 @@
       "url": "https://reliefweb.int/report/madagascar/giews-country-brief-madagascar-23-september-2026"
     },
     {
-      "id": "4231397",
-      "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
+      "id": "4231409",
+      "title": "One month after the Nepal floods, women are running community kitchens, feeding their communities, and rebuilding their lives",
       "dateOriginal": "2026-09-25T00:00:00+00:00",
-      "primaryCountry": "Ukraine",
-      "primaryCountryIso3": "ukr",
+      "primaryCountry": "Nepal",
+      "primaryCountryIso3": "npl",
       "primaryCountryLocation": {
-        "lat": 49.32,
-        "lon": 31.32
+        "lat": 28.25,
+        "lon": 83.94
       },
-      "source": "IAEA",
+      "source": "UN Women",
       "format": "News and Press Release",
       "themes": [
-        "Disaster Management"
-      ],
-      "disasterTypes": [
-        "Technological Disaster"
-      ],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ukraine/update-368-iaea-director-general-statement-situation-ukraine"
-    },
-    {
-      "id": "4231399",
-      "title": "Sendai Framework data shows progress and persistent gaps in reducing disaster risk",
-      "dateOriginal": "2026-09-25T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "UNDRR",
-      "format": "News and Press Release",
-      "themes": [
-        "Disaster Management"
+        "Food and Nutrition",
+        "Recovery and Reconstruction"
       ],
       "disasterTypes": [],
       "thumbnail": "",
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/sendai-framework-data-shows-progress-and-persistent-gaps-reducing-disaster-risk"
+      "url": "https://reliefweb.int/report/nepal/one-month-after-nepal-floods-women-are-running-community-kitchens-feeding-their-communities-and-rebuilding-their-lives"
     },
     {
       "id": "4231421",
@@ -27085,62 +27068,6 @@
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/did-mother-benefit-baitulmaal-ceo-addresses-global-health-leaders-unga81"
-    },
-    {
-      "id": "4231429",
-      "title": "South Sudan — Population Mobility Mapping (PMM) Report for Mobility Related Public Health Emergency Preparedness — Juba County, South Sudan (June 2026)",
-      "dateOriginal": "2026-09-25T00:00:00+00:00",
-      "primaryCountry": "South Sudan",
-      "primaryCountryIso3": "ssd",
-      "primaryCountryLocation": {
-        "lat": 6.9,
-        "lon": 30.5
-      },
-      "source": "IOM",
-      "format": "Infographic",
-      "themes": [
-        "Health",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/d2/c9d20771-befb-54b1-be58-9acc9dac9c2c.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/d2/c9d20771-befb-54b1-be58-9acc9dac9c2c.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/c9/d2/c9d20771-befb-54b1-be58-9acc9dac9c2c.png",
-        "https://reliefweb.int/sites/default/files/previews/c9/d2/c9d20771-befb-54b1-be58-9acc9dac9c2c.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/c9/d2/c9d20771-befb-54b1-be58-9acc9dac9c2c.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/south-sudan/south-sudan-population-mobility-mapping-pmm-report-mobility-related-public-health-emergency-preparedness-juba-county-south-sudan-june-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4231429.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/c9/d2/c9d20771-befb-54b1-be58-9acc9dac9c2c.png"
-    },
-    {
-      "id": "4231404",
-      "title": "Lebanon Response Plan: Shelter Sector Mid-Year 2026 - Q2 2026",
-      "dateOriginal": "2026-09-25T00:00:00+00:00",
-      "primaryCountry": "Lebanon",
-      "primaryCountryIso3": "lbn",
-      "primaryCountryLocation": {
-        "lat": 33.92,
-        "lon": 35.89
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Shelter and Non-Food Items"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
-        "https://reliefweb.int/sites/default/files/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/lebanon/lebanon-response-plan-shelter-sector-mid-year-2026-q2-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4231404.png"
     },
     {
       "id": "4231418",
@@ -27191,26 +27118,100 @@
       "url": "https://reliefweb.int/report/nepal/nepal-floods-one-month-red-cross-steps-support-heavy-rains-continue"
     },
     {
-      "id": "4231409",
-      "title": "One month after the Nepal floods, women are running community kitchens, feeding their communities, and rebuilding their lives",
+      "id": "4231429",
+      "title": "South Sudan — Population Mobility Mapping (PMM) Report for Mobility Related Public Health Emergency Preparedness — Juba County, South Sudan (June 2026)",
       "dateOriginal": "2026-09-25T00:00:00+00:00",
-      "primaryCountry": "Nepal",
-      "primaryCountryIso3": "npl",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
       "primaryCountryLocation": {
-        "lat": 28.25,
-        "lon": 83.94
+        "lat": 6.9,
+        "lon": 30.5
       },
-      "source": "UN Women",
+      "source": "IOM",
+      "format": "Infographic",
+      "themes": [
+        "Health",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/d2/c9d20771-befb-54b1-be58-9acc9dac9c2c.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/d2/c9d20771-befb-54b1-be58-9acc9dac9c2c.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/c9/d2/c9d20771-befb-54b1-be58-9acc9dac9c2c.png",
+        "https://reliefweb.int/sites/default/files/previews/c9/d2/c9d20771-befb-54b1-be58-9acc9dac9c2c.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/c9/d2/c9d20771-befb-54b1-be58-9acc9dac9c2c.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/south-sudan/south-sudan-population-mobility-mapping-pmm-report-mobility-related-public-health-emergency-preparedness-juba-county-south-sudan-june-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4231429.png"
+    },
+    {
+      "id": "4231399",
+      "title": "Sendai Framework data shows progress and persistent gaps in reducing disaster risk",
+      "dateOriginal": "2026-09-25T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "UNDRR",
       "format": "News and Press Release",
       "themes": [
-        "Food and Nutrition",
-        "Recovery and Reconstruction"
+        "Disaster Management"
       ],
       "disasterTypes": [],
       "thumbnail": "",
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/nepal/one-month-after-nepal-floods-women-are-running-community-kitchens-feeding-their-communities-and-rebuilding-their-lives"
+      "url": "https://reliefweb.int/report/world/sendai-framework-data-shows-progress-and-persistent-gaps-reducing-disaster-risk"
+    },
+    {
+      "id": "4231397",
+      "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
+      "dateOriginal": "2026-09-25T00:00:00+00:00",
+      "primaryCountry": "Ukraine",
+      "primaryCountryIso3": "ukr",
+      "primaryCountryLocation": {
+        "lat": 49.32,
+        "lon": 31.32
+      },
+      "source": "IAEA",
+      "format": "News and Press Release",
+      "themes": [
+        "Disaster Management"
+      ],
+      "disasterTypes": [
+        "Technological Disaster"
+      ],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/ukraine/update-368-iaea-director-general-statement-situation-ukraine"
+    },
+    {
+      "id": "4231404",
+      "title": "Lebanon Response Plan: Shelter Sector Mid-Year 2026 - Q2 2026",
+      "dateOriginal": "2026-09-25T00:00:00+00:00",
+      "primaryCountry": "Lebanon",
+      "primaryCountryIso3": "lbn",
+      "primaryCountryLocation": {
+        "lat": 33.92,
+        "lon": 35.89
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Shelter and Non-Food Items"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
+        "https://reliefweb.int/sites/default/files/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/bc/e4/bce451fc-6280-5422-bd90-184f002c5165.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/lebanon/lebanon-response-plan-shelter-sector-mid-year-2026-q2-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4231404.png"
     },
     {
       "id": "4231442",
@@ -27378,33 +27379,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4231450.png"
     },
     {
-      "id": "4231446",
-      "title": "Somalia Situation: Population of Concern to UNHCR - 31 August 2026",
-      "dateOriginal": "2026-09-25T00:00:00+00:00",
-      "primaryCountry": "Somalia",
-      "primaryCountryIso3": "som",
-      "primaryCountryLocation": {
-        "lat": 5.79,
-        "lon": 47.33
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
-        "https://reliefweb.int/sites/default/files/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/somalia/somalia-situation-population-concern-unhcr-31-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4231446.png"
-    },
-    {
       "id": "4231428",
       "title": "DTM Sudan Focused Flash Alert: Kordofan Region (7)",
       "dateOriginal": "2026-09-25T00:00:00+00:00",
@@ -27539,6 +27513,33 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/conceptos-basicos-de-grupo-mayoritario-alcanzado-plataforma-345w",
       "localThumbnail": "./assets/report-thumbs/rw-4231492.png"
+    },
+    {
+      "id": "4231446",
+      "title": "Somalia Situation: Population of Concern to UNHCR - 31 August 2026",
+      "dateOriginal": "2026-09-25T00:00:00+00:00",
+      "primaryCountry": "Somalia",
+      "primaryCountryIso3": "som",
+      "primaryCountryLocation": {
+        "lat": 5.79,
+        "lon": 47.33
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
+        "https://reliefweb.int/sites/default/files/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/somalia/somalia-situation-population-concern-unhcr-31-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4231446.png"
     },
     {
       "id": "4231427",
@@ -27886,32 +27887,32 @@
       "localThumbnail": "./assets/report-thumbs/rw-4231448.png"
     },
     {
-      "id": "4231487",
-      "title": "Nouvelles données de l'OIM : près de 1,5 million de personnes déplacées en Haïti alors que les risques d'ouragans s'intensifient",
+      "id": "4231447",
+      "title": "Tableau de bord de fin d'année scolaire 2025 - 2026",
       "dateOriginal": "2026-09-25T00:00:00+00:00",
-      "primaryCountry": "Haiti",
-      "primaryCountryIso3": "hti",
+      "primaryCountry": "Central African Republic",
+      "primaryCountryIso3": "caf",
       "primaryCountryLocation": {
-        "lat": 19.18,
-        "lon": -72.43
+        "lat": 6.57,
+        "lon": 20.48
       },
-      "source": "IOM",
-      "format": "News and Press Release",
+      "source": "UNHCR",
+      "format": "Infographic",
       "themes": [
-        "Protection and Human Rights",
-        "Shelter and Non-Food Items"
+        "Education",
+        "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/images/reports/7c/9b/7c9b74b4-4bda-47b1-abca-5f47be1fd42a.jpg",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/50/36/5036591b-695f-5518-a4f1-a05b775cbcff.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/images/reports/7c/9b/7c9b74b4-4bda-47b1-abca-5f47be1fd42a.jpg",
-        "https://reliefweb.int/sites/default/files/styles/small/public/images/reports/7c/9b/7c9b74b4-4bda-47b1-abca-5f47be1fd42a.jpg",
-        "https://reliefweb.int/sites/default/files/images/reports/7c/9b/7c9b74b4-4bda-47b1-abca-5f47be1fd42a.jpg",
-        "https://reliefweb.int/sites/default/files/styles/large/public/images/reports/7c/9b/7c9b74b4-4bda-47b1-abca-5f47be1fd42a.jpg"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/50/36/5036591b-695f-5518-a4f1-a05b775cbcff.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/50/36/5036591b-695f-5518-a4f1-a05b775cbcff.png",
+        "https://reliefweb.int/sites/default/files/previews/50/36/5036591b-695f-5518-a4f1-a05b775cbcff.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/50/36/5036591b-695f-5518-a4f1-a05b775cbcff.png"
       ],
-      "thumbnailCopyright": "IOM",
-      "url": "https://reliefweb.int/report/haiti/nouvelles-donnees-de-loim-pres-de-15-million-de-personnes-deplacees-en-haiti-alors-que-les-risques-douragans-sintensifient",
-      "localThumbnail": "./assets/report-thumbs/rw-4231487.jpg"
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/central-african-republic/tableau-de-bord-de-fin-dannee-scolaire-2025-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4231447.png"
     }
   ],
   "disasters": [
@@ -28576,133 +28577,6 @@
       ]
     },
     {
-      "id": "52435",
-      "name": "Bolivia: Wild Fires - Aug 2025",
-      "status": "ongoing",
-      "glide": "WF-2025-000163-BOL",
-      "dateEvent": "2025-08-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52435",
-      "primaryCountry": "Bolivia (Plurinational State of)",
-      "primaryCountryIso3": "bol",
-      "location": {
-        "lat": -16.97,
-        "lon": -64.27
-      },
-      "primaryType": "Wild Fire",
-      "types": [
-        "Wild Fire"
-      ]
-    },
-    {
-      "id": "52423",
-      "name": "Cabo Verde: Flash Floods - Aug 2025",
-      "status": "ongoing",
-      "glide": "FL-2025-000147-CPV",
-      "dateEvent": "2025-08-11T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52423",
-      "primaryCountry": "Cabo Verde",
-      "primaryCountryIso3": "cpv",
-      "location": {
-        "lat": 15.98,
-        "lon": -23.97
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood",
-        "Flood"
-      ]
-    },
-    {
-      "id": "52415",
-      "name": "Congo: Cholera Outbreak - Jul 2025",
-      "status": "ongoing",
-      "glide": "EP-2025-000130-COG",
-      "dateEvent": "2025-07-26T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52415",
-      "primaryCountry": "Congo",
-      "primaryCountryIso3": "cog",
-      "location": {
-        "lat": -0.31,
-        "lon": 15.99
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52406",
-      "name": "Guatemala: Earthquake - Jul 2025",
-      "status": "ongoing",
-      "glide": "EQ-2025-000111-GTM",
-      "dateEvent": "2025-07-08T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52406",
-      "primaryCountry": "Guatemala",
-      "primaryCountryIso3": "gtm",
-      "location": {
-        "lat": 15.61,
-        "lon": -90.39
-      },
-      "primaryType": "Earthquake",
-      "types": [
-        "Earthquake"
-      ]
-    },
-    {
-      "id": "52388",
-      "name": "Côte d'Ivoire: Cholera Outbreak - Jun 2025",
-      "status": "ongoing",
-      "glide": "EP-2025-000087-CIV",
-      "dateEvent": "2025-06-05T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52388",
-      "primaryCountry": "Côte d'Ivoire",
-      "primaryCountryIso3": "civ",
-      "location": {
-        "lat": 7.81,
-        "lon": -5.38
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52372",
-      "name": "Zimbabwe: Malaria Outbreak - May 2025",
-      "status": "ongoing",
-      "glide": "EP-2025-000075-ZWE",
-      "dateEvent": "2025-05-03T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52372",
-      "primaryCountry": "Zimbabwe",
-      "primaryCountryIso3": "zwe",
-      "location": {
-        "lat": -19.19,
-        "lon": 29.94
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52318",
-      "name": "Ecuador: Oil Spill - Mar 2025",
-      "status": "ongoing",
-      "glide": "AC-2025-000037-ECU",
-      "dateEvent": "2025-03-13T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52318",
-      "primaryCountry": "Ecuador",
-      "primaryCountryIso3": "ecu",
-      "location": {
-        "lat": -1.16,
-        "lon": -78.43
-      },
-      "primaryType": "Technological Disaster",
-      "types": [
-        "Technological Disaster"
-      ]
-    },
-    {
       "id": "52262",
       "name": "Angola: Cholera Outbreak - Jan 2025",
       "status": "ongoing",
@@ -28922,6 +28796,133 @@
       ]
     },
     {
+      "id": "52435",
+      "name": "Bolivia: Wild Fires - Aug 2025",
+      "status": "ongoing",
+      "glide": "WF-2025-000163-BOL",
+      "dateEvent": "2025-08-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52435",
+      "primaryCountry": "Bolivia (Plurinational State of)",
+      "primaryCountryIso3": "bol",
+      "location": {
+        "lat": -16.97,
+        "lon": -64.27
+      },
+      "primaryType": "Wild Fire",
+      "types": [
+        "Wild Fire"
+      ]
+    },
+    {
+      "id": "52423",
+      "name": "Cabo Verde: Flash Floods - Aug 2025",
+      "status": "ongoing",
+      "glide": "FL-2025-000147-CPV",
+      "dateEvent": "2025-08-11T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52423",
+      "primaryCountry": "Cabo Verde",
+      "primaryCountryIso3": "cpv",
+      "location": {
+        "lat": 15.98,
+        "lon": -23.97
+      },
+      "primaryType": "Flash Flood",
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ]
+    },
+    {
+      "id": "52415",
+      "name": "Congo: Cholera Outbreak - Jul 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000130-COG",
+      "dateEvent": "2025-07-26T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52415",
+      "primaryCountry": "Congo",
+      "primaryCountryIso3": "cog",
+      "location": {
+        "lat": -0.31,
+        "lon": 15.99
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52406",
+      "name": "Guatemala: Earthquake - Jul 2025",
+      "status": "ongoing",
+      "glide": "EQ-2025-000111-GTM",
+      "dateEvent": "2025-07-08T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52406",
+      "primaryCountry": "Guatemala",
+      "primaryCountryIso3": "gtm",
+      "location": {
+        "lat": 15.61,
+        "lon": -90.39
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake"
+      ]
+    },
+    {
+      "id": "52388",
+      "name": "Côte d'Ivoire: Cholera Outbreak - Jun 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000087-CIV",
+      "dateEvent": "2025-06-05T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52388",
+      "primaryCountry": "Côte d'Ivoire",
+      "primaryCountryIso3": "civ",
+      "location": {
+        "lat": 7.81,
+        "lon": -5.38
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52372",
+      "name": "Zimbabwe: Malaria Outbreak - May 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000075-ZWE",
+      "dateEvent": "2025-05-03T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52372",
+      "primaryCountry": "Zimbabwe",
+      "primaryCountryIso3": "zwe",
+      "location": {
+        "lat": -19.19,
+        "lon": 29.94
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52318",
+      "name": "Ecuador: Oil Spill - Mar 2025",
+      "status": "ongoing",
+      "glide": "AC-2025-000037-ECU",
+      "dateEvent": "2025-03-13T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52318",
+      "primaryCountry": "Ecuador",
+      "primaryCountryIso3": "ecu",
+      "location": {
+        "lat": -1.16,
+        "lon": -78.43
+      },
+      "primaryType": "Technological Disaster",
+      "types": [
+        "Technological Disaster"
+      ]
+    },
+    {
       "id": "46459",
       "name": "Madagascar: Drought - 2018-2025",
       "status": "ongoing",
@@ -28955,6 +28956,24 @@
       "primaryType": "Drought",
       "types": [
         "Drought"
+      ]
+    },
+    {
+      "id": "52562",
+      "name": "Typhoon Sinlaku - Apr 2026",
+      "status": "ongoing",
+      "glide": "TC-2026-000050-FSM",
+      "dateEvent": "2026-04-09T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52562",
+      "primaryCountry": "Micronesia (Federated States of)",
+      "primaryCountryIso3": "fsm",
+      "location": {
+        "lat": 6.08,
+        "lon": 160.4
+      },
+      "primaryType": "Tropical Cyclone",
+      "types": [
+        "Tropical Cyclone"
       ]
     },
     {
@@ -29013,42 +29032,6 @@
       ]
     },
     {
-      "id": "52658",
-      "name": "Myanmar: Floods - Jul 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000141-MMR",
-      "dateEvent": "2026-07-30T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52658",
-      "primaryCountry": "Myanmar",
-      "primaryCountryIso3": "mmr",
-      "location": {
-        "lat": 21.15,
-        "lon": 96.51
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52562",
-      "name": "Typhoon Sinlaku - Apr 2026",
-      "status": "ongoing",
-      "glide": "TC-2026-000050-FSM",
-      "dateEvent": "2026-04-09T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52562",
-      "primaryCountry": "Micronesia (Federated States of)",
-      "primaryCountryIso3": "fsm",
-      "location": {
-        "lat": 6.08,
-        "lon": 160.4
-      },
-      "primaryType": "Tropical Cyclone",
-      "types": [
-        "Tropical Cyclone"
-      ]
-    },
-    {
       "id": "23121",
       "name": "Ethiopia: Drought - 2015-2026",
       "status": "ongoing",
@@ -29064,6 +29047,24 @@
       "primaryType": "Drought",
       "types": [
         "Drought"
+      ]
+    },
+    {
+      "id": "52658",
+      "name": "Myanmar: Floods - Jul 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000141-MMR",
+      "dateEvent": "2026-07-30T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52658",
+      "primaryCountry": "Myanmar",
+      "primaryCountryIso3": "mmr",
+      "location": {
+        "lat": 21.15,
+        "lon": 96.51
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
       ]
     },
     {
@@ -29893,7 +29894,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-09-26T17:11:39.664Z",
+    "queryGeneratedAt": "2026-09-26T19:52:31.815Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -29904,7 +29905,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-09-26T17:11:40.567Z",
+    "reportThumbnailCacheAt": "2026-09-26T19:52:33.747Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
