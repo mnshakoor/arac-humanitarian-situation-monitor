@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-10-01T19:33:21.958Z",
-  "lastSyncAttemptAt": "2026-10-01T19:33:21.958Z",
+  "generatedAt": "2026-10-01T23:53:25.339Z",
+  "lastSyncAttemptAt": "2026-10-01T23:53:25.339Z",
   "enrichedAt": "2026-10-01T09:24:29.942Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -22,7 +22,7 @@
     }
   },
   "summary": {
-    "reports30d": 2288,
+    "reports30d": 2287,
     "countries": 124,
     "uniqueSources": 150,
     "activeDisasters": 108,
@@ -109,7 +109,7 @@
     },
     {
       "date": "2026-09-21T00:00:00+00:00",
-      "count": 107
+      "count": 105
     },
     {
       "date": "2026-09-22T00:00:00+00:00",
@@ -145,7 +145,7 @@
     },
     {
       "date": "2026-09-30T00:00:00+00:00",
-      "count": 94
+      "count": 95
     },
     {
       "date": "2026-10-01T00:00:00+00:00",
@@ -159,23 +159,23 @@
     },
     {
       "name": "Health",
-      "count": 707
+      "count": 706
     },
     {
       "name": "Food and Nutrition",
-      "count": 546
+      "count": 544
     },
     {
       "name": "Shelter and Non-Food Items",
-      "count": 381
+      "count": 379
     },
     {
       "name": "Water Sanitation Hygiene",
-      "count": 371
+      "count": 369
     },
     {
       "name": "Coordination",
-      "count": 298
+      "count": 296
     },
     {
       "name": "Agriculture",
@@ -183,7 +183,7 @@
     },
     {
       "name": "Education",
-      "count": 212
+      "count": 210
     },
     {
       "name": "Logistics and Telecommunications",
@@ -245,7 +245,7 @@
     },
     {
       "name": "OCHA",
-      "count": 223
+      "count": 221
     },
     {
       "name": "WFP",
@@ -257,7 +257,7 @@
     },
     {
       "name": "UNICEF",
-      "count": 88
+      "count": 89
     },
     {
       "name": "IFRC",
@@ -843,11 +843,11 @@
     },
     {
       "name": "News and Press Release",
-      "count": 599
+      "count": 600
     },
     {
       "name": "Infographic",
-      "count": 519
+      "count": 517
     },
     {
       "name": "Analysis",
@@ -2153,7 +2153,8 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/e3/75/e375cd72-4658-49af-88c7-1eb59cca0e87.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-guide-dinformation-et-dutilisation-cartographie-integree-des-services-de-protection-en-rdc-guide-du-processus-des-objectifs-et-dutilisation-de-loutil-de-collecte-coordination-nationale-aout-2026"
+          "url": "https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-guide-dinformation-et-dutilisation-cartographie-integree-des-services-de-protection-en-rdc-guide-du-processus-des-objectifs-et-dutilisation-de-loutil-de-collecte-coordination-nationale-aout-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4232170.png"
         },
         {
           "id": "4231927",
@@ -4648,32 +4649,6 @@
           "url": "https://reliefweb.int/report/afghanistan/unama-confirms-civilian-casualties-afghanistan-united-nations-peace-operations"
         },
         {
-          "id": "4232257",
-          "title": "Shelter Cluster Afghanistan: August Monthly Snapshot 2026",
-          "dateOriginal": "2026-10-01T00:00:00+00:00",
-          "primaryCountry": "Afghanistan",
-          "primaryCountryIso3": "afg",
-          "primaryCountryLocation": {
-            "lat": 33.84,
-            "lon": 66.03
-          },
-          "source": "CCCM Cluster, IOM, Shelter Cluster, UNHCR",
-          "format": "Infographic",
-          "themes": [
-            "Shelter and Non-Food Items"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
-            "https://reliefweb.int/sites/default/files/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-august-monthly-snapshot-2026"
-        },
-        {
           "id": "4232270",
           "title": "Shelter Cluster Afghanistan: Western Region Monthly Snapshot (January - August 2026)",
           "dateOriginal": "2026-10-01T00:00:00+00:00",
@@ -4698,6 +4673,32 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-western-region-monthly-snapshot-january-august-2026"
+        },
+        {
+          "id": "4232257",
+          "title": "Shelter Cluster Afghanistan: August Monthly Snapshot 2026",
+          "dateOriginal": "2026-10-01T00:00:00+00:00",
+          "primaryCountry": "Afghanistan",
+          "primaryCountryIso3": "afg",
+          "primaryCountryLocation": {
+            "lat": 33.84,
+            "lon": 66.03
+          },
+          "source": "CCCM Cluster, IOM, Shelter Cluster, UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Shelter and Non-Food Items"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
+            "https://reliefweb.int/sites/default/files/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-august-monthly-snapshot-2026"
         }
       ],
       "enrichmentStatus": "complete"
@@ -8310,6 +8311,702 @@
       "enrichmentStatus": "complete"
     },
     {
+      "name": "Somalia",
+      "shortname": "Somalia",
+      "iso3": "som",
+      "location": {
+        "lat": 5.79,
+        "lon": 47.33
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 59,
+      "reports7d": 13,
+      "previous7d": 21,
+      "change7d": -38.095238095238095,
+      "uniqueSources": 27,
+      "themeBreadth": 16,
+      "formatBreadth": 7,
+      "topThemes": [
+        {
+          "name": "Food and Nutrition",
+          "count": 29
+        },
+        {
+          "name": "Health",
+          "count": 23
+        },
+        {
+          "name": "Protection and Human Rights",
+          "count": 23
+        },
+        {
+          "name": "Agriculture",
+          "count": 22
+        },
+        {
+          "name": "Water Sanitation Hygiene",
+          "count": 12
+        },
+        {
+          "name": "Shelter and Non-Food Items",
+          "count": 6
+        },
+        {
+          "name": "Climate Change and Environment",
+          "count": 5
+        },
+        {
+          "name": "Education",
+          "count": 5
+        },
+        {
+          "name": "Disaster Management",
+          "count": 4
+        },
+        {
+          "name": "Contributions",
+          "count": 3
+        },
+        {
+          "name": "Coordination",
+          "count": 2
+        },
+        {
+          "name": "Logistics and Telecommunications",
+          "count": 2
+        },
+        {
+          "name": "Gender",
+          "count": 1
+        },
+        {
+          "name": "Mine Action",
+          "count": 1
+        },
+        {
+          "name": "Peacekeeping and Peacebuilding",
+          "count": 1
+        },
+        {
+          "name": "Safety and Security",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "FSNAU",
+          "count": 10
+        },
+        {
+          "name": "IOM",
+          "count": 5
+        },
+        {
+          "name": "WFP",
+          "count": 5
+        },
+        {
+          "name": "UNHCR",
+          "count": 4
+        },
+        {
+          "name": "FAO",
+          "count": 3
+        },
+        {
+          "name": "OCHA",
+          "count": 3
+        },
+        {
+          "name": "Radio Ergo",
+          "count": 3
+        },
+        {
+          "name": "UNICEF",
+          "count": 3
+        },
+        {
+          "name": "CARE",
+          "count": 2
+        },
+        {
+          "name": "FEWS NET",
+          "count": 2
+        },
+        {
+          "name": "Govt. Somalia",
+          "count": 2
+        },
+        {
+          "name": "IGAD",
+          "count": 2
+        },
+        {
+          "name": "IPC",
+          "count": 2
+        },
+        {
+          "name": "IRC",
+          "count": 2
+        },
+        {
+          "name": "MSF",
+          "count": 2
+        },
+        {
+          "name": "Save the Children",
+          "count": 2
+        },
+        {
+          "name": "WHH",
+          "count": 2
+        },
+        {
+          "name": "Berghof Foundation",
+          "count": 1
+        },
+        {
+          "name": "GREDO",
+          "count": 1
+        },
+        {
+          "name": "Govt. UK",
+          "count": 1
+        },
+        {
+          "name": "NRC",
+          "count": 1
+        },
+        {
+          "name": "Protection Cluster",
+          "count": 1
+        },
+        {
+          "name": "SASDO",
+          "count": 1
+        },
+        {
+          "name": "SNC",
+          "count": 1
+        },
+        {
+          "name": "Turkish Red Crescent",
+          "count": 1
+        },
+        {
+          "name": "UNDRR",
+          "count": 1
+        },
+        {
+          "name": "iMMAP Inc.",
+          "count": 1
+        }
+      ],
+      "topFormats": [
+        {
+          "name": "News and Press Release",
+          "count": 18
+        },
+        {
+          "name": "Infographic",
+          "count": 12
+        },
+        {
+          "name": "Situation Report",
+          "count": 10
+        },
+        {
+          "name": "Analysis",
+          "count": 7
+        },
+        {
+          "name": "Assessment",
+          "count": 4
+        },
+        {
+          "name": "Map",
+          "count": 3
+        },
+        {
+          "name": "Other",
+          "count": 3
+        }
+      ],
+      "disasterTypes": [
+        {
+          "name": "Drought",
+          "count": 39
+        },
+        {
+          "name": "Flood",
+          "count": 18
+        },
+        {
+          "name": "Epidemic",
+          "count": 4
+        },
+        {
+          "name": "Heat Wave",
+          "count": 2
+        },
+        {
+          "name": "Insect Infestation",
+          "count": 1
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-02T00:00:00+00:00",
+          "count": 3
+        },
+        {
+          "date": "2026-09-03T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-09-04T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-05T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-06T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-07T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-08T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-09T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-09-10T00:00:00+00:00",
+          "count": 5
+        },
+        {
+          "date": "2026-09-11T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-12T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-13T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-09-14T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-15T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-09-16T00:00:00+00:00",
+          "count": 3
+        },
+        {
+          "date": "2026-09-17T00:00:00+00:00",
+          "count": 3
+        },
+        {
+          "date": "2026-09-18T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-19T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-20T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-21T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-09-22T00:00:00+00:00",
+          "count": 3
+        },
+        {
+          "date": "2026-09-23T00:00:00+00:00",
+          "count": 11
+        },
+        {
+          "date": "2026-09-24T00:00:00+00:00",
+          "count": 4
+        },
+        {
+          "date": "2026-09-25T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-09-26T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-27T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-28T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-09-29T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-09-30T00:00:00+00:00",
+          "count": 3
+        }
+      ],
+      "recentReports": [
+        {
+          "id": "4232006",
+          "title": "Anticipatory Action Plan for Drought – Sanaag, Sool, Somaliland/Somalia",
+          "dateOriginal": "2026-09-30T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "WHH",
+          "format": "Other",
+          "themes": [
+            "Disaster Management"
+          ],
+          "disasterTypes": [
+            "Drought"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/06/8e/068e64d8-2a3d-41e8-be5a-44ef494b438b.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/06/8e/068e64d8-2a3d-41e8-be5a-44ef494b438b.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/06/8e/068e64d8-2a3d-41e8-be5a-44ef494b438b.png",
+            "https://reliefweb.int/sites/default/files/previews/06/8e/068e64d8-2a3d-41e8-be5a-44ef494b438b.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/06/8e/068e64d8-2a3d-41e8-be5a-44ef494b438b.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/anticipatory-action-plan-drought-sanaag-sool-somalilandsomalia",
+          "localThumbnail": "./assets/report-thumbs/rw-4232006.png"
+        },
+        {
+          "id": "4232063",
+          "title": "Somalia health centers close as hunger and drought deepen",
+          "dateOriginal": "2026-09-30T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "CARE",
+          "format": "News and Press Release",
+          "themes": [
+            "Health",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Drought"
+          ],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/somalia-health-centers-close-hunger-and-drought-deepen"
+        },
+        {
+          "id": "4232003",
+          "title": "Republic of Korea funds school meals and nutrition for children in Somalia | World Food Programme",
+          "dateOriginal": "2026-09-30T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "WFP",
+          "format": "News and Press Release",
+          "themes": [
+            "Contributions",
+            "Food and Nutrition"
+          ],
+          "disasterTypes": [
+            "Drought"
+          ],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/republic-korea-funds-school-meals-and-nutrition-children-somalia-world-food-programme"
+        },
+        {
+          "id": "4231869",
+          "title": "Children among those injured as heavy fighting hits Baidoa - Child rights agencies call for protection of civilians",
+          "dateOriginal": "2026-09-29T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "Save the Children",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights",
+            "Safety and Security"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/children-among-those-injured-heavy-fighting-hits-baidoa-child-rights-agencies-call-protection-civilians"
+        },
+        {
+          "id": "4231764",
+          "title": "WFP Somalia Country Brief September 2026",
+          "dateOriginal": "2026-09-29T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "WFP",
+          "format": "Situation Report",
+          "themes": [
+            "Agriculture",
+            "Education",
+            "Food and Nutrition",
+            "Health",
+            "Logistics and Telecommunications"
+          ],
+          "disasterTypes": [
+            "Drought"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5d/a5/5da52fc5-9666-492b-a664-905927cbcc2c.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5d/a5/5da52fc5-9666-492b-a664-905927cbcc2c.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/5d/a5/5da52fc5-9666-492b-a664-905927cbcc2c.png",
+            "https://reliefweb.int/sites/default/files/previews/5d/a5/5da52fc5-9666-492b-a664-905927cbcc2c.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/5d/a5/5da52fc5-9666-492b-a664-905927cbcc2c.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/wfp-somalia-country-brief-september-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4231764.png"
+        },
+        {
+          "id": "4231753",
+          "title": "People and healthcare must be protected amid escalating violence in Baidoa, Somalia",
+          "dateOriginal": "2026-09-28T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "MSF",
+          "format": "News and Press Release",
+          "themes": [
+            "Health",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/people-and-healthcare-must-be-protected-amid-escalating-violence-baidoa-somalia"
+        },
+        {
+          "id": "4231720",
+          "title": "Statement by the Humanitarian Coordinator for Somalia Mr. George Conway on the situation in Baidoa",
+          "dateOriginal": "2026-09-28T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "OCHA",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/53/d4/53d40cc6-7dce-4684-a153-85a33fc74970.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/53/d4/53d40cc6-7dce-4684-a153-85a33fc74970.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/53/d4/53d40cc6-7dce-4684-a153-85a33fc74970.png",
+            "https://reliefweb.int/sites/default/files/previews/53/d4/53d40cc6-7dce-4684-a153-85a33fc74970.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/53/d4/53d40cc6-7dce-4684-a153-85a33fc74970.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/statement-humanitarian-coordinator-somalia-mr-george-conway-situation-baidoa",
+          "localThumbnail": "./assets/report-thumbs/rw-4231720.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/53/d4/53d40cc6-7dce-4684-a153-85a33fc74970.png"
+        },
+        {
+          "id": "4231566",
+          "title": "Somalia: Estimated Population Exposed to Flood Risk (As of 27 September 2026)",
+          "dateOriginal": "2026-09-27T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "OCHA",
+          "format": "Map",
+          "themes": [],
+          "disasterTypes": [
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8d/3c/8d3c819c-655c-4133-9612-9a61aa9245cb.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8d/3c/8d3c819c-655c-4133-9612-9a61aa9245cb.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/8d/3c/8d3c819c-655c-4133-9612-9a61aa9245cb.png",
+            "https://reliefweb.int/sites/default/files/previews/8d/3c/8d3c819c-655c-4133-9612-9a61aa9245cb.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/8d/3c/8d3c819c-655c-4133-9612-9a61aa9245cb.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/map/somalia/somalia-estimated-population-exposed-flood-risk-27-september-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4231566.png"
+        },
+        {
+          "id": "4231612",
+          "title": "NRC Somalia: Monthly Programme Update (August 2026)",
+          "dateOriginal": "2026-09-26T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "NRC",
+          "format": "Situation Report",
+          "themes": [
+            "Education",
+            "Food and Nutrition",
+            "Protection and Human Rights",
+            "Shelter and Non-Food Items",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Drought"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8f/95/8f9512f5-e44f-470d-a5c2-ff2f84fb5e18.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8f/95/8f9512f5-e44f-470d-a5c2-ff2f84fb5e18.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/8f/95/8f9512f5-e44f-470d-a5c2-ff2f84fb5e18.png",
+            "https://reliefweb.int/sites/default/files/previews/8f/95/8f9512f5-e44f-470d-a5c2-ff2f84fb5e18.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/8f/95/8f9512f5-e44f-470d-a5c2-ff2f84fb5e18.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/nrc-somalia-monthly-programme-update-august-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4231612.png"
+        },
+        {
+          "id": "4231476",
+          "title": "Radio Ergo Weekly Feedback Report, Issued: 25 Sept 2026",
+          "dateOriginal": "2026-09-25T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "Radio Ergo",
+          "format": "News and Press Release",
+          "themes": [
+            "Agriculture",
+            "Food and Nutrition",
+            "Health",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Drought"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/4d/fd4d8011-824e-44c7-be86-a94e6708edce.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/4d/fd4d8011-824e-44c7-be86-a94e6708edce.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/fd/4d/fd4d8011-824e-44c7-be86-a94e6708edce.png",
+            "https://reliefweb.int/sites/default/files/previews/fd/4d/fd4d8011-824e-44c7-be86-a94e6708edce.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/fd/4d/fd4d8011-824e-44c7-be86-a94e6708edce.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-25-sept-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4231476.png"
+        },
+        {
+          "id": "4231446",
+          "title": "Somalia Situation: Population of Concern to UNHCR - 31 August 2026",
+          "dateOriginal": "2026-09-25T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
+            "https://reliefweb.int/sites/default/files/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/somalia-situation-population-concern-unhcr-31-august-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4231446.png"
+        },
+        {
+          "id": "4231373",
+          "title": "Weathering the risk in Somalia: An evaluation and analysis of outcomes",
+          "dateOriginal": "2026-09-24T00:00:00+00:00",
+          "primaryCountry": "Somalia",
+          "primaryCountryIso3": "som",
+          "primaryCountryLocation": {
+            "lat": 5.79,
+            "lon": 47.33
+          },
+          "source": "Berghof Foundation",
+          "format": "Analysis",
+          "themes": [
+            "Climate Change and Environment",
+            "Peacekeeping and Peacebuilding"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/65/49/65499af9-ddbc-4063-8ade-99f3024af92d.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/65/49/65499af9-ddbc-4063-8ade-99f3024af92d.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/65/49/65499af9-ddbc-4063-8ade-99f3024af92d.png",
+            "https://reliefweb.int/sites/default/files/previews/65/49/65499af9-ddbc-4063-8ade-99f3024af92d.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/65/49/65499af9-ddbc-4063-8ade-99f3024af92d.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/somalia/weathering-risk-somalia-evaluation-and-analysis-outcomes",
+          "localThumbnail": "./assets/report-thumbs/rw-4231373.png"
+        }
+      ],
+      "enrichmentStatus": "complete"
+    },
+    {
       "name": "Pakistan",
       "shortname": "Pakistan",
       "iso3": "pak",
@@ -9637,702 +10334,6 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/philippines/dswd-dromic-report-96-combined-effects-enhanced-southwest-monsoon-and-tropical-cyclones-luis-maymay-neneng-and-pilandok-20-september-2026-6pm",
           "localThumbnail": "./assets/report-thumbs/rw-4230593.png"
-        }
-      ],
-      "enrichmentStatus": "complete"
-    },
-    {
-      "name": "Somalia",
-      "shortname": "Somalia",
-      "iso3": "som",
-      "location": {
-        "lat": 5.79,
-        "lon": 47.33
-      },
-      "overview": "",
-      "countryUrl": "",
-      "reports30d": 58,
-      "reports7d": 12,
-      "previous7d": 21,
-      "change7d": -42.857142857142854,
-      "uniqueSources": 27,
-      "themeBreadth": 16,
-      "formatBreadth": 7,
-      "topThemes": [
-        {
-          "name": "Food and Nutrition",
-          "count": 29
-        },
-        {
-          "name": "Health",
-          "count": 23
-        },
-        {
-          "name": "Protection and Human Rights",
-          "count": 23
-        },
-        {
-          "name": "Agriculture",
-          "count": 22
-        },
-        {
-          "name": "Water Sanitation Hygiene",
-          "count": 12
-        },
-        {
-          "name": "Shelter and Non-Food Items",
-          "count": 6
-        },
-        {
-          "name": "Climate Change and Environment",
-          "count": 5
-        },
-        {
-          "name": "Education",
-          "count": 5
-        },
-        {
-          "name": "Disaster Management",
-          "count": 4
-        },
-        {
-          "name": "Contributions",
-          "count": 3
-        },
-        {
-          "name": "Coordination",
-          "count": 2
-        },
-        {
-          "name": "Logistics and Telecommunications",
-          "count": 2
-        },
-        {
-          "name": "Gender",
-          "count": 1
-        },
-        {
-          "name": "Mine Action",
-          "count": 1
-        },
-        {
-          "name": "Peacekeeping and Peacebuilding",
-          "count": 1
-        },
-        {
-          "name": "Safety and Security",
-          "count": 1
-        }
-      ],
-      "topSources": [
-        {
-          "name": "FSNAU",
-          "count": 10
-        },
-        {
-          "name": "IOM",
-          "count": 5
-        },
-        {
-          "name": "WFP",
-          "count": 5
-        },
-        {
-          "name": "UNHCR",
-          "count": 4
-        },
-        {
-          "name": "FAO",
-          "count": 3
-        },
-        {
-          "name": "OCHA",
-          "count": 3
-        },
-        {
-          "name": "Radio Ergo",
-          "count": 3
-        },
-        {
-          "name": "UNICEF",
-          "count": 3
-        },
-        {
-          "name": "CARE",
-          "count": 2
-        },
-        {
-          "name": "FEWS NET",
-          "count": 2
-        },
-        {
-          "name": "Govt. Somalia",
-          "count": 2
-        },
-        {
-          "name": "IGAD",
-          "count": 2
-        },
-        {
-          "name": "IPC",
-          "count": 2
-        },
-        {
-          "name": "IRC",
-          "count": 2
-        },
-        {
-          "name": "MSF",
-          "count": 2
-        },
-        {
-          "name": "Save the Children",
-          "count": 2
-        },
-        {
-          "name": "WHH",
-          "count": 2
-        },
-        {
-          "name": "Berghof Foundation",
-          "count": 1
-        },
-        {
-          "name": "GREDO",
-          "count": 1
-        },
-        {
-          "name": "Govt. UK",
-          "count": 1
-        },
-        {
-          "name": "NRC",
-          "count": 1
-        },
-        {
-          "name": "Protection Cluster",
-          "count": 1
-        },
-        {
-          "name": "SASDO",
-          "count": 1
-        },
-        {
-          "name": "SNC",
-          "count": 1
-        },
-        {
-          "name": "Turkish Red Crescent",
-          "count": 1
-        },
-        {
-          "name": "UNDRR",
-          "count": 1
-        },
-        {
-          "name": "iMMAP Inc.",
-          "count": 1
-        }
-      ],
-      "topFormats": [
-        {
-          "name": "News and Press Release",
-          "count": 18
-        },
-        {
-          "name": "Infographic",
-          "count": 12
-        },
-        {
-          "name": "Situation Report",
-          "count": 10
-        },
-        {
-          "name": "Analysis",
-          "count": 7
-        },
-        {
-          "name": "Assessment",
-          "count": 4
-        },
-        {
-          "name": "Map",
-          "count": 3
-        },
-        {
-          "name": "Other",
-          "count": 3
-        }
-      ],
-      "disasterTypes": [
-        {
-          "name": "Drought",
-          "count": 39
-        },
-        {
-          "name": "Flood",
-          "count": 18
-        },
-        {
-          "name": "Epidemic",
-          "count": 4
-        },
-        {
-          "name": "Heat Wave",
-          "count": 2
-        },
-        {
-          "name": "Insect Infestation",
-          "count": 1
-        }
-      ],
-      "timeline": [
-        {
-          "date": "2026-09-02T00:00:00+00:00",
-          "count": 3
-        },
-        {
-          "date": "2026-09-03T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-09-04T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-05T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-06T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-07T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-08T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-09T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-09-10T00:00:00+00:00",
-          "count": 5
-        },
-        {
-          "date": "2026-09-11T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-12T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-13T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-09-14T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-15T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-09-16T00:00:00+00:00",
-          "count": 3
-        },
-        {
-          "date": "2026-09-17T00:00:00+00:00",
-          "count": 3
-        },
-        {
-          "date": "2026-09-18T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-19T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-20T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-21T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-09-22T00:00:00+00:00",
-          "count": 3
-        },
-        {
-          "date": "2026-09-23T00:00:00+00:00",
-          "count": 11
-        },
-        {
-          "date": "2026-09-24T00:00:00+00:00",
-          "count": 4
-        },
-        {
-          "date": "2026-09-25T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-09-26T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-27T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-28T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-09-29T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-09-30T00:00:00+00:00",
-          "count": 3
-        }
-      ],
-      "recentReports": [
-        {
-          "id": "4232006",
-          "title": "Anticipatory Action Plan for Drought – Sanaag, Sool, Somaliland/Somalia",
-          "dateOriginal": "2026-09-30T00:00:00+00:00",
-          "primaryCountry": "Somalia",
-          "primaryCountryIso3": "som",
-          "primaryCountryLocation": {
-            "lat": 5.79,
-            "lon": 47.33
-          },
-          "source": "WHH",
-          "format": "Other",
-          "themes": [
-            "Disaster Management"
-          ],
-          "disasterTypes": [
-            "Drought"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/06/8e/068e64d8-2a3d-41e8-be5a-44ef494b438b.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/06/8e/068e64d8-2a3d-41e8-be5a-44ef494b438b.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/06/8e/068e64d8-2a3d-41e8-be5a-44ef494b438b.png",
-            "https://reliefweb.int/sites/default/files/previews/06/8e/068e64d8-2a3d-41e8-be5a-44ef494b438b.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/06/8e/068e64d8-2a3d-41e8-be5a-44ef494b438b.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/anticipatory-action-plan-drought-sanaag-sool-somalilandsomalia",
-          "localThumbnail": "./assets/report-thumbs/rw-4232006.png"
-        },
-        {
-          "id": "4232063",
-          "title": "Somalia health centers close as hunger and drought deepen",
-          "dateOriginal": "2026-09-30T00:00:00+00:00",
-          "primaryCountry": "Somalia",
-          "primaryCountryIso3": "som",
-          "primaryCountryLocation": {
-            "lat": 5.79,
-            "lon": 47.33
-          },
-          "source": "CARE",
-          "format": "News and Press Release",
-          "themes": [
-            "Health",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [
-            "Drought"
-          ],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/somalia-health-centers-close-hunger-and-drought-deepen"
-        },
-        {
-          "id": "4232003",
-          "title": "Republic of Korea funds school meals and nutrition for children in Somalia | World Food Programme",
-          "dateOriginal": "2026-09-30T00:00:00+00:00",
-          "primaryCountry": "Somalia",
-          "primaryCountryIso3": "som",
-          "primaryCountryLocation": {
-            "lat": 5.79,
-            "lon": 47.33
-          },
-          "source": "WFP",
-          "format": "News and Press Release",
-          "themes": [
-            "Contributions",
-            "Food and Nutrition"
-          ],
-          "disasterTypes": [
-            "Drought"
-          ],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/republic-korea-funds-school-meals-and-nutrition-children-somalia-world-food-programme"
-        },
-        {
-          "id": "4231869",
-          "title": "Children among those injured as heavy fighting hits Baidoa - Child rights agencies call for protection of civilians",
-          "dateOriginal": "2026-09-29T00:00:00+00:00",
-          "primaryCountry": "Somalia",
-          "primaryCountryIso3": "som",
-          "primaryCountryLocation": {
-            "lat": 5.79,
-            "lon": 47.33
-          },
-          "source": "Save the Children",
-          "format": "News and Press Release",
-          "themes": [
-            "Protection and Human Rights",
-            "Safety and Security"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/children-among-those-injured-heavy-fighting-hits-baidoa-child-rights-agencies-call-protection-civilians"
-        },
-        {
-          "id": "4231764",
-          "title": "WFP Somalia Country Brief September 2026",
-          "dateOriginal": "2026-09-29T00:00:00+00:00",
-          "primaryCountry": "Somalia",
-          "primaryCountryIso3": "som",
-          "primaryCountryLocation": {
-            "lat": 5.79,
-            "lon": 47.33
-          },
-          "source": "WFP",
-          "format": "Situation Report",
-          "themes": [
-            "Agriculture",
-            "Education",
-            "Food and Nutrition",
-            "Health",
-            "Logistics and Telecommunications"
-          ],
-          "disasterTypes": [
-            "Drought"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5d/a5/5da52fc5-9666-492b-a664-905927cbcc2c.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5d/a5/5da52fc5-9666-492b-a664-905927cbcc2c.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/5d/a5/5da52fc5-9666-492b-a664-905927cbcc2c.png",
-            "https://reliefweb.int/sites/default/files/previews/5d/a5/5da52fc5-9666-492b-a664-905927cbcc2c.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/5d/a5/5da52fc5-9666-492b-a664-905927cbcc2c.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/wfp-somalia-country-brief-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4231764.png"
-        },
-        {
-          "id": "4231753",
-          "title": "People and healthcare must be protected amid escalating violence in Baidoa, Somalia",
-          "dateOriginal": "2026-09-28T00:00:00+00:00",
-          "primaryCountry": "Somalia",
-          "primaryCountryIso3": "som",
-          "primaryCountryLocation": {
-            "lat": 5.79,
-            "lon": 47.33
-          },
-          "source": "MSF",
-          "format": "News and Press Release",
-          "themes": [
-            "Health",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/people-and-healthcare-must-be-protected-amid-escalating-violence-baidoa-somalia"
-        },
-        {
-          "id": "4231720",
-          "title": "Statement by the Humanitarian Coordinator for Somalia Mr. George Conway on the situation in Baidoa",
-          "dateOriginal": "2026-09-28T00:00:00+00:00",
-          "primaryCountry": "Somalia",
-          "primaryCountryIso3": "som",
-          "primaryCountryLocation": {
-            "lat": 5.79,
-            "lon": 47.33
-          },
-          "source": "OCHA",
-          "format": "News and Press Release",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/53/d4/53d40cc6-7dce-4684-a153-85a33fc74970.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/53/d4/53d40cc6-7dce-4684-a153-85a33fc74970.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/53/d4/53d40cc6-7dce-4684-a153-85a33fc74970.png",
-            "https://reliefweb.int/sites/default/files/previews/53/d4/53d40cc6-7dce-4684-a153-85a33fc74970.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/53/d4/53d40cc6-7dce-4684-a153-85a33fc74970.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/statement-humanitarian-coordinator-somalia-mr-george-conway-situation-baidoa",
-          "localThumbnail": "./assets/report-thumbs/rw-4231720.png",
-          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/53/d4/53d40cc6-7dce-4684-a153-85a33fc74970.png"
-        },
-        {
-          "id": "4231566",
-          "title": "Somalia: Estimated Population Exposed to Flood Risk (As of 27 September 2026)",
-          "dateOriginal": "2026-09-27T00:00:00+00:00",
-          "primaryCountry": "Somalia",
-          "primaryCountryIso3": "som",
-          "primaryCountryLocation": {
-            "lat": 5.79,
-            "lon": 47.33
-          },
-          "source": "OCHA",
-          "format": "Map",
-          "themes": [],
-          "disasterTypes": [
-            "Flood"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8d/3c/8d3c819c-655c-4133-9612-9a61aa9245cb.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8d/3c/8d3c819c-655c-4133-9612-9a61aa9245cb.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/8d/3c/8d3c819c-655c-4133-9612-9a61aa9245cb.png",
-            "https://reliefweb.int/sites/default/files/previews/8d/3c/8d3c819c-655c-4133-9612-9a61aa9245cb.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/8d/3c/8d3c819c-655c-4133-9612-9a61aa9245cb.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/map/somalia/somalia-estimated-population-exposed-flood-risk-27-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4231566.png"
-        },
-        {
-          "id": "4231612",
-          "title": "NRC Somalia: Monthly Programme Update (August 2026)",
-          "dateOriginal": "2026-09-26T00:00:00+00:00",
-          "primaryCountry": "Somalia",
-          "primaryCountryIso3": "som",
-          "primaryCountryLocation": {
-            "lat": 5.79,
-            "lon": 47.33
-          },
-          "source": "NRC",
-          "format": "Situation Report",
-          "themes": [
-            "Education",
-            "Food and Nutrition",
-            "Protection and Human Rights",
-            "Shelter and Non-Food Items",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [
-            "Drought"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8f/95/8f9512f5-e44f-470d-a5c2-ff2f84fb5e18.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8f/95/8f9512f5-e44f-470d-a5c2-ff2f84fb5e18.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/8f/95/8f9512f5-e44f-470d-a5c2-ff2f84fb5e18.png",
-            "https://reliefweb.int/sites/default/files/previews/8f/95/8f9512f5-e44f-470d-a5c2-ff2f84fb5e18.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/8f/95/8f9512f5-e44f-470d-a5c2-ff2f84fb5e18.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/nrc-somalia-monthly-programme-update-august-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4231612.png"
-        },
-        {
-          "id": "4231476",
-          "title": "Radio Ergo Weekly Feedback Report, Issued: 25 Sept 2026",
-          "dateOriginal": "2026-09-25T00:00:00+00:00",
-          "primaryCountry": "Somalia",
-          "primaryCountryIso3": "som",
-          "primaryCountryLocation": {
-            "lat": 5.79,
-            "lon": 47.33
-          },
-          "source": "Radio Ergo",
-          "format": "News and Press Release",
-          "themes": [
-            "Agriculture",
-            "Food and Nutrition",
-            "Health",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [
-            "Drought"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/4d/fd4d8011-824e-44c7-be86-a94e6708edce.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/4d/fd4d8011-824e-44c7-be86-a94e6708edce.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/fd/4d/fd4d8011-824e-44c7-be86-a94e6708edce.png",
-            "https://reliefweb.int/sites/default/files/previews/fd/4d/fd4d8011-824e-44c7-be86-a94e6708edce.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/fd/4d/fd4d8011-824e-44c7-be86-a94e6708edce.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-25-sept-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4231476.png"
-        },
-        {
-          "id": "4231446",
-          "title": "Somalia Situation: Population of Concern to UNHCR - 31 August 2026",
-          "dateOriginal": "2026-09-25T00:00:00+00:00",
-          "primaryCountry": "Somalia",
-          "primaryCountryIso3": "som",
-          "primaryCountryLocation": {
-            "lat": 5.79,
-            "lon": 47.33
-          },
-          "source": "UNHCR",
-          "format": "Infographic",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
-            "https://reliefweb.int/sites/default/files/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/93/52/93523b14-587a-54a6-a7fa-4118565f7946.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/somalia-situation-population-concern-unhcr-31-august-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4231446.png"
-        },
-        {
-          "id": "4231373",
-          "title": "Weathering the risk in Somalia: An evaluation and analysis of outcomes",
-          "dateOriginal": "2026-09-24T00:00:00+00:00",
-          "primaryCountry": "Somalia",
-          "primaryCountryIso3": "som",
-          "primaryCountryLocation": {
-            "lat": 5.79,
-            "lon": 47.33
-          },
-          "source": "Berghof Foundation",
-          "format": "Analysis",
-          "themes": [
-            "Climate Change and Environment",
-            "Peacekeeping and Peacebuilding"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/65/49/65499af9-ddbc-4063-8ade-99f3024af92d.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/65/49/65499af9-ddbc-4063-8ade-99f3024af92d.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/65/49/65499af9-ddbc-4063-8ade-99f3024af92d.png",
-            "https://reliefweb.int/sites/default/files/previews/65/49/65499af9-ddbc-4063-8ade-99f3024af92d.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/65/49/65499af9-ddbc-4063-8ade-99f3024af92d.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/weathering-risk-somalia-evaluation-and-analysis-outcomes",
-          "localThumbnail": "./assets/report-thumbs/rw-4231373.png"
         }
       ],
       "enrichmentStatus": "complete"
@@ -12901,10 +12902,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 46,
+      "reports30d": 44,
       "reports7d": 7,
-      "previous7d": 15,
-      "change7d": -53.333333333333336,
+      "previous7d": 13,
+      "change7d": -46.15384615384615,
       "uniqueSources": 29,
       "themeBreadth": 14,
       "formatBreadth": 9,
@@ -27210,7 +27211,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/8f/8d/8f8d26fa-b1a0-54fb-97de-2f8e7b3f896f.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/yemen-emergency-unhcr-external-update-2-september-2026"
+      "url": "https://reliefweb.int/report/yemen/yemen-emergency-unhcr-external-update-2-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4232148.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/8f/8d/8f8d26fa-b1a0-54fb-97de-2f8e7b3f896f.png"
     },
     {
       "id": "4232145",
@@ -27263,8 +27266,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/yemen/yemen-situation-displacement-overview",
-      "localThumbnail": "./assets/report-thumbs/rw-4232150.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/1e/ab/1eab9818-c100-5d65-972f-051730cd6de0.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4232150.png"
     },
     {
       "id": "4232181",
@@ -27457,8 +27459,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/chad/tchad-reponse-la-crise-du-soudan-bulletin-dinformations-68-aout-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232215.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/e0/34/e03449c6-6b0c-5e9b-b511-0c1f112e7e7c.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4232215.png"
     },
     {
       "id": "4232262",
@@ -27498,8 +27499,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/guatemala/el-nino-2026-2027-riesgo-climatico-y-perspectiva-humanitaria-para-america-latina-y-el-caribe-al-18-de-septiembre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232262.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/9b/bc/9bbc1181-7c90-40c5-a4d5-087e6b4aaa98.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4232262.png"
     },
     {
       "id": "4232268",
@@ -27526,8 +27526,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-northern-region-monthly-snapshot-january-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232268.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/21/ae/21aed8b5-77b8-4892-b0ee-52e45f41b58c.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4232268.png"
     },
     {
       "id": "4232265",
@@ -27580,8 +27579,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-central-region-monthly-snapshot-january-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232260.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a2/95/a2956302-ec1f-4f07-8ecf-ef9a933c973b.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4232260.png"
     },
     {
       "id": "4232256",
@@ -27634,7 +27632,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/14/49/1449179c-4405-43ed-88e3-31aad0c291dc.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/afghanistan/afghanistan-slsc-cluster-operational-presence-august-2026"
+      "url": "https://reliefweb.int/report/afghanistan/afghanistan-slsc-cluster-operational-presence-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4232259.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/14/49/1449179c-4405-43ed-88e3-31aad0c291dc.png"
     },
     {
       "id": "4232269",
@@ -27660,7 +27660,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/ce/cd/cecd8465-a201-427b-974d-88699e72c1a5.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-southern-region-monthly-snapshot-january-august-2026"
+      "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-southern-region-monthly-snapshot-january-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4232269.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ce/cd/cecd8465-a201-427b-974d-88699e72c1a5.png"
     },
     {
       "id": "4232142",
@@ -27910,8 +27912,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/papua-new-guinea/papua-new-guinea-el-nino-snapshot-current-impacts-and-early-action-1-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232155.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/d4/38/d4388adb-c021-455a-a014-98bb371f75e8.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4232155.png"
     },
     {
       "id": "4232161",
@@ -27968,7 +27969,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/44/5a/445a6f4a-90c9-52f3-9543-0e5648a30b67.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/syrian-arab-republic/comprehensive-overview-idps-and-idp-returns-dashboard-1102026"
+      "url": "https://reliefweb.int/report/syrian-arab-republic/comprehensive-overview-idps-and-idp-returns-dashboard-1102026",
+      "localThumbnail": "./assets/report-thumbs/rw-4232182.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/44/5a/445a6f4a-90c9-52f3-9543-0e5648a30b67.png"
     },
     {
       "id": "4232147",
@@ -28023,8 +28026,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/central-african-republic/central-african-republic-situation-report-no-87-29-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232187.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8a/0e/8a0ea2ff-ada6-4e05-b795-ae075deaf3d0.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4232187.png"
     },
     {
       "id": "4232197",
@@ -28075,8 +28077,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/afghanistan/adi-working-group-monthly-meeting-minutes-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232171.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/43/47/43472c29-23b9-4c21-acca-43feab8d0b86.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4232171.png"
     },
     {
       "id": "4232200",
@@ -28193,8 +28194,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/chad/chad-sudan-crisis-response-situation-update-68-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232214.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/large/public/previews/f6/7b/f67bc76a-59ff-5f63-a9c4-60451c291c29.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4232214.png"
     },
     {
       "id": "4232220",
@@ -28221,8 +28221,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/lebanon/lebanon-mobility-snapshot-round-118-01-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232220.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/23/5b/235b02d6-5a0d-5f2c-953b-444e0356acac.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4232220.png"
     },
     {
       "id": "4232210",
@@ -28249,34 +28248,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/chad/tchad-suivi-des-urgences-230-septembre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232210.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/0a/80/0a80cb36-3fe1-5b54-bbaa-4904ee24c885.png"
-    },
-    {
-      "id": "4232257",
-      "title": "Shelter Cluster Afghanistan: August Monthly Snapshot 2026",
-      "dateOriginal": "2026-10-01T00:00:00+00:00",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "primaryCountryLocation": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "source": "CCCM Cluster, IOM, Shelter Cluster, UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Shelter and Non-Food Items"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
-        "https://reliefweb.int/sites/default/files/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-august-monthly-snapshot-2026"
+      "localThumbnail": "./assets/report-thumbs/rw-4232210.png"
     },
     {
       "id": "4232261",
@@ -28315,7 +28287,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/78/54/78546991-e1bb-4541-a24b-8649e1656602.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/guatemala/el-nino-2026-2027-climate-risk-humanitarian-outlook-latin-america-and-caribbean-september-2026"
+      "url": "https://reliefweb.int/report/guatemala/el-nino-2026-2027-climate-risk-humanitarian-outlook-latin-america-and-caribbean-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4232261.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/78/54/78546991-e1bb-4541-a24b-8649e1656602.png"
     },
     {
       "id": "4232270",
@@ -28342,27 +28316,35 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-western-region-monthly-snapshot-january-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232270.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/8c/c5/8cc55e20-ff4b-470f-8cc5-b85ffe3315e8.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4232270.png"
     },
     {
-      "id": "4232149",
-      "title": "New EUAA Country Guidance on Pakistan",
+      "id": "4232257",
+      "title": "Shelter Cluster Afghanistan: August Monthly Snapshot 2026",
       "dateOriginal": "2026-10-01T00:00:00+00:00",
-      "primaryCountry": "Pakistan",
-      "primaryCountryIso3": "pak",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
       "primaryCountryLocation": {
-        "lat": 29.97,
-        "lon": 69.39
+        "lat": 33.84,
+        "lon": 66.03
       },
-      "source": "EUAA",
-      "format": "Analysis",
-      "themes": [],
+      "source": "CCCM Cluster, IOM, Shelter Cluster, UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Shelter and Non-Food Items"
+      ],
       "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
+        "https://reliefweb.int/sites/default/files/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png"
+      ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/pakistan/new-euaa-country-guidance-pakistan"
+      "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-august-monthly-snapshot-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4232257.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png"
     },
     {
       "id": "4232126",
@@ -28428,6 +28410,54 @@
       "localThumbnail": "./assets/report-thumbs/rw-4232123.png"
     },
     {
+      "id": "4232149",
+      "title": "New EUAA Country Guidance on Pakistan",
+      "dateOriginal": "2026-10-01T00:00:00+00:00",
+      "primaryCountry": "Pakistan",
+      "primaryCountryIso3": "pak",
+      "primaryCountryLocation": {
+        "lat": 29.97,
+        "lon": 69.39
+      },
+      "source": "EUAA",
+      "format": "Analysis",
+      "themes": [],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/pakistan/new-euaa-country-guidance-pakistan"
+    },
+    {
+      "id": "4232174",
+      "title": "Statistiques sur les personnes relevant de la compétence du HCR Goz Beida FO / Province du Sila (Sept. 2026)",
+      "dateOriginal": "2026-10-01T00:00:00+00:00",
+      "primaryCountry": "Chad",
+      "primaryCountryIso3": "tcd",
+      "primaryCountryLocation": {
+        "lat": 15.36,
+        "lon": 18.66
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Camp Coordination and Camp Management",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/00/d4/00d45ceb-e322-579c-94e8-8f5c28efa6ff.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/00/d4/00d45ceb-e322-579c-94e8-8f5c28efa6ff.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/00/d4/00d45ceb-e322-579c-94e8-8f5c28efa6ff.png",
+        "https://reliefweb.int/sites/default/files/previews/00/d4/00d45ceb-e322-579c-94e8-8f5c28efa6ff.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/00/d4/00d45ceb-e322-579c-94e8-8f5c28efa6ff.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/chad/statistiques-sur-les-personnes-relevant-de-la-competence-du-hcr-goz-beida-fo-province-du-sila-sept-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4232174.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/00/d4/00d45ceb-e322-579c-94e8-8f5c28efa6ff.png"
+    },
+    {
       "id": "4232129",
       "title": "Myanmar: Humanitarian Needs and Response Plan (HNRP) 2026 – Funding Status (As of 30 September 2026)",
       "dateOriginal": "2026-10-01T00:00:00+00:00",
@@ -28452,8 +28482,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/myanmar/myanmar-humanitarian-needs-and-response-plan-hnrp-2026-funding-status-30-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232129.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f3/38/f3387aa7-8a5a-4755-8829-2bd3ed39a711.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4232129.png"
     },
     {
       "id": "4232131",
@@ -28484,38 +28513,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/papua-new-guinea/papua-new-guinea-humanitarian-snapshot-24-september-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4232131.png"
-    },
-    {
-      "id": "4232170",
-      "title": "Cluster Protection RDC Guide d’information et d'utilisation - Cartographie intégrée des services de protection en RDC Guide du processus, des objectifs et d'utilisation de l'outil de collecte — Coordination nationale août 2026",
-      "dateOriginal": "2026-10-01T00:00:00+00:00",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "primaryCountryLocation": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "source": "Protection Cluster, UNHCR",
-      "format": "Manual and Guideline",
-      "themes": [
-        "Coordination",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1d/ac/1dac9e2d-ab52-4d9d-a924-838e391c4360.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1d/ac/1dac9e2d-ab52-4d9d-a924-838e391c4360.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/1d/ac/1dac9e2d-ab52-4d9d-a924-838e391c4360.png",
-        "https://reliefweb.int/sites/default/files/previews/1d/ac/1dac9e2d-ab52-4d9d-a924-838e391c4360.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/1d/ac/1dac9e2d-ab52-4d9d-a924-838e391c4360.png",
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e3/75/e375cd72-4658-49af-88c7-1eb59cca0e87.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/e3/75/e375cd72-4658-49af-88c7-1eb59cca0e87.png",
-        "https://reliefweb.int/sites/default/files/previews/e3/75/e375cd72-4658-49af-88c7-1eb59cca0e87.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/e3/75/e375cd72-4658-49af-88c7-1eb59cca0e87.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-guide-dinformation-et-dutilisation-cartographie-integree-des-services-de-protection-en-rdc-guide-du-processus-des-objectifs-et-dutilisation-de-loutil-de-collecte-coordination-nationale-aout-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4232170.png"
     }
   ],
   "disasters": [
@@ -30497,7 +30494,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-10-01T19:33:21.958Z",
+    "queryGeneratedAt": "2026-10-01T23:53:25.339Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -30508,7 +30505,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-10-01T19:33:23.580Z",
+    "reportThumbnailCacheAt": "2026-10-01T23:53:26.608Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
