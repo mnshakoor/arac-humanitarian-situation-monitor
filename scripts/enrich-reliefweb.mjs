@@ -31,7 +31,7 @@ const daysAgo=n=>new Date(now.getTime()-n*86400000);
 function normalizeReport(item){const f=item.fields||{},pc=f.primary_country||{},image=first(f.image),thumbnailCandidates=thumbnailCandidatesFromFields(f);return{id:item.id,title:f.title,dateOriginal:f.date?.original||f['date.original'],primaryCountry:pc?.name||pc?.[0]?.name||'',primaryCountryIso3:String(pc?.iso3||pc?.[0]?.iso3||'').toLowerCase(),primaryCountryLocation:pc?.location||pc?.[0]?.location||null,source:(f.source||[]).map(s=>s.shortname||s.name).join(', '),format:(f.format||[]).map(x=>x.name).join(', '),themes:(f.theme||[]).map(x=>x.name),disasterTypes:(f.disaster_type||[]).map(x=>x.name),thumbnail:thumbnailCandidates[0]||'',thumbnailCandidates,thumbnailCopyright:image?.copyright||'',url:f.url_alias||f.url||item.href};}
 function periodFilter(c,from,to){return{operator:'AND',conditions:[{field:'status',value:'published'},{field:'primary_country.iso3',value:c.iso3},{field:'date.original',value:{from:reliefWebIso(from),to:reliefWebIso(to)}}]};}
 function profileBody(c){return{limit:12,profile:'list',sort:['date.original:desc'],filter:periodFilter(c,daysAgo(30),now),fields:{include:reportFields},facets:[{name:'themes',field:'theme.name',limit:30,sort:'count:desc'},{name:'sources',field:'source.shortname',limit:60,sort:'count:desc'},{name:'formats',field:'format.name',limit:30,sort:'count:desc'},{name:'disasterTypes',field:'disaster_type.name',limit:30,sort:'count:desc'},{name:'timeline',field:'date.original',interval:'day'}]};}
-function compareBody(c,from,to){return{limit:0,filter:periodFilter(c,from,to),facets:[{name:'themes',field:'theme.name',limit:40,sort:'count:desc'},{name:'sources',field:'source.shortname',limit:80,sort:'count:desc'},{name:'formats',field:'format.name',limit:40,sort:'count:desc'}]};}
+function compareBody(c,from,to){return{limit:1,profile:'list',filter:periodFilter(c,from,to),fields:{include:['id']},facets:[{name:'themes',field:'theme.name',limit:40,sort:'count:desc'},{name:'sources',field:'source.shortname',limit:80,sort:'count:desc'},{name:'formats',field:'format.name',limit:40,sort:'count:desc'}]};}
 function buildMomentum(current=[],previous=[]){const cur=new Map(current.map(x=>[String(facetValue(x)),facetCount(x)])),prev=new Map(previous.map(x=>[String(facetValue(x)),facetCount(x)]));const names=uniq([...cur.keys(),...prev.keys()]);return names.map(name=>{const c=cur.get(name)||0,p=prev.get(name)||0;return{name,current:c,previous:p,absolute:c-p,changePct:p>0?((c-p)/p)*100:(c>0?null:0)}}).sort((a,b)=>(b.current+b.previous)-(a.current+a.previous));}
 function ecology(rows=[]){const vals=rows.map(x=>Number(x.count||0)).filter(x=>x>0),total=vals.reduce((a,b)=>a+b,0);if(!total)return null;const shares=vals.map(v=>v/total);const h=-shares.reduce((s,p)=>s+p*Math.log(p),0);return{sourceAssignments:total,uniqueSources:rows.length,top1Share:(shares[0]||0)*100,top5Share:shares.slice(0,5).reduce((a,b)=>a+b,0)*100,shannonEntropy:h,effectiveSourceCount:Math.exp(h)};}
 
@@ -46,15 +46,25 @@ for(let i=0;i<targets.length;i+=BATCH){
   const results=await Promise.all(batch.map(async c=>{
     try{
       const [profile,current7,previous7]=await Promise.all([post(profileBody(c),26000),post(compareBody(c,daysAgo(7),now),18000),post(compareBody(c,daysAgo(14),daysAgo(7)),18000)]);
-      c.topThemes=normalizeFacet(facetMap(profile,'themes'));
+      const profileThemes=facetMap(profile,'themes');
+      const currentThemes=facetMap(current7,'themes');
+      const previousThemes=facetMap(previous7,'themes');
+      const currentSources=facetMap(current7,'sources');
+      const previousSources=facetMap(previous7,'sources');
+      const currentFormats=facetMap(current7,'formats');
+      const previousFormats=facetMap(previous7,'formats');
+      if(profileThemes.length && !currentThemes.length && !previousThemes.length && !currentSources.length && !previousSources.length && !currentFormats.length && !previousFormats.length){
+        throw new Error('ReliefWeb comparison facets returned empty for a populated country profile');
+      }
+      c.topThemes=normalizeFacet(profileThemes);
       c.topSources=normalizeFacet(facetMap(profile,'sources'));
       c.topFormats=normalizeFacet(facetMap(profile,'formats'));
       c.disasterTypes=normalizeFacet(facetMap(profile,'disasterTypes'));
       c.timeline=facetMap(profile,'timeline').map(x=>({date:facetValue(x),count:facetCount(x)}));
       c.uniqueSources=c.topSources.length;c.themeBreadth=c.topThemes.length;c.formatBreadth=c.topFormats.length;
-      c.themeMomentum=buildMomentum(facetMap(current7,'themes'),facetMap(previous7,'themes'));
-      c.sourceMomentum=buildMomentum(facetMap(current7,'sources'),facetMap(previous7,'sources'));
-      c.formatMomentum=buildMomentum(facetMap(current7,'formats'),facetMap(previous7,'formats'));
+      c.themeMomentum=buildMomentum(currentThemes,previousThemes);
+      c.sourceMomentum=buildMomentum(currentSources,previousSources);
+      c.formatMomentum=buildMomentum(currentFormats,previousFormats);
       c.sourceEcology=ecology(c.topSources);
       c.recentReports=(profile.data||[]).map(normalizeReport);
       const exemplar=c.recentReports.find(r=>r.primaryCountry);
