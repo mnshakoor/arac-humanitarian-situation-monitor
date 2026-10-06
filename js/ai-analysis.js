@@ -220,14 +220,14 @@ function renderBrief(brief){
   setActionState(true);
 }
 
-async function generate(type,scopeKey,payload,title){
+async function generate(type,scopeKey,payload,title,requestType=type){
   if(AI.busy)return;
   AI.busy=true;setDrawerLoading(title);
   try{
     const res=await fetch(AI_CONFIG.endpoint,{
       method:'POST',
       headers:{'Content-Type':'application/json','apikey':AI_CONFIG.publishableKey},
-      body:JSON.stringify({analysisType:type,scopeKey,title,snapshotGeneratedAt:AI.snapshot.generatedAt||null,payload})
+      body:JSON.stringify({analysisType:requestType,scopeKey,title,snapshotGeneratedAt:AI.snapshot.generatedAt||null,payload})
     });
     const data=await res.json().catch(()=>({error:`Request failed (${res.status})`}));
     if(!res.ok){
@@ -239,6 +239,7 @@ async function generate(type,scopeKey,payload,title){
       e.detailHtml=detail+retry;
       throw e;
     }
+    if(requestType!==type)data.analysisType=type;
     renderBrief(data);
   }catch(err){
     $('#ai-drawer-body').innerHTML=`<div class="ai-error"><strong>AI Quick Analysis unavailable</strong><p>${safe(err?.message||err)}</p>${err?.detailHtml||''}</div>`;
@@ -326,7 +327,7 @@ function enhanceNetwork(){
     try{
       const payload=networkPayload(type);
       const scope=type==='network-node'?payload.selectedNode?.label||'Selected Node':'network-explorer';
-      generate(type,scope,payload,briefTitle(type,scope));
+      generate(type,scope,payload,briefTitle(type,scope),'query');
     }catch(err){
       openDrawer('Network Explorer AI Analysis');
       $('#ai-drawer-body').innerHTML=`<div class="ai-error"><strong>Analysis unavailable</strong><p>${safe(err?.message||err)}</p></div>`;
