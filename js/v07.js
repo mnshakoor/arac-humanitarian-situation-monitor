@@ -106,6 +106,33 @@ function renderTemporal(){
   bindTemporalNodeClicks();
   renderTemporalSpark(cur,prev,ch);
 }
+
+function temporalAiPackage(){
+  const key=$('#temporal-window')?.value||'7d';
+  const base=filteredBaseReports();
+  const curSlice=sliceWindow(base,key,0),prevSlice=sliceWindow(base,key,1);
+  const cur=entityGraph(curSlice.reports),prev=entityGraph(prevSlice.reports);
+  const ch=changeAnalysis(cur,prev);
+  const labels=(items,mode='node')=>items.slice(0,15).map(x=>mode==='node'
+    ?{id:x.id,label:x.label,type:x.type||'',currentWeighted:x.weightedDegree||0,previousWeighted:x.previousWeighted||0,deltaWeighted:x.deltaWeighted||0,deltaReports:x.deltaReports||0}
+    :{source:x.source,target:x.target,weight:x.weight||0,delta:x.delta||0});
+  const rising=[...ch.nodeChanges].sort((a,b)=>b.deltaWeighted-a.deltaWeighted).filter(x=>x.deltaWeighted>0);
+  const falling=[...ch.nodeChanges].sort((a,b)=>a.deltaWeighted-b.deltaWeighted).filter(x=>x.deltaWeighted<0);
+  return {
+    schema:'arac.ahsm.network-temporal.v1',
+    window:key,
+    periods:{current:{start:curSlice.start.toISOString(),end:curSlice.end.toISOString()},previous:{start:prevSlice.start.toISOString(),end:prevSlice.end.toISOString()}},
+    summary:{currentReports:cur.reports.length,previousReports:prev.reports.length,currentNodes:cur.nodes.length,previousNodes:prev.nodes.length,currentLinks:cur.edges.length,previousLinks:prev.edges.length,clusterReassignmentPct:Number(ch.clusterShift.toFixed(1))},
+    risingCentrality:labels(rising),
+    fallingCentrality:labels(falling),
+    emergingRelationships:labels(ch.emerging,'edge'),
+    disappearingRelationships:labels(ch.disappearing,'edge'),
+    strengtheningRelationships:labels(ch.strengthened,'edge'),
+    weakeningRelationships:labels(ch.weakened,'edge')
+  };
+}
+window.__AHSM_NETWORK_TEMPORAL_AI__={getCurrentComparison:temporalAiPackage};
+
 function renderTemporalSpark(cur,prev,ch){
   const svg=$('#temporal-summary-svg');if(!svg)return;const vals=[prev.reports.length,cur.reports.length,prev.edges.length,cur.edges.length,prev.nodes.length,cur.nodes.length];const max=Math.max(1,...vals);const W=720,H=180,barW=65,gap=45;
   const labels=['Reports prior','Reports now','Links prior','Links now','Nodes prior','Nodes now'];
