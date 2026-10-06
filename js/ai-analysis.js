@@ -184,6 +184,10 @@ function briefTitle(type,scope){
   if(type==='country')return `${scope} Humanitarian Information Quick Brief`;
   if(type==='region')return `${scope} Regional Humanitarian Information Brief`;
   if(type==='pulse')return `${scope} Crisis Pulse Quick Assessment`;
+  if(type==='network')return 'Network Explorer Current View Analysis';
+  if(type==='network-structure')return 'Network Explorer Structural Analysis';
+  if(type==='network-temporal')return 'Network Explorer Change-Over-Time Analysis';
+  if(type==='network-node')return `${scope||'Selected Node'} Network Context Analysis`;
   return 'Query Lab Analytical Brief';
 }
 
@@ -288,6 +292,49 @@ function enhanceQuery(){
   actions.append(b);
 }
 
+function networkPayload(type){
+  const current=window.__AHSM_NETWORK_AI__?.getCurrentView?.();
+  if(!current)throw new Error('Network Explorer analysis data is not ready yet.');
+  const temporal=window.__AHSM_NETWORK_TEMPORAL_AI__?.getCurrentComparison?.()||null;
+  const payload={
+    schema:'arac.ahsm.network-analysis-input.v1',
+    focus:type,
+    currentView:{...current,reports:(current.reports||[]).slice(0,30)},
+    methodology:{
+      relationshipBoundary:'Network proximity, centrality, community membership and co-occurrence are information-network observations only.',
+      inferenceBoundary:'Do not infer causality, coordination, institutional influence, source independence, humanitarian severity, organizational affiliation, command relationships or actor intent from graph structure alone.'
+    },
+    provenance:AI.snapshot.provenance||{}
+  };
+  if(type==='network-temporal')payload.temporal=temporal;
+  if(type==='network-node'){
+    if(!current.selectedNode)throw new Error('Select a country, source, theme, or report node before requesting Selected Node analysis.');
+    payload.selectedNode=current.selectedNode;
+    payload.temporal=temporal;
+  }
+  if(type==='network')payload.temporal=temporal;
+  return payload;
+}
+
+function enhanceNetwork(){
+  const controls=$('#network-intelligence-controls');if(!controls||controls.querySelector('.ai-network-control'))return;
+  const wrap=document.createElement('div');wrap.className='ai-network-control';wrap.style.display='flex';wrap.style.gap='8px';wrap.style.alignItems='end';wrap.style.flexWrap='wrap';
+  wrap.innerHTML=`<label>AI Network Analysis<select id="ai-network-mode" class="select"><option value="network">Analyze Current View</option><option value="network-structure">Analyze Network Structure</option><option value="network-temporal">Analyze Change Over Time</option><option value="network-node">Analyze Selected Node</option></select></label><button id="ai-network-run" class="button" type="button">Analyze</button>`;
+  controls.append(wrap);
+  $('#ai-network-run',wrap)?.addEventListener('click',()=>{
+    const type=$('#ai-network-mode',wrap)?.value||'network';
+    try{
+      const payload=networkPayload(type);
+      const scope=type==='network-node'?payload.selectedNode?.label||'Selected Node':'network-explorer';
+      generate(type,scope,payload,briefTitle(type,scope));
+    }catch(err){
+      openDrawer('Network Explorer AI Analysis');
+      $('#ai-drawer-body').innerHTML=`<div class="ai-error"><strong>Analysis unavailable</strong><p>${safe(err?.message||err)}</p></div>`;
+      setActionState(false);
+    }
+  });
+}
+
 function saved(){
   try{return JSON.parse(localStorage.getItem(STORE_KEY)||'[]');}catch{return[];}
 }
@@ -328,7 +375,7 @@ function renderSavedView(){
 }
 
 function enhance(){
-  enhanceCountry();enhanceRegion();enhancePulse();enhanceQuery();
+  enhanceCountry();enhanceRegion();enhancePulse();enhanceQuery();enhanceNetwork();
 }
 
 async function boot(){
