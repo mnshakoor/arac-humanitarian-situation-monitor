@@ -35,7 +35,7 @@ jobs:
           RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
         run: node scripts/cache-reliefweb-thumbnails.mjs
       - name: Validate enriched snapshot
-        run: node -e "const x=JSON.parse(require('fs').readFileSync('data/snapshot.json','utf8')); if(!x.countries||!x.provenance) process.exit(1); const done=x.countries.filter(c=>String(c.enrichmentStatus||'').startsWith('complete')).length; console.log('enriched snapshot valid; complete profiles='+done)"
+        run: node -e "const x=JSON.parse(require('fs').readFileSync('data/snapshot.json','utf8')); if(!x.countries||!x.provenance) process.exit(1); const done=x.countries.filter(c=>String(c.enrichmentStatus||'').startsWith('complete')); const momentum=done.filter(c=>Array.isArray(c.themeMomentum)&&c.themeMomentum.length>0); if(done.length && !momentum.length){console.error('enrichment validation failed: zero completed profiles contain theme momentum'); process.exit(1)} console.log('enriched snapshot valid; complete profiles='+done.length+'; theme momentum profiles='+momentum.length)"
       - name: Commit enriched snapshot and thumbnails
         run: |
           set -e
