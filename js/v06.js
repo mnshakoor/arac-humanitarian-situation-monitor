@@ -144,6 +144,32 @@ function renderPinboard(){const host=$('#network-pinboard');if(!host)return;cons
 function exportPins(){const pins=getPins();const blob=new Blob([JSON.stringify({schema:'quanta.reliefweb.network-investigation.v1',generatedAt:new Date().toISOString(),filters:readFilters(),nodes:pins},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='quanta-reliefweb-network-investigation.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500);}
 function readFilters(){return {keyword:$('#network-search')?.value||'',theme:$('#network-theme')?.value||'',source:$('#network-source')?.value||'',country:$('#network-country')?.value||'',region:$('#network-region')?.value||''};}
 
+function networkAiPackage(){
+  const selected=selectedFromDom();
+  const selectedNode=selected?graph.nodes.find(n=>n.id===selected):null;
+  const selectedMetrics=selected?metrics.get(selected):null;
+  const leaders=graph.nodes.map(n=>({...n,...(metrics.get(n.id)||{})})).filter(n=>n.type!=='report');
+  const by=(key)=>[...leaders].sort((a,b)=>(Number(b[key]||0)-Number(a[key]||0))).slice(0,12).map(n=>({id:n.id,label:n.label,type:n.type,community:n.community||0,degree:n.degree||0,weighted:n.weighted||0,betweenness:round(n.betweenness||0,5),count:n.count||0}));
+  const groups=new Map();
+  for(const n of graph.nodes){
+    const m=metrics.get(n.id);if(!m?.community)continue;
+    const g=groups.get(m.community)||{community:m.community,nodeCount:0,totalCount:0,anchors:[]};
+    g.nodeCount++;g.totalCount+=Number(n.count||0);g.anchors.push({label:n.label,type:n.type,count:n.count||0});groups.set(m.community,g);
+  }
+  const communities=[...groups.values()].map(g=>({...g,anchors:g.anchors.sort((a,b)=>b.count-a.count).slice(0,5)})).sort((a,b)=>b.nodeCount-a.nodeCount).slice(0,10);
+  return {
+    schema:'arac.ahsm.network-view.v1',
+    filters:readFilters(),
+    graphSummary:{reportCount:graph.reports.length,nodeCount:graph.nodes.length,linkCount:graph.links.length,communityCount:groups.size},
+    leaders:{weighted:by('weighted'),degree:by('degree'),betweenness:by('betweenness')},
+    communities,
+    strongestRelationships:[...graph.links].sort((a,b)=>b.weight-a.weight).slice(0,20).map(l=>({source:l.source,target:l.target,weight:l.weight})),
+    selectedNode:selectedNode?{id:selectedNode.id,label:selectedNode.label,type:selectedNode.type,count:selectedNode.count||0,metrics:selectedMetrics?{degree:selectedMetrics.degree,weighted:selectedMetrics.weighted,betweenness:round(selectedMetrics.betweenness,5),community:selectedMetrics.community}:null}:null,
+    reports:graph.reports.slice(0,40).map(r=>({id:r.id||null,title:r.title||'',dateOriginal:r.dateOriginal||'',primaryCountry:r.primaryCountry||'',primaryCountryIso3:r.primaryCountryIso3||'',source:r.source||'',themes:(r.themes||[]).slice(0,8),url:r.url||r.url_alias||''}))
+  };
+}
+window.__AHSM_NETWORK_AI__={getCurrentView:networkAiPackage};
+
 function refreshIntelligence(){
   if(!snapshot||!$('#view-network'))return;
   graph=buildGraph(currentReports());compute(graph);renderLeaders();renderCommunities();renderPinboard();setTimeout(()=>{applyGraphIntelligence();renderSelectedIntelligence();},40);
