@@ -2,7 +2,7 @@
   "schema": "arac.ahsm.snapshot.v3",
   "generatedAt": "2026-10-05T22:38:18.262Z",
   "lastSyncAttemptAt": "2026-10-05T22:38:18.262Z",
-  "enrichedAt": "2026-10-06T02:39:07.103Z",
+  "enrichedAt": "2026-10-06T02:39:41.067Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
   "syncHealth": {
@@ -1549,8 +1549,7 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/world/urban-adaptation-gender-equality-and-social-justice-august-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4232688.png",
-          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/21/59/21599d87-8c0c-5d8f-b543-f1229fd7205a.png"
+          "localThumbnail": "./assets/report-thumbs/rw-4232688.png"
         },
         {
           "id": "4232520",
@@ -1580,7 +1579,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/59/09/59096d00-b811-49ef-950b-158d17a9eb16.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/state-worlds-girls-2026-change-her-forecast-how-climate-crisis-fuels-sexual-violence-child-marriage-and-unintended-pregnancy-and-limits-girls-futures"
+          "url": "https://reliefweb.int/report/world/state-worlds-girls-2026-change-her-forecast-how-climate-crisis-fuels-sexual-violence-child-marriage-and-unintended-pregnancy-and-limits-girls-futures",
+          "localThumbnail": "./assets/report-thumbs/rw-4232520.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/large/public/previews/4e/5d/4e5df090-6af0-5c10-a17c-3e9895f9ee68.png"
         },
         {
           "id": "4232363",
@@ -1620,8 +1621,7 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/world/middle-east-escalation-could-leave-117-million-more-women-and-girls-facing-food-insecurity-end-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4232340.webp",
-          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/images/reports/23/41/23419e6b-d789-4619-b444-67aef8bb5b0f.webp"
+          "localThumbnail": "./assets/report-thumbs/rw-4232340.webp"
         },
         {
           "id": "4232392",
@@ -2177,7 +2177,7 @@
         "shannonEntropy": 3.644027126889803,
         "effectiveSourceCount": 38.24554668237258
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Democratic Republic of the Congo",
@@ -2576,29 +2576,6 @@
       ],
       "recentReports": [
         {
-          "id": "4232647",
-          "title": "North Kivu, DRC: MSF continues to respond to malnutrition as conflict and aid cuts deepen crisis",
-          "dateOriginal": "2026-10-05T00:00:00+00:00",
-          "primaryCountry": "Democratic Republic of the Congo",
-          "primaryCountryIso3": "cod",
-          "primaryCountryLocation": {
-            "lat": -4.03833,
-            "lon": 21.7587
-          },
-          "source": "MSF",
-          "format": "News and Press Release",
-          "themes": [
-            "Health"
-          ],
-          "disasterTypes": [
-            "Epidemic"
-          ],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/north-kivu-drc-msf-continues-respond-malnutrition-conflict-and-aid-cuts-deepen-crisis"
-        },
-        {
           "id": "4232645",
           "title": "MSF: North Kivu's Ebola outbreak spreading like a megafire as new hotspots multiply",
           "dateOriginal": "2026-10-05T00:00:00+00:00",
@@ -2620,6 +2597,29 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/democratic-republic-congo/msf-north-kivus-ebola-outbreak-spreading-megafire-new-hotspots-multiply"
+        },
+        {
+          "id": "4232647",
+          "title": "North Kivu, DRC: MSF continues to respond to malnutrition as conflict and aid cuts deepen crisis",
+          "dateOriginal": "2026-10-05T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "MSF",
+          "format": "News and Press Release",
+          "themes": [
+            "Health"
+          ],
+          "disasterTypes": [
+            "Epidemic"
+          ],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/north-kivu-drc-msf-continues-respond-malnutrition-conflict-and-aid-cuts-deepen-crisis"
         },
         {
           "id": "4232625",
@@ -2781,6 +2781,29 @@
           "url": "https://reliefweb.int/report/democratic-republic-congo/iom-multi-country-bundibugyo-ebola-virus-disease-outbreak-situation-report-no-20-21-27-september-2026"
         },
         {
+          "id": "4232197",
+          "title": "MSF staff member tests positive for Ebola disease and is medically evacuated",
+          "dateOriginal": "2026-10-01T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "MSF",
+          "format": "News and Press Release",
+          "themes": [
+            "Health"
+          ],
+          "disasterTypes": [
+            "Epidemic"
+          ],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/msf-staff-member-tests-positive-ebola-disease-and-medically-evacuated"
+        },
+        {
           "id": "4232240",
           "title": "Note de plaidoyer : Renforcer d’urgence la réponse nutritionnelle dans la province du Maniema, Aout 2026",
           "dateOriginal": "2026-10-01T00:00:00+00:00",
@@ -2833,29 +2856,6 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/democratic-republic-congo/drc-seven-children-day-average-have-died-ebola-under-fives-greatest-risk"
-        },
-        {
-          "id": "4232197",
-          "title": "MSF staff member tests positive for Ebola disease and is medically evacuated",
-          "dateOriginal": "2026-10-01T00:00:00+00:00",
-          "primaryCountry": "Democratic Republic of the Congo",
-          "primaryCountryIso3": "cod",
-          "primaryCountryLocation": {
-            "lat": -4.03833,
-            "lon": 21.7587
-          },
-          "source": "MSF",
-          "format": "News and Press Release",
-          "themes": [
-            "Health"
-          ],
-          "disasterTypes": [
-            "Epidemic"
-          ],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/msf-staff-member-tests-positive-ebola-disease-and-medically-evacuated"
         },
         {
           "id": "4232170",
@@ -3234,7 +3234,7 @@
         "shannonEntropy": 2.9770803263058,
         "effectiveSourceCount": 19.630418477142694
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Yemen",
@@ -4306,7 +4306,7 @@
         "shannonEntropy": 3.027044692844212,
         "effectiveSourceCount": 20.63615620400507
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Nepal",
@@ -4713,7 +4713,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/2d/1a/2d1af154-ca5c-4500-a8d6-6a76633d229b.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/nepal/unicef-nepal-humanitarian-situation-report-no-6-5-october-2026"
+          "url": "https://reliefweb.int/report/nepal/unicef-nepal-humanitarian-situation-report-no-6-5-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4232747.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2d/1a/2d1af154-ca5c-4500-a8d6-6a76633d229b.png"
         },
         {
           "id": "4232666",
@@ -4743,7 +4745,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/68/1f/681fb2fe-087e-51f6-9a35-c805b01100ba.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/nepal/nepal-logistics-telecommunications-cluster-one-month-activation-4-sept-4-oct-2026"
+          "url": "https://reliefweb.int/report/nepal/nepal-logistics-telecommunications-cluster-one-month-activation-4-sept-4-oct-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4232666.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/68/1f/681fb2fe-087e-51f6-9a35-c805b01100ba.png"
         },
         {
           "id": "4232511",
@@ -4770,8 +4774,7 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/nepal/nepal-ltc-logs-standard-operating-procedures-sops-common-logistics-services-nepal-october-3-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4232511.png",
-          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/51/19/511977e6-f519-5bc7-af1f-2ebc76ba46b7.png"
+          "localThumbnail": "./assets/report-thumbs/rw-4232511.png"
         },
         {
           "id": "4232487",
@@ -4828,7 +4831,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/42/95/42950663-1bf9-5c42-923d-a88dbd863f11.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/nepal/nepal-logistics-telecommunications-cluster-02-october-2026-i-1500-kathmandu-meeting-slides"
+          "url": "https://reliefweb.int/report/nepal/nepal-logistics-telecommunications-cluster-02-october-2026-i-1500-kathmandu-meeting-slides",
+          "localThumbnail": "./assets/report-thumbs/rw-4232486.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/42/95/42950663-1bf9-5c42-923d-a88dbd863f11.png"
         },
         {
           "id": "4232532",
@@ -5354,7 +5359,7 @@
         "shannonEntropy": 2.801061135138051,
         "effectiveSourceCount": 16.462106025294485
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Afghanistan",
@@ -5806,7 +5811,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/57/d1/57d12206-071d-5631-bcda-7cc8fb975e1f.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/afghanistan/afghan-returns-weekly-update-27-september-03-october-2026"
+          "url": "https://reliefweb.int/report/afghanistan/afghan-returns-weekly-update-27-september-03-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4232502.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/57/d1/57d12206-071d-5631-bcda-7cc8fb975e1f.png"
         },
         {
           "id": "4232356",
@@ -5918,6 +5925,33 @@
           "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-central-highland-region-monthly-snapshot-january-august-2026"
         },
         {
+          "id": "4232269",
+          "title": "Shelter Cluster Afghanistan: Southern Region Monthly Snapshot (January - August 2026)",
+          "dateOriginal": "2026-10-01T00:00:00+00:00",
+          "primaryCountry": "Afghanistan",
+          "primaryCountryIso3": "afg",
+          "primaryCountryLocation": {
+            "lat": 33.84,
+            "lon": 66.03
+          },
+          "source": "CCCM Cluster, IOM, Shelter Cluster, UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Shelter and Non-Food Items"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ce/cd/cecd8465-a201-427b-974d-88699e72c1a5.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ce/cd/cecd8465-a201-427b-974d-88699e72c1a5.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ce/cd/cecd8465-a201-427b-974d-88699e72c1a5.png",
+            "https://reliefweb.int/sites/default/files/previews/ce/cd/cecd8465-a201-427b-974d-88699e72c1a5.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ce/cd/cecd8465-a201-427b-974d-88699e72c1a5.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-southern-region-monthly-snapshot-january-august-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4232269.png"
+        },
+        {
           "id": "4232260",
           "title": "Shelter Cluster Afghanistan: Central Region Monthly Snapshot (January - August 2026)",
           "dateOriginal": "2026-10-01T00:00:00+00:00",
@@ -6000,8 +6034,8 @@
           "localThumbnail": "./assets/report-thumbs/rw-4232259.png"
         },
         {
-          "id": "4232269",
-          "title": "Shelter Cluster Afghanistan: Southern Region Monthly Snapshot (January - August 2026)",
+          "id": "4232270",
+          "title": "Shelter Cluster Afghanistan: Western Region Monthly Snapshot (January - August 2026)",
           "dateOriginal": "2026-10-01T00:00:00+00:00",
           "primaryCountry": "Afghanistan",
           "primaryCountryIso3": "afg",
@@ -6015,20 +6049,20 @@
             "Shelter and Non-Food Items"
           ],
           "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ce/cd/cecd8465-a201-427b-974d-88699e72c1a5.png",
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8c/c5/8cc55e20-ff4b-470f-8cc5-b85ffe3315e8.png",
           "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ce/cd/cecd8465-a201-427b-974d-88699e72c1a5.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ce/cd/cecd8465-a201-427b-974d-88699e72c1a5.png",
-            "https://reliefweb.int/sites/default/files/previews/ce/cd/cecd8465-a201-427b-974d-88699e72c1a5.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ce/cd/cecd8465-a201-427b-974d-88699e72c1a5.png"
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8c/c5/8cc55e20-ff4b-470f-8cc5-b85ffe3315e8.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/8c/c5/8cc55e20-ff4b-470f-8cc5-b85ffe3315e8.png",
+            "https://reliefweb.int/sites/default/files/previews/8c/c5/8cc55e20-ff4b-470f-8cc5-b85ffe3315e8.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/8c/c5/8cc55e20-ff4b-470f-8cc5-b85ffe3315e8.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-southern-region-monthly-snapshot-january-august-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4232269.png"
+          "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-western-region-monthly-snapshot-january-august-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4232270.png"
         },
         {
-          "id": "4232142",
-          "title": "Afghanistan: Weekly Market Report: Issue 313: Week 4 - September 2026",
+          "id": "4232257",
+          "title": "Shelter Cluster Afghanistan: August Monthly Snapshot 2026",
           "dateOriginal": "2026-10-01T00:00:00+00:00",
           "primaryCountry": "Afghanistan",
           "primaryCountryIso3": "afg",
@@ -6036,52 +6070,22 @@
             "lat": 33.84,
             "lon": 66.03
           },
-          "source": "WFP",
-          "format": "Situation Report",
+          "source": "CCCM Cluster, IOM, Shelter Cluster, UNHCR",
+          "format": "Infographic",
           "themes": [
-            "Agriculture",
-            "Food and Nutrition",
             "Shelter and Non-Food Items"
           ],
           "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2f/4e/2f4e3dd3-38c0-4105-8990-41d474c823d8.png",
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
           "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2f/4e/2f4e3dd3-38c0-4105-8990-41d474c823d8.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/2f/4e/2f4e3dd3-38c0-4105-8990-41d474c823d8.png",
-            "https://reliefweb.int/sites/default/files/previews/2f/4e/2f4e3dd3-38c0-4105-8990-41d474c823d8.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/2f/4e/2f4e3dd3-38c0-4105-8990-41d474c823d8.png"
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
+            "https://reliefweb.int/sites/default/files/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/2c/a8/2ca89f14-fd7d-4066-a459-7a342fba91a5.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/afghanistan/afghanistan-weekly-market-report-issue-313-week-4-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4232142.png"
-        },
-        {
-          "id": "4232171",
-          "title": "ADI Working Group Monthly Meeting Minutes - September 2026",
-          "dateOriginal": "2026-10-01T00:00:00+00:00",
-          "primaryCountry": "Afghanistan",
-          "primaryCountryIso3": "afg",
-          "primaryCountryLocation": {
-            "lat": 33.84,
-            "lon": 66.03
-          },
-          "source": "ACBAR, UNFPA",
-          "format": "Other",
-          "themes": [
-            "Coordination",
-            "Disaster Management"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/43/47/43472c29-23b9-4c21-acca-43feab8d0b86.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/43/47/43472c29-23b9-4c21-acca-43feab8d0b86.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/43/47/43472c29-23b9-4c21-acca-43feab8d0b86.png",
-            "https://reliefweb.int/sites/default/files/previews/43/47/43472c29-23b9-4c21-acca-43feab8d0b86.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/43/47/43472c29-23b9-4c21-acca-43feab8d0b86.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/afghanistan/adi-working-group-monthly-meeting-minutes-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4232171.png"
+          "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-august-monthly-snapshot-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4232257.png"
         }
       ],
       "enrichmentStatus": "complete-v0.3",
@@ -6435,7 +6439,7 @@
         "shannonEntropy": 2.8459981240814534,
         "effectiveSourceCount": 17.21873653026384
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "occupied Palestinian territory",
@@ -7617,7 +7621,7 @@
         "shannonEntropy": 3.5351557070019393,
         "effectiveSourceCount": 34.30035510390871
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Sudan",
@@ -8253,32 +8257,6 @@
           "localThumbnail": "./assets/report-thumbs/rw-4232442.png"
         },
         {
-          "id": "4232221",
-          "title": "DTM Sudan Cross-Border Monitoring Report (6)",
-          "dateOriginal": "2026-10-01T00:00:00+00:00",
-          "primaryCountry": "Sudan",
-          "primaryCountryIso3": "sdn",
-          "primaryCountryLocation": {
-            "lat": 15,
-            "lon": 30
-          },
-          "source": "IOM",
-          "format": "Infographic",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ba/c3/bac322a2-caed-544d-bf4c-f8ab6e0f47ce.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ba/c3/bac322a2-caed-544d-bf4c-f8ab6e0f47ce.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ba/c3/bac322a2-caed-544d-bf4c-f8ab6e0f47ce.png",
-            "https://reliefweb.int/sites/default/files/previews/ba/c3/bac322a2-caed-544d-bf4c-f8ab6e0f47ce.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ba/c3/bac322a2-caed-544d-bf4c-f8ab6e0f47ce.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/sudan/dtm-sudan-cross-border-monitoring-report-6"
-        },
-        {
           "id": "4232137",
           "title": "Sudan: Today almost half a million people have lost life saving health, water and protection services amidst global funding cuts | The IRC",
           "dateOriginal": "2026-10-01T00:00:00+00:00",
@@ -8304,8 +8282,8 @@
           "url": "https://reliefweb.int/report/sudan/sudan-today-almost-half-million-people-have-lost-life-saving-health-water-and-protection-services-amidst-global-funding-cuts-irc"
         },
         {
-          "id": "4232252",
-          "title": "From bystander to protector: a case worker’s journey in Khor Ajwal",
+          "id": "4232221",
+          "title": "DTM Sudan Cross-Border Monitoring Report (6)",
           "dateOriginal": "2026-10-01T00:00:00+00:00",
           "primaryCountry": "Sudan",
           "primaryCountryIso3": "sdn",
@@ -8313,16 +8291,23 @@
             "lat": 15,
             "lon": 30
           },
-          "source": "ACTED",
-          "format": "News and Press Release",
+          "source": "IOM",
+          "format": "Infographic",
           "themes": [
             "Protection and Human Rights"
           ],
           "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ba/c3/bac322a2-caed-544d-bf4c-f8ab6e0f47ce.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ba/c3/bac322a2-caed-544d-bf4c-f8ab6e0f47ce.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ba/c3/bac322a2-caed-544d-bf4c-f8ab6e0f47ce.png",
+            "https://reliefweb.int/sites/default/files/previews/ba/c3/bac322a2-caed-544d-bf4c-f8ab6e0f47ce.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ba/c3/bac322a2-caed-544d-bf4c-f8ab6e0f47ce.png"
+          ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/sudan/bystander-protector-case-workers-journey-khor-ajwal"
+          "url": "https://reliefweb.int/report/sudan/dtm-sudan-cross-border-monitoring-report-6",
+          "localThumbnail": "./assets/report-thumbs/rw-4232221.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/previews/ba/c3/bac322a2-caed-544d-bf4c-f8ab6e0f47ce.png"
         },
         {
           "id": "4232194",
@@ -8351,6 +8336,27 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/sudan/sudan-conflict-ltc-situation-report-telecoms-area-44-reporting-period-september-2026",
           "localThumbnail": "./assets/report-thumbs/rw-4232194.png"
+        },
+        {
+          "id": "4232252",
+          "title": "From bystander to protector: a case worker’s journey in Khor Ajwal",
+          "dateOriginal": "2026-10-01T00:00:00+00:00",
+          "primaryCountry": "Sudan",
+          "primaryCountryIso3": "sdn",
+          "primaryCountryLocation": {
+            "lat": 15,
+            "lon": 30
+          },
+          "source": "ACTED",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/sudan/bystander-protector-case-workers-journey-khor-ajwal"
         }
       ],
       "enrichmentStatus": "complete-v0.3",
@@ -8690,7 +8696,7 @@
         "shannonEntropy": 3.190607896310664,
         "effectiveSourceCount": 24.303196777186074
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Ukraine",
@@ -9325,7 +9331,9 @@
           "thumbnail": "",
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/ukraine/behind-every-alert-real-fear-children-ukraine-air-raid-alarms-surge-over-quarter-three-months-child-casualties-rise"
+          "url": "https://reliefweb.int/report/ukraine/behind-every-alert-real-fear-children-ukraine-air-raid-alarms-surge-over-quarter-three-months-child-casualties-rise",
+          "localThumbnail": "./assets/report-thumbs/rw-4232140.webp",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/images/reports/a4/9d/a49d2d68-55df-48d0-a581-d96537166a91.webp"
         },
         {
           "id": "4232230",
@@ -9804,7 +9812,7 @@
         "shannonEntropy": 3.4143345927580104,
         "effectiveSourceCount": 30.39671650145118
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Colombia",
@@ -10763,7 +10771,7 @@
         "shannonEntropy": 2.8916879251280405,
         "effectiveSourceCount": 18.023706607681632
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Somalia",
@@ -11734,7 +11742,7 @@
         "shannonEntropy": 3.0243124406530852,
         "effectiveSourceCount": 20.579849977433813
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Chad",
@@ -12330,8 +12338,7 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/chad/tchad-mise-jour-des-messages-cles-persistance-des-conditions-severes-de-soudure-dans-les-provinces-forte-insecurite-alimentaire-de-lest-et-du-lac-septembre-2026-janvier-2027",
-          "localThumbnail": "./assets/report-thumbs/rw-4232297.png",
-          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/0f/d5/0fd59ad8-19c3-4caf-97e7-a7efaf87efcc.png"
+          "localThumbnail": "./assets/report-thumbs/rw-4232297.png"
         }
       ],
       "enrichmentStatus": "complete-v0.3",
@@ -12454,7 +12461,7 @@
         "shannonEntropy": 1.4534096679140471,
         "effectiveSourceCount": 4.277675129267843
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Lebanon",
@@ -12917,8 +12924,7 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/lebanon/least-52-million-school-age-children-across-middle-east-have-had-their-education-disrupted-over-last-six-months",
-          "localThumbnail": "./assets/report-thumbs/rw-4232365.webp",
-          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/images/reports/32/25/32255819-118c-43e9-9621-a6eb579be8c5.webp"
+          "localThumbnail": "./assets/report-thumbs/rw-4232365.webp"
         },
         {
           "id": "4232451",
@@ -13352,7 +13358,7 @@
         "shannonEntropy": 2.505829013454758,
         "effectiveSourceCount": 12.253713249355089
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Pakistan",
@@ -14219,7 +14225,7 @@
         "shannonEntropy": 2.0271477600375243,
         "effectiveSourceCount": 7.592400099299652
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "South Sudan",
@@ -15080,7 +15086,7 @@
         "shannonEntropy": 2.5208179480140145,
         "effectiveSourceCount": 12.438766768276958
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Philippines",
@@ -15657,34 +15663,6 @@
           "localThumbnail": "./assets/report-thumbs/rw-4230786.png"
         },
         {
-          "id": "4230866",
-          "title": "PDRF empowers Dumagat-Remontado communities to lead risk and resource mapping in their ancestral domain",
-          "dateOriginal": "2026-09-22T00:00:00+00:00",
-          "primaryCountry": "Philippines",
-          "primaryCountryIso3": "phl",
-          "primaryCountryLocation": {
-            "lat": 11.74,
-            "lon": 122.88
-          },
-          "source": "PDRF",
-          "format": "News and Press Release",
-          "themes": [
-            "Coordination",
-            "Disaster Management"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5c/81/5c81bd44-e813-40c5-bab0-b1eddd6dd4a7.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5c/81/5c81bd44-e813-40c5-bab0-b1eddd6dd4a7.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/5c/81/5c81bd44-e813-40c5-bab0-b1eddd6dd4a7.png",
-            "https://reliefweb.int/sites/default/files/previews/5c/81/5c81bd44-e813-40c5-bab0-b1eddd6dd4a7.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/5c/81/5c81bd44-e813-40c5-bab0-b1eddd6dd4a7.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/philippines/pdrf-empowers-dumagat-remontado-communities-lead-risk-and-resource-mapping-their-ancestral-domain",
-          "localThumbnail": "./assets/report-thumbs/rw-4230866.png"
-        },
-        {
           "id": "4230989",
           "title": "DSWD DROMIC Report #98 on the Combined Effects of Enhanced Southwest Monsoon and Tropical Cyclones “Luis”, “Maymay”, “Neneng”, and Pilandok” as of 22 September 2026, 6PM",
           "dateOriginal": "2026-09-22T00:00:00+00:00",
@@ -15715,6 +15693,34 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/philippines/dswd-dromic-report-98-combined-effects-enhanced-southwest-monsoon-and-tropical-cyclones-luis-maymay-neneng-and-pilandok-22-september-2026-6pm",
           "localThumbnail": "./assets/report-thumbs/rw-4230989.png"
+        },
+        {
+          "id": "4230866",
+          "title": "PDRF empowers Dumagat-Remontado communities to lead risk and resource mapping in their ancestral domain",
+          "dateOriginal": "2026-09-22T00:00:00+00:00",
+          "primaryCountry": "Philippines",
+          "primaryCountryIso3": "phl",
+          "primaryCountryLocation": {
+            "lat": 11.74,
+            "lon": 122.88
+          },
+          "source": "PDRF",
+          "format": "News and Press Release",
+          "themes": [
+            "Coordination",
+            "Disaster Management"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5c/81/5c81bd44-e813-40c5-bab0-b1eddd6dd4a7.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5c/81/5c81bd44-e813-40c5-bab0-b1eddd6dd4a7.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/5c/81/5c81bd44-e813-40c5-bab0-b1eddd6dd4a7.png",
+            "https://reliefweb.int/sites/default/files/previews/5c/81/5c81bd44-e813-40c5-bab0-b1eddd6dd4a7.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/5c/81/5c81bd44-e813-40c5-bab0-b1eddd6dd4a7.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/philippines/pdrf-empowers-dumagat-remontado-communities-lead-risk-and-resource-mapping-their-ancestral-domain",
+          "localThumbnail": "./assets/report-thumbs/rw-4230866.png"
         }
       ],
       "enrichmentStatus": "complete-v0.3",
@@ -15760,7 +15766,7 @@
         "shannonEntropy": 0.9476325723927469,
         "effectiveSourceCount": 2.5795954192501185
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Syrian Arab Republic",
@@ -16161,7 +16167,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/4a/a5/4aa59315-22bf-4e44-ae6d-03ca40066700.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/syrian-arab-republic/health-sector-syria-update-biweekly-national-and-sub-national-health-sector-coordination-16-30-september-2026"
+          "url": "https://reliefweb.int/report/syrian-arab-republic/health-sector-syria-update-biweekly-national-and-sub-national-health-sector-coordination-16-30-september-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4232491.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4a/a5/4aa59315-22bf-4e44-ae6d-03ca40066700.png"
         },
         {
           "id": "4232490",
@@ -16214,7 +16222,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/de/e7/dee7c538-731a-4a68-a0ce-d91d34af376e.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/syrian-arab-republic/summary-key-activities-moh-syria-september-2026"
+          "url": "https://reliefweb.int/report/syrian-arab-republic/summary-key-activities-moh-syria-september-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4232489.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/de/e7/dee7c538-731a-4a68-a0ce-d91d34af376e.png"
         },
         {
           "id": "4232183",
@@ -16675,7 +16685,7 @@
         "shannonEntropy": 2.8856502561897064,
         "effectiveSourceCount": 17.915213287098055
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Central African Republic",
@@ -17466,7 +17476,7 @@
         "shannonEntropy": 1.6362508945656182,
         "effectiveSourceCount": 5.135878422960974
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Haiti",
@@ -17788,6 +17798,33 @@
           "localThumbnail": "./assets/report-thumbs/rw-4232315.png"
         },
         {
+          "id": "4232318",
+          "title": "Haiti — Emergency Tracking Tool (ETT) 110 — Displacements following armed violence in the commune of Gros Morne in Artibonite (28 – 30 September 2026)",
+          "dateOriginal": "2026-10-02T00:00:00+00:00",
+          "primaryCountry": "Haiti",
+          "primaryCountryIso3": "hti",
+          "primaryCountryLocation": {
+            "lat": 19.18,
+            "lon": -72.43
+          },
+          "source": "IOM",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c4/19/c419c656-1144-5b46-a3a4-5ddf4bb40635.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c4/19/c419c656-1144-5b46-a3a4-5ddf4bb40635.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/c4/19/c419c656-1144-5b46-a3a4-5ddf4bb40635.png",
+            "https://reliefweb.int/sites/default/files/previews/c4/19/c419c656-1144-5b46-a3a4-5ddf4bb40635.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/c4/19/c419c656-1144-5b46-a3a4-5ddf4bb40635.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/haiti/haiti-emergency-tracking-tool-ett-110-displacements-following-armed-violence-commune-gros-morne-artibonite-28-30-september-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4232318.png"
+        },
+        {
           "id": "4232408",
           "title": "Haiti : Bulletin du Groupe de Travail sur les Transferts Monétaires en Haïti / GTTM - CWG (mai – juillet 2026)",
           "dateOriginal": "2026-10-02T00:00:00+00:00",
@@ -17814,33 +17851,6 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/haiti/haiti-bulletin-du-groupe-de-travail-sur-les-transferts-monetaires-en-haiti-gttm-cwg-mai-juillet-2026",
           "localThumbnail": "./assets/report-thumbs/rw-4232408.png"
-        },
-        {
-          "id": "4232318",
-          "title": "Haiti — Emergency Tracking Tool (ETT) 110 — Displacements following armed violence in the commune of Gros Morne in Artibonite (28 – 30 September 2026)",
-          "dateOriginal": "2026-10-02T00:00:00+00:00",
-          "primaryCountry": "Haiti",
-          "primaryCountryIso3": "hti",
-          "primaryCountryLocation": {
-            "lat": 19.18,
-            "lon": -72.43
-          },
-          "source": "IOM",
-          "format": "Infographic",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c4/19/c419c656-1144-5b46-a3a4-5ddf4bb40635.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c4/19/c419c656-1144-5b46-a3a4-5ddf4bb40635.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/c4/19/c419c656-1144-5b46-a3a4-5ddf4bb40635.png",
-            "https://reliefweb.int/sites/default/files/previews/c4/19/c419c656-1144-5b46-a3a4-5ddf4bb40635.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/c4/19/c419c656-1144-5b46-a3a4-5ddf4bb40635.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/haiti/haiti-emergency-tracking-tool-ett-110-displacements-following-armed-violence-commune-gros-morne-artibonite-28-30-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4232318.png"
         },
         {
           "id": "4232248",
@@ -17873,7 +17883,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/2c/ef/2cef0d2a-4dbf-4ef9-8b11-5f11e82626be.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/haiti/haiti-nationwide-humanitarian-response-1-july-31-august-2026"
+          "url": "https://reliefweb.int/report/haiti/haiti-nationwide-humanitarian-response-1-july-31-august-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4232248.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2c/ef/2cef0d2a-4dbf-4ef9-8b11-5f11e82626be.png"
         },
         {
           "id": "4232293",
@@ -18274,7 +18286,7 @@
         "shannonEntropy": 2.39126180754578,
         "effectiveSourceCount": 10.927273363710366
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Venezuela (Bolivarian Republic of)",
@@ -19197,7 +19209,7 @@
         "shannonEntropy": 3.17445580893885,
         "effectiveSourceCount": 23.913802649129444
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Uganda",
@@ -19628,29 +19640,6 @@
           "localThumbnail": "./assets/report-thumbs/rw-4231803.png"
         },
         {
-          "id": "4231892",
-          "title": "Refugees in Uganda are turning food assistance into farms, trades, and savings - CARE",
-          "dateOriginal": "2026-09-29T00:00:00+00:00",
-          "primaryCountry": "Uganda",
-          "primaryCountryIso3": "uga",
-          "primaryCountryLocation": {
-            "lat": 1.28,
-            "lon": 32.39
-          },
-          "source": "CARE",
-          "format": "News and Press Release",
-          "themes": [
-            "Agriculture",
-            "Food and Nutrition",
-            "Recovery and Reconstruction"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/uganda/refugees-uganda-are-turning-food-assistance-farms-trades-and-savings-care"
-        },
-        {
           "id": "4231781",
           "title": "Private Sector Engagement Case Study – GRAMEEN and Rural Financial Initiative (RUFI) Partnership: Advancing financial inclusion among refugee and host communities in Palabek",
           "dateOriginal": "2026-09-29T00:00:00+00:00",
@@ -19678,6 +19667,29 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/uganda/private-sector-engagement-case-study-grameen-and-rural-financial-initiative-rufi-partnership-advancing-financial-inclusion-among-refugee-and-host-communities-palabek",
           "localThumbnail": "./assets/report-thumbs/rw-4231781.png"
+        },
+        {
+          "id": "4231892",
+          "title": "Refugees in Uganda are turning food assistance into farms, trades, and savings - CARE",
+          "dateOriginal": "2026-09-29T00:00:00+00:00",
+          "primaryCountry": "Uganda",
+          "primaryCountryIso3": "uga",
+          "primaryCountryLocation": {
+            "lat": 1.28,
+            "lon": 32.39
+          },
+          "source": "CARE",
+          "format": "News and Press Release",
+          "themes": [
+            "Agriculture",
+            "Food and Nutrition",
+            "Recovery and Reconstruction"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/uganda/refugees-uganda-are-turning-food-assistance-farms-trades-and-savings-care"
         },
         {
           "id": "4230715",
@@ -19932,7 +19944,7 @@
         "shannonEntropy": 1.4755682707437368,
         "effectiveSourceCount": 4.373520410585921
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Ethiopia",
@@ -20251,34 +20263,6 @@
       ],
       "recentReports": [
         {
-          "id": "4232641",
-          "title": "Ethiopia Protection Analysis Update: The Critical Need for Protection amongst Conflict, Violence and Climate Shocks - August 2026",
-          "dateOriginal": "2026-10-05T00:00:00+00:00",
-          "primaryCountry": "Ethiopia",
-          "primaryCountryIso3": "eth",
-          "primaryCountryLocation": {
-            "lat": 8.63,
-            "lon": 39.62
-          },
-          "source": "Protection Cluster, UNHCR",
-          "format": "Analysis",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [
-            "Drought"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cb/d1/cbd1edda-8094-46ae-b2f7-f90e1fd60a28.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cb/d1/cbd1edda-8094-46ae-b2f7-f90e1fd60a28.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/cb/d1/cbd1edda-8094-46ae-b2f7-f90e1fd60a28.png",
-            "https://reliefweb.int/sites/default/files/previews/cb/d1/cbd1edda-8094-46ae-b2f7-f90e1fd60a28.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/cb/d1/cbd1edda-8094-46ae-b2f7-f90e1fd60a28.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/ethiopia/ethiopia-protection-analysis-update-critical-need-protection-amongst-conflict-violence-and-climate-shocks-august-2026"
-        },
-        {
           "id": "4232640",
           "title": "Ethiopia Monthly Protection Overview - August 2026",
           "dateOriginal": "2026-10-05T00:00:00+00:00",
@@ -20329,6 +20313,34 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/ethiopia/unhcr-ethiopia-livelihoods-q2-factsheet-january-june-2026"
+        },
+        {
+          "id": "4232641",
+          "title": "Ethiopia Protection Analysis Update: The Critical Need for Protection amongst Conflict, Violence and Climate Shocks - August 2026",
+          "dateOriginal": "2026-10-05T00:00:00+00:00",
+          "primaryCountry": "Ethiopia",
+          "primaryCountryIso3": "eth",
+          "primaryCountryLocation": {
+            "lat": 8.63,
+            "lon": 39.62
+          },
+          "source": "Protection Cluster, UNHCR",
+          "format": "Analysis",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [
+            "Drought"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cb/d1/cbd1edda-8094-46ae-b2f7-f90e1fd60a28.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cb/d1/cbd1edda-8094-46ae-b2f7-f90e1fd60a28.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/cb/d1/cbd1edda-8094-46ae-b2f7-f90e1fd60a28.png",
+            "https://reliefweb.int/sites/default/files/previews/cb/d1/cbd1edda-8094-46ae-b2f7-f90e1fd60a28.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/cb/d1/cbd1edda-8094-46ae-b2f7-f90e1fd60a28.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/ethiopia/ethiopia-protection-analysis-update-critical-need-protection-amongst-conflict-violence-and-climate-shocks-august-2026"
         },
         {
           "id": "4232628",
@@ -20807,7 +20819,7 @@
         "shannonEntropy": 2.3597651925876733,
         "effectiveSourceCount": 10.588464910469824
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Myanmar",
@@ -21553,7 +21565,7 @@
         "shannonEntropy": 2.451137151482886,
         "effectiveSourceCount": 11.601531920243966
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Sri Lanka",
@@ -22230,7 +22242,7 @@
         "shannonEntropy": 0.623848004006291,
         "effectiveSourceCount": 1.8660949847678223
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Bangladesh",
@@ -22632,7 +22644,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/07/89/07898327-97b2-44e9-8f35-e85377424457.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/bangladesh/bangladesh-iccg-meeting-notes-23-september-2026-meeting-minutes"
+          "url": "https://reliefweb.int/report/bangladesh/bangladesh-iccg-meeting-notes-23-september-2026-meeting-minutes",
+          "localThumbnail": "./assets/report-thumbs/rw-4232495.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/07/89/07898327-97b2-44e9-8f35-e85377424457.png"
         },
         {
           "id": "4230849",
@@ -22964,7 +22978,7 @@
         "shannonEntropy": 2.0379361709460255,
         "effectiveSourceCount": 7.674753463563177
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Mozambique",
@@ -23811,7 +23825,7 @@
         "shannonEntropy": 2.543147965762948,
         "effectiveSourceCount": 12.719649032706357
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Nigeria",
@@ -24173,28 +24187,6 @@
           "url": "https://reliefweb.int/report/nigeria/transition-aid-coordination-nigeria-major-test-humanitarian-community"
         },
         {
-          "id": "4231849",
-          "title": "From long queues to enough for everyone: What reliable water access means for displaced families in Gwoza and Biu",
-          "dateOriginal": "2026-09-29T00:00:00+00:00",
-          "primaryCountry": "Nigeria",
-          "primaryCountryIso3": "nga",
-          "primaryCountryLocation": {
-            "lat": 9.59,
-            "lon": 8.11
-          },
-          "source": "ICRC",
-          "format": "News and Press Release",
-          "themes": [
-            "Protection and Human Rights",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/nigeria/long-queues-enough-everyone-what-reliable-water-access-means-displaced-families-gwoza-and-biu"
-        },
-        {
           "id": "4231983",
           "title": "Nigeria - Logistics and Telecommunications Sector (LTS) Coordination Meeting Minutes, 29 September 2026",
           "dateOriginal": "2026-09-29T00:00:00+00:00",
@@ -24220,6 +24212,28 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/nigeria/nigeria-logistics-and-telecommunications-sector-lts-coordination-meeting-minutes-29-september-2026",
           "localThumbnail": "./assets/report-thumbs/rw-4231983.png"
+        },
+        {
+          "id": "4231849",
+          "title": "From long queues to enough for everyone: What reliable water access means for displaced families in Gwoza and Biu",
+          "dateOriginal": "2026-09-29T00:00:00+00:00",
+          "primaryCountry": "Nigeria",
+          "primaryCountryIso3": "nga",
+          "primaryCountryLocation": {
+            "lat": 9.59,
+            "lon": 8.11
+          },
+          "source": "ICRC",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/nigeria/long-queues-enough-everyone-what-reliable-water-access-means-displaced-families-gwoza-and-biu"
         },
         {
           "id": "4231858",
@@ -24605,7 +24619,7 @@
         "shannonEntropy": 2.5152409033098406,
         "effectiveSourceCount": 12.369588294971791
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Mali",
@@ -25299,7 +25313,7 @@
         "shannonEntropy": 2.5224177442114417,
         "effectiveSourceCount": 12.458682186110853
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Türkiye",
@@ -25857,7 +25871,7 @@
         "shannonEntropy": 0.40945861869508926,
         "effectiveSourceCount": 1.5060022429136557
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Kenya",
@@ -26578,7 +26592,7 @@
         "shannonEntropy": 2.293118601486813,
         "effectiveSourceCount": 9.90578174668388
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Djibouti",
@@ -27225,7 +27239,7 @@
         "shannonEntropy": 1.8397895868412517,
         "effectiveSourceCount": 6.295213525897713
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Burundi",
@@ -28431,7 +28445,7 @@
         "shannonEntropy": 1.4878167164014493,
         "effectiveSourceCount": 4.4274186486519
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Cameroon",
@@ -29166,7 +29180,7 @@
         "shannonEntropy": 2.4762471329830333,
         "effectiveSourceCount": 11.89653442582847
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Cuba",
@@ -30398,7 +30412,7 @@
         "shannonEntropy": 1.6094379124341,
         "effectiveSourceCount": 4.999999999999998
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Romania",
@@ -31073,7 +31087,7 @@
         "shannonEntropy": 1.4941751382893085,
         "effectiveSourceCount": 4.455659733512512
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Egypt",
@@ -31759,7 +31773,7 @@
         "shannonEntropy": 0.410116318288409,
         "effectiveSourceCount": 1.5069930657725377
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Honduras",
@@ -32739,7 +32753,7 @@
         "shannonEntropy": 1.0986122886681096,
         "effectiveSourceCount": 2.9999999999999996
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Spain",
@@ -33020,7 +33034,7 @@
         "shannonEntropy": 1.3321790402101223,
         "effectiveSourceCount": 3.7892914162759954
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "gmb",
@@ -33490,7 +33504,7 @@
         "shannonEntropy": 1.0986122886681096,
         "effectiveSourceCount": 2.9999999999999996
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Armenia",
@@ -34680,7 +34694,7 @@
         "shannonEntropy": 0,
         "effectiveSourceCount": 1
       },
-      "enrichedAt": "2026-10-06T02:39:07.103Z"
+      "enrichedAt": "2026-10-06T02:39:41.067Z"
     },
     {
       "name": "Serbia",
@@ -34905,7 +34919,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/fa/10/fa1059b9-0c12-4f98-b613-785454ae1e18.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/nigeria/nigeria-weekly-report-week-25-september-1-october-2026"
+      "url": "https://reliefweb.int/report/nigeria/nigeria-weekly-report-week-25-september-1-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4232556.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/fa/10/fa1059b9-0c12-4f98-b613-785454ae1e18.png"
     },
     {
       "id": "4232595",
@@ -35181,7 +35197,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/b8/4d/b84d6b22-d8c2-5b8e-b9d3-afd63f1d3df2.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/sudan-country-refugee-response-plan-crrp-2026-mid-year-report"
+      "url": "https://reliefweb.int/report/sudan/sudan-country-refugee-response-plan-crrp-2026-mid-year-report",
+      "localThumbnail": "./assets/report-thumbs/rw-4232591.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/b8/4d/b84d6b22-d8c2-5b8e-b9d3-afd63f1d3df2.png"
     },
     {
       "id": "4232642",
@@ -35519,7 +35537,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/80/b6/80b6124c-dd18-5e6d-8b7d-c5c04e1fd278.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ghana/coastal-countries-ghana-monthly-statistics-31-aug-2026"
+      "url": "https://reliefweb.int/report/ghana/coastal-countries-ghana-monthly-statistics-31-aug-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4232539.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/80/b6/80b6124c-dd18-5e6d-8b7d-c5c04e1fd278.png"
     },
     {
       "id": "4232604",
@@ -35980,7 +36000,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/1f/19/1f19b816-8c5c-5ef0-9cea-7fe9d95629d6.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/colombia/colombia-impacct-working-group-guia-para-la-importacion-de-asistencia-humanitaria-en-colombia-28-de-septiembre-de-2026"
+      "url": "https://reliefweb.int/report/colombia/colombia-impacct-working-group-guia-para-la-importacion-de-asistencia-humanitaria-en-colombia-28-de-septiembre-de-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4232621.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1f/19/1f19b816-8c5c-5ef0-9cea-7fe9d95629d6.png"
     },
     {
       "id": "4232661",
@@ -38069,7 +38091,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-10-06T02:39:09.637Z",
+    "reportThumbnailCacheAt": "2026-10-06T02:39:48.970Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
