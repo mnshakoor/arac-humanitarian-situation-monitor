@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-10-13T00:41:29.754Z",
-  "lastSyncAttemptAt": "2026-10-13T00:41:29.754Z",
+  "generatedAt": "2026-10-13T07:43:18.696Z",
+  "lastSyncAttemptAt": "2026-10-13T07:43:18.696Z",
   "enrichedAt": "2026-10-12T09:43:41.740Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -22,7 +22,7 @@
     }
   },
   "summary": {
-    "reports30d": 2191,
+    "reports30d": 2203,
     "countries": 123,
     "uniqueSources": 150,
     "activeDisasters": 104,
@@ -129,11 +129,11 @@
     },
     {
       "date": "2026-10-08T00:00:00+00:00",
-      "count": 67
+      "count": 68
     },
     {
       "date": "2026-10-09T00:00:00+00:00",
-      "count": 76
+      "count": 77
     },
     {
       "date": "2026-10-10T00:00:00+00:00",
@@ -145,29 +145,33 @@
     },
     {
       "date": "2026-10-12T00:00:00+00:00",
-      "count": 83
+      "count": 86
+    },
+    {
+      "date": "2026-10-13T00:00:00+00:00",
+      "count": 7
     }
   ],
   "globalThemes": [
     {
       "name": "Protection and Human Rights",
-      "count": 1102
+      "count": 1105
     },
     {
       "name": "Health",
-      "count": 677
+      "count": 685
     },
     {
       "name": "Food and Nutrition",
-      "count": 494
+      "count": 497
     },
     {
       "name": "Shelter and Non-Food Items",
-      "count": 341
+      "count": 342
     },
     {
       "name": "Water Sanitation Hygiene",
-      "count": 329
+      "count": 334
     },
     {
       "name": "Coordination",
@@ -175,11 +179,11 @@
     },
     {
       "name": "Agriculture",
-      "count": 226
+      "count": 225
     },
     {
       "name": "Education",
-      "count": 219
+      "count": 222
     },
     {
       "name": "Logistics and Telecommunications",
@@ -191,15 +195,15 @@
     },
     {
       "name": "Recovery and Reconstruction",
-      "count": 114
+      "count": 115
     },
     {
       "name": "Contributions",
-      "count": 89
+      "count": 90
     },
     {
       "name": "Disaster Management",
-      "count": 77
+      "count": 81
     },
     {
       "name": "Climate Change and Environment",
@@ -214,11 +218,11 @@
       "count": 40
     },
     {
-      "name": "Humanitarian Financing",
-      "count": 38
+      "name": "Peacekeeping and Peacebuilding",
+      "count": 39
     },
     {
-      "name": "Peacekeeping and Peacebuilding",
+      "name": "Humanitarian Financing",
       "count": 38
     },
     {
@@ -237,7 +241,7 @@
     },
     {
       "name": "OCHA",
-      "count": 233
+      "count": 234
     },
     {
       "name": "IOM",
@@ -245,15 +249,15 @@
     },
     {
       "name": "WFP",
-      "count": 176
+      "count": 177
     },
     {
       "name": "WHO",
-      "count": 121
+      "count": 124
     },
     {
       "name": "UNICEF",
-      "count": 78
+      "count": 81
     },
     {
       "name": "IFRC",
@@ -273,7 +277,7 @@
     },
     {
       "name": "Save the Children",
-      "count": 38
+      "count": 39
     },
     {
       "name": "FAO",
@@ -284,15 +288,15 @@
       "count": 32
     },
     {
-      "name": "Protection Cluster",
-      "count": 31
-    },
-    {
       "name": "ECHO",
       "count": 30
     },
     {
       "name": "ETC",
+      "count": 30
+    },
+    {
+      "name": "Protection Cluster",
       "count": 30
     },
     {
@@ -344,7 +348,15 @@
       "count": 16
     },
     {
+      "name": "Govt. Nepal",
+      "count": 16
+    },
+    {
       "name": "Govt. Sri Lanka",
+      "count": 16
+    },
+    {
+      "name": "UNDP",
       "count": 16
     },
     {
@@ -356,15 +368,7 @@
       "count": 15
     },
     {
-      "name": "Govt. Nepal",
-      "count": 15
-    },
-    {
       "name": "Plan International",
-      "count": 15
-    },
-    {
-      "name": "UNDP",
       "count": 15
     },
     {
@@ -388,11 +392,11 @@
       "count": 12
     },
     {
-      "name": "OHCHR",
-      "count": 12
+      "name": "Amnesty",
+      "count": 11
     },
     {
-      "name": "Amnesty",
+      "name": "OHCHR",
       "count": 11
     },
     {
@@ -592,6 +596,10 @@
       "count": 4
     },
     {
+      "name": "MIMU",
+      "count": 4
+    },
+    {
       "name": "MMC",
       "count": 4
     },
@@ -712,10 +720,6 @@
       "count": 3
     },
     {
-      "name": "MIMU",
-      "count": 3
-    },
-    {
       "name": "MONUSCO",
       "count": 3
     },
@@ -800,10 +804,6 @@
       "count": 2
     },
     {
-      "name": "FSC",
-      "count": 2
-    },
-    {
       "name": "Govt. Canada",
       "count": 2
     },
@@ -830,32 +830,36 @@
     {
       "name": "MHI",
       "count": 2
+    },
+    {
+      "name": "MINUSCA",
+      "count": 2
     }
   ],
   "globalFormats": [
     {
       "name": "News and Press Release",
-      "count": 604
+      "count": 608
     },
     {
       "name": "Situation Report",
-      "count": 532
+      "count": 536
     },
     {
       "name": "Infographic",
-      "count": 489
+      "count": 490
     },
     {
       "name": "Analysis",
-      "count": 209
+      "count": 211
     },
     {
       "name": "Other",
-      "count": 113
+      "count": 111
     },
     {
       "name": "Map",
-      "count": 79
+      "count": 81
     },
     {
       "name": "Assessment",
@@ -863,7 +867,7 @@
     },
     {
       "name": "Manual and Guideline",
-      "count": 58
+      "count": 59
     },
     {
       "name": "Evaluation and Lessons Learned",
@@ -886,10 +890,10 @@
       "location": null,
       "overview": "",
       "countryUrl": "",
-      "reports30d": 262,
-      "reports7d": 48,
+      "reports30d": 264,
+      "reports7d": 50,
       "previous7d": 61,
-      "change7d": -21.311475409836063,
+      "change7d": -18.0327868852459,
       "uniqueSources": 60,
       "themeBreadth": 19,
       "formatBreadth": 10,
@@ -1425,6 +1429,25 @@
       ],
       "recentReports": [
         {
+          "id": "4233739",
+          "title": "Save the Children joins HSBC’s Disaster Relief Partnership to help communities prepare for natural disasters",
+          "dateOriginal": "2026-10-13T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "Save the Children",
+          "format": "News and Press Release",
+          "themes": [
+            "Contributions",
+            "Disaster Management"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/save-children-joins-hsbcs-disaster-relief-partnership-help-communities-prepare-natural-disasters"
+        },
+        {
           "id": "4233556",
           "title": "Global Multidimensional Poverty Index 2026 - Statistical Update",
           "dateOriginal": "2026-10-12T00:00:00+00:00",
@@ -1500,7 +1523,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/11/1a/111a8e54-a4df-4a80-bd7d-8270c1f086c7.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/no-time-recover-compounding-crises-depleted-fiscal-buffers-and-what-it-means-developing-economies"
+          "url": "https://reliefweb.int/report/world/no-time-recover-compounding-crises-depleted-fiscal-buffers-and-what-it-means-developing-economies",
+          "localThumbnail": "./assets/report-thumbs/rw-4233524.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/11/1a/111a8e54-a4df-4a80-bd7d-8270c1f086c7.png"
         },
         {
           "id": "4233462",
@@ -1694,33 +1719,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/1d/c0/1dc054f6-c912-5f9e-99ee-d0b87e28292c.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/preventing-and-addressing-obstetric-violence-humanitarian-contexts"
-        },
-        {
-          "id": "4233376",
-          "title": "Turkish Red Crescent Monthly Activity Bulletin - September 2026",
-          "dateOriginal": "2026-10-09T00:00:00+00:00",
-          "primaryCountry": "World",
-          "primaryCountryIso3": "wld",
-          "primaryCountryLocation": null,
-          "source": "Turkish Red Crescent",
-          "format": "News and Press Release",
-          "themes": [
-            "Education",
-            "Food and Nutrition",
-            "Health"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/db/17/db179b29-56a0-4002-9b11-23a436271810.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/db/17/db179b29-56a0-4002-9b11-23a436271810.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/db/17/db179b29-56a0-4002-9b11-23a436271810.png",
-            "https://reliefweb.int/sites/default/files/previews/db/17/db179b29-56a0-4002-9b11-23a436271810.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/db/17/db179b29-56a0-4002-9b11-23a436271810.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/turkish-red-crescent-monthly-activity-bulletin-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4233376.png"
+          "url": "https://reliefweb.int/report/world/preventing-and-addressing-obstetric-violence-humanitarian-contexts",
+          "localThumbnail": "./assets/report-thumbs/rw-4233438.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1d/c0/1dc054f6-c912-5f9e-99ee-d0b87e28292c.png"
         }
       ],
       "enrichmentStatus": "complete"
@@ -1735,10 +1736,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 171,
-      "reports7d": 35,
+      "reports30d": 172,
+      "reports7d": 36,
       "previous7d": 35,
-      "change7d": 0,
+      "change7d": 2.857142857142857,
       "uniqueSources": 48,
       "themeBreadth": 18,
       "formatBreadth": 8,
@@ -2162,30 +2163,31 @@
       ],
       "recentReports": [
         {
-          "id": "4233622",
-          "title": "Yemen: Al Jawf Governorate Humanitarian Presence (4Ws) August 2026",
-          "dateOriginal": "2026-10-12T00:00:00+00:00",
+          "id": "4233750",
+          "title": "WFP Yemen | Thematic Study: Conflict Escalation and Market Implications (October 2026)",
+          "dateOriginal": "2026-10-13T00:00:00+00:00",
           "primaryCountry": "Yemen",
           "primaryCountryIso3": "yem",
           "primaryCountryLocation": {
             "lat": 15.94,
             "lon": 47.62
           },
-          "source": "OCHA",
-          "format": "Infographic",
+          "source": "WFP",
+          "format": "Analysis",
           "themes": [
-            "Coordination"
+            "Food and Nutrition",
+            "Protection and Human Rights"
           ],
           "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f5/c1/f5c1cc0e-e210-4215-884c-6214514f2b90.png",
           "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
-            "https://reliefweb.int/sites/default/files/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png"
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f5/c1/f5c1cc0e-e210-4215-884c-6214514f2b90.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/f5/c1/f5c1cc0e-e210-4215-884c-6214514f2b90.png",
+            "https://reliefweb.int/sites/default/files/previews/f5/c1/f5c1cc0e-e210-4215-884c-6214514f2b90.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/f5/c1/f5c1cc0e-e210-4215-884c-6214514f2b90.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/yemen/yemen-al-jawf-governorate-humanitarian-presence-4ws-august-2026"
+          "url": "https://reliefweb.int/report/yemen/wfp-yemen-thematic-study-conflict-escalation-and-market-implications-october-2026"
         },
         {
           "id": "4233635",
@@ -2212,32 +2214,6 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/yemen/yemen-al-mahwit-governorate-humanitarian-presence-4ws-august-2026"
-        },
-        {
-          "id": "4233653",
-          "title": "Yemen: Sana'a Governorate Humanitarian Presence (4Ws) August 2026",
-          "dateOriginal": "2026-10-12T00:00:00+00:00",
-          "primaryCountry": "Yemen",
-          "primaryCountryIso3": "yem",
-          "primaryCountryLocation": {
-            "lat": 15.94,
-            "lon": 47.62
-          },
-          "source": "OCHA",
-          "format": "Infographic",
-          "themes": [
-            "Coordination"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
-            "https://reliefweb.int/sites/default/files/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/yemen/yemen-sanaa-governorate-humanitarian-presence-4ws-august-2026"
         },
         {
           "id": "4233636",
@@ -2292,6 +2268,53 @@
           "url": "https://reliefweb.int/report/yemen/yemen-ibb-governorate-humanitarian-presence-4ws-august-2026"
         },
         {
+          "id": "4233622",
+          "title": "Yemen: Al Jawf Governorate Humanitarian Presence (4Ws) August 2026",
+          "dateOriginal": "2026-10-12T00:00:00+00:00",
+          "primaryCountry": "Yemen",
+          "primaryCountryIso3": "yem",
+          "primaryCountryLocation": {
+            "lat": 15.94,
+            "lon": 47.62
+          },
+          "source": "OCHA",
+          "format": "Infographic",
+          "themes": [
+            "Coordination"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
+            "https://reliefweb.int/sites/default/files/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/yemen/yemen-al-jawf-governorate-humanitarian-presence-4ws-august-2026"
+        },
+        {
+          "id": "4233684",
+          "title": "Yemen: People Desperate to Flee Conflict While Thousands Arrive, All at Risk",
+          "dateOriginal": "2026-10-12T00:00:00+00:00",
+          "primaryCountry": "Yemen",
+          "primaryCountryIso3": "yem",
+          "primaryCountryLocation": {
+            "lat": 15.94,
+            "lon": 47.62
+          },
+          "source": "IOM",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/yemen/yemen-people-desperate-flee-conflict-while-thousands-arrive-all-risk"
+        },
+        {
           "id": "4233646",
           "title": "Yemen: Lahj Governorate Humanitarian Presence (4Ws) August 2026",
           "dateOriginal": "2026-10-12T00:00:00+00:00",
@@ -2318,8 +2341,8 @@
           "url": "https://reliefweb.int/report/yemen/yemen-lahj-governorate-humanitarian-presence-4ws-august-2026"
         },
         {
-          "id": "4233684",
-          "title": "Yemen: People Desperate to Flee Conflict While Thousands Arrive, All at Risk",
+          "id": "4233653",
+          "title": "Yemen: Sana'a Governorate Humanitarian Presence (4Ws) August 2026",
           "dateOriginal": "2026-10-12T00:00:00+00:00",
           "primaryCountry": "Yemen",
           "primaryCountryIso3": "yem",
@@ -2327,16 +2350,21 @@
             "lat": 15.94,
             "lon": 47.62
           },
-          "source": "IOM",
-          "format": "News and Press Release",
+          "source": "OCHA",
+          "format": "Infographic",
           "themes": [
-            "Protection and Human Rights"
+            "Coordination"
           ],
           "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
+            "https://reliefweb.int/sites/default/files/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png"
+          ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/yemen/yemen-people-desperate-flee-conflict-while-thousands-arrive-all-risk"
+          "url": "https://reliefweb.int/report/yemen/yemen-sanaa-governorate-humanitarian-presence-4ws-august-2026"
         },
         {
           "id": "4233587",
@@ -2441,32 +2469,6 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/yemen/yemen-aden-governorate-humanitarian-presence-4ws-august-2026"
-        },
-        {
-          "id": "4233652",
-          "title": "Yemen: Sana'a City Governorate Humanitarian Presence (4Ws) August 2026",
-          "dateOriginal": "2026-10-12T00:00:00+00:00",
-          "primaryCountry": "Yemen",
-          "primaryCountryIso3": "yem",
-          "primaryCountryLocation": {
-            "lat": 15.94,
-            "lon": 47.62
-          },
-          "source": "OCHA",
-          "format": "Infographic",
-          "themes": [
-            "Coordination"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/20/20/20201d92-3c6e-40d6-a89d-9cc60d09da4f.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/20/20/20201d92-3c6e-40d6-a89d-9cc60d09da4f.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/20/20/20201d92-3c6e-40d6-a89d-9cc60d09da4f.png",
-            "https://reliefweb.int/sites/default/files/previews/20/20/20201d92-3c6e-40d6-a89d-9cc60d09da4f.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/20/20/20201d92-3c6e-40d6-a89d-9cc60d09da4f.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/yemen/yemen-sanaa-city-governorate-humanitarian-presence-4ws-august-2026"
         }
       ],
       "enrichmentStatus": "complete"
@@ -2481,10 +2483,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 153,
-      "reports7d": 15,
+      "reports30d": 154,
+      "reports7d": 16,
       "previous7d": 34,
-      "change7d": -55.88235294117647,
+      "change7d": -52.94117647058824,
       "uniqueSources": 32,
       "themeBreadth": 16,
       "formatBreadth": 9,
@@ -2864,6 +2866,34 @@
       ],
       "recentReports": [
         {
+          "id": "4233730",
+          "title": "République Démocratique du Congo - Épidémie de maladie à virus Ebola - Aperçu de la situation, semaine 41 - à la date du 12 octobre 2026",
+          "dateOriginal": "2026-10-13T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "OCHA",
+          "format": "Infographic",
+          "themes": [
+            "Health"
+          ],
+          "disasterTypes": [
+            "Epidemic"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/cf/0acfb9ce-b70c-4de7-b3b7-42ef81d398fd.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/cf/0acfb9ce-b70c-4de7-b3b7-42ef81d398fd.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/0a/cf/0acfb9ce-b70c-4de7-b3b7-42ef81d398fd.png",
+            "https://reliefweb.int/sites/default/files/previews/0a/cf/0acfb9ce-b70c-4de7-b3b7-42ef81d398fd.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/0a/cf/0acfb9ce-b70c-4de7-b3b7-42ef81d398fd.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-epidemie-de-maladie-virus-ebola-apercu-de-la-situation-semaine-41-la-date-du-12-octobre-2026"
+        },
+        {
           "id": "4233559",
           "title": "UNICEF Cholera Response in DRC - Case Area Targeted Interventions (CATI) program: Tanganyika, North Kivu, South Kivu and Haut-Lomami provinces | August 2026",
           "dateOriginal": "2026-10-12T00:00:00+00:00",
@@ -3174,36 +3204,6 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-country-report-state-humanitarian-system-2026",
           "localThumbnail": "./assets/report-thumbs/rw-4233298.png"
-        },
-        {
-          "id": "4232977",
-          "title": "Gender roles and decision making power in the Ebola response in Bunia Rwampara and Nyakunde",
-          "dateOriginal": "2026-10-07T00:00:00+00:00",
-          "primaryCountry": "Democratic Republic of the Congo",
-          "primaryCountryIso3": "cod",
-          "primaryCountryLocation": {
-            "lat": -4.03833,
-            "lon": 21.7587
-          },
-          "source": "Mercy Corps",
-          "format": "Analysis",
-          "themes": [
-            "Gender",
-            "Health"
-          ],
-          "disasterTypes": [
-            "Epidemic"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fc/f6/fcf680f0-8215-4239-bc7e-4d4b54eacc3c.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fc/f6/fcf680f0-8215-4239-bc7e-4d4b54eacc3c.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/fc/f6/fcf680f0-8215-4239-bc7e-4d4b54eacc3c.png",
-            "https://reliefweb.int/sites/default/files/previews/fc/f6/fcf680f0-8215-4239-bc7e-4d4b54eacc3c.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/fc/f6/fcf680f0-8215-4239-bc7e-4d4b54eacc3c.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/gender-roles-and-decision-making-power-ebola-response-bunia-rwampara-and-nyakunde",
-          "localThumbnail": "./assets/report-thumbs/rw-4232977.png"
         }
       ],
       "enrichmentStatus": "complete"
@@ -3218,10 +3218,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 102,
-      "reports7d": 24,
+      "reports30d": 101,
+      "reports7d": 23,
       "previous7d": 20,
-      "change7d": 20,
+      "change7d": 15,
       "uniqueSources": 60,
       "themeBreadth": 16,
       "formatBreadth": 7,
@@ -3989,10 +3989,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 90,
-      "reports7d": 9,
+      "reports30d": 91,
+      "reports7d": 10,
       "previous7d": 14,
-      "change7d": -35.714285714285715,
+      "change7d": -28.57142857142857,
       "uniqueSources": 23,
       "themeBreadth": 14,
       "formatBreadth": 9,
@@ -5260,7 +5260,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/80/e8/80e822d0-3725-4794-90b0-a5979d81600e.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/afghanistan/children-and-armed-conflict-afghanistan-report-secretary-general-s2026728-enarruzh"
+          "url": "https://reliefweb.int/report/afghanistan/children-and-armed-conflict-afghanistan-report-secretary-general-s2026728-enarruzh",
+          "localThumbnail": "./assets/report-thumbs/rw-4233501.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/23/15/2315e6d5-f5b4-4c43-8444-53624ed7a398.png"
         },
         {
           "id": "4233323",
@@ -7377,7 +7379,8 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/75/32/75320b77-7929-51c6-a096-4d51d4b4f129.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/somalia-monthly-rainfall-performance-jan-2007-sep-2026-deviations-short-term-averages"
+          "url": "https://reliefweb.int/report/somalia/somalia-monthly-rainfall-performance-jan-2007-sep-2026-deviations-short-term-averages",
+          "localThumbnail": "./assets/report-thumbs/rw-4233570.png"
         },
         {
           "id": "4233308",
@@ -8342,10 +8345,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 50,
-      "reports7d": 7,
+      "reports30d": 51,
+      "reports7d": 8,
       "previous7d": 12,
-      "change7d": -41.66666666666667,
+      "change7d": -33.33333333333333,
       "uniqueSources": 25,
       "themeBreadth": 15,
       "formatBreadth": 6,
@@ -13512,10 +13515,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 39,
-      "reports7d": 6,
+      "reports30d": 40,
+      "reports7d": 7,
       "previous7d": 13,
-      "change7d": -53.84615384615385,
+      "change7d": -46.15384615384615,
       "uniqueSources": 18,
       "themeBreadth": 15,
       "formatBreadth": 8,
@@ -13819,6 +13822,39 @@
       ],
       "recentReports": [
         {
+          "id": "4233738",
+          "title": "UNICEF Ethiopia Situation Report No. 4 (July to August 2026)",
+          "dateOriginal": "2026-10-13T00:00:00+00:00",
+          "primaryCountry": "Ethiopia",
+          "primaryCountryIso3": "eth",
+          "primaryCountryLocation": {
+            "lat": 8.63,
+            "lon": 39.62
+          },
+          "source": "UNICEF",
+          "format": "Situation Report",
+          "themes": [
+            "Education",
+            "Food and Nutrition",
+            "Health",
+            "Protection and Human Rights",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Drought",
+            "Epidemic"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fc/41/fc419347-27bd-4916-83af-d9564c2ee217.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fc/41/fc419347-27bd-4916-83af-d9564c2ee217.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/fc/41/fc419347-27bd-4916-83af-d9564c2ee217.png",
+            "https://reliefweb.int/sites/default/files/previews/fc/41/fc419347-27bd-4916-83af-d9564c2ee217.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/fc/41/fc419347-27bd-4916-83af-d9564c2ee217.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/ethiopia/unicef-ethiopia-situation-report-no-4-july-august-2026"
+        },
+        {
           "id": "4233717",
           "title": "Ethiopia Drought 2026 - DREF Operation (MDRET042)",
           "dateOriginal": "2026-10-12T00:00:00+00:00",
@@ -14112,33 +14148,6 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/ethiopia/unhcr-ethiopia-livelihoods-q2-factsheet-january-june-2026",
           "localThumbnail": "./assets/report-thumbs/rw-4232590.png"
-        },
-        {
-          "id": "4232575",
-          "title": "UNHCR Ethiopia | Population Movement from Sudan to Ethiopia | August 2026",
-          "dateOriginal": "2026-10-05T00:00:00+00:00",
-          "primaryCountry": "Ethiopia",
-          "primaryCountryIso3": "eth",
-          "primaryCountryLocation": {
-            "lat": 8.63,
-            "lon": 39.62
-          },
-          "source": "UNHCR",
-          "format": "Infographic",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ee/54/ee548822-4993-5ab8-b786-c218130a03a3.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ee/54/ee548822-4993-5ab8-b786-c218130a03a3.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ee/54/ee548822-4993-5ab8-b786-c218130a03a3.png",
-            "https://reliefweb.int/sites/default/files/previews/ee/54/ee548822-4993-5ab8-b786-c218130a03a3.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ee/54/ee548822-4993-5ab8-b786-c218130a03a3.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/ethiopia/unhcr-ethiopia-population-movement-sudan-ethiopia-august-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4232575.png"
         }
       ],
       "enrichmentStatus": "complete"
@@ -15907,10 +15916,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 26,
-      "reports7d": 5,
+      "reports30d": 27,
+      "reports7d": 6,
       "previous7d": 5,
-      "change7d": 0,
+      "change7d": 20,
       "uniqueSources": 14,
       "themeBreadth": 13,
       "formatBreadth": 6,
@@ -16231,7 +16240,8 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/b1/51/b1517066-5b54-4828-83c9-566bccba1d2e.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/myanmar-flood-landslide-2026-dref-operation-mdrmm025"
+          "url": "https://reliefweb.int/report/myanmar/myanmar-flood-landslide-2026-dref-operation-mdrmm025",
+          "localThumbnail": "./assets/report-thumbs/rw-4233716.png"
         },
         {
           "id": "4233317",
@@ -17149,8 +17159,8 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 25,
-      "reports7d": 25,
+      "reports30d": 26,
+      "reports7d": 26,
       "previous7d": 0,
       "change7d": null,
       "uniqueSources": 9,
@@ -17263,6 +17273,31 @@
         }
       ],
       "recentReports": [
+        {
+          "id": "4233726",
+          "title": "Over 8,000 children in need of humanitarian assistance following the Panama earthquake",
+          "dateOriginal": "2026-10-13T00:00:00+00:00",
+          "primaryCountry": "Panama",
+          "primaryCountryIso3": "pan",
+          "primaryCountryLocation": {
+            "lat": 8.7,
+            "lon": -80.27
+          },
+          "source": "UNICEF",
+          "format": "News and Press Release",
+          "themes": [
+            "Education",
+            "Health",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Earthquake"
+          ],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/panama/over-8000-children-need-humanitarian-assistance-following-panama-earthquake"
+        },
         {
           "id": "4233500",
           "title": "UNICEF Panama Situation Report No.1 (Earthquake), 9-10 October 2026",
@@ -17513,7 +17548,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/7a/44/7a44c98a-b7b7-4236-99ef-521e9ad1fdce.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/panama/pan-terremoto-10-2026-terremoto-2026-10-10"
+          "url": "https://reliefweb.int/report/panama/pan-terremoto-10-2026-terremoto-2026-10-10",
+          "localThumbnail": "./assets/report-thumbs/rw-4233498.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/7a/44/7a44c98a-b7b7-4236-99ef-521e9ad1fdce.png"
         },
         {
           "id": "4233444",
@@ -17598,40 +17635,606 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/map/panama/macroseismic-intensity-map-usgs-shakemap-7-km-n-la-tronosa-panama-oct-10-2026-041401-utc-m60-n751-w8060-depth-100km-idus6000u1cf"
+        }
+      ],
+      "enrichmentStatus": "complete"
+    },
+    {
+      "name": "Bangladesh",
+      "shortname": "Bangladesh",
+      "iso3": "bgd",
+      "location": {
+        "lat": 23.84,
+        "lon": 90.27
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 22,
+      "reports7d": 12,
+      "previous7d": 3,
+      "change7d": 300,
+      "uniqueSources": 8,
+      "themeBreadth": 10,
+      "formatBreadth": 7,
+      "topThemes": [
+        {
+          "name": "Protection and Human Rights",
+          "count": 10
         },
         {
-          "id": "4233443",
-          "title": "Panama: Earthquake in Azuero & Veraguas - Situation Report No. 01 (as of 10 October 2026, 13:15)",
-          "dateOriginal": "2026-10-10T00:00:00+00:00",
-          "primaryCountry": "Panama",
-          "primaryCountryIso3": "pan",
+          "name": "Health",
+          "count": 7
+        },
+        {
+          "name": "Camp Coordination and Camp Management",
+          "count": 6
+        },
+        {
+          "name": "Coordination",
+          "count": 3
+        },
+        {
+          "name": "Disaster Management",
+          "count": 2
+        },
+        {
+          "name": "Food and Nutrition",
+          "count": 2
+        },
+        {
+          "name": "Recovery and Reconstruction",
+          "count": 2
+        },
+        {
+          "name": "Contributions",
+          "count": 1
+        },
+        {
+          "name": "Education",
+          "count": 1
+        },
+        {
+          "name": "Gender",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "Govt. Bangladesh",
+          "count": 8
+        },
+        {
+          "name": "UNHCR",
+          "count": 8
+        },
+        {
+          "name": "IFRC",
+          "count": 4
+        },
+        {
+          "name": "Bangladesh Red Crescent",
+          "count": 3
+        },
+        {
+          "name": "WFP",
+          "count": 3
+        },
+        {
+          "name": "WHO",
+          "count": 3
+        },
+        {
+          "name": "AATWG",
+          "count": 1
+        },
+        {
+          "name": "UN RC Bangladesh",
+          "count": 1
+        }
+      ],
+      "topFormats": [
+        {
+          "name": "Situation Report",
+          "count": 8
+        },
+        {
+          "name": "Infographic",
+          "count": 5
+        },
+        {
+          "name": "Other",
+          "count": 3
+        },
+        {
+          "name": "News and Press Release",
+          "count": 2
+        },
+        {
+          "name": "Evaluation and Lessons Learned",
+          "count": 1
+        },
+        {
+          "name": "Manual and Guideline",
+          "count": 1
+        },
+        {
+          "name": "Map",
+          "count": 1
+        }
+      ],
+      "disasterTypes": [
+        {
+          "name": "Epidemic",
+          "count": 7
+        },
+        {
+          "name": "Flood",
+          "count": 4
+        },
+        {
+          "name": "Flash Flood",
+          "count": 3
+        },
+        {
+          "name": "Drought",
+          "count": 2
+        },
+        {
+          "name": "Land Slide",
+          "count": 2
+        },
+        {
+          "name": "Tropical Cyclone",
+          "count": 2
+        },
+        {
+          "name": "Cold Wave",
+          "count": 1
+        },
+        {
+          "name": "Earthquake",
+          "count": 1
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-08T00:00:00+00:00",
+          "count": 7
+        },
+        {
+          "date": "2026-09-09T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-10T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-11T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-12T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-13T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-14T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-15T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-16T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-17T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-18T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-19T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-20T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-21T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-22T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-23T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-09-24T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-09-25T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-26T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-27T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-28T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-29T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-09-30T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-01T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-02T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-03T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-04T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-05T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-06T00:00:00+00:00",
+          "count": 1
+        }
+      ],
+      "recentReports": [
+        {
+          "id": "4233732",
+          "title": "Bangladesh: Epidemiological Highlights - Epi Week 38; 20-26 Sep 2026",
+          "dateOriginal": "2026-10-13T00:00:00+00:00",
+          "primaryCountry": "Bangladesh",
+          "primaryCountryIso3": "bgd",
           "primaryCountryLocation": {
-            "lat": 8.7,
-            "lon": -80.27
+            "lat": 23.84,
+            "lon": 90.27
           },
-          "source": "OCHA",
+          "source": "WHO",
           "format": "Situation Report",
           "themes": [
-            "Coordination",
-            "Education",
-            "Health",
-            "Logistics and Telecommunications",
-            "Shelter and Non-Food Items",
-            "Water Sanitation Hygiene"
+            "Health"
           ],
           "disasterTypes": [
-            "Earthquake"
+            "Epidemic"
           ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/49/00/49009d07-23de-4dec-bb9f-94848d61e10d.png",
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ee/a2/eea29bdd-767f-555d-a39f-cc049d76cb29.png",
           "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/49/00/49009d07-23de-4dec-bb9f-94848d61e10d.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/49/00/49009d07-23de-4dec-bb9f-94848d61e10d.png",
-            "https://reliefweb.int/sites/default/files/previews/49/00/49009d07-23de-4dec-bb9f-94848d61e10d.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/49/00/49009d07-23de-4dec-bb9f-94848d61e10d.png"
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ee/a2/eea29bdd-767f-555d-a39f-cc049d76cb29.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ee/a2/eea29bdd-767f-555d-a39f-cc049d76cb29.png",
+            "https://reliefweb.int/sites/default/files/previews/ee/a2/eea29bdd-767f-555d-a39f-cc049d76cb29.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ee/a2/eea29bdd-767f-555d-a39f-cc049d76cb29.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/panama/panama-earthquake-azuero-veraguas-situation-report-no-01-10-october-2026-1315",
-          "localThumbnail": "./assets/report-thumbs/rw-4233443.png"
+          "url": "https://reliefweb.int/report/bangladesh/bangladesh-epidemiological-highlights-epi-week-38-20-26-sep-2026"
+        },
+        {
+          "id": "4233627",
+          "title": "Joint Government of Bangladesh - UNHCR Refugee Population in Camps/Settlements (as of 30 September 2026)",
+          "dateOriginal": "2026-10-12T00:00:00+00:00",
+          "primaryCountry": "Bangladesh",
+          "primaryCountryIso3": "bgd",
+          "primaryCountryLocation": {
+            "lat": 23.84,
+            "lon": 90.27
+          },
+          "source": "Govt. Bangladesh, UNHCR",
+          "format": "Map",
+          "themes": [
+            "Camp Coordination and Camp Management",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
+            "https://reliefweb.int/sites/default/files/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/map/bangladesh/joint-government-bangladesh-unhcr-refugee-population-campssettlements-30-september-2026"
+        },
+        {
+          "id": "4233630",
+          "title": "Joint Government of Bangladesh - Age Gender breakdown Bhasan Char as of September 2026",
+          "dateOriginal": "2026-10-12T00:00:00+00:00",
+          "primaryCountry": "Bangladesh",
+          "primaryCountryIso3": "bgd",
+          "primaryCountryLocation": {
+            "lat": 23.84,
+            "lon": 90.27
+          },
+          "source": "UNHCR",
+          "format": "Other",
+          "themes": [
+            "Camp Coordination and Camp Management",
+            "Gender",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fb/58/fb58294a-5d0f-5170-8bac-e5685b904fb0.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fb/58/fb58294a-5d0f-5170-8bac-e5685b904fb0.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/fb/58/fb58294a-5d0f-5170-8bac-e5685b904fb0.png",
+            "https://reliefweb.int/sites/default/files/previews/fb/58/fb58294a-5d0f-5170-8bac-e5685b904fb0.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/fb/58/fb58294a-5d0f-5170-8bac-e5685b904fb0.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/bangladesh/joint-government-bangladesh-age-gender-breakdown-bhasan-char-september-2026"
+        },
+        {
+          "id": "4233564",
+          "title": "Bangladesh: Epidemiological Highlights - Epi Week 37; 13-19 Sep 2026",
+          "dateOriginal": "2026-10-12T00:00:00+00:00",
+          "primaryCountry": "Bangladesh",
+          "primaryCountryIso3": "bgd",
+          "primaryCountryLocation": {
+            "lat": 23.84,
+            "lon": 90.27
+          },
+          "source": "WHO",
+          "format": "Situation Report",
+          "themes": [
+            "Health"
+          ],
+          "disasterTypes": [
+            "Epidemic"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
+            "https://reliefweb.int/sites/default/files/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/bangladesh/bangladesh-epidemiological-highlights-epi-week-37-13-19-sep-2026"
+        },
+        {
+          "id": "4233563",
+          "title": "Local, trained and trusted: The community members protecting Cox's Bazar's camps",
+          "dateOriginal": "2026-10-12T00:00:00+00:00",
+          "primaryCountry": "Bangladesh",
+          "primaryCountryIso3": "bgd",
+          "primaryCountryLocation": {
+            "lat": 23.84,
+            "lon": 90.27
+          },
+          "source": "IFRC",
+          "format": "News and Press Release",
+          "themes": [
+            "Disaster Management"
+          ],
+          "disasterTypes": [
+            "Flood"
+          ],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/bangladesh/local-trained-and-trusted-community-members-protecting-coxs-bazars-camps"
+        },
+        {
+          "id": "4233626",
+          "title": "Joint Government of Bangladesh-UNHCR Rohingya Refugee Response; Age and Gender breakdown by camp as of September 2026",
+          "dateOriginal": "2026-10-12T00:00:00+00:00",
+          "primaryCountry": "Bangladesh",
+          "primaryCountryIso3": "bgd",
+          "primaryCountryLocation": {
+            "lat": 23.84,
+            "lon": 90.27
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Camp Coordination and Camp Management",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c3/3f/c33f0e4e-253d-5246-801a-76554f45009a.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c3/3f/c33f0e4e-253d-5246-801a-76554f45009a.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/c3/3f/c33f0e4e-253d-5246-801a-76554f45009a.png",
+            "https://reliefweb.int/sites/default/files/previews/c3/3f/c33f0e4e-253d-5246-801a-76554f45009a.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/c3/3f/c33f0e4e-253d-5246-801a-76554f45009a.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/bangladesh/joint-government-bangladesh-unhcr-rohingya-refugee-response-age-and-gender-breakdown-camp-september-2026"
+        },
+        {
+          "id": "4233629",
+          "title": "Joint Government of Bangladesh - UNHCR Population Dashboard Bhasan Char as of September 2026",
+          "dateOriginal": "2026-10-12T00:00:00+00:00",
+          "primaryCountry": "Bangladesh",
+          "primaryCountryIso3": "bgd",
+          "primaryCountryLocation": {
+            "lat": 23.84,
+            "lon": 90.27
+          },
+          "source": "Govt. Bangladesh, UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Camp Coordination and Camp Management",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/c7/56c7d4b7-b2ba-5416-8c1e-7fc0359d865c.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/c7/56c7d4b7-b2ba-5416-8c1e-7fc0359d865c.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/56/c7/56c7d4b7-b2ba-5416-8c1e-7fc0359d865c.png",
+            "https://reliefweb.int/sites/default/files/previews/56/c7/56c7d4b7-b2ba-5416-8c1e-7fc0359d865c.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/56/c7/56c7d4b7-b2ba-5416-8c1e-7fc0359d865c.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/bangladesh/joint-government-bangladesh-unhcr-population-dashboard-bhasan-char-september-2026"
+        },
+        {
+          "id": "4233631",
+          "title": "Joint Government of Bangladesh - SPN breakdown Bhasan Char as of September 2026",
+          "dateOriginal": "2026-10-12T00:00:00+00:00",
+          "primaryCountry": "Bangladesh",
+          "primaryCountryIso3": "bgd",
+          "primaryCountryLocation": {
+            "lat": 23.84,
+            "lon": 90.27
+          },
+          "source": "UNHCR",
+          "format": "Other",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/91/af/91afc4f4-a7d6-5949-8e17-e5a4d51343ac.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/91/af/91afc4f4-a7d6-5949-8e17-e5a4d51343ac.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/91/af/91afc4f4-a7d6-5949-8e17-e5a4d51343ac.png",
+            "https://reliefweb.int/sites/default/files/previews/91/af/91afc4f4-a7d6-5949-8e17-e5a4d51343ac.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/91/af/91afc4f4-a7d6-5949-8e17-e5a4d51343ac.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/bangladesh/joint-government-bangladesh-spn-breakdown-bhasan-char-september-2026"
+        },
+        {
+          "id": "4233442",
+          "title": "Bangladesh announces landmark €250 million investment in women's health and resilient health care",
+          "dateOriginal": "2026-10-10T00:00:00+00:00",
+          "primaryCountry": "Bangladesh",
+          "primaryCountryIso3": "bgd",
+          "primaryCountryLocation": {
+            "lat": 23.84,
+            "lon": 90.27
+          },
+          "source": "EIB, Govt. Bangladesh, UNFPA",
+          "format": "News and Press Release",
+          "themes": [
+            "Gender",
+            "Health"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/bangladesh/bangladesh-announces-landmark-eur250-million-investment-womens-health-and-resilient-health-care"
+        },
+        {
+          "id": "4233184",
+          "title": "UNHCR Bangladesh - Operational Update, July - August 2026",
+          "dateOriginal": "2026-10-08T00:00:00+00:00",
+          "primaryCountry": "Bangladesh",
+          "primaryCountryIso3": "bgd",
+          "primaryCountryLocation": {
+            "lat": 23.84,
+            "lon": 90.27
+          },
+          "source": "UNHCR",
+          "format": "Situation Report",
+          "themes": [
+            "Education",
+            "Protection and Human Rights",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/96/1a/961aefb0-a8da-566e-89c2-e009807cf5b5.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/96/1a/961aefb0-a8da-566e-89c2-e009807cf5b5.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/96/1a/961aefb0-a8da-566e-89c2-e009807cf5b5.png",
+            "https://reliefweb.int/sites/default/files/previews/96/1a/961aefb0-a8da-566e-89c2-e009807cf5b5.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/96/1a/961aefb0-a8da-566e-89c2-e009807cf5b5.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/bangladesh/unhcr-bangladesh-operational-update-july-august-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4233184.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/96/1a/961aefb0-a8da-566e-89c2-e009807cf5b5.png"
+        },
+        {
+          "id": "4232959",
+          "title": "Scaling up the Multi-Hazard Early Warning System of Bangladesh: Implementation Roadmap 2025-2030",
+          "dateOriginal": "2026-10-06T00:00:00+00:00",
+          "primaryCountry": "Bangladesh",
+          "primaryCountryIso3": "bgd",
+          "primaryCountryLocation": {
+            "lat": 23.84,
+            "lon": 90.27
+          },
+          "source": "Govt. Bangladesh",
+          "format": "Manual and Guideline",
+          "themes": [
+            "Disaster Management"
+          ],
+          "disasterTypes": [
+            "Drought",
+            "Earthquake",
+            "Flood",
+            "Land Slide",
+            "Tropical Cyclone"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/3a/13/3a13efcb-c91a-4e6c-af2f-5cc5201f29f7.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/3a/13/3a13efcb-c91a-4e6c-af2f-5cc5201f29f7.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/3a/13/3a13efcb-c91a-4e6c-af2f-5cc5201f29f7.png",
+            "https://reliefweb.int/sites/default/files/previews/3a/13/3a13efcb-c91a-4e6c-af2f-5cc5201f29f7.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/3a/13/3a13efcb-c91a-4e6c-af2f-5cc5201f29f7.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/bangladesh/scaling-multi-hazard-early-warning-system-bangladesh-implementation-roadmap-2025-2030",
+          "localThumbnail": "./assets/report-thumbs/rw-4232959.png"
+        },
+        {
+          "id": "4232181",
+          "title": "Republic of Korea provides USD 5 million for life-saving food and nutrition assistance for Rohingya refugees | World Food Programme",
+          "dateOriginal": "2026-10-01T00:00:00+00:00",
+          "primaryCountry": "Bangladesh",
+          "primaryCountryIso3": "bgd",
+          "primaryCountryLocation": {
+            "lat": 23.84,
+            "lon": 90.27
+          },
+          "source": "WFP",
+          "format": "News and Press Release",
+          "themes": [
+            "Contributions",
+            "Food and Nutrition"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/bangladesh/republic-korea-provides-usd-5-million-life-saving-food-and-nutrition-assistance-rohingya-refugees-world-food-programme"
         }
       ],
       "enrichmentStatus": "complete"
@@ -18710,612 +19313,6 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/mali/mali-note-dinformations-humanitaires-sur-le-cercle-de-lere-region-de-tombouctou-septembre-2026",
           "localThumbnail": "./assets/report-thumbs/rw-4231120.png"
-        }
-      ],
-      "enrichmentStatus": "complete"
-    },
-    {
-      "name": "Bangladesh",
-      "shortname": "Bangladesh",
-      "iso3": "bgd",
-      "location": {
-        "lat": 23.84,
-        "lon": 90.27
-      },
-      "overview": "",
-      "countryUrl": "",
-      "reports30d": 21,
-      "reports7d": 11,
-      "previous7d": 3,
-      "change7d": 266.66666666666663,
-      "uniqueSources": 8,
-      "themeBreadth": 10,
-      "formatBreadth": 7,
-      "topThemes": [
-        {
-          "name": "Protection and Human Rights",
-          "count": 10
-        },
-        {
-          "name": "Health",
-          "count": 7
-        },
-        {
-          "name": "Camp Coordination and Camp Management",
-          "count": 6
-        },
-        {
-          "name": "Coordination",
-          "count": 3
-        },
-        {
-          "name": "Disaster Management",
-          "count": 2
-        },
-        {
-          "name": "Food and Nutrition",
-          "count": 2
-        },
-        {
-          "name": "Recovery and Reconstruction",
-          "count": 2
-        },
-        {
-          "name": "Contributions",
-          "count": 1
-        },
-        {
-          "name": "Education",
-          "count": 1
-        },
-        {
-          "name": "Gender",
-          "count": 1
-        }
-      ],
-      "topSources": [
-        {
-          "name": "Govt. Bangladesh",
-          "count": 8
-        },
-        {
-          "name": "UNHCR",
-          "count": 8
-        },
-        {
-          "name": "IFRC",
-          "count": 4
-        },
-        {
-          "name": "Bangladesh Red Crescent",
-          "count": 3
-        },
-        {
-          "name": "WFP",
-          "count": 3
-        },
-        {
-          "name": "WHO",
-          "count": 3
-        },
-        {
-          "name": "AATWG",
-          "count": 1
-        },
-        {
-          "name": "UN RC Bangladesh",
-          "count": 1
-        }
-      ],
-      "topFormats": [
-        {
-          "name": "Situation Report",
-          "count": 8
-        },
-        {
-          "name": "Infographic",
-          "count": 5
-        },
-        {
-          "name": "Other",
-          "count": 3
-        },
-        {
-          "name": "News and Press Release",
-          "count": 2
-        },
-        {
-          "name": "Evaluation and Lessons Learned",
-          "count": 1
-        },
-        {
-          "name": "Manual and Guideline",
-          "count": 1
-        },
-        {
-          "name": "Map",
-          "count": 1
-        }
-      ],
-      "disasterTypes": [
-        {
-          "name": "Epidemic",
-          "count": 7
-        },
-        {
-          "name": "Flood",
-          "count": 4
-        },
-        {
-          "name": "Flash Flood",
-          "count": 3
-        },
-        {
-          "name": "Drought",
-          "count": 2
-        },
-        {
-          "name": "Land Slide",
-          "count": 2
-        },
-        {
-          "name": "Tropical Cyclone",
-          "count": 2
-        },
-        {
-          "name": "Cold Wave",
-          "count": 1
-        },
-        {
-          "name": "Earthquake",
-          "count": 1
-        }
-      ],
-      "timeline": [
-        {
-          "date": "2026-09-08T00:00:00+00:00",
-          "count": 7
-        },
-        {
-          "date": "2026-09-09T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-10T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-11T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-12T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-13T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-14T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-15T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-16T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-17T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-18T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-19T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-20T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-21T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-22T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-23T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-09-24T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-09-25T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-26T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-27T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-28T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-29T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-09-30T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-01T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-02T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-03T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-04T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-05T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-06T00:00:00+00:00",
-          "count": 1
-        }
-      ],
-      "recentReports": [
-        {
-          "id": "4233564",
-          "title": "Weekly Epidemiological Bulletin - #Week 37, 2026",
-          "dateOriginal": "2026-10-12T00:00:00+00:00",
-          "primaryCountry": "Bangladesh",
-          "primaryCountryIso3": "bgd",
-          "primaryCountryLocation": {
-            "lat": 23.84,
-            "lon": 90.27
-          },
-          "source": "WHO",
-          "format": "Situation Report",
-          "themes": [
-            "Health"
-          ],
-          "disasterTypes": [
-            "Epidemic"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
-            "https://reliefweb.int/sites/default/files/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/bangladesh/weekly-epidemiological-bulletin-week-37-2026"
-        },
-        {
-          "id": "4233630",
-          "title": "Joint Government of Bangladesh - Age Gender breakdown Bhasan Char as of September 2026",
-          "dateOriginal": "2026-10-12T00:00:00+00:00",
-          "primaryCountry": "Bangladesh",
-          "primaryCountryIso3": "bgd",
-          "primaryCountryLocation": {
-            "lat": 23.84,
-            "lon": 90.27
-          },
-          "source": "UNHCR",
-          "format": "Other",
-          "themes": [
-            "Camp Coordination and Camp Management",
-            "Gender",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fb/58/fb58294a-5d0f-5170-8bac-e5685b904fb0.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fb/58/fb58294a-5d0f-5170-8bac-e5685b904fb0.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/fb/58/fb58294a-5d0f-5170-8bac-e5685b904fb0.png",
-            "https://reliefweb.int/sites/default/files/previews/fb/58/fb58294a-5d0f-5170-8bac-e5685b904fb0.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/fb/58/fb58294a-5d0f-5170-8bac-e5685b904fb0.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/bangladesh/joint-government-bangladesh-age-gender-breakdown-bhasan-char-september-2026"
-        },
-        {
-          "id": "4233627",
-          "title": "Joint Government of Bangladesh - UNHCR Refugee Population in Camps/Settlements (as of 30 September 2026)",
-          "dateOriginal": "2026-10-12T00:00:00+00:00",
-          "primaryCountry": "Bangladesh",
-          "primaryCountryIso3": "bgd",
-          "primaryCountryLocation": {
-            "lat": 23.84,
-            "lon": 90.27
-          },
-          "source": "Govt. Bangladesh, UNHCR",
-          "format": "Map",
-          "themes": [
-            "Camp Coordination and Camp Management",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
-            "https://reliefweb.int/sites/default/files/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/map/bangladesh/joint-government-bangladesh-unhcr-refugee-population-campssettlements-30-september-2026"
-        },
-        {
-          "id": "4233563",
-          "title": "Local, trained and trusted: The community members protecting Cox's Bazar's camps",
-          "dateOriginal": "2026-10-12T00:00:00+00:00",
-          "primaryCountry": "Bangladesh",
-          "primaryCountryIso3": "bgd",
-          "primaryCountryLocation": {
-            "lat": 23.84,
-            "lon": 90.27
-          },
-          "source": "IFRC",
-          "format": "News and Press Release",
-          "themes": [
-            "Disaster Management"
-          ],
-          "disasterTypes": [
-            "Flood"
-          ],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/bangladesh/local-trained-and-trusted-community-members-protecting-coxs-bazars-camps"
-        },
-        {
-          "id": "4233626",
-          "title": "Joint Government of Bangladesh-UNHCR Rohingya Refugee Response; Age and Gender breakdown by camp as of September 2026",
-          "dateOriginal": "2026-10-12T00:00:00+00:00",
-          "primaryCountry": "Bangladesh",
-          "primaryCountryIso3": "bgd",
-          "primaryCountryLocation": {
-            "lat": 23.84,
-            "lon": 90.27
-          },
-          "source": "UNHCR",
-          "format": "Infographic",
-          "themes": [
-            "Camp Coordination and Camp Management",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c3/3f/c33f0e4e-253d-5246-801a-76554f45009a.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c3/3f/c33f0e4e-253d-5246-801a-76554f45009a.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/c3/3f/c33f0e4e-253d-5246-801a-76554f45009a.png",
-            "https://reliefweb.int/sites/default/files/previews/c3/3f/c33f0e4e-253d-5246-801a-76554f45009a.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/c3/3f/c33f0e4e-253d-5246-801a-76554f45009a.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/bangladesh/joint-government-bangladesh-unhcr-rohingya-refugee-response-age-and-gender-breakdown-camp-september-2026"
-        },
-        {
-          "id": "4233629",
-          "title": "Joint Government of Bangladesh - UNHCR Population Dashboard Bhasan Char as of September 2026",
-          "dateOriginal": "2026-10-12T00:00:00+00:00",
-          "primaryCountry": "Bangladesh",
-          "primaryCountryIso3": "bgd",
-          "primaryCountryLocation": {
-            "lat": 23.84,
-            "lon": 90.27
-          },
-          "source": "Govt. Bangladesh, UNHCR",
-          "format": "Infographic",
-          "themes": [
-            "Camp Coordination and Camp Management",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/c7/56c7d4b7-b2ba-5416-8c1e-7fc0359d865c.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/c7/56c7d4b7-b2ba-5416-8c1e-7fc0359d865c.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/56/c7/56c7d4b7-b2ba-5416-8c1e-7fc0359d865c.png",
-            "https://reliefweb.int/sites/default/files/previews/56/c7/56c7d4b7-b2ba-5416-8c1e-7fc0359d865c.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/56/c7/56c7d4b7-b2ba-5416-8c1e-7fc0359d865c.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/bangladesh/joint-government-bangladesh-unhcr-population-dashboard-bhasan-char-september-2026"
-        },
-        {
-          "id": "4233631",
-          "title": "Joint Government of Bangladesh - SPN breakdown Bhasan Char as of September 2026",
-          "dateOriginal": "2026-10-12T00:00:00+00:00",
-          "primaryCountry": "Bangladesh",
-          "primaryCountryIso3": "bgd",
-          "primaryCountryLocation": {
-            "lat": 23.84,
-            "lon": 90.27
-          },
-          "source": "UNHCR",
-          "format": "Other",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/91/af/91afc4f4-a7d6-5949-8e17-e5a4d51343ac.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/91/af/91afc4f4-a7d6-5949-8e17-e5a4d51343ac.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/91/af/91afc4f4-a7d6-5949-8e17-e5a4d51343ac.png",
-            "https://reliefweb.int/sites/default/files/previews/91/af/91afc4f4-a7d6-5949-8e17-e5a4d51343ac.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/91/af/91afc4f4-a7d6-5949-8e17-e5a4d51343ac.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/bangladesh/joint-government-bangladesh-spn-breakdown-bhasan-char-september-2026"
-        },
-        {
-          "id": "4233442",
-          "title": "Bangladesh announces landmark €250 million investment in women's health and resilient health care",
-          "dateOriginal": "2026-10-10T00:00:00+00:00",
-          "primaryCountry": "Bangladesh",
-          "primaryCountryIso3": "bgd",
-          "primaryCountryLocation": {
-            "lat": 23.84,
-            "lon": 90.27
-          },
-          "source": "EIB, Govt. Bangladesh, UNFPA",
-          "format": "News and Press Release",
-          "themes": [
-            "Gender",
-            "Health"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/bangladesh/bangladesh-announces-landmark-eur250-million-investment-womens-health-and-resilient-health-care"
-        },
-        {
-          "id": "4233184",
-          "title": "UNHCR Bangladesh - Operational Update, July - August 2026",
-          "dateOriginal": "2026-10-08T00:00:00+00:00",
-          "primaryCountry": "Bangladesh",
-          "primaryCountryIso3": "bgd",
-          "primaryCountryLocation": {
-            "lat": 23.84,
-            "lon": 90.27
-          },
-          "source": "UNHCR",
-          "format": "Situation Report",
-          "themes": [
-            "Education",
-            "Protection and Human Rights",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/96/1a/961aefb0-a8da-566e-89c2-e009807cf5b5.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/96/1a/961aefb0-a8da-566e-89c2-e009807cf5b5.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/96/1a/961aefb0-a8da-566e-89c2-e009807cf5b5.png",
-            "https://reliefweb.int/sites/default/files/previews/96/1a/961aefb0-a8da-566e-89c2-e009807cf5b5.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/96/1a/961aefb0-a8da-566e-89c2-e009807cf5b5.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/bangladesh/unhcr-bangladesh-operational-update-july-august-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4233184.png",
-          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/96/1a/961aefb0-a8da-566e-89c2-e009807cf5b5.png"
-        },
-        {
-          "id": "4232959",
-          "title": "Scaling up the Multi-Hazard Early Warning System of Bangladesh: Implementation Roadmap 2025-2030",
-          "dateOriginal": "2026-10-06T00:00:00+00:00",
-          "primaryCountry": "Bangladesh",
-          "primaryCountryIso3": "bgd",
-          "primaryCountryLocation": {
-            "lat": 23.84,
-            "lon": 90.27
-          },
-          "source": "Govt. Bangladesh",
-          "format": "Manual and Guideline",
-          "themes": [
-            "Disaster Management"
-          ],
-          "disasterTypes": [
-            "Drought",
-            "Earthquake",
-            "Flood",
-            "Land Slide",
-            "Tropical Cyclone"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/3a/13/3a13efcb-c91a-4e6c-af2f-5cc5201f29f7.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/3a/13/3a13efcb-c91a-4e6c-af2f-5cc5201f29f7.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/3a/13/3a13efcb-c91a-4e6c-af2f-5cc5201f29f7.png",
-            "https://reliefweb.int/sites/default/files/previews/3a/13/3a13efcb-c91a-4e6c-af2f-5cc5201f29f7.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/3a/13/3a13efcb-c91a-4e6c-af2f-5cc5201f29f7.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/bangladesh/scaling-multi-hazard-early-warning-system-bangladesh-implementation-roadmap-2025-2030",
-          "localThumbnail": "./assets/report-thumbs/rw-4232959.png"
-        },
-        {
-          "id": "4232181",
-          "title": "Republic of Korea provides USD 5 million for life-saving food and nutrition assistance for Rohingya refugees | World Food Programme",
-          "dateOriginal": "2026-10-01T00:00:00+00:00",
-          "primaryCountry": "Bangladesh",
-          "primaryCountryIso3": "bgd",
-          "primaryCountryLocation": {
-            "lat": 23.84,
-            "lon": 90.27
-          },
-          "source": "WFP",
-          "format": "News and Press Release",
-          "themes": [
-            "Contributions",
-            "Food and Nutrition"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/bangladesh/republic-korea-provides-usd-5-million-life-saving-food-and-nutrition-assistance-rohingya-refugees-world-food-programme"
-        },
-        {
-          "id": "4232470",
-          "title": "Bangladesh: Anticipatory Action Activation Plan October-December 2026 (30 September 2026)",
-          "dateOriginal": "2026-09-30T00:00:00+00:00",
-          "primaryCountry": "Bangladesh",
-          "primaryCountryIso3": "bgd",
-          "primaryCountryLocation": {
-            "lat": 23.84,
-            "lon": 90.27
-          },
-          "source": "AATWG",
-          "format": "Infographic",
-          "themes": [
-            "Coordination",
-            "Disaster Management"
-          ],
-          "disasterTypes": [
-            "Cold Wave",
-            "Drought",
-            "Flash Flood",
-            "Flood",
-            "Tropical Cyclone"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/16/7c1619b4-f1ea-4f0c-93f8-25c1cc263ce1.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/16/7c1619b4-f1ea-4f0c-93f8-25c1cc263ce1.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/7c/16/7c1619b4-f1ea-4f0c-93f8-25c1cc263ce1.png",
-            "https://reliefweb.int/sites/default/files/previews/7c/16/7c1619b4-f1ea-4f0c-93f8-25c1cc263ce1.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/7c/16/7c1619b4-f1ea-4f0c-93f8-25c1cc263ce1.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/bangladesh/bangladesh-anticipatory-action-activation-plan-october-december-2026-30-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4232470.png"
         }
       ],
       "enrichmentStatus": "complete"
@@ -23903,81 +23900,6 @@
       "enrichmentStatus": "pending-daily"
     },
     {
-      "name": "Romania",
-      "shortname": "Romania",
-      "iso3": "rou",
-      "location": {
-        "lat": 45.9432,
-        "lon": 24.9668
-      },
-      "overview": "",
-      "countryUrl": "",
-      "reports30d": 8,
-      "reports7d": 1,
-      "previous7d": 2,
-      "change7d": -50,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "formatBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
-      "topFormats": [],
-      "disasterTypes": [],
-      "timeline": [],
-      "recentReports": [],
-      "enrichmentStatus": "pending-daily"
-    },
-    {
-      "name": "Bosnia and Herzegovina",
-      "shortname": "Bosnia and Herzegovina",
-      "iso3": "bih",
-      "location": {
-        "lat": 44.17,
-        "lon": 17.79
-      },
-      "overview": "",
-      "countryUrl": "",
-      "reports30d": 7,
-      "reports7d": 1,
-      "previous7d": 5,
-      "change7d": -80,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "formatBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
-      "topFormats": [],
-      "disasterTypes": [],
-      "timeline": [],
-      "recentReports": [],
-      "enrichmentStatus": "pending-daily"
-    },
-    {
-      "name": "Ecuador",
-      "shortname": "Ecuador",
-      "iso3": "ecu",
-      "location": {
-        "lat": -1.16,
-        "lon": -78.43
-      },
-      "overview": "",
-      "countryUrl": "",
-      "reports30d": 7,
-      "reports7d": 1,
-      "previous7d": 2,
-      "change7d": -50,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "formatBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
-      "topFormats": [],
-      "disasterTypes": [],
-      "timeline": [],
-      "recentReports": [],
-      "enrichmentStatus": "pending-daily"
-    },
-    {
       "name": "Indonesia",
       "shortname": "Indonesia",
       "iso3": "idn",
@@ -23987,10 +23909,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 7,
-      "reports7d": 0,
+      "reports30d": 8,
+      "reports7d": 1,
       "previous7d": 1,
-      "change7d": -100,
+      "change7d": 0,
       "uniqueSources": 17,
       "themeBreadth": 11,
       "formatBreadth": 5,
@@ -24608,6 +24530,81 @@
       "enrichmentStatus": "complete"
     },
     {
+      "name": "Romania",
+      "shortname": "Romania",
+      "iso3": "rou",
+      "location": {
+        "lat": 45.9432,
+        "lon": 24.9668
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 8,
+      "reports7d": 1,
+      "previous7d": 2,
+      "change7d": -50,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "shortname": "Bosnia and Herzegovina",
+      "iso3": "bih",
+      "location": {
+        "lat": 44.17,
+        "lon": 17.79
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 7,
+      "reports7d": 1,
+      "previous7d": 5,
+      "change7d": -80,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "Ecuador",
+      "shortname": "Ecuador",
+      "iso3": "ecu",
+      "location": {
+        "lat": -1.16,
+        "lon": -78.43
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 7,
+      "reports7d": 1,
+      "previous7d": 2,
+      "change7d": -50,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
       "name": "Iraq",
       "shortname": "Iraq",
       "iso3": "irq",
@@ -24732,6 +24729,66 @@
       "disasterTypes": [],
       "timeline": [],
       "recentReports": [],
+      "enrichmentStatus": "pending-daily"
+    },
+    {
+      "name": "Viet Nam",
+      "shortname": "Viet Nam",
+      "iso3": "vnm",
+      "location": {
+        "lat": 14.32,
+        "lon": 108.34
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 7,
+      "reports7d": 2,
+      "previous7d": 1,
+      "change7d": 100,
+      "uniqueSources": 0,
+      "themeBreadth": 0,
+      "formatBreadth": 0,
+      "topThemes": [],
+      "topSources": [],
+      "topFormats": [],
+      "disasterTypes": [],
+      "timeline": [],
+      "recentReports": [
+        {
+          "id": "4233747",
+          "title": "UNICEF Viet Nam El Niño Early Warning Situation Report No. 2 (20 August - 12 October 2026)",
+          "dateOriginal": "2026-10-13T00:00:00+00:00",
+          "primaryCountry": "Viet Nam",
+          "primaryCountryIso3": "vnm",
+          "primaryCountryLocation": {
+            "lat": 14.32,
+            "lon": 108.34
+          },
+          "source": "UNICEF",
+          "format": "Situation Report",
+          "themes": [
+            "Disaster Management",
+            "Education",
+            "Food and Nutrition",
+            "Health",
+            "Protection and Human Rights",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Drought",
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/04/09/04096a04-9738-45fb-9ebe-29c8d38002ce.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/04/09/04096a04-9738-45fb-9ebe-29c8d38002ce.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/04/09/04096a04-9738-45fb-9ebe-29c8d38002ce.png",
+            "https://reliefweb.int/sites/default/files/previews/04/09/04096a04-9738-45fb-9ebe-29c8d38002ce.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/04/09/04096a04-9738-45fb-9ebe-29c8d38002ce.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/viet-nam/unicef-viet-nam-el-nino-early-warning-situation-report-no-2-20-august-12-october-2026"
+        }
+      ],
       "enrichmentStatus": "pending-daily"
     },
     {
@@ -25100,58 +25157,6 @@
       "disasterTypes": [],
       "timeline": [],
       "recentReports": [],
-      "enrichmentStatus": "pending-daily"
-    },
-    {
-      "name": "Viet Nam",
-      "shortname": "Viet Nam",
-      "iso3": "vnm",
-      "location": {
-        "lat": 14.32,
-        "lon": 108.34
-      },
-      "overview": "",
-      "countryUrl": "",
-      "reports30d": 6,
-      "reports7d": 1,
-      "previous7d": 1,
-      "change7d": 0,
-      "uniqueSources": 0,
-      "themeBreadth": 0,
-      "formatBreadth": 0,
-      "topThemes": [],
-      "topSources": [],
-      "topFormats": [],
-      "disasterTypes": [],
-      "timeline": [],
-      "recentReports": [
-        {
-          "id": "4233715",
-          "title": "VNM: Flood - 10-2026 - Heavy rainfall caused flooding #3 (2026-10-12)",
-          "dateOriginal": "2026-10-12T00:00:00+00:00",
-          "primaryCountry": "Viet Nam",
-          "primaryCountryIso3": "vnm",
-          "primaryCountryLocation": {
-            "lat": 14.32,
-            "lon": 108.34
-          },
-          "source": "IFRC, Vietnam Red Cross",
-          "format": "Situation Report",
-          "themes": [],
-          "disasterTypes": [
-            "Flood"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/59/c3/59c39a6f-d81d-4f1f-865e-60a9703fb96b.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/59/c3/59c39a6f-d81d-4f1f-865e-60a9703fb96b.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/59/c3/59c39a6f-d81d-4f1f-865e-60a9703fb96b.png",
-            "https://reliefweb.int/sites/default/files/previews/59/c3/59c39a6f-d81d-4f1f-865e-60a9703fb96b.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/59/c3/59c39a6f-d81d-4f1f-865e-60a9703fb96b.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/viet-nam/vnm-flood-10-2026-heavy-rainfall-caused-flooding-3-2026-10-12"
-        }
-      ],
       "enrichmentStatus": "pending-daily"
     },
     {
@@ -26197,6 +26202,223 @@
       "enrichmentStatus": "pending-daily"
     },
     {
+      "name": "Senegal",
+      "shortname": "Senegal",
+      "iso3": "sen",
+      "location": {
+        "lat": 15.22,
+        "lon": -14.82
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 4,
+      "reports7d": 3,
+      "previous7d": 1,
+      "change7d": 200,
+      "uniqueSources": 4,
+      "themeBreadth": 2,
+      "formatBreadth": 2,
+      "topThemes": [
+        {
+          "name": "Agriculture",
+          "count": 1
+        },
+        {
+          "name": "Food and Nutrition",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "Croix-Rouge Sénégalaise",
+          "count": 1
+        },
+        {
+          "name": "IFRC",
+          "count": 1
+        },
+        {
+          "name": "WFP",
+          "count": 1
+        },
+        {
+          "name": "the Brooke",
+          "count": 1
+        }
+      ],
+      "topFormats": [
+        {
+          "name": "Situation Report",
+          "count": 2
+        },
+        {
+          "name": "Analysis",
+          "count": 1
+        }
+      ],
+      "disasterTypes": [
+        {
+          "name": "Flood",
+          "count": 2
+        },
+        {
+          "name": "Drought",
+          "count": 1
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-30T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-01T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-02T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-03T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-04T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-05T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-06T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-07T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-08T00:00:00+00:00",
+          "count": 1
+        }
+      ],
+      "recentReports": [
+        {
+          "id": "4233724",
+          "title": "Senegal: Preliminary satellite-derived flood impact assessment - Podor area, Podor Department, Saint-Louis Region (12 October 2026)",
+          "dateOriginal": "2026-10-12T00:00:00+00:00",
+          "primaryCountry": "Senegal",
+          "primaryCountryIso3": "sen",
+          "primaryCountryLocation": {
+            "lat": 15.22,
+            "lon": -14.82
+          },
+          "source": "Int'l Charter, UNOSAT",
+          "format": "Map",
+          "themes": [],
+          "disasterTypes": [
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/92/9a/929a4cbb-9302-4370-85e6-8e09fc3fd510.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/92/9a/929a4cbb-9302-4370-85e6-8e09fc3fd510.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/92/9a/929a4cbb-9302-4370-85e6-8e09fc3fd510.png",
+            "https://reliefweb.int/sites/default/files/previews/92/9a/929a4cbb-9302-4370-85e6-8e09fc3fd510.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/92/9a/929a4cbb-9302-4370-85e6-8e09fc3fd510.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/map/senegal/senegal-preliminary-satellite-derived-flood-impact-assessment-podor-area-podor-department-saint-louis-region-12-october-2026"
+        },
+        {
+          "id": "4233106",
+          "title": "SEN: Inondation - 10-2026 - Inondation au Sénégal (2026-10-08)",
+          "dateOriginal": "2026-10-08T00:00:00+00:00",
+          "primaryCountry": "Senegal",
+          "primaryCountryIso3": "sen",
+          "primaryCountryLocation": {
+            "lat": 15.22,
+            "lon": -14.82
+          },
+          "source": "Croix-Rouge Sénégalaise, IFRC",
+          "format": "Situation Report",
+          "themes": [],
+          "disasterTypes": [
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f9/c5/f9c5191b-2672-4f87-9046-fd8034814487.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f9/c5/f9c5191b-2672-4f87-9046-fd8034814487.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/f9/c5/f9c5191b-2672-4f87-9046-fd8034814487.png",
+            "https://reliefweb.int/sites/default/files/previews/f9/c5/f9c5191b-2672-4f87-9046-fd8034814487.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/f9/c5/f9c5191b-2672-4f87-9046-fd8034814487.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/senegal/sen-inondation-10-2026-inondation-au-senegal-2026-10-08",
+          "localThumbnail": "./assets/report-thumbs/rw-4233106.png"
+        },
+        {
+          "id": "4233021",
+          "title": "WFP Senegal Country Brief, September 2026",
+          "dateOriginal": "2026-10-07T00:00:00+00:00",
+          "primaryCountry": "Senegal",
+          "primaryCountryIso3": "sen",
+          "primaryCountryLocation": {
+            "lat": 15.22,
+            "lon": -14.82
+          },
+          "source": "WFP",
+          "format": "Situation Report",
+          "themes": [
+            "Food and Nutrition"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/eb/ba/ebbacce0-feef-4075-a993-ac5734d68295.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/eb/ba/ebbacce0-feef-4075-a993-ac5734d68295.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/eb/ba/ebbacce0-feef-4075-a993-ac5734d68295.png",
+            "https://reliefweb.int/sites/default/files/previews/eb/ba/ebbacce0-feef-4075-a993-ac5734d68295.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/eb/ba/ebbacce0-feef-4075-a993-ac5734d68295.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/senegal/wfp-senegal-country-brief-september-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4233021.png"
+        },
+        {
+          "id": "4231973",
+          "title": "Working equids and community resilience in flood and drought contexts in Senegal",
+          "dateOriginal": "2026-09-30T00:00:00+00:00",
+          "primaryCountry": "Senegal",
+          "primaryCountryIso3": "sen",
+          "primaryCountryLocation": {
+            "lat": 15.22,
+            "lon": -14.82
+          },
+          "source": "the Brooke",
+          "format": "Analysis",
+          "themes": [
+            "Agriculture"
+          ],
+          "disasterTypes": [
+            "Drought",
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7f/3b/7f3bf020-f680-48b3-9a65-050585a4f118.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7f/3b/7f3bf020-f680-48b3-9a65-050585a4f118.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/7f/3b/7f3bf020-f680-48b3-9a65-050585a4f118.png",
+            "https://reliefweb.int/sites/default/files/previews/7f/3b/7f3bf020-f680-48b3-9a65-050585a4f118.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/7f/3b/7f3bf020-f680-48b3-9a65-050585a4f118.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/senegal/working-equids-and-community-resilience-flood-and-drought-contexts-senegal",
+          "localThumbnail": "./assets/report-thumbs/rw-4231973.png"
+        }
+      ],
+      "enrichmentStatus": "complete"
+    },
+    {
       "name": "Togo",
       "shortname": "Togo",
       "iso3": "tgo",
@@ -26638,197 +26860,6 @@
       "timeline": [],
       "recentReports": [],
       "enrichmentStatus": "pending-daily"
-    },
-    {
-      "name": "Senegal",
-      "shortname": "Senegal",
-      "iso3": "sen",
-      "location": {
-        "lat": 15.22,
-        "lon": -14.82
-      },
-      "overview": "",
-      "countryUrl": "",
-      "reports30d": 3,
-      "reports7d": 2,
-      "previous7d": 1,
-      "change7d": 100,
-      "uniqueSources": 4,
-      "themeBreadth": 2,
-      "formatBreadth": 2,
-      "topThemes": [
-        {
-          "name": "Agriculture",
-          "count": 1
-        },
-        {
-          "name": "Food and Nutrition",
-          "count": 1
-        }
-      ],
-      "topSources": [
-        {
-          "name": "Croix-Rouge Sénégalaise",
-          "count": 1
-        },
-        {
-          "name": "IFRC",
-          "count": 1
-        },
-        {
-          "name": "WFP",
-          "count": 1
-        },
-        {
-          "name": "the Brooke",
-          "count": 1
-        }
-      ],
-      "topFormats": [
-        {
-          "name": "Situation Report",
-          "count": 2
-        },
-        {
-          "name": "Analysis",
-          "count": 1
-        }
-      ],
-      "disasterTypes": [
-        {
-          "name": "Flood",
-          "count": 2
-        },
-        {
-          "name": "Drought",
-          "count": 1
-        }
-      ],
-      "timeline": [
-        {
-          "date": "2026-09-30T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-01T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-02T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-03T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-04T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-05T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-06T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-07T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-08T00:00:00+00:00",
-          "count": 1
-        }
-      ],
-      "recentReports": [
-        {
-          "id": "4233106",
-          "title": "SEN: Inondation - 10-2026 - Inondation au Sénégal (2026-10-08)",
-          "dateOriginal": "2026-10-08T00:00:00+00:00",
-          "primaryCountry": "Senegal",
-          "primaryCountryIso3": "sen",
-          "primaryCountryLocation": {
-            "lat": 15.22,
-            "lon": -14.82
-          },
-          "source": "Croix-Rouge Sénégalaise, IFRC",
-          "format": "Situation Report",
-          "themes": [],
-          "disasterTypes": [
-            "Flood"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f9/c5/f9c5191b-2672-4f87-9046-fd8034814487.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f9/c5/f9c5191b-2672-4f87-9046-fd8034814487.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/f9/c5/f9c5191b-2672-4f87-9046-fd8034814487.png",
-            "https://reliefweb.int/sites/default/files/previews/f9/c5/f9c5191b-2672-4f87-9046-fd8034814487.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/f9/c5/f9c5191b-2672-4f87-9046-fd8034814487.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/senegal/sen-inondation-10-2026-inondation-au-senegal-2026-10-08",
-          "localThumbnail": "./assets/report-thumbs/rw-4233106.png"
-        },
-        {
-          "id": "4233021",
-          "title": "WFP Senegal Country Brief, September 2026",
-          "dateOriginal": "2026-10-07T00:00:00+00:00",
-          "primaryCountry": "Senegal",
-          "primaryCountryIso3": "sen",
-          "primaryCountryLocation": {
-            "lat": 15.22,
-            "lon": -14.82
-          },
-          "source": "WFP",
-          "format": "Situation Report",
-          "themes": [
-            "Food and Nutrition"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/eb/ba/ebbacce0-feef-4075-a993-ac5734d68295.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/eb/ba/ebbacce0-feef-4075-a993-ac5734d68295.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/eb/ba/ebbacce0-feef-4075-a993-ac5734d68295.png",
-            "https://reliefweb.int/sites/default/files/previews/eb/ba/ebbacce0-feef-4075-a993-ac5734d68295.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/eb/ba/ebbacce0-feef-4075-a993-ac5734d68295.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/senegal/wfp-senegal-country-brief-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4233021.png"
-        },
-        {
-          "id": "4231973",
-          "title": "Working equids and community resilience in flood and drought contexts in Senegal",
-          "dateOriginal": "2026-09-30T00:00:00+00:00",
-          "primaryCountry": "Senegal",
-          "primaryCountryIso3": "sen",
-          "primaryCountryLocation": {
-            "lat": 15.22,
-            "lon": -14.82
-          },
-          "source": "the Brooke",
-          "format": "Analysis",
-          "themes": [
-            "Agriculture"
-          ],
-          "disasterTypes": [
-            "Drought",
-            "Flood"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7f/3b/7f3bf020-f680-48b3-9a65-050585a4f118.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7f/3b/7f3bf020-f680-48b3-9a65-050585a4f118.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/7f/3b/7f3bf020-f680-48b3-9a65-050585a4f118.png",
-            "https://reliefweb.int/sites/default/files/previews/7f/3b/7f3bf020-f680-48b3-9a65-050585a4f118.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/7f/3b/7f3bf020-f680-48b3-9a65-050585a4f118.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/senegal/working-equids-and-community-resilience-flood-and-drought-contexts-senegal",
-          "localThumbnail": "./assets/report-thumbs/rw-4231973.png"
-        }
-      ],
-      "enrichmentStatus": "complete"
     },
     {
       "name": "slv",
@@ -28225,32 +28256,226 @@
   ],
   "reports": [
     {
-      "id": "4233558",
-      "title": "UNHCR Facilitated Return of Syrian Refugees - Lebanon, 30 September 2026",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Lebanon",
-      "primaryCountryIso3": "lbn",
+      "id": "4233730",
+      "title": "République Démocratique du Congo - Épidémie de maladie à virus Ebola - Aperçu de la situation, semaine 41 - à la date du 12 octobre 2026",
+      "dateOriginal": "2026-10-13T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
       "primaryCountryLocation": {
-        "lat": 33.92,
-        "lon": 35.89
+        "lat": -4.03833,
+        "lon": 21.7587
       },
-      "source": "UNHCR",
+      "source": "OCHA",
+      "format": "Infographic",
+      "themes": [
+        "Health"
+      ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/cf/0acfb9ce-b70c-4de7-b3b7-42ef81d398fd.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/cf/0acfb9ce-b70c-4de7-b3b7-42ef81d398fd.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/0a/cf/0acfb9ce-b70c-4de7-b3b7-42ef81d398fd.png",
+        "https://reliefweb.int/sites/default/files/previews/0a/cf/0acfb9ce-b70c-4de7-b3b7-42ef81d398fd.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/0a/cf/0acfb9ce-b70c-4de7-b3b7-42ef81d398fd.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-epidemie-de-maladie-virus-ebola-apercu-de-la-situation-semaine-41-la-date-du-12-octobre-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4233730.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/0a/cf/0acfb9ce-b70c-4de7-b3b7-42ef81d398fd.png"
+    },
+    {
+      "id": "4233739",
+      "title": "Save the Children joins HSBC’s Disaster Relief Partnership to help communities prepare for natural disasters",
+      "dateOriginal": "2026-10-13T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "Save the Children",
+      "format": "News and Press Release",
+      "themes": [
+        "Contributions",
+        "Disaster Management"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/save-children-joins-hsbcs-disaster-relief-partnership-help-communities-prepare-natural-disasters"
+    },
+    {
+      "id": "4233747",
+      "title": "UNICEF Viet Nam El Niño Early Warning Situation Report No. 2 (20 August - 12 October 2026)",
+      "dateOriginal": "2026-10-13T00:00:00+00:00",
+      "primaryCountry": "Viet Nam",
+      "primaryCountryIso3": "vnm",
+      "primaryCountryLocation": {
+        "lat": 14.32,
+        "lon": 108.34
+      },
+      "source": "UNICEF",
       "format": "Situation Report",
       "themes": [
+        "Disaster Management",
+        "Education",
+        "Food and Nutrition",
+        "Health",
+        "Protection and Human Rights",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [
+        "Drought",
+        "Flood"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/04/09/04096a04-9738-45fb-9ebe-29c8d38002ce.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/04/09/04096a04-9738-45fb-9ebe-29c8d38002ce.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/04/09/04096a04-9738-45fb-9ebe-29c8d38002ce.png",
+        "https://reliefweb.int/sites/default/files/previews/04/09/04096a04-9738-45fb-9ebe-29c8d38002ce.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/04/09/04096a04-9738-45fb-9ebe-29c8d38002ce.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/viet-nam/unicef-viet-nam-el-nino-early-warning-situation-report-no-2-20-august-12-october-2026"
+    },
+    {
+      "id": "4233732",
+      "title": "Bangladesh: Epidemiological Highlights - Epi Week 38; 20-26 Sep 2026",
+      "dateOriginal": "2026-10-13T00:00:00+00:00",
+      "primaryCountry": "Bangladesh",
+      "primaryCountryIso3": "bgd",
+      "primaryCountryLocation": {
+        "lat": 23.84,
+        "lon": 90.27
+      },
+      "source": "WHO",
+      "format": "Situation Report",
+      "themes": [
+        "Health"
+      ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ee/a2/eea29bdd-767f-555d-a39f-cc049d76cb29.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ee/a2/eea29bdd-767f-555d-a39f-cc049d76cb29.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/ee/a2/eea29bdd-767f-555d-a39f-cc049d76cb29.png",
+        "https://reliefweb.int/sites/default/files/previews/ee/a2/eea29bdd-767f-555d-a39f-cc049d76cb29.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/ee/a2/eea29bdd-767f-555d-a39f-cc049d76cb29.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/bangladesh/bangladesh-epidemiological-highlights-epi-week-38-20-26-sep-2026"
+    },
+    {
+      "id": "4233726",
+      "title": "Over 8,000 children in need of humanitarian assistance following the Panama earthquake",
+      "dateOriginal": "2026-10-13T00:00:00+00:00",
+      "primaryCountry": "Panama",
+      "primaryCountryIso3": "pan",
+      "primaryCountryLocation": {
+        "lat": 8.7,
+        "lon": -80.27
+      },
+      "source": "UNICEF",
+      "format": "News and Press Release",
+      "themes": [
+        "Education",
+        "Health",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [
+        "Earthquake"
+      ],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/panama/over-8000-children-need-humanitarian-assistance-following-panama-earthquake"
+    },
+    {
+      "id": "4233738",
+      "title": "UNICEF Ethiopia Situation Report No. 4 (July to August 2026)",
+      "dateOriginal": "2026-10-13T00:00:00+00:00",
+      "primaryCountry": "Ethiopia",
+      "primaryCountryIso3": "eth",
+      "primaryCountryLocation": {
+        "lat": 8.63,
+        "lon": 39.62
+      },
+      "source": "UNICEF",
+      "format": "Situation Report",
+      "themes": [
+        "Education",
+        "Food and Nutrition",
+        "Health",
+        "Protection and Human Rights",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [
+        "Drought",
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fc/41/fc419347-27bd-4916-83af-d9564c2ee217.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fc/41/fc419347-27bd-4916-83af-d9564c2ee217.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/fc/41/fc419347-27bd-4916-83af-d9564c2ee217.png",
+        "https://reliefweb.int/sites/default/files/previews/fc/41/fc419347-27bd-4916-83af-d9564c2ee217.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/fc/41/fc419347-27bd-4916-83af-d9564c2ee217.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/ethiopia/unicef-ethiopia-situation-report-no-4-july-august-2026"
+    },
+    {
+      "id": "4233750",
+      "title": "WFP Yemen | Thematic Study: Conflict Escalation and Market Implications (October 2026)",
+      "dateOriginal": "2026-10-13T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "source": "WFP",
+      "format": "Analysis",
+      "themes": [
+        "Food and Nutrition",
         "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/af/9caf8ecf-686c-58b7-aa49-49cf34fae508.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f5/c1/f5c1cc0e-e210-4215-884c-6214514f2b90.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/af/9caf8ecf-686c-58b7-aa49-49cf34fae508.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9c/af/9caf8ecf-686c-58b7-aa49-49cf34fae508.png",
-        "https://reliefweb.int/sites/default/files/previews/9c/af/9caf8ecf-686c-58b7-aa49-49cf34fae508.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9c/af/9caf8ecf-686c-58b7-aa49-49cf34fae508.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f5/c1/f5c1cc0e-e210-4215-884c-6214514f2b90.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f5/c1/f5c1cc0e-e210-4215-884c-6214514f2b90.png",
+        "https://reliefweb.int/sites/default/files/previews/f5/c1/f5c1cc0e-e210-4215-884c-6214514f2b90.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f5/c1/f5c1cc0e-e210-4215-884c-6214514f2b90.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/lebanon/unhcr-facilitated-return-syrian-refugees-lebanon-30-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4233558.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/9c/af/9caf8ecf-686c-58b7-aa49-49cf34fae508.png"
+      "url": "https://reliefweb.int/report/yemen/wfp-yemen-thematic-study-conflict-escalation-and-market-implications-october-2026"
+    },
+    {
+      "id": "4233559",
+      "title": "UNICEF Cholera Response in DRC - Case Area Targeted Interventions (CATI) program: Tanganyika, North Kivu, South Kivu and Haut-Lomami provinces | August 2026",
+      "dateOriginal": "2026-10-12T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "source": "UNICEF",
+      "format": "Infographic",
+      "themes": [
+        "Health"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/14/6314eaa4-2d12-4a45-a743-a9f15eb225ff.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/14/6314eaa4-2d12-4a45-a743-a9f15eb225ff.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/63/14/6314eaa4-2d12-4a45-a743-a9f15eb225ff.png",
+        "https://reliefweb.int/sites/default/files/previews/63/14/6314eaa4-2d12-4a45-a743-a9f15eb225ff.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/63/14/6314eaa4-2d12-4a45-a743-a9f15eb225ff.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/democratic-republic-congo/unicef-cholera-response-drc-case-area-targeted-interventions-cati-program-tanganyika-north-kivu-south-kivu-and-haut-lomami-provinces-august-2026"
     },
     {
       "id": "4233588",
@@ -28280,58 +28505,58 @@
       "url": "https://reliefweb.int/report/ukraine/fao-unhcr-joint-vision-durable-solutions-and-rural-recovery-ukraine-supporting-durable-solutions-through-housing-livelihoods-and-community-resilience-ukraine"
     },
     {
-      "id": "4233564",
-      "title": "Weekly Epidemiological Bulletin - #Week 37, 2026",
+      "id": "4233558",
+      "title": "UNHCR Facilitated Return of Syrian Refugees - Lebanon, 30 September 2026",
       "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Bangladesh",
-      "primaryCountryIso3": "bgd",
+      "primaryCountry": "Lebanon",
+      "primaryCountryIso3": "lbn",
       "primaryCountryLocation": {
-        "lat": 23.84,
-        "lon": 90.27
+        "lat": 33.92,
+        "lon": 35.89
       },
-      "source": "WHO",
+      "source": "UNHCR",
       "format": "Situation Report",
       "themes": [
-        "Health"
-      ],
-      "disasterTypes": [
-        "Epidemic"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
-        "https://reliefweb.int/sites/default/files/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/bangladesh/weekly-epidemiological-bulletin-week-37-2026"
-    },
-    {
-      "id": "4233559",
-      "title": "UNICEF Cholera Response in DRC - Case Area Targeted Interventions (CATI) program: Tanganyika, North Kivu, South Kivu and Haut-Lomami provinces | August 2026",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "primaryCountryLocation": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "source": "UNICEF",
-      "format": "Infographic",
-      "themes": [
-        "Health"
+        "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/14/6314eaa4-2d12-4a45-a743-a9f15eb225ff.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/af/9caf8ecf-686c-58b7-aa49-49cf34fae508.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/14/6314eaa4-2d12-4a45-a743-a9f15eb225ff.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/63/14/6314eaa4-2d12-4a45-a743-a9f15eb225ff.png",
-        "https://reliefweb.int/sites/default/files/previews/63/14/6314eaa4-2d12-4a45-a743-a9f15eb225ff.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/63/14/6314eaa4-2d12-4a45-a743-a9f15eb225ff.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/af/9caf8ecf-686c-58b7-aa49-49cf34fae508.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9c/af/9caf8ecf-686c-58b7-aa49-49cf34fae508.png",
+        "https://reliefweb.int/sites/default/files/previews/9c/af/9caf8ecf-686c-58b7-aa49-49cf34fae508.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9c/af/9caf8ecf-686c-58b7-aa49-49cf34fae508.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/democratic-republic-congo/unicef-cholera-response-drc-case-area-targeted-interventions-cati-program-tanganyika-north-kivu-south-kivu-and-haut-lomami-provinces-august-2026"
+      "url": "https://reliefweb.int/report/lebanon/unhcr-facilitated-return-syrian-refugees-lebanon-30-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4233558.png"
+    },
+    {
+      "id": "4233574",
+      "title": "Importación de asistencia humanitaria en Colombia, Guía IMPACCT, 28 septiembre 2026.",
+      "dateOriginal": "2026-10-12T00:00:00+00:00",
+      "primaryCountry": "Colombia",
+      "primaryCountryIso3": "col",
+      "primaryCountryLocation": {
+        "lat": 3.9,
+        "lon": -73.07
+      },
+      "source": "Logistics Cluster, WFP",
+      "format": "Infographic",
+      "themes": [
+        "Logistics and Telecommunications"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/af/6eafad8e-be93-5333-bbbe-76974fb2bcf6.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/af/6eafad8e-be93-5333-bbbe-76974fb2bcf6.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6e/af/6eafad8e-be93-5333-bbbe-76974fb2bcf6.png",
+        "https://reliefweb.int/sites/default/files/previews/6e/af/6eafad8e-be93-5333-bbbe-76974fb2bcf6.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6e/af/6eafad8e-be93-5333-bbbe-76974fb2bcf6.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/colombia/importacion-de-asistencia-humanitaria-en-colombia-guia-impacct-28-septiembre-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4233574.png"
     },
     {
       "id": "4233642",
@@ -28353,6 +28578,34 @@
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/djibouti/109-migrantes-muertos-incluidos-15-ninos-y-mas-de-116-desaparecidos-en-el-naufragio-mas-mortifero-frente-las-costas-de-djibouti"
+    },
+    {
+      "id": "4233627",
+      "title": "Joint Government of Bangladesh - UNHCR Refugee Population in Camps/Settlements (as of 30 September 2026)",
+      "dateOriginal": "2026-10-12T00:00:00+00:00",
+      "primaryCountry": "Bangladesh",
+      "primaryCountryIso3": "bgd",
+      "primaryCountryLocation": {
+        "lat": 23.84,
+        "lon": 90.27
+      },
+      "source": "Govt. Bangladesh, UNHCR",
+      "format": "Map",
+      "themes": [
+        "Camp Coordination and Camp Management",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
+        "https://reliefweb.int/sites/default/files/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/bangladesh/joint-government-bangladesh-unhcr-refugee-population-campssettlements-30-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4233627.png"
     },
     {
       "id": "4233630",
@@ -28383,88 +28636,6 @@
       "url": "https://reliefweb.int/report/bangladesh/joint-government-bangladesh-age-gender-breakdown-bhasan-char-september-2026"
     },
     {
-      "id": "4233574",
-      "title": "Importación de asistencia humanitaria en Colombia, Guía IMPACCT, 28 septiembre 2026.",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Colombia",
-      "primaryCountryIso3": "col",
-      "primaryCountryLocation": {
-        "lat": 3.9,
-        "lon": -73.07
-      },
-      "source": "Logistics Cluster, WFP",
-      "format": "Infographic",
-      "themes": [
-        "Logistics and Telecommunications"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/af/6eafad8e-be93-5333-bbbe-76974fb2bcf6.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/af/6eafad8e-be93-5333-bbbe-76974fb2bcf6.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6e/af/6eafad8e-be93-5333-bbbe-76974fb2bcf6.png",
-        "https://reliefweb.int/sites/default/files/previews/6e/af/6eafad8e-be93-5333-bbbe-76974fb2bcf6.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6e/af/6eafad8e-be93-5333-bbbe-76974fb2bcf6.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/colombia/importacion-de-asistencia-humanitaria-en-colombia-guia-impacct-28-septiembre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4233574.png"
-    },
-    {
-      "id": "4233627",
-      "title": "Joint Government of Bangladesh - UNHCR Refugee Population in Camps/Settlements (as of 30 September 2026)",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Bangladesh",
-      "primaryCountryIso3": "bgd",
-      "primaryCountryLocation": {
-        "lat": 23.84,
-        "lon": 90.27
-      },
-      "source": "Govt. Bangladesh, UNHCR",
-      "format": "Map",
-      "themes": [
-        "Camp Coordination and Camp Management",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
-        "https://reliefweb.int/sites/default/files/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/map/bangladesh/joint-government-bangladesh-unhcr-refugee-population-campssettlements-30-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4233627.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/32/3e/323eef48-b9b6-5d57-af61-c467d0edd2a1.png"
-    },
-    {
-      "id": "4233622",
-      "title": "Yemen: Al Jawf Governorate Humanitarian Presence (4Ws) August 2026",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
-      "primaryCountryLocation": {
-        "lat": 15.94,
-        "lon": 47.62
-      },
-      "source": "OCHA",
-      "format": "Infographic",
-      "themes": [
-        "Coordination"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
-        "https://reliefweb.int/sites/default/files/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/yemen-al-jawf-governorate-humanitarian-presence-4ws-august-2026"
-    },
-    {
       "id": "4233610",
       "title": "We must end the violence so Rohingya can safely return to Rakhine State, says Head of Myanmar Mechanism during Bangladesh visit",
       "dateOriginal": "2026-10-12T00:00:00+00:00",
@@ -28484,34 +28655,6 @@
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/myanmar/we-must-end-violence-so-rohingya-can-safely-return-rakhine-state-says-head-myanmar-mechanism-during-bangladesh-visit"
-    },
-    {
-      "id": "4233671",
-      "title": "WFP Lao People's Democratic Republic Country Brief, October 2026",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Lao People's Democratic Republic (the)",
-      "primaryCountryIso3": "lao",
-      "primaryCountryLocation": {
-        "lat": 19.92,
-        "lon": 102.59
-      },
-      "source": "WFP",
-      "format": "Situation Report",
-      "themes": [
-        "Education",
-        "Food and Nutrition",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/08/ea/08ea11b1-a359-4f2c-bd31-c6c16543de90.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/08/ea/08ea11b1-a359-4f2c-bd31-c6c16543de90.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/08/ea/08ea11b1-a359-4f2c-bd31-c6c16543de90.png",
-        "https://reliefweb.int/sites/default/files/previews/08/ea/08ea11b1-a359-4f2c-bd31-c6c16543de90.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/08/ea/08ea11b1-a359-4f2c-bd31-c6c16543de90.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/lao-peoples-democratic-republic/wfp-lao-peoples-democratic-republic-country-brief-october-2026"
     },
     {
       "id": "4233635",
@@ -28538,32 +28681,6 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/yemen/yemen-al-mahwit-governorate-humanitarian-presence-4ws-august-2026"
-    },
-    {
-      "id": "4233653",
-      "title": "Yemen: Sana'a Governorate Humanitarian Presence (4Ws) August 2026",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
-      "primaryCountryLocation": {
-        "lat": 15.94,
-        "lon": 47.62
-      },
-      "source": "OCHA",
-      "format": "Infographic",
-      "themes": [
-        "Coordination"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
-        "https://reliefweb.int/sites/default/files/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/yemen-sanaa-governorate-humanitarian-presence-4ws-august-2026"
     },
     {
       "id": "4233636",
@@ -28619,8 +28736,8 @@
       "localThumbnail": "./assets/report-thumbs/rw-4233644.png"
     },
     {
-      "id": "4233646",
-      "title": "Yemen: Lahj Governorate Humanitarian Presence (4Ws) August 2026",
+      "id": "4233622",
+      "title": "Yemen: Al Jawf Governorate Humanitarian Presence (4Ws) August 2026",
       "dateOriginal": "2026-10-12T00:00:00+00:00",
       "primaryCountry": "Yemen",
       "primaryCountryIso3": "yem",
@@ -28634,15 +28751,15 @@
         "Coordination"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/dc/6a/dc6a25f5-ac0b-4222-a832-3fd325af63cc.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/dc/6a/dc6a25f5-ac0b-4222-a832-3fd325af63cc.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/dc/6a/dc6a25f5-ac0b-4222-a832-3fd325af63cc.png",
-        "https://reliefweb.int/sites/default/files/previews/dc/6a/dc6a25f5-ac0b-4222-a832-3fd325af63cc.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/dc/6a/dc6a25f5-ac0b-4222-a832-3fd325af63cc.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
+        "https://reliefweb.int/sites/default/files/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9d/19/9d197e22-c41a-4f6b-8ffb-9434cd453103.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/yemen-lahj-governorate-humanitarian-presence-4ws-august-2026"
+      "url": "https://reliefweb.int/report/yemen/yemen-al-jawf-governorate-humanitarian-presence-4ws-august-2026"
     },
     {
       "id": "4233678",
@@ -28707,7 +28824,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/d6/dc/d6dc6d50-493b-4019-8d69-2ef886301597.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/syrian-arab-republic/mr-mohamed-yahya-asg-humanitarian-affairs-behalf-mr-tom-fletcher-usg-humanitarian-affairs-and-emergency-relief-coordinator-briefing-security-council-humanitarian-situation-syria-12-october-2026"
+      "url": "https://reliefweb.int/report/syrian-arab-republic/mr-mohamed-yahya-asg-humanitarian-affairs-behalf-mr-tom-fletcher-usg-humanitarian-affairs-and-emergency-relief-coordinator-briefing-security-council-humanitarian-situation-syria-12-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4233707.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d6/dc/d6dc6d50-493b-4019-8d69-2ef886301597.png"
     },
     {
       "id": "4233673",
@@ -28732,8 +28851,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/haiti/nasyonzini-bay-75-milyon-dola-ameriken-pou-ede-507-000-moun-ayiti-ht",
-      "localThumbnail": "./assets/report-thumbs/rw-4233673.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/3b/82/3b8254ec-efcb-49dc-b4f5-c65bfc4cf660.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4233673.png"
     },
     {
       "id": "4233651",
@@ -28788,6 +28906,34 @@
       "url": "https://reliefweb.int/report/yemen/yemen-people-desperate-flee-conflict-while-thousands-arrive-all-risk"
     },
     {
+      "id": "4233671",
+      "title": "WFP Lao People's Democratic Republic Country Brief, October 2026",
+      "dateOriginal": "2026-10-12T00:00:00+00:00",
+      "primaryCountry": "Lao People's Democratic Republic (the)",
+      "primaryCountryIso3": "lao",
+      "primaryCountryLocation": {
+        "lat": 19.92,
+        "lon": 102.59
+      },
+      "source": "WFP",
+      "format": "Situation Report",
+      "themes": [
+        "Education",
+        "Food and Nutrition",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/08/ea/08ea11b1-a359-4f2c-bd31-c6c16543de90.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/08/ea/08ea11b1-a359-4f2c-bd31-c6c16543de90.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/08/ea/08ea11b1-a359-4f2c-bd31-c6c16543de90.png",
+        "https://reliefweb.int/sites/default/files/previews/08/ea/08ea11b1-a359-4f2c-bd31-c6c16543de90.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/08/ea/08ea11b1-a359-4f2c-bd31-c6c16543de90.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/lao-peoples-democratic-republic/wfp-lao-peoples-democratic-republic-country-brief-october-2026"
+    },
+    {
       "id": "4233568",
       "title": "Somalia Monthly Vegetation Conditions (NDVI), Jan 2007 - Sep 2026: Deviations from Short Term Averages",
       "dateOriginal": "2026-10-12T00:00:00+00:00",
@@ -28816,32 +28962,114 @@
       "url": "https://reliefweb.int/report/somalia/somalia-monthly-vegetation-conditions-ndvi-jan-2007-sep-2026-deviations-short-term-averages"
     },
     {
-      "id": "4233561",
-      "title": "Protection And Food Security and Livelihoods | West Bank Olive Harvest 2026 | Preparatory Workshop Outcomes",
+      "id": "4233564",
+      "title": "Bangladesh: Epidemiological Highlights - Epi Week 37; 13-19 Sep 2026",
       "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "occupied Palestinian territory",
-      "primaryCountryIso3": "pse",
+      "primaryCountry": "Bangladesh",
+      "primaryCountryIso3": "bgd",
       "primaryCountryLocation": {
-        "lat": 31.9522,
-        "lon": 35.2332
+        "lat": 23.84,
+        "lon": 90.27
       },
-      "source": "FSC, Protection Cluster, OHCHR",
-      "format": "Other",
+      "source": "WHO",
+      "format": "Situation Report",
       "themes": [
-        "Agriculture",
-        "Food and Nutrition",
-        "Protection and Human Rights"
+        "Health"
       ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/00/25/00257ac3-d285-4d80-9fc5-4eb9a93cb162.png",
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/00/25/00257ac3-d285-4d80-9fc5-4eb9a93cb162.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/00/25/00257ac3-d285-4d80-9fc5-4eb9a93cb162.png",
-        "https://reliefweb.int/sites/default/files/previews/00/25/00257ac3-d285-4d80-9fc5-4eb9a93cb162.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/00/25/00257ac3-d285-4d80-9fc5-4eb9a93cb162.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
+        "https://reliefweb.int/sites/default/files/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/b2/80/b280e78e-ec7f-5419-88d1-648931d2a294.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-and-food-security-and-livelihoods-west-bank-olive-harvest-2026-preparatory-workshop-outcomes"
+      "url": "https://reliefweb.int/report/bangladesh/bangladesh-epidemiological-highlights-epi-week-37-13-19-sep-2026"
+    },
+    {
+      "id": "4233724",
+      "title": "Senegal: Preliminary satellite-derived flood impact assessment - Podor area, Podor Department, Saint-Louis Region (12 October 2026)",
+      "dateOriginal": "2026-10-12T00:00:00+00:00",
+      "primaryCountry": "Senegal",
+      "primaryCountryIso3": "sen",
+      "primaryCountryLocation": {
+        "lat": 15.22,
+        "lon": -14.82
+      },
+      "source": "Int'l Charter, UNOSAT",
+      "format": "Map",
+      "themes": [],
+      "disasterTypes": [
+        "Flood"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/92/9a/929a4cbb-9302-4370-85e6-8e09fc3fd510.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/92/9a/929a4cbb-9302-4370-85e6-8e09fc3fd510.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/92/9a/929a4cbb-9302-4370-85e6-8e09fc3fd510.png",
+        "https://reliefweb.int/sites/default/files/previews/92/9a/929a4cbb-9302-4370-85e6-8e09fc3fd510.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/92/9a/929a4cbb-9302-4370-85e6-8e09fc3fd510.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/senegal/senegal-preliminary-satellite-derived-flood-impact-assessment-podor-area-podor-department-saint-louis-region-12-october-2026"
+    },
+    {
+      "id": "4233646",
+      "title": "Yemen: Lahj Governorate Humanitarian Presence (4Ws) August 2026",
+      "dateOriginal": "2026-10-12T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "source": "OCHA",
+      "format": "Infographic",
+      "themes": [
+        "Coordination"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/dc/6a/dc6a25f5-ac0b-4222-a832-3fd325af63cc.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/dc/6a/dc6a25f5-ac0b-4222-a832-3fd325af63cc.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/dc/6a/dc6a25f5-ac0b-4222-a832-3fd325af63cc.png",
+        "https://reliefweb.int/sites/default/files/previews/dc/6a/dc6a25f5-ac0b-4222-a832-3fd325af63cc.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/dc/6a/dc6a25f5-ac0b-4222-a832-3fd325af63cc.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/yemen/yemen-lahj-governorate-humanitarian-presence-4ws-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4233646.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/dc/6a/dc6a25f5-ac0b-4222-a832-3fd325af63cc.png"
+    },
+    {
+      "id": "4233653",
+      "title": "Yemen: Sana'a Governorate Humanitarian Presence (4Ws) August 2026",
+      "dateOriginal": "2026-10-12T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "source": "OCHA",
+      "format": "Infographic",
+      "themes": [
+        "Coordination"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
+        "https://reliefweb.int/sites/default/files/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/yemen/yemen-sanaa-governorate-humanitarian-presence-4ws-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4233653.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d7/41/d7419ba2-4072-4229-aaac-3ae3d64f6430.png"
     },
     {
       "id": "4233563",
@@ -28975,8 +29203,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/ukraine/national-protection-cluster-meeting-minutes-12-aug-2026-enuk",
-      "localThumbnail": "./assets/report-thumbs/rw-4233579.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bb/ab/bbab0583-cb99-4839-b7f9-89c13188730a.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4233579.png"
     },
     {
       "id": "4233589",
@@ -29132,8 +29359,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/bangladesh/joint-government-bangladesh-spn-breakdown-bhasan-char-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4233631.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/91/af/91afc4f4-a7d6-5949-8e17-e5a4d51343ac.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4233631.png"
     },
     {
       "id": "4233598",
@@ -29260,7 +29486,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/ee/0a/ee0a0055-6d97-4fe4-a66a-9da0c017e555.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/yemen-aden-governorate-humanitarian-presence-4ws-august-2026"
+      "url": "https://reliefweb.int/report/yemen/yemen-aden-governorate-humanitarian-presence-4ws-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4233608.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ee/0a/ee0a0055-6d97-4fe4-a66a-9da0c017e555.png"
     },
     {
       "id": "4233648",
@@ -29318,8 +29546,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/yemen/yemen-sanaa-city-governorate-humanitarian-presence-4ws-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4233652.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/20/20/20201d92-3c6e-40d6-a89d-9cc60d09da4f.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4233652.png"
     },
     {
       "id": "4233659",
@@ -29372,208 +29599,6 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/yemen/yemen-sadah-governorate-humanitarian-presence-4ws-august-2026"
-    },
-    {
-      "id": "4233606",
-      "title": "Yemen: Abyan Governorate Humanitarian Presence (4Ws) August 2026",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
-      "primaryCountryLocation": {
-        "lat": 15.94,
-        "lon": 47.62
-      },
-      "source": "OCHA",
-      "format": "Infographic",
-      "themes": [
-        "Coordination"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6b/e4/6be4eb79-6545-4092-a424-b9d3469256c5.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6b/e4/6be4eb79-6545-4092-a424-b9d3469256c5.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6b/e4/6be4eb79-6545-4092-a424-b9d3469256c5.png",
-        "https://reliefweb.int/sites/default/files/previews/6b/e4/6be4eb79-6545-4092-a424-b9d3469256c5.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6b/e4/6be4eb79-6545-4092-a424-b9d3469256c5.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/yemen-abyan-governorate-humanitarian-presence-4ws-august-2026"
-    },
-    {
-      "id": "4233655",
-      "title": "Yemen: Shabwah Governorate Humanitarian Presence (4Ws) August 2026",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
-      "primaryCountryLocation": {
-        "lat": 15.94,
-        "lon": 47.62
-      },
-      "source": "OCHA",
-      "format": "Infographic",
-      "themes": [
-        "Coordination"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/32/87/32879197-72f0-49dc-95b9-2bd83c074a1c.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/32/87/32879197-72f0-49dc-95b9-2bd83c074a1c.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/32/87/32879197-72f0-49dc-95b9-2bd83c074a1c.png",
-        "https://reliefweb.int/sites/default/files/previews/32/87/32879197-72f0-49dc-95b9-2bd83c074a1c.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/32/87/32879197-72f0-49dc-95b9-2bd83c074a1c.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/yemen-shabwah-governorate-humanitarian-presence-4ws-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4233655.png"
-    },
-    {
-      "id": "4233676",
-      "title": "EMR Polio Bulletin - Issue No. 1462, Week 40 (ending on 11/10/2026)",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "primaryCountryLocation": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "source": "WHO",
-      "format": "Infographic",
-      "themes": [
-        "Health"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b1/3a/b13a6aca-d08b-5706-8787-8c0df27111fe.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b1/3a/b13a6aca-d08b-5706-8787-8c0df27111fe.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/b1/3a/b13a6aca-d08b-5706-8787-8c0df27111fe.png",
-        "https://reliefweb.int/sites/default/files/previews/b1/3a/b13a6aca-d08b-5706-8787-8c0df27111fe.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/b1/3a/b13a6aca-d08b-5706-8787-8c0df27111fe.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/afghanistan/emr-polio-bulletin-issue-no-1462-week-40-ending-11102026"
-    },
-    {
-      "id": "4233570",
-      "title": "Somalia Monthly Rainfall Performance, Jan 2007 - Sep 2026: Deviations from Short Term Averages",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Somalia",
-      "primaryCountryIso3": "som",
-      "primaryCountryLocation": {
-        "lat": 5.79,
-        "lon": 47.33
-      },
-      "source": "FSNAU",
-      "format": "Infographic",
-      "themes": [
-        "Agriculture"
-      ],
-      "disasterTypes": [
-        "Drought"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/75/32/75320b77-7929-51c6-a096-4d51d4b4f129.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/75/32/75320b77-7929-51c6-a096-4d51d4b4f129.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/75/32/75320b77-7929-51c6-a096-4d51d4b4f129.png",
-        "https://reliefweb.int/sites/default/files/previews/75/32/75320b77-7929-51c6-a096-4d51d4b4f129.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/75/32/75320b77-7929-51c6-a096-4d51d4b4f129.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/somalia/somalia-monthly-rainfall-performance-jan-2007-sep-2026-deviations-short-term-averages",
-      "localThumbnail": "./assets/report-thumbs/rw-4233570.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/75/32/75320b77-7929-51c6-a096-4d51d4b4f129.png"
-    },
-    {
-      "id": "4233715",
-      "title": "VNM: Flood - 10-2026 - Heavy rainfall caused flooding #3 (2026-10-12)",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Viet Nam",
-      "primaryCountryIso3": "vnm",
-      "primaryCountryLocation": {
-        "lat": 14.32,
-        "lon": 108.34
-      },
-      "source": "IFRC, Vietnam Red Cross",
-      "format": "Situation Report",
-      "themes": [],
-      "disasterTypes": [
-        "Flood"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/59/c3/59c39a6f-d81d-4f1f-865e-60a9703fb96b.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/59/c3/59c39a6f-d81d-4f1f-865e-60a9703fb96b.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/59/c3/59c39a6f-d81d-4f1f-865e-60a9703fb96b.png",
-        "https://reliefweb.int/sites/default/files/previews/59/c3/59c39a6f-d81d-4f1f-865e-60a9703fb96b.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/59/c3/59c39a6f-d81d-4f1f-865e-60a9703fb96b.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/viet-nam/vnm-flood-10-2026-heavy-rainfall-caused-flooding-3-2026-10-12",
-      "localThumbnail": "./assets/report-thumbs/rw-4233715.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/59/c3/59c39a6f-d81d-4f1f-865e-60a9703fb96b.png"
-    },
-    {
-      "id": "4233716",
-      "title": "Myanmar Flood-Landslide 2026 - DREF Operation (MDRMM025)",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Myanmar",
-      "primaryCountryIso3": "mmr",
-      "primaryCountryLocation": {
-        "lat": 21.15,
-        "lon": 96.51
-      },
-      "source": "IFRC",
-      "format": "Situation Report",
-      "themes": [
-        "Food and Nutrition",
-        "Health",
-        "Shelter and Non-Food Items",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [
-        "Flood"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b1/51/b1517066-5b54-4828-83c9-566bccba1d2e.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b1/51/b1517066-5b54-4828-83c9-566bccba1d2e.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/b1/51/b1517066-5b54-4828-83c9-566bccba1d2e.png",
-        "https://reliefweb.int/sites/default/files/previews/b1/51/b1517066-5b54-4828-83c9-566bccba1d2e.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/b1/51/b1517066-5b54-4828-83c9-566bccba1d2e.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/myanmar/myanmar-flood-landslide-2026-dref-operation-mdrmm025",
-      "localThumbnail": "./assets/report-thumbs/rw-4233716.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/b1/51/b1517066-5b54-4828-83c9-566bccba1d2e.png"
-    },
-    {
-      "id": "4233717",
-      "title": "Ethiopia Drought 2026 - DREF Operation (MDRET042)",
-      "dateOriginal": "2026-10-12T00:00:00+00:00",
-      "primaryCountry": "Ethiopia",
-      "primaryCountryIso3": "eth",
-      "primaryCountryLocation": {
-        "lat": 8.63,
-        "lon": 39.62
-      },
-      "source": "IFRC",
-      "format": "Situation Report",
-      "themes": [
-        "Agriculture",
-        "Food and Nutrition",
-        "Health",
-        "Protection and Human Rights",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [
-        "Drought"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/88/a4/88a4663b-bb59-4371-956a-930e099fbc6d.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/88/a4/88a4663b-bb59-4371-956a-930e099fbc6d.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/88/a4/88a4663b-bb59-4371-956a-930e099fbc6d.png",
-        "https://reliefweb.int/sites/default/files/previews/88/a4/88a4663b-bb59-4371-956a-930e099fbc6d.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/88/a4/88a4663b-bb59-4371-956a-930e099fbc6d.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ethiopia/ethiopia-drought-2026-dref-operation-mdret042"
     }
   ],
   "disasters": [
@@ -31482,7 +31507,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-10-13T00:41:29.754Z",
+    "queryGeneratedAt": "2026-10-13T07:43:18.696Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -31493,7 +31518,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-10-13T00:41:37.091Z",
+    "reportThumbnailCacheAt": "2026-10-13T07:43:23.002Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
