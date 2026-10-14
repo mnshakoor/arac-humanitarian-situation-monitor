@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-10-14T20:42:08.908Z",
-  "lastSyncAttemptAt": "2026-10-14T20:42:08.908Z",
+  "generatedAt": "2026-10-14T23:55:25.622Z",
+  "lastSyncAttemptAt": "2026-10-14T23:55:25.622Z",
   "enrichedAt": "2026-10-14T07:59:54.430Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -22,7 +22,7 @@
     }
   },
   "summary": {
-    "reports30d": 2265,
+    "reports30d": 2267,
     "countries": 124,
     "uniqueSources": 150,
     "activeDisasters": 104,
@@ -121,7 +121,7 @@
     },
     {
       "date": "2026-10-07T00:00:00+00:00",
-      "count": 71
+      "count": 72
     },
     {
       "date": "2026-10-08T00:00:00+00:00",
@@ -145,37 +145,37 @@
     },
     {
       "date": "2026-10-13T00:00:00+00:00",
-      "count": 82
+      "count": 81
     },
     {
       "date": "2026-10-14T00:00:00+00:00",
-      "count": 50
+      "count": 52
     }
   ],
   "globalThemes": [
     {
       "name": "Protection and Human Rights",
-      "count": 1129
+      "count": 1130
     },
     {
       "name": "Health",
-      "count": 716
+      "count": 718
     },
     {
       "name": "Food and Nutrition",
-      "count": 519
+      "count": 521
     },
     {
       "name": "Water Sanitation Hygiene",
-      "count": 348
+      "count": 349
     },
     {
       "name": "Shelter and Non-Food Items",
-      "count": 340
+      "count": 339
     },
     {
       "name": "Coordination",
-      "count": 322
+      "count": 324
     },
     {
       "name": "Agriculture",
@@ -183,15 +183,15 @@
     },
     {
       "name": "Education",
-      "count": 233
+      "count": 235
+    },
+    {
+      "name": "Gender",
+      "count": 131
     },
     {
       "name": "Logistics and Telecommunications",
       "count": 130
-    },
-    {
-      "name": "Gender",
-      "count": 128
     },
     {
       "name": "Recovery and Reconstruction",
@@ -203,7 +203,7 @@
     },
     {
       "name": "Contributions",
-      "count": 91
+      "count": 92
     },
     {
       "name": "Climate Change and Environment",
@@ -237,7 +237,7 @@
   "globalSources": [
     {
       "name": "UNHCR",
-      "count": 439
+      "count": 438
     },
     {
       "name": "OCHA",
@@ -257,7 +257,7 @@
     },
     {
       "name": "UNICEF",
-      "count": 85
+      "count": 87
     },
     {
       "name": "IFRC",
@@ -305,7 +305,7 @@
     },
     {
       "name": "UN Women",
-      "count": 27
+      "count": 28
     },
     {
       "name": "ICRC",
@@ -384,15 +384,15 @@
       "count": 15
     },
     {
+      "name": "CARE",
+      "count": 14
+    },
+    {
       "name": "Plan International",
       "count": 14
     },
     {
       "name": "Amnesty",
-      "count": 13
-    },
-    {
-      "name": "CARE",
       "count": 13
     },
     {
@@ -843,7 +843,7 @@
     },
     {
       "name": "Situation Report",
-      "count": 539
+      "count": 540
     },
     {
       "name": "Infographic",
@@ -855,7 +855,7 @@
     },
     {
       "name": "Other",
-      "count": 115
+      "count": 116
     },
     {
       "name": "Map",
@@ -1447,34 +1447,6 @@
           "url": "https://reliefweb.int/report/world/over-4400-child-migrant-deaths-recorded-2014-true-toll-likely-much-higher"
         },
         {
-          "id": "4234034",
-          "title": "WFP Eastern and Southern Africa Seasonal Outlook: Eastern and Southern Africa Regional Office (ESARO) - October 2026",
-          "dateOriginal": "2026-10-14T00:00:00+00:00",
-          "primaryCountry": "World",
-          "primaryCountryIso3": "wld",
-          "primaryCountryLocation": null,
-          "source": "WHO",
-          "format": "Situation Report",
-          "themes": [
-            "Agriculture",
-            "Climate Change and Environment",
-            "Disaster Management",
-            "Food and Nutrition"
-          ],
-          "disasterTypes": [
-            "Flood"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
-            "https://reliefweb.int/sites/default/files/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/wfp-eastern-and-southern-africa-seasonal-outlook-eastern-and-southern-africa-regional-office-esaro-october-2026"
-        },
-        {
           "id": "4233990",
           "title": "The Rise of Armed Drones: Roadmap and Action Framework for Coordinated Action to Protect Humanitarian Operations",
           "dateOriginal": "2026-10-14T00:00:00+00:00",
@@ -1523,22 +1495,32 @@
           "url": "https://reliefweb.int/report/world/learning-brief-promoting-climate-resilient-learning-protecting-learning-environmental-shocks-and-climate-change-through-education-emergencies-october-2026"
         },
         {
-          "id": "4234016",
-          "title": "Plus de 4 400 décès d'enfants migrants recensés depuis 2014 : le bilan réel est probablement bien plus élevé",
+          "id": "4234034",
+          "title": "WFP Eastern and Southern Africa Seasonal Outlook: Eastern and Southern Africa Regional Office (ESARO) - October 2026",
           "dateOriginal": "2026-10-14T00:00:00+00:00",
           "primaryCountry": "World",
           "primaryCountryIso3": "wld",
           "primaryCountryLocation": null,
-          "source": "IOM",
-          "format": "News and Press Release",
+          "source": "WHO",
+          "format": "Situation Report",
           "themes": [
-            "Protection and Human Rights"
+            "Agriculture",
+            "Climate Change and Environment",
+            "Disaster Management",
+            "Food and Nutrition"
           ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
+          "disasterTypes": [
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
+            "https://reliefweb.int/sites/default/files/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png"
+          ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/plus-de-4-400-deces-denfants-migrants-recenses-depuis-2014-le-bilan-reel-est-probablement-bien-plus-eleve"
+          "url": "https://reliefweb.int/report/world/wfp-eastern-and-southern-africa-seasonal-outlook-eastern-and-southern-africa-regional-office-esaro-october-2026"
         },
         {
           "id": "4233994",
@@ -1570,6 +1552,24 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/world/2026-global-hunger-index-no-security-without-food-security"
+        },
+        {
+          "id": "4234016",
+          "title": "Plus de 4 400 décès d'enfants migrants recensés depuis 2014 : le bilan réel est probablement bien plus élevé",
+          "dateOriginal": "2026-10-14T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "IOM",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/plus-de-4-400-deces-denfants-migrants-recenses-depuis-2014-le-bilan-reel-est-probablement-bien-plus-eleve"
         },
         {
           "id": "4233999",
@@ -2833,6 +2833,32 @@
       ],
       "recentReports": [
         {
+          "id": "4233966",
+          "title": "Compte Rendu de la réunion mensuelle du mois de septembre 2026",
+          "dateOriginal": "2026-10-14T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "Nutrition Cluster, UNICEF",
+          "format": "Other",
+          "themes": [
+            "Health"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
+            "https://reliefweb.int/sites/default/files/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/compte-rendu-de-la-reunion-mensuelle-du-mois-de-septembre-2026"
+        },
+        {
           "id": "4234031",
           "title": "West and Central Africa: 2026 Regional Funding Status - General Overview (as of 14th October 2026)",
           "dateOriginal": "2026-10-14T00:00:00+00:00",
@@ -2858,32 +2884,6 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-14th-october-2026"
-        },
-        {
-          "id": "4233966",
-          "title": "Compte Rendu de la réunion mensuelle du mois de septembre 2026",
-          "dateOriginal": "2026-10-14T00:00:00+00:00",
-          "primaryCountry": "Democratic Republic of the Congo",
-          "primaryCountryIso3": "cod",
-          "primaryCountryLocation": {
-            "lat": -4.03833,
-            "lon": 21.7587
-          },
-          "source": "Nutrition Cluster, UNICEF",
-          "format": "Other",
-          "themes": [
-            "Health"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
-            "https://reliefweb.int/sites/default/files/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/compte-rendu-de-la-reunion-mensuelle-du-mois-de-septembre-2026"
         },
         {
           "id": "4233894",
@@ -5477,10 +5477,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 83,
+      "reports30d": 84,
       "reports7d": 22,
-      "previous7d": 18,
-      "change7d": 22.22222222222222,
+      "previous7d": 19,
+      "change7d": 15.789473684210526,
       "uniqueSources": 46,
       "themeBreadth": 17,
       "formatBreadth": 9,
@@ -5904,27 +5904,6 @@
       ],
       "recentReports": [
         {
-          "id": "4234013",
-          "title": "Ukraine war situation update | 26 September – 2 October 2026",
-          "dateOriginal": "2026-10-14T00:00:00+00:00",
-          "primaryCountry": "Ukraine",
-          "primaryCountryIso3": "ukr",
-          "primaryCountryLocation": {
-            "lat": 49.32,
-            "lon": 31.32
-          },
-          "source": "ACLED",
-          "format": "Situation Report",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-26-september-2-october-2026"
-        },
-        {
           "id": "4234066",
           "title": "Supporting Healthcare Worker Well-being in Ukraine: Practical Guide for Mental Health, Psychosocial Support and Staff Care [EN/UK]",
           "dateOriginal": "2026-10-14T00:00:00+00:00",
@@ -5954,6 +5933,27 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/ukraine/supporting-healthcare-worker-well-being-ukraine-practical-guide-mental-health-psychosocial-support-and-staff-care-enuk"
+        },
+        {
+          "id": "4234013",
+          "title": "Ukraine war situation update | 26 September – 2 October 2026",
+          "dateOriginal": "2026-10-14T00:00:00+00:00",
+          "primaryCountry": "Ukraine",
+          "primaryCountryIso3": "ukr",
+          "primaryCountryLocation": {
+            "lat": 49.32,
+            "lon": 31.32
+          },
+          "source": "ACLED",
+          "format": "Situation Report",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-26-september-2-october-2026"
         },
         {
           "id": "4233779",
@@ -6264,10 +6264,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 78,
-      "reports7d": 19,
+      "reports30d": 77,
+      "reports7d": 18,
       "previous7d": 18,
-      "change7d": 5.555555555555555,
+      "change7d": 0,
       "uniqueSources": 42,
       "themeBreadth": 15,
       "formatBreadth": 9,
@@ -6683,6 +6683,32 @@
       ],
       "recentReports": [
         {
+          "id": "4233957",
+          "title": "UNHCR Sudan - Overview of Refugees and IDPs in Sudan Dashboard as of 30 September 2026",
+          "dateOriginal": "2026-10-14T00:00:00+00:00",
+          "primaryCountry": "Sudan",
+          "primaryCountryIso3": "sdn",
+          "primaryCountryLocation": {
+            "lat": 15,
+            "lon": 30
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
+            "https://reliefweb.int/sites/default/files/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/sudan/unhcr-sudan-overview-refugees-and-idps-sudan-dashboard-30-september-2026"
+        },
+        {
           "id": "4234036",
           "title": "Sudan FaSER - Alert Summary Report: Displacement, Ainsiro Area, Kutum, North Darfur",
           "dateOriginal": "2026-10-14T00:00:00+00:00",
@@ -6733,32 +6759,6 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/sudan/unhcr-sudan-south-sudanese-refugees-sudan-dashboard-30-september-2026"
-        },
-        {
-          "id": "4233957",
-          "title": "UNHCR Sudan - Overview of Refugees and IDPs in Sudan Dashboard as of 30 September 2026",
-          "dateOriginal": "2026-10-14T00:00:00+00:00",
-          "primaryCountry": "Sudan",
-          "primaryCountryIso3": "sdn",
-          "primaryCountryLocation": {
-            "lat": 15,
-            "lon": 30
-          },
-          "source": "UNHCR",
-          "format": "Infographic",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
-            "https://reliefweb.int/sites/default/files/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/sudan/unhcr-sudan-overview-refugees-and-idps-sudan-dashboard-30-september-2026"
         },
         {
           "id": "4234038",
@@ -6982,7 +6982,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/aa/8c/aa8cdc80-2c66-4e1c-bd8f-ff8f262af392.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/sudan/womens-advisory-group-wag-statement-escalation-conflict-and-displacement-blue-nile-state-and-its-impact-women-and-girls-enar"
+          "url": "https://reliefweb.int/report/sudan/womens-advisory-group-wag-statement-escalation-conflict-and-displacement-blue-nile-state-and-its-impact-women-and-girls-enar",
+          "localThumbnail": "./assets/report-thumbs/rw-4233790.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/large/public/previews/aa/8c/aa8cdc80-2c66-4e1c-bd8f-ff8f262af392.png"
         },
         {
           "id": "4233846",
@@ -7722,10 +7724,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 55,
-      "reports7d": 7,
+      "reports30d": 57,
+      "reports7d": 9,
       "previous7d": 7,
-      "change7d": 0,
+      "change7d": 28.57142857142857,
       "uniqueSources": 18,
       "themeBreadth": 17,
       "formatBreadth": 7,
@@ -8037,6 +8039,73 @@
       ],
       "recentReports": [
         {
+          "id": "4234110",
+          "title": "UNICEF South Sudan Humanitarian Response Update (From Isolation to Assistance: UNICEF RRM - Lankien and Buong, Jonglei State), September 2026",
+          "dateOriginal": "2026-10-14T00:00:00+00:00",
+          "primaryCountry": "South Sudan",
+          "primaryCountryIso3": "ssd",
+          "primaryCountryLocation": {
+            "lat": 6.9,
+            "lon": 30.5
+          },
+          "source": "UNICEF",
+          "format": "Situation Report",
+          "themes": [
+            "Education",
+            "Food and Nutrition",
+            "Gender",
+            "Health",
+            "Protection and Human Rights",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2b/65/2b65c551-6ff8-4d3f-b6de-d18d27569cab.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2b/65/2b65c551-6ff8-4d3f-b6de-d18d27569cab.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/2b/65/2b65c551-6ff8-4d3f-b6de-d18d27569cab.png",
+            "https://reliefweb.int/sites/default/files/previews/2b/65/2b65c551-6ff8-4d3f-b6de-d18d27569cab.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/2b/65/2b65c551-6ff8-4d3f-b6de-d18d27569cab.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/south-sudan/unicef-south-sudan-humanitarian-response-update-isolation-assistance-unicef-rrm-lankien-and-buong-jonglei-state-september-2026"
+        },
+        {
+          "id": "4234111",
+          "title": "UNICEF South Sudan Humanitarian Situation Report No. 7, 31 August 2026",
+          "dateOriginal": "2026-10-14T00:00:00+00:00",
+          "primaryCountry": "South Sudan",
+          "primaryCountryIso3": "ssd",
+          "primaryCountryLocation": {
+            "lat": 6.9,
+            "lon": 30.5
+          },
+          "source": "UNICEF",
+          "format": "Situation Report",
+          "themes": [
+            "Contributions",
+            "Coordination",
+            "Education",
+            "Food and Nutrition",
+            "Gender",
+            "Health",
+            "Protection and Human Rights",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Epidemic",
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/84/78/847899a1-1e23-4e84-a2d3-0ef5d0318d04.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/84/78/847899a1-1e23-4e84-a2d3-0ef5d0318d04.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/84/78/847899a1-1e23-4e84-a2d3-0ef5d0318d04.png",
+            "https://reliefweb.int/sites/default/files/previews/84/78/847899a1-1e23-4e84-a2d3-0ef5d0318d04.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/84/78/847899a1-1e23-4e84-a2d3-0ef5d0318d04.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/south-sudan/unicef-south-sudan-humanitarian-situation-report-no-7-31-august-2026"
+        },
+        {
           "id": "4233838",
           "title": "WFP South Sudan Weekly Market Monitor (28 September - 4 October 2026)",
           "dateOriginal": "2026-10-13T00:00:00+00:00",
@@ -8061,7 +8130,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/56/a7/56a72b21-642f-4893-b99b-2b474438b91e.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/south-sudan/wfp-south-sudan-weekly-market-monitor-28-september-4-october-2026"
+          "url": "https://reliefweb.int/report/south-sudan/wfp-south-sudan-weekly-market-monitor-28-september-4-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4233838.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/a7/56a72b21-642f-4893-b99b-2b474438b91e.png"
         },
         {
           "id": "4233931",
@@ -8131,7 +8202,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/b7/02/b7029429-17f7-40a2-9855-a836e0b668d4.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/south-sudan/who-south-sudan-voices-field-issue-23-12-october-2026"
+          "url": "https://reliefweb.int/report/south-sudan/who-south-sudan-voices-field-issue-23-12-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4233713.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/previews/b7/02/b7029429-17f7-40a2-9855-a836e0b668d4.png"
         },
         {
           "id": "4233332",
@@ -8297,61 +8370,6 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/south-sudan/unhas-south-sudan-september-report",
           "localThumbnail": "./assets/report-thumbs/rw-4232856.png"
-        },
-        {
-          "id": "4232668",
-          "title": "WFP Condemns Security Incident and Obstruction of Humanitarian Aid in Jonglei State",
-          "dateOriginal": "2026-10-05T00:00:00+00:00",
-          "primaryCountry": "South Sudan",
-          "primaryCountryIso3": "ssd",
-          "primaryCountryLocation": {
-            "lat": 6.9,
-            "lon": 30.5
-          },
-          "source": "WFP",
-          "format": "News and Press Release",
-          "themes": [
-            "Safety and Security"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8c/a4/8ca453d1-02d3-4ed3-9be7-536cfb880d09.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8c/a4/8ca453d1-02d3-4ed3-9be7-536cfb880d09.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/8c/a4/8ca453d1-02d3-4ed3-9be7-536cfb880d09.png",
-            "https://reliefweb.int/sites/default/files/previews/8c/a4/8ca453d1-02d3-4ed3-9be7-536cfb880d09.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/8c/a4/8ca453d1-02d3-4ed3-9be7-536cfb880d09.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/south-sudan/wfp-condemns-security-incident-and-obstruction-humanitarian-aid-jonglei-state",
-          "localThumbnail": "./assets/report-thumbs/rw-4232668.png"
-        },
-        {
-          "id": "4232743",
-          "title": "Managing Severe Acute Malnutrition in South Sudan: Stabilization Center Performance, January–June 2026",
-          "dateOriginal": "2026-10-05T00:00:00+00:00",
-          "primaryCountry": "South Sudan",
-          "primaryCountryIso3": "ssd",
-          "primaryCountryLocation": {
-            "lat": 6.9,
-            "lon": 30.5
-          },
-          "source": "WHO",
-          "format": "Situation Report",
-          "themes": [
-            "Food and Nutrition",
-            "Health"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/13/72/1372f390-c671-4201-b417-62a53edbbbc0.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/13/72/1372f390-c671-4201-b417-62a53edbbbc0.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/13/72/1372f390-c671-4201-b417-62a53edbbbc0.png",
-            "https://reliefweb.int/sites/default/files/previews/13/72/1372f390-c671-4201-b417-62a53edbbbc0.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/13/72/1372f390-c671-4201-b417-62a53edbbbc0.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/south-sudan/managing-severe-acute-malnutrition-south-sudan-stabilization-center-performance-january-june-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4232743.png"
         }
       ],
       "enrichmentStatus": "complete"
@@ -15151,7 +15169,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/80/fb/80fb401e-f212-47fe-a9b1-30b667be00af.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/panama/latin-america-caribbean-weekly-situation-update-12-october-2026"
+          "url": "https://reliefweb.int/report/panama/latin-america-caribbean-weekly-situation-update-12-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4233704.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/80/fb/80fb401e-f212-47fe-a9b1-30b667be00af.png"
         },
         {
           "id": "4233702",
@@ -15748,7 +15768,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/33/45/3345cfc6-1598-4e18-99b9-da9fcc40757d.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/nigeria/joint-market-monitoring-initiative-price-functionality-update-katsina-kebbi-sokoto-zamfara-august-2026"
+          "url": "https://reliefweb.int/report/nigeria/joint-market-monitoring-initiative-price-functionality-update-katsina-kebbi-sokoto-zamfara-august-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4234061.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/33/45/3345cfc6-1598-4e18-99b9-da9fcc40757d.png"
         },
         {
           "id": "4233832",
@@ -18073,7 +18095,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/c7/f8/c7f8326d-f672-4904-8be5-890dac7fc527.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/sri-lanka/sri-lanka-national-dengue-control-unit-current-status-dengue-sri-lanka-13102026-midnight"
+          "url": "https://reliefweb.int/report/sri-lanka/sri-lanka-national-dengue-control-unit-current-status-dengue-sri-lanka-13102026-midnight",
+          "localThumbnail": "./assets/report-thumbs/rw-4233932.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/previews/c7/f8/c7f8326d-f672-4904-8be5-890dac7fc527.png"
         },
         {
           "id": "4233914",
@@ -18101,7 +18125,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/3e/69/3e69839a-1d5e-4894-9889-c652e7c2abdf.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/sri-lanka/sri-lanka-national-dengue-control-unit-current-status-dengue-sri-lanka-12102026-midnight"
+          "url": "https://reliefweb.int/report/sri-lanka/sri-lanka-national-dengue-control-unit-current-status-dengue-sri-lanka-12102026-midnight",
+          "localThumbnail": "./assets/report-thumbs/rw-4233914.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/3e/69/3e69839a-1d5e-4894-9889-c652e7c2abdf.png"
         },
         {
           "id": "4233911",
@@ -28692,6 +28718,166 @@
   ],
   "reports": [
     {
+      "id": "4233985",
+      "title": "Moyen-Orient : la présidente du CICR appelle à la désescalade et à la protection des civils",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "source": "ICRC",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/yemen/moyen-orient-la-presidente-du-cicr-appelle-la-desescalade-et-la-protection-des-civils"
+    },
+    {
+      "id": "4233971",
+      "title": "WFP Pakistan Country Brief, October 2026",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "Pakistan",
+      "primaryCountryIso3": "pak",
+      "primaryCountryLocation": {
+        "lat": 29.97,
+        "lon": 69.39
+      },
+      "source": "WFP",
+      "format": "Situation Report",
+      "themes": [
+        "Food and Nutrition"
+      ],
+      "disasterTypes": [
+        "Earthquake",
+        "Flash Flood"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/21/1e/211e0d99-8348-497d-b228-d53c29fe382f.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/21/1e/211e0d99-8348-497d-b228-d53c29fe382f.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/21/1e/211e0d99-8348-497d-b228-d53c29fe382f.png",
+        "https://reliefweb.int/sites/default/files/previews/21/1e/211e0d99-8348-497d-b228-d53c29fe382f.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/21/1e/211e0d99-8348-497d-b228-d53c29fe382f.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/pakistan/wfp-pakistan-country-brief-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4233971.png"
+    },
+    {
+      "id": "4233966",
+      "title": "Compte Rendu de la réunion mensuelle du mois de septembre 2026",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "source": "Nutrition Cluster, UNICEF",
+      "format": "Other",
+      "themes": [
+        "Health"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
+        "https://reliefweb.int/sites/default/files/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/democratic-republic-congo/compte-rendu-de-la-reunion-mensuelle-du-mois-de-septembre-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4233966.png"
+    },
+    {
+      "id": "4234066",
+      "title": "Supporting Healthcare Worker Well-being in Ukraine: Practical Guide for Mental Health, Psychosocial Support and Staff Care [EN/UK]",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "Ukraine",
+      "primaryCountryIso3": "ukr",
+      "primaryCountryLocation": {
+        "lat": 49.32,
+        "lon": 31.32
+      },
+      "source": "IRC",
+      "format": "Manual and Guideline",
+      "themes": [
+        "Health",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6d/2c/6d2c7de8-e84d-4c63-88e4-6ddbc7e53252.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6d/2c/6d2c7de8-e84d-4c63-88e4-6ddbc7e53252.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6d/2c/6d2c7de8-e84d-4c63-88e4-6ddbc7e53252.png",
+        "https://reliefweb.int/sites/default/files/previews/6d/2c/6d2c7de8-e84d-4c63-88e4-6ddbc7e53252.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6d/2c/6d2c7de8-e84d-4c63-88e4-6ddbc7e53252.png",
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/df/66/df66d227-19df-4a8c-9015-473bc23b97dd.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/df/66/df66d227-19df-4a8c-9015-473bc23b97dd.png",
+        "https://reliefweb.int/sites/default/files/previews/df/66/df66d227-19df-4a8c-9015-473bc23b97dd.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/df/66/df66d227-19df-4a8c-9015-473bc23b97dd.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/ukraine/supporting-healthcare-worker-well-being-ukraine-practical-guide-mental-health-psychosocial-support-and-staff-care-enuk",
+      "localThumbnail": "./assets/report-thumbs/rw-4234066.png"
+    },
+    {
+      "id": "4234013",
+      "title": "Ukraine war situation update | 26 September – 2 October 2026",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "Ukraine",
+      "primaryCountryIso3": "ukr",
+      "primaryCountryLocation": {
+        "lat": 49.32,
+        "lon": 31.32
+      },
+      "source": "ACLED",
+      "format": "Situation Report",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-26-september-2-october-2026"
+    },
+    {
+      "id": "4234031",
+      "title": "West and Central Africa: 2026 Regional Funding Status - General Overview (as of 14th October 2026)",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "source": "OCHA",
+      "format": "Infographic",
+      "themes": [
+        "Coordination",
+        "Humanitarian Financing"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6a/e0/6ae0a2cf-5380-4c69-9bb5-a10a3370450c.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6a/e0/6ae0a2cf-5380-4c69-9bb5-a10a3370450c.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6a/e0/6ae0a2cf-5380-4c69-9bb5-a10a3370450c.png",
+        "https://reliefweb.int/sites/default/files/previews/6a/e0/6ae0a2cf-5380-4c69-9bb5-a10a3370450c.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6a/e0/6ae0a2cf-5380-4c69-9bb5-a10a3370450c.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-14th-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234031.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/6a/e0/6ae0a2cf-5380-4c69-9bb5-a10a3370450c.png"
+    },
+    {
       "id": "4233928",
       "title": "Nepal: Gorkha–Budhi Gandaki Flash Flood - Humanitarian Snapshot (As of 12 October 2026)",
       "dateOriginal": "2026-10-14T00:00:00+00:00",
@@ -28752,103 +28938,31 @@
       "localThumbnail": "./assets/report-thumbs/rw-4233904.png"
     },
     {
-      "id": "4233985",
-      "title": "Moyen-Orient : la présidente du CICR appelle à la désescalade et à la protection des civils",
+      "id": "4233957",
+      "title": "UNHCR Sudan - Overview of Refugees and IDPs in Sudan Dashboard as of 30 September 2026",
       "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
+      "primaryCountry": "Sudan",
+      "primaryCountryIso3": "sdn",
       "primaryCountryLocation": {
-        "lat": 15.94,
-        "lon": 47.62
+        "lat": 15,
+        "lon": 30
       },
-      "source": "ICRC",
-      "format": "News and Press Release",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/moyen-orient-la-presidente-du-cicr-appelle-la-desescalade-et-la-protection-des-civils"
-    },
-    {
-      "id": "4233971",
-      "title": "WFP Pakistan Country Brief, October 2026",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Pakistan",
-      "primaryCountryIso3": "pak",
-      "primaryCountryLocation": {
-        "lat": 29.97,
-        "lon": 69.39
-      },
-      "source": "WFP",
-      "format": "Situation Report",
-      "themes": [
-        "Food and Nutrition"
-      ],
-      "disasterTypes": [
-        "Earthquake",
-        "Flash Flood"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/21/1e/211e0d99-8348-497d-b228-d53c29fe382f.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/21/1e/211e0d99-8348-497d-b228-d53c29fe382f.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/21/1e/211e0d99-8348-497d-b228-d53c29fe382f.png",
-        "https://reliefweb.int/sites/default/files/previews/21/1e/211e0d99-8348-497d-b228-d53c29fe382f.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/21/1e/211e0d99-8348-497d-b228-d53c29fe382f.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/pakistan/wfp-pakistan-country-brief-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4233971.png"
-    },
-    {
-      "id": "4234013",
-      "title": "Ukraine war situation update | 26 September – 2 October 2026",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Ukraine",
-      "primaryCountryIso3": "ukr",
-      "primaryCountryLocation": {
-        "lat": 49.32,
-        "lon": 31.32
-      },
-      "source": "ACLED",
-      "format": "Situation Report",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-26-september-2-october-2026"
-    },
-    {
-      "id": "4234031",
-      "title": "West and Central Africa: 2026 Regional Funding Status - General Overview (as of 14th October 2026)",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "primaryCountryLocation": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "source": "OCHA",
+      "source": "UNHCR",
       "format": "Infographic",
       "themes": [
-        "Coordination",
-        "Humanitarian Financing"
+        "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6a/e0/6ae0a2cf-5380-4c69-9bb5-a10a3370450c.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6a/e0/6ae0a2cf-5380-4c69-9bb5-a10a3370450c.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6a/e0/6ae0a2cf-5380-4c69-9bb5-a10a3370450c.png",
-        "https://reliefweb.int/sites/default/files/previews/6a/e0/6ae0a2cf-5380-4c69-9bb5-a10a3370450c.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6a/e0/6ae0a2cf-5380-4c69-9bb5-a10a3370450c.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
+        "https://reliefweb.int/sites/default/files/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-14th-october-2026"
+      "url": "https://reliefweb.int/report/sudan/unhcr-sudan-overview-refugees-and-idps-sudan-dashboard-30-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4233957.png"
     },
     {
       "id": "4234036",
@@ -28874,34 +28988,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/c9/46/c946bce4-c246-460d-8695-094d7b733435.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/sudan-faser-alert-summary-report-displacement-ainsiro-area-kutum-north-darfur"
-    },
-    {
-      "id": "4233966",
-      "title": "Compte Rendu de la réunion mensuelle du mois de septembre 2026",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "primaryCountryLocation": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "source": "Nutrition Cluster, UNICEF",
-      "format": "Other",
-      "themes": [
-        "Health"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
-        "https://reliefweb.int/sites/default/files/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/64/65/6465f16f-10f4-4f54-8013-2d209663ec7b.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/democratic-republic-congo/compte-rendu-de-la-reunion-mensuelle-du-mois-de-septembre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4233966.png"
+      "url": "https://reliefweb.int/report/sudan/sudan-faser-alert-summary-report-displacement-ainsiro-area-kutum-north-darfur",
+      "localThumbnail": "./assets/report-thumbs/rw-4234036.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/c9/46/c946bce4-c246-460d-8695-094d7b733435.png"
     },
     {
       "id": "4233960",
@@ -28930,66 +29019,6 @@
       "url": "https://reliefweb.int/report/sudan/unhcr-sudan-south-sudanese-refugees-sudan-dashboard-30-september-2026"
     },
     {
-      "id": "4233957",
-      "title": "UNHCR Sudan - Overview of Refugees and IDPs in Sudan Dashboard as of 30 September 2026",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "primaryCountryIso3": "sdn",
-      "primaryCountryLocation": {
-        "lat": 15,
-        "lon": 30
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
-        "https://reliefweb.int/sites/default/files/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f4/9b/f49bcbe3-f6b0-56a3-81db-0087128908c8.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/unhcr-sudan-overview-refugees-and-idps-sudan-dashboard-30-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4233957.png"
-    },
-    {
-      "id": "4234066",
-      "title": "Supporting Healthcare Worker Well-being in Ukraine: Practical Guide for Mental Health, Psychosocial Support and Staff Care [EN/UK]",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Ukraine",
-      "primaryCountryIso3": "ukr",
-      "primaryCountryLocation": {
-        "lat": 49.32,
-        "lon": 31.32
-      },
-      "source": "IRC",
-      "format": "Manual and Guideline",
-      "themes": [
-        "Health",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6d/2c/6d2c7de8-e84d-4c63-88e4-6ddbc7e53252.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6d/2c/6d2c7de8-e84d-4c63-88e4-6ddbc7e53252.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6d/2c/6d2c7de8-e84d-4c63-88e4-6ddbc7e53252.png",
-        "https://reliefweb.int/sites/default/files/previews/6d/2c/6d2c7de8-e84d-4c63-88e4-6ddbc7e53252.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6d/2c/6d2c7de8-e84d-4c63-88e4-6ddbc7e53252.png",
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/df/66/df66d227-19df-4a8c-9015-473bc23b97dd.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/df/66/df66d227-19df-4a8c-9015-473bc23b97dd.png",
-        "https://reliefweb.int/sites/default/files/previews/df/66/df66d227-19df-4a8c-9015-473bc23b97dd.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/df/66/df66d227-19df-4a8c-9015-473bc23b97dd.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ukraine/supporting-healthcare-worker-well-being-ukraine-practical-guide-mental-health-psychosocial-support-and-staff-care-enuk",
-      "localThumbnail": "./assets/report-thumbs/rw-4234066.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/6d/2c/6d2c7de8-e84d-4c63-88e4-6ddbc7e53252.png"
-    },
-    {
       "id": "4234015",
       "title": "Over 4,400 Child Migrant Deaths Recorded Since 2014, True Toll Likely Much Higher",
       "dateOriginal": "2026-10-14T00:00:00+00:00",
@@ -29006,6 +29035,37 @@
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/over-4400-child-migrant-deaths-recorded-2014-true-toll-likely-much-higher"
+    },
+    {
+      "id": "4234110",
+      "title": "UNICEF South Sudan Humanitarian Response Update (From Isolation to Assistance: UNICEF RRM - Lankien and Buong, Jonglei State), September 2026",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
+      "primaryCountryLocation": {
+        "lat": 6.9,
+        "lon": 30.5
+      },
+      "source": "UNICEF",
+      "format": "Situation Report",
+      "themes": [
+        "Education",
+        "Food and Nutrition",
+        "Gender",
+        "Health",
+        "Protection and Human Rights",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2b/65/2b65c551-6ff8-4d3f-b6de-d18d27569cab.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2b/65/2b65c551-6ff8-4d3f-b6de-d18d27569cab.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/2b/65/2b65c551-6ff8-4d3f-b6de-d18d27569cab.png",
+        "https://reliefweb.int/sites/default/files/previews/2b/65/2b65c551-6ff8-4d3f-b6de-d18d27569cab.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/2b/65/2b65c551-6ff8-4d3f-b6de-d18d27569cab.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/south-sudan/unicef-south-sudan-humanitarian-response-update-isolation-assistance-unicef-rrm-lankien-and-buong-jonglei-state-september-2026"
     },
     {
       "id": "4233894",
@@ -29103,91 +29163,6 @@
       "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-region-child-rights-and-humanitarian-dashboard-january-june-2026"
     },
     {
-      "id": "4234034",
-      "title": "WFP Eastern and Southern Africa Seasonal Outlook: Eastern and Southern Africa Regional Office (ESARO) - October 2026",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "WHO",
-      "format": "Situation Report",
-      "themes": [
-        "Agriculture",
-        "Climate Change and Environment",
-        "Disaster Management",
-        "Food and Nutrition"
-      ],
-      "disasterTypes": [
-        "Flood"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
-        "https://reliefweb.int/sites/default/files/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/wfp-eastern-and-southern-africa-seasonal-outlook-eastern-and-southern-africa-regional-office-esaro-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234034.png"
-    },
-    {
-      "id": "4233967",
-      "title": "Note de plaidoyer – Renforcer le financement de la protection face à l'aggravation des risques humanitaires au Niger",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Niger",
-      "primaryCountryIso3": "ner",
-      "primaryCountryLocation": {
-        "lat": 17.43,
-        "lon": 9.4
-      },
-      "source": "Protection Cluster, UNHCR",
-      "format": "News and Press Release",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/58/52/585252c6-78de-4bb9-9b74-ccd9839efd95.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/58/52/585252c6-78de-4bb9-9b74-ccd9839efd95.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/58/52/585252c6-78de-4bb9-9b74-ccd9839efd95.png",
-        "https://reliefweb.int/sites/default/files/previews/58/52/585252c6-78de-4bb9-9b74-ccd9839efd95.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/58/52/585252c6-78de-4bb9-9b74-ccd9839efd95.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/niger/note-de-plaidoyer-renforcer-le-financement-de-la-protection-face-laggravation-des-risques-humanitaires-au-niger",
-      "localThumbnail": "./assets/report-thumbs/rw-4233967.png"
-    },
-    {
-      "id": "4234038",
-      "title": "Sudan FaSER - Alert summary report: Hepatitis E, Beliel, South Darfur",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "primaryCountryIso3": "sdn",
-      "primaryCountryLocation": {
-        "lat": 15,
-        "lon": 30
-      },
-      "source": "SI",
-      "format": "Situation Report",
-      "themes": [
-        "Health",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [
-        "Epidemic"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/39/96/3996ed90-3a67-47b7-87b5-219e2661a0ea.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/39/96/3996ed90-3a67-47b7-87b5-219e2661a0ea.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/39/96/3996ed90-3a67-47b7-87b5-219e2661a0ea.png",
-        "https://reliefweb.int/sites/default/files/previews/39/96/3996ed90-3a67-47b7-87b5-219e2661a0ea.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/39/96/3996ed90-3a67-47b7-87b5-219e2661a0ea.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/sudan-faser-alert-summary-report-hepatitis-e-beliel-south-darfur"
-    },
-    {
       "id": "4234046",
       "title": "Myanmar monthly food price report - August 2026",
       "dateOriginal": "2026-10-14T00:00:00+00:00",
@@ -29238,7 +29213,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/32/30/32308350-3f6b-463f-9a61-d67c648d5b85.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/rise-armed-drones-roadmap-and-action-framework-coordinated-action-protect-humanitarian-operations"
+      "url": "https://reliefweb.int/report/world/rise-armed-drones-roadmap-and-action-framework-coordinated-action-protect-humanitarian-operations",
+      "localThumbnail": "./assets/report-thumbs/rw-4233990.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/32/30/32308350-3f6b-463f-9a61-d67c648d5b85.png"
     },
     {
       "id": "4234044",
@@ -29357,48 +29334,92 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/nigeria/joint-market-monitoring-initiative-price-functionality-update-borno-adamawa-yobe-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234062.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ac/6c/ac6cc2a4-5b61-4f11-beb6-d9ac786d76f8.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4234062.png"
     },
     {
-      "id": "4234016",
-      "title": "Plus de 4 400 décès d'enfants migrants recensés depuis 2014 : le bilan réel est probablement bien plus élevé",
+      "id": "4234034",
+      "title": "WFP Eastern and Southern Africa Seasonal Outlook: Eastern and Southern Africa Regional Office (ESARO) - October 2026",
       "dateOriginal": "2026-10-14T00:00:00+00:00",
       "primaryCountry": "World",
       "primaryCountryIso3": "wld",
       "primaryCountryLocation": null,
-      "source": "IOM",
+      "source": "WHO",
+      "format": "Situation Report",
+      "themes": [
+        "Agriculture",
+        "Climate Change and Environment",
+        "Disaster Management",
+        "Food and Nutrition"
+      ],
+      "disasterTypes": [
+        "Flood"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
+        "https://reliefweb.int/sites/default/files/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/d2/08/d20824c7-3d05-49a0-ad41-922590ede298.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/wfp-eastern-and-southern-africa-seasonal-outlook-eastern-and-southern-africa-regional-office-esaro-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234034.png"
+    },
+    {
+      "id": "4233967",
+      "title": "Note de plaidoyer – Renforcer le financement de la protection face à l'aggravation des risques humanitaires au Niger",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "Niger",
+      "primaryCountryIso3": "ner",
+      "primaryCountryLocation": {
+        "lat": 17.43,
+        "lon": 9.4
+      },
+      "source": "Protection Cluster, UNHCR",
       "format": "News and Press Release",
       "themes": [
         "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/58/52/585252c6-78de-4bb9-9b74-ccd9839efd95.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/58/52/585252c6-78de-4bb9-9b74-ccd9839efd95.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/58/52/585252c6-78de-4bb9-9b74-ccd9839efd95.png",
+        "https://reliefweb.int/sites/default/files/previews/58/52/585252c6-78de-4bb9-9b74-ccd9839efd95.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/58/52/585252c6-78de-4bb9-9b74-ccd9839efd95.png"
+      ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/plus-de-4-400-deces-denfants-migrants-recenses-depuis-2014-le-bilan-reel-est-probablement-bien-plus-eleve"
+      "url": "https://reliefweb.int/report/niger/note-de-plaidoyer-renforcer-le-financement-de-la-protection-face-laggravation-des-risques-humanitaires-au-niger",
+      "localThumbnail": "./assets/report-thumbs/rw-4233967.png"
     },
     {
-      "id": "4234057",
-      "title": "TCD: Food Insecurity - 10-2026 - Food crisis due to rainfall deficit",
+      "id": "4234038",
+      "title": "Sudan FaSER - Alert summary report: Hepatitis E, Beliel, South Darfur",
       "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Chad",
-      "primaryCountryIso3": "tcd",
+      "primaryCountry": "Sudan",
+      "primaryCountryIso3": "sdn",
       "primaryCountryLocation": {
-        "lat": 15.36,
-        "lon": 18.66
+        "lat": 15,
+        "lon": 30
       },
-      "source": "IFRC",
+      "source": "SI",
       "format": "Situation Report",
       "themes": [
-        "Agriculture",
-        "Food and Nutrition"
+        "Health",
+        "Protection and Human Rights"
       ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/39/96/3996ed90-3a67-47b7-87b5-219e2661a0ea.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/39/96/3996ed90-3a67-47b7-87b5-219e2661a0ea.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/39/96/3996ed90-3a67-47b7-87b5-219e2661a0ea.png",
+        "https://reliefweb.int/sites/default/files/previews/39/96/3996ed90-3a67-47b7-87b5-219e2661a0ea.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/39/96/3996ed90-3a67-47b7-87b5-219e2661a0ea.png"
+      ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/chad/tcd-food-insecurity-10-2026-food-crisis-due-rainfall-deficit"
+      "url": "https://reliefweb.int/report/sudan/sudan-faser-alert-summary-report-hepatitis-e-beliel-south-darfur"
     },
     {
       "id": "4233994",
@@ -29433,6 +29454,28 @@
       "localThumbnail": "./assets/report-thumbs/rw-4233994.png"
     },
     {
+      "id": "4234057",
+      "title": "TCD: Food Insecurity - 10-2026 - Food crisis due to rainfall deficit",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "Chad",
+      "primaryCountryIso3": "tcd",
+      "primaryCountryLocation": {
+        "lat": 15.36,
+        "lon": 18.66
+      },
+      "source": "IFRC",
+      "format": "Situation Report",
+      "themes": [
+        "Agriculture",
+        "Food and Nutrition"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/chad/tcd-food-insecurity-10-2026-food-crisis-due-rainfall-deficit"
+    },
+    {
       "id": "4233974",
       "title": "WFP warns escalating Yemen conflict is cutting off life-saving assistance to city of Taiz",
       "dateOriginal": "2026-10-14T00:00:00+00:00",
@@ -29452,7 +29495,65 @@
       "thumbnail": "",
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/wfp-warns-escalating-yemen-conflict-cutting-life-saving-assistance-city-taiz"
+      "url": "https://reliefweb.int/report/yemen/wfp-warns-escalating-yemen-conflict-cutting-life-saving-assistance-city-taiz",
+      "localThumbnail": "./assets/report-thumbs/rw-4233974.jpg",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/images/reports/ea/1b/ea1bbb7a-ea62-40ed-9466-aeed190685ba.jpg"
+    },
+    {
+      "id": "4234016",
+      "title": "Plus de 4 400 décès d'enfants migrants recensés depuis 2014 : le bilan réel est probablement bien plus élevé",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "IOM",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/plus-de-4-400-deces-denfants-migrants-recenses-depuis-2014-le-bilan-reel-est-probablement-bien-plus-eleve"
+    },
+    {
+      "id": "4234111",
+      "title": "UNICEF South Sudan Humanitarian Situation Report No. 7, 31 August 2026",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
+      "primaryCountryLocation": {
+        "lat": 6.9,
+        "lon": 30.5
+      },
+      "source": "UNICEF",
+      "format": "Situation Report",
+      "themes": [
+        "Contributions",
+        "Coordination",
+        "Education",
+        "Food and Nutrition",
+        "Gender",
+        "Health",
+        "Protection and Human Rights",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [
+        "Epidemic",
+        "Flood"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/84/78/847899a1-1e23-4e84-a2d3-0ef5d0318d04.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/84/78/847899a1-1e23-4e84-a2d3-0ef5d0318d04.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/84/78/847899a1-1e23-4e84-a2d3-0ef5d0318d04.png",
+        "https://reliefweb.int/sites/default/files/previews/84/78/847899a1-1e23-4e84-a2d3-0ef5d0318d04.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/84/78/847899a1-1e23-4e84-a2d3-0ef5d0318d04.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/south-sudan/unicef-south-sudan-humanitarian-situation-report-no-7-31-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234111.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/84/78/847899a1-1e23-4e84-a2d3-0ef5d0318d04.png"
     },
     {
       "id": "4233879",
@@ -29481,6 +29582,33 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/lebanon/beyond-participation-reshaping-humanitarian-coordination-advance-womens-leadership-october-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4233879.png"
+    },
+    {
+      "id": "4233945",
+      "title": "Security for Humanitarian Action - Staying and Delivering: A Quarterly Update from UNDSS Sudan (Issue No. 03 | Quarter III 2026)",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "Sudan",
+      "primaryCountryIso3": "sdn",
+      "primaryCountryLocation": {
+        "lat": 15,
+        "lon": 30
+      },
+      "source": "UN DSS",
+      "format": "News and Press Release",
+      "themes": [
+        "Safety and Security"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8b/cb/8bcbbcab-714a-4d9b-a082-ba8c1b5fcade.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8b/cb/8bcbbcab-714a-4d9b-a082-ba8c1b5fcade.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/8b/cb/8bcbbcab-714a-4d9b-a082-ba8c1b5fcade.png",
+        "https://reliefweb.int/sites/default/files/previews/8b/cb/8bcbbcab-714a-4d9b-a082-ba8c1b5fcade.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/8b/cb/8bcbbcab-714a-4d9b-a082-ba8c1b5fcade.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/sudan/security-humanitarian-action-staying-and-delivering-quarterly-update-undss-sudan-issue-no-03-quarter-iii-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4233945.png"
     },
     {
       "id": "4233936",
@@ -29540,33 +29668,6 @@
       "url": "https://reliefweb.int/report/afghanistan/afghanistan-humanitarian-response-wash-cluster-updates-cluster-achievements-september-2026"
     },
     {
-      "id": "4233945",
-      "title": "Security for Humanitarian Action - Staying and Delivering: A Quarterly Update from UNDSS Sudan (Issue No. 03 | Quarter III 2026)",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "primaryCountryIso3": "sdn",
-      "primaryCountryLocation": {
-        "lat": 15,
-        "lon": 30
-      },
-      "source": "UN DSS",
-      "format": "News and Press Release",
-      "themes": [
-        "Safety and Security"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8b/cb/8bcbbcab-714a-4d9b-a082-ba8c1b5fcade.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8b/cb/8bcbbcab-714a-4d9b-a082-ba8c1b5fcade.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/8b/cb/8bcbbcab-714a-4d9b-a082-ba8c1b5fcade.png",
-        "https://reliefweb.int/sites/default/files/previews/8b/cb/8bcbbcab-714a-4d9b-a082-ba8c1b5fcade.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/8b/cb/8bcbbcab-714a-4d9b-a082-ba8c1b5fcade.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/security-humanitarian-action-staying-and-delivering-quarterly-update-undss-sudan-issue-no-03-quarter-iii-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4233945.png"
-    },
-    {
       "id": "4233987",
       "title": "Yemen: Health system faces mounting pressure as fighting intensifies",
       "dateOriginal": "2026-10-14T00:00:00+00:00",
@@ -29617,8 +29718,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/yemen/yemen-humanitarian-needs-and-response-plan-yhnrp-2026-funding-status-13-october-2026-enar",
-      "localThumbnail": "./assets/report-thumbs/rw-4233970.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0b/11/0b11f317-6184-4a2e-aaa5-273ab84e7d2b.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4233970.png"
     },
     {
       "id": "4233983",
@@ -29811,6 +29911,33 @@
       "localThumbnail": "./assets/report-thumbs/rw-4234037.png"
     },
     {
+      "id": "4234011",
+      "title": "WFP Caribbean Multi-Country Office Brief, October 2026",
+      "dateOriginal": "2026-10-14T00:00:00+00:00",
+      "primaryCountry": "Barbados",
+      "primaryCountryIso3": "brb",
+      "primaryCountryLocation": {
+        "lat": 13.18,
+        "lon": -59.56
+      },
+      "source": "WFP",
+      "format": "Situation Report",
+      "themes": [
+        "Food and Nutrition"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9f/b3/9fb3a5ba-9d47-41fd-8ebe-00dc1e50bdf4.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9f/b3/9fb3a5ba-9d47-41fd-8ebe-00dc1e50bdf4.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9f/b3/9fb3a5ba-9d47-41fd-8ebe-00dc1e50bdf4.png",
+        "https://reliefweb.int/sites/default/files/previews/9f/b3/9fb3a5ba-9d47-41fd-8ebe-00dc1e50bdf4.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9f/b3/9fb3a5ba-9d47-41fd-8ebe-00dc1e50bdf4.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/barbados/wfp-caribbean-multi-country-office-brief-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234011.png"
+    },
+    {
       "id": "4234056",
       "title": "Food Security Monitor - September 2026",
       "dateOriginal": "2026-10-14T00:00:00+00:00",
@@ -29836,8 +29963,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/food-security-monitor-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234056.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/00/d0/00d0a135-856d-48a6-972f-aba50b6cff6a.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4234056.png"
     },
     {
       "id": "4234052",
@@ -29903,7 +30029,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/12/8e/128e293e-ddd2-4d09-aa7b-f44d10079d69.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/bangladesh/post-distribution-monitoring-report-april-august-2026-coxs-bazar"
+      "url": "https://reliefweb.int/report/bangladesh/post-distribution-monitoring-report-april-august-2026-coxs-bazar",
+      "localThumbnail": "./assets/report-thumbs/rw-4234063.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/12/8e/128e293e-ddd2-4d09-aa7b-f44d10079d69.png"
     },
     {
       "id": "4234054",
@@ -29967,88 +30095,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/djibouti/djibouti-seap-flood-simplified-early-action-protocol-activation-mdrdj009-12102026",
       "localThumbnail": "./assets/report-thumbs/rw-4234059.png"
-    },
-    {
-      "id": "4234011",
-      "title": "WFP Caribbean Multi-Country Office Brief, October 2026",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Barbados",
-      "primaryCountryIso3": "brb",
-      "primaryCountryLocation": {
-        "lat": 13.18,
-        "lon": -59.56
-      },
-      "source": "WFP",
-      "format": "Situation Report",
-      "themes": [
-        "Food and Nutrition"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9f/b3/9fb3a5ba-9d47-41fd-8ebe-00dc1e50bdf4.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9f/b3/9fb3a5ba-9d47-41fd-8ebe-00dc1e50bdf4.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9f/b3/9fb3a5ba-9d47-41fd-8ebe-00dc1e50bdf4.png",
-        "https://reliefweb.int/sites/default/files/previews/9f/b3/9fb3a5ba-9d47-41fd-8ebe-00dc1e50bdf4.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9f/b3/9fb3a5ba-9d47-41fd-8ebe-00dc1e50bdf4.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/barbados/wfp-caribbean-multi-country-office-brief-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234011.png"
-    },
-    {
-      "id": "4234061",
-      "title": "Joint Market Monitoring Initiative - Price & Functionality Update Katsina Kebbi Sokoto Zamfara (August 2026)",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Nigeria",
-      "primaryCountryIso3": "nga",
-      "primaryCountryLocation": {
-        "lat": 9.59,
-        "lon": 8.11
-      },
-      "source": "FACT",
-      "format": "Assessment",
-      "themes": [
-        "Education",
-        "Food and Nutrition",
-        "Health",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/33/45/3345cfc6-1598-4e18-99b9-da9fcc40757d.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/33/45/3345cfc6-1598-4e18-99b9-da9fcc40757d.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/33/45/3345cfc6-1598-4e18-99b9-da9fcc40757d.png",
-        "https://reliefweb.int/sites/default/files/previews/33/45/3345cfc6-1598-4e18-99b9-da9fcc40757d.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/33/45/3345cfc6-1598-4e18-99b9-da9fcc40757d.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/nigeria/joint-market-monitoring-initiative-price-functionality-update-katsina-kebbi-sokoto-zamfara-august-2026"
-    },
-    {
-      "id": "4233959",
-      "title": "Sudan: Eritrean Refugees Overview in Sudan (as of 30 September 2026)",
-      "dateOriginal": "2026-10-14T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "primaryCountryIso3": "sdn",
-      "primaryCountryLocation": {
-        "lat": 15,
-        "lon": 30
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6a/49/6a49cb86-4d8d-5687-b4dc-c75888954995.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6a/49/6a49cb86-4d8d-5687-b4dc-c75888954995.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6a/49/6a49cb86-4d8d-5687-b4dc-c75888954995.png",
-        "https://reliefweb.int/sites/default/files/previews/6a/49/6a49cb86-4d8d-5687-b4dc-c75888954995.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6a/49/6a49cb86-4d8d-5687-b4dc-c75888954995.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/sudan-eritrean-refugees-overview-sudan-30-september-2026"
     }
   ],
   "disasters": [
@@ -30434,42 +30480,6 @@
       ]
     },
     {
-      "id": "51538",
-      "name": "South Sudan: Measles - Dec 2022",
-      "status": "ongoing",
-      "glide": "EP-2023-000048-SSD",
-      "dateEvent": "2022-12-10T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51538",
-      "primaryCountry": "South Sudan",
-      "primaryCountryIso3": "ssd",
-      "location": {
-        "lat": 6.9,
-        "lon": 30.5
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "51475",
-      "name": "Nigeria: Lassa Fever Outbreak - Jan 2023",
-      "status": "ongoing",
-      "glide": "EP-2023-000090-NGA",
-      "dateEvent": "2023-01-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51475",
-      "primaryCountry": "Nigeria",
-      "primaryCountryIso3": "nga",
-      "location": {
-        "lat": 9.59,
-        "lon": 8.11
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
       "id": "52702",
       "name": "Guinea-Bissau: Mpox Outbreak - Jul 2026",
       "status": "ongoing",
@@ -30659,6 +30669,42 @@
       ]
     },
     {
+      "id": "51538",
+      "name": "South Sudan: Measles - Dec 2022",
+      "status": "ongoing",
+      "glide": "EP-2023-000048-SSD",
+      "dateEvent": "2022-12-10T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51538",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
+      "location": {
+        "lat": 6.9,
+        "lon": 30.5
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "51475",
+      "name": "Nigeria: Lassa Fever Outbreak - Jan 2023",
+      "status": "ongoing",
+      "glide": "EP-2023-000090-NGA",
+      "dateEvent": "2023-01-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51475",
+      "primaryCountry": "Nigeria",
+      "primaryCountryIso3": "nga",
+      "location": {
+        "lat": 9.59,
+        "lon": 8.11
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
       "id": "52143",
       "name": "Yemen: Cholera Outbreak - Mar 2024",
       "status": "ongoing",
@@ -30746,170 +30792,6 @@
       "primaryType": "Epidemic",
       "types": [
         "Epidemic"
-      ]
-    },
-    {
-      "id": "52679",
-      "name": "Sierra Leone: Flash Floods - Aug 2026",
-      "status": "ongoing",
-      "glide": "FF-2026-000152-SLE",
-      "dateEvent": "2026-08-03T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52679",
-      "primaryCountry": "Sierra Leone",
-      "primaryCountryIso3": "sle",
-      "location": {
-        "lat": 8.56,
-        "lon": -11.79
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood"
-      ]
-    },
-    {
-      "id": "52670",
-      "name": "Colombia: Earthquake - Aug 2026",
-      "status": "ongoing",
-      "glide": "EQ-2026-000146-COL",
-      "dateEvent": "2026-08-10T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52670",
-      "primaryCountry": "Colombia",
-      "primaryCountryIso3": "col",
-      "location": {
-        "lat": 3.9,
-        "lon": -73.07
-      },
-      "primaryType": "Earthquake",
-      "types": [
-        "Earthquake"
-      ]
-    },
-    {
-      "id": "52659",
-      "name": "Afghanistan: Flash Floods - Jul 2026",
-      "status": "ongoing",
-      "glide": "FF-2026-000120-AFG",
-      "dateEvent": "2026-07-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52659",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "location": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood",
-        "Flood"
-      ]
-    },
-    {
-      "id": "52604",
-      "name": "Sri Lanka: Dengue Outbreak - May 2026",
-      "status": "ongoing",
-      "glide": "EP-2026-000085-LKA",
-      "dateEvent": "2026-05-01T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52604",
-      "primaryCountry": "Sri Lanka",
-      "primaryCountryIso3": "lka",
-      "location": {
-        "lat": 7.61,
-        "lon": 80.7
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52601",
-      "name": "Syria: Floods - May 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000080-SYR",
-      "dateEvent": "2026-05-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52601",
-      "primaryCountry": "Syrian Arab Republic",
-      "primaryCountryIso3": "syr",
-      "location": {
-        "lat": 35.01,
-        "lon": 38.51
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52600",
-      "name": "Philippines: Earthquake and Tsunami - Jun 2026",
-      "status": "ongoing",
-      "glide": "EQ-2026-000083-PHL",
-      "dateEvent": "2026-06-08T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52600",
-      "primaryCountry": "Philippines",
-      "primaryCountryIso3": "phl",
-      "location": {
-        "lat": 11.74,
-        "lon": 122.88
-      },
-      "primaryType": "Earthquake",
-      "types": [
-        "Earthquake",
-        "Tsunami"
-      ]
-    },
-    {
-      "id": "43154",
-      "name": "Nigeria: Cholera Outbreak - Jun 2017",
-      "status": "ongoing",
-      "glide": "EP-2017-000077-NGA",
-      "dateEvent": "2017-06-07T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/43154",
-      "primaryCountry": "Nigeria",
-      "primaryCountryIso3": "nga",
-      "location": {
-        "lat": 9.59,
-        "lon": 8.11
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52040",
-      "name": "Angola: Drought - 2024-2026",
-      "status": "ongoing",
-      "glide": "DR-2024-000095-AGO",
-      "dateEvent": "2024-05-22T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52040",
-      "primaryCountry": "Angola",
-      "primaryCountryIso3": "ago",
-      "location": {
-        "lat": -12.1,
-        "lon": 17.91
-      },
-      "primaryType": "Drought",
-      "types": [
-        "Drought"
-      ]
-    },
-    {
-      "id": "52015",
-      "name": "Mozambique: Drought - May 2024",
-      "status": "ongoing",
-      "glide": "DR-2024-000073-MOZ",
-      "dateEvent": "2024-05-23T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52015",
-      "primaryCountry": "Mozambique",
-      "primaryCountryIso3": "moz",
-      "location": {
-        "lat": -18.09,
-        "lon": 34.75
-      },
-      "primaryType": "Drought",
-      "types": [
-        "Drought"
       ]
     },
     {
@@ -31091,6 +30973,60 @@
       "primaryType": "Epidemic",
       "types": [
         "Epidemic"
+      ]
+    },
+    {
+      "id": "51337",
+      "name": "Ethiopia: Cholera Outbreak - Sep 2022",
+      "status": "ongoing",
+      "glide": "EP-2022-000323-ETH",
+      "dateEvent": "2022-09-16T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51337",
+      "primaryCountry": "Ethiopia",
+      "primaryCountryIso3": "eth",
+      "location": {
+        "lat": 8.63,
+        "lon": 39.62
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52040",
+      "name": "Angola: Drought - 2024-2026",
+      "status": "ongoing",
+      "glide": "DR-2024-000095-AGO",
+      "dateEvent": "2024-05-22T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52040",
+      "primaryCountry": "Angola",
+      "primaryCountryIso3": "ago",
+      "location": {
+        "lat": -12.1,
+        "lon": 17.91
+      },
+      "primaryType": "Drought",
+      "types": [
+        "Drought"
+      ]
+    },
+    {
+      "id": "52015",
+      "name": "Mozambique: Drought - May 2024",
+      "status": "ongoing",
+      "glide": "DR-2024-000073-MOZ",
+      "dateEvent": "2024-05-23T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52015",
+      "primaryCountry": "Mozambique",
+      "primaryCountryIso3": "moz",
+      "location": {
+        "lat": -18.09,
+        "lon": 34.75
+      },
+      "primaryType": "Drought",
+      "types": [
+        "Drought"
       ]
     },
     {
@@ -31333,6 +31269,134 @@
       ]
     },
     {
+      "id": "52679",
+      "name": "Sierra Leone: Flash Floods - Aug 2026",
+      "status": "ongoing",
+      "glide": "FF-2026-000152-SLE",
+      "dateEvent": "2026-08-03T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52679",
+      "primaryCountry": "Sierra Leone",
+      "primaryCountryIso3": "sle",
+      "location": {
+        "lat": 8.56,
+        "lon": -11.79
+      },
+      "primaryType": "Flash Flood",
+      "types": [
+        "Flash Flood"
+      ]
+    },
+    {
+      "id": "52670",
+      "name": "Colombia: Earthquake - Aug 2026",
+      "status": "ongoing",
+      "glide": "EQ-2026-000146-COL",
+      "dateEvent": "2026-08-10T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52670",
+      "primaryCountry": "Colombia",
+      "primaryCountryIso3": "col",
+      "location": {
+        "lat": 3.9,
+        "lon": -73.07
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake"
+      ]
+    },
+    {
+      "id": "52659",
+      "name": "Afghanistan: Flash Floods - Jul 2026",
+      "status": "ongoing",
+      "glide": "FF-2026-000120-AFG",
+      "dateEvent": "2026-07-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52659",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
+      "location": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
+      "primaryType": "Flash Flood",
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ]
+    },
+    {
+      "id": "52604",
+      "name": "Sri Lanka: Dengue Outbreak - May 2026",
+      "status": "ongoing",
+      "glide": "EP-2026-000085-LKA",
+      "dateEvent": "2026-05-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52604",
+      "primaryCountry": "Sri Lanka",
+      "primaryCountryIso3": "lka",
+      "location": {
+        "lat": 7.61,
+        "lon": 80.7
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52601",
+      "name": "Syria: Floods - May 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000080-SYR",
+      "dateEvent": "2026-05-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52601",
+      "primaryCountry": "Syrian Arab Republic",
+      "primaryCountryIso3": "syr",
+      "location": {
+        "lat": 35.01,
+        "lon": 38.51
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52600",
+      "name": "Philippines: Earthquake and Tsunami - Jun 2026",
+      "status": "ongoing",
+      "glide": "EQ-2026-000083-PHL",
+      "dateEvent": "2026-06-08T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52600",
+      "primaryCountry": "Philippines",
+      "primaryCountryIso3": "phl",
+      "location": {
+        "lat": 11.74,
+        "lon": 122.88
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake",
+        "Tsunami"
+      ]
+    },
+    {
+      "id": "43154",
+      "name": "Nigeria: Cholera Outbreak - Jun 2017",
+      "status": "ongoing",
+      "glide": "EP-2017-000077-NGA",
+      "dateEvent": "2017-06-07T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/43154",
+      "primaryCountry": "Nigeria",
+      "primaryCountryIso3": "nga",
+      "location": {
+        "lat": 9.59,
+        "lon": 8.11
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
       "id": "52720",
       "name": "Panama: Earthquake - Oct 2026",
       "status": "alert",
@@ -31348,24 +31412,6 @@
       "primaryType": "Earthquake",
       "types": [
         "Earthquake"
-      ]
-    },
-    {
-      "id": "51337",
-      "name": "Ethiopia: Cholera Outbreak - Sep 2022",
-      "status": "ongoing",
-      "glide": "EP-2022-000323-ETH",
-      "dateEvent": "2022-09-16T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51337",
-      "primaryCountry": "Ethiopia",
-      "primaryCountryIso3": "eth",
-      "location": {
-        "lat": 8.63,
-        "lon": 39.62
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
       ]
     },
     {
@@ -31957,7 +32003,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-10-14T20:42:08.908Z",
+    "queryGeneratedAt": "2026-10-14T23:55:25.622Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -31968,7 +32014,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-10-14T20:42:12.773Z",
+    "reportThumbnailCacheAt": "2026-10-14T23:55:26.910Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
