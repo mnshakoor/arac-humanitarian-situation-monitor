@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-10-15T19:09:25.277Z",
-  "lastSyncAttemptAt": "2026-10-15T19:09:25.277Z",
+  "generatedAt": "2026-10-15T22:20:08.128Z",
+  "lastSyncAttemptAt": "2026-10-15T22:20:08.128Z",
   "enrichedAt": "2026-10-15T07:42:51.054Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -4520,7 +4520,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/9e/54/9e544581-2f5a-42ae-a596-13a4f5bc4ab9.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/nepal/nepal-gorkha-budhigandaki-flash-flood-search-rescue-and-relief-response-situation-report-02-12-october-2026-enne"
+          "url": "https://reliefweb.int/report/nepal/nepal-gorkha-budhigandaki-flash-flood-search-rescue-and-relief-response-situation-report-02-12-october-2026-enne",
+          "localThumbnail": "./assets/report-thumbs/rw-4233910.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/large/public/previews/c1/99/c1996f43-6c3a-4853-8326-9b50ca8d7430.png"
         },
         {
           "id": "4233773",
@@ -10759,33 +10761,6 @@
           "url": "https://reliefweb.int/report/cameroon/fiche-dinformation-sante-janvier-aout-2026"
         },
         {
-          "id": "4234223",
-          "title": "UNHCR Vision 50 by 35: Self-Reliance & Lasting Solutions - September 2026",
-          "dateOriginal": "2026-10-15T00:00:00+00:00",
-          "primaryCountry": "Cameroon",
-          "primaryCountryIso3": "cmr",
-          "primaryCountryLocation": {
-            "lat": 4.81,
-            "lon": 12.21
-          },
-          "source": "UNHCR",
-          "format": "News and Press Release",
-          "themes": [
-            "Protection and Human Rights",
-            "Recovery and Reconstruction"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
-            "https://reliefweb.int/sites/default/files/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/cameroon/unhcr-vision-50-35-self-reliance-lasting-solutions-september-2026"
-        },
-        {
           "id": "4234219",
           "title": "Inter-Agency coordination Factsheet Jan-June 2026",
           "dateOriginal": "2026-10-15T00:00:00+00:00",
@@ -10838,6 +10813,88 @@
           "url": "https://reliefweb.int/report/cameroon/fiche-dinformation-protection-janvier-aout-2026"
         },
         {
+          "id": "4234223",
+          "title": "UNHCR Vision 50 by 35: Self-Reliance & Lasting Solutions - September 2026",
+          "dateOriginal": "2026-10-15T00:00:00+00:00",
+          "primaryCountry": "Cameroon",
+          "primaryCountryIso3": "cmr",
+          "primaryCountryLocation": {
+            "lat": 4.81,
+            "lon": 12.21
+          },
+          "source": "UNHCR",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights",
+            "Recovery and Reconstruction"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
+            "https://reliefweb.int/sites/default/files/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/cameroon/unhcr-vision-50-35-self-reliance-lasting-solutions-september-2026"
+        },
+        {
+          "id": "4234234",
+          "title": "Vision 50/35 : autonomisation et solutions durables",
+          "dateOriginal": "2026-10-15T00:00:00+00:00",
+          "primaryCountry": "Cameroon",
+          "primaryCountryIso3": "cmr",
+          "primaryCountryLocation": {
+            "lat": 4.81,
+            "lon": 12.21
+          },
+          "source": "UNHCR",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights",
+            "Recovery and Reconstruction"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png",
+            "https://reliefweb.int/sites/default/files/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/cameroon/vision-5035-autonomisation-et-solutions-durables"
+        },
+        {
+          "id": "4234224",
+          "title": "Water, Sanitation & Hygiene (WASH) Factsheet January - August 2026",
+          "dateOriginal": "2026-10-15T00:00:00+00:00",
+          "primaryCountry": "Cameroon",
+          "primaryCountryIso3": "cmr",
+          "primaryCountryLocation": {
+            "lat": 4.81,
+            "lon": 12.21
+          },
+          "source": "UNHCR",
+          "format": "News and Press Release",
+          "themes": [
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Epidemic"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png",
+            "https://reliefweb.int/sites/default/files/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/cameroon/water-sanitation-hygiene-wash-factsheet-january-august-2026"
+        },
+        {
           "id": "4234215",
           "title": "Eastern Facade Factsheet 08 October 2026",
           "dateOriginal": "2026-10-15T00:00:00+00:00",
@@ -10867,58 +10924,6 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/cameroon/eastern-facade-factsheet-08-october-2026"
-        },
-        {
-          "id": "4234216",
-          "title": "Education Factsheet January - August 2026",
-          "dateOriginal": "2026-10-15T00:00:00+00:00",
-          "primaryCountry": "Cameroon",
-          "primaryCountryIso3": "cmr",
-          "primaryCountryLocation": {
-            "lat": 4.81,
-            "lon": 12.21
-          },
-          "source": "UNHCR",
-          "format": "News and Press Release",
-          "themes": [
-            "Education"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0c/60/0c60b0df-65b3-56ba-851e-439d66a34434.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0c/60/0c60b0df-65b3-56ba-851e-439d66a34434.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/0c/60/0c60b0df-65b3-56ba-851e-439d66a34434.png",
-            "https://reliefweb.int/sites/default/files/previews/0c/60/0c60b0df-65b3-56ba-851e-439d66a34434.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/0c/60/0c60b0df-65b3-56ba-851e-439d66a34434.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/cameroon/education-factsheet-january-august-2026"
-        },
-        {
-          "id": "4234227",
-          "title": "Moyens de Subsistance et Inclusion Economique - Septembre 2026",
-          "dateOriginal": "2026-10-15T00:00:00+00:00",
-          "primaryCountry": "Cameroon",
-          "primaryCountryIso3": "cmr",
-          "primaryCountryLocation": {
-            "lat": 4.81,
-            "lon": 12.21
-          },
-          "source": "UNHCR",
-          "format": "News and Press Release",
-          "themes": [
-            "Recovery and Reconstruction"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png",
-            "https://reliefweb.int/sites/default/files/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/cameroon/moyens-de-subsistance-et-inclusion-economique-septembre-2026"
         }
       ],
       "enrichmentStatus": "complete"
@@ -14495,7 +14500,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/f9/d3/f9d3730f-4071-491d-adfd-c06a1e562db5.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-key-message-update-limited-purchasing-power-despite-gradual-macroeconomic-and-earthquake-recovery-september-2026-january-2027"
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-key-message-update-limited-purchasing-power-despite-gradual-macroeconomic-and-earthquake-recovery-september-2026-january-2027",
+          "localThumbnail": "./assets/report-thumbs/rw-4234117.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/f9/d3/f9d3730f-4071-491d-adfd-c06a1e562db5.png"
         },
         {
           "id": "4232686",
@@ -25795,7 +25802,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/images/reports/65/e1/65e17061-f848-4d1d-8949-947ccf82f8c6.png"
           ],
           "thumbnailCopyright": "IOM/ Senegal",
-          "url": "https://reliefweb.int/report/senegal/west-african-arrivals-europe-drop-59-cent-routes-turn-deadlier-new-iom-data"
+          "url": "https://reliefweb.int/report/senegal/west-african-arrivals-europe-drop-59-cent-routes-turn-deadlier-new-iom-data",
+          "localThumbnail": "./assets/report-thumbs/rw-4233786.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/images/reports/65/e1/65e17061-f848-4d1d-8949-947ccf82f8c6.png"
         },
         {
           "id": "4233724",
@@ -25821,7 +25830,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/92/9a/929a4cbb-9302-4370-85e6-8e09fc3fd510.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/map/senegal/senegal-preliminary-satellite-derived-flood-impact-assessment-podor-area-podor-department-saint-louis-region-12-october-2026"
+          "url": "https://reliefweb.int/map/senegal/senegal-preliminary-satellite-derived-flood-impact-assessment-podor-area-podor-department-saint-louis-region-12-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4233724.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/92/9a/929a4cbb-9302-4370-85e6-8e09fc3fd510.png"
         },
         {
           "id": "4233106",
@@ -28629,6 +28640,28 @@
   ],
   "reports": [
     {
+      "id": "4234156",
+      "title": "Nigeria: Kwashiorkor - an enduring malnutrition enigma",
+      "dateOriginal": "2026-10-15T00:00:00+00:00",
+      "primaryCountry": "Nigeria",
+      "primaryCountryIso3": "nga",
+      "primaryCountryLocation": {
+        "lat": 9.59,
+        "lon": 8.11
+      },
+      "source": "MSF",
+      "format": "News and Press Release",
+      "themes": [
+        "Food and Nutrition",
+        "Health"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/nigeria/nigeria-kwashiorkor-enduring-malnutrition-enigma"
+    },
+    {
       "id": "4234136",
       "title": "Refugee presence and movement on Bhasan Char | 4th Presence Confirmation Exercise | September 2026",
       "dateOriginal": "2026-10-15T00:00:00+00:00",
@@ -28657,64 +28690,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4234136.png"
     },
     {
-      "id": "4234121",
-      "title": "Panamá: Terremoto en Azuero y Veraguas - Informe de Situación No. 04 (al 14 de octubre 2026, 14:30)",
-      "dateOriginal": "2026-10-15T00:00:00+00:00",
-      "primaryCountry": "Panama",
-      "primaryCountryIso3": "pan",
-      "primaryCountryLocation": {
-        "lat": 8.7,
-        "lon": -80.27
-      },
-      "source": "OCHA",
-      "format": "Situation Report",
-      "themes": [
-        "Camp Coordination and Camp Management",
-        "Coordination",
-        "Education",
-        "Food and Nutrition",
-        "Health",
-        "Logistics and Telecommunications",
-        "Shelter and Non-Food Items",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [
-        "Earthquake"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png",
-        "https://reliefweb.int/sites/default/files/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/panama/panama-terremoto-en-azuero-y-veraguas-informe-de-situacion-no-04-al-14-de-octubre-2026-1430",
-      "localThumbnail": "./assets/report-thumbs/rw-4234121.png"
-    },
-    {
-      "id": "4234156",
-      "title": "Nigeria: Kwashiorkor - an enduring malnutrition enigma",
-      "dateOriginal": "2026-10-15T00:00:00+00:00",
-      "primaryCountry": "Nigeria",
-      "primaryCountryIso3": "nga",
-      "primaryCountryLocation": {
-        "lat": 9.59,
-        "lon": 8.11
-      },
-      "source": "MSF",
-      "format": "News and Press Release",
-      "themes": [
-        "Food and Nutrition",
-        "Health"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/nigeria/nigeria-kwashiorkor-enduring-malnutrition-enigma"
-    },
-    {
       "id": "4234203",
       "title": "Comprehensive Overview of IDPs and IDP Returns Dashboard 15 October 2026",
       "dateOriginal": "2026-10-15T00:00:00+00:00",
@@ -28740,7 +28715,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/da/af/daafb35e-0dd5-5484-8010-972b87130456.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/syrian-arab-republic/comprehensive-overview-idps-and-idp-returns-dashboard-15-october-2026"
+      "url": "https://reliefweb.int/report/syrian-arab-republic/comprehensive-overview-idps-and-idp-returns-dashboard-15-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234203.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/da/af/daafb35e-0dd5-5484-8010-972b87130456.png"
     },
     {
       "id": "4234195",
@@ -28767,8 +28744,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/spain/spain-arrivals-snapshot-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234195.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/ba/53/ba53b21c-9023-5ae2-8c81-c08c4ffff8d3.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4234195.png"
     },
     {
       "id": "4234212",
@@ -28987,6 +28963,42 @@
       "url": "https://reliefweb.int/report/nepal/logistics-operation-overview-nepal-logistics-and-telecommunications-cluster-one-month-activation-4-sept-4-oct"
     },
     {
+      "id": "4234121",
+      "title": "Panamá: Terremoto en Azuero y Veraguas - Informe de Situación No. 04 (al 14 de octubre 2026, 14:30)",
+      "dateOriginal": "2026-10-15T00:00:00+00:00",
+      "primaryCountry": "Panama",
+      "primaryCountryIso3": "pan",
+      "primaryCountryLocation": {
+        "lat": 8.7,
+        "lon": -80.27
+      },
+      "source": "OCHA",
+      "format": "Situation Report",
+      "themes": [
+        "Camp Coordination and Camp Management",
+        "Coordination",
+        "Education",
+        "Food and Nutrition",
+        "Health",
+        "Logistics and Telecommunications",
+        "Shelter and Non-Food Items",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [
+        "Earthquake"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png",
+        "https://reliefweb.int/sites/default/files/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/panama/panama-terremoto-en-azuero-y-veraguas-informe-de-situacion-no-04-al-14-de-octubre-2026-1430",
+      "localThumbnail": "./assets/report-thumbs/rw-4234121.png"
+    },
+    {
       "id": "4234237",
       "title": "Dos meses después del terremoto en Colombia, la brecha de financiamiento pone en riesgo a 57.000 personas a medida que El Niño se intensifica",
       "dateOriginal": "2026-10-15T00:00:00+00:00",
@@ -29152,8 +29164,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/cameroon/cholera-outbreak-update-minawao-refugee-camp-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234213.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/a4/e8/a4e88a74-1a4e-5022-8682-d110e65579a3.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4234213.png"
     },
     {
       "id": "4234228",
@@ -29183,8 +29194,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/cameroon/mise-jour-epidemie-de-cholera-minawao-11-octobre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234228.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9f/ed/9fedecbe-5682-5133-9312-d1b5821b23b8.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4234228.png"
     },
     {
       "id": "4234229",
@@ -29211,8 +29221,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/cameroon/fiche-dinformation-sante-janvier-aout-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234229.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a7/dc/a7dcd639-b98c-5086-90bc-c29c47fe547c.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4234229.png"
     },
     {
       "id": "4234147",
@@ -29294,35 +29303,72 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/53/c8/53c89c22-215e-5f36-b3c9-87aa41069376.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/syrian-arab-republic/comprehensive-overview-refugee-returnee-15-october-2026"
+      "url": "https://reliefweb.int/report/syrian-arab-republic/comprehensive-overview-refugee-returnee-15-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234204.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/53/c8/53c89c22-215e-5f36-b3c9-87aa41069376.png"
     },
     {
-      "id": "4234223",
-      "title": "UNHCR Vision 50 by 35: Self-Reliance & Lasting Solutions - September 2026",
+      "id": "4234161",
+      "title": "‘Children are being choked by toxic smoke’: Schools shut in Timor-Leste as haze from Indonesia wildfires continues to affect countries across Southeast Asia",
       "dateOriginal": "2026-10-15T00:00:00+00:00",
-      "primaryCountry": "Cameroon",
-      "primaryCountryIso3": "cmr",
+      "primaryCountry": "Timor-Leste",
+      "primaryCountryIso3": "tls",
       "primaryCountryLocation": {
-        "lat": 4.81,
-        "lon": 12.21
+        "lat": -8.89,
+        "lon": 126.12
       },
-      "source": "UNHCR",
+      "source": "Save the Children",
       "format": "News and Press Release",
       "themes": [
-        "Protection and Human Rights",
-        "Recovery and Reconstruction"
+        "Education",
+        "Health",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [
+        "Wild Fire"
+      ],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/timor-leste/children-are-being-choked-toxic-smoke-schools-shut-timor-leste-haze-indonesia-wildfires-continues-affect-countries-across-southeast-asia"
+    },
+    {
+      "id": "4234154",
+      "title": "Update on the Human Rights Situation in Afghanistan (July to September 2026) [EN/Dari/Pashto]",
+      "dateOriginal": "2026-10-15T00:00:00+00:00",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
+      "primaryCountryLocation": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
+      "source": "UNAMA",
+      "format": "Analysis",
+      "themes": [
+        "Education",
+        "Gender",
+        "Health",
+        "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a9/f7/a9f71eb4-1e6e-49bf-bf90-68c1d1d02a23.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
-        "https://reliefweb.int/sites/default/files/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a9/f7/a9f71eb4-1e6e-49bf-bf90-68c1d1d02a23.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/a9/f7/a9f71eb4-1e6e-49bf-bf90-68c1d1d02a23.png",
+        "https://reliefweb.int/sites/default/files/previews/a9/f7/a9f71eb4-1e6e-49bf-bf90-68c1d1d02a23.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/a9/f7/a9f71eb4-1e6e-49bf-bf90-68c1d1d02a23.png",
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6d/1c/6d1caebd-c176-48e9-960b-3b81cb147b63.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6d/1c/6d1caebd-c176-48e9-960b-3b81cb147b63.png",
+        "https://reliefweb.int/sites/default/files/previews/6d/1c/6d1caebd-c176-48e9-960b-3b81cb147b63.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6d/1c/6d1caebd-c176-48e9-960b-3b81cb147b63.png",
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/af/63affbdd-8d65-45b7-912e-42e3417cf1a9.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/63/af/63affbdd-8d65-45b7-912e-42e3417cf1a9.png",
+        "https://reliefweb.int/sites/default/files/previews/63/af/63affbdd-8d65-45b7-912e-42e3417cf1a9.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/63/af/63affbdd-8d65-45b7-912e-42e3417cf1a9.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/cameroon/unhcr-vision-50-35-self-reliance-lasting-solutions-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234223.png"
+      "url": "https://reliefweb.int/report/afghanistan/update-human-rights-situation-afghanistan-july-september-2026-endaripashto",
+      "localThumbnail": "./assets/report-thumbs/rw-4234154.png"
     },
     {
       "id": "4234245",
@@ -29385,7 +29431,64 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/b2/a9/b2a98889-fe41-533b-b85b-e6cc23f313c9.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/cameroon/inter-agency-coordination-factsheet-jan-june-2026"
+      "url": "https://reliefweb.int/report/cameroon/inter-agency-coordination-factsheet-jan-june-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234219.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/b2/a9/b2a98889-fe41-533b-b85b-e6cc23f313c9.png"
+    },
+    {
+      "id": "4234226",
+      "title": "Fiche d’information protection Janvier - Août 2026",
+      "dateOriginal": "2026-10-15T00:00:00+00:00",
+      "primaryCountry": "Cameroon",
+      "primaryCountryIso3": "cmr",
+      "primaryCountryLocation": {
+        "lat": 4.81,
+        "lon": 12.21
+      },
+      "source": "UNHCR",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/70/60/70603cd8-dada-55f1-b218-8d6671cddc4d.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/70/60/70603cd8-dada-55f1-b218-8d6671cddc4d.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/70/60/70603cd8-dada-55f1-b218-8d6671cddc4d.png",
+        "https://reliefweb.int/sites/default/files/previews/70/60/70603cd8-dada-55f1-b218-8d6671cddc4d.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/70/60/70603cd8-dada-55f1-b218-8d6671cddc4d.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/cameroon/fiche-dinformation-protection-janvier-aout-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234226.png"
+    },
+    {
+      "id": "4234223",
+      "title": "UNHCR Vision 50 by 35: Self-Reliance & Lasting Solutions - September 2026",
+      "dateOriginal": "2026-10-15T00:00:00+00:00",
+      "primaryCountry": "Cameroon",
+      "primaryCountryIso3": "cmr",
+      "primaryCountryLocation": {
+        "lat": 4.81,
+        "lon": 12.21
+      },
+      "source": "UNHCR",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights",
+        "Recovery and Reconstruction"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
+        "https://reliefweb.int/sites/default/files/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6c/03/6c03f444-6bd2-5faf-bd1b-d83c09db7e72.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/cameroon/unhcr-vision-50-35-self-reliance-lasting-solutions-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234223.png"
     },
     {
       "id": "4234250",
@@ -29416,47 +29519,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/yemen/taiz-fighting-intensifies-civilian-lifelines-are-risk-yemen-enar",
-      "localThumbnail": "./assets/report-thumbs/rw-4234250.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/e1/3e/e13e3f9a-481c-4f15-8342-945885f751ee.png"
-    },
-    {
-      "id": "4234154",
-      "title": "Update on the Human Rights Situation in Afghanistan (July to September 2026) [EN/Dari/Pashto]",
-      "dateOriginal": "2026-10-15T00:00:00+00:00",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "primaryCountryLocation": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "source": "UNAMA",
-      "format": "Analysis",
-      "themes": [
-        "Education",
-        "Gender",
-        "Health",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a9/f7/a9f71eb4-1e6e-49bf-bf90-68c1d1d02a23.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a9/f7/a9f71eb4-1e6e-49bf-bf90-68c1d1d02a23.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/a9/f7/a9f71eb4-1e6e-49bf-bf90-68c1d1d02a23.png",
-        "https://reliefweb.int/sites/default/files/previews/a9/f7/a9f71eb4-1e6e-49bf-bf90-68c1d1d02a23.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/a9/f7/a9f71eb4-1e6e-49bf-bf90-68c1d1d02a23.png",
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6d/1c/6d1caebd-c176-48e9-960b-3b81cb147b63.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/6d/1c/6d1caebd-c176-48e9-960b-3b81cb147b63.png",
-        "https://reliefweb.int/sites/default/files/previews/6d/1c/6d1caebd-c176-48e9-960b-3b81cb147b63.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/6d/1c/6d1caebd-c176-48e9-960b-3b81cb147b63.png",
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/af/63affbdd-8d65-45b7-912e-42e3417cf1a9.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/63/af/63affbdd-8d65-45b7-912e-42e3417cf1a9.png",
-        "https://reliefweb.int/sites/default/files/previews/63/af/63affbdd-8d65-45b7-912e-42e3417cf1a9.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/63/af/63affbdd-8d65-45b7-912e-42e3417cf1a9.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/afghanistan/update-human-rights-situation-afghanistan-july-september-2026-endaripashto",
-      "localThumbnail": "./assets/report-thumbs/rw-4234154.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a9/f7/a9f71eb4-1e6e-49bf-bf90-68c1d1d02a23.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4234250.png"
     },
     {
       "id": "4234267",
@@ -29488,33 +29551,8 @@
       "localThumbnail": "./assets/report-thumbs/rw-4234267.webp"
     },
     {
-      "id": "4234161",
-      "title": "‘Children are being choked by toxic smoke’: Schools shut in Timor-Leste as haze from Indonesia wildfires continues to affect countries across Southeast Asia",
-      "dateOriginal": "2026-10-15T00:00:00+00:00",
-      "primaryCountry": "Timor-Leste",
-      "primaryCountryIso3": "tls",
-      "primaryCountryLocation": {
-        "lat": -8.89,
-        "lon": 126.12
-      },
-      "source": "Save the Children",
-      "format": "News and Press Release",
-      "themes": [
-        "Education",
-        "Health",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [
-        "Wild Fire"
-      ],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/timor-leste/children-are-being-choked-toxic-smoke-schools-shut-timor-leste-haze-indonesia-wildfires-continues-affect-countries-across-southeast-asia"
-    },
-    {
-      "id": "4234226",
-      "title": "Fiche d’information protection Janvier - Août 2026",
+      "id": "4234234",
+      "title": "Vision 50/35 : autonomisation et solutions durables",
       "dateOriginal": "2026-10-15T00:00:00+00:00",
       "primaryCountry": "Cameroon",
       "primaryCountryIso3": "cmr",
@@ -29525,19 +29563,49 @@
       "source": "UNHCR",
       "format": "News and Press Release",
       "themes": [
-        "Protection and Human Rights"
+        "Protection and Human Rights",
+        "Recovery and Reconstruction"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/70/60/70603cd8-dada-55f1-b218-8d6671cddc4d.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/70/60/70603cd8-dada-55f1-b218-8d6671cddc4d.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/70/60/70603cd8-dada-55f1-b218-8d6671cddc4d.png",
-        "https://reliefweb.int/sites/default/files/previews/70/60/70603cd8-dada-55f1-b218-8d6671cddc4d.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/70/60/70603cd8-dada-55f1-b218-8d6671cddc4d.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png",
+        "https://reliefweb.int/sites/default/files/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/cameroon/fiche-dinformation-protection-janvier-aout-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234226.png"
+      "url": "https://reliefweb.int/report/cameroon/vision-5035-autonomisation-et-solutions-durables",
+      "localThumbnail": "./assets/report-thumbs/rw-4234234.png"
+    },
+    {
+      "id": "4234224",
+      "title": "Water, Sanitation & Hygiene (WASH) Factsheet January - August 2026",
+      "dateOriginal": "2026-10-15T00:00:00+00:00",
+      "primaryCountry": "Cameroon",
+      "primaryCountryIso3": "cmr",
+      "primaryCountryLocation": {
+        "lat": 4.81,
+        "lon": 12.21
+      },
+      "source": "UNHCR",
+      "format": "News and Press Release",
+      "themes": [
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png",
+        "https://reliefweb.int/sites/default/files/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/cameroon/water-sanitation-hygiene-wash-factsheet-january-august-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234224.png"
     },
     {
       "id": "4234215",
@@ -29572,6 +29640,61 @@
       "localThumbnail": "./assets/report-thumbs/rw-4234215.png"
     },
     {
+      "id": "4234231",
+      "title": "Fiche d’information education | Janvier - Août 2026",
+      "dateOriginal": "2026-10-15T00:00:00+00:00",
+      "primaryCountry": "Cameroon",
+      "primaryCountryIso3": "cmr",
+      "primaryCountryLocation": {
+        "lat": 4.81,
+        "lon": 12.21
+      },
+      "source": "UNHCR",
+      "format": "News and Press Release",
+      "themes": [
+        "Education"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/38/d1/38d1bf27-e2d2-5a17-88e8-ba99a66feb64.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/38/d1/38d1bf27-e2d2-5a17-88e8-ba99a66feb64.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/38/d1/38d1bf27-e2d2-5a17-88e8-ba99a66feb64.png",
+        "https://reliefweb.int/sites/default/files/previews/38/d1/38d1bf27-e2d2-5a17-88e8-ba99a66feb64.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/38/d1/38d1bf27-e2d2-5a17-88e8-ba99a66feb64.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/cameroon/fiche-dinformation-education-janvier-aout-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234231.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/38/d1/38d1bf27-e2d2-5a17-88e8-ba99a66feb64.png"
+    },
+    {
+      "id": "4234227",
+      "title": "Moyens de Subsistance et Inclusion Economique - Septembre 2026",
+      "dateOriginal": "2026-10-15T00:00:00+00:00",
+      "primaryCountry": "Cameroon",
+      "primaryCountryIso3": "cmr",
+      "primaryCountryLocation": {
+        "lat": 4.81,
+        "lon": 12.21
+      },
+      "source": "UNHCR",
+      "format": "News and Press Release",
+      "themes": [
+        "Recovery and Reconstruction"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png",
+        "https://reliefweb.int/sites/default/files/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/cameroon/moyens-de-subsistance-et-inclusion-economique-septembre-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234227.png"
+    },
+    {
       "id": "4234216",
       "title": "Education Factsheet January - August 2026",
       "dateOriginal": "2026-10-15T00:00:00+00:00",
@@ -29599,89 +29722,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4234216.png"
     },
     {
-      "id": "4234227",
-      "title": "Moyens de Subsistance et Inclusion Economique - Septembre 2026",
-      "dateOriginal": "2026-10-15T00:00:00+00:00",
-      "primaryCountry": "Cameroon",
-      "primaryCountryIso3": "cmr",
-      "primaryCountryLocation": {
-        "lat": 4.81,
-        "lon": 12.21
-      },
-      "source": "UNHCR",
-      "format": "News and Press Release",
-      "themes": [
-        "Recovery and Reconstruction"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png",
-        "https://reliefweb.int/sites/default/files/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/cameroon/moyens-de-subsistance-et-inclusion-economique-septembre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234227.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c7/e5/c7e5c5a2-777a-5b30-833f-fcf5b711e58f.png"
-    },
-    {
-      "id": "4234224",
-      "title": "Water, Sanitation & Hygiene (WASH) Factsheet January - August 2026",
-      "dateOriginal": "2026-10-15T00:00:00+00:00",
-      "primaryCountry": "Cameroon",
-      "primaryCountryIso3": "cmr",
-      "primaryCountryLocation": {
-        "lat": 4.81,
-        "lon": 12.21
-      },
-      "source": "UNHCR",
-      "format": "News and Press Release",
-      "themes": [
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [
-        "Epidemic"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png",
-        "https://reliefweb.int/sites/default/files/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/e0/da/e0da74ba-3fd0-591a-963e-bb253e478ac2.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/cameroon/water-sanitation-hygiene-wash-factsheet-january-august-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234224.png"
-    },
-    {
-      "id": "4234231",
-      "title": "Fiche d’information education | Janvier - Août 2026",
-      "dateOriginal": "2026-10-15T00:00:00+00:00",
-      "primaryCountry": "Cameroon",
-      "primaryCountryIso3": "cmr",
-      "primaryCountryLocation": {
-        "lat": 4.81,
-        "lon": 12.21
-      },
-      "source": "UNHCR",
-      "format": "News and Press Release",
-      "themes": [
-        "Education"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/38/d1/38d1bf27-e2d2-5a17-88e8-ba99a66feb64.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/38/d1/38d1bf27-e2d2-5a17-88e8-ba99a66feb64.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/38/d1/38d1bf27-e2d2-5a17-88e8-ba99a66feb64.png",
-        "https://reliefweb.int/sites/default/files/previews/38/d1/38d1bf27-e2d2-5a17-88e8-ba99a66feb64.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/38/d1/38d1bf27-e2d2-5a17-88e8-ba99a66feb64.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/cameroon/fiche-dinformation-education-janvier-aout-2026"
-    },
-    {
       "id": "4234233",
       "title": "Renforcer l’autonomie économique des réfugiés à travers les métiers de l’automobile au Cameroun - Juillet 2026",
       "dateOriginal": "2026-10-15T00:00:00+00:00",
@@ -29706,36 +29746,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/b2/39/b2398cd2-50d2-54fd-b706-735cbd5d5dff.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/cameroon/renforcer-lautonomie-economique-des-refugies-travers-les-metiers-de-lautomobile-au-cameroun-juillet-2026"
-    },
-    {
-      "id": "4234234",
-      "title": "Vision 50/35 : autonomisation et solutions durables",
-      "dateOriginal": "2026-10-15T00:00:00+00:00",
-      "primaryCountry": "Cameroon",
-      "primaryCountryIso3": "cmr",
-      "primaryCountryLocation": {
-        "lat": 4.81,
-        "lon": 12.21
-      },
-      "source": "UNHCR",
-      "format": "News and Press Release",
-      "themes": [
-        "Protection and Human Rights",
-        "Recovery and Reconstruction"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png",
-        "https://reliefweb.int/sites/default/files/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/cameroon/vision-5035-autonomisation-et-solutions-durables",
-      "localThumbnail": "./assets/report-thumbs/rw-4234234.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/63/1e/631e0570-eb44-517b-8fe4-ae87e7912b57.png"
+      "url": "https://reliefweb.int/report/cameroon/renforcer-lautonomie-economique-des-refugies-travers-les-metiers-de-lautomobile-au-cameroun-juillet-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234233.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/b2/39/b2398cd2-50d2-54fd-b706-735cbd5d5dff.png"
     },
     {
       "id": "4234168",
@@ -29795,8 +29808,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/yemen/yemen-emergency-unhcr-external-update-4-12-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234155.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/51/30/51309874-d6a0-5b25-9a45-5b9279b943d8.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4234155.png"
     },
     {
       "id": "4234165",
@@ -29904,8 +29916,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/cameroon/livelihood-and-economic-inclusion-factsheet-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234220.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/45/c6/45c6c5d6-7b7b-5167-bb50-b00f4b074699.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4234220.png"
     },
     {
       "id": "4234186",
@@ -31937,7 +31948,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-10-15T19:09:25.277Z",
+    "queryGeneratedAt": "2026-10-15T22:20:08.128Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -31948,7 +31959,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-10-15T19:09:29.702Z",
+    "reportThumbnailCacheAt": "2026-10-15T22:20:09.978Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
