@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-10-17T13:44:07.964Z",
-  "lastSyncAttemptAt": "2026-10-17T13:44:07.964Z",
+  "generatedAt": "2026-10-17T17:11:35.637Z",
+  "lastSyncAttemptAt": "2026-10-17T17:11:35.637Z",
   "enrichedAt": "2026-10-17T07:10:44.760Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -1447,6 +1447,25 @@
           "url": "https://reliefweb.int/report/world/10-largest-global-food-crises-data-and-evidence-worlds-most-severe-food-crises"
         },
         {
+          "id": "4234390",
+          "title": "On World Food Day, WFP promotes innovation and early action as shocks to the global food system mount",
+          "dateOriginal": "2026-10-16T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "WFP",
+          "format": "News and Press Release",
+          "themes": [
+            "Food and Nutrition",
+            "Logistics and Telecommunications"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/world-food-day-wfp-promotes-innovation-and-early-action-shocks-global-food-system-mount"
+        },
+        {
           "id": "4234412",
           "title": "À l’occasion de la Journée mondiale de l’alimentation, le PAM promeut l’innovation et l’action anticipatoire face à la multiplication des crises qui fragilisent le système alimentaire mondial",
           "dateOriginal": "2026-10-16T00:00:00+00:00",
@@ -1488,25 +1507,6 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/world/guidance-gender-responsive-reintegration-services-migrant-women-returnees"
-        },
-        {
-          "id": "4234390",
-          "title": "On World Food Day, WFP promotes innovation and early action as shocks to the global food system mount",
-          "dateOriginal": "2026-10-16T00:00:00+00:00",
-          "primaryCountry": "World",
-          "primaryCountryIso3": "wld",
-          "primaryCountryLocation": null,
-          "source": "WFP",
-          "format": "News and Press Release",
-          "themes": [
-            "Food and Nutrition",
-            "Logistics and Telecommunications"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/world-food-day-wfp-promotes-innovation-and-early-action-shocks-global-food-system-mount"
         },
         {
           "id": "4234431",
@@ -3723,6 +3723,33 @@
       ],
       "recentReports": [
         {
+          "id": "4234407",
+          "title": "Hunger and Poverty in the Gaza Strip Amid the Ongoing Genocide (October 2026)",
+          "dateOriginal": "2026-10-16T00:00:00+00:00",
+          "primaryCountry": "occupied Palestinian territory",
+          "primaryCountryIso3": "pse",
+          "primaryCountryLocation": {
+            "lat": 31.9522,
+            "lon": 35.2332
+          },
+          "source": "Al Mezan",
+          "format": "Analysis",
+          "themes": [
+            "Food and Nutrition",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
+            "https://reliefweb.int/sites/default/files/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/occupied-palestinian-territory/hunger-and-poverty-gaza-strip-amid-ongoing-genocide-october-2026"
+        },
+        {
           "id": "4234377",
           "title": "Attacks on health care in the West Bank (Since 1 January - 30 September 2026)",
           "dateOriginal": "2026-10-16T00:00:00+00:00",
@@ -3750,8 +3777,8 @@
           "url": "https://reliefweb.int/report/occupied-palestinian-territory/attacks-health-care-west-bank-1-january-30-september-2026"
         },
         {
-          "id": "4234407",
-          "title": "Hunger and Poverty in the Gaza Strip Amid the Ongoing Genocide (October 2026)",
+          "id": "4234372",
+          "title": "Attacks on health care in the Gaza Strip (Since 1 January 2026 - 30 September 2026)",
           "dateOriginal": "2026-10-16T00:00:00+00:00",
           "primaryCountry": "occupied Palestinian territory",
           "primaryCountryIso3": "pse",
@@ -3759,22 +3786,22 @@
             "lat": 31.9522,
             "lon": 35.2332
           },
-          "source": "Al Mezan",
-          "format": "Analysis",
+          "source": "WHO",
+          "format": "Infographic",
           "themes": [
-            "Food and Nutrition",
-            "Protection and Human Rights"
+            "Health",
+            "Safety and Security"
           ],
           "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
           "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
-            "https://reliefweb.int/sites/default/files/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png"
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
+            "https://reliefweb.int/sites/default/files/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/occupied-palestinian-territory/hunger-and-poverty-gaza-strip-amid-ongoing-genocide-october-2026"
+          "url": "https://reliefweb.int/report/occupied-palestinian-territory/attacks-health-care-gaza-strip-1-january-2026-30-september-2026"
         },
         {
           "id": "4234405",
@@ -3827,33 +3854,6 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/occupied-palestinian-territory/education-hold-gaza-september-2026"
-        },
-        {
-          "id": "4234372",
-          "title": "Attacks on health care in the Gaza Strip (Since 1 January 2026 - 30 September 2026)",
-          "dateOriginal": "2026-10-16T00:00:00+00:00",
-          "primaryCountry": "occupied Palestinian territory",
-          "primaryCountryIso3": "pse",
-          "primaryCountryLocation": {
-            "lat": 31.9522,
-            "lon": 35.2332
-          },
-          "source": "WHO",
-          "format": "Infographic",
-          "themes": [
-            "Health",
-            "Safety and Security"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
-            "https://reliefweb.int/sites/default/files/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/occupied-palestinian-territory/attacks-health-care-gaza-strip-1-january-2026-30-september-2026"
         },
         {
           "id": "4234292",
@@ -13904,7 +13904,8 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/panama/panama-terremoto-en-azuero-y-veraguas-informe-de-situacion-no-04-al-14-de-octubre-2026-1430"
+          "url": "https://reliefweb.int/report/panama/panama-terremoto-en-azuero-y-veraguas-informe-de-situacion-no-04-al-14-de-octubre-2026-1430",
+          "localThumbnail": "./assets/report-thumbs/rw-4234121.png"
         },
         {
           "id": "4234127",
@@ -28719,110 +28720,6 @@
   ],
   "reports": [
     {
-      "id": "4234340",
-      "title": "Afghanistan: Emergency Border Response report (27 September - 10 October 2026)",
-      "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "primaryCountryLocation": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "source": "IOM",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cf/17/cf1726b1-6434-455f-aa25-7fc59cc9beeb.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cf/17/cf1726b1-6434-455f-aa25-7fc59cc9beeb.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/cf/17/cf1726b1-6434-455f-aa25-7fc59cc9beeb.png",
-        "https://reliefweb.int/sites/default/files/previews/cf/17/cf1726b1-6434-455f-aa25-7fc59cc9beeb.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/cf/17/cf1726b1-6434-455f-aa25-7fc59cc9beeb.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/afghanistan/afghanistan-emergency-border-response-report-27-september-10-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234340.png"
-    },
-    {
-      "id": "4234362",
-      "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
-      "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "Ukraine",
-      "primaryCountryIso3": "ukr",
-      "primaryCountryLocation": {
-        "lat": 49.32,
-        "lon": 31.32
-      },
-      "source": "IAEA",
-      "format": "News and Press Release",
-      "themes": [
-        "Disaster Management"
-      ],
-      "disasterTypes": [
-        "Technological Disaster"
-      ],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ukraine/update-371-iaea-director-general-statement-situation-ukraine"
-    },
-    {
-      "id": "4234365",
-      "title": "Kenya: Registered refugees and asylum-seekers (as of 30 September 2026)",
-      "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "Kenya",
-      "primaryCountryIso3": "ken",
-      "primaryCountryLocation": {
-        "lat": 0.53,
-        "lon": 37.86
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/61/6c/616c013a-3e2f-5ac7-9f14-4cae4f184ba7.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/61/6c/616c013a-3e2f-5ac7-9f14-4cae4f184ba7.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/61/6c/616c013a-3e2f-5ac7-9f14-4cae4f184ba7.png",
-        "https://reliefweb.int/sites/default/files/previews/61/6c/616c013a-3e2f-5ac7-9f14-4cae4f184ba7.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/61/6c/616c013a-3e2f-5ac7-9f14-4cae4f184ba7.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/kenya/kenya-registered-refugees-and-asylum-seekers-30-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234365.png"
-    },
-    {
-      "id": "4234363",
-      "title": "UNHCR - Pakistan Voluntary Repatriation of Afghan Refugees (1 January to 30 September 2026)",
-      "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "Pakistan",
-      "primaryCountryIso3": "pak",
-      "primaryCountryLocation": {
-        "lat": 29.97,
-        "lon": 69.39
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4d/83/4d83dd71-37fc-583b-aeab-6d4499f79307.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4d/83/4d83dd71-37fc-583b-aeab-6d4499f79307.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/4d/83/4d83dd71-37fc-583b-aeab-6d4499f79307.png",
-        "https://reliefweb.int/sites/default/files/previews/4d/83/4d83dd71-37fc-583b-aeab-6d4499f79307.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/4d/83/4d83dd71-37fc-583b-aeab-6d4499f79307.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/pakistan/unhcr-pakistan-voluntary-repatriation-afghan-refugees-1-january-30-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234363.png"
-    },
-    {
       "id": "4234366",
       "title": "Dooplaya District Situation Update: Challenges related to militarisation, displacement, air strikes, shelling, education, travel restrictions, drug issues, and livelihoods in Kaw T’Ree and Ra M’Tee Townships (January to May 2026)",
       "dateOriginal": "2026-10-16T00:00:00+00:00",
@@ -28852,26 +28749,32 @@
       "localThumbnail": "./assets/report-thumbs/rw-4234366.png"
     },
     {
-      "id": "4234374",
-      "title": "The Coca-Cola Foundation, World Vision, and VisionFund announce launch of Shock-Responsive Inclusive Market Systems (SIMS) initiative in Malawi and Zambia",
+      "id": "4234407",
+      "title": "Hunger and Poverty in the Gaza Strip Amid the Ongoing Genocide (October 2026)",
       "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "Malawi",
-      "primaryCountryIso3": "mwi",
+      "primaryCountry": "occupied Palestinian territory",
+      "primaryCountryIso3": "pse",
       "primaryCountryLocation": {
-        "lat": -13.22,
-        "lon": 33.74
+        "lat": 31.9522,
+        "lon": 35.2332
       },
-      "source": "World Vision",
-      "format": "News and Press Release",
+      "source": "Al Mezan",
+      "format": "Analysis",
       "themes": [
-        "Contributions",
-        "Disaster Management"
+        "Food and Nutrition",
+        "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
+        "https://reliefweb.int/sites/default/files/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png"
+      ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/malawi/coca-cola-foundation-world-vision-and-visionfund-announce-launch-shock-responsive-inclusive-market-systems-sims-initiative-malawi-and-zambia"
+      "url": "https://reliefweb.int/report/occupied-palestinian-territory/hunger-and-poverty-gaza-strip-amid-ongoing-genocide-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234407.png"
     },
     {
       "id": "4234379",
@@ -28971,6 +28874,105 @@
       "localThumbnail": "./assets/report-thumbs/rw-4234377.png"
     },
     {
+      "id": "4234374",
+      "title": "The Coca-Cola Foundation, World Vision, and VisionFund announce launch of Shock-Responsive Inclusive Market Systems (SIMS) initiative in Malawi and Zambia",
+      "dateOriginal": "2026-10-16T00:00:00+00:00",
+      "primaryCountry": "Malawi",
+      "primaryCountryIso3": "mwi",
+      "primaryCountryLocation": {
+        "lat": -13.22,
+        "lon": 33.74
+      },
+      "source": "World Vision",
+      "format": "News and Press Release",
+      "themes": [
+        "Contributions",
+        "Disaster Management"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/malawi/coca-cola-foundation-world-vision-and-visionfund-announce-launch-shock-responsive-inclusive-market-systems-sims-initiative-malawi-and-zambia"
+    },
+    {
+      "id": "4234362",
+      "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
+      "dateOriginal": "2026-10-16T00:00:00+00:00",
+      "primaryCountry": "Ukraine",
+      "primaryCountryIso3": "ukr",
+      "primaryCountryLocation": {
+        "lat": 49.32,
+        "lon": 31.32
+      },
+      "source": "IAEA",
+      "format": "News and Press Release",
+      "themes": [
+        "Disaster Management"
+      ],
+      "disasterTypes": [
+        "Technological Disaster"
+      ],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/ukraine/update-371-iaea-director-general-statement-situation-ukraine"
+    },
+    {
+      "id": "4234365",
+      "title": "Kenya: Registered refugees and asylum-seekers (as of 30 September 2026)",
+      "dateOriginal": "2026-10-16T00:00:00+00:00",
+      "primaryCountry": "Kenya",
+      "primaryCountryIso3": "ken",
+      "primaryCountryLocation": {
+        "lat": 0.53,
+        "lon": 37.86
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/61/6c/616c013a-3e2f-5ac7-9f14-4cae4f184ba7.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/61/6c/616c013a-3e2f-5ac7-9f14-4cae4f184ba7.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/61/6c/616c013a-3e2f-5ac7-9f14-4cae4f184ba7.png",
+        "https://reliefweb.int/sites/default/files/previews/61/6c/616c013a-3e2f-5ac7-9f14-4cae4f184ba7.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/61/6c/616c013a-3e2f-5ac7-9f14-4cae4f184ba7.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/kenya/kenya-registered-refugees-and-asylum-seekers-30-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234365.png"
+    },
+    {
+      "id": "4234363",
+      "title": "UNHCR - Pakistan Voluntary Repatriation of Afghan Refugees (1 January to 30 September 2026)",
+      "dateOriginal": "2026-10-16T00:00:00+00:00",
+      "primaryCountry": "Pakistan",
+      "primaryCountryIso3": "pak",
+      "primaryCountryLocation": {
+        "lat": 29.97,
+        "lon": 69.39
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4d/83/4d83dd71-37fc-583b-aeab-6d4499f79307.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4d/83/4d83dd71-37fc-583b-aeab-6d4499f79307.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/4d/83/4d83dd71-37fc-583b-aeab-6d4499f79307.png",
+        "https://reliefweb.int/sites/default/files/previews/4d/83/4d83dd71-37fc-583b-aeab-6d4499f79307.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/4d/83/4d83dd71-37fc-583b-aeab-6d4499f79307.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/pakistan/unhcr-pakistan-voluntary-repatriation-afghan-refugees-1-january-30-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234363.png"
+    },
+    {
       "id": "4234422",
       "title": "Radio Ergo Weekly Feedback Report, Issued: 16 Oct 2026",
       "dateOriginal": "2026-10-16T00:00:00+00:00",
@@ -29001,68 +29003,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-16-oct-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4234422.png"
-    },
-    {
-      "id": "4234407",
-      "title": "Hunger and Poverty in the Gaza Strip Amid the Ongoing Genocide (October 2026)",
-      "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "occupied Palestinian territory",
-      "primaryCountryIso3": "pse",
-      "primaryCountryLocation": {
-        "lat": 31.9522,
-        "lon": 35.2332
-      },
-      "source": "Al Mezan",
-      "format": "Analysis",
-      "themes": [
-        "Food and Nutrition",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
-        "https://reliefweb.int/sites/default/files/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/22/df/22df6e75-fa9b-450e-a82d-111b743e3423.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/occupied-palestinian-territory/hunger-and-poverty-gaza-strip-amid-ongoing-genocide-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234407.png"
-    },
-    {
-      "id": "4234400",
-      "title": "Humanitarian Response Forum (HRF) - Situation Report No. 2 – Floods in Cambodia (2026)",
-      "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "Cambodia",
-      "primaryCountryIso3": "khm",
-      "primaryCountryLocation": {
-        "lat": 12.46,
-        "lon": 104.92
-      },
-      "source": "DCA, WFP",
-      "format": "Situation Report",
-      "themes": [
-        "Agriculture",
-        "Education",
-        "Food and Nutrition",
-        "Health",
-        "Shelter and Non-Food Items",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [
-        "Flood"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f6/6b/f66b41f0-e203-4af7-a1e6-03fa13a8c169.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f6/6b/f66b41f0-e203-4af7-a1e6-03fa13a8c169.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f6/6b/f66b41f0-e203-4af7-a1e6-03fa13a8c169.png",
-        "https://reliefweb.int/sites/default/files/previews/f6/6b/f66b41f0-e203-4af7-a1e6-03fa13a8c169.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f6/6b/f66b41f0-e203-4af7-a1e6-03fa13a8c169.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/cambodia/humanitarian-response-forum-hrf-situation-report-no-2-floods-cambodia-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234400.png"
     },
     {
       "id": "4234425",
@@ -29129,59 +29069,65 @@
       "localThumbnail": "./assets/report-thumbs/rw-4234441.png"
     },
     {
-      "id": "4234445",
-      "title": "UNICEF Panama Situation Report No. 3 (Earthquake), 12 -13 October 2026",
+      "id": "4234400",
+      "title": "Humanitarian Response Forum (HRF) - Situation Report No. 2 – Floods in Cambodia (2026)",
       "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "Panama",
-      "primaryCountryIso3": "pan",
+      "primaryCountry": "Cambodia",
+      "primaryCountryIso3": "khm",
       "primaryCountryLocation": {
-        "lat": 8.7,
-        "lon": -80.27
+        "lat": 12.46,
+        "lon": 104.92
       },
-      "source": "UNICEF",
+      "source": "DCA, WFP",
       "format": "Situation Report",
       "themes": [
+        "Agriculture",
         "Education",
+        "Food and Nutrition",
         "Health",
-        "Protection and Human Rights",
+        "Shelter and Non-Food Items",
         "Water Sanitation Hygiene"
       ],
       "disasterTypes": [
-        "Earthquake"
+        "Flood"
       ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f6/68/f6687169-9d6e-4b69-99d2-857b54c607e6.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f6/6b/f66b41f0-e203-4af7-a1e6-03fa13a8c169.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f6/68/f6687169-9d6e-4b69-99d2-857b54c607e6.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f6/68/f6687169-9d6e-4b69-99d2-857b54c607e6.png",
-        "https://reliefweb.int/sites/default/files/previews/f6/68/f6687169-9d6e-4b69-99d2-857b54c607e6.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f6/68/f6687169-9d6e-4b69-99d2-857b54c607e6.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f6/6b/f66b41f0-e203-4af7-a1e6-03fa13a8c169.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f6/6b/f66b41f0-e203-4af7-a1e6-03fa13a8c169.png",
+        "https://reliefweb.int/sites/default/files/previews/f6/6b/f66b41f0-e203-4af7-a1e6-03fa13a8c169.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f6/6b/f66b41f0-e203-4af7-a1e6-03fa13a8c169.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/panama/unicef-panama-situation-report-no-3-earthquake-12-13-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234445.png"
+      "url": "https://reliefweb.int/report/cambodia/humanitarian-response-forum-hrf-situation-report-no-2-floods-cambodia-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234400.png"
     },
     {
-      "id": "4234413",
-      "title": "Stories from Sagaing: Rebuilding livelihoods after the Myanmar earthquake",
+      "id": "4234340",
+      "title": "Afghanistan: Emergency Border Response report (27 September - 10 October 2026)",
       "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "Myanmar",
-      "primaryCountryIso3": "mmr",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
       "primaryCountryLocation": {
-        "lat": 21.15,
-        "lon": 96.51
+        "lat": 33.84,
+        "lon": 66.03
       },
-      "source": "IFRC",
-      "format": "News and Press Release",
+      "source": "IOM",
+      "format": "Infographic",
       "themes": [
-        "Recovery and Reconstruction"
+        "Protection and Human Rights"
       ],
-      "disasterTypes": [
-        "Earthquake"
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cf/17/cf1726b1-6434-455f-aa25-7fc59cc9beeb.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cf/17/cf1726b1-6434-455f-aa25-7fc59cc9beeb.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/cf/17/cf1726b1-6434-455f-aa25-7fc59cc9beeb.png",
+        "https://reliefweb.int/sites/default/files/previews/cf/17/cf1726b1-6434-455f-aa25-7fc59cc9beeb.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/cf/17/cf1726b1-6434-455f-aa25-7fc59cc9beeb.png"
       ],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/myanmar/stories-sagaing-rebuilding-livelihoods-after-myanmar-earthquake"
+      "url": "https://reliefweb.int/report/afghanistan/afghanistan-emergency-border-response-report-27-september-10-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234340.png"
     },
     {
       "id": "4234375",
@@ -29264,31 +29210,59 @@
       "url": "https://reliefweb.int/report/guatemala/programa-alimentos-para-la-paz-del-departamento-de-agricultura-de-los-estados-unidos-apoya-con-el-programa-mundial-de-alimentos-la-asistencia-alimentaria-de-emergencia-en-guatemala"
     },
     {
-      "id": "4234409",
-      "title": "South Sudan - Coordination Meeting Minutes, Juba, 08 October 2026",
+      "id": "4234445",
+      "title": "UNICEF Panama Situation Report No. 3 (Earthquake), 12 -13 October 2026",
       "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "South Sudan",
-      "primaryCountryIso3": "ssd",
+      "primaryCountry": "Panama",
+      "primaryCountryIso3": "pan",
       "primaryCountryLocation": {
-        "lat": 6.9,
-        "lon": 30.5
+        "lat": 8.7,
+        "lon": -80.27
       },
-      "source": "Logistics Cluster, WFP",
-      "format": "Other",
+      "source": "UNICEF",
+      "format": "Situation Report",
       "themes": [
-        "Logistics and Telecommunications"
+        "Education",
+        "Health",
+        "Protection and Human Rights",
+        "Water Sanitation Hygiene"
       ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/99/9399bee5-9eeb-50bf-bbdf-6a28473f0071.png",
+      "disasterTypes": [
+        "Earthquake"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f6/68/f6687169-9d6e-4b69-99d2-857b54c607e6.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/99/9399bee5-9eeb-50bf-bbdf-6a28473f0071.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/93/99/9399bee5-9eeb-50bf-bbdf-6a28473f0071.png",
-        "https://reliefweb.int/sites/default/files/previews/93/99/9399bee5-9eeb-50bf-bbdf-6a28473f0071.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/93/99/9399bee5-9eeb-50bf-bbdf-6a28473f0071.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f6/68/f6687169-9d6e-4b69-99d2-857b54c607e6.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f6/68/f6687169-9d6e-4b69-99d2-857b54c607e6.png",
+        "https://reliefweb.int/sites/default/files/previews/f6/68/f6687169-9d6e-4b69-99d2-857b54c607e6.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f6/68/f6687169-9d6e-4b69-99d2-857b54c607e6.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/south-sudan/south-sudan-coordination-meeting-minutes-juba-08-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234409.png"
+      "url": "https://reliefweb.int/report/panama/unicef-panama-situation-report-no-3-earthquake-12-13-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234445.png"
+    },
+    {
+      "id": "4234413",
+      "title": "Stories from Sagaing: Rebuilding livelihoods after the Myanmar earthquake",
+      "dateOriginal": "2026-10-16T00:00:00+00:00",
+      "primaryCountry": "Myanmar",
+      "primaryCountryIso3": "mmr",
+      "primaryCountryLocation": {
+        "lat": 21.15,
+        "lon": 96.51
+      },
+      "source": "IFRC",
+      "format": "News and Press Release",
+      "themes": [
+        "Recovery and Reconstruction"
+      ],
+      "disasterTypes": [
+        "Earthquake"
+      ],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/myanmar/stories-sagaing-rebuilding-livelihoods-after-myanmar-earthquake"
     },
     {
       "id": "4234492",
@@ -29363,25 +29337,31 @@
       "localThumbnail": "./assets/report-thumbs/rw-4234493.png"
     },
     {
-      "id": "4234335",
-      "title": "ACNUR celebra nueva vía de residencia permanente para miles de personas en Uruguay",
+      "id": "4234409",
+      "title": "South Sudan - Coordination Meeting Minutes, Juba, 08 October 2026",
       "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "Uruguay",
-      "primaryCountryIso3": "ury",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
       "primaryCountryLocation": {
-        "lat": -32.8,
-        "lon": -56.01
+        "lat": 6.9,
+        "lon": 30.5
       },
-      "source": "UNHCR",
-      "format": "News and Press Release",
+      "source": "Logistics Cluster, WFP",
+      "format": "Other",
       "themes": [
-        "Protection and Human Rights"
+        "Logistics and Telecommunications"
       ],
       "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/99/9399bee5-9eeb-50bf-bbdf-6a28473f0071.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/93/99/9399bee5-9eeb-50bf-bbdf-6a28473f0071.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/93/99/9399bee5-9eeb-50bf-bbdf-6a28473f0071.png",
+        "https://reliefweb.int/sites/default/files/previews/93/99/9399bee5-9eeb-50bf-bbdf-6a28473f0071.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/93/99/9399bee5-9eeb-50bf-bbdf-6a28473f0071.png"
+      ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/uruguay/acnur-celebra-nueva-de-residencia-permanente-para-miles-de-personas-en-uruguay"
+      "url": "https://reliefweb.int/report/south-sudan/south-sudan-coordination-meeting-minutes-juba-08-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234409.png"
     },
     {
       "id": "4234332",
@@ -29418,6 +29398,144 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/sudan/who-sudan-sudan-health-spotlight-september-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4234332.png"
+    },
+    {
+      "id": "4234354",
+      "title": "JIC Release No. 1 - JIC Partially Activated; Guam in COR 2; Typhoon Watch in Effect for Tropical Storm Champi (10/16/2026)",
+      "dateOriginal": "2026-10-16T00:00:00+00:00",
+      "primaryCountry": "Guam",
+      "primaryCountryIso3": "gum",
+      "primaryCountryLocation": {
+        "lat": 13.44,
+        "lon": 144.78
+      },
+      "source": "Governor of Guam",
+      "format": "News and Press Release",
+      "themes": [],
+      "disasterTypes": [
+        "Tropical Cyclone"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/97/9c973971-7d62-47b0-a1a0-835e3c07a266.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/97/9c973971-7d62-47b0-a1a0-835e3c07a266.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9c/97/9c973971-7d62-47b0-a1a0-835e3c07a266.png",
+        "https://reliefweb.int/sites/default/files/previews/9c/97/9c973971-7d62-47b0-a1a0-835e3c07a266.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9c/97/9c973971-7d62-47b0-a1a0-835e3c07a266.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/guam/jic-release-no-1-jic-partially-activated-guam-cor-2-typhoon-watch-effect-tropical-storm-champi-10162026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234354.png"
+    },
+    {
+      "id": "4234335",
+      "title": "ACNUR celebra nueva vía de residencia permanente para miles de personas en Uruguay",
+      "dateOriginal": "2026-10-16T00:00:00+00:00",
+      "primaryCountry": "Uruguay",
+      "primaryCountryIso3": "ury",
+      "primaryCountryLocation": {
+        "lat": -32.8,
+        "lon": -56.01
+      },
+      "source": "UNHCR",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/uruguay/acnur-celebra-nueva-de-residencia-permanente-para-miles-de-personas-en-uruguay"
+    },
+    {
+      "id": "4234372",
+      "title": "Attacks on health care in the Gaza Strip (Since 1 January 2026 - 30 September 2026)",
+      "dateOriginal": "2026-10-16T00:00:00+00:00",
+      "primaryCountry": "occupied Palestinian territory",
+      "primaryCountryIso3": "pse",
+      "primaryCountryLocation": {
+        "lat": 31.9522,
+        "lon": 35.2332
+      },
+      "source": "WHO",
+      "format": "Infographic",
+      "themes": [
+        "Health",
+        "Safety and Security"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
+        "https://reliefweb.int/sites/default/files/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/occupied-palestinian-territory/attacks-health-care-gaza-strip-1-january-2026-30-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4234372.png"
+    },
+    {
+      "id": "4234390",
+      "title": "On World Food Day, WFP promotes innovation and early action as shocks to the global food system mount",
+      "dateOriginal": "2026-10-16T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "WFP",
+      "format": "News and Press Release",
+      "themes": [
+        "Food and Nutrition",
+        "Logistics and Telecommunications"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/world-food-day-wfp-promotes-innovation-and-early-action-shocks-global-food-system-mount"
+    },
+    {
+      "id": "4234408",
+      "title": "Nigeria: ICRC-supported health facilities see 18 per cent rise in malnutrition cases",
+      "dateOriginal": "2026-10-16T00:00:00+00:00",
+      "primaryCountry": "Nigeria",
+      "primaryCountryIso3": "nga",
+      "primaryCountryLocation": {
+        "lat": 9.59,
+        "lon": 8.11
+      },
+      "source": "ICRC",
+      "format": "News and Press Release",
+      "themes": [
+        "Food and Nutrition",
+        "Health"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/nigeria/nigeria-icrc-supported-health-facilities-see-18-cent-rise-malnutrition-cases"
+    },
+    {
+      "id": "4234420",
+      "title": "Middle East respiratory syndrome coronavirus - Kingdom of Saudi Arabia",
+      "dateOriginal": "2026-10-16T00:00:00+00:00",
+      "primaryCountry": "Saudi Arabia",
+      "primaryCountryIso3": "sau",
+      "primaryCountryLocation": {
+        "lat": 24.13,
+        "lon": 44.55
+      },
+      "source": "WHO",
+      "format": "News and Press Release",
+      "themes": [
+        "Health"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/saudi-arabia/middle-east-respiratory-syndrome-coronavirus-kingdom-saudi-arabia-0"
     },
     {
       "id": "4234405",
@@ -29584,123 +29702,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/occupied-palestinian-territory/education-hold-gaza-september-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4234421.png"
-    },
-    {
-      "id": "4234354",
-      "title": "JIC Release No. 1 - JIC Partially Activated; Guam in COR 2; Typhoon Watch in Effect for Tropical Storm Champi (10/16/2026)",
-      "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "Guam",
-      "primaryCountryIso3": "gum",
-      "primaryCountryLocation": {
-        "lat": 13.44,
-        "lon": 144.78
-      },
-      "source": "Governor of Guam",
-      "format": "News and Press Release",
-      "themes": [],
-      "disasterTypes": [
-        "Tropical Cyclone"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/97/9c973971-7d62-47b0-a1a0-835e3c07a266.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/97/9c973971-7d62-47b0-a1a0-835e3c07a266.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9c/97/9c973971-7d62-47b0-a1a0-835e3c07a266.png",
-        "https://reliefweb.int/sites/default/files/previews/9c/97/9c973971-7d62-47b0-a1a0-835e3c07a266.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9c/97/9c973971-7d62-47b0-a1a0-835e3c07a266.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/guam/jic-release-no-1-jic-partially-activated-guam-cor-2-typhoon-watch-effect-tropical-storm-champi-10162026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234354.png"
-    },
-    {
-      "id": "4234390",
-      "title": "On World Food Day, WFP promotes innovation and early action as shocks to the global food system mount",
-      "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "WFP",
-      "format": "News and Press Release",
-      "themes": [
-        "Food and Nutrition",
-        "Logistics and Telecommunications"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/world-food-day-wfp-promotes-innovation-and-early-action-shocks-global-food-system-mount"
-    },
-    {
-      "id": "4234408",
-      "title": "Nigeria: ICRC-supported health facilities see 18 per cent rise in malnutrition cases",
-      "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "Nigeria",
-      "primaryCountryIso3": "nga",
-      "primaryCountryLocation": {
-        "lat": 9.59,
-        "lon": 8.11
-      },
-      "source": "ICRC",
-      "format": "News and Press Release",
-      "themes": [
-        "Food and Nutrition",
-        "Health"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/nigeria/nigeria-icrc-supported-health-facilities-see-18-cent-rise-malnutrition-cases"
-    },
-    {
-      "id": "4234372",
-      "title": "Attacks on health care in the Gaza Strip (Since 1 January 2026 - 30 September 2026)",
-      "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "occupied Palestinian territory",
-      "primaryCountryIso3": "pse",
-      "primaryCountryLocation": {
-        "lat": 31.9522,
-        "lon": 35.2332
-      },
-      "source": "WHO",
-      "format": "Infographic",
-      "themes": [
-        "Health",
-        "Safety and Security"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
-        "https://reliefweb.int/sites/default/files/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/53/db/53db47e6-989c-58a7-9b26-dea4aaafb13f.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/occupied-palestinian-territory/attacks-health-care-gaza-strip-1-january-2026-30-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4234372.png"
-    },
-    {
-      "id": "4234420",
-      "title": "Middle East respiratory syndrome coronavirus - Kingdom of Saudi Arabia",
-      "dateOriginal": "2026-10-16T00:00:00+00:00",
-      "primaryCountry": "Saudi Arabia",
-      "primaryCountryIso3": "sau",
-      "primaryCountryLocation": {
-        "lat": 24.13,
-        "lon": 44.55
-      },
-      "source": "WHO",
-      "format": "News and Press Release",
-      "themes": [
-        "Health"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/saudi-arabia/middle-east-respiratory-syndrome-coronavirus-kingdom-saudi-arabia-0"
     },
     {
       "id": "4234333",
@@ -29938,6 +29939,28 @@
       "localThumbnail": "./assets/report-thumbs/rw-4234402.png"
     },
     {
+      "id": "4234156",
+      "title": "Nigeria: Kwashiorkor - an enduring malnutrition enigma",
+      "dateOriginal": "2026-10-15T00:00:00+00:00",
+      "primaryCountry": "Nigeria",
+      "primaryCountryIso3": "nga",
+      "primaryCountryLocation": {
+        "lat": 9.59,
+        "lon": 8.11
+      },
+      "source": "MSF",
+      "format": "News and Press Release",
+      "themes": [
+        "Food and Nutrition",
+        "Health"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/nigeria/nigeria-kwashiorkor-enduring-malnutrition-enigma"
+    },
+    {
       "id": "4234136",
       "title": "Refugee presence and movement on Bhasan Char | 4th Presence Confirmation Exercise | September 2026",
       "dateOriginal": "2026-10-15T00:00:00+00:00",
@@ -29964,64 +29987,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/bangladesh/refugee-presence-and-movement-bhasan-char-4th-presence-confirmation-exercise-september-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4234136.png"
-    },
-    {
-      "id": "4234121",
-      "title": "Panamá: Terremoto en Azuero y Veraguas - Informe de Situación No. 04 (al 14 de octubre 2026, 14:30)",
-      "dateOriginal": "2026-10-15T00:00:00+00:00",
-      "primaryCountry": "Panama",
-      "primaryCountryIso3": "pan",
-      "primaryCountryLocation": {
-        "lat": 8.7,
-        "lon": -80.27
-      },
-      "source": "OCHA",
-      "format": "Situation Report",
-      "themes": [
-        "Camp Coordination and Camp Management",
-        "Coordination",
-        "Education",
-        "Food and Nutrition",
-        "Health",
-        "Logistics and Telecommunications",
-        "Shelter and Non-Food Items",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [
-        "Earthquake"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png",
-        "https://reliefweb.int/sites/default/files/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/77/59/77598c93-7130-4d46-afba-ca01602c32bd.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/panama/panama-terremoto-en-azuero-y-veraguas-informe-de-situacion-no-04-al-14-de-octubre-2026-1430",
-      "localThumbnail": "./assets/report-thumbs/rw-4234121.png"
-    },
-    {
-      "id": "4234156",
-      "title": "Nigeria: Kwashiorkor - an enduring malnutrition enigma",
-      "dateOriginal": "2026-10-15T00:00:00+00:00",
-      "primaryCountry": "Nigeria",
-      "primaryCountryIso3": "nga",
-      "primaryCountryLocation": {
-        "lat": 9.59,
-        "lon": 8.11
-      },
-      "source": "MSF",
-      "format": "News and Press Release",
-      "themes": [
-        "Food and Nutrition",
-        "Health"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/nigeria/nigeria-kwashiorkor-enduring-malnutrition-enigma"
     },
     {
       "id": "4234203",
@@ -30078,6 +30043,29 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/spain/spain-arrivals-snapshot-september-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4234195.png"
+    },
+    {
+      "id": "4234212",
+      "title": "Two Months After Colombia Earthquake, Funding Gap Puts 57,000 at Risk as El Niño Intensifies",
+      "dateOriginal": "2026-10-15T00:00:00+00:00",
+      "primaryCountry": "Colombia",
+      "primaryCountryIso3": "col",
+      "primaryCountryLocation": {
+        "lat": 3.9,
+        "lon": -73.07
+      },
+      "source": "IOM",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [
+        "Earthquake"
+      ],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/colombia/two-months-after-colombia-earthquake-funding-gap-puts-57000-risk-el-nino-intensifies"
     }
   ],
   "disasters": [
@@ -31564,35 +31552,17 @@
       ]
     },
     {
-      "id": "51911",
-      "name": "Zambia: Drought - 2024-2026",
+      "id": "51453",
+      "name": "Mozambique: Cholera Outbreak - 2022-2026",
       "status": "ongoing",
-      "glide": "DR-2024-000018-ZMB",
-      "dateEvent": "2024-01-15T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51911",
-      "primaryCountry": "Zambia",
-      "primaryCountryIso3": "zmb",
+      "glide": "EP-2023-000006-MOZ",
+      "dateEvent": "2022-12-21T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51453",
+      "primaryCountry": "Mozambique",
+      "primaryCountryIso3": "moz",
       "location": {
-        "lat": -14,
-        "lon": 27.43
-      },
-      "primaryType": "Drought",
-      "types": [
-        "Drought"
-      ]
-    },
-    {
-      "id": "52700",
-      "name": "Bangladesh: Dengue Outbreak - Sep 2026",
-      "status": "ongoing",
-      "glide": "EP-2026-000174-BGD",
-      "dateEvent": "2026-09-01T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52700",
-      "primaryCountry": "Bangladesh",
-      "primaryCountryIso3": "bgd",
-      "location": {
-        "lat": 23.84,
-        "lon": 90.27
+        "lat": -18.09,
+        "lon": 34.75
       },
       "primaryType": "Epidemic",
       "types": [
@@ -31600,112 +31570,21 @@
       ]
     },
     {
-      "id": "52699",
-      "name": "Liberia: Floods - Aug 2026",
+      "id": "51442",
+      "name": "Burundi: Cholera Outbreak - Jan 2023",
       "status": "ongoing",
-      "glide": "FL-2026-000175-LBR",
-      "dateEvent": "2026-08-24T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52699",
-      "primaryCountry": "Liberia",
-      "primaryCountryIso3": "lbr",
+      "glide": "EP-2023-000075-BDI",
+      "dateEvent": "2023-01-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51442",
+      "primaryCountry": "Burundi",
+      "primaryCountryIso3": "bdi",
       "location": {
-        "lat": 6.45,
-        "lon": -9.31
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52676",
-      "name": "Indonesia: Earthquake - Aug 2026",
-      "status": "ongoing",
-      "glide": "EQ-2026-000150-IDN",
-      "dateEvent": "2026-08-15T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52676",
-      "primaryCountry": "Indonesia",
-      "primaryCountryIso3": "idn",
-      "location": {
-        "lat": -2.28,
-        "lon": 117.37
-      },
-      "primaryType": "Earthquake",
-      "types": [
-        "Earthquake"
-      ]
-    },
-    {
-      "id": "52675",
-      "name": "Pakistan: Flash Floods - Jul 2026",
-      "status": "alert",
-      "glide": "FL-2026-000182-PAK",
-      "dateEvent": "2026-07-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52675",
-      "primaryCountry": "Pakistan",
-      "primaryCountryIso3": "pak",
-      "location": {
-        "lat": 29.97,
-        "lon": 69.39
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood"
-      ]
-    },
-    {
-      "id": "52669",
-      "name": "India: Flash Floods - Jul 2026",
-      "status": "ongoing",
-      "glide": "FF-2026-000139-IND",
-      "dateEvent": "2026-07-19T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52669",
-      "primaryCountry": "India",
-      "primaryCountryIso3": "ind",
-      "location": {
-        "lat": 22.76,
-        "lon": 79.28
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood",
-        "Flood"
-      ]
-    },
-    {
-      "id": "52657",
-      "name": "Chad: Cholera Outbreak - Jun 2026",
-      "status": "ongoing",
-      "glide": "EP-2026-000134-TCD",
-      "dateEvent": "2026-06-16T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52657",
-      "primaryCountry": "Chad",
-      "primaryCountryIso3": "tcd",
-      "location": {
-        "lat": 15.36,
-        "lon": 18.66
+        "lat": -3.53,
+        "lon": 29.89
       },
       "primaryType": "Epidemic",
       "types": [
         "Epidemic"
-      ]
-    },
-    {
-      "id": "52608",
-      "name": "Venezuela: Earthquakes - Jun 2026",
-      "status": "ongoing",
-      "glide": "EQ-2026-000093-VEN",
-      "dateEvent": "2026-06-24T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52608",
-      "primaryCountry": "Venezuela (Bolivarian Republic of)",
-      "primaryCountryIso3": "ven",
-      "location": {
-        "lat": 7.62,
-        "lon": -65.8
-      },
-      "primaryType": "Earthquake",
-      "types": [
-        "Earthquake"
       ]
     },
     {
@@ -31892,17 +31771,17 @@
       ]
     },
     {
-      "id": "51453",
-      "name": "Mozambique: Cholera Outbreak - 2022-2026",
+      "id": "52700",
+      "name": "Bangladesh: Dengue Outbreak - Sep 2026",
       "status": "ongoing",
-      "glide": "EP-2023-000006-MOZ",
-      "dateEvent": "2022-12-21T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51453",
-      "primaryCountry": "Mozambique",
-      "primaryCountryIso3": "moz",
+      "glide": "EP-2026-000174-BGD",
+      "dateEvent": "2026-09-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52700",
+      "primaryCountry": "Bangladesh",
+      "primaryCountryIso3": "bgd",
       "location": {
-        "lat": -18.09,
-        "lon": 34.75
+        "lat": 23.84,
+        "lon": 90.27
       },
       "primaryType": "Epidemic",
       "types": [
@@ -31910,21 +31789,112 @@
       ]
     },
     {
-      "id": "51442",
-      "name": "Burundi: Cholera Outbreak - Jan 2023",
+      "id": "52699",
+      "name": "Liberia: Floods - Aug 2026",
       "status": "ongoing",
-      "glide": "EP-2023-000075-BDI",
-      "dateEvent": "2023-01-01T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51442",
-      "primaryCountry": "Burundi",
-      "primaryCountryIso3": "bdi",
+      "glide": "FL-2026-000175-LBR",
+      "dateEvent": "2026-08-24T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52699",
+      "primaryCountry": "Liberia",
+      "primaryCountryIso3": "lbr",
       "location": {
-        "lat": -3.53,
-        "lon": 29.89
+        "lat": 6.45,
+        "lon": -9.31
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52676",
+      "name": "Indonesia: Earthquake - Aug 2026",
+      "status": "ongoing",
+      "glide": "EQ-2026-000150-IDN",
+      "dateEvent": "2026-08-15T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52676",
+      "primaryCountry": "Indonesia",
+      "primaryCountryIso3": "idn",
+      "location": {
+        "lat": -2.28,
+        "lon": 117.37
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake"
+      ]
+    },
+    {
+      "id": "52675",
+      "name": "Pakistan: Flash Floods - Jul 2026",
+      "status": "alert",
+      "glide": "FL-2026-000182-PAK",
+      "dateEvent": "2026-07-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52675",
+      "primaryCountry": "Pakistan",
+      "primaryCountryIso3": "pak",
+      "location": {
+        "lat": 29.97,
+        "lon": 69.39
+      },
+      "primaryType": "Flash Flood",
+      "types": [
+        "Flash Flood"
+      ]
+    },
+    {
+      "id": "52669",
+      "name": "India: Flash Floods - Jul 2026",
+      "status": "ongoing",
+      "glide": "FF-2026-000139-IND",
+      "dateEvent": "2026-07-19T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52669",
+      "primaryCountry": "India",
+      "primaryCountryIso3": "ind",
+      "location": {
+        "lat": 22.76,
+        "lon": 79.28
+      },
+      "primaryType": "Flash Flood",
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ]
+    },
+    {
+      "id": "52657",
+      "name": "Chad: Cholera Outbreak - Jun 2026",
+      "status": "ongoing",
+      "glide": "EP-2026-000134-TCD",
+      "dateEvent": "2026-06-16T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52657",
+      "primaryCountry": "Chad",
+      "primaryCountryIso3": "tcd",
+      "location": {
+        "lat": 15.36,
+        "lon": 18.66
       },
       "primaryType": "Epidemic",
       "types": [
         "Epidemic"
+      ]
+    },
+    {
+      "id": "52608",
+      "name": "Venezuela: Earthquakes - Jun 2026",
+      "status": "ongoing",
+      "glide": "EQ-2026-000093-VEN",
+      "dateEvent": "2026-06-24T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52608",
+      "primaryCountry": "Venezuela (Bolivarian Republic of)",
+      "primaryCountryIso3": "ven",
+      "location": {
+        "lat": 7.62,
+        "lon": -65.8
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake"
       ]
     },
     {
@@ -31945,6 +31915,24 @@
         "Flash Flood",
         "Flood",
         "Land Slide"
+      ]
+    },
+    {
+      "id": "51911",
+      "name": "Zambia: Drought - 2024-2026",
+      "status": "ongoing",
+      "glide": "DR-2024-000018-ZMB",
+      "dateEvent": "2024-01-15T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51911",
+      "primaryCountry": "Zambia",
+      "primaryCountryIso3": "zmb",
+      "location": {
+        "lat": -14,
+        "lon": 27.43
+      },
+      "primaryType": "Drought",
+      "types": [
+        "Drought"
       ]
     },
     {
@@ -31986,7 +31974,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-10-17T13:44:07.964Z",
+    "queryGeneratedAt": "2026-10-17T17:11:35.637Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -31997,7 +31985,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-10-17T13:44:08.829Z",
+    "reportThumbnailCacheAt": "2026-10-17T17:11:37.481Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
