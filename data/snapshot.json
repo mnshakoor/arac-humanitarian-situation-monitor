@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-10-24T14:34:08.407Z",
-  "lastSyncAttemptAt": "2026-10-24T14:34:08.407Z",
+  "generatedAt": "2026-10-24T18:10:11.437Z",
+  "lastSyncAttemptAt": "2026-10-24T18:10:11.437Z",
   "enrichedAt": "2026-10-24T07:35:07.236Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -1544,7 +1544,8 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/69/a4/69a4d3d7-75d5-4139-910e-420d6a7055a3.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/redefining-security-development-circuit-breakers-more-secure-future"
+          "url": "https://reliefweb.int/report/world/redefining-security-development-circuit-breakers-more-secure-future",
+          "localThumbnail": "./assets/report-thumbs/rw-4235118.png"
         },
         {
           "id": "4235219",
@@ -5252,8 +5253,7 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/1e/60/1e607225-a42d-55da-a259-7df6e392492b.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/afghanistan/afghanistan-northern-region-coordination-meeting-presentation",
-          "localThumbnail": "./assets/report-thumbs/rw-4235207.png"
+          "url": "https://reliefweb.int/report/afghanistan/afghanistan-northern-region-coordination-meeting-presentation"
         },
         {
           "id": "4235153",
@@ -27650,34 +27650,7 @@
       "topFormats": [],
       "disasterTypes": [],
       "timeline": [],
-      "recentReports": [
-        {
-          "id": "4235125",
-          "title": "ARG: Inundación - 10-2026 - Inundaciones Cuenca del Plata (NEA y Litoral) (2026-10-22)",
-          "dateOriginal": "2026-10-22T00:00:00+00:00",
-          "primaryCountry": "Argentina",
-          "primaryCountryIso3": "arg",
-          "primaryCountryLocation": {
-            "lat": -35.38,
-            "lon": -64
-          },
-          "source": "Cruz Roja Argentina, IFRC",
-          "format": "Situation Report",
-          "themes": [],
-          "disasterTypes": [
-            "Flood"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
-            "https://reliefweb.int/sites/default/files/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/argentina/arg-inundacion-10-2026-inundaciones-cuenca-del-plata-nea-y-litoral-2026-10-22"
-        }
-      ],
+      "recentReports": [],
       "enrichmentStatus": "pending-daily"
     },
     {
@@ -28947,27 +28920,6 @@
   ],
   "reports": [
     {
-      "id": "4235292",
-      "title": "Sudan: El Fasher civilians suffer unlawful killings, detention and torture one year after city’s capture by the RSF – new testimony",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "primaryCountryIso3": "sdn",
-      "primaryCountryLocation": {
-        "lat": 15,
-        "lon": 30
-      },
-      "source": "Amnesty",
-      "format": "News and Press Release",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/sudan-el-fasher-civilians-suffer-unlawful-killings-detention-and-torture-one-year-after-citys-capture-rsf-new-testimony"
-    },
-    {
       "id": "4235279",
       "title": "DOM: Inundación pluvial / riada - 10-2026 - Vaguada sobre el territorio nacional (2026-10-23)",
       "dateOriginal": "2026-10-23T00:00:00+00:00",
@@ -28995,6 +28947,27 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/dominican-republic/dom-inundacion-pluvial-riada-10-2026-vaguada-sobre-el-territorio-nacional-2026-10-23",
       "localThumbnail": "./assets/report-thumbs/rw-4235279.png"
+    },
+    {
+      "id": "4235292",
+      "title": "Sudan: El Fasher civilians suffer unlawful killings, detention and torture one year after city’s capture by the RSF – new testimony",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "Sudan",
+      "primaryCountryIso3": "sdn",
+      "primaryCountryLocation": {
+        "lat": 15,
+        "lon": 30
+      },
+      "source": "Amnesty",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/sudan/sudan-el-fasher-civilians-suffer-unlawful-killings-detention-and-torture-one-year-after-citys-capture-rsf-new-testimony"
     },
     {
       "id": "4235278",
@@ -29316,31 +29289,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235373.png"
     },
     {
-      "id": "4235293",
-      "title": "UNICEF Djibouti Humanitarian Flash Update No. 4 (Refugee influx from Yemen), 19 October 2026",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "Djibouti",
-      "primaryCountryIso3": "dji",
-      "primaryCountryLocation": {
-        "lat": 11.75,
-        "lon": 42.58
-      },
-      "source": "UNICEF",
-      "format": "Situation Report",
-      "themes": [
-        "Education",
-        "Food and Nutrition",
-        "Health",
-        "Protection and Human Rights",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/djibouti/unicef-djibouti-humanitarian-flash-update-no-4-refugee-influx-yemen-19-october-2026"
-    },
-    {
       "id": "4235281",
       "title": "Activités d’éradication de la poliomyélite en République démocratique du Congo (IEP)– S41 - 2026, Mise à jour au 15 octobre 2026",
       "dateOriginal": "2026-10-23T00:00:00+00:00",
@@ -29368,6 +29316,31 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/democratic-republic-congo/activites-deradication-de-la-poliomyelite-en-republique-democratique-du-congo-iep-s41-2026-mise-jour-au-15-octobre-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4235281.png"
+    },
+    {
+      "id": "4235293",
+      "title": "UNICEF Djibouti Humanitarian Flash Update No. 4 (Refugee influx from Yemen), 19 October 2026",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "Djibouti",
+      "primaryCountryIso3": "dji",
+      "primaryCountryLocation": {
+        "lat": 11.75,
+        "lon": 42.58
+      },
+      "source": "UNICEF",
+      "format": "Situation Report",
+      "themes": [
+        "Education",
+        "Food and Nutrition",
+        "Health",
+        "Protection and Human Rights",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/djibouti/unicef-djibouti-humanitarian-flash-update-no-4-refugee-influx-yemen-19-october-2026"
     },
     {
       "id": "4235313",
@@ -29584,31 +29557,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235360.png"
     },
     {
-      "id": "4235314",
-      "title": "Ebola spreads to eighth DRC province as WFP delivers food, builds treatment centres and keeps supplies moving",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "primaryCountryLocation": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "source": "WFP",
-      "format": "News and Press Release",
-      "themes": [
-        "Food and Nutrition",
-        "Health"
-      ],
-      "disasterTypes": [
-        "Epidemic"
-      ],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/democratic-republic-congo/ebola-spreads-eighth-drc-province-wfp-delivers-food-builds-treatment-centres-and-keeps-supplies-moving",
-      "localThumbnail": "./assets/report-thumbs/rw-4235314.jpg"
-    },
-    {
       "id": "4235358",
       "title": "WFP Colombia Country Brief, September 2026",
       "dateOriginal": "2026-10-23T00:00:00+00:00",
@@ -29747,6 +29695,31 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235380.png"
     },
     {
+      "id": "4235314",
+      "title": "Ebola spreads to eighth DRC province as WFP delivers food, builds treatment centres and keeps supplies moving",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "source": "WFP",
+      "format": "News and Press Release",
+      "themes": [
+        "Food and Nutrition",
+        "Health"
+      ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/democratic-republic-congo/ebola-spreads-eighth-drc-province-wfp-delivers-food-builds-treatment-centres-and-keeps-supplies-moving",
+      "localThumbnail": "./assets/report-thumbs/rw-4235314.jpg"
+    },
+    {
       "id": "4235309",
       "title": "WFP Malawi Country Brief, October 2026",
       "dateOriginal": "2026-10-23T00:00:00+00:00",
@@ -29856,33 +29829,6 @@
       "url": "https://reliefweb.int/report/sudan/i-feel-i-am-warrior-sudanese-women-fight-peace-front-lines-war"
     },
     {
-      "id": "4235365",
-      "title": "Haïti — Suivi des Urgences 112 — Déplacements suite aux violences armées dans la commune de Petite Rivière de l'Artibonite (19 - 22 octobre 2026)",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "Haiti",
-      "primaryCountryIso3": "hti",
-      "primaryCountryLocation": {
-        "lat": 19.18,
-        "lon": -72.43
-      },
-      "source": "IOM",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c1/77/c17725ae-ad00-5db9-9912-d6b03b71e0f6.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c1/77/c17725ae-ad00-5db9-9912-d6b03b71e0f6.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/c1/77/c17725ae-ad00-5db9-9912-d6b03b71e0f6.png",
-        "https://reliefweb.int/sites/default/files/previews/c1/77/c17725ae-ad00-5db9-9912-d6b03b71e0f6.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/c1/77/c17725ae-ad00-5db9-9912-d6b03b71e0f6.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/haiti/haiti-suivi-des-urgences-112-deplacements-suite-aux-violences-armees-dans-la-commune-de-petite-riviere-de-lartibonite-19-22-octobre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4235365.png"
-    },
-    {
       "id": "4235385",
       "title": "Multi-Country Ebola Bundibugyo Outbreak Update n°23",
       "dateOriginal": "2026-10-23T00:00:00+00:00",
@@ -29910,6 +29856,60 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/democratic-republic-congo/multi-country-ebola-bundibugyo-outbreak-update-ndeg23",
       "localThumbnail": "./assets/report-thumbs/rw-4235385.png"
+    },
+    {
+      "id": "4235365",
+      "title": "Haïti — Suivi des Urgences 112 — Déplacements suite aux violences armées dans la commune de Petite Rivière de l'Artibonite (19 - 22 octobre 2026)",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "Haiti",
+      "primaryCountryIso3": "hti",
+      "primaryCountryLocation": {
+        "lat": 19.18,
+        "lon": -72.43
+      },
+      "source": "IOM",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c1/77/c17725ae-ad00-5db9-9912-d6b03b71e0f6.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c1/77/c17725ae-ad00-5db9-9912-d6b03b71e0f6.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/c1/77/c17725ae-ad00-5db9-9912-d6b03b71e0f6.png",
+        "https://reliefweb.int/sites/default/files/previews/c1/77/c17725ae-ad00-5db9-9912-d6b03b71e0f6.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/c1/77/c17725ae-ad00-5db9-9912-d6b03b71e0f6.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/haiti/haiti-suivi-des-urgences-112-deplacements-suite-aux-violences-armees-dans-la-commune-de-petite-riviere-de-lartibonite-19-22-octobre-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4235365.png"
+    },
+    {
+      "id": "4235364",
+      "title": "Haïti — Suivi des Urgences 111 — Déplacements suite aux violences armées dans la commune d'Arcahaie - Département de l'Ouest (18 - 21 octobre 2026)",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "Haiti",
+      "primaryCountryIso3": "hti",
+      "primaryCountryLocation": {
+        "lat": 19.18,
+        "lon": -72.43
+      },
+      "source": "IOM",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9a/94/9a946958-a55c-5892-aa6b-3e025b480004.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9a/94/9a946958-a55c-5892-aa6b-3e025b480004.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9a/94/9a946958-a55c-5892-aa6b-3e025b480004.png",
+        "https://reliefweb.int/sites/default/files/previews/9a/94/9a946958-a55c-5892-aa6b-3e025b480004.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9a/94/9a946958-a55c-5892-aa6b-3e025b480004.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/haiti/haiti-suivi-des-urgences-111-deplacements-suite-aux-violences-armees-dans-la-commune-darcahaie-departement-de-louest-18-21-octobre-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4235364.png"
     },
     {
       "id": "4235388",
@@ -29967,86 +29967,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/colombia/colombia-sitrep-2-seguimiento-de-la-respuesta-sectorial-en-agua-saneamiento-e-higiene-al-sismo-del-10-de-agosto-de-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4235387.png"
-    },
-    {
-      "id": "4235364",
-      "title": "Haïti — Suivi des Urgences 111 — Déplacements suite aux violences armées dans la commune d'Arcahaie - Département de l'Ouest (18 - 21 octobre 2026)",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "Haiti",
-      "primaryCountryIso3": "hti",
-      "primaryCountryLocation": {
-        "lat": 19.18,
-        "lon": -72.43
-      },
-      "source": "IOM",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9a/94/9a946958-a55c-5892-aa6b-3e025b480004.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9a/94/9a946958-a55c-5892-aa6b-3e025b480004.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9a/94/9a946958-a55c-5892-aa6b-3e025b480004.png",
-        "https://reliefweb.int/sites/default/files/previews/9a/94/9a946958-a55c-5892-aa6b-3e025b480004.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9a/94/9a946958-a55c-5892-aa6b-3e025b480004.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/haiti/haiti-suivi-des-urgences-111-deplacements-suite-aux-violences-armees-dans-la-commune-darcahaie-departement-de-louest-18-21-octobre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4235364.png"
-    },
-    {
-      "id": "4235125",
-      "title": "ARG: Inundación - 10-2026 - Inundaciones Cuenca del Plata (NEA y Litoral) (2026-10-22)",
-      "dateOriginal": "2026-10-22T00:00:00+00:00",
-      "primaryCountry": "Argentina",
-      "primaryCountryIso3": "arg",
-      "primaryCountryLocation": {
-        "lat": -35.38,
-        "lon": -64
-      },
-      "source": "Cruz Roja Argentina, IFRC",
-      "format": "Situation Report",
-      "themes": [],
-      "disasterTypes": [
-        "Flood"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
-        "https://reliefweb.int/sites/default/files/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/argentina/arg-inundacion-10-2026-inundaciones-cuenca-del-plata-nea-y-litoral-2026-10-22",
-      "localThumbnail": "./assets/report-thumbs/rw-4235125.png"
-    },
-    {
-      "id": "4235118",
-      "title": "Redefining Security: Development Circuit Breakers for a More Secure Future",
-      "dateOriginal": "2026-10-22T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "UNDP",
-      "format": "Analysis",
-      "themes": [
-        "Climate Change and Environment",
-        "Health",
-        "Peacekeeping and Peacebuilding"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/69/a4/69a4d3d7-75d5-4139-910e-420d6a7055a3.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/69/a4/69a4d3d7-75d5-4139-910e-420d6a7055a3.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/69/a4/69a4d3d7-75d5-4139-910e-420d6a7055a3.png",
-        "https://reliefweb.int/sites/default/files/previews/69/a4/69a4d3d7-75d5-4139-910e-420d6a7055a3.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/69/a4/69a4d3d7-75d5-4139-910e-420d6a7055a3.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/redefining-security-development-circuit-breakers-more-secure-future",
-      "localThumbnail": "./assets/report-thumbs/rw-4235118.png"
     },
     {
       "id": "4235147",
@@ -30160,28 +30080,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235137.png"
     },
     {
-      "id": "4235159",
-      "title": "L’Alliance pour l’investissement dans les Sociétés nationales annonce l’octroi de subventions à 18 Sociétés nationales de la Croix-Rouge et du Croissant-Rouge pour 2026",
-      "dateOriginal": "2026-10-22T00:00:00+00:00",
-      "primaryCountry": "Iran (Islamic Republic of)",
-      "primaryCountryIso3": "irn",
-      "primaryCountryLocation": {
-        "lat": 32.57,
-        "lon": 54.3
-      },
-      "source": "IFRC",
-      "format": "News and Press Release",
-      "themes": [
-        "Contributions",
-        "Coordination"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/iran-islamic-republic/lalliance-pour-linvestissement-dans-les-societes-nationales-annonce-loctroi-de-subventions-18-societes-nationales-de-la-croix-rouge-et-du-croissant-rouge-pour-2026"
-    },
-    {
       "id": "4235192",
       "title": "Gaza: Israeli restrictions on engine oil are crippling the humanitarian response",
       "dateOriginal": "2026-10-22T00:00:00+00:00",
@@ -30209,6 +30107,28 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/occupied-palestinian-territory/gaza-israeli-restrictions-engine-oil-are-crippling-humanitarian-response",
       "localThumbnail": "./assets/report-thumbs/rw-4235192.png"
+    },
+    {
+      "id": "4235159",
+      "title": "L’Alliance pour l’investissement dans les Sociétés nationales annonce l’octroi de subventions à 18 Sociétés nationales de la Croix-Rouge et du Croissant-Rouge pour 2026",
+      "dateOriginal": "2026-10-22T00:00:00+00:00",
+      "primaryCountry": "Iran (Islamic Republic of)",
+      "primaryCountryIso3": "irn",
+      "primaryCountryLocation": {
+        "lat": 32.57,
+        "lon": 54.3
+      },
+      "source": "IFRC",
+      "format": "News and Press Release",
+      "themes": [
+        "Contributions",
+        "Coordination"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/iran-islamic-republic/lalliance-pour-linvestissement-dans-les-societes-nationales-annonce-loctroi-de-subventions-18-societes-nationales-de-la-croix-rouge-et-du-croissant-rouge-pour-2026"
     },
     {
       "id": "4235180",
@@ -30292,6 +30212,52 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/afghanistan/afghanistan-northern-region-coordination-meeting-minutes-mazar-i-sharif-07-october-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4235206.png"
+    },
+    {
+      "id": "4235207",
+      "title": "Afghanistan - Northern Region Coordination Meeting Presentation",
+      "dateOriginal": "2026-10-22T00:00:00+00:00",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
+      "primaryCountryLocation": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
+      "source": "Logistics Cluster, WFP",
+      "format": "Other",
+      "themes": [
+        "Logistics and Telecommunications"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1e/60/1e607225-a42d-55da-a259-7df6e392492b.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1e/60/1e607225-a42d-55da-a259-7df6e392492b.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/1e/60/1e607225-a42d-55da-a259-7df6e392492b.png",
+        "https://reliefweb.int/sites/default/files/previews/1e/60/1e607225-a42d-55da-a259-7df6e392492b.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/1e/60/1e607225-a42d-55da-a259-7df6e392492b.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/afghanistan/afghanistan-northern-region-coordination-meeting-presentation",
+      "localThumbnail": "./assets/report-thumbs/rw-4235207.png"
+    },
+    {
+      "id": "4235210",
+      "title": "Concern marks 30 years in Liberia and Sierra Leone",
+      "dateOriginal": "2026-10-22T00:00:00+00:00",
+      "primaryCountry": "Liberia",
+      "primaryCountryIso3": "lbr",
+      "primaryCountryLocation": {
+        "lat": 6.45,
+        "lon": -9.31
+      },
+      "source": "Concern",
+      "format": "News and Press Release",
+      "themes": [],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/liberia/concern-marks-30-years-liberia-and-sierra-leone"
     }
   ],
   "disasters": [
@@ -30332,24 +30298,6 @@
       ]
     },
     {
-      "id": "51538",
-      "name": "South Sudan: Measles - Dec 2022",
-      "status": "ongoing",
-      "glide": "EP-2023-000048-SSD",
-      "dateEvent": "2022-12-10T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51538",
-      "primaryCountry": "South Sudan",
-      "primaryCountryIso3": "ssd",
-      "location": {
-        "lat": 6.9,
-        "lon": 30.5
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
       "id": "52000",
       "name": "Malawi: Drought - Mar 2024",
       "status": "ongoing",
@@ -30383,6 +30331,117 @@
       "primaryType": "Drought",
       "types": [
         "Drought"
+      ]
+    },
+    {
+      "id": "52556",
+      "name": "Yemen: Floods - Mar 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000044-YEM",
+      "dateEvent": "2026-03-27T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52556",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "location": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52553",
+      "name": "Afghanistan: Floods - Mar 2026",
+      "status": "ongoing",
+      "glide": "FF-2026-000043-AFG",
+      "dateEvent": "2026-03-25T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52553",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
+      "location": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ]
+    },
+    {
+      "id": "52549",
+      "name": "Suriname: Chikungunya Virus Outbreak - Mar 2026",
+      "status": "ongoing",
+      "glide": "EP-2026-000037-SUR",
+      "dateEvent": "2026-03-04T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52549",
+      "primaryCountry": "Suriname",
+      "primaryCountryIso3": "sur",
+      "location": {
+        "lat": 3.69,
+        "lon": -55.91
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52530",
+      "name": "Ecuador: Floods - Jan 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000027-ECU",
+      "dateEvent": "2026-01-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52530",
+      "primaryCountry": "Ecuador",
+      "primaryCountryIso3": "ecu",
+      "location": {
+        "lat": -1.16,
+        "lon": -78.43
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood",
+        "Land Slide"
+      ]
+    },
+    {
+      "id": "52512",
+      "name": "Tropical Cyclone Fytia - Jan 2026",
+      "status": "ongoing",
+      "glide": "TC-2026-000009-MDG",
+      "dateEvent": "2026-02-28T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52512",
+      "primaryCountry": "Madagascar",
+      "primaryCountryIso3": "mdg",
+      "location": {
+        "lat": -19.37,
+        "lon": 46.71
+      },
+      "primaryType": "Tropical Cyclone",
+      "types": [
+        "Flood",
+        "Tropical Cyclone"
+      ]
+    },
+    {
+      "id": "52503",
+      "name": "Zambia: Floods - Jan 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000020-ZMB",
+      "dateEvent": "2026-01-08T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52503",
+      "primaryCountry": "Zambia",
+      "primaryCountryIso3": "zmb",
+      "location": {
+        "lat": -14,
+        "lon": 27.43
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
       ]
     },
     {
@@ -30566,117 +30625,6 @@
       ]
     },
     {
-      "id": "52556",
-      "name": "Yemen: Floods - Mar 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000044-YEM",
-      "dateEvent": "2026-03-27T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52556",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
-      "location": {
-        "lat": 15.94,
-        "lon": 47.62
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52553",
-      "name": "Afghanistan: Floods - Mar 2026",
-      "status": "ongoing",
-      "glide": "FF-2026-000043-AFG",
-      "dateEvent": "2026-03-25T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52553",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "location": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flash Flood",
-        "Flood"
-      ]
-    },
-    {
-      "id": "52549",
-      "name": "Suriname: Chikungunya Virus Outbreak - Mar 2026",
-      "status": "ongoing",
-      "glide": "EP-2026-000037-SUR",
-      "dateEvent": "2026-03-04T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52549",
-      "primaryCountry": "Suriname",
-      "primaryCountryIso3": "sur",
-      "location": {
-        "lat": 3.69,
-        "lon": -55.91
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52530",
-      "name": "Ecuador: Floods - Jan 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000027-ECU",
-      "dateEvent": "2026-01-01T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52530",
-      "primaryCountry": "Ecuador",
-      "primaryCountryIso3": "ecu",
-      "location": {
-        "lat": -1.16,
-        "lon": -78.43
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood",
-        "Land Slide"
-      ]
-    },
-    {
-      "id": "52512",
-      "name": "Tropical Cyclone Fytia - Jan 2026",
-      "status": "ongoing",
-      "glide": "TC-2026-000009-MDG",
-      "dateEvent": "2026-02-28T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52512",
-      "primaryCountry": "Madagascar",
-      "primaryCountryIso3": "mdg",
-      "location": {
-        "lat": -19.37,
-        "lon": 46.71
-      },
-      "primaryType": "Tropical Cyclone",
-      "types": [
-        "Flood",
-        "Tropical Cyclone"
-      ]
-    },
-    {
-      "id": "52503",
-      "name": "Zambia: Floods - Jan 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000020-ZMB",
-      "dateEvent": "2026-01-08T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52503",
-      "primaryCountry": "Zambia",
-      "primaryCountryIso3": "zmb",
-      "location": {
-        "lat": -14,
-        "lon": 27.43
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
       "id": "52702",
       "name": "Guinea-Bissau: Mpox Outbreak - Jul 2026",
       "status": "ongoing",
@@ -30827,6 +30775,24 @@
       "primaryType": "Flood",
       "types": [
         "Flood"
+      ]
+    },
+    {
+      "id": "51538",
+      "name": "South Sudan: Measles - Dec 2022",
+      "status": "ongoing",
+      "glide": "EP-2023-000048-SSD",
+      "dateEvent": "2022-12-10T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51538",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
+      "location": {
+        "lat": 6.9,
+        "lon": 30.5
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
       ]
     },
     {
@@ -32181,7 +32147,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-10-24T14:34:08.407Z",
+    "queryGeneratedAt": "2026-10-24T18:10:11.437Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -32192,7 +32158,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-10-24T14:34:09.212Z",
+    "reportThumbnailCacheAt": "2026-10-24T18:10:13.444Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
