@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-10-25T19:38:07.618Z",
-  "lastSyncAttemptAt": "2026-10-25T19:38:07.618Z",
+  "generatedAt": "2026-10-25T22:33:59.889Z",
+  "lastSyncAttemptAt": "2026-10-25T22:33:59.889Z",
   "enrichedAt": "2026-10-25T07:48:03.708Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -1536,8 +1536,7 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/69/a4/69a4d3d7-75d5-4139-910e-420d6a7055a3.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/redefining-security-development-circuit-breakers-more-secure-future",
-          "localThumbnail": "./assets/report-thumbs/rw-4235118.png"
+          "url": "https://reliefweb.int/report/world/redefining-security-development-circuit-breakers-more-secure-future"
         },
         {
           "id": "4235219",
@@ -4454,7 +4453,8 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/56/7c/567c85c3-6a16-57fe-a022-a93752c3c68b.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/afghanistan/afghanistan-northern-region-coordination-meeting-minutes-mazar-i-sharif-07-october-2026"
+          "url": "https://reliefweb.int/report/afghanistan/afghanistan-northern-region-coordination-meeting-minutes-mazar-i-sharif-07-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4235206.png"
         },
         {
           "id": "4235207",
@@ -4480,7 +4480,8 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/1e/60/1e607225-a42d-55da-a259-7df6e392492b.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/afghanistan/afghanistan-northern-region-coordination-meeting-presentation"
+          "url": "https://reliefweb.int/report/afghanistan/afghanistan-northern-region-coordination-meeting-presentation",
+          "localThumbnail": "./assets/report-thumbs/rw-4235207.png"
         },
         {
           "id": "4235153",
@@ -5166,32 +5167,6 @@
       ],
       "recentReports": [
         {
-          "id": "4235147",
-          "title": "Ukraine: 64% surveyed feel unsafe in their communities, half do not plan to leave — Polish Humanitarian Action (PAH)",
-          "dateOriginal": "2026-10-22T00:00:00+00:00",
-          "primaryCountry": "Ukraine",
-          "primaryCountryIso3": "ukr",
-          "primaryCountryLocation": {
-            "lat": 49.32,
-            "lon": 31.32
-          },
-          "source": "PAH",
-          "format": "News and Press Release",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bb/b3/bbb31006-1797-499b-ac88-42f92c6aad6a.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bb/b3/bbb31006-1797-499b-ac88-42f92c6aad6a.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/bb/b3/bbb31006-1797-499b-ac88-42f92c6aad6a.png",
-            "https://reliefweb.int/sites/default/files/previews/bb/b3/bbb31006-1797-499b-ac88-42f92c6aad6a.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/bb/b3/bbb31006-1797-499b-ac88-42f92c6aad6a.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/ukraine/ukraine-64-surveyed-feel-unsafe-their-communities-half-do-not-plan-leave-polish-humanitarian-action-pah"
-        },
-        {
           "id": "4235136",
           "title": "UNHCR Ukraine Operational Update - 15 October 2026",
           "dateOriginal": "2026-10-22T00:00:00+00:00",
@@ -5217,6 +5192,32 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/ukraine/unhcr-ukraine-operational-update-15-october-2026"
+        },
+        {
+          "id": "4235147",
+          "title": "Ukraine: 64% surveyed feel unsafe in their communities, half do not plan to leave — Polish Humanitarian Action (PAH)",
+          "dateOriginal": "2026-10-22T00:00:00+00:00",
+          "primaryCountry": "Ukraine",
+          "primaryCountryIso3": "ukr",
+          "primaryCountryLocation": {
+            "lat": 49.32,
+            "lon": 31.32
+          },
+          "source": "PAH",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bb/b3/bbb31006-1797-499b-ac88-42f92c6aad6a.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bb/b3/bbb31006-1797-499b-ac88-42f92c6aad6a.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/bb/b3/bbb31006-1797-499b-ac88-42f92c6aad6a.png",
+            "https://reliefweb.int/sites/default/files/previews/bb/b3/bbb31006-1797-499b-ac88-42f92c6aad6a.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/bb/b3/bbb31006-1797-499b-ac88-42f92c6aad6a.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/ukraine/ukraine-64-surveyed-feel-unsafe-their-communities-half-do-not-plan-leave-polish-humanitarian-action-pah"
         },
         {
           "id": "4235185",
@@ -5918,27 +5919,6 @@
       ],
       "recentReports": [
         {
-          "id": "4235292",
-          "title": "Sudan: El Fasher civilians suffer unlawful killings, detention and torture one year after city’s capture by the RSF – new testimony",
-          "dateOriginal": "2026-10-23T00:00:00+00:00",
-          "primaryCountry": "Sudan",
-          "primaryCountryIso3": "sdn",
-          "primaryCountryLocation": {
-            "lat": 15,
-            "lon": 30
-          },
-          "source": "Amnesty",
-          "format": "News and Press Release",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/sudan/sudan-el-fasher-civilians-suffer-unlawful-killings-detention-and-torture-one-year-after-citys-capture-rsf-new-testimony"
-        },
-        {
           "id": "4235328",
           "title": "From Safety Risks to Action - GBV Safety Audit Report - Tawila Locality, North Darfur State, Sudan (September 2026)",
           "dateOriginal": "2026-10-23T00:00:00+00:00",
@@ -5991,6 +5971,27 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/sudan/safety-risks-action-gbv-safety-audit-report-el-obeid-north-kordofan-state-sudan-september-2026"
+        },
+        {
+          "id": "4235292",
+          "title": "Sudan: El Fasher civilians suffer unlawful killings, detention and torture one year after city’s capture by the RSF – new testimony",
+          "dateOriginal": "2026-10-23T00:00:00+00:00",
+          "primaryCountry": "Sudan",
+          "primaryCountryIso3": "sdn",
+          "primaryCountryLocation": {
+            "lat": 15,
+            "lon": 30
+          },
+          "source": "Amnesty",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/sudan/sudan-el-fasher-civilians-suffer-unlawful-killings-detention-and-torture-one-year-after-citys-capture-rsf-new-testimony"
         },
         {
           "id": "4235331",
@@ -27310,7 +27311,34 @@
       "topFormats": [],
       "disasterTypes": [],
       "timeline": [],
-      "recentReports": [],
+      "recentReports": [
+        {
+          "id": "4235125",
+          "title": "ARG: Inundación - 10-2026 - Inundaciones Cuenca del Plata (NEA y Litoral) (2026-10-22)",
+          "dateOriginal": "2026-10-22T00:00:00+00:00",
+          "primaryCountry": "Argentina",
+          "primaryCountryIso3": "arg",
+          "primaryCountryLocation": {
+            "lat": -35.38,
+            "lon": -64
+          },
+          "source": "Cruz Roja Argentina, IFRC",
+          "format": "Situation Report",
+          "themes": [],
+          "disasterTypes": [
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
+            "https://reliefweb.int/sites/default/files/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/argentina/arg-inundacion-10-2026-inundaciones-cuenca-del-plata-nea-y-litoral-2026-10-22"
+        }
+      ],
       "enrichmentStatus": "pending-daily"
     },
     {
@@ -28583,77 +28611,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235279.png"
     },
     {
-      "id": "4235292",
-      "title": "Sudan: El Fasher civilians suffer unlawful killings, detention and torture one year after city’s capture by the RSF – new testimony",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "primaryCountryIso3": "sdn",
-      "primaryCountryLocation": {
-        "lat": 15,
-        "lon": 30
-      },
-      "source": "Amnesty",
-      "format": "News and Press Release",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/sudan-el-fasher-civilians-suffer-unlawful-killings-detention-and-torture-one-year-after-citys-capture-rsf-new-testimony"
-    },
-    {
-      "id": "4235278",
-      "title": "Proceso de Quito: Países de América Latina y el Caribe renuevan su compromiso para consolidar la protección e integración de las personas refugiadas, migrantes y retornadas",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "IOM, UNHCR",
-      "format": "News and Press Release",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/proceso-de-quito-paises-de-america-latina-y-el-caribe-renuevan-su-compromiso-para-consolidar-la-proteccion-e-integracion-de-las-personas-refugiadas-migrantes-y-retornadas"
-    },
-    {
-      "id": "4235307",
-      "title": "WFP DRC Country Brief September 2026",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "primaryCountryLocation": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "source": "WFP",
-      "format": "Situation Report",
-      "themes": [
-        "Education",
-        "Food and Nutrition",
-        "Health",
-        "Logistics and Telecommunications"
-      ],
-      "disasterTypes": [
-        "Epidemic"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0b/f5/0bf5d095-6153-4379-8433-7c3a1a4a3d11.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0b/f5/0bf5d095-6153-4379-8433-7c3a1a4a3d11.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/0b/f5/0bf5d095-6153-4379-8433-7c3a1a4a3d11.png",
-        "https://reliefweb.int/sites/default/files/previews/0b/f5/0bf5d095-6153-4379-8433-7c3a1a4a3d11.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/0b/f5/0bf5d095-6153-4379-8433-7c3a1a4a3d11.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/democratic-republic-congo/wfp-drc-country-brief-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4235307.png"
-    },
-    {
       "id": "4235328",
       "title": "From Safety Risks to Action - GBV Safety Audit Report - Tawila Locality, North Darfur State, Sudan (September 2026)",
       "dateOriginal": "2026-10-23T00:00:00+00:00",
@@ -28682,6 +28639,31 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235328.png"
     },
     {
+      "id": "4235355",
+      "title": "EU announces an additional €22.5 million to reinforce humanitarian assistance in Yemen",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "source": "ECHO",
+      "format": "News and Press Release",
+      "themes": [
+        "Contributions",
+        "Food and Nutrition",
+        "Health",
+        "Shelter and Non-Food Items",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/yemen/eu-announces-additional-eur225-million-reinforce-humanitarian-assistance-yemen"
+    },
+    {
       "id": "4235329",
       "title": "From Safety Risks to Action - GBV Safety Audit Report - El Obeid, North Kordofan State, Sudan (September 2026)",
       "dateOriginal": "2026-10-23T00:00:00+00:00",
@@ -28708,31 +28690,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/sudan/safety-risks-action-gbv-safety-audit-report-el-obeid-north-kordofan-state-sudan-september-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4235329.png"
-    },
-    {
-      "id": "4235355",
-      "title": "EU announces an additional €22.5 million to reinforce humanitarian assistance in Yemen",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
-      "primaryCountryLocation": {
-        "lat": 15.94,
-        "lon": 47.62
-      },
-      "source": "ECHO",
-      "format": "News and Press Release",
-      "themes": [
-        "Contributions",
-        "Food and Nutrition",
-        "Health",
-        "Shelter and Non-Food Items",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/eu-announces-additional-eur225-million-reinforce-humanitarian-assistance-yemen"
     },
     {
       "id": "4235361",
@@ -28814,6 +28771,77 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/haiti/haiti-emergency-tracking-tool-111-displacements-following-armed-violence-commune-arcahaie-department-west-18-21-october-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4235362.png"
+    },
+    {
+      "id": "4235278",
+      "title": "Proceso de Quito: Países de América Latina y el Caribe renuevan su compromiso para consolidar la protección e integración de las personas refugiadas, migrantes y retornadas",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "IOM, UNHCR",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/proceso-de-quito-paises-de-america-latina-y-el-caribe-renuevan-su-compromiso-para-consolidar-la-proteccion-e-integracion-de-las-personas-refugiadas-migrantes-y-retornadas"
+    },
+    {
+      "id": "4235292",
+      "title": "Sudan: El Fasher civilians suffer unlawful killings, detention and torture one year after city’s capture by the RSF – new testimony",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "Sudan",
+      "primaryCountryIso3": "sdn",
+      "primaryCountryLocation": {
+        "lat": 15,
+        "lon": 30
+      },
+      "source": "Amnesty",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/sudan/sudan-el-fasher-civilians-suffer-unlawful-killings-detention-and-torture-one-year-after-citys-capture-rsf-new-testimony"
+    },
+    {
+      "id": "4235307",
+      "title": "WFP DRC Country Brief September 2026",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "source": "WFP",
+      "format": "Situation Report",
+      "themes": [
+        "Education",
+        "Food and Nutrition",
+        "Health",
+        "Logistics and Telecommunications"
+      ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0b/f5/0bf5d095-6153-4379-8433-7c3a1a4a3d11.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0b/f5/0bf5d095-6153-4379-8433-7c3a1a4a3d11.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/0b/f5/0bf5d095-6153-4379-8433-7c3a1a4a3d11.png",
+        "https://reliefweb.int/sites/default/files/previews/0b/f5/0bf5d095-6153-4379-8433-7c3a1a4a3d11.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/0b/f5/0bf5d095-6153-4379-8433-7c3a1a4a3d11.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/democratic-republic-congo/wfp-drc-country-brief-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4235307.png"
     },
     {
       "id": "4235372",
@@ -28923,60 +28951,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235373.png"
     },
     {
-      "id": "4235281",
-      "title": "Activités d’éradication de la poliomyélite en République démocratique du Congo (IEP)– S41 - 2026, Mise à jour au 15 octobre 2026",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "primaryCountryLocation": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "source": "GPEI, Govt. DR Congo, WHO",
-      "format": "Situation Report",
-      "themes": [
-        "Health"
-      ],
-      "disasterTypes": [
-        "Epidemic"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1e/69/1e6930c0-3e37-4556-9034-646c557220b8.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1e/69/1e6930c0-3e37-4556-9034-646c557220b8.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/1e/69/1e6930c0-3e37-4556-9034-646c557220b8.png",
-        "https://reliefweb.int/sites/default/files/previews/1e/69/1e6930c0-3e37-4556-9034-646c557220b8.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/1e/69/1e6930c0-3e37-4556-9034-646c557220b8.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/democratic-republic-congo/activites-deradication-de-la-poliomyelite-en-republique-democratique-du-congo-iep-s41-2026-mise-jour-au-15-octobre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4235281.png"
-    },
-    {
-      "id": "4235293",
-      "title": "UNICEF Djibouti Humanitarian Flash Update No. 4 (Refugee influx from Yemen), 19 October 2026",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "Djibouti",
-      "primaryCountryIso3": "dji",
-      "primaryCountryLocation": {
-        "lat": 11.75,
-        "lon": 42.58
-      },
-      "source": "UNICEF",
-      "format": "Situation Report",
-      "themes": [
-        "Education",
-        "Food and Nutrition",
-        "Health",
-        "Protection and Human Rights",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/djibouti/unicef-djibouti-humanitarian-flash-update-no-4-refugee-influx-yemen-19-october-2026"
-    },
-    {
       "id": "4235313",
       "title": "WFP Nepal External Situation Report, 22 October 2026",
       "dateOriginal": "2026-10-23T00:00:00+00:00",
@@ -29040,6 +29014,60 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/rwanda/wfp-rwanda-country-brief-october-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4235308.png"
+    },
+    {
+      "id": "4235281",
+      "title": "Activités d’éradication de la poliomyélite en République démocratique du Congo (IEP)– S41 - 2026, Mise à jour au 15 octobre 2026",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "source": "GPEI, Govt. DR Congo, WHO",
+      "format": "Situation Report",
+      "themes": [
+        "Health"
+      ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1e/69/1e6930c0-3e37-4556-9034-646c557220b8.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1e/69/1e6930c0-3e37-4556-9034-646c557220b8.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/1e/69/1e6930c0-3e37-4556-9034-646c557220b8.png",
+        "https://reliefweb.int/sites/default/files/previews/1e/69/1e6930c0-3e37-4556-9034-646c557220b8.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/1e/69/1e6930c0-3e37-4556-9034-646c557220b8.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/democratic-republic-congo/activites-deradication-de-la-poliomyelite-en-republique-democratique-du-congo-iep-s41-2026-mise-jour-au-15-octobre-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4235281.png"
+    },
+    {
+      "id": "4235293",
+      "title": "UNICEF Djibouti Humanitarian Flash Update No. 4 (Refugee influx from Yemen), 19 October 2026",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "Djibouti",
+      "primaryCountryIso3": "dji",
+      "primaryCountryLocation": {
+        "lat": 11.75,
+        "lon": 42.58
+      },
+      "source": "UNICEF",
+      "format": "Situation Report",
+      "themes": [
+        "Education",
+        "Food and Nutrition",
+        "Health",
+        "Protection and Human Rights",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/djibouti/unicef-djibouti-humanitarian-flash-update-no-4-refugee-influx-yemen-19-october-2026"
     },
     {
       "id": "4235331",
@@ -29191,6 +29219,31 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235360.png"
     },
     {
+      "id": "4235314",
+      "title": "Ebola spreads to eighth DRC province as WFP delivers food, builds treatment centres and keeps supplies moving",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "source": "WFP",
+      "format": "News and Press Release",
+      "themes": [
+        "Food and Nutrition",
+        "Health"
+      ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/democratic-republic-congo/ebola-spreads-eighth-drc-province-wfp-delivers-food-builds-treatment-centres-and-keeps-supplies-moving",
+      "localThumbnail": "./assets/report-thumbs/rw-4235314.jpg"
+    },
+    {
       "id": "4235358",
       "title": "WFP Colombia Country Brief, September 2026",
       "dateOriginal": "2026-10-23T00:00:00+00:00",
@@ -29329,31 +29382,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235380.png"
     },
     {
-      "id": "4235314",
-      "title": "Ebola spreads to eighth DRC province as WFP delivers food, builds treatment centres and keeps supplies moving",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "primaryCountryLocation": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "source": "WFP",
-      "format": "News and Press Release",
-      "themes": [
-        "Food and Nutrition",
-        "Health"
-      ],
-      "disasterTypes": [
-        "Epidemic"
-      ],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/democratic-republic-congo/ebola-spreads-eighth-drc-province-wfp-delivers-food-builds-treatment-centres-and-keeps-supplies-moving",
-      "localThumbnail": "./assets/report-thumbs/rw-4235314.jpg"
-    },
-    {
       "id": "4235309",
       "title": "WFP Malawi Country Brief, October 2026",
       "dateOriginal": "2026-10-23T00:00:00+00:00",
@@ -29414,6 +29442,28 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235310.png"
     },
     {
+      "id": "4235332",
+      "title": "“I feel like I am a warrior”: Sudanese women fight for peace on the front lines of war",
+      "dateOriginal": "2026-10-23T00:00:00+00:00",
+      "primaryCountry": "Sudan",
+      "primaryCountryIso3": "sdn",
+      "primaryCountryLocation": {
+        "lat": 15,
+        "lon": 30
+      },
+      "source": "UN Women",
+      "format": "News and Press Release",
+      "themes": [
+        "Peacekeeping and Peacebuilding",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/sudan/i-feel-i-am-warrior-sudanese-women-fight-peace-front-lines-war"
+    },
+    {
       "id": "4235351",
       "title": "Bulletin de Surveillance Pastorale de la Mauritanie N°41 (aout - septembre 2026)",
       "dateOriginal": "2026-10-23T00:00:00+00:00",
@@ -29439,28 +29489,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/mauritania/bulletin-de-surveillance-pastorale-de-la-mauritanie-ndeg41-aout-septembre-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4235351.png"
-    },
-    {
-      "id": "4235332",
-      "title": "“I feel like I am a warrior”: Sudanese women fight for peace on the front lines of war",
-      "dateOriginal": "2026-10-23T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "primaryCountryIso3": "sdn",
-      "primaryCountryLocation": {
-        "lat": 15,
-        "lon": 30
-      },
-      "source": "UN Women",
-      "format": "News and Press Release",
-      "themes": [
-        "Peacekeeping and Peacebuilding",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/i-feel-i-am-warrior-sudanese-women-fight-peace-front-lines-war"
     },
     {
       "id": "4235385",
@@ -29603,6 +29631,143 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235387.png"
     },
     {
+      "id": "4235136",
+      "title": "UNHCR Ukraine Operational Update - 15 October 2026",
+      "dateOriginal": "2026-10-22T00:00:00+00:00",
+      "primaryCountry": "Ukraine",
+      "primaryCountryIso3": "ukr",
+      "primaryCountryLocation": {
+        "lat": 49.32,
+        "lon": 31.32
+      },
+      "source": "UNHCR",
+      "format": "Situation Report",
+      "themes": [
+        "Protection and Human Rights",
+        "Shelter and Non-Food Items"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/89/ba/89ba6211-f9ce-5222-a08f-f1e346b5bb7d.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/89/ba/89ba6211-f9ce-5222-a08f-f1e346b5bb7d.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/89/ba/89ba6211-f9ce-5222-a08f-f1e346b5bb7d.png",
+        "https://reliefweb.int/sites/default/files/previews/89/ba/89ba6211-f9ce-5222-a08f-f1e346b5bb7d.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/89/ba/89ba6211-f9ce-5222-a08f-f1e346b5bb7d.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/ukraine/unhcr-ukraine-operational-update-15-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4235136.png"
+    },
+    {
+      "id": "4235137",
+      "title": "RAIS Cumulative Assistance Summary – January to September 2026",
+      "dateOriginal": "2026-10-22T00:00:00+00:00",
+      "primaryCountry": "Lebanon",
+      "primaryCountryIso3": "lbn",
+      "primaryCountryLocation": {
+        "lat": 33.92,
+        "lon": 35.89
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
+        "Coordination"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4e/b2/4eb2147a-562c-4452-8dd4-b8705e9fc92a.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4e/b2/4eb2147a-562c-4452-8dd4-b8705e9fc92a.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/4e/b2/4eb2147a-562c-4452-8dd4-b8705e9fc92a.png",
+        "https://reliefweb.int/sites/default/files/previews/4e/b2/4eb2147a-562c-4452-8dd4-b8705e9fc92a.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/4e/b2/4eb2147a-562c-4452-8dd4-b8705e9fc92a.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/lebanon/rais-cumulative-assistance-summary-january-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4235137.png"
+    },
+    {
+      "id": "4235125",
+      "title": "ARG: Inundación - 10-2026 - Inundaciones Cuenca del Plata (NEA y Litoral) (2026-10-22)",
+      "dateOriginal": "2026-10-22T00:00:00+00:00",
+      "primaryCountry": "Argentina",
+      "primaryCountryIso3": "arg",
+      "primaryCountryLocation": {
+        "lat": -35.38,
+        "lon": -64
+      },
+      "source": "Cruz Roja Argentina, IFRC",
+      "format": "Situation Report",
+      "themes": [],
+      "disasterTypes": [
+        "Flood"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
+        "https://reliefweb.int/sites/default/files/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/4b/7f/4b7f7c34-add8-4d1c-bba8-85b045995109.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/argentina/arg-inundacion-10-2026-inundaciones-cuenca-del-plata-nea-y-litoral-2026-10-22",
+      "localThumbnail": "./assets/report-thumbs/rw-4235125.png"
+    },
+    {
+      "id": "4235118",
+      "title": "Redefining Security: Development Circuit Breakers for a More Secure Future",
+      "dateOriginal": "2026-10-22T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "UNDP",
+      "format": "Analysis",
+      "themes": [
+        "Climate Change and Environment",
+        "Health",
+        "Peacekeeping and Peacebuilding"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/69/a4/69a4d3d7-75d5-4139-910e-420d6a7055a3.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/69/a4/69a4d3d7-75d5-4139-910e-420d6a7055a3.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/69/a4/69a4d3d7-75d5-4139-910e-420d6a7055a3.png",
+        "https://reliefweb.int/sites/default/files/previews/69/a4/69a4d3d7-75d5-4139-910e-420d6a7055a3.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/69/a4/69a4d3d7-75d5-4139-910e-420d6a7055a3.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/redefining-security-development-circuit-breakers-more-secure-future",
+      "localThumbnail": "./assets/report-thumbs/rw-4235118.png"
+    },
+    {
+      "id": "4235192",
+      "title": "Gaza: Israeli restrictions on engine oil are crippling the humanitarian response",
+      "dateOriginal": "2026-10-22T00:00:00+00:00",
+      "primaryCountry": "occupied Palestinian territory",
+      "primaryCountryIso3": "pse",
+      "primaryCountryLocation": {
+        "lat": 31.9522,
+        "lon": 35.2332
+      },
+      "source": "AIDA",
+      "format": "News and Press Release",
+      "themes": [
+        "Health",
+        "Protection and Human Rights",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/14/f0/14f08faa-ca1c-4403-be38-a313bc20c4d8.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/14/f0/14f08faa-ca1c-4403-be38-a313bc20c4d8.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/14/f0/14f08faa-ca1c-4403-be38-a313bc20c4d8.png",
+        "https://reliefweb.int/sites/default/files/previews/14/f0/14f08faa-ca1c-4403-be38-a313bc20c4d8.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/14/f0/14f08faa-ca1c-4403-be38-a313bc20c4d8.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/occupied-palestinian-territory/gaza-israeli-restrictions-engine-oil-are-crippling-humanitarian-response",
+      "localThumbnail": "./assets/report-thumbs/rw-4235192.png"
+    },
+    {
       "id": "4235147",
       "title": "Ukraine: 64% surveyed feel unsafe in their communities, half do not plan to leave — Polish Humanitarian Action (PAH)",
       "dateOriginal": "2026-10-22T00:00:00+00:00",
@@ -29659,90 +29824,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235154.png"
     },
     {
-      "id": "4235136",
-      "title": "UNHCR Ukraine Operational Update - 15 October 2026",
-      "dateOriginal": "2026-10-22T00:00:00+00:00",
-      "primaryCountry": "Ukraine",
-      "primaryCountryIso3": "ukr",
-      "primaryCountryLocation": {
-        "lat": 49.32,
-        "lon": 31.32
-      },
-      "source": "UNHCR",
-      "format": "Situation Report",
-      "themes": [
-        "Protection and Human Rights",
-        "Shelter and Non-Food Items"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/89/ba/89ba6211-f9ce-5222-a08f-f1e346b5bb7d.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/89/ba/89ba6211-f9ce-5222-a08f-f1e346b5bb7d.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/89/ba/89ba6211-f9ce-5222-a08f-f1e346b5bb7d.png",
-        "https://reliefweb.int/sites/default/files/previews/89/ba/89ba6211-f9ce-5222-a08f-f1e346b5bb7d.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/89/ba/89ba6211-f9ce-5222-a08f-f1e346b5bb7d.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ukraine/unhcr-ukraine-operational-update-15-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4235136.png"
-    },
-    {
-      "id": "4235137",
-      "title": "RAIS Cumulative Assistance Summary – January to September 2026",
-      "dateOriginal": "2026-10-22T00:00:00+00:00",
-      "primaryCountry": "Lebanon",
-      "primaryCountryIso3": "lbn",
-      "primaryCountryLocation": {
-        "lat": 33.92,
-        "lon": 35.89
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Coordination"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4e/b2/4eb2147a-562c-4452-8dd4-b8705e9fc92a.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4e/b2/4eb2147a-562c-4452-8dd4-b8705e9fc92a.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/4e/b2/4eb2147a-562c-4452-8dd4-b8705e9fc92a.png",
-        "https://reliefweb.int/sites/default/files/previews/4e/b2/4eb2147a-562c-4452-8dd4-b8705e9fc92a.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/4e/b2/4eb2147a-562c-4452-8dd4-b8705e9fc92a.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/lebanon/rais-cumulative-assistance-summary-january-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4235137.png"
-    },
-    {
-      "id": "4235192",
-      "title": "Gaza: Israeli restrictions on engine oil are crippling the humanitarian response",
-      "dateOriginal": "2026-10-22T00:00:00+00:00",
-      "primaryCountry": "occupied Palestinian territory",
-      "primaryCountryIso3": "pse",
-      "primaryCountryLocation": {
-        "lat": 31.9522,
-        "lon": 35.2332
-      },
-      "source": "AIDA",
-      "format": "News and Press Release",
-      "themes": [
-        "Health",
-        "Protection and Human Rights",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/14/f0/14f08faa-ca1c-4403-be38-a313bc20c4d8.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/14/f0/14f08faa-ca1c-4403-be38-a313bc20c4d8.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/14/f0/14f08faa-ca1c-4403-be38-a313bc20c4d8.png",
-        "https://reliefweb.int/sites/default/files/previews/14/f0/14f08faa-ca1c-4403-be38-a313bc20c4d8.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/14/f0/14f08faa-ca1c-4403-be38-a313bc20c4d8.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/occupied-palestinian-territory/gaza-israeli-restrictions-engine-oil-are-crippling-humanitarian-response",
-      "localThumbnail": "./assets/report-thumbs/rw-4235192.png"
-    },
-    {
       "id": "4235159",
       "title": "L’Alliance pour l’investissement dans les Sociétés nationales annonce l’octroi de subventions à 18 Sociétés nationales de la Croix-Rouge et du Croissant-Rouge pour 2026",
       "dateOriginal": "2026-10-22T00:00:00+00:00",
@@ -29796,6 +29877,25 @@
       "localThumbnail": "./assets/report-thumbs/rw-4235180.png"
     },
     {
+      "id": "4235210",
+      "title": "Concern marks 30 years in Liberia and Sierra Leone",
+      "dateOriginal": "2026-10-22T00:00:00+00:00",
+      "primaryCountry": "Liberia",
+      "primaryCountryIso3": "lbr",
+      "primaryCountryLocation": {
+        "lat": 6.45,
+        "lon": -9.31
+      },
+      "source": "Concern",
+      "format": "News and Press Release",
+      "themes": [],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/liberia/concern-marks-30-years-liberia-and-sierra-leone"
+    },
+    {
       "id": "4235200",
       "title": "Lebanon: GBVIMS Comparative Narrative Analysis (June - August 2026)",
       "dateOriginal": "2026-10-22T00:00:00+00:00",
@@ -29819,79 +29919,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/lebanon/lebanon-gbvims-comparative-narrative-analysis-june-august-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4235200.png"
-    },
-    {
-      "id": "4235206",
-      "title": "Afghanistan - Northern Region Coordination Meeting Minutes, Mazar-i-Sharif, 07 October 2026",
-      "dateOriginal": "2026-10-22T00:00:00+00:00",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "primaryCountryLocation": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "source": "Logistics Cluster, WFP",
-      "format": "Other",
-      "themes": [
-        "Logistics and Telecommunications"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/7c/567c85c3-6a16-57fe-a022-a93752c3c68b.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/7c/567c85c3-6a16-57fe-a022-a93752c3c68b.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/56/7c/567c85c3-6a16-57fe-a022-a93752c3c68b.png",
-        "https://reliefweb.int/sites/default/files/previews/56/7c/567c85c3-6a16-57fe-a022-a93752c3c68b.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/56/7c/567c85c3-6a16-57fe-a022-a93752c3c68b.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/afghanistan/afghanistan-northern-region-coordination-meeting-minutes-mazar-i-sharif-07-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4235206.png"
-    },
-    {
-      "id": "4235207",
-      "title": "Afghanistan - Northern Region Coordination Meeting Presentation",
-      "dateOriginal": "2026-10-22T00:00:00+00:00",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "primaryCountryLocation": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "source": "Logistics Cluster, WFP",
-      "format": "Other",
-      "themes": [
-        "Logistics and Telecommunications"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1e/60/1e607225-a42d-55da-a259-7df6e392492b.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1e/60/1e607225-a42d-55da-a259-7df6e392492b.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/1e/60/1e607225-a42d-55da-a259-7df6e392492b.png",
-        "https://reliefweb.int/sites/default/files/previews/1e/60/1e607225-a42d-55da-a259-7df6e392492b.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/1e/60/1e607225-a42d-55da-a259-7df6e392492b.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/afghanistan/afghanistan-northern-region-coordination-meeting-presentation",
-      "localThumbnail": "./assets/report-thumbs/rw-4235207.png"
-    },
-    {
-      "id": "4235210",
-      "title": "Concern marks 30 years in Liberia and Sierra Leone",
-      "dateOriginal": "2026-10-22T00:00:00+00:00",
-      "primaryCountry": "Liberia",
-      "primaryCountryIso3": "lbr",
-      "primaryCountryLocation": {
-        "lat": 6.45,
-        "lon": -9.31
-      },
-      "source": "Concern",
-      "format": "News and Press Release",
-      "themes": [],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/liberia/concern-marks-30-years-liberia-and-sierra-leone"
     }
   ],
   "disasters": [
@@ -31781,7 +31808,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-10-25T19:38:07.618Z",
+    "queryGeneratedAt": "2026-10-25T22:33:59.889Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -31792,7 +31819,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-10-25T19:38:08.764Z",
+    "reportThumbnailCacheAt": "2026-10-25T22:34:00.997Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
