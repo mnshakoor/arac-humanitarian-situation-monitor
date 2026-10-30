@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-10-30T14:10:17.832Z",
-  "lastSyncAttemptAt": "2026-10-30T14:10:17.832Z",
+  "generatedAt": "2026-10-30T19:23:33.779Z",
+  "lastSyncAttemptAt": "2026-10-30T19:23:33.779Z",
   "enrichedAt": "2026-10-30T08:57:49.063Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -2262,27 +2262,6 @@
           "url": "https://reliefweb.int/report/yemen/au-yemen-les-refugies-pris-au-piege-entre-conflit-deplacement-et-traversees-perilleuses-hcr"
         },
         {
-          "id": "4236342",
-          "title": "Refugees in Yemen trapped between conflict, displacement and dangerous journeys",
-          "dateOriginal": "2026-10-30T00:00:00+00:00",
-          "primaryCountry": "Yemen",
-          "primaryCountryIso3": "yem",
-          "primaryCountryLocation": {
-            "lat": 15.94,
-            "lon": 47.62
-          },
-          "source": "UNHCR",
-          "format": "News and Press Release",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/yemen/refugees-yemen-trapped-between-conflict-displacement-and-dangerous-journeys"
-        },
-        {
           "id": "4236375",
           "title": "Los refugiados en Yemen, atrapados entre el conflicto, el desplazamiento y las peligrosas travesías",
           "dateOriginal": "2026-10-30T00:00:00+00:00",
@@ -2303,6 +2282,27 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/yemen/los-refugiados-en-yemen-atrapados-entre-el-conflicto-el-desplazamiento-y-las-peligrosas-travesias"
+        },
+        {
+          "id": "4236342",
+          "title": "Refugees in Yemen trapped between conflict, displacement and dangerous journeys",
+          "dateOriginal": "2026-10-30T00:00:00+00:00",
+          "primaryCountry": "Yemen",
+          "primaryCountryIso3": "yem",
+          "primaryCountryLocation": {
+            "lat": 15.94,
+            "lon": 47.62
+          },
+          "source": "UNHCR",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/yemen/refugees-yemen-trapped-between-conflict-displacement-and-dangerous-journeys"
         },
         {
           "id": "4236133",
@@ -2404,7 +2404,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/a2/ac/a2acc717-c569-4f8e-89d0-c18773d6d6d0.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/yemen/yemen-slsc-situation-update-25-october-2026"
+          "url": "https://reliefweb.int/report/yemen/yemen-slsc-situation-update-25-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4235968.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/previews/a2/ac/a2acc717-c569-4f8e-89d0-c18773d6d6d0.png"
         },
         {
           "id": "4235959",
@@ -29345,8 +29347,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/map/world/carte-des-alertes-de-maladies-epidemiques-et-emergentes-en-oceanie-27-octobre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236340.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/a9/c2/a9c2566d-b583-4ca2-9627-4b2f9634ecf1.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236340.png"
     },
     {
       "id": "4236347",
@@ -29425,40 +29426,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/d2/97/d2972f2b-3c83-440c-b891-a750ceb7f26d.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/uganda/land-access-and-use-ugandas-refugee-hosting-districts-desk-review-impact-land-access-self-reliance-ugandas-refugee-response-october-2026"
-    },
-    {
-      "id": "4236370",
-      "title": "Cyclone Arnab: Andhra Pradesh, Yanam (Puducherry) and Odisha (Date: 30 October 2026, Time: 08:00 IST)",
-      "dateOriginal": "2026-10-30T00:00:00+00:00",
-      "primaryCountry": "India",
-      "primaryCountryIso3": "ind",
-      "primaryCountryLocation": {
-        "lat": 22.76,
-        "lon": 79.28
-      },
-      "source": "Sphere India",
-      "format": "Situation Report",
-      "themes": [
-        "Education",
-        "Food and Nutrition",
-        "Health",
-        "Protection and Human Rights",
-        "Shelter and Non-Food Items",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [
-        "Tropical Cyclone"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/79/be/79becbbe-d005-464f-94da-c1cb62e6a5bc.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/79/be/79becbbe-d005-464f-94da-c1cb62e6a5bc.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/79/be/79becbbe-d005-464f-94da-c1cb62e6a5bc.png",
-        "https://reliefweb.int/sites/default/files/previews/79/be/79becbbe-d005-464f-94da-c1cb62e6a5bc.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/79/be/79becbbe-d005-464f-94da-c1cb62e6a5bc.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/india/cyclone-arnab-andhra-pradesh-yanam-puducherry-and-odisha-date-30-october-2026-time-0800-ist"
+      "url": "https://reliefweb.int/report/uganda/land-access-and-use-ugandas-refugee-hosting-districts-desk-review-impact-land-access-self-reliance-ugandas-refugee-response-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4236366.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/d2/97/d2972f2b-3c83-440c-b891-a750ceb7f26d.png"
     },
     {
       "id": "4236336",
@@ -29557,6 +29527,39 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/uganda/land-access-and-use-ugandas-refugee-hosting-districts-what-evidence-shows-about-inclusion-women-youth-and-persons-disabilities"
+    },
+    {
+      "id": "4236370",
+      "title": "Cyclone Arnab: Andhra Pradesh, Yanam (Puducherry) and Odisha (Date: 30 October 2026, Time: 08:00 IST)",
+      "dateOriginal": "2026-10-30T00:00:00+00:00",
+      "primaryCountry": "India",
+      "primaryCountryIso3": "ind",
+      "primaryCountryLocation": {
+        "lat": 22.76,
+        "lon": 79.28
+      },
+      "source": "Sphere India",
+      "format": "Situation Report",
+      "themes": [
+        "Education",
+        "Food and Nutrition",
+        "Health",
+        "Protection and Human Rights",
+        "Shelter and Non-Food Items",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [
+        "Tropical Cyclone"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/79/be/79becbbe-d005-464f-94da-c1cb62e6a5bc.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/79/be/79becbbe-d005-464f-94da-c1cb62e6a5bc.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/79/be/79becbbe-d005-464f-94da-c1cb62e6a5bc.png",
+        "https://reliefweb.int/sites/default/files/previews/79/be/79becbbe-d005-464f-94da-c1cb62e6a5bc.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/79/be/79becbbe-d005-464f-94da-c1cb62e6a5bc.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/india/cyclone-arnab-andhra-pradesh-yanam-puducherry-and-odisha-date-30-october-2026-time-0800-ist"
     },
     {
       "id": "4236302",
@@ -29800,26 +29803,86 @@
       "url": "https://reliefweb.int/report/philippines/philippines-el-nino-snapshot-impact-and-response-actions-30-october-2026"
     },
     {
-      "id": "4236343",
-      "title": "PDRF, Direct Relief preposition 100 medical go bags to strengthen disaster preparedness",
+      "id": "4236353",
+      "title": "EU announces establishment and composition of PreparEU Advisory Group",
       "dateOriginal": "2026-10-30T00:00:00+00:00",
-      "primaryCountry": "Philippines",
-      "primaryCountryIso3": "phl",
-      "primaryCountryLocation": {
-        "lat": 11.74,
-        "lon": 122.88
-      },
-      "source": "Direct Relief, PDRF",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "ECHO",
       "format": "News and Press Release",
       "themes": [
-        "Disaster Management",
-        "Health"
+        "Disaster Management"
       ],
       "disasterTypes": [],
       "thumbnail": "",
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/philippines/pdrf-direct-relief-preposition-100-medical-go-bags-strengthen-disaster-preparedness"
+      "url": "https://reliefweb.int/report/world/eu-announces-establishment-and-composition-prepareu-advisory-group"
+    },
+    {
+      "id": "4236375",
+      "title": "Los refugiados en Yemen, atrapados entre el conflicto, el desplazamiento y las peligrosas travesías",
+      "dateOriginal": "2026-10-30T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "source": "UNHCR",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights",
+        "Shelter and Non-Food Items"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/yemen/los-refugiados-en-yemen-atrapados-entre-el-conflicto-el-desplazamiento-y-las-peligrosas-travesias"
+    },
+    {
+      "id": "4236342",
+      "title": "Refugees in Yemen trapped between conflict, displacement and dangerous journeys",
+      "dateOriginal": "2026-10-30T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "source": "UNHCR",
+      "format": "News and Press Release",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/yemen/refugees-yemen-trapped-between-conflict-displacement-and-dangerous-journeys"
+    },
+    {
+      "id": "4236354",
+      "title": "UNAIDS congratulates Barbados on eliminating vertical transmission of HIV",
+      "dateOriginal": "2026-10-30T00:00:00+00:00",
+      "primaryCountry": "Barbados",
+      "primaryCountryIso3": "brb",
+      "primaryCountryLocation": {
+        "lat": 13.18,
+        "lon": -59.56
+      },
+      "source": "UNAIDS",
+      "format": "News and Press Release",
+      "themes": [
+        "HIV/Aids"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/barbados/unaids-congratulates-barbados-eliminating-vertical-transmission-hiv"
     },
     {
       "id": "4236338",
@@ -29845,67 +29908,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/2e/e9/2ee99cc4-20b8-518c-b52c-6df6ef16271b.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-monitoring-de-protection-rapport-trimestre-2-avril-juin-2026"
-    },
-    {
-      "id": "4236354",
-      "title": "UNAIDS congratulates Barbados on eliminating vertical transmission of HIV",
-      "dateOriginal": "2026-10-30T00:00:00+00:00",
-      "primaryCountry": "Barbados",
-      "primaryCountryIso3": "brb",
-      "primaryCountryLocation": {
-        "lat": 13.18,
-        "lon": -59.56
-      },
-      "source": "UNAIDS",
-      "format": "News and Press Release",
-      "themes": [
-        "HIV/Aids"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/barbados/unaids-congratulates-barbados-eliminating-vertical-transmission-hiv"
-    },
-    {
-      "id": "4236353",
-      "title": "EU announces establishment and composition of PreparEU Advisory Group",
-      "dateOriginal": "2026-10-30T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "ECHO",
-      "format": "News and Press Release",
-      "themes": [
-        "Disaster Management"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/eu-announces-establishment-and-composition-prepareu-advisory-group"
-    },
-    {
-      "id": "4236342",
-      "title": "Refugees in Yemen trapped between conflict, displacement and dangerous journeys",
-      "dateOriginal": "2026-10-30T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
-      "primaryCountryLocation": {
-        "lat": 15.94,
-        "lon": 47.62
-      },
-      "source": "UNHCR",
-      "format": "News and Press Release",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/refugees-yemen-trapped-between-conflict-displacement-and-dangerous-journeys"
+      "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-monitoring-de-protection-rapport-trimestre-2-avril-juin-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4236338.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/2e/e9/2ee99cc4-20b8-518c-b52c-6df6ef16271b.png"
     },
     {
       "id": "4236368",
@@ -29935,26 +29940,26 @@
       "url": "https://reliefweb.int/report/uganda/land-access-and-use-ugandas-refugee-hosting-districts-what-evidence-shows-about-environmental-and-natural-resources-management"
     },
     {
-      "id": "4236375",
-      "title": "Los refugiados en Yemen, atrapados entre el conflicto, el desplazamiento y las peligrosas travesías",
+      "id": "4236343",
+      "title": "PDRF, Direct Relief preposition 100 medical go bags to strengthen disaster preparedness",
       "dateOriginal": "2026-10-30T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
+      "primaryCountry": "Philippines",
+      "primaryCountryIso3": "phl",
       "primaryCountryLocation": {
-        "lat": 15.94,
-        "lon": 47.62
+        "lat": 11.74,
+        "lon": 122.88
       },
-      "source": "UNHCR",
+      "source": "Direct Relief, PDRF",
       "format": "News and Press Release",
       "themes": [
-        "Protection and Human Rights",
-        "Shelter and Non-Food Items"
+        "Disaster Management",
+        "Health"
       ],
       "disasterTypes": [],
       "thumbnail": "",
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/los-refugiados-en-yemen-atrapados-entre-el-conflicto-el-desplazamiento-y-las-peligrosas-travesias"
+      "url": "https://reliefweb.int/report/philippines/pdrf-direct-relief-preposition-100-medical-go-bags-strengthen-disaster-preparedness"
     },
     {
       "id": "4236325",
@@ -31288,95 +31293,21 @@
       ]
     },
     {
-      "id": "52679",
-      "name": "Sierra Leone: Flash Floods - Aug 2026",
+      "id": "50620",
+      "name": "Afghanistan: Drought - 2021-2026",
       "status": "ongoing",
-      "glide": "FF-2026-000152-SLE",
-      "dateEvent": "2026-08-03T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52679",
-      "primaryCountry": "Sierra Leone",
-      "primaryCountryIso3": "sle",
-      "location": {
-        "lat": 8.56,
-        "lon": -11.79
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood"
-      ]
-    },
-    {
-      "id": "52659",
-      "name": "Afghanistan: Flash Floods - Jul 2026",
-      "status": "ongoing",
-      "glide": "FF-2026-000120-AFG",
-      "dateEvent": "2026-07-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52659",
+      "glide": "DR-2021-000022-AFG",
+      "dateEvent": "2021-02-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/50620",
       "primaryCountry": "Afghanistan",
       "primaryCountryIso3": "afg",
       "location": {
         "lat": 33.84,
         "lon": 66.03
       },
-      "primaryType": "Flash Flood",
+      "primaryType": "Drought",
       "types": [
-        "Flash Flood",
-        "Flood"
-      ]
-    },
-    {
-      "id": "52601",
-      "name": "Syria: Floods - May 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000080-SYR",
-      "dateEvent": "2026-05-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52601",
-      "primaryCountry": "Syrian Arab Republic",
-      "primaryCountryIso3": "syr",
-      "location": {
-        "lat": 35.01,
-        "lon": 38.51
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52600",
-      "name": "Philippines: Earthquake and Tsunami - Jun 2026",
-      "status": "ongoing",
-      "glide": "EQ-2026-000083-PHL",
-      "dateEvent": "2026-06-08T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52600",
-      "primaryCountry": "Philippines",
-      "primaryCountryIso3": "phl",
-      "location": {
-        "lat": 11.74,
-        "lon": 122.88
-      },
-      "primaryType": "Earthquake",
-      "types": [
-        "Earthquake",
-        "Tsunami"
-      ]
-    },
-    {
-      "id": "43154",
-      "name": "Nigeria: Cholera Outbreak - Jun 2017",
-      "status": "ongoing",
-      "glide": "EP-2017-000077-NGA",
-      "dateEvent": "2017-06-07T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/43154",
-      "primaryCountry": "Nigeria",
-      "primaryCountryIso3": "nga",
-      "location": {
-        "lat": 9.59,
-        "lon": 8.11
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
+        "Drought"
       ]
     },
     {
@@ -31416,21 +31347,111 @@
       ]
     },
     {
-      "id": "50620",
-      "name": "Afghanistan: Drought - 2021-2026",
+      "id": "52299",
+      "name": "Pacific: Dengue Outbreak - 2025-2026",
       "status": "ongoing",
-      "glide": "DR-2021-000022-AFG",
-      "dateEvent": "2021-02-01T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/50620",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
+      "glide": "EP-2025-000053-TON",
+      "dateEvent": "2025-02-03T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52299",
+      "primaryCountry": "Tonga",
+      "primaryCountryIso3": "ton",
       "location": {
-        "lat": 33.84,
-        "lon": 66.03
+        "lat": -20.39,
+        "lon": -174.83
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52262",
+      "name": "Angola: Cholera Outbreak - Jan 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000013-AGO",
+      "dateEvent": "2025-01-07T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52262",
+      "primaryCountry": "Angola",
+      "primaryCountryIso3": "ago",
+      "location": {
+        "lat": -12.1,
+        "lon": 17.91
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "50824",
+      "name": "Syria: Drought - 2021-2026",
+      "status": "ongoing",
+      "glide": "DR-2021-000125-SYR",
+      "dateEvent": "2021-06-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/50824",
+      "primaryCountry": "Syrian Arab Republic",
+      "primaryCountryIso3": "syr",
+      "location": {
+        "lat": 35.01,
+        "lon": 38.51
       },
       "primaryType": "Drought",
       "types": [
         "Drought"
+      ]
+    },
+    {
+      "id": "52497",
+      "name": "Morocco: Floods - Dec 2025",
+      "status": "ongoing",
+      "glide": "FF-2025-000223-MAR",
+      "dateEvent": "2025-12-14T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52497",
+      "primaryCountry": "Morocco",
+      "primaryCountryIso3": "mar",
+      "location": {
+        "lat": 32.35,
+        "lon": -6.02
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52462",
+      "name": "Cuba: Arboviral Outbreak - Oct 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000200-CUB",
+      "dateEvent": "2025-10-15T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52462",
+      "primaryCountry": "Cuba",
+      "primaryCountryIso3": "cub",
+      "location": {
+        "lat": 21.95,
+        "lon": -79.24
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52435",
+      "name": "Bolivia: Wild Fires - Aug 2025",
+      "status": "ongoing",
+      "glide": "WF-2025-000163-BOL",
+      "dateEvent": "2025-08-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52435",
+      "primaryCountry": "Bolivia (Plurinational State of)",
+      "primaryCountryIso3": "bol",
+      "location": {
+        "lat": -16.97,
+        "lon": -64.27
+      },
+      "primaryType": "Wild Fire",
+      "types": [
+        "Wild Fire"
       ]
     },
     {
@@ -31543,57 +31564,77 @@
       ]
     },
     {
-      "id": "52299",
-      "name": "Pacific: Dengue Outbreak - 2025-2026",
+      "id": "52679",
+      "name": "Sierra Leone: Flash Floods - Aug 2026",
       "status": "ongoing",
-      "glide": "EP-2025-000053-TON",
-      "dateEvent": "2025-02-03T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52299",
-      "primaryCountry": "Tonga",
-      "primaryCountryIso3": "ton",
+      "glide": "FF-2026-000152-SLE",
+      "dateEvent": "2026-08-03T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52679",
+      "primaryCountry": "Sierra Leone",
+      "primaryCountryIso3": "sle",
       "location": {
-        "lat": -20.39,
-        "lon": -174.83
+        "lat": 8.56,
+        "lon": -11.79
       },
-      "primaryType": "Epidemic",
+      "primaryType": "Flash Flood",
       "types": [
-        "Epidemic"
+        "Flash Flood"
       ]
     },
     {
-      "id": "52262",
-      "name": "Angola: Cholera Outbreak - Jan 2025",
+      "id": "52659",
+      "name": "Afghanistan: Flash Floods - Jul 2026",
       "status": "ongoing",
-      "glide": "EP-2025-000013-AGO",
-      "dateEvent": "2025-01-07T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52262",
-      "primaryCountry": "Angola",
-      "primaryCountryIso3": "ago",
+      "glide": "FF-2026-000120-AFG",
+      "dateEvent": "2026-07-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52659",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
       "location": {
-        "lat": -12.1,
-        "lon": 17.91
+        "lat": 33.84,
+        "lon": 66.03
       },
-      "primaryType": "Epidemic",
+      "primaryType": "Flash Flood",
       "types": [
-        "Epidemic"
+        "Flash Flood",
+        "Flood"
       ]
     },
     {
-      "id": "50824",
-      "name": "Syria: Drought - 2021-2026",
+      "id": "52601",
+      "name": "Syria: Floods - May 2026",
       "status": "ongoing",
-      "glide": "DR-2021-000125-SYR",
-      "dateEvent": "2021-06-01T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/50824",
+      "glide": "FL-2026-000080-SYR",
+      "dateEvent": "2026-05-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52601",
       "primaryCountry": "Syrian Arab Republic",
       "primaryCountryIso3": "syr",
       "location": {
         "lat": 35.01,
         "lon": 38.51
       },
-      "primaryType": "Drought",
+      "primaryType": "Flood",
       "types": [
-        "Drought"
+        "Flood"
+      ]
+    },
+    {
+      "id": "52600",
+      "name": "Philippines: Earthquake and Tsunami - Jun 2026",
+      "status": "ongoing",
+      "glide": "EQ-2026-000083-PHL",
+      "dateEvent": "2026-06-08T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52600",
+      "primaryCountry": "Philippines",
+      "primaryCountryIso3": "phl",
+      "location": {
+        "lat": 11.74,
+        "lon": 122.88
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake",
+        "Tsunami"
       ]
     },
     {
@@ -31744,57 +31785,21 @@
       ]
     },
     {
-      "id": "52497",
-      "name": "Morocco: Floods - Dec 2025",
+      "id": "43154",
+      "name": "Nigeria: Cholera Outbreak - Jun 2017",
       "status": "ongoing",
-      "glide": "FF-2025-000223-MAR",
-      "dateEvent": "2025-12-14T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52497",
-      "primaryCountry": "Morocco",
-      "primaryCountryIso3": "mar",
+      "glide": "EP-2017-000077-NGA",
+      "dateEvent": "2017-06-07T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/43154",
+      "primaryCountry": "Nigeria",
+      "primaryCountryIso3": "nga",
       "location": {
-        "lat": 32.35,
-        "lon": -6.02
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52462",
-      "name": "Cuba: Arboviral Outbreak - Oct 2025",
-      "status": "ongoing",
-      "glide": "EP-2025-000200-CUB",
-      "dateEvent": "2025-10-15T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52462",
-      "primaryCountry": "Cuba",
-      "primaryCountryIso3": "cub",
-      "location": {
-        "lat": 21.95,
-        "lon": -79.24
+        "lat": 9.59,
+        "lon": 8.11
       },
       "primaryType": "Epidemic",
       "types": [
         "Epidemic"
-      ]
-    },
-    {
-      "id": "52435",
-      "name": "Bolivia: Wild Fires - Aug 2025",
-      "status": "ongoing",
-      "glide": "WF-2025-000163-BOL",
-      "dateEvent": "2025-08-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52435",
-      "primaryCountry": "Bolivia (Plurinational State of)",
-      "primaryCountryIso3": "bol",
-      "location": {
-        "lat": -16.97,
-        "lon": -64.27
-      },
-      "primaryType": "Wild Fire",
-      "types": [
-        "Wild Fire"
       ]
     },
     {
@@ -32513,7 +32518,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-10-30T14:10:17.832Z",
+    "queryGeneratedAt": "2026-10-30T19:23:33.779Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -32524,7 +32529,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-10-30T14:10:21.508Z",
+    "reportThumbnailCacheAt": "2026-10-30T19:23:41.310Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
