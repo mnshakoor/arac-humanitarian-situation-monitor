@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-11-02T15:55:30.781Z",
-  "lastSyncAttemptAt": "2026-11-02T15:55:30.781Z",
+  "generatedAt": "2026-11-02T23:31:46.270Z",
+  "lastSyncAttemptAt": "2026-11-02T23:31:46.270Z",
   "enrichedAt": "2026-11-02T09:55:53.325Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -22,7 +22,7 @@
     }
   },
   "summary": {
-    "reports30d": 1954,
+    "reports30d": 1953,
     "countries": 112,
     "uniqueSources": 150,
     "activeDisasters": 99,
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-10-06T00:00:00+00:00",
-      "count": 95
+      "count": 94
     },
     {
       "date": "2026-10-07T00:00:00+00:00",
@@ -163,7 +163,7 @@
     },
     {
       "name": "Food and Nutrition",
-      "count": 417
+      "count": 416
     },
     {
       "name": "Water Sanitation Hygiene",
@@ -175,7 +175,7 @@
     },
     {
       "name": "Education",
-      "count": 247
+      "count": 246
     },
     {
       "name": "Coordination",
@@ -186,11 +186,11 @@
       "count": 186
     },
     {
-      "name": "Logistics and Telecommunications",
-      "count": 113
+      "name": "Gender",
+      "count": 112
     },
     {
-      "name": "Gender",
+      "name": "Logistics and Telecommunications",
       "count": 112
     },
     {
@@ -245,7 +245,7 @@
     },
     {
       "name": "WFP",
-      "count": 184
+      "count": 183
     },
     {
       "name": "IOM",
@@ -843,7 +843,7 @@
     },
     {
       "name": "Situation Report",
-      "count": 466
+      "count": 465
     },
     {
       "name": "Infographic",
@@ -3940,7 +3940,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/9f/21/9f219e53-bf76-4bab-8e6f-c640fc3c5229.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/occupied-palestinian-territory/unicef-state-palestine-humanitarian-situation-update-hebron-30-october-2026"
+          "url": "https://reliefweb.int/report/occupied-palestinian-territory/unicef-state-palestine-humanitarian-situation-update-hebron-30-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4236491.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/9f/21/9f219e53-bf76-4bab-8e6f-c640fc3c5229.png"
         },
         {
           "id": "4236494",
@@ -6177,7 +6179,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/60/79/6079e193-be53-4f91-a8bf-ced1551b7b88.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-monthly-snapshot-january-september-2026"
+          "url": "https://reliefweb.int/report/afghanistan/shelter-cluster-afghanistan-monthly-snapshot-january-september-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4236501.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/60/79/6079e193-be53-4f91-a8bf-ced1551b7b88.png"
         },
         {
           "id": "4236509",
@@ -8105,7 +8109,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/images/reports/7c/cb/7ccbabc1-43dc-42e2-a555-30f5911e172d.webp"
           ],
           "thumbnailCopyright": "WHO South Sudan",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-conducts-nationwide-polio-vaccination-campaign-targeting-39-million-children"
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-conducts-nationwide-polio-vaccination-campaign-targeting-39-million-children",
+          "localThumbnail": "./assets/report-thumbs/rw-4236481.webp",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/images/reports/7c/cb/7ccbabc1-43dc-42e2-a555-30f5911e172d.webp"
         },
         {
           "id": "4236483",
@@ -10795,7 +10801,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/91/bc/91bca47d-4f59-4b6d-902b-4963e7816d91.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/nepal/nepal-rasuwa-flood-situation-report-no-12-30-october-2026"
+          "url": "https://reliefweb.int/report/nepal/nepal-rasuwa-flood-situation-report-no-12-30-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4236518.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/91/bc/91bca47d-4f59-4b6d-902b-4963e7816d91.png"
         },
         {
           "id": "4236148",
@@ -20012,518 +20020,6 @@
       "enrichmentStatus": "complete"
     },
     {
-      "name": "Burkina Faso",
-      "shortname": "Burkina Faso",
-      "iso3": "bfa",
-      "location": {
-        "lat": 12.28,
-        "lon": -1.57
-      },
-      "overview": "",
-      "countryUrl": "",
-      "reports30d": 13,
-      "reports7d": 0,
-      "previous7d": 2,
-      "change7d": -100,
-      "uniqueSources": 7,
-      "themeBreadth": 9,
-      "formatBreadth": 4,
-      "topThemes": [
-        {
-          "name": "Protection and Human Rights",
-          "count": 5
-        },
-        {
-          "name": "Coordination",
-          "count": 3
-        },
-        {
-          "name": "Climate Change and Environment",
-          "count": 2
-        },
-        {
-          "name": "Education",
-          "count": 2
-        },
-        {
-          "name": "Food and Nutrition",
-          "count": 2
-        },
-        {
-          "name": "Health",
-          "count": 2
-        },
-        {
-          "name": "Agriculture",
-          "count": 1
-        },
-        {
-          "name": "Humanitarian Financing",
-          "count": 1
-        },
-        {
-          "name": "Logistics and Telecommunications",
-          "count": 1
-        }
-      ],
-      "topSources": [
-        {
-          "name": "IOM",
-          "count": 3
-        },
-        {
-          "name": "OCHA",
-          "count": 3
-        },
-        {
-          "name": "IRC",
-          "count": 2
-        },
-        {
-          "name": "MMC",
-          "count": 2
-        },
-        {
-          "name": "Education Cluster",
-          "count": 1
-        },
-        {
-          "name": "FEWS NET",
-          "count": 1
-        },
-        {
-          "name": "WFP",
-          "count": 1
-        }
-      ],
-      "topFormats": [
-        {
-          "name": "Infographic",
-          "count": 6
-        },
-        {
-          "name": "Analysis",
-          "count": 5
-        },
-        {
-          "name": "Other",
-          "count": 1
-        },
-        {
-          "name": "Situation Report",
-          "count": 1
-        }
-      ],
-      "disasterTypes": [],
-      "timeline": [
-        {
-          "date": "2026-10-06T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-10-07T00:00:00+00:00",
-          "count": 4
-        },
-        {
-          "date": "2026-10-08T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-10-09T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-10-10T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-11T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-12T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-13T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-14T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-15T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-16T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-17T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-18T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-19T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-20T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-21T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-22T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-23T00:00:00+00:00",
-          "count": 2
-        }
-      ],
-      "recentReports": [
-        {
-          "id": "4235411",
-          "title": "Coordination, collaboration et un réfrigérateur: comment une banque de sang au Burkina Faso sauve des vies | International Rescue Committee",
-          "dateOriginal": "2026-10-23T00:00:00+00:00",
-          "primaryCountry": "Burkina Faso",
-          "primaryCountryIso3": "bfa",
-          "primaryCountryLocation": {
-            "lat": 12.28,
-            "lon": -1.57
-          },
-          "source": "IRC",
-          "format": "Analysis",
-          "themes": [
-            "Health"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/b1/c9b1a3fd-ed73-5e3c-8f0f-e7682b7c9133.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/b1/c9b1a3fd-ed73-5e3c-8f0f-e7682b7c9133.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/c9/b1/c9b1a3fd-ed73-5e3c-8f0f-e7682b7c9133.png",
-            "https://reliefweb.int/sites/default/files/previews/c9/b1/c9b1a3fd-ed73-5e3c-8f0f-e7682b7c9133.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/c9/b1/c9b1a3fd-ed73-5e3c-8f0f-e7682b7c9133.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/burkina-faso/coordination-collaboration-et-un-refrigerateur-comment-une-banque-de-sang-au-burkina-faso-sauve-des-vies-international-rescue-committee",
-          "localThumbnail": "./assets/report-thumbs/rw-4235411.png"
-        },
-        {
-          "id": "4235410",
-          "title": "Coordination, collaboration, and a refrigerator: How a blood bank in Burkina Faso saves lives | International Rescue Committee",
-          "dateOriginal": "2026-10-23T00:00:00+00:00",
-          "primaryCountry": "Burkina Faso",
-          "primaryCountryIso3": "bfa",
-          "primaryCountryLocation": {
-            "lat": 12.28,
-            "lon": -1.57
-          },
-          "source": "IRC",
-          "format": "Analysis",
-          "themes": [
-            "Health"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/aa/2e/aa2ec0a8-50a5-5c40-900c-fdb9d5a39858.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/aa/2e/aa2ec0a8-50a5-5c40-900c-fdb9d5a39858.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/aa/2e/aa2ec0a8-50a5-5c40-900c-fdb9d5a39858.png",
-            "https://reliefweb.int/sites/default/files/previews/aa/2e/aa2ec0a8-50a5-5c40-900c-fdb9d5a39858.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/aa/2e/aa2ec0a8-50a5-5c40-900c-fdb9d5a39858.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/burkina-faso/coordination-collaboration-and-refrigerator-how-blood-bank-burkina-faso-saves-lives-international-rescue-committee",
-          "localThumbnail": "./assets/report-thumbs/rw-4235410.png"
-        },
-        {
-          "id": "4235181",
-          "title": "Burkina Faso : Aperçu du financement du Plan de réponse humanitaire (HRP) 2026 (15 octobre 2026)",
-          "dateOriginal": "2026-10-15T00:00:00+00:00",
-          "primaryCountry": "Burkina Faso",
-          "primaryCountryIso3": "bfa",
-          "primaryCountryLocation": {
-            "lat": 12.28,
-            "lon": -1.57
-          },
-          "source": "OCHA",
-          "format": "Infographic",
-          "themes": [
-            "Coordination",
-            "Humanitarian Financing"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/db/9d/db9d791f-305b-4536-9d2c-c8b893baebc8.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/db/9d/db9d791f-305b-4536-9d2c-c8b893baebc8.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/db/9d/db9d791f-305b-4536-9d2c-c8b893baebc8.png",
-            "https://reliefweb.int/sites/default/files/previews/db/9d/db9d791f-305b-4536-9d2c-c8b893baebc8.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/db/9d/db9d791f-305b-4536-9d2c-c8b893baebc8.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-apercu-du-financement-du-plan-de-reponse-humanitaire-hrp-2026-15-octobre-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4235181.png"
-        },
-        {
-          "id": "4233380",
-          "title": "Migration from Burkina Faso to northern Côte d’Ivoire in the context of climate change",
-          "dateOriginal": "2026-10-09T00:00:00+00:00",
-          "primaryCountry": "Burkina Faso",
-          "primaryCountryIso3": "bfa",
-          "primaryCountryLocation": {
-            "lat": 12.28,
-            "lon": -1.57
-          },
-          "source": "MMC",
-          "format": "Analysis",
-          "themes": [
-            "Climate Change and Environment",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a3/64/a3645434-14de-49a5-a6cd-08da25390133.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a3/64/a3645434-14de-49a5-a6cd-08da25390133.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/a3/64/a3645434-14de-49a5-a6cd-08da25390133.png",
-            "https://reliefweb.int/sites/default/files/previews/a3/64/a3645434-14de-49a5-a6cd-08da25390133.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/a3/64/a3645434-14de-49a5-a6cd-08da25390133.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/burkina-faso/migration-burkina-faso-northern-cote-divoire-context-climate-change",
-          "localThumbnail": "./assets/report-thumbs/rw-4233380.png"
-        },
-        {
-          "id": "4233381",
-          "title": "La migration du Burkina Faso vers le Nord de la Côte d’Ivoire face au changement climatique",
-          "dateOriginal": "2026-10-09T00:00:00+00:00",
-          "primaryCountry": "Burkina Faso",
-          "primaryCountryIso3": "bfa",
-          "primaryCountryLocation": {
-            "lat": 12.28,
-            "lon": -1.57
-          },
-          "source": "MMC",
-          "format": "Analysis",
-          "themes": [
-            "Climate Change and Environment",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ab/ff/abff94b7-343a-4145-babb-6f8d5fc0acd8.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ab/ff/abff94b7-343a-4145-babb-6f8d5fc0acd8.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ab/ff/abff94b7-343a-4145-babb-6f8d5fc0acd8.png",
-            "https://reliefweb.int/sites/default/files/previews/ab/ff/abff94b7-343a-4145-babb-6f8d5fc0acd8.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ab/ff/abff94b7-343a-4145-babb-6f8d5fc0acd8.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/burkina-faso/la-migration-du-burkina-faso-vers-le-nord-de-la-cote-divoire-face-au-changement-climatique",
-          "localThumbnail": "./assets/report-thumbs/rw-4233381.png"
-        },
-        {
-          "id": "4235174",
-          "title": "Burkina Faso : Présence Opérationnelle (3W) Juillet-Août 2026",
-          "dateOriginal": "2026-10-08T00:00:00+00:00",
-          "primaryCountry": "Burkina Faso",
-          "primaryCountryIso3": "bfa",
-          "primaryCountryLocation": {
-            "lat": 12.28,
-            "lon": -1.57
-          },
-          "source": "OCHA",
-          "format": "Infographic",
-          "themes": [
-            "Coordination"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/f8/7cf84b75-7d12-4346-a1ed-fb35294b3102.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/f8/7cf84b75-7d12-4346-a1ed-fb35294b3102.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/7c/f8/7cf84b75-7d12-4346-a1ed-fb35294b3102.png",
-            "https://reliefweb.int/sites/default/files/previews/7c/f8/7cf84b75-7d12-4346-a1ed-fb35294b3102.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/7c/f8/7cf84b75-7d12-4346-a1ed-fb35294b3102.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-presence-operationnelle-3w-juillet-aout-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4235174.png"
-        },
-        {
-          "id": "4233140",
-          "title": "Burkina Faso : HRP 2026 - Suivi périodique de la réponse humanitaire, août 2026",
-          "dateOriginal": "2026-10-08T00:00:00+00:00",
-          "primaryCountry": "Burkina Faso",
-          "primaryCountryIso3": "bfa",
-          "primaryCountryLocation": {
-            "lat": 12.28,
-            "lon": -1.57
-          },
-          "source": "OCHA",
-          "format": "Infographic",
-          "themes": [
-            "Coordination"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/15/c0/15c03838-02aa-4e69-9d12-8146105254ac.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/15/c0/15c03838-02aa-4e69-9d12-8146105254ac.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/15/c0/15c03838-02aa-4e69-9d12-8146105254ac.png",
-            "https://reliefweb.int/sites/default/files/previews/15/c0/15c03838-02aa-4e69-9d12-8146105254ac.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/15/c0/15c03838-02aa-4e69-9d12-8146105254ac.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-hrp-2026-suivi-periodique-de-la-reponse-humanitaire-aout-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4233140.png"
-        },
-        {
-          "id": "4233112",
-          "title": "Burkina Faso - Key Message Update: Agropastoral production prospects negatively affected by El Niño conditions, September 2026 - January 2027",
-          "dateOriginal": "2026-10-07T00:00:00+00:00",
-          "primaryCountry": "Burkina Faso",
-          "primaryCountryIso3": "bfa",
-          "primaryCountryLocation": {
-            "lat": 12.28,
-            "lon": -1.57
-          },
-          "source": "FEWS NET",
-          "format": "Analysis",
-          "themes": [
-            "Agriculture",
-            "Food and Nutrition"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b7/5c/b75ca7d9-d82a-46f5-94ca-a2d2dc5b2d90.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b7/5c/b75ca7d9-d82a-46f5-94ca-a2d2dc5b2d90.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/b7/5c/b75ca7d9-d82a-46f5-94ca-a2d2dc5b2d90.png",
-            "https://reliefweb.int/sites/default/files/previews/b7/5c/b75ca7d9-d82a-46f5-94ca-a2d2dc5b2d90.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/b7/5c/b75ca7d9-d82a-46f5-94ca-a2d2dc5b2d90.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-key-message-update-agropastoral-production-prospects-negatively-affected-el-nino-conditions-september-2026-january-2027",
-          "localThumbnail": "./assets/report-thumbs/rw-4233112.png"
-        },
-        {
-          "id": "4235054",
-          "title": "Suivi des flux et enquêtes individuelles de migrants au Burkina Faso (avril-juin 2025)",
-          "dateOriginal": "2026-10-07T00:00:00+00:00",
-          "primaryCountry": "Burkina Faso",
-          "primaryCountryIso3": "bfa",
-          "primaryCountryLocation": {
-            "lat": 12.28,
-            "lon": -1.57
-          },
-          "source": "IOM",
-          "format": "Infographic",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/55/20/5520854e-cfa4-5e6b-a767-95ad1b00fbe2.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/55/20/5520854e-cfa4-5e6b-a767-95ad1b00fbe2.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/55/20/5520854e-cfa4-5e6b-a767-95ad1b00fbe2.png",
-            "https://reliefweb.int/sites/default/files/previews/55/20/5520854e-cfa4-5e6b-a767-95ad1b00fbe2.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/55/20/5520854e-cfa4-5e6b-a767-95ad1b00fbe2.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/burkina-faso/suivi-des-flux-et-enquetes-individuelles-de-migrants-au-burkina-faso-avril-juin-2025",
-          "localThumbnail": "./assets/report-thumbs/rw-4235054.png"
-        },
-        {
-          "id": "4235057",
-          "title": "Afrique de l’Ouest et du Centre — Tableau de bord sur la crise du Liptako Gourma et Sahel central 68 (août 2026)",
-          "dateOriginal": "2026-10-07T00:00:00+00:00",
-          "primaryCountry": "Burkina Faso",
-          "primaryCountryIso3": "bfa",
-          "primaryCountryLocation": {
-            "lat": 12.28,
-            "lon": -1.57
-          },
-          "source": "IOM",
-          "format": "Infographic",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ac/b9/acb9ef8c-76d7-586b-bbfc-099584b095b4.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ac/b9/acb9ef8c-76d7-586b-bbfc-099584b095b4.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ac/b9/acb9ef8c-76d7-586b-bbfc-099584b095b4.png",
-            "https://reliefweb.int/sites/default/files/previews/ac/b9/acb9ef8c-76d7-586b-bbfc-099584b095b4.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ac/b9/acb9ef8c-76d7-586b-bbfc-099584b095b4.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/burkina-faso/afrique-de-louest-et-du-centre-tableau-de-bord-sur-la-crise-du-liptako-gourma-et-sahel-central-68-aout-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4235057.png"
-        },
-        {
-          "id": "4235052",
-          "title": "Situation in Central Sahel, Liptako Gourma and Coastal Countries - DTM Monthly Dashboard #68 (August 2026)",
-          "dateOriginal": "2026-10-07T00:00:00+00:00",
-          "primaryCountry": "Burkina Faso",
-          "primaryCountryIso3": "bfa",
-          "primaryCountryLocation": {
-            "lat": 12.28,
-            "lon": -1.57
-          },
-          "source": "IOM",
-          "format": "Infographic",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/21/51/2151bea8-a656-5ed7-911e-20b27f883580.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/21/51/2151bea8-a656-5ed7-911e-20b27f883580.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/21/51/2151bea8-a656-5ed7-911e-20b27f883580.png",
-            "https://reliefweb.int/sites/default/files/previews/21/51/2151bea8-a656-5ed7-911e-20b27f883580.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/21/51/2151bea8-a656-5ed7-911e-20b27f883580.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/burkina-faso/situation-central-sahel-liptako-gourma-and-coastal-countries-dtm-monthly-dashboard-68-august-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4235052.png"
-        },
-        {
-          "id": "4232827",
-          "title": "WFP Burkina Faso Country Brief, September 2026",
-          "dateOriginal": "2026-10-06T00:00:00+00:00",
-          "primaryCountry": "Burkina Faso",
-          "primaryCountryIso3": "bfa",
-          "primaryCountryLocation": {
-            "lat": 12.28,
-            "lon": -1.57
-          },
-          "source": "WFP",
-          "format": "Situation Report",
-          "themes": [
-            "Education",
-            "Food and Nutrition",
-            "Logistics and Telecommunications"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cd/ca/cdca94a3-e4eb-4335-9250-976101806d87.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cd/ca/cdca94a3-e4eb-4335-9250-976101806d87.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/cd/ca/cdca94a3-e4eb-4335-9250-976101806d87.png",
-            "https://reliefweb.int/sites/default/files/previews/cd/ca/cdca94a3-e4eb-4335-9250-976101806d87.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/cd/ca/cdca94a3-e4eb-4335-9250-976101806d87.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/burkina-faso/wfp-burkina-faso-country-brief-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4232827.png"
-        }
-      ],
-      "enrichmentStatus": "complete"
-    },
-    {
       "name": "Mozambique",
       "shortname": "Mozambique",
       "iso3": "moz",
@@ -22142,6 +21638,518 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/le-chef-du-hcr-souligne-limportance-doffrir-des-opportunites-aux-personnes-deplacees-au-mexique-perou-et-venezuela"
+        }
+      ],
+      "enrichmentStatus": "complete"
+    },
+    {
+      "name": "Burkina Faso",
+      "shortname": "Burkina Faso",
+      "iso3": "bfa",
+      "location": {
+        "lat": 12.28,
+        "lon": -1.57
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 12,
+      "reports7d": 0,
+      "previous7d": 2,
+      "change7d": -100,
+      "uniqueSources": 7,
+      "themeBreadth": 9,
+      "formatBreadth": 4,
+      "topThemes": [
+        {
+          "name": "Protection and Human Rights",
+          "count": 5
+        },
+        {
+          "name": "Coordination",
+          "count": 3
+        },
+        {
+          "name": "Climate Change and Environment",
+          "count": 2
+        },
+        {
+          "name": "Education",
+          "count": 2
+        },
+        {
+          "name": "Food and Nutrition",
+          "count": 2
+        },
+        {
+          "name": "Health",
+          "count": 2
+        },
+        {
+          "name": "Agriculture",
+          "count": 1
+        },
+        {
+          "name": "Humanitarian Financing",
+          "count": 1
+        },
+        {
+          "name": "Logistics and Telecommunications",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "IOM",
+          "count": 3
+        },
+        {
+          "name": "OCHA",
+          "count": 3
+        },
+        {
+          "name": "IRC",
+          "count": 2
+        },
+        {
+          "name": "MMC",
+          "count": 2
+        },
+        {
+          "name": "Education Cluster",
+          "count": 1
+        },
+        {
+          "name": "FEWS NET",
+          "count": 1
+        },
+        {
+          "name": "WFP",
+          "count": 1
+        }
+      ],
+      "topFormats": [
+        {
+          "name": "Infographic",
+          "count": 6
+        },
+        {
+          "name": "Analysis",
+          "count": 5
+        },
+        {
+          "name": "Other",
+          "count": 1
+        },
+        {
+          "name": "Situation Report",
+          "count": 1
+        }
+      ],
+      "disasterTypes": [],
+      "timeline": [
+        {
+          "date": "2026-10-06T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-10-07T00:00:00+00:00",
+          "count": 4
+        },
+        {
+          "date": "2026-10-08T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-10-09T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-10-10T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-11T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-12T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-13T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-14T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-15T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-16T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-17T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-18T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-19T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-20T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-21T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-22T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-23T00:00:00+00:00",
+          "count": 2
+        }
+      ],
+      "recentReports": [
+        {
+          "id": "4235411",
+          "title": "Coordination, collaboration et un réfrigérateur: comment une banque de sang au Burkina Faso sauve des vies | International Rescue Committee",
+          "dateOriginal": "2026-10-23T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "IRC",
+          "format": "Analysis",
+          "themes": [
+            "Health"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/b1/c9b1a3fd-ed73-5e3c-8f0f-e7682b7c9133.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/b1/c9b1a3fd-ed73-5e3c-8f0f-e7682b7c9133.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/c9/b1/c9b1a3fd-ed73-5e3c-8f0f-e7682b7c9133.png",
+            "https://reliefweb.int/sites/default/files/previews/c9/b1/c9b1a3fd-ed73-5e3c-8f0f-e7682b7c9133.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/c9/b1/c9b1a3fd-ed73-5e3c-8f0f-e7682b7c9133.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/coordination-collaboration-et-un-refrigerateur-comment-une-banque-de-sang-au-burkina-faso-sauve-des-vies-international-rescue-committee",
+          "localThumbnail": "./assets/report-thumbs/rw-4235411.png"
+        },
+        {
+          "id": "4235410",
+          "title": "Coordination, collaboration, and a refrigerator: How a blood bank in Burkina Faso saves lives | International Rescue Committee",
+          "dateOriginal": "2026-10-23T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "IRC",
+          "format": "Analysis",
+          "themes": [
+            "Health"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/aa/2e/aa2ec0a8-50a5-5c40-900c-fdb9d5a39858.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/aa/2e/aa2ec0a8-50a5-5c40-900c-fdb9d5a39858.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/aa/2e/aa2ec0a8-50a5-5c40-900c-fdb9d5a39858.png",
+            "https://reliefweb.int/sites/default/files/previews/aa/2e/aa2ec0a8-50a5-5c40-900c-fdb9d5a39858.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/aa/2e/aa2ec0a8-50a5-5c40-900c-fdb9d5a39858.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/coordination-collaboration-and-refrigerator-how-blood-bank-burkina-faso-saves-lives-international-rescue-committee",
+          "localThumbnail": "./assets/report-thumbs/rw-4235410.png"
+        },
+        {
+          "id": "4235181",
+          "title": "Burkina Faso : Aperçu du financement du Plan de réponse humanitaire (HRP) 2026 (15 octobre 2026)",
+          "dateOriginal": "2026-10-15T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "OCHA",
+          "format": "Infographic",
+          "themes": [
+            "Coordination",
+            "Humanitarian Financing"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/db/9d/db9d791f-305b-4536-9d2c-c8b893baebc8.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/db/9d/db9d791f-305b-4536-9d2c-c8b893baebc8.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/db/9d/db9d791f-305b-4536-9d2c-c8b893baebc8.png",
+            "https://reliefweb.int/sites/default/files/previews/db/9d/db9d791f-305b-4536-9d2c-c8b893baebc8.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/db/9d/db9d791f-305b-4536-9d2c-c8b893baebc8.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-apercu-du-financement-du-plan-de-reponse-humanitaire-hrp-2026-15-octobre-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4235181.png"
+        },
+        {
+          "id": "4233380",
+          "title": "Migration from Burkina Faso to northern Côte d’Ivoire in the context of climate change",
+          "dateOriginal": "2026-10-09T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "MMC",
+          "format": "Analysis",
+          "themes": [
+            "Climate Change and Environment",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a3/64/a3645434-14de-49a5-a6cd-08da25390133.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a3/64/a3645434-14de-49a5-a6cd-08da25390133.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/a3/64/a3645434-14de-49a5-a6cd-08da25390133.png",
+            "https://reliefweb.int/sites/default/files/previews/a3/64/a3645434-14de-49a5-a6cd-08da25390133.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/a3/64/a3645434-14de-49a5-a6cd-08da25390133.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/migration-burkina-faso-northern-cote-divoire-context-climate-change",
+          "localThumbnail": "./assets/report-thumbs/rw-4233380.png"
+        },
+        {
+          "id": "4233381",
+          "title": "La migration du Burkina Faso vers le Nord de la Côte d’Ivoire face au changement climatique",
+          "dateOriginal": "2026-10-09T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "MMC",
+          "format": "Analysis",
+          "themes": [
+            "Climate Change and Environment",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ab/ff/abff94b7-343a-4145-babb-6f8d5fc0acd8.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ab/ff/abff94b7-343a-4145-babb-6f8d5fc0acd8.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ab/ff/abff94b7-343a-4145-babb-6f8d5fc0acd8.png",
+            "https://reliefweb.int/sites/default/files/previews/ab/ff/abff94b7-343a-4145-babb-6f8d5fc0acd8.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ab/ff/abff94b7-343a-4145-babb-6f8d5fc0acd8.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/la-migration-du-burkina-faso-vers-le-nord-de-la-cote-divoire-face-au-changement-climatique",
+          "localThumbnail": "./assets/report-thumbs/rw-4233381.png"
+        },
+        {
+          "id": "4235174",
+          "title": "Burkina Faso : Présence Opérationnelle (3W) Juillet-Août 2026",
+          "dateOriginal": "2026-10-08T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "OCHA",
+          "format": "Infographic",
+          "themes": [
+            "Coordination"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/f8/7cf84b75-7d12-4346-a1ed-fb35294b3102.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/f8/7cf84b75-7d12-4346-a1ed-fb35294b3102.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/7c/f8/7cf84b75-7d12-4346-a1ed-fb35294b3102.png",
+            "https://reliefweb.int/sites/default/files/previews/7c/f8/7cf84b75-7d12-4346-a1ed-fb35294b3102.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/7c/f8/7cf84b75-7d12-4346-a1ed-fb35294b3102.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-presence-operationnelle-3w-juillet-aout-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4235174.png"
+        },
+        {
+          "id": "4233140",
+          "title": "Burkina Faso : HRP 2026 - Suivi périodique de la réponse humanitaire, août 2026",
+          "dateOriginal": "2026-10-08T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "OCHA",
+          "format": "Infographic",
+          "themes": [
+            "Coordination"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/15/c0/15c03838-02aa-4e69-9d12-8146105254ac.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/15/c0/15c03838-02aa-4e69-9d12-8146105254ac.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/15/c0/15c03838-02aa-4e69-9d12-8146105254ac.png",
+            "https://reliefweb.int/sites/default/files/previews/15/c0/15c03838-02aa-4e69-9d12-8146105254ac.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/15/c0/15c03838-02aa-4e69-9d12-8146105254ac.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-hrp-2026-suivi-periodique-de-la-reponse-humanitaire-aout-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4233140.png"
+        },
+        {
+          "id": "4233112",
+          "title": "Burkina Faso - Key Message Update: Agropastoral production prospects negatively affected by El Niño conditions, September 2026 - January 2027",
+          "dateOriginal": "2026-10-07T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "FEWS NET",
+          "format": "Analysis",
+          "themes": [
+            "Agriculture",
+            "Food and Nutrition"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b7/5c/b75ca7d9-d82a-46f5-94ca-a2d2dc5b2d90.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b7/5c/b75ca7d9-d82a-46f5-94ca-a2d2dc5b2d90.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/b7/5c/b75ca7d9-d82a-46f5-94ca-a2d2dc5b2d90.png",
+            "https://reliefweb.int/sites/default/files/previews/b7/5c/b75ca7d9-d82a-46f5-94ca-a2d2dc5b2d90.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/b7/5c/b75ca7d9-d82a-46f5-94ca-a2d2dc5b2d90.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-key-message-update-agropastoral-production-prospects-negatively-affected-el-nino-conditions-september-2026-january-2027",
+          "localThumbnail": "./assets/report-thumbs/rw-4233112.png"
+        },
+        {
+          "id": "4235054",
+          "title": "Suivi des flux et enquêtes individuelles de migrants au Burkina Faso (avril-juin 2025)",
+          "dateOriginal": "2026-10-07T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "IOM",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/55/20/5520854e-cfa4-5e6b-a767-95ad1b00fbe2.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/55/20/5520854e-cfa4-5e6b-a767-95ad1b00fbe2.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/55/20/5520854e-cfa4-5e6b-a767-95ad1b00fbe2.png",
+            "https://reliefweb.int/sites/default/files/previews/55/20/5520854e-cfa4-5e6b-a767-95ad1b00fbe2.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/55/20/5520854e-cfa4-5e6b-a767-95ad1b00fbe2.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/suivi-des-flux-et-enquetes-individuelles-de-migrants-au-burkina-faso-avril-juin-2025",
+          "localThumbnail": "./assets/report-thumbs/rw-4235054.png"
+        },
+        {
+          "id": "4235057",
+          "title": "Afrique de l’Ouest et du Centre — Tableau de bord sur la crise du Liptako Gourma et Sahel central 68 (août 2026)",
+          "dateOriginal": "2026-10-07T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "IOM",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ac/b9/acb9ef8c-76d7-586b-bbfc-099584b095b4.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ac/b9/acb9ef8c-76d7-586b-bbfc-099584b095b4.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ac/b9/acb9ef8c-76d7-586b-bbfc-099584b095b4.png",
+            "https://reliefweb.int/sites/default/files/previews/ac/b9/acb9ef8c-76d7-586b-bbfc-099584b095b4.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ac/b9/acb9ef8c-76d7-586b-bbfc-099584b095b4.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/afrique-de-louest-et-du-centre-tableau-de-bord-sur-la-crise-du-liptako-gourma-et-sahel-central-68-aout-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4235057.png"
+        },
+        {
+          "id": "4235052",
+          "title": "Situation in Central Sahel, Liptako Gourma and Coastal Countries - DTM Monthly Dashboard #68 (August 2026)",
+          "dateOriginal": "2026-10-07T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "IOM",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/21/51/2151bea8-a656-5ed7-911e-20b27f883580.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/21/51/2151bea8-a656-5ed7-911e-20b27f883580.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/21/51/2151bea8-a656-5ed7-911e-20b27f883580.png",
+            "https://reliefweb.int/sites/default/files/previews/21/51/2151bea8-a656-5ed7-911e-20b27f883580.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/21/51/2151bea8-a656-5ed7-911e-20b27f883580.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/situation-central-sahel-liptako-gourma-and-coastal-countries-dtm-monthly-dashboard-68-august-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4235052.png"
+        },
+        {
+          "id": "4232827",
+          "title": "WFP Burkina Faso Country Brief, September 2026",
+          "dateOriginal": "2026-10-06T00:00:00+00:00",
+          "primaryCountry": "Burkina Faso",
+          "primaryCountryIso3": "bfa",
+          "primaryCountryLocation": {
+            "lat": 12.28,
+            "lon": -1.57
+          },
+          "source": "WFP",
+          "format": "Situation Report",
+          "themes": [
+            "Education",
+            "Food and Nutrition",
+            "Logistics and Telecommunications"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cd/ca/cdca94a3-e4eb-4335-9250-976101806d87.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cd/ca/cdca94a3-e4eb-4335-9250-976101806d87.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/cd/ca/cdca94a3-e4eb-4335-9250-976101806d87.png",
+            "https://reliefweb.int/sites/default/files/previews/cd/ca/cdca94a3-e4eb-4335-9250-976101806d87.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/cd/ca/cdca94a3-e4eb-4335-9250-976101806d87.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/burkina-faso/wfp-burkina-faso-country-brief-september-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4232827.png"
         }
       ],
       "enrichmentStatus": "complete"
@@ -28614,8 +28622,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/panama/unicef-panama-humanitarian-situation-report-no-6-earthquake-24-30-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236489.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/e9/ac/e9ac2d15-f7d9-493e-9e34-663fd4a128e8.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236489.png"
     },
     {
       "id": "4236511",
@@ -28710,7 +28717,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/3c/e0/3ce012ab-d1cc-49e5-8932-eaadd612046d.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/nepal/rapid-gender-analysis-bhotekoshi-flood-2026-nepal"
+      "url": "https://reliefweb.int/report/nepal/rapid-gender-analysis-bhotekoshi-flood-2026-nepal",
+      "localThumbnail": "./assets/report-thumbs/rw-4236521.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/3c/e0/3ce012ab-d1cc-49e5-8932-eaadd612046d.png"
     },
     {
       "id": "4236548",
@@ -28763,8 +28772,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/romania/unhcr-romania-ukraine-refugee-situation-update-2-november-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236563.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/50/a1/50a1170f-deea-5464-bc26-6332dfa7486c.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236563.png"
     },
     {
       "id": "4236562",
@@ -28817,8 +28825,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/map/yemen/map-new-displacement-due-escalation-west-coast-yemen-situation-31-oct-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236540.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/06/5e/065e347a-cd1e-5532-a636-3ae64360387f.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236540.png"
     },
     {
       "id": "4236593",
@@ -28872,8 +28879,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/panama/wfp-panama-informe-externo-de-situacion-sobre-la-emergencia-por-terremoto-29-de-octubre-de-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236561.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/69/95/699551b4-48f6-4229-95f7-0d796af4fe50.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236561.png"
     },
     {
       "id": "4236573",
@@ -28900,66 +28906,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/lebanon/lebanon-middle-east-escalation-ltc-situation-report-telecoms-11-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236573.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e2/79/e279f2e1-0148-51d3-89ba-b7f05e3ffb49.png"
-    },
-    {
-      "id": "4236578",
-      "title": "Ukraine: Humanitarian Response and Funding Snapshot (September 2026) [EN/UK]",
-      "dateOriginal": "2026-11-02T00:00:00+00:00",
-      "primaryCountry": "Ukraine",
-      "primaryCountryIso3": "ukr",
-      "primaryCountryLocation": {
-        "lat": 49.32,
-        "lon": 31.32
-      },
-      "source": "OCHA",
-      "format": "Infographic",
-      "themes": [
-        "Humanitarian Financing"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fc/9b/fc9b7f90-5c0b-4248-8abc-e7843f3cff29.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fc/9b/fc9b7f90-5c0b-4248-8abc-e7843f3cff29.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/fc/9b/fc9b7f90-5c0b-4248-8abc-e7843f3cff29.png",
-        "https://reliefweb.int/sites/default/files/previews/fc/9b/fc9b7f90-5c0b-4248-8abc-e7843f3cff29.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/fc/9b/fc9b7f90-5c0b-4248-8abc-e7843f3cff29.png",
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8f/3b/8f3bc662-06a1-4226-86d0-e5c12ad8ce9b.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/8f/3b/8f3bc662-06a1-4226-86d0-e5c12ad8ce9b.png",
-        "https://reliefweb.int/sites/default/files/previews/8f/3b/8f3bc662-06a1-4226-86d0-e5c12ad8ce9b.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/8f/3b/8f3bc662-06a1-4226-86d0-e5c12ad8ce9b.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ukraine/ukraine-humanitarian-response-and-funding-snapshot-september-2026-enuk",
-      "localThumbnail": "./assets/report-thumbs/rw-4236578.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/fc/9b/fc9b7f90-5c0b-4248-8abc-e7843f3cff29.png"
-    },
-    {
-      "id": "4236598",
-      "title": "Nourishing bodies and minds in Pakistan",
-      "dateOriginal": "2026-11-02T00:00:00+00:00",
-      "primaryCountry": "Pakistan",
-      "primaryCountryIso3": "pak",
-      "primaryCountryLocation": {
-        "lat": 29.97,
-        "lon": 69.39
-      },
-      "source": "SUN Movement",
-      "format": "Analysis",
-      "themes": [
-        "Food and Nutrition"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a1/25/a125c8d4-3780-4345-8ace-b41a8a9543cf.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a1/25/a125c8d4-3780-4345-8ace-b41a8a9543cf.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/a1/25/a125c8d4-3780-4345-8ace-b41a8a9543cf.png",
-        "https://reliefweb.int/sites/default/files/previews/a1/25/a125c8d4-3780-4345-8ace-b41a8a9543cf.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/a1/25/a125c8d4-3780-4345-8ace-b41a8a9543cf.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/pakistan/nourishing-bodies-and-minds-pakistan"
+      "localThumbnail": "./assets/report-thumbs/rw-4236573.png"
     },
     {
       "id": "4236527",
@@ -29015,8 +28962,66 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/democratic-republic-congo/listening-radio-weekly-report-listening-data-farm-radio-international-listening-radio-report-4",
-      "localThumbnail": "./assets/report-thumbs/rw-4236602.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6d/d2/6dd2a795-13c1-4552-97f1-23e088cca09f.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236602.png"
+    },
+    {
+      "id": "4236598",
+      "title": "Nourishing bodies and minds in Pakistan",
+      "dateOriginal": "2026-11-02T00:00:00+00:00",
+      "primaryCountry": "Pakistan",
+      "primaryCountryIso3": "pak",
+      "primaryCountryLocation": {
+        "lat": 29.97,
+        "lon": 69.39
+      },
+      "source": "SUN Movement",
+      "format": "Analysis",
+      "themes": [
+        "Food and Nutrition"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a1/25/a125c8d4-3780-4345-8ace-b41a8a9543cf.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a1/25/a125c8d4-3780-4345-8ace-b41a8a9543cf.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/a1/25/a125c8d4-3780-4345-8ace-b41a8a9543cf.png",
+        "https://reliefweb.int/sites/default/files/previews/a1/25/a125c8d4-3780-4345-8ace-b41a8a9543cf.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/a1/25/a125c8d4-3780-4345-8ace-b41a8a9543cf.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/pakistan/nourishing-bodies-and-minds-pakistan",
+      "localThumbnail": "./assets/report-thumbs/rw-4236598.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/a1/25/a125c8d4-3780-4345-8ace-b41a8a9543cf.png"
+    },
+    {
+      "id": "4236578",
+      "title": "Ukraine: Humanitarian Response and Funding Snapshot (September 2026) [EN/UK]",
+      "dateOriginal": "2026-11-02T00:00:00+00:00",
+      "primaryCountry": "Ukraine",
+      "primaryCountryIso3": "ukr",
+      "primaryCountryLocation": {
+        "lat": 49.32,
+        "lon": 31.32
+      },
+      "source": "OCHA",
+      "format": "Infographic",
+      "themes": [
+        "Humanitarian Financing"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fc/9b/fc9b7f90-5c0b-4248-8abc-e7843f3cff29.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fc/9b/fc9b7f90-5c0b-4248-8abc-e7843f3cff29.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/fc/9b/fc9b7f90-5c0b-4248-8abc-e7843f3cff29.png",
+        "https://reliefweb.int/sites/default/files/previews/fc/9b/fc9b7f90-5c0b-4248-8abc-e7843f3cff29.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/fc/9b/fc9b7f90-5c0b-4248-8abc-e7843f3cff29.png",
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8f/3b/8f3bc662-06a1-4226-86d0-e5c12ad8ce9b.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/8f/3b/8f3bc662-06a1-4226-86d0-e5c12ad8ce9b.png",
+        "https://reliefweb.int/sites/default/files/previews/8f/3b/8f3bc662-06a1-4226-86d0-e5c12ad8ce9b.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/8f/3b/8f3bc662-06a1-4226-86d0-e5c12ad8ce9b.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/ukraine/ukraine-humanitarian-response-and-funding-snapshot-september-2026-enuk",
+      "localThumbnail": "./assets/report-thumbs/rw-4236578.png"
     },
     {
       "id": "4236490",
@@ -29096,8 +29101,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/chad/wfp-chad-country-brief-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236546.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b2/4f/b24f45ed-b2d2-400c-93f6-fb3369e51fe2.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236546.png"
     },
     {
       "id": "4236541",
@@ -29124,7 +29128,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/f1/25/f1255228-fc7d-56a5-8e47-04f3641676bc.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/moldova/ukraine-situation-moldova-operational-update-september-2026"
+      "url": "https://reliefweb.int/report/moldova/ukraine-situation-moldova-operational-update-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4236541.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/f1/25/f1255228-fc7d-56a5-8e47-04f3641676bc.png"
     },
     {
       "id": "4236542",
@@ -29151,7 +29157,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/65/21/6521c819-800c-487c-91e3-732ca43b09c3.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/sudan-nutrition-sector-bulletin-january-september-2026"
+      "url": "https://reliefweb.int/report/sudan/sudan-nutrition-sector-bulletin-january-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4236542.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/65/21/6521c819-800c-487c-91e3-732ca43b09c3.png"
     },
     {
       "id": "4236533",
@@ -29178,8 +29186,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/map/occupied-palestinian-territory/palestine-gaza-strip-ltc-telecoms-services-dashboard-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236533.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b1/1c/b11cc300-2a04-5866-85e5-f213a8d1bfbf.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236533.png"
     },
     {
       "id": "4236577",
@@ -29207,8 +29214,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/syrian-arab-republic/unhcr-syria-protection-factsheet-q3-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236577.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/f0/56f050e8-9bb7-5a3d-b1f1-04a1ec8b0d09.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236577.png"
     },
     {
       "id": "4236585",
@@ -29237,8 +29243,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/democratic-republic-congo/vaccines-2026-bundibugyo-ebola-disease-outbreak-access-gaps-and-recommendations",
-      "localThumbnail": "./assets/report-thumbs/rw-4236585.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e4/33/e4334377-3f3a-4c27-ba58-d7ff6884d16e.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236585.png"
     },
     {
       "id": "4236547",
@@ -29265,8 +29270,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/occupied-palestinian-territory/palestine-conflict-ltc-situation-report-telecoms-area-74-reporting-period-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236547.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/40/12/4012b1f8-7158-5ef0-8189-bc7b65b46686.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236547.png"
     },
     {
       "id": "4236529",
@@ -29290,7 +29294,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/fa/01/fa012f55-7fc7-4960-99b0-245d8b0273ba.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/deciding-together-responding-better-how-community-voices-are-shaping-humanitarian-action-across-asia-and-pacific"
+      "url": "https://reliefweb.int/report/world/deciding-together-responding-better-how-community-voices-are-shaping-humanitarian-action-across-asia-and-pacific",
+      "localThumbnail": "./assets/report-thumbs/rw-4236529.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/fa/01/fa012f55-7fc7-4960-99b0-245d8b0273ba.png"
     },
     {
       "id": "4236599",
@@ -29352,8 +29358,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/bangladesh/qrcs-launches-shelter-project-refugees-bangladesh-enar",
-      "localThumbnail": "./assets/report-thumbs/rw-4236590.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/57/b7/57b78bd9-2162-4926-a115-833a0d7e4952.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236590.png"
     },
     {
       "id": "4236600",
@@ -29407,8 +29412,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/panama/wfp-panama-external-situation-report-earthquake-emergency-29-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236559.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/69/ba/69ba3415-4129-4c2a-9092-3713b3fc0a81.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236559.png"
     },
     {
       "id": "4236479",
@@ -29437,8 +29441,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/afghanistan/afghanistan-weekly-market-report-issue-316-week-4-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236479.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7b/89/7b8972f6-2c38-4db2-a3d4-0cb99aaa83c7.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236479.png"
     },
     {
       "id": "4236516",
@@ -29533,7 +29536,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/df/84/df841d40-ed74-4906-913e-f4b25c87f0d3.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ukraine/who-ukraine-newsletter-october-2026"
+      "url": "https://reliefweb.int/report/ukraine/who-ukraine-newsletter-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4236519.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/df/84/df841d40-ed74-4906-913e-f4b25c87f0d3.png"
     },
     {
       "id": "4236523",
@@ -29562,8 +29567,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/namibia/wfp-namibia-country-brief-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236523.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ac/a3/aca3cf09-b99f-45d9-9fbb-84f9cbdd773c.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236523.png"
     },
     {
       "id": "4236554",
@@ -29635,7 +29639,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/28/e1/28e1159d-a9cf-5303-a78e-175fae26e4c0.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/pakistan/staying-because-return-not-safe-protection-needs-afghans-remaining-pakistan-i-ad-hoc-participatory-assessment-findings-and-recommendations-july-2026-assessment-period-27-29-july-2026"
+      "url": "https://reliefweb.int/report/pakistan/staying-because-return-not-safe-protection-needs-afghans-remaining-pakistan-i-ad-hoc-participatory-assessment-findings-and-recommendations-july-2026-assessment-period-27-29-july-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4236564.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/28/e1/28e1159d-a9cf-5303-a78e-175fae26e4c0.png"
     },
     {
       "id": "4236565",
@@ -29662,36 +29668,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/lebanon/lebanon-response-plan-cash-working-group-q3-2026-glance",
-      "localThumbnail": "./assets/report-thumbs/rw-4236565.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/84/41/844156f9-6e19-5522-b352-4813d577b181.png"
-    },
-    {
-      "id": "4236574",
-      "title": "Ukraine - LTC (Telecoms Area) Services Dashboard (October 2026)",
-      "dateOriginal": "2026-11-02T00:00:00+00:00",
-      "primaryCountry": "Ukraine",
-      "primaryCountryIso3": "ukr",
-      "primaryCountryLocation": {
-        "lat": 49.32,
-        "lon": 31.32
-      },
-      "source": "ETC, Logistics Cluster, WFP",
-      "format": "Map",
-      "themes": [
-        "Logistics and Telecommunications"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5e/b9/5eb946a3-766f-54b2-b2e9-8eb26ca31023.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5e/b9/5eb946a3-766f-54b2-b2e9-8eb26ca31023.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/5e/b9/5eb946a3-766f-54b2-b2e9-8eb26ca31023.png",
-        "https://reliefweb.int/sites/default/files/previews/5e/b9/5eb946a3-766f-54b2-b2e9-8eb26ca31023.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/5e/b9/5eb946a3-766f-54b2-b2e9-8eb26ca31023.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/map/ukraine/ukraine-ltc-telecoms-area-services-dashboard-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236574.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5e/b9/5eb946a3-766f-54b2-b2e9-8eb26ca31023.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236565.png"
     },
     {
       "id": "4236594",
@@ -29718,8 +29695,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/nepal/amda-emergency-relief-2-flash-floods-nepal-2-november-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236594.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f5/c6/f5c6090e-4a23-4a32-8bbd-91cbf6631c66.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236594.png"
     },
     {
       "id": "4236596",
@@ -29746,8 +29722,34 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/south-sudan/strengthening-food-systems-south-sudan",
-      "localThumbnail": "./assets/report-thumbs/rw-4236596.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/c4/0ac4e815-f450-4bc1-8242-5bd54fb4e4d1.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236596.png"
+    },
+    {
+      "id": "4236574",
+      "title": "Ukraine - LTC (Telecoms Area) Services Dashboard (October 2026)",
+      "dateOriginal": "2026-11-02T00:00:00+00:00",
+      "primaryCountry": "Ukraine",
+      "primaryCountryIso3": "ukr",
+      "primaryCountryLocation": {
+        "lat": 49.32,
+        "lon": 31.32
+      },
+      "source": "ETC, Logistics Cluster, WFP",
+      "format": "Map",
+      "themes": [
+        "Logistics and Telecommunications"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5e/b9/5eb946a3-766f-54b2-b2e9-8eb26ca31023.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/5e/b9/5eb946a3-766f-54b2-b2e9-8eb26ca31023.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/5e/b9/5eb946a3-766f-54b2-b2e9-8eb26ca31023.png",
+        "https://reliefweb.int/sites/default/files/previews/5e/b9/5eb946a3-766f-54b2-b2e9-8eb26ca31023.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/5e/b9/5eb946a3-766f-54b2-b2e9-8eb26ca31023.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/ukraine/ukraine-ltc-telecoms-area-services-dashboard-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4236574.png"
     },
     {
       "id": "4236477",
@@ -29821,7 +29823,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/61/cf/61cf6c3a-e944-5358-902c-3af45e9f3b99.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/map/yemen/map-new-displacement-due-escalation-west-coast-yemen-situation-29-oct-2026"
+      "url": "https://reliefweb.int/map/yemen/map-new-displacement-due-escalation-west-coast-yemen-situation-29-oct-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4236462.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/61/cf/61cf6c3a-e944-5358-902c-3af45e9f3b99.png"
     },
     {
       "id": "4236484",
@@ -29852,8 +29856,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/zambia/zambia-drought-early-action-protocol-activation-eap-no-eap2023cr02-operation-no-mdrzm025-14-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4236484.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ac/f5/acf5b635-abb8-4c75-b486-5ebc3449163a.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4236484.png"
     },
     {
       "id": "4236471",
@@ -30581,95 +30584,21 @@
       ]
     },
     {
-      "id": "52679",
-      "name": "Sierra Leone: Flash Floods - Aug 2026",
+      "id": "50620",
+      "name": "Afghanistan: Drought - 2021-2026",
       "status": "ongoing",
-      "glide": "FF-2026-000152-SLE",
-      "dateEvent": "2026-08-03T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52679",
-      "primaryCountry": "Sierra Leone",
-      "primaryCountryIso3": "sle",
-      "location": {
-        "lat": 8.56,
-        "lon": -11.79
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood"
-      ]
-    },
-    {
-      "id": "52659",
-      "name": "Afghanistan: Flash Floods - Jul 2026",
-      "status": "ongoing",
-      "glide": "FF-2026-000120-AFG",
-      "dateEvent": "2026-07-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52659",
+      "glide": "DR-2021-000022-AFG",
+      "dateEvent": "2021-02-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/50620",
       "primaryCountry": "Afghanistan",
       "primaryCountryIso3": "afg",
       "location": {
         "lat": 33.84,
         "lon": 66.03
       },
-      "primaryType": "Flash Flood",
+      "primaryType": "Drought",
       "types": [
-        "Flash Flood",
-        "Flood"
-      ]
-    },
-    {
-      "id": "52601",
-      "name": "Syria: Floods - May 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000080-SYR",
-      "dateEvent": "2026-05-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52601",
-      "primaryCountry": "Syrian Arab Republic",
-      "primaryCountryIso3": "syr",
-      "location": {
-        "lat": 35.01,
-        "lon": 38.51
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52600",
-      "name": "Philippines: Earthquake and Tsunami - Jun 2026",
-      "status": "ongoing",
-      "glide": "EQ-2026-000083-PHL",
-      "dateEvent": "2026-06-08T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52600",
-      "primaryCountry": "Philippines",
-      "primaryCountryIso3": "phl",
-      "location": {
-        "lat": 11.74,
-        "lon": 122.88
-      },
-      "primaryType": "Earthquake",
-      "types": [
-        "Earthquake",
-        "Tsunami"
-      ]
-    },
-    {
-      "id": "43154",
-      "name": "Nigeria: Cholera Outbreak - Jun 2017",
-      "status": "ongoing",
-      "glide": "EP-2017-000077-NGA",
-      "dateEvent": "2017-06-07T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/43154",
-      "primaryCountry": "Nigeria",
-      "primaryCountryIso3": "nga",
-      "location": {
-        "lat": 9.59,
-        "lon": 8.11
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
+        "Drought"
       ]
     },
     {
@@ -30709,21 +30638,111 @@
       ]
     },
     {
-      "id": "50620",
-      "name": "Afghanistan: Drought - 2021-2026",
+      "id": "52299",
+      "name": "Pacific: Dengue Outbreak - 2025-2026",
       "status": "ongoing",
-      "glide": "DR-2021-000022-AFG",
-      "dateEvent": "2021-02-01T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/50620",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
+      "glide": "EP-2025-000053-TON",
+      "dateEvent": "2025-02-03T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52299",
+      "primaryCountry": "Tonga",
+      "primaryCountryIso3": "ton",
       "location": {
-        "lat": 33.84,
-        "lon": 66.03
+        "lat": -20.39,
+        "lon": -174.83
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52262",
+      "name": "Angola: Cholera Outbreak - Jan 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000013-AGO",
+      "dateEvent": "2025-01-07T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52262",
+      "primaryCountry": "Angola",
+      "primaryCountryIso3": "ago",
+      "location": {
+        "lat": -12.1,
+        "lon": 17.91
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "50824",
+      "name": "Syria: Drought - 2021-2026",
+      "status": "ongoing",
+      "glide": "DR-2021-000125-SYR",
+      "dateEvent": "2021-06-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/50824",
+      "primaryCountry": "Syrian Arab Republic",
+      "primaryCountryIso3": "syr",
+      "location": {
+        "lat": 35.01,
+        "lon": 38.51
       },
       "primaryType": "Drought",
       "types": [
         "Drought"
+      ]
+    },
+    {
+      "id": "52497",
+      "name": "Morocco: Floods - Dec 2025",
+      "status": "ongoing",
+      "glide": "FF-2025-000223-MAR",
+      "dateEvent": "2025-12-14T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52497",
+      "primaryCountry": "Morocco",
+      "primaryCountryIso3": "mar",
+      "location": {
+        "lat": 32.35,
+        "lon": -6.02
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52462",
+      "name": "Cuba: Arboviral Outbreak - Oct 2025",
+      "status": "ongoing",
+      "glide": "EP-2025-000200-CUB",
+      "dateEvent": "2025-10-15T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52462",
+      "primaryCountry": "Cuba",
+      "primaryCountryIso3": "cub",
+      "location": {
+        "lat": 21.95,
+        "lon": -79.24
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52435",
+      "name": "Bolivia: Wild Fires - Aug 2025",
+      "status": "ongoing",
+      "glide": "WF-2025-000163-BOL",
+      "dateEvent": "2025-08-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52435",
+      "primaryCountry": "Bolivia (Plurinational State of)",
+      "primaryCountryIso3": "bol",
+      "location": {
+        "lat": -16.97,
+        "lon": -64.27
+      },
+      "primaryType": "Wild Fire",
+      "types": [
+        "Wild Fire"
       ]
     },
     {
@@ -30818,57 +30837,77 @@
       ]
     },
     {
-      "id": "52299",
-      "name": "Pacific: Dengue Outbreak - 2025-2026",
+      "id": "52679",
+      "name": "Sierra Leone: Flash Floods - Aug 2026",
       "status": "ongoing",
-      "glide": "EP-2025-000053-TON",
-      "dateEvent": "2025-02-03T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52299",
-      "primaryCountry": "Tonga",
-      "primaryCountryIso3": "ton",
+      "glide": "FF-2026-000152-SLE",
+      "dateEvent": "2026-08-03T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52679",
+      "primaryCountry": "Sierra Leone",
+      "primaryCountryIso3": "sle",
       "location": {
-        "lat": -20.39,
-        "lon": -174.83
+        "lat": 8.56,
+        "lon": -11.79
       },
-      "primaryType": "Epidemic",
+      "primaryType": "Flash Flood",
       "types": [
-        "Epidemic"
+        "Flash Flood"
       ]
     },
     {
-      "id": "52262",
-      "name": "Angola: Cholera Outbreak - Jan 2025",
+      "id": "52659",
+      "name": "Afghanistan: Flash Floods - Jul 2026",
       "status": "ongoing",
-      "glide": "EP-2025-000013-AGO",
-      "dateEvent": "2025-01-07T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52262",
-      "primaryCountry": "Angola",
-      "primaryCountryIso3": "ago",
+      "glide": "FF-2026-000120-AFG",
+      "dateEvent": "2026-07-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52659",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
       "location": {
-        "lat": -12.1,
-        "lon": 17.91
+        "lat": 33.84,
+        "lon": 66.03
       },
-      "primaryType": "Epidemic",
+      "primaryType": "Flash Flood",
       "types": [
-        "Epidemic"
+        "Flash Flood",
+        "Flood"
       ]
     },
     {
-      "id": "50824",
-      "name": "Syria: Drought - 2021-2026",
+      "id": "52601",
+      "name": "Syria: Floods - May 2026",
       "status": "ongoing",
-      "glide": "DR-2021-000125-SYR",
-      "dateEvent": "2021-06-01T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/50824",
+      "glide": "FL-2026-000080-SYR",
+      "dateEvent": "2026-05-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52601",
       "primaryCountry": "Syrian Arab Republic",
       "primaryCountryIso3": "syr",
       "location": {
         "lat": 35.01,
         "lon": 38.51
       },
-      "primaryType": "Drought",
+      "primaryType": "Flood",
       "types": [
-        "Drought"
+        "Flood"
+      ]
+    },
+    {
+      "id": "52600",
+      "name": "Philippines: Earthquake and Tsunami - Jun 2026",
+      "status": "ongoing",
+      "glide": "EQ-2026-000083-PHL",
+      "dateEvent": "2026-06-08T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52600",
+      "primaryCountry": "Philippines",
+      "primaryCountryIso3": "phl",
+      "location": {
+        "lat": 11.74,
+        "lon": 122.88
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake",
+        "Tsunami"
       ]
     },
     {
@@ -31019,57 +31058,21 @@
       ]
     },
     {
-      "id": "52497",
-      "name": "Morocco: Floods - Dec 2025",
+      "id": "43154",
+      "name": "Nigeria: Cholera Outbreak - Jun 2017",
       "status": "ongoing",
-      "glide": "FF-2025-000223-MAR",
-      "dateEvent": "2025-12-14T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52497",
-      "primaryCountry": "Morocco",
-      "primaryCountryIso3": "mar",
+      "glide": "EP-2017-000077-NGA",
+      "dateEvent": "2017-06-07T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/43154",
+      "primaryCountry": "Nigeria",
+      "primaryCountryIso3": "nga",
       "location": {
-        "lat": 32.35,
-        "lon": -6.02
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52462",
-      "name": "Cuba: Arboviral Outbreak - Oct 2025",
-      "status": "ongoing",
-      "glide": "EP-2025-000200-CUB",
-      "dateEvent": "2025-10-15T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52462",
-      "primaryCountry": "Cuba",
-      "primaryCountryIso3": "cub",
-      "location": {
-        "lat": 21.95,
-        "lon": -79.24
+        "lat": 9.59,
+        "lon": 8.11
       },
       "primaryType": "Epidemic",
       "types": [
         "Epidemic"
-      ]
-    },
-    {
-      "id": "52435",
-      "name": "Bolivia: Wild Fires - Aug 2025",
-      "status": "ongoing",
-      "glide": "WF-2025-000163-BOL",
-      "dateEvent": "2025-08-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52435",
-      "primaryCountry": "Bolivia (Plurinational State of)",
-      "primaryCountryIso3": "bol",
-      "location": {
-        "lat": -16.97,
-        "lon": -64.27
-      },
-      "primaryType": "Wild Fire",
-      "types": [
-        "Wild Fire"
       ]
     },
     {
@@ -31308,90 +31311,17 @@
       ]
     },
     {
-      "id": "51911",
-      "name": "Zambia: Drought - 2024-2026",
+      "id": "51453",
+      "name": "Mozambique: Cholera Outbreak - 2022-2026",
       "status": "ongoing",
-      "glide": "DR-2024-000018-ZMB",
-      "dateEvent": "2024-01-15T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51911",
-      "primaryCountry": "Zambia",
-      "primaryCountryIso3": "zmb",
+      "glide": "EP-2023-000006-MOZ",
+      "dateEvent": "2022-12-21T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51453",
+      "primaryCountry": "Mozambique",
+      "primaryCountryIso3": "moz",
       "location": {
-        "lat": -14,
-        "lon": 27.43
-      },
-      "primaryType": "Drought",
-      "types": [
-        "Drought"
-      ]
-    },
-    {
-      "id": "52699",
-      "name": "Liberia: Floods - Aug 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000175-LBR",
-      "dateEvent": "2026-08-24T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52699",
-      "primaryCountry": "Liberia",
-      "primaryCountryIso3": "lbr",
-      "location": {
-        "lat": 6.45,
-        "lon": -9.31
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52676",
-      "name": "Indonesia: Earthquake - Aug 2026",
-      "status": "ongoing",
-      "glide": "EQ-2026-000150-IDN",
-      "dateEvent": "2026-08-15T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52676",
-      "primaryCountry": "Indonesia",
-      "primaryCountryIso3": "idn",
-      "location": {
-        "lat": -2.28,
-        "lon": 117.37
-      },
-      "primaryType": "Earthquake",
-      "types": [
-        "Earthquake"
-      ]
-    },
-    {
-      "id": "52669",
-      "name": "India: Flash Floods - Jul 2026",
-      "status": "ongoing",
-      "glide": "FF-2026-000139-IND",
-      "dateEvent": "2026-07-19T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52669",
-      "primaryCountry": "India",
-      "primaryCountryIso3": "ind",
-      "location": {
-        "lat": 22.76,
-        "lon": 79.28
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood",
-        "Flood"
-      ]
-    },
-    {
-      "id": "52657",
-      "name": "Chad: Cholera Outbreak - Jun 2026",
-      "status": "ongoing",
-      "glide": "EP-2026-000134-TCD",
-      "dateEvent": "2026-06-16T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52657",
-      "primaryCountry": "Chad",
-      "primaryCountryIso3": "tcd",
-      "location": {
-        "lat": 15.36,
-        "lon": 18.66
+        "lat": -18.09,
+        "lon": 34.75
       },
       "primaryType": "Epidemic",
       "types": [
@@ -31399,21 +31329,21 @@
       ]
     },
     {
-      "id": "52608",
-      "name": "Venezuela: Earthquakes - Jun 2026",
+      "id": "51442",
+      "name": "Burundi: Cholera Outbreak - Jan 2023",
       "status": "ongoing",
-      "glide": "EQ-2026-000093-VEN",
-      "dateEvent": "2026-06-24T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52608",
-      "primaryCountry": "Venezuela (Bolivarian Republic of)",
-      "primaryCountryIso3": "ven",
+      "glide": "EP-2023-000075-BDI",
+      "dateEvent": "2023-01-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51442",
+      "primaryCountry": "Burundi",
+      "primaryCountryIso3": "bdi",
       "location": {
-        "lat": 7.62,
-        "lon": -65.8
+        "lat": -3.53,
+        "lon": 29.89
       },
-      "primaryType": "Earthquake",
+      "primaryType": "Epidemic",
       "types": [
-        "Earthquake"
+        "Epidemic"
       ]
     },
     {
@@ -31600,17 +31530,72 @@
       ]
     },
     {
-      "id": "51453",
-      "name": "Mozambique: Cholera Outbreak - 2022-2026",
+      "id": "52699",
+      "name": "Liberia: Floods - Aug 2026",
       "status": "ongoing",
-      "glide": "EP-2023-000006-MOZ",
-      "dateEvent": "2022-12-21T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51453",
-      "primaryCountry": "Mozambique",
-      "primaryCountryIso3": "moz",
+      "glide": "FL-2026-000175-LBR",
+      "dateEvent": "2026-08-24T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52699",
+      "primaryCountry": "Liberia",
+      "primaryCountryIso3": "lbr",
       "location": {
-        "lat": -18.09,
-        "lon": 34.75
+        "lat": 6.45,
+        "lon": -9.31
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52676",
+      "name": "Indonesia: Earthquake - Aug 2026",
+      "status": "ongoing",
+      "glide": "EQ-2026-000150-IDN",
+      "dateEvent": "2026-08-15T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52676",
+      "primaryCountry": "Indonesia",
+      "primaryCountryIso3": "idn",
+      "location": {
+        "lat": -2.28,
+        "lon": 117.37
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake"
+      ]
+    },
+    {
+      "id": "52669",
+      "name": "India: Flash Floods - Jul 2026",
+      "status": "ongoing",
+      "glide": "FF-2026-000139-IND",
+      "dateEvent": "2026-07-19T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52669",
+      "primaryCountry": "India",
+      "primaryCountryIso3": "ind",
+      "location": {
+        "lat": 22.76,
+        "lon": 79.28
+      },
+      "primaryType": "Flash Flood",
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ]
+    },
+    {
+      "id": "52657",
+      "name": "Chad: Cholera Outbreak - Jun 2026",
+      "status": "ongoing",
+      "glide": "EP-2026-000134-TCD",
+      "dateEvent": "2026-06-16T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52657",
+      "primaryCountry": "Chad",
+      "primaryCountryIso3": "tcd",
+      "location": {
+        "lat": 15.36,
+        "lon": 18.66
       },
       "primaryType": "Epidemic",
       "types": [
@@ -31618,21 +31603,21 @@
       ]
     },
     {
-      "id": "51442",
-      "name": "Burundi: Cholera Outbreak - Jan 2023",
+      "id": "52608",
+      "name": "Venezuela: Earthquakes - Jun 2026",
       "status": "ongoing",
-      "glide": "EP-2023-000075-BDI",
-      "dateEvent": "2023-01-01T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51442",
-      "primaryCountry": "Burundi",
-      "primaryCountryIso3": "bdi",
+      "glide": "EQ-2026-000093-VEN",
+      "dateEvent": "2026-06-24T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52608",
+      "primaryCountry": "Venezuela (Bolivarian Republic of)",
+      "primaryCountryIso3": "ven",
       "location": {
-        "lat": -3.53,
-        "lon": 29.89
+        "lat": 7.62,
+        "lon": -65.8
       },
-      "primaryType": "Epidemic",
+      "primaryType": "Earthquake",
       "types": [
-        "Epidemic"
+        "Earthquake"
       ]
     },
     {
@@ -31656,6 +31641,24 @@
       ]
     },
     {
+      "id": "51911",
+      "name": "Zambia: Drought - 2024-2026",
+      "status": "ongoing",
+      "glide": "DR-2024-000018-ZMB",
+      "dateEvent": "2024-01-15T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51911",
+      "primaryCountry": "Zambia",
+      "primaryCountryIso3": "zmb",
+      "location": {
+        "lat": -14,
+        "lon": 27.43
+      },
+      "primaryType": "Drought",
+      "types": [
+        "Drought"
+      ]
+    },
+    {
       "id": "51805",
       "name": "Niger: Diphtheria Outbreak - Oct 2023",
       "status": "ongoing",
@@ -31671,6 +31674,25 @@
       "primaryType": "Epidemic",
       "types": [
         "Epidemic"
+      ]
+    },
+    {
+      "id": "52726",
+      "name": "DR Congo: Floods and Landslides – Feb 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000030-COD",
+      "dateEvent": "2026-02-19T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52726",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "location": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "primaryType": "Land Slide",
+      "types": [
+        "Flood",
+        "Land Slide"
       ]
     },
     {
@@ -31710,25 +31732,6 @@
       ]
     },
     {
-      "id": "52726",
-      "name": "DR Congo: Floods and Landslides – Feb 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000030-COD",
-      "dateEvent": "2026-02-19T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52726",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "location": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "primaryType": "Land Slide",
-      "types": [
-        "Flood",
-        "Land Slide"
-      ]
-    },
-    {
       "id": "52498",
       "name": "Bolivia: Floods - Dec 2025",
       "status": "ongoing",
@@ -31750,7 +31753,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-11-02T15:55:30.781Z",
+    "queryGeneratedAt": "2026-11-02T23:31:46.270Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -31761,7 +31764,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-11-02T15:55:34.282Z",
+    "reportThumbnailCacheAt": "2026-11-02T23:31:47.543Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
