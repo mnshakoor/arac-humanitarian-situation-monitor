@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-11-08T19:43:14.107Z",
-  "lastSyncAttemptAt": "2026-11-08T19:43:14.107Z",
+  "generatedAt": "2026-11-08T23:44:02.669Z",
+  "lastSyncAttemptAt": "2026-11-08T23:44:02.669Z",
   "enrichedAt": "2026-11-08T09:26:41.929Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -1502,25 +1502,6 @@
           "url": "https://reliefweb.int/report/world/ante-la-cop31-acnur-alerta-de-que-cerca-de-90-millones-de-personas-desplazadas-afrontan-graves-riesgos-climaticos"
         },
         {
-          "id": "4237323",
-          "title": "El Niño Deepens Across Asia Pacific, Highlighting Future Climate Risks and the Need for Greater Preparedness",
-          "dateOriginal": "2026-11-06T00:00:00+00:00",
-          "primaryCountry": "World",
-          "primaryCountryIso3": "wld",
-          "primaryCountryLocation": null,
-          "source": "IFRC",
-          "format": "News and Press Release",
-          "themes": [
-            "Climate Change and Environment",
-            "Disaster Management"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/el-nino-deepens-across-asia-pacific-highlighting-future-climate-risks-and-need-greater-preparedness"
-        },
-        {
           "id": "4237247",
           "title": "Africa Humanitarian Overview 2026 Mid-Year Report",
           "dateOriginal": "2026-11-06T00:00:00+00:00",
@@ -1570,27 +1551,23 @@
           "url": "https://reliefweb.int/report/world/undrr-brings-disaster-data-new-un-system-data-commons"
         },
         {
-          "id": "4237267",
-          "title": "Documenting The Deaths of Child Migrants",
+          "id": "4237323",
+          "title": "El Niño Deepens Across Asia Pacific, Highlighting Future Climate Risks and the Need for Greater Preparedness",
           "dateOriginal": "2026-11-06T00:00:00+00:00",
           "primaryCountry": "World",
           "primaryCountryIso3": "wld",
           "primaryCountryLocation": null,
-          "source": "IOM",
-          "format": "Analysis",
+          "source": "IFRC",
+          "format": "News and Press Release",
           "themes": [
-            "Protection and Human Rights"
+            "Climate Change and Environment",
+            "Disaster Management"
           ],
           "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
-            "https://reliefweb.int/sites/default/files/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png"
-          ],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/documenting-deaths-child-migrants"
+          "url": "https://reliefweb.int/report/world/el-nino-deepens-across-asia-pacific-highlighting-future-climate-risks-and-need-greater-preparedness"
         },
         {
           "id": "4237310",
@@ -1621,6 +1598,29 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/world/crop-monitor-early-warning-no-121-november-5th-2026"
+        },
+        {
+          "id": "4237267",
+          "title": "Documenting The Deaths of Child Migrants",
+          "dateOriginal": "2026-11-06T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "IOM",
+          "format": "Analysis",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
+            "https://reliefweb.int/sites/default/files/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/documenting-deaths-child-migrants"
         },
         {
           "id": "4237104",
@@ -9957,27 +9957,6 @@
       ],
       "recentReports": [
         {
-          "id": "4237297",
-          "title": "Lebanon marks World Tsunami Awareness Day with national workshop on coastal resilience, science, and youth engagement",
-          "dateOriginal": "2026-11-06T00:00:00+00:00",
-          "primaryCountry": "Lebanon",
-          "primaryCountryIso3": "lbn",
-          "primaryCountryLocation": {
-            "lat": 33.92,
-            "lon": 35.89
-          },
-          "source": "UNDRR",
-          "format": "News and Press Release",
-          "themes": [
-            "Disaster Management"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/lebanon/lebanon-marks-world-tsunami-awareness-day-national-workshop-coastal-resilience-science-and-youth-engagement"
-        },
-        {
           "id": "4237326",
           "title": "Children's Hunger Rising as Southern Lebanon Farms Struggle to Recover",
           "dateOriginal": "2026-11-06T00:00:00+00:00",
@@ -10024,6 +10003,27 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/lebanon/unhcr-facilitated-return-syrian-refugees-lebanon-31-october-2026"
+        },
+        {
+          "id": "4237297",
+          "title": "Lebanon marks World Tsunami Awareness Day with national workshop on coastal resilience, science, and youth engagement",
+          "dateOriginal": "2026-11-06T00:00:00+00:00",
+          "primaryCountry": "Lebanon",
+          "primaryCountryIso3": "lbn",
+          "primaryCountryLocation": {
+            "lat": 33.92,
+            "lon": 35.89
+          },
+          "source": "UNDRR",
+          "format": "News and Press Release",
+          "themes": [
+            "Disaster Management"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/lebanon/lebanon-marks-world-tsunami-awareness-day-national-workshop-coastal-resilience-science-and-youth-engagement"
         },
         {
           "id": "4237279",
@@ -10628,32 +10628,6 @@
           "url": "https://reliefweb.int/map/chad/unhcr-chad-mapping-displaced-and-migrant-populations-chad-province-oct-2026"
         },
         {
-          "id": "4237305",
-          "title": "UNHCR Chad | Forcibly Displaced Persons (October 2026)",
-          "dateOriginal": "2026-11-06T00:00:00+00:00",
-          "primaryCountry": "Chad",
-          "primaryCountryIso3": "tcd",
-          "primaryCountryLocation": {
-            "lat": 15.36,
-            "lon": 18.66
-          },
-          "source": "UNHCR",
-          "format": "Map",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
-            "https://reliefweb.int/sites/default/files/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/map/chad/unhcr-chad-forcibly-displaced-persons-october-2026"
-        },
-        {
           "id": "4237304",
           "title": "UNHCR Tchad | Population des personnes en déplacement forcé au Tchad (Oct. 2026)",
           "dateOriginal": "2026-11-06T00:00:00+00:00",
@@ -10678,6 +10652,32 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/chad/unhcr-tchad-population-des-personnes-en-deplacement-force-au-tchad-oct-2026"
+        },
+        {
+          "id": "4237305",
+          "title": "UNHCR Chad | Forcibly Displaced Persons (October 2026)",
+          "dateOriginal": "2026-11-06T00:00:00+00:00",
+          "primaryCountry": "Chad",
+          "primaryCountryIso3": "tcd",
+          "primaryCountryLocation": {
+            "lat": 15.36,
+            "lon": 18.66
+          },
+          "source": "UNHCR",
+          "format": "Map",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
+            "https://reliefweb.int/sites/default/files/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/map/chad/unhcr-chad-forcibly-displaced-persons-october-2026"
         },
         {
           "id": "4237201",
@@ -28336,28 +28336,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4237263.png"
     },
     {
-      "id": "4237294",
-      "title": "Displaced Ukrainians Make Repeated Trips Home as Barriers to Return Persist",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "Ukraine",
-      "primaryCountryIso3": "ukr",
-      "primaryCountryLocation": {
-        "lat": 49.32,
-        "lon": 31.32
-      },
-      "source": "IOM",
-      "format": "News and Press Release",
-      "themes": [
-        "Health",
-        "Recovery and Reconstruction"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ukraine/displaced-ukrainians-make-repeated-trips-home-barriers-return-persist"
-    },
-    {
       "id": "4237271",
       "title": "TCHAD - Aperçu de la situation humanitaire à l’Est (Au 03 Novembre 2026)",
       "dateOriginal": "2026-11-06T00:00:00+00:00",
@@ -28420,6 +28398,84 @@
       "localThumbnail": "./assets/report-thumbs/rw-4237320.png"
     },
     {
+      "id": "4237259",
+      "title": "Poland: Protection Sector - presentation Od \"gościa\" do \"sąsiada\". Strategia Integracyjna Polski na lata 2026 - 2035 (10 October 2026) [POL]",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "Poland",
+      "primaryCountryIso3": "pol",
+      "primaryCountryLocation": {
+        "lat": 52.12,
+        "lon": 19.3
+      },
+      "source": "UNHCR",
+      "format": "Manual and Guideline",
+      "themes": [
+        "Camp Coordination and Camp Management",
+        "Education",
+        "Health",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f9/d5/f9d5bd17-c29c-5a81-99a1-2871a775dda1.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f9/d5/f9d5bd17-c29c-5a81-99a1-2871a775dda1.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f9/d5/f9d5bd17-c29c-5a81-99a1-2871a775dda1.png",
+        "https://reliefweb.int/sites/default/files/previews/f9/d5/f9d5bd17-c29c-5a81-99a1-2871a775dda1.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f9/d5/f9d5bd17-c29c-5a81-99a1-2871a775dda1.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/poland/poland-protection-sector-presentation-od-goscia-do-sasiada-strategia-integracyjna-polski-na-lata-2026-2035-10-october-2026-pol",
+      "localThumbnail": "./assets/report-thumbs/rw-4237259.png"
+    },
+    {
+      "id": "4237332",
+      "title": "Carte des alertes de maladies épidémiques et émergentes en Océanie le 03 novembre 2026",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "SPC",
+      "format": "Map",
+      "themes": [
+        "Health"
+      ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/36/51/3651c3cf-55a9-4e8e-9ee1-b8f9bdb28358.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/36/51/3651c3cf-55a9-4e8e-9ee1-b8f9bdb28358.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/36/51/3651c3cf-55a9-4e8e-9ee1-b8f9bdb28358.png",
+        "https://reliefweb.int/sites/default/files/previews/36/51/3651c3cf-55a9-4e8e-9ee1-b8f9bdb28358.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/36/51/3651c3cf-55a9-4e8e-9ee1-b8f9bdb28358.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/world/carte-des-alertes-de-maladies-epidemiques-et-emergentes-en-oceanie-le-03-novembre-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4237332.png"
+    },
+    {
+      "id": "4237294",
+      "title": "Displaced Ukrainians Make Repeated Trips Home as Barriers to Return Persist",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "Ukraine",
+      "primaryCountryIso3": "ukr",
+      "primaryCountryLocation": {
+        "lat": 49.32,
+        "lon": 31.32
+      },
+      "source": "IOM",
+      "format": "News and Press Release",
+      "themes": [
+        "Health",
+        "Recovery and Reconstruction"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/ukraine/displaced-ukrainians-make-repeated-trips-home-barriers-return-persist"
+    },
+    {
       "id": "4237325",
       "title": "Cyclones Arnab & Murasu - Andhra Pradesh, Odisha, Telangana, Tamil Nadu and Yanam (Date: 6 November 2026 Time: 18:00 IST)",
       "dateOriginal": "2026-11-06T00:00:00+00:00",
@@ -28452,36 +28508,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/india/cyclones-arnab-murasu-andhra-pradesh-odisha-telangana-tamil-nadu-and-yanam-date-6-november-2026-time-1800-ist",
       "localThumbnail": "./assets/report-thumbs/rw-4237325.png"
-    },
-    {
-      "id": "4237259",
-      "title": "Poland: Protection Sector - presentation Od \"gościa\" do \"sąsiada\". Strategia Integracyjna Polski na lata 2026 - 2035 (10 October 2026) [POL]",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "Poland",
-      "primaryCountryIso3": "pol",
-      "primaryCountryLocation": {
-        "lat": 52.12,
-        "lon": 19.3
-      },
-      "source": "UNHCR",
-      "format": "Manual and Guideline",
-      "themes": [
-        "Camp Coordination and Camp Management",
-        "Education",
-        "Health",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f9/d5/f9d5bd17-c29c-5a81-99a1-2871a775dda1.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f9/d5/f9d5bd17-c29c-5a81-99a1-2871a775dda1.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f9/d5/f9d5bd17-c29c-5a81-99a1-2871a775dda1.png",
-        "https://reliefweb.int/sites/default/files/previews/f9/d5/f9d5bd17-c29c-5a81-99a1-2871a775dda1.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f9/d5/f9d5bd17-c29c-5a81-99a1-2871a775dda1.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/poland/poland-protection-sector-presentation-od-goscia-do-sasiada-strategia-integracyjna-polski-na-lata-2026-2035-10-october-2026-pol",
-      "localThumbnail": "./assets/report-thumbs/rw-4237259.png"
     },
     {
       "id": "4237274",
@@ -28541,32 +28567,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/nepal/nepal-logistics-operation-overview-26-sept-31-oct-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4237313.png"
-    },
-    {
-      "id": "4237332",
-      "title": "Carte des alertes de maladies épidémiques et émergentes en Océanie le 03 novembre 2026",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "SPC",
-      "format": "Map",
-      "themes": [
-        "Health"
-      ],
-      "disasterTypes": [
-        "Epidemic"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/36/51/3651c3cf-55a9-4e8e-9ee1-b8f9bdb28358.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/36/51/3651c3cf-55a9-4e8e-9ee1-b8f9bdb28358.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/36/51/3651c3cf-55a9-4e8e-9ee1-b8f9bdb28358.png",
-        "https://reliefweb.int/sites/default/files/previews/36/51/3651c3cf-55a9-4e8e-9ee1-b8f9bdb28358.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/36/51/3651c3cf-55a9-4e8e-9ee1-b8f9bdb28358.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/map/world/carte-des-alertes-de-maladies-epidemiques-et-emergentes-en-oceanie-le-03-novembre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4237332.png"
     },
     {
       "id": "4237268",
@@ -28819,46 +28819,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4237299.png"
     },
     {
-      "id": "4237297",
-      "title": "Lebanon marks World Tsunami Awareness Day with national workshop on coastal resilience, science, and youth engagement",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "Lebanon",
-      "primaryCountryIso3": "lbn",
-      "primaryCountryLocation": {
-        "lat": 33.92,
-        "lon": 35.89
-      },
-      "source": "UNDRR",
-      "format": "News and Press Release",
-      "themes": [
-        "Disaster Management"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/lebanon/lebanon-marks-world-tsunami-awareness-day-national-workshop-coastal-resilience-science-and-youth-engagement"
-    },
-    {
-      "id": "4237323",
-      "title": "El Niño Deepens Across Asia Pacific, Highlighting Future Climate Risks and the Need for Greater Preparedness",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "IFRC",
-      "format": "News and Press Release",
-      "themes": [
-        "Climate Change and Environment",
-        "Disaster Management"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/el-nino-deepens-across-asia-pacific-highlighting-future-climate-risks-and-need-greater-preparedness"
-    },
-    {
       "id": "4237247",
       "title": "Africa Humanitarian Overview 2026 Mid-Year Report",
       "dateOriginal": "2026-11-06T00:00:00+00:00",
@@ -28907,6 +28867,25 @@
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/undrr-brings-disaster-data-new-un-system-data-commons"
+    },
+    {
+      "id": "4237323",
+      "title": "El Niño Deepens Across Asia Pacific, Highlighting Future Climate Risks and the Need for Greater Preparedness",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "IFRC",
+      "format": "News and Press Release",
+      "themes": [
+        "Climate Change and Environment",
+        "Disaster Management"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/el-nino-deepens-across-asia-pacific-highlighting-future-climate-risks-and-need-greater-preparedness"
     },
     {
       "id": "4237326",
@@ -29012,6 +28991,27 @@
       "localThumbnail": "./assets/report-thumbs/rw-4237316.png"
     },
     {
+      "id": "4237297",
+      "title": "Lebanon marks World Tsunami Awareness Day with national workshop on coastal resilience, science, and youth engagement",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "Lebanon",
+      "primaryCountryIso3": "lbn",
+      "primaryCountryLocation": {
+        "lat": 33.92,
+        "lon": 35.89
+      },
+      "source": "UNDRR",
+      "format": "News and Press Release",
+      "themes": [
+        "Disaster Management"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/lebanon/lebanon-marks-world-tsunami-awareness-day-national-workshop-coastal-resilience-science-and-youth-engagement"
+    },
+    {
       "id": "4237307",
       "title": "UNHCR Chad | Mapping of Displaced and Migrant Populations in Chad by Province (Oct. 2026)",
       "dateOriginal": "2026-11-06T00:00:00+00:00",
@@ -29069,6 +29069,82 @@
       "localThumbnail": "./assets/report-thumbs/rw-4237200.png"
     },
     {
+      "id": "4237155",
+      "title": "Ethiopia: Flow Monitoring Snapshot Report (1 - 31 May 2026)",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "Ethiopia",
+      "primaryCountryIso3": "eth",
+      "primaryCountryLocation": {
+        "lat": 8.63,
+        "lon": 39.62
+      },
+      "source": "IOM",
+      "format": "Assessment",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bb/48/bb4883e8-78cc-5daa-97b4-1f94c0bdea45.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bb/48/bb4883e8-78cc-5daa-97b4-1f94c0bdea45.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/bb/48/bb4883e8-78cc-5daa-97b4-1f94c0bdea45.png",
+        "https://reliefweb.int/sites/default/files/previews/bb/48/bb4883e8-78cc-5daa-97b4-1f94c0bdea45.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/bb/48/bb4883e8-78cc-5daa-97b4-1f94c0bdea45.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/ethiopia/ethiopia-flow-monitoring-snapshot-report-1-31-may-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4237155.png"
+    },
+    {
+      "id": "4237203",
+      "title": "Burundi — Tableau de bord des déplacements internes (juin 2026)",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "Burundi",
+      "primaryCountryIso3": "bdi",
+      "primaryCountryLocation": {
+        "lat": -3.53,
+        "lon": 29.89
+      },
+      "source": "IOM",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/68/26/68267af5-b117-5511-bbc6-a96b5f7f730c.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/68/26/68267af5-b117-5511-bbc6-a96b5f7f730c.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/68/26/68267af5-b117-5511-bbc6-a96b5f7f730c.png",
+        "https://reliefweb.int/sites/default/files/previews/68/26/68267af5-b117-5511-bbc6-a96b5f7f730c.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/68/26/68267af5-b117-5511-bbc6-a96b5f7f730c.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/burundi/burundi-tableau-de-bord-des-deplacements-internes-juin-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4237203.png"
+    },
+    {
+      "id": "4237241",
+      "title": "European Union Supports critical humanitarian air service in Yemen",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
+      "primaryCountryLocation": {
+        "lat": 15.94,
+        "lon": 47.62
+      },
+      "source": "WFP",
+      "format": "News and Press Release",
+      "themes": [
+        "Contributions",
+        "Logistics and Telecommunications"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/yemen/european-union-supports-critical-humanitarian-air-service-yemen"
+    },
+    {
       "id": "4237156",
       "title": "Ukraine: Internal Displacement Report — General Population Survey Round 25 (June - August 2026)",
       "dateOriginal": "2026-11-06T00:00:00+00:00",
@@ -29096,26 +29172,59 @@
       "localThumbnail": "./assets/report-thumbs/rw-4237156.png"
     },
     {
-      "id": "4237241",
-      "title": "European Union Supports critical humanitarian air service in Yemen",
+      "id": "4237310",
+      "title": "Crop Monitor for Early Warning | No. 121 – November 5th 2026",
       "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
-      "primaryCountryLocation": {
-        "lat": 15.94,
-        "lon": 47.62
-      },
-      "source": "WFP",
-      "format": "News and Press Release",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "GEOGLAM Crop Monitor",
+      "format": "Analysis",
       "themes": [
-        "Contributions",
-        "Logistics and Telecommunications"
+        "Agriculture",
+        "Food and Nutrition"
+      ],
+      "disasterTypes": [
+        "Drought",
+        "Flood",
+        "Heat Wave",
+        "Insect Infestation",
+        "Severe Local Storm"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/32/c9320bd3-9134-4902-9a11-488c88f36995.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/32/c9320bd3-9134-4902-9a11-488c88f36995.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/c9/32/c9320bd3-9134-4902-9a11-488c88f36995.png",
+        "https://reliefweb.int/sites/default/files/previews/c9/32/c9320bd3-9134-4902-9a11-488c88f36995.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/c9/32/c9320bd3-9134-4902-9a11-488c88f36995.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/crop-monitor-early-warning-no-121-november-5th-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4237310.png"
+    },
+    {
+      "id": "4237267",
+      "title": "Documenting The Deaths of Child Migrants",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "IOM",
+      "format": "Analysis",
+      "themes": [
+        "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
+        "https://reliefweb.int/sites/default/files/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png"
+      ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/yemen/european-union-supports-critical-humanitarian-air-service-yemen"
+      "url": "https://reliefweb.int/report/world/documenting-deaths-child-migrants",
+      "localThumbnail": "./assets/report-thumbs/rw-4237267.png"
     },
     {
       "id": "4237279",
@@ -29145,31 +29254,31 @@
       "localThumbnail": "./assets/report-thumbs/rw-4237279.png"
     },
     {
-      "id": "4237203",
-      "title": "Burundi — Tableau de bord des déplacements internes (juin 2026)",
+      "id": "4237292",
+      "title": "Sudan Situation Map Weekly Regional Update - 02 Nov 2026",
       "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "Burundi",
-      "primaryCountryIso3": "bdi",
+      "primaryCountry": "Sudan",
+      "primaryCountryIso3": "sdn",
       "primaryCountryLocation": {
-        "lat": -3.53,
-        "lon": 29.89
+        "lat": 15,
+        "lon": 30
       },
-      "source": "IOM",
+      "source": "UNHCR",
       "format": "Infographic",
       "themes": [
         "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/68/26/68267af5-b117-5511-bbc6-a96b5f7f730c.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4e/15/4e15eb9c-52cd-5b86-ae00-4f029caa6d45.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/68/26/68267af5-b117-5511-bbc6-a96b5f7f730c.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/68/26/68267af5-b117-5511-bbc6-a96b5f7f730c.png",
-        "https://reliefweb.int/sites/default/files/previews/68/26/68267af5-b117-5511-bbc6-a96b5f7f730c.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/68/26/68267af5-b117-5511-bbc6-a96b5f7f730c.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4e/15/4e15eb9c-52cd-5b86-ae00-4f029caa6d45.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/4e/15/4e15eb9c-52cd-5b86-ae00-4f029caa6d45.png",
+        "https://reliefweb.int/sites/default/files/previews/4e/15/4e15eb9c-52cd-5b86-ae00-4f029caa6d45.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/4e/15/4e15eb9c-52cd-5b86-ae00-4f029caa6d45.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/burundi/burundi-tableau-de-bord-des-deplacements-internes-juin-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4237203.png"
+      "url": "https://reliefweb.int/report/sudan/sudan-situation-map-weekly-regional-update-02-nov-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4237292.png"
     },
     {
       "id": "4237272",
@@ -29202,6 +29311,33 @@
       "localThumbnail": "./assets/report-thumbs/rw-4237272.png"
     },
     {
+      "id": "4237256",
+      "title": "Programme Intervention Protocols: Reinforcing community capacity for social cohesion and reconciliation through societal trauma healing in Rwanda.",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "Rwanda",
+      "primaryCountryIso3": "rwa",
+      "primaryCountryLocation": {
+        "lat": -1.87,
+        "lon": 29.92
+      },
+      "source": "SeeD",
+      "format": "Analysis",
+      "themes": [
+        "Peacekeeping and Peacebuilding"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/71/40/7140d7c7-4138-521d-94dc-ec260616a306.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/71/40/7140d7c7-4138-521d-94dc-ec260616a306.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/71/40/7140d7c7-4138-521d-94dc-ec260616a306.png",
+        "https://reliefweb.int/sites/default/files/previews/71/40/7140d7c7-4138-521d-94dc-ec260616a306.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/71/40/7140d7c7-4138-521d-94dc-ec260616a306.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/rwanda/programme-intervention-protocols-reinforcing-community-capacity-social-cohesion-and-reconciliation-through-societal-trauma-healing-rwanda",
+      "localThumbnail": "./assets/report-thumbs/rw-4237256.png"
+    },
+    {
       "id": "4237276",
       "title": "IOM Nepal Flood Response Situation Report #8 | 5 November 2026",
       "dateOriginal": "2026-11-06T00:00:00+00:00",
@@ -29232,55 +29368,85 @@
       "localThumbnail": "./assets/report-thumbs/rw-4237276.png"
     },
     {
-      "id": "4237155",
-      "title": "Ethiopia: Flow Monitoring Snapshot Report (1 - 31 May 2026)",
+      "id": "4237302",
+      "title": "From good practices to systemic change: Educational integration of refugees from Ukraine",
       "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "Ethiopia",
-      "primaryCountryIso3": "eth",
+      "primaryCountry": "Hungary",
+      "primaryCountryIso3": "hun",
       "primaryCountryLocation": {
-        "lat": 8.63,
-        "lon": 39.62
+        "lat": 47.06,
+        "lon": 19.5
       },
-      "source": "IOM",
-      "format": "Assessment",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bb/48/bb4883e8-78cc-5daa-97b4-1f94c0bdea45.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/bb/48/bb4883e8-78cc-5daa-97b4-1f94c0bdea45.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/bb/48/bb4883e8-78cc-5daa-97b4-1f94c0bdea45.png",
-        "https://reliefweb.int/sites/default/files/previews/bb/48/bb4883e8-78cc-5daa-97b4-1f94c0bdea45.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/bb/48/bb4883e8-78cc-5daa-97b4-1f94c0bdea45.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ethiopia/ethiopia-flow-monitoring-snapshot-report-1-31-may-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4237155.png"
-    },
-    {
-      "id": "4237267",
-      "title": "Documenting The Deaths of Child Migrants",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "IOM",
+      "source": "UNHCR",
       "format": "Analysis",
       "themes": [
+        "Education"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d2/bd/d2bd3259-7aed-5727-b155-a0c3562ab0d0.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d2/bd/d2bd3259-7aed-5727-b155-a0c3562ab0d0.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/d2/bd/d2bd3259-7aed-5727-b155-a0c3562ab0d0.png",
+        "https://reliefweb.int/sites/default/files/previews/d2/bd/d2bd3259-7aed-5727-b155-a0c3562ab0d0.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/d2/bd/d2bd3259-7aed-5727-b155-a0c3562ab0d0.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/hungary/good-practices-systemic-change-educational-integration-refugees-ukraine",
+      "localThumbnail": "./assets/report-thumbs/rw-4237302.png"
+    },
+    {
+      "id": "4237304",
+      "title": "UNHCR Tchad | Population des personnes en déplacement forcé au Tchad (Oct. 2026)",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "Chad",
+      "primaryCountryIso3": "tcd",
+      "primaryCountryLocation": {
+        "lat": 15.36,
+        "lon": 18.66
+      },
+      "source": "UNHCR",
+      "format": "Infographic",
+      "themes": [
         "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e8/6a/e86adeab-40a2-5394-b101-80ed86c6d7bc.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
-        "https://reliefweb.int/sites/default/files/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/70/99/7099a0f2-bf50-42a3-9acd-f1bcbb68a2ec.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e8/6a/e86adeab-40a2-5394-b101-80ed86c6d7bc.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/e8/6a/e86adeab-40a2-5394-b101-80ed86c6d7bc.png",
+        "https://reliefweb.int/sites/default/files/previews/e8/6a/e86adeab-40a2-5394-b101-80ed86c6d7bc.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/e8/6a/e86adeab-40a2-5394-b101-80ed86c6d7bc.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/documenting-deaths-child-migrants",
-      "localThumbnail": "./assets/report-thumbs/rw-4237267.png"
+      "url": "https://reliefweb.int/report/chad/unhcr-tchad-population-des-personnes-en-deplacement-force-au-tchad-oct-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4237304.png"
+    },
+    {
+      "id": "4237305",
+      "title": "UNHCR Chad | Forcibly Displaced Persons (October 2026)",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "Chad",
+      "primaryCountryIso3": "tcd",
+      "primaryCountryLocation": {
+        "lat": 15.36,
+        "lon": 18.66
+      },
+      "source": "UNHCR",
+      "format": "Map",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
+        "https://reliefweb.int/sites/default/files/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/chad/unhcr-chad-forcibly-displaced-persons-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4237305.png"
     },
     {
       "id": "4237285",
@@ -29308,6 +29474,54 @@
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/jamaica/hurricane-melissa-one-year-later"
+    },
+    {
+      "id": "4237295",
+      "title": "South Sudan Protection Analysis Update",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
+      "primaryCountryLocation": {
+        "lat": 6.9,
+        "lon": 30.5
+      },
+      "source": "Protection Cluster",
+      "format": "Analysis",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4c/9b/4c9bc1f2-8a5a-58ec-a051-96347e1bfb50.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4c/9b/4c9bc1f2-8a5a-58ec-a051-96347e1bfb50.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/4c/9b/4c9bc1f2-8a5a-58ec-a051-96347e1bfb50.png",
+        "https://reliefweb.int/sites/default/files/previews/4c/9b/4c9bc1f2-8a5a-58ec-a051-96347e1bfb50.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/4c/9b/4c9bc1f2-8a5a-58ec-a051-96347e1bfb50.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/south-sudan/south-sudan-protection-analysis-update",
+      "localThumbnail": "./assets/report-thumbs/rw-4237295.png"
+    },
+    {
+      "id": "4237277",
+      "title": "El Niño deepens across Asia Pacific, highlighting future climate risks and the need for greater preparedness",
+      "dateOriginal": "2026-11-06T00:00:00+00:00",
+      "primaryCountry": "Malaysia",
+      "primaryCountryIso3": "mys",
+      "primaryCountryLocation": {
+        "lat": 3.2,
+        "lon": 108.71
+      },
+      "source": "IFRC",
+      "format": "News and Press Release",
+      "themes": [
+        "Disaster Management"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "",
+      "thumbnailCandidates": [],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/malaysia/el-nino-deepens-across-asia-pacific-highlighting-future-climate-risks-and-need-greater-preparedness"
     },
     {
       "id": "4237327",
@@ -29372,220 +29586,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/nepal/nepal-meeting-minutes-kathmandu-3-november-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4237315.png"
-    },
-    {
-      "id": "4237295",
-      "title": "South Sudan Protection Analysis Update",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "South Sudan",
-      "primaryCountryIso3": "ssd",
-      "primaryCountryLocation": {
-        "lat": 6.9,
-        "lon": 30.5
-      },
-      "source": "Protection Cluster",
-      "format": "Analysis",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4c/9b/4c9bc1f2-8a5a-58ec-a051-96347e1bfb50.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4c/9b/4c9bc1f2-8a5a-58ec-a051-96347e1bfb50.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/4c/9b/4c9bc1f2-8a5a-58ec-a051-96347e1bfb50.png",
-        "https://reliefweb.int/sites/default/files/previews/4c/9b/4c9bc1f2-8a5a-58ec-a051-96347e1bfb50.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/4c/9b/4c9bc1f2-8a5a-58ec-a051-96347e1bfb50.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/south-sudan/south-sudan-protection-analysis-update",
-      "localThumbnail": "./assets/report-thumbs/rw-4237295.png"
-    },
-    {
-      "id": "4237277",
-      "title": "El Niño deepens across Asia Pacific, highlighting future climate risks and the need for greater preparedness",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "Malaysia",
-      "primaryCountryIso3": "mys",
-      "primaryCountryLocation": {
-        "lat": 3.2,
-        "lon": 108.71
-      },
-      "source": "IFRC",
-      "format": "News and Press Release",
-      "themes": [
-        "Disaster Management"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/malaysia/el-nino-deepens-across-asia-pacific-highlighting-future-climate-risks-and-need-greater-preparedness"
-    },
-    {
-      "id": "4237256",
-      "title": "Programme Intervention Protocols: Reinforcing community capacity for social cohesion and reconciliation through societal trauma healing in Rwanda.",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "Rwanda",
-      "primaryCountryIso3": "rwa",
-      "primaryCountryLocation": {
-        "lat": -1.87,
-        "lon": 29.92
-      },
-      "source": "SeeD",
-      "format": "Analysis",
-      "themes": [
-        "Peacekeeping and Peacebuilding"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/71/40/7140d7c7-4138-521d-94dc-ec260616a306.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/71/40/7140d7c7-4138-521d-94dc-ec260616a306.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/71/40/7140d7c7-4138-521d-94dc-ec260616a306.png",
-        "https://reliefweb.int/sites/default/files/previews/71/40/7140d7c7-4138-521d-94dc-ec260616a306.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/71/40/7140d7c7-4138-521d-94dc-ec260616a306.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/rwanda/programme-intervention-protocols-reinforcing-community-capacity-social-cohesion-and-reconciliation-through-societal-trauma-healing-rwanda",
-      "localThumbnail": "./assets/report-thumbs/rw-4237256.png"
-    },
-    {
-      "id": "4237310",
-      "title": "Crop Monitor for Early Warning | No. 121 – November 5th 2026",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "GEOGLAM Crop Monitor",
-      "format": "Analysis",
-      "themes": [
-        "Agriculture",
-        "Food and Nutrition"
-      ],
-      "disasterTypes": [
-        "Drought",
-        "Flood",
-        "Heat Wave",
-        "Insect Infestation",
-        "Severe Local Storm"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/32/c9320bd3-9134-4902-9a11-488c88f36995.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/c9/32/c9320bd3-9134-4902-9a11-488c88f36995.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/c9/32/c9320bd3-9134-4902-9a11-488c88f36995.png",
-        "https://reliefweb.int/sites/default/files/previews/c9/32/c9320bd3-9134-4902-9a11-488c88f36995.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/c9/32/c9320bd3-9134-4902-9a11-488c88f36995.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/crop-monitor-early-warning-no-121-november-5th-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4237310.png"
-    },
-    {
-      "id": "4237305",
-      "title": "UNHCR Chad | Forcibly Displaced Persons (October 2026)",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "Chad",
-      "primaryCountryIso3": "tcd",
-      "primaryCountryLocation": {
-        "lat": 15.36,
-        "lon": 18.66
-      },
-      "source": "UNHCR",
-      "format": "Map",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
-        "https://reliefweb.int/sites/default/files/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/9c/25/9c25f404-db10-5b35-80ce-81063c2cbea1.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/map/chad/unhcr-chad-forcibly-displaced-persons-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4237305.png"
-    },
-    {
-      "id": "4237292",
-      "title": "Sudan Situation Map Weekly Regional Update - 02 Nov 2026",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "primaryCountryIso3": "sdn",
-      "primaryCountryLocation": {
-        "lat": 15,
-        "lon": 30
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4e/15/4e15eb9c-52cd-5b86-ae00-4f029caa6d45.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4e/15/4e15eb9c-52cd-5b86-ae00-4f029caa6d45.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/4e/15/4e15eb9c-52cd-5b86-ae00-4f029caa6d45.png",
-        "https://reliefweb.int/sites/default/files/previews/4e/15/4e15eb9c-52cd-5b86-ae00-4f029caa6d45.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/4e/15/4e15eb9c-52cd-5b86-ae00-4f029caa6d45.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/sudan-situation-map-weekly-regional-update-02-nov-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4237292.png"
-    },
-    {
-      "id": "4237302",
-      "title": "From good practices to systemic change: Educational integration of refugees from Ukraine",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "Hungary",
-      "primaryCountryIso3": "hun",
-      "primaryCountryLocation": {
-        "lat": 47.06,
-        "lon": 19.5
-      },
-      "source": "UNHCR",
-      "format": "Analysis",
-      "themes": [
-        "Education"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d2/bd/d2bd3259-7aed-5727-b155-a0c3562ab0d0.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d2/bd/d2bd3259-7aed-5727-b155-a0c3562ab0d0.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/d2/bd/d2bd3259-7aed-5727-b155-a0c3562ab0d0.png",
-        "https://reliefweb.int/sites/default/files/previews/d2/bd/d2bd3259-7aed-5727-b155-a0c3562ab0d0.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/d2/bd/d2bd3259-7aed-5727-b155-a0c3562ab0d0.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/hungary/good-practices-systemic-change-educational-integration-refugees-ukraine",
-      "localThumbnail": "./assets/report-thumbs/rw-4237302.png"
-    },
-    {
-      "id": "4237304",
-      "title": "UNHCR Tchad | Population des personnes en déplacement forcé au Tchad (Oct. 2026)",
-      "dateOriginal": "2026-11-06T00:00:00+00:00",
-      "primaryCountry": "Chad",
-      "primaryCountryIso3": "tcd",
-      "primaryCountryLocation": {
-        "lat": 15.36,
-        "lon": 18.66
-      },
-      "source": "UNHCR",
-      "format": "Infographic",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e8/6a/e86adeab-40a2-5394-b101-80ed86c6d7bc.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e8/6a/e86adeab-40a2-5394-b101-80ed86c6d7bc.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/e8/6a/e86adeab-40a2-5394-b101-80ed86c6d7bc.png",
-        "https://reliefweb.int/sites/default/files/previews/e8/6a/e86adeab-40a2-5394-b101-80ed86c6d7bc.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/e8/6a/e86adeab-40a2-5394-b101-80ed86c6d7bc.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/chad/unhcr-tchad-population-des-personnes-en-deplacement-force-au-tchad-oct-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4237304.png"
     }
   ],
   "disasters": [
@@ -29626,6 +29626,24 @@
       ]
     },
     {
+      "id": "51538",
+      "name": "South Sudan: Measles - Dec 2022",
+      "status": "ongoing",
+      "glide": "EP-2023-000048-SSD",
+      "dateEvent": "2022-12-10T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51538",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
+      "location": {
+        "lat": 6.9,
+        "lon": 30.5
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
       "id": "52000",
       "name": "Malawi: Drought - Mar 2024",
       "status": "ongoing",
@@ -29659,80 +29677,6 @@
       "primaryType": "Drought",
       "types": [
         "Drought"
-      ]
-    },
-    {
-      "id": "52556",
-      "name": "Yemen: Floods - Mar 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000044-YEM",
-      "dateEvent": "2026-03-27T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52556",
-      "primaryCountry": "Yemen",
-      "primaryCountryIso3": "yem",
-      "location": {
-        "lat": 15.94,
-        "lon": 47.62
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52553",
-      "name": "Afghanistan: Floods - Mar 2026",
-      "status": "ongoing",
-      "glide": "FF-2026-000043-AFG",
-      "dateEvent": "2026-03-25T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52553",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "location": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flash Flood",
-        "Flood"
-      ]
-    },
-    {
-      "id": "52512",
-      "name": "Tropical Cyclone Fytia - Jan 2026",
-      "status": "ongoing",
-      "glide": "TC-2026-000009-MDG",
-      "dateEvent": "2026-02-28T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52512",
-      "primaryCountry": "Madagascar",
-      "primaryCountryIso3": "mdg",
-      "location": {
-        "lat": -19.37,
-        "lon": 46.71
-      },
-      "primaryType": "Tropical Cyclone",
-      "types": [
-        "Flood",
-        "Tropical Cyclone"
-      ]
-    },
-    {
-      "id": "52503",
-      "name": "Zambia: Floods - Jan 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000020-ZMB",
-      "dateEvent": "2026-01-08T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52503",
-      "primaryCountry": "Zambia",
-      "primaryCountryIso3": "zmb",
-      "location": {
-        "lat": -14,
-        "lon": 27.43
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
       ]
     },
     {
@@ -29880,21 +29824,77 @@
       ]
     },
     {
-      "id": "51538",
-      "name": "South Sudan: Measles - Dec 2022",
+      "id": "52556",
+      "name": "Yemen: Floods - Mar 2026",
       "status": "ongoing",
-      "glide": "EP-2023-000048-SSD",
-      "dateEvent": "2022-12-10T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51538",
-      "primaryCountry": "South Sudan",
-      "primaryCountryIso3": "ssd",
+      "glide": "FL-2026-000044-YEM",
+      "dateEvent": "2026-03-27T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52556",
+      "primaryCountry": "Yemen",
+      "primaryCountryIso3": "yem",
       "location": {
-        "lat": 6.9,
-        "lon": 30.5
+        "lat": 15.94,
+        "lon": 47.62
       },
-      "primaryType": "Epidemic",
+      "primaryType": "Flood",
       "types": [
-        "Epidemic"
+        "Flood"
+      ]
+    },
+    {
+      "id": "52553",
+      "name": "Afghanistan: Floods - Mar 2026",
+      "status": "ongoing",
+      "glide": "FF-2026-000043-AFG",
+      "dateEvent": "2026-03-25T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52553",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
+      "location": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ]
+    },
+    {
+      "id": "52512",
+      "name": "Tropical Cyclone Fytia - Jan 2026",
+      "status": "ongoing",
+      "glide": "TC-2026-000009-MDG",
+      "dateEvent": "2026-02-28T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52512",
+      "primaryCountry": "Madagascar",
+      "primaryCountryIso3": "mdg",
+      "location": {
+        "lat": -19.37,
+        "lon": 46.71
+      },
+      "primaryType": "Tropical Cyclone",
+      "types": [
+        "Flood",
+        "Tropical Cyclone"
+      ]
+    },
+    {
+      "id": "52503",
+      "name": "Zambia: Floods - Jan 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000020-ZMB",
+      "dateEvent": "2026-01-08T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52503",
+      "primaryCountry": "Zambia",
+      "primaryCountryIso3": "zmb",
+      "location": {
+        "lat": -14,
+        "lon": 27.43
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
       ]
     },
     {
@@ -30250,134 +30250,6 @@
       ]
     },
     {
-      "id": "52679",
-      "name": "Sierra Leone: Flash Floods - Aug 2026",
-      "status": "ongoing",
-      "glide": "FF-2026-000152-SLE",
-      "dateEvent": "2026-08-03T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52679",
-      "primaryCountry": "Sierra Leone",
-      "primaryCountryIso3": "sle",
-      "location": {
-        "lat": 8.56,
-        "lon": -11.79
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood"
-      ]
-    },
-    {
-      "id": "52659",
-      "name": "Afghanistan: Flash Floods - Jul 2026",
-      "status": "ongoing",
-      "glide": "FF-2026-000120-AFG",
-      "dateEvent": "2026-07-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52659",
-      "primaryCountry": "Afghanistan",
-      "primaryCountryIso3": "afg",
-      "location": {
-        "lat": 33.84,
-        "lon": 66.03
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood",
-        "Flood"
-      ]
-    },
-    {
-      "id": "52601",
-      "name": "Syria: Floods - May 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000080-SYR",
-      "dateEvent": "2026-05-20T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52601",
-      "primaryCountry": "Syrian Arab Republic",
-      "primaryCountryIso3": "syr",
-      "location": {
-        "lat": 35.01,
-        "lon": 38.51
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52600",
-      "name": "Philippines: Earthquake and Tsunami - Jun 2026",
-      "status": "ongoing",
-      "glide": "EQ-2026-000083-PHL",
-      "dateEvent": "2026-06-08T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52600",
-      "primaryCountry": "Philippines",
-      "primaryCountryIso3": "phl",
-      "location": {
-        "lat": 11.74,
-        "lon": 122.88
-      },
-      "primaryType": "Earthquake",
-      "types": [
-        "Earthquake",
-        "Tsunami"
-      ]
-    },
-    {
-      "id": "43154",
-      "name": "Nigeria: Cholera Outbreak - Jun 2017",
-      "status": "ongoing",
-      "glide": "EP-2017-000077-NGA",
-      "dateEvent": "2017-06-07T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/43154",
-      "primaryCountry": "Nigeria",
-      "primaryCountryIso3": "nga",
-      "location": {
-        "lat": 9.59,
-        "lon": 8.11
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
-      ]
-    },
-    {
-      "id": "52040",
-      "name": "Angola: Drought - 2024-2026",
-      "status": "ongoing",
-      "glide": "DR-2024-000095-AGO",
-      "dateEvent": "2024-05-22T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52040",
-      "primaryCountry": "Angola",
-      "primaryCountryIso3": "ago",
-      "location": {
-        "lat": -12.1,
-        "lon": 17.91
-      },
-      "primaryType": "Drought",
-      "types": [
-        "Drought"
-      ]
-    },
-    {
-      "id": "52015",
-      "name": "Mozambique: Drought - May 2024",
-      "status": "ongoing",
-      "glide": "DR-2024-000073-MOZ",
-      "dateEvent": "2024-05-23T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52015",
-      "primaryCountry": "Mozambique",
-      "primaryCountryIso3": "moz",
-      "location": {
-        "lat": -18.09,
-        "lon": 34.75
-      },
-      "primaryType": "Drought",
-      "types": [
-        "Drought"
-      ]
-    },
-    {
       "id": "50620",
       "name": "Afghanistan: Drought - 2021-2026",
       "status": "ongoing",
@@ -30502,6 +30374,60 @@
       "primaryType": "Epidemic",
       "types": [
         "Epidemic"
+      ]
+    },
+    {
+      "id": "51337",
+      "name": "Ethiopia: Cholera Outbreak - Sep 2022",
+      "status": "ongoing",
+      "glide": "EP-2022-000323-ETH",
+      "dateEvent": "2022-09-16T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51337",
+      "primaryCountry": "Ethiopia",
+      "primaryCountryIso3": "eth",
+      "location": {
+        "lat": 8.63,
+        "lon": 39.62
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
+      ]
+    },
+    {
+      "id": "52040",
+      "name": "Angola: Drought - 2024-2026",
+      "status": "ongoing",
+      "glide": "DR-2024-000095-AGO",
+      "dateEvent": "2024-05-22T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52040",
+      "primaryCountry": "Angola",
+      "primaryCountryIso3": "ago",
+      "location": {
+        "lat": -12.1,
+        "lon": 17.91
+      },
+      "primaryType": "Drought",
+      "types": [
+        "Drought"
+      ]
+    },
+    {
+      "id": "52015",
+      "name": "Mozambique: Drought - May 2024",
+      "status": "ongoing",
+      "glide": "DR-2024-000073-MOZ",
+      "dateEvent": "2024-05-23T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52015",
+      "primaryCountry": "Mozambique",
+      "primaryCountryIso3": "moz",
+      "location": {
+        "lat": -18.09,
+        "lon": 34.75
+      },
+      "primaryType": "Drought",
+      "types": [
+        "Drought"
       ]
     },
     {
@@ -30705,17 +30631,91 @@
       ]
     },
     {
-      "id": "51337",
-      "name": "Ethiopia: Cholera Outbreak - Sep 2022",
+      "id": "52679",
+      "name": "Sierra Leone: Flash Floods - Aug 2026",
       "status": "ongoing",
-      "glide": "EP-2022-000323-ETH",
-      "dateEvent": "2022-09-16T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51337",
-      "primaryCountry": "Ethiopia",
-      "primaryCountryIso3": "eth",
+      "glide": "FF-2026-000152-SLE",
+      "dateEvent": "2026-08-03T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52679",
+      "primaryCountry": "Sierra Leone",
+      "primaryCountryIso3": "sle",
       "location": {
-        "lat": 8.63,
-        "lon": 39.62
+        "lat": 8.56,
+        "lon": -11.79
+      },
+      "primaryType": "Flash Flood",
+      "types": [
+        "Flash Flood"
+      ]
+    },
+    {
+      "id": "52659",
+      "name": "Afghanistan: Flash Floods - Jul 2026",
+      "status": "ongoing",
+      "glide": "FF-2026-000120-AFG",
+      "dateEvent": "2026-07-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52659",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
+      "location": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
+      "primaryType": "Flash Flood",
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ]
+    },
+    {
+      "id": "52601",
+      "name": "Syria: Floods - May 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000080-SYR",
+      "dateEvent": "2026-05-20T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52601",
+      "primaryCountry": "Syrian Arab Republic",
+      "primaryCountryIso3": "syr",
+      "location": {
+        "lat": 35.01,
+        "lon": 38.51
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52600",
+      "name": "Philippines: Earthquake and Tsunami - Jun 2026",
+      "status": "ongoing",
+      "glide": "EQ-2026-000083-PHL",
+      "dateEvent": "2026-06-08T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52600",
+      "primaryCountry": "Philippines",
+      "primaryCountryIso3": "phl",
+      "location": {
+        "lat": 11.74,
+        "lon": 122.88
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake",
+        "Tsunami"
+      ]
+    },
+    {
+      "id": "43154",
+      "name": "Nigeria: Cholera Outbreak - Jun 2017",
+      "status": "ongoing",
+      "glide": "EP-2017-000077-NGA",
+      "dateEvent": "2017-06-07T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/43154",
+      "primaryCountry": "Nigeria",
+      "primaryCountryIso3": "nga",
+      "location": {
+        "lat": 9.59,
+        "lon": 8.11
       },
       "primaryType": "Epidemic",
       "types": [
@@ -30756,6 +30756,24 @@
       "primaryType": "Flood",
       "types": [
         "Flood"
+      ]
+    },
+    {
+      "id": "14127",
+      "name": "DR Congo: Cholera and Measles Outbreaks - 2013-2026",
+      "status": "ongoing",
+      "glide": "EP-2013-000175-COD",
+      "dateEvent": "2013-01-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/14127",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "location": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "primaryType": "Epidemic",
+      "types": [
+        "Epidemic"
       ]
     },
     {
@@ -30810,24 +30828,6 @@
       "primaryType": "Flood",
       "types": [
         "Flood"
-      ]
-    },
-    {
-      "id": "14127",
-      "name": "DR Congo: Cholera and Measles Outbreaks - 2013-2026",
-      "status": "ongoing",
-      "glide": "EP-2013-000175-COD",
-      "dateEvent": "2013-01-01T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/14127",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "location": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "primaryType": "Epidemic",
-      "types": [
-        "Epidemic"
       ]
     },
     {
@@ -30958,90 +30958,17 @@
       ]
     },
     {
-      "id": "51911",
-      "name": "Zambia: Drought - 2024-2026",
+      "id": "51453",
+      "name": "Mozambique: Cholera Outbreak - 2022-2026",
       "status": "ongoing",
-      "glide": "DR-2024-000018-ZMB",
-      "dateEvent": "2024-01-15T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51911",
-      "primaryCountry": "Zambia",
-      "primaryCountryIso3": "zmb",
+      "glide": "EP-2023-000006-MOZ",
+      "dateEvent": "2022-12-21T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51453",
+      "primaryCountry": "Mozambique",
+      "primaryCountryIso3": "moz",
       "location": {
-        "lat": -14,
-        "lon": 27.43
-      },
-      "primaryType": "Drought",
-      "types": [
-        "Drought"
-      ]
-    },
-    {
-      "id": "52699",
-      "name": "Liberia: Floods - Aug 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000175-LBR",
-      "dateEvent": "2026-08-24T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52699",
-      "primaryCountry": "Liberia",
-      "primaryCountryIso3": "lbr",
-      "location": {
-        "lat": 6.45,
-        "lon": -9.31
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
-    },
-    {
-      "id": "52676",
-      "name": "Indonesia: Earthquake - Aug 2026",
-      "status": "ongoing",
-      "glide": "EQ-2026-000150-IDN",
-      "dateEvent": "2026-08-15T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52676",
-      "primaryCountry": "Indonesia",
-      "primaryCountryIso3": "idn",
-      "location": {
-        "lat": -2.28,
-        "lon": 117.37
-      },
-      "primaryType": "Earthquake",
-      "types": [
-        "Earthquake"
-      ]
-    },
-    {
-      "id": "52669",
-      "name": "India: Flash Floods - Jul 2026",
-      "status": "ongoing",
-      "glide": "FF-2026-000139-IND",
-      "dateEvent": "2026-07-19T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52669",
-      "primaryCountry": "India",
-      "primaryCountryIso3": "ind",
-      "location": {
-        "lat": 22.76,
-        "lon": 79.28
-      },
-      "primaryType": "Flash Flood",
-      "types": [
-        "Flash Flood",
-        "Flood"
-      ]
-    },
-    {
-      "id": "52657",
-      "name": "Chad: Cholera Outbreak - Jun 2026",
-      "status": "ongoing",
-      "glide": "EP-2026-000134-TCD",
-      "dateEvent": "2026-06-16T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52657",
-      "primaryCountry": "Chad",
-      "primaryCountryIso3": "tcd",
-      "location": {
-        "lat": 15.36,
-        "lon": 18.66
+        "lat": -18.09,
+        "lon": 34.75
       },
       "primaryType": "Epidemic",
       "types": [
@@ -31049,21 +30976,21 @@
       ]
     },
     {
-      "id": "52608",
-      "name": "Venezuela: Earthquakes - Jun 2026",
+      "id": "51442",
+      "name": "Burundi: Cholera Outbreak - Jan 2023",
       "status": "ongoing",
-      "glide": "EQ-2026-000093-VEN",
-      "dateEvent": "2026-06-24T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52608",
-      "primaryCountry": "Venezuela (Bolivarian Republic of)",
-      "primaryCountryIso3": "ven",
+      "glide": "EP-2023-000075-BDI",
+      "dateEvent": "2023-01-01T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51442",
+      "primaryCountry": "Burundi",
+      "primaryCountryIso3": "bdi",
       "location": {
-        "lat": 7.62,
-        "lon": -65.8
+        "lat": -3.53,
+        "lon": 29.89
       },
-      "primaryType": "Earthquake",
+      "primaryType": "Epidemic",
       "types": [
-        "Earthquake"
+        "Epidemic"
       ]
     },
     {
@@ -31214,17 +31141,72 @@
       ]
     },
     {
-      "id": "51453",
-      "name": "Mozambique: Cholera Outbreak - 2022-2026",
+      "id": "52699",
+      "name": "Liberia: Floods - Aug 2026",
       "status": "ongoing",
-      "glide": "EP-2023-000006-MOZ",
-      "dateEvent": "2022-12-21T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51453",
-      "primaryCountry": "Mozambique",
-      "primaryCountryIso3": "moz",
+      "glide": "FL-2026-000175-LBR",
+      "dateEvent": "2026-08-24T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52699",
+      "primaryCountry": "Liberia",
+      "primaryCountryIso3": "lbr",
       "location": {
-        "lat": -18.09,
-        "lon": 34.75
+        "lat": 6.45,
+        "lon": -9.31
+      },
+      "primaryType": "Flood",
+      "types": [
+        "Flood"
+      ]
+    },
+    {
+      "id": "52676",
+      "name": "Indonesia: Earthquake - Aug 2026",
+      "status": "ongoing",
+      "glide": "EQ-2026-000150-IDN",
+      "dateEvent": "2026-08-15T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52676",
+      "primaryCountry": "Indonesia",
+      "primaryCountryIso3": "idn",
+      "location": {
+        "lat": -2.28,
+        "lon": 117.37
+      },
+      "primaryType": "Earthquake",
+      "types": [
+        "Earthquake"
+      ]
+    },
+    {
+      "id": "52669",
+      "name": "India: Flash Floods - Jul 2026",
+      "status": "ongoing",
+      "glide": "FF-2026-000139-IND",
+      "dateEvent": "2026-07-19T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52669",
+      "primaryCountry": "India",
+      "primaryCountryIso3": "ind",
+      "location": {
+        "lat": 22.76,
+        "lon": 79.28
+      },
+      "primaryType": "Flash Flood",
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ]
+    },
+    {
+      "id": "52657",
+      "name": "Chad: Cholera Outbreak - Jun 2026",
+      "status": "ongoing",
+      "glide": "EP-2026-000134-TCD",
+      "dateEvent": "2026-06-16T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52657",
+      "primaryCountry": "Chad",
+      "primaryCountryIso3": "tcd",
+      "location": {
+        "lat": 15.36,
+        "lon": 18.66
       },
       "primaryType": "Epidemic",
       "types": [
@@ -31232,21 +31214,39 @@
       ]
     },
     {
-      "id": "51442",
-      "name": "Burundi: Cholera Outbreak - Jan 2023",
+      "id": "52608",
+      "name": "Venezuela: Earthquakes - Jun 2026",
       "status": "ongoing",
-      "glide": "EP-2023-000075-BDI",
-      "dateEvent": "2023-01-01T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/51442",
-      "primaryCountry": "Burundi",
-      "primaryCountryIso3": "bdi",
+      "glide": "EQ-2026-000093-VEN",
+      "dateEvent": "2026-06-24T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52608",
+      "primaryCountry": "Venezuela (Bolivarian Republic of)",
+      "primaryCountryIso3": "ven",
       "location": {
-        "lat": -3.53,
-        "lon": 29.89
+        "lat": 7.62,
+        "lon": -65.8
       },
-      "primaryType": "Epidemic",
+      "primaryType": "Earthquake",
       "types": [
-        "Epidemic"
+        "Earthquake"
+      ]
+    },
+    {
+      "id": "51911",
+      "name": "Zambia: Drought - 2024-2026",
+      "status": "ongoing",
+      "glide": "DR-2024-000018-ZMB",
+      "dateEvent": "2024-01-15T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/51911",
+      "primaryCountry": "Zambia",
+      "primaryCountryIso3": "zmb",
+      "location": {
+        "lat": -14,
+        "lon": 27.43
+      },
+      "primaryType": "Drought",
+      "types": [
+        "Drought"
       ]
     },
     {
@@ -31265,6 +31265,25 @@
       "primaryType": "Epidemic",
       "types": [
         "Epidemic"
+      ]
+    },
+    {
+      "id": "52726",
+      "name": "DR Congo: Floods and Landslides – Feb 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000030-COD",
+      "dateEvent": "2026-02-19T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52726",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "location": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "primaryType": "Land Slide",
+      "types": [
+        "Flood",
+        "Land Slide"
       ]
     },
     {
@@ -31304,25 +31323,6 @@
       ]
     },
     {
-      "id": "52726",
-      "name": "DR Congo: Floods and Landslides – Feb 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000030-COD",
-      "dateEvent": "2026-02-19T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52726",
-      "primaryCountry": "Democratic Republic of the Congo",
-      "primaryCountryIso3": "cod",
-      "location": {
-        "lat": -4.03833,
-        "lon": 21.7587
-      },
-      "primaryType": "Land Slide",
-      "types": [
-        "Flood",
-        "Land Slide"
-      ]
-    },
-    {
       "id": "52498",
       "name": "Bolivia: Floods - Dec 2025",
       "status": "ongoing",
@@ -31338,6 +31338,24 @@
       "primaryType": "Flood",
       "types": [
         "Flash Flood",
+        "Flood"
+      ]
+    },
+    {
+      "id": "52520",
+      "name": "Colombia: Floods - Jan 2026",
+      "status": "ongoing",
+      "glide": "FL-2026-000017-COL",
+      "dateEvent": "2026-01-26T00:00:00+00:00",
+      "url": "https://reliefweb.int/taxonomy/term/52520",
+      "primaryCountry": "Colombia",
+      "primaryCountryIso3": "col",
+      "location": {
+        "lat": 3.9,
+        "lon": -73.07
+      },
+      "primaryType": "Flood",
+      "types": [
         "Flood"
       ]
     },
@@ -31360,29 +31378,11 @@
         "Flood",
         "Land Slide"
       ]
-    },
-    {
-      "id": "52520",
-      "name": "Colombia: Floods - Jan 2026",
-      "status": "ongoing",
-      "glide": "FL-2026-000017-COL",
-      "dateEvent": "2026-01-26T00:00:00+00:00",
-      "url": "https://reliefweb.int/taxonomy/term/52520",
-      "primaryCountry": "Colombia",
-      "primaryCountryIso3": "col",
-      "location": {
-        "lat": 3.9,
-        "lon": -73.07
-      },
-      "primaryType": "Flood",
-      "types": [
-        "Flood"
-      ]
     }
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-11-08T19:43:14.107Z",
+    "queryGeneratedAt": "2026-11-08T23:44:02.669Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -31393,7 +31393,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-11-08T19:43:15.068Z",
+    "reportThumbnailCacheAt": "2026-11-08T23:44:04.044Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
