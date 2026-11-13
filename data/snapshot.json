@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-11-13T00:26:05.061Z",
-  "lastSyncAttemptAt": "2026-11-13T00:26:05.061Z",
+  "generatedAt": "2026-11-13T07:59:21.841Z",
+  "lastSyncAttemptAt": "2026-11-13T07:59:21.841Z",
   "enrichedAt": "2026-11-12T10:15:37.680Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -22,7 +22,7 @@
     }
   },
   "summary": {
-    "reports30d": 1934,
+    "reports30d": 1953,
     "countries": 116,
     "uniqueSources": 150,
     "activeDisasters": 91,
@@ -133,7 +133,7 @@
     },
     {
       "date": "2026-11-09T00:00:00+00:00",
-      "count": 99
+      "count": 100
     },
     {
       "date": "2026-11-10T00:00:00+00:00",
@@ -141,21 +141,25 @@
     },
     {
       "date": "2026-11-11T00:00:00+00:00",
-      "count": 90
+      "count": 89
     },
     {
       "date": "2026-11-12T00:00:00+00:00",
-      "count": 49
+      "count": 60
+    },
+    {
+      "date": "2026-11-13T00:00:00+00:00",
+      "count": 8
     }
   ],
   "globalThemes": [
     {
       "name": "Protection and Human Rights",
-      "count": 988
+      "count": 996
     },
     {
       "name": "Health",
-      "count": 604
+      "count": 610
     },
     {
       "name": "Food and Nutrition",
@@ -163,7 +167,7 @@
     },
     {
       "name": "Shelter and Non-Food Items",
-      "count": 310
+      "count": 315
     },
     {
       "name": "Water Sanitation Hygiene",
@@ -171,27 +175,27 @@
     },
     {
       "name": "Education",
-      "count": 237
+      "count": 238
     },
     {
       "name": "Coordination",
-      "count": 215
+      "count": 217
     },
     {
       "name": "Agriculture",
-      "count": 178
+      "count": 179
     },
     {
       "name": "Logistics and Telecommunications",
-      "count": 117
+      "count": 119
     },
     {
       "name": "Disaster Management",
-      "count": 102
+      "count": 104
     },
     {
       "name": "Recovery and Reconstruction",
-      "count": 92
+      "count": 93
     },
     {
       "name": "Gender",
@@ -199,15 +203,15 @@
     },
     {
       "name": "Climate Change and Environment",
-      "count": 80
+      "count": 82
     },
     {
       "name": "Camp Coordination and Camp Management",
-      "count": 66
+      "count": 69
     },
     {
       "name": "Contributions",
-      "count": 62
+      "count": 64
     },
     {
       "name": "Safety and Security",
@@ -215,7 +219,7 @@
     },
     {
       "name": "Humanitarian Financing",
-      "count": 47
+      "count": 48
     },
     {
       "name": "Peacekeeping and Peacebuilding",
@@ -233,19 +237,19 @@
   "globalSources": [
     {
       "name": "UNHCR",
-      "count": 360
+      "count": 363
     },
     {
       "name": "IOM",
-      "count": 217
+      "count": 227
     },
     {
       "name": "WFP",
-      "count": 195
+      "count": 199
     },
     {
       "name": "OCHA",
-      "count": 170
+      "count": 172
     },
     {
       "name": "WHO",
@@ -253,27 +257,27 @@
     },
     {
       "name": "IFRC",
-      "count": 108
+      "count": 111
     },
     {
       "name": "UNICEF",
-      "count": 89
+      "count": 91
     },
     {
       "name": "Logistics Cluster",
-      "count": 56
+      "count": 58
+    },
+    {
+      "name": "CCCM Cluster",
+      "count": 37
     },
     {
       "name": "Protection Cluster",
       "count": 36
     },
     {
-      "name": "CCCM Cluster",
-      "count": 33
-    },
-    {
       "name": "FAO",
-      "count": 33
+      "count": 35
     },
     {
       "name": "Health Cluster",
@@ -288,15 +292,19 @@
       "count": 28
     },
     {
+      "name": "Shelter Cluster",
+      "count": 28
+    },
+    {
+      "name": "FEWS NET",
+      "count": 27
+    },
+    {
       "name": "REACH",
       "count": 27
     },
     {
-      "name": "Shelter Cluster",
-      "count": 27
-    },
-    {
-      "name": "FEWS NET",
+      "name": "ECHO",
       "count": 26
     },
     {
@@ -304,20 +312,16 @@
       "count": 26
     },
     {
-      "name": "ECHO",
-      "count": 25
-    },
-    {
       "name": "ICRC",
       "count": 24
     },
     {
       "name": "ETC",
-      "count": 21
+      "count": 22
     },
     {
       "name": "Oxfam",
-      "count": 21
+      "count": 22
     },
     {
       "name": "Caritas",
@@ -325,15 +329,15 @@
     },
     {
       "name": "UNDRR",
-      "count": 18
+      "count": 19
+    },
+    {
+      "name": "ACTED",
+      "count": 17
     },
     {
       "name": "UN Women",
       "count": 17
-    },
-    {
-      "name": "ACTED",
-      "count": 16
     },
     {
       "name": "CARE",
@@ -388,15 +392,19 @@
       "count": 11
     },
     {
+      "name": "Nutrition Cluster",
+      "count": 10
+    },
+    {
+      "name": "SLSC Cluster",
+      "count": 10
+    },
+    {
       "name": "Amnesty",
       "count": 9
     },
     {
       "name": "Insecurity Insight",
-      "count": 9
-    },
-    {
-      "name": "Nutrition Cluster",
       "count": 9
     },
     {
@@ -420,15 +428,15 @@
       "count": 7
     },
     {
+      "name": "DRC",
+      "count": 7
+    },
+    {
       "name": "Mercy Corps",
       "count": 7
     },
     {
       "name": "SCPR",
-      "count": 7
-    },
-    {
-      "name": "SLSC Cluster",
       "count": 7
     },
     {
@@ -438,10 +446,6 @@
     {
       "name": "Ukraine CWG",
       "count": 7
-    },
-    {
-      "name": "DRC",
-      "count": 6
     },
     {
       "name": "Govt. Bangladesh",
@@ -632,6 +636,10 @@
       "count": 3
     },
     {
+      "name": "FSC",
+      "count": 3
+    },
+    {
       "name": "Govt. Canada",
       "count": 3
     },
@@ -669,6 +677,10 @@
     },
     {
       "name": "SIPRI",
+      "count": 3
+    },
+    {
+      "name": "Shelter Centre",
       "count": 3
     },
     {
@@ -748,10 +760,6 @@
       "count": 2
     },
     {
-      "name": "FSC",
-      "count": 2
-    },
-    {
       "name": "FSNAU",
       "count": 2
     },
@@ -826,24 +834,20 @@
     {
       "name": "Pakistan Red Crescent",
       "count": 2
-    },
-    {
-      "name": "RCC",
-      "count": 2
     }
   ],
   "globalFormats": [
     {
       "name": "News and Press Release",
-      "count": 584
+      "count": 588
     },
     {
       "name": "Situation Report",
-      "count": 476
+      "count": 478
     },
     {
       "name": "Infographic",
-      "count": 354
+      "count": 356
     },
     {
       "name": "Analysis",
@@ -851,19 +855,19 @@
     },
     {
       "name": "Other",
-      "count": 97
+      "count": 98
     },
     {
       "name": "Assessment",
-      "count": 80
+      "count": 81
     },
     {
       "name": "Map",
-      "count": 69
+      "count": 75
     },
     {
       "name": "Manual and Guideline",
-      "count": 51
+      "count": 54
     },
     {
       "name": "Evaluation and Lessons Learned",
@@ -882,10 +886,10 @@
       "location": null,
       "overview": "",
       "countryUrl": "",
-      "reports30d": 253,
-      "reports7d": 52,
+      "reports30d": 256,
+      "reports7d": 55,
       "previous7d": 73,
-      "change7d": -28.767123287671232,
+      "change7d": -24.65753424657534,
       "uniqueSources": 60,
       "themeBreadth": 20,
       "formatBreadth": 9,
@@ -1712,10 +1716,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 149,
-      "reports7d": 24,
+      "reports30d": 154,
+      "reports7d": 29,
       "previous7d": 31,
-      "change7d": -22.58064516129032,
+      "change7d": -6.451612903225806,
       "uniqueSources": 38,
       "themeBreadth": 17,
       "formatBreadth": 8,
@@ -2119,6 +2123,118 @@
       ],
       "recentReports": [
         {
+          "id": "4238198",
+          "title": "OIM RDC : Mouvements des PDI - DTM: Suivi de la mobilite - juillet 2026 | Nord-Kivu & Ituri",
+          "dateOriginal": "2026-11-13T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "IOM",
+          "format": "Map",
+          "themes": [
+            "Health",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [
+            "Epidemic"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/26/f1/26f18b76-2a79-5da7-8bc3-5ef1dc8b99a2.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/26/f1/26f18b76-2a79-5da7-8bc3-5ef1dc8b99a2.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/26/f1/26f18b76-2a79-5da7-8bc3-5ef1dc8b99a2.png",
+            "https://reliefweb.int/sites/default/files/previews/26/f1/26f18b76-2a79-5da7-8bc3-5ef1dc8b99a2.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/26/f1/26f18b76-2a79-5da7-8bc3-5ef1dc8b99a2.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/map/democratic-republic-congo/oim-rdc-mouvements-des-pdi-dtm-suivi-de-la-mobilite-juillet-2026-nord-kivu-ituri"
+        },
+        {
+          "id": "4238197",
+          "title": "OIM RDC : Mouvements des PDI - Suivi des deplacements - juillet 2026 | Nord-Kivu & Ituri",
+          "dateOriginal": "2026-11-13T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "IOM",
+          "format": "Map",
+          "themes": [
+            "Health",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [
+            "Epidemic"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/4c/7c4cc252-9962-5c28-8c09-54d86c9d8f72.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/4c/7c4cc252-9962-5c28-8c09-54d86c9d8f72.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/7c/4c/7c4cc252-9962-5c28-8c09-54d86c9d8f72.png",
+            "https://reliefweb.int/sites/default/files/previews/7c/4c/7c4cc252-9962-5c28-8c09-54d86c9d8f72.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/7c/4c/7c4cc252-9962-5c28-8c09-54d86c9d8f72.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/map/democratic-republic-congo/oim-rdc-mouvements-des-pdi-suivi-des-deplacements-juillet-2026-nord-kivu-ituri"
+        },
+        {
+          "id": "4238199",
+          "title": "OIM RDC : Mouvements des PDI - Suivi des déplacements - juillet 2026 | Province du Sud-Kivu, RDC",
+          "dateOriginal": "2026-11-13T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "IOM",
+          "format": "Map",
+          "themes": [
+            "Health",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d1/15/d11532c5-4ec2-5985-8a60-c2c1647d904d.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d1/15/d11532c5-4ec2-5985-8a60-c2c1647d904d.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/d1/15/d11532c5-4ec2-5985-8a60-c2c1647d904d.png",
+            "https://reliefweb.int/sites/default/files/previews/d1/15/d11532c5-4ec2-5985-8a60-c2c1647d904d.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/d1/15/d11532c5-4ec2-5985-8a60-c2c1647d904d.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/map/democratic-republic-congo/oim-rdc-mouvements-des-pdi-suivi-des-deplacements-juillet-2026-province-du-sud-kivu-rdc"
+        },
+        {
+          "id": "4238200",
+          "title": "OIM RDC : Mouvements des PDI - Suivi des déplacements - juillet 2026 | Province de Tanganyika, RDC",
+          "dateOriginal": "2026-11-13T00:00:00+00:00",
+          "primaryCountry": "Democratic Republic of the Congo",
+          "primaryCountryIso3": "cod",
+          "primaryCountryLocation": {
+            "lat": -4.03833,
+            "lon": 21.7587
+          },
+          "source": "IOM",
+          "format": "Map",
+          "themes": [
+            "Health",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/45/3d/453dbbe1-636c-47f1-923e-696bace8d2fc.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/45/3d/453dbbe1-636c-47f1-923e-696bace8d2fc.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/45/3d/453dbbe1-636c-47f1-923e-696bace8d2fc.png",
+            "https://reliefweb.int/sites/default/files/previews/45/3d/453dbbe1-636c-47f1-923e-696bace8d2fc.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/45/3d/453dbbe1-636c-47f1-923e-696bace8d2fc.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/map/democratic-republic-congo/oim-rdc-mouvements-des-pdi-suivi-des-deplacements-juillet-2026-province-de-tanganyika-rdc"
+        },
+        {
           "id": "4238138",
           "title": "MSF DRC Ebola: Persistent gaps between resources and action remain six months on",
           "dateOriginal": "2026-11-12T00:00:00+00:00",
@@ -2346,106 +2462,6 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/democratic-republic-congo/maladie-virus-ebola-et-degradation-de-la-situation-securitaire-dans-le-grand-nord-kivu-impact-sur-leducation-nov-2026"
-        },
-        {
-          "id": "4238010",
-          "title": "RD Congo - Sud-Kivu : Flash Update #1 : De nouvelles violences armées entraînent des déplacements de population",
-          "dateOriginal": "2026-11-11T00:00:00+00:00",
-          "primaryCountry": "Democratic Republic of the Congo",
-          "primaryCountryIso3": "cod",
-          "primaryCountryLocation": {
-            "lat": -4.03833,
-            "lon": 21.7587
-          },
-          "source": "OCHA",
-          "format": "Situation Report",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [
-            "Epidemic"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0e/cb/0ecb77d6-ba12-4577-92ad-7fabc7a2d6c8.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0e/cb/0ecb77d6-ba12-4577-92ad-7fabc7a2d6c8.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/0e/cb/0ecb77d6-ba12-4577-92ad-7fabc7a2d6c8.png",
-            "https://reliefweb.int/sites/default/files/previews/0e/cb/0ecb77d6-ba12-4577-92ad-7fabc7a2d6c8.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/0e/cb/0ecb77d6-ba12-4577-92ad-7fabc7a2d6c8.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/rd-congo-sud-kivu-flash-update-1-de-nouvelles-violences-armees-entrainent-des-deplacements-de-population"
-        },
-        {
-          "id": "4238067",
-          "title": "Ebola disease: Behind the mask",
-          "dateOriginal": "2026-11-11T00:00:00+00:00",
-          "primaryCountry": "Democratic Republic of the Congo",
-          "primaryCountryIso3": "cod",
-          "primaryCountryLocation": {
-            "lat": -4.03833,
-            "lon": 21.7587
-          },
-          "source": "MSF",
-          "format": "News and Press Release",
-          "themes": [
-            "Health",
-            "Safety and Security"
-          ],
-          "disasterTypes": [
-            "Epidemic"
-          ],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/ebola-disease-behind-mask"
-        },
-        {
-          "id": "4238065",
-          "title": "WHO Director-General's opening remarks at the Member State briefing on Ebola outbreak in the Democratic Republic of the Congo – 11 November 2026",
-          "dateOriginal": "2026-11-11T00:00:00+00:00",
-          "primaryCountry": "Democratic Republic of the Congo",
-          "primaryCountryIso3": "cod",
-          "primaryCountryLocation": {
-            "lat": -4.03833,
-            "lon": 21.7587
-          },
-          "source": "WHO",
-          "format": "News and Press Release",
-          "themes": [
-            "Health",
-            "Protection and Human Rights",
-            "Safety and Security"
-          ],
-          "disasterTypes": [
-            "Epidemic"
-          ],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/who-director-generals-opening-remarks-member-state-briefing-ebola-outbreak-democratic-republic-congo-11-november-2026"
-        },
-        {
-          "id": "4237836",
-          "title": "Broader use of ERVEBO® vaccine could help protect people from Bundibugyo Ebola outbreak today",
-          "dateOriginal": "2026-11-10T00:00:00+00:00",
-          "primaryCountry": "Democratic Republic of the Congo",
-          "primaryCountryIso3": "cod",
-          "primaryCountryLocation": {
-            "lat": -4.03833,
-            "lon": 21.7587
-          },
-          "source": "MSF",
-          "format": "News and Press Release",
-          "themes": [
-            "Health"
-          ],
-          "disasterTypes": [
-            "Epidemic"
-          ],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/broader-use-ervebor-vaccine-could-help-protect-people-bundibugyo-ebola-outbreak-today"
         }
       ],
       "enrichmentStatus": "complete"
@@ -2460,10 +2476,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 97,
-      "reports7d": 10,
+      "reports30d": 98,
+      "reports7d": 11,
       "previous7d": 27,
-      "change7d": -62.96296296296296,
+      "change7d": -59.25925925925925,
       "uniqueSources": 33,
       "themeBreadth": 17,
       "formatBreadth": 9,
@@ -3869,10 +3885,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 91,
-      "reports7d": 11,
+      "reports30d": 93,
+      "reports7d": 13,
       "previous7d": 24,
-      "change7d": -54.166666666666664,
+      "change7d": -45.83333333333333,
       "uniqueSources": 60,
       "themeBreadth": 17,
       "formatBreadth": 7,
@@ -4701,10 +4717,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 87,
-      "reports7d": 20,
+      "reports30d": 88,
+      "reports7d": 21,
       "previous7d": 14,
-      "change7d": 42.857142857142854,
+      "change7d": 50,
       "uniqueSources": 60,
       "themeBreadth": 18,
       "formatBreadth": 8,
@@ -5541,10 +5557,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 77,
-      "reports7d": 11,
+      "reports30d": 78,
+      "reports7d": 12,
       "previous7d": 23,
-      "change7d": -52.17391304347826,
+      "change7d": -47.82608695652174,
       "uniqueSources": 32,
       "themeBreadth": 14,
       "formatBreadth": 8,
@@ -5916,6 +5932,32 @@
       ],
       "recentReports": [
         {
+          "id": "4238205",
+          "title": "Afghanistan: Emergency Border Response report (25 Oct - 07 Nov 2026)",
+          "dateOriginal": "2026-11-13T00:00:00+00:00",
+          "primaryCountry": "Afghanistan",
+          "primaryCountryIso3": "afg",
+          "primaryCountryLocation": {
+            "lat": 33.84,
+            "lon": 66.03
+          },
+          "source": "IOM",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/23/54/2354bd9f-f700-4130-acb7-03c9753cdac0.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/23/54/2354bd9f-f700-4130-acb7-03c9753cdac0.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/23/54/2354bd9f-f700-4130-acb7-03c9753cdac0.png",
+            "https://reliefweb.int/sites/default/files/previews/23/54/2354bd9f-f700-4130-acb7-03c9753cdac0.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/23/54/2354bd9f-f700-4130-acb7-03c9753cdac0.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/afghanistan/afghanistan-emergency-border-response-report-25-oct-07-nov-2026"
+        },
+        {
           "id": "4238117",
           "title": "EMR Polio Bulletin - Issue No. 1466, Week 44 (ending on 08/11/2026)",
           "dateOriginal": "2026-11-12T00:00:00+00:00",
@@ -6208,33 +6250,6 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/afghanistan/afghanistan-nutrition-sentinel-site-surveillance-bulletin-16th-edition-quarter-3-september-2026",
           "localThumbnail": "./assets/report-thumbs/rw-4237393.png"
-        },
-        {
-          "id": "4237223",
-          "title": "UNHCR Afghanistan Situation Regional Update September 2026",
-          "dateOriginal": "2026-11-06T00:00:00+00:00",
-          "primaryCountry": "Afghanistan",
-          "primaryCountryIso3": "afg",
-          "primaryCountryLocation": {
-            "lat": 33.84,
-            "lon": 66.03
-          },
-          "source": "UNHCR",
-          "format": "Situation Report",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8f/0d/8f0de7cc-30e2-52fd-9988-1ef17b37f070.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8f/0d/8f0de7cc-30e2-52fd-9988-1ef17b37f070.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/8f/0d/8f0de7cc-30e2-52fd-9988-1ef17b37f070.png",
-            "https://reliefweb.int/sites/default/files/previews/8f/0d/8f0de7cc-30e2-52fd-9988-1ef17b37f070.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/8f/0d/8f0de7cc-30e2-52fd-9988-1ef17b37f070.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/afghanistan/unhcr-afghanistan-situation-regional-update-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4237223.png"
         }
       ],
       "enrichmentStatus": "complete"
@@ -7454,7 +7469,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/15/2c/152c1b7a-430e-4617-830d-be9430def3d9.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-humanitarian-snapshot-october-2026"
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-humanitarian-snapshot-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4237720.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/15/2c/152c1b7a-430e-4617-830d-be9430def3d9.png"
         },
         {
           "id": "4238058",
@@ -8127,7 +8144,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/00/37/0037035a-ae21-4cb7-8942-611f8b4a52ad.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/somalia/somalia-dengue-outbreak-dref-response-dref-final-report-mdrso026"
+          "url": "https://reliefweb.int/report/somalia/somalia-dengue-outbreak-dref-response-dref-final-report-mdrso026",
+          "localThumbnail": "./assets/report-thumbs/rw-4238045.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/00/37/0037035a-ae21-4cb7-8942-611f8b4a52ad.png"
         },
         {
           "id": "4237918",
@@ -9668,10 +9687,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 44,
-      "reports7d": 8,
+      "reports30d": 43,
+      "reports7d": 7,
       "previous7d": 15,
-      "change7d": -46.666666666666664,
+      "change7d": -53.333333333333336,
       "uniqueSources": 26,
       "themeBreadth": 17,
       "formatBreadth": 7,
@@ -10594,41 +10613,6 @@
       ],
       "recentReports": [
         {
-          "id": "4238176",
-          "title": "Panama: Earthquake in Azuero & Veraguas - Situation Report No. 09 (as of 11 November 2026, 12:30)",
-          "dateOriginal": "2026-11-12T00:00:00+00:00",
-          "primaryCountry": "Panama",
-          "primaryCountryIso3": "pan",
-          "primaryCountryLocation": {
-            "lat": 8.7,
-            "lon": -80.27
-          },
-          "source": "UNCT Panama, OCHA",
-          "format": "Situation Report",
-          "themes": [
-            "Camp Coordination and Camp Management",
-            "Coordination",
-            "Education",
-            "Food and Nutrition",
-            "Health",
-            "Logistics and Telecommunications",
-            "Shelter and Non-Food Items",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [
-            "Earthquake"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png",
-            "https://reliefweb.int/sites/default/files/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/panama/panama-earthquake-azuero-veraguas-situation-report-no-09-11-november-2026-1230"
-        },
-        {
           "id": "4238175",
           "title": "Panamá: Terremoto en Azuero y Veraguas - Informe de Situación No. 09 (al 11 de noviembre 2026, 12:30pm)",
           "dateOriginal": "2026-11-12T00:00:00+00:00",
@@ -10662,6 +10646,41 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/panama/panama-terremoto-en-azuero-y-veraguas-informe-de-situacion-no-09-al-11-de-noviembre-2026-1230pm"
+        },
+        {
+          "id": "4238176",
+          "title": "Panama: Earthquake in Azuero & Veraguas - Situation Report No. 09 (as of 11 November 2026, 12:30)",
+          "dateOriginal": "2026-11-12T00:00:00+00:00",
+          "primaryCountry": "Panama",
+          "primaryCountryIso3": "pan",
+          "primaryCountryLocation": {
+            "lat": 8.7,
+            "lon": -80.27
+          },
+          "source": "UNCT Panama, OCHA",
+          "format": "Situation Report",
+          "themes": [
+            "Camp Coordination and Camp Management",
+            "Coordination",
+            "Education",
+            "Food and Nutrition",
+            "Health",
+            "Logistics and Telecommunications",
+            "Shelter and Non-Food Items",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Earthquake"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png",
+            "https://reliefweb.int/sites/default/files/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/panama/panama-earthquake-azuero-veraguas-situation-report-no-09-11-november-2026-1230"
         },
         {
           "id": "4238023",
@@ -10807,7 +10826,9 @@
             "https://reliefweb.int/sites/default/files/styles/large/public/previews/13/19/13199888-bbfd-55bf-8454-0a2007a5e1f4.png"
           ],
           "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/panama/unhcr-panama-factsheet-july-september-2026"
+          "url": "https://reliefweb.int/report/panama/unhcr-panama-factsheet-july-september-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4237588.png",
+          "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/13/19/13199888-bbfd-55bf-8454-0a2007a5e1f4.png"
         },
         {
           "id": "4237014",
@@ -13495,652 +13516,6 @@
       "enrichmentStatus": "complete"
     },
     {
-      "name": "Myanmar",
-      "shortname": "Myanmar",
-      "iso3": "mmr",
-      "location": {
-        "lat": 21.15,
-        "lon": 96.51
-      },
-      "overview": "",
-      "countryUrl": "",
-      "reports30d": 27,
-      "reports7d": 4,
-      "previous7d": 2,
-      "change7d": 100,
-      "uniqueSources": 21,
-      "themeBreadth": 12,
-      "formatBreadth": 7,
-      "topThemes": [
-        {
-          "name": "Protection and Human Rights",
-          "count": 22
-        },
-        {
-          "name": "Coordination",
-          "count": 7
-        },
-        {
-          "name": "Health",
-          "count": 4
-        },
-        {
-          "name": "Safety and Security",
-          "count": 3
-        },
-        {
-          "name": "Agriculture",
-          "count": 2
-        },
-        {
-          "name": "Shelter and Non-Food Items",
-          "count": 2
-        },
-        {
-          "name": "Contributions",
-          "count": 1
-        },
-        {
-          "name": "Disaster Management",
-          "count": 1
-        },
-        {
-          "name": "Education",
-          "count": 1
-        },
-        {
-          "name": "Gender",
-          "count": 1
-        },
-        {
-          "name": "Peacekeeping and Peacebuilding",
-          "count": 1
-        },
-        {
-          "name": "Recovery and Reconstruction",
-          "count": 1
-        }
-      ],
-      "topSources": [
-        {
-          "name": "UNHCR",
-          "count": 6
-        },
-        {
-          "name": "KHRG",
-          "count": 4
-        },
-        {
-          "name": "MIMU",
-          "count": 4
-        },
-        {
-          "name": "UNDP",
-          "count": 4
-        },
-        {
-          "name": "MSF",
-          "count": 2
-        },
-        {
-          "name": "UN HRC",
-          "count": 2
-        },
-        {
-          "name": "APRRN",
-          "count": 1
-        },
-        {
-          "name": "Amnesty",
-          "count": 1
-        },
-        {
-          "name": "ECHO",
-          "count": 1
-        },
-        {
-          "name": "GCR2P",
-          "count": 1
-        },
-        {
-          "name": "HADR",
-          "count": 1
-        },
-        {
-          "name": "Health Cluster",
-          "count": 1
-        },
-        {
-          "name": "IFPRI",
-          "count": 1
-        },
-        {
-          "name": "IFRC",
-          "count": 1
-        },
-        {
-          "name": "Insecurity Insight",
-          "count": 1
-        },
-        {
-          "name": "OCHA",
-          "count": 1
-        },
-        {
-          "name": "Protection Cluster",
-          "count": 1
-        },
-        {
-          "name": "UN DPPA",
-          "count": 1
-        },
-        {
-          "name": "UN Women",
-          "count": 1
-        },
-        {
-          "name": "UNFPA",
-          "count": 1
-        },
-        {
-          "name": "WHO",
-          "count": 1
-        }
-      ],
-      "topFormats": [
-        {
-          "name": "News and Press Release",
-          "count": 8
-        },
-        {
-          "name": "Situation Report",
-          "count": 8
-        },
-        {
-          "name": "Infographic",
-          "count": 5
-        },
-        {
-          "name": "Map",
-          "count": 4
-        },
-        {
-          "name": "Analysis",
-          "count": 2
-        },
-        {
-          "name": "Assessment",
-          "count": 1
-        },
-        {
-          "name": "Manual and Guideline",
-          "count": 1
-        }
-      ],
-      "disasterTypes": [
-        {
-          "name": "Flood",
-          "count": 5
-        },
-        {
-          "name": "Earthquake",
-          "count": 2
-        },
-        {
-          "name": "Epidemic",
-          "count": 1
-        },
-        {
-          "name": "Tropical Cyclone",
-          "count": 1
-        }
-      ],
-      "timeline": [
-        {
-          "date": "2026-10-14T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-10-15T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-16T00:00:00+00:00",
-          "count": 3
-        },
-        {
-          "date": "2026-10-17T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-18T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-19T00:00:00+00:00",
-          "count": 4
-        },
-        {
-          "date": "2026-10-20T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-10-21T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-22T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-10-23T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-24T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-25T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-26T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-27T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-28T00:00:00+00:00",
-          "count": 3
-        },
-        {
-          "date": "2026-10-29T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-30T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-31T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-11-01T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-11-02T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-11-03T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-11-04T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-11-05T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-11-06T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-11-07T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-11-08T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-11-09T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-11-10T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-11-11T00:00:00+00:00",
-          "count": 2
-        }
-      ],
-      "recentReports": [
-        {
-          "id": "4237652",
-          "title": "UNHCR Regional Bureau for Asia and Pacific: Myanmar Situation Update (Bangladesh, India, Indonesia, Malaysia, Myanmar, and Thailand) Aug – Sept 2026",
-          "dateOriginal": "2026-11-11T00:00:00+00:00",
-          "primaryCountry": "Myanmar",
-          "primaryCountryIso3": "mmr",
-          "primaryCountryLocation": {
-            "lat": 21.15,
-            "lon": 96.51
-          },
-          "source": "UNHCR",
-          "format": "Situation Report",
-          "themes": [
-            "Coordination",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png",
-            "https://reliefweb.int/sites/default/files/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/unhcr-regional-bureau-asia-and-pacific-myanmar-situation-update-bangladesh-india-indonesia-malaysia-myanmar-and-thailand-aug-sept-2026"
-        },
-        {
-          "id": "4237910",
-          "title": "\"Red or green, a chili is still spicy\": Villager perspectives on the Burma military regime's \"transition” to a nominally civilian government amidst continued human rights violations in Southeast Burma (April – July 2026)",
-          "dateOriginal": "2026-11-11T00:00:00+00:00",
-          "primaryCountry": "Myanmar",
-          "primaryCountryIso3": "mmr",
-          "primaryCountryLocation": {
-            "lat": 21.15,
-            "lon": 96.51
-          },
-          "source": "KHRG",
-          "format": "Analysis",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/68/6c/686c950b-947b-537f-82f9-06f5e60b626b.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/68/6c/686c950b-947b-537f-82f9-06f5e60b626b.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/68/6c/686c950b-947b-537f-82f9-06f5e60b626b.png",
-            "https://reliefweb.int/sites/default/files/previews/68/6c/686c950b-947b-537f-82f9-06f5e60b626b.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/68/6c/686c950b-947b-537f-82f9-06f5e60b626b.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/red-or-green-chili-still-spicy-villager-perspectives-burma-military-regimes-transition-nominally-civilian-government-amidst-continued-human-rights-violations-southeast-burma-april-july-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4237910.png"
-        },
-        {
-          "id": "4237753",
-          "title": "Strengthening Child Participation and Accountability to Children in Humanitarian Action",
-          "dateOriginal": "2026-11-10T00:00:00+00:00",
-          "primaryCountry": "Myanmar",
-          "primaryCountryIso3": "mmr",
-          "primaryCountryLocation": {
-            "lat": 21.15,
-            "lon": 96.51
-          },
-          "source": "Protection Cluster, UNHCR",
-          "format": "News and Press Release",
-          "themes": [
-            "Coordination",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a0/92/a0926f2d-d6d3-5155-a3a5-a2305e93e39c.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a0/92/a0926f2d-d6d3-5155-a3a5-a2305e93e39c.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/a0/92/a0926f2d-d6d3-5155-a3a5-a2305e93e39c.png",
-            "https://reliefweb.int/sites/default/files/previews/a0/92/a0926f2d-d6d3-5155-a3a5-a2305e93e39c.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/a0/92/a0926f2d-d6d3-5155-a3a5-a2305e93e39c.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/strengthening-child-participation-and-accountability-children-humanitarian-action",
-          "localThumbnail": "./assets/report-thumbs/rw-4237753.png"
-        },
-        {
-          "id": "4237425",
-          "title": "Taw Oo District Short Update: Burma Army fighting, shelling, arrest, and looting caused damages and displacement in Daw Hpah Hkoh Township (August 2026)",
-          "dateOriginal": "2026-11-09T00:00:00+00:00",
-          "primaryCountry": "Myanmar",
-          "primaryCountryIso3": "mmr",
-          "primaryCountryLocation": {
-            "lat": 21.15,
-            "lon": 96.51
-          },
-          "source": "KHRG",
-          "format": "Situation Report",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/3f/92/3f92da07-1cd1-5335-af7c-e928a38377d4.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/3f/92/3f92da07-1cd1-5335-af7c-e928a38377d4.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/3f/92/3f92da07-1cd1-5335-af7c-e928a38377d4.png",
-            "https://reliefweb.int/sites/default/files/previews/3f/92/3f92da07-1cd1-5335-af7c-e928a38377d4.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/3f/92/3f92da07-1cd1-5335-af7c-e928a38377d4.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/taw-oo-district-short-update-burma-army-fighting-shelling-arrest-and-looting-caused-damages-and-displacement-daw-hpah-hkoh-township-august-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4237425.png"
-        },
-        {
-          "id": "4237288",
-          "title": "EU releases €16 million in humanitarian aid for Myanmar and Rohingya refugees in Bangladesh",
-          "dateOriginal": "2026-11-05T00:00:00+00:00",
-          "primaryCountry": "Myanmar",
-          "primaryCountryIso3": "mmr",
-          "primaryCountryLocation": {
-            "lat": 21.15,
-            "lon": 96.51
-          },
-          "source": "ECHO",
-          "format": "News and Press Release",
-          "themes": [
-            "Contributions",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/eu-releases-eur16-million-humanitarian-aid-myanmar-and-rohingya-refugees-bangladesh"
-        },
-        {
-          "id": "4236768",
-          "title": "MSF Myanmar: Deadly airstrike damages maternity ward in Mrauk-U, Rakhine State, killing five including a newborn",
-          "dateOriginal": "2026-11-03T00:00:00+00:00",
-          "primaryCountry": "Myanmar",
-          "primaryCountryIso3": "mmr",
-          "primaryCountryLocation": {
-            "lat": 21.15,
-            "lon": 96.51
-          },
-          "source": "MSF",
-          "format": "News and Press Release",
-          "themes": [
-            "Health"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/msf-myanmar-deadly-airstrike-damages-maternity-ward-mrauk-u-rakhine-state-killing-five-including-newborn"
-        },
-        {
-          "id": "4236311",
-          "title": "Myanmar Health Cluster Bulletin September-October 2026",
-          "dateOriginal": "2026-10-30T00:00:00+00:00",
-          "primaryCountry": "Myanmar",
-          "primaryCountryIso3": "mmr",
-          "primaryCountryLocation": {
-            "lat": 21.15,
-            "lon": 96.51
-          },
-          "source": "Health Cluster, WHO",
-          "format": "Situation Report",
-          "themes": [
-            "Health",
-            "Protection and Human Rights",
-            "Safety and Security"
-          ],
-          "disasterTypes": [
-            "Epidemic",
-            "Flood"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e8/cc/e8cc853c-935e-4389-82b9-55fb25b18917.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e8/cc/e8cc853c-935e-4389-82b9-55fb25b18917.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/e8/cc/e8cc853c-935e-4389-82b9-55fb25b18917.png",
-            "https://reliefweb.int/sites/default/files/previews/e8/cc/e8cc853c-935e-4389-82b9-55fb25b18917.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/e8/cc/e8cc853c-935e-4389-82b9-55fb25b18917.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/myanmar-health-cluster-bulletin-september-october-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4236311.png"
-        },
-        {
-          "id": "4237082",
-          "title": "Number of internally displaced people in Myanmar (As of 26 Oct 2026)",
-          "dateOriginal": "2026-10-29T00:00:00+00:00",
-          "primaryCountry": "Myanmar",
-          "primaryCountryIso3": "mmr",
-          "primaryCountryLocation": {
-            "lat": 21.15,
-            "lon": 96.51
-          },
-          "source": "UNHCR",
-          "format": "Infographic",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/77/63/77630f96-2a42-5970-9f45-dfcdd0a7b3e1.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/77/63/77630f96-2a42-5970-9f45-dfcdd0a7b3e1.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/77/63/77630f96-2a42-5970-9f45-dfcdd0a7b3e1.png",
-            "https://reliefweb.int/sites/default/files/previews/77/63/77630f96-2a42-5970-9f45-dfcdd0a7b3e1.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/77/63/77630f96-2a42-5970-9f45-dfcdd0a7b3e1.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/number-internally-displaced-people-myanmar-26-oct-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4237082.png"
-        },
-        {
-          "id": "4236858",
-          "title": "2026 Myanmar Campaign Toolkit: 16 Days of Activism Against Gender-Based Violence [EN/MY]",
-          "dateOriginal": "2026-10-28T00:00:00+00:00",
-          "primaryCountry": "Myanmar",
-          "primaryCountryIso3": "mmr",
-          "primaryCountryLocation": {
-            "lat": 21.15,
-            "lon": 96.51
-          },
-          "source": "UN Women, UNFPA",
-          "format": "Manual and Guideline",
-          "themes": [
-            "Gender",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4f/09/4f095a69-5d29-42f6-a5ac-0d303cd04356.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4f/09/4f095a69-5d29-42f6-a5ac-0d303cd04356.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/4f/09/4f095a69-5d29-42f6-a5ac-0d303cd04356.png",
-            "https://reliefweb.int/sites/default/files/previews/4f/09/4f095a69-5d29-42f6-a5ac-0d303cd04356.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/4f/09/4f095a69-5d29-42f6-a5ac-0d303cd04356.png",
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/83/17/8317e233-634e-485e-8aa6-a1b8382a28cd.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/83/17/8317e233-634e-485e-8aa6-a1b8382a28cd.png",
-            "https://reliefweb.int/sites/default/files/previews/83/17/8317e233-634e-485e-8aa6-a1b8382a28cd.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/83/17/8317e233-634e-485e-8aa6-a1b8382a28cd.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/2026-myanmar-campaign-toolkit-16-days-activism-against-gender-based-violence-enmy",
-          "localThumbnail": "./assets/report-thumbs/rw-4236858.png"
-        },
-        {
-          "id": "4236108",
-          "title": "Remarks by Special Envoy on Myanmar to the General Assembly Third Committee Interactive Dialogue on Myanmar [as delivered] (New York, 28 October 2026)",
-          "dateOriginal": "2026-10-28T00:00:00+00:00",
-          "primaryCountry": "Myanmar",
-          "primaryCountryIso3": "mmr",
-          "primaryCountryLocation": {
-            "lat": 21.15,
-            "lon": 96.51
-          },
-          "source": "UN DPPA",
-          "format": "News and Press Release",
-          "themes": [
-            "Peacekeeping and Peacebuilding",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/remarks-special-envoy-myanmar-general-assembly-third-committee-interactive-dialogue-myanmar-delivered-new-york-28-october-2026"
-        },
-        {
-          "id": "4235999",
-          "title": "Myanmar Principled Action Monitor - Edition No. 05 (August 2026)",
-          "dateOriginal": "2026-10-28T00:00:00+00:00",
-          "primaryCountry": "Myanmar",
-          "primaryCountryIso3": "mmr",
-          "primaryCountryLocation": {
-            "lat": 21.15,
-            "lon": 96.51
-          },
-          "source": "HADR",
-          "format": "Assessment",
-          "themes": [
-            "Coordination",
-            "Disaster Management",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [
-            "Flood"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d4/a4/d4a4b8e1-c8d8-4685-9fcc-a4fbf3b3d4c0.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d4/a4/d4a4b8e1-c8d8-4685-9fcc-a4fbf3b3d4c0.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/d4/a4/d4a4b8e1-c8d8-4685-9fcc-a4fbf3b3d4c0.png",
-            "https://reliefweb.int/sites/default/files/previews/d4/a4/d4a4b8e1-c8d8-4685-9fcc-a4fbf3b3d4c0.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/d4/a4/d4a4b8e1-c8d8-4685-9fcc-a4fbf3b3d4c0.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/myanmar-principled-action-monitor-edition-no-05-august-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4235999.png"
-        },
-        {
-          "id": "4235842",
-          "title": "81st Session of the Third Committee of the General Assembly: Statement by Nicholas Koumjian, Head of the Independent Investigative Mechanism for Myanmar [EN/MY]",
-          "dateOriginal": "2026-10-27T00:00:00+00:00",
-          "primaryCountry": "Myanmar",
-          "primaryCountryIso3": "mmr",
-          "primaryCountryLocation": {
-            "lat": 21.15,
-            "lon": 96.51
-          },
-          "source": "UN HRC",
-          "format": "News and Press Release",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/74/64/74642784-31f6-4218-8ba6-56c3147b2df5.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/74/64/74642784-31f6-4218-8ba6-56c3147b2df5.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/74/64/74642784-31f6-4218-8ba6-56c3147b2df5.png",
-            "https://reliefweb.int/sites/default/files/previews/74/64/74642784-31f6-4218-8ba6-56c3147b2df5.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/74/64/74642784-31f6-4218-8ba6-56c3147b2df5.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/myanmar/81st-session-third-committee-general-assembly-statement-nicholas-koumjian-head-independent-investigative-mechanism-myanmar-enmy",
-          "localThumbnail": "./assets/report-thumbs/rw-4235842.png"
-        }
-      ],
-      "enrichmentStatus": "complete"
-    },
-    {
       "name": "Colombia",
       "shortname": "Colombia",
       "iso3": "col",
@@ -14150,10 +13525,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 26,
-      "reports7d": 6,
+      "reports30d": 27,
+      "reports7d": 7,
       "previous7d": 3,
-      "change7d": 100,
+      "change7d": 133.33333333333331,
       "uniqueSources": 23,
       "themeBreadth": 14,
       "formatBreadth": 6,
@@ -14803,6 +14178,653 @@
       "enrichmentStatus": "complete"
     },
     {
+      "name": "Myanmar",
+      "shortname": "Myanmar",
+      "iso3": "mmr",
+      "location": {
+        "lat": 21.15,
+        "lon": 96.51
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 27,
+      "reports7d": 4,
+      "previous7d": 2,
+      "change7d": 100,
+      "uniqueSources": 21,
+      "themeBreadth": 12,
+      "formatBreadth": 7,
+      "topThemes": [
+        {
+          "name": "Protection and Human Rights",
+          "count": 22
+        },
+        {
+          "name": "Coordination",
+          "count": 7
+        },
+        {
+          "name": "Health",
+          "count": 4
+        },
+        {
+          "name": "Safety and Security",
+          "count": 3
+        },
+        {
+          "name": "Agriculture",
+          "count": 2
+        },
+        {
+          "name": "Shelter and Non-Food Items",
+          "count": 2
+        },
+        {
+          "name": "Contributions",
+          "count": 1
+        },
+        {
+          "name": "Disaster Management",
+          "count": 1
+        },
+        {
+          "name": "Education",
+          "count": 1
+        },
+        {
+          "name": "Gender",
+          "count": 1
+        },
+        {
+          "name": "Peacekeeping and Peacebuilding",
+          "count": 1
+        },
+        {
+          "name": "Recovery and Reconstruction",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "UNHCR",
+          "count": 6
+        },
+        {
+          "name": "KHRG",
+          "count": 4
+        },
+        {
+          "name": "MIMU",
+          "count": 4
+        },
+        {
+          "name": "UNDP",
+          "count": 4
+        },
+        {
+          "name": "MSF",
+          "count": 2
+        },
+        {
+          "name": "UN HRC",
+          "count": 2
+        },
+        {
+          "name": "APRRN",
+          "count": 1
+        },
+        {
+          "name": "Amnesty",
+          "count": 1
+        },
+        {
+          "name": "ECHO",
+          "count": 1
+        },
+        {
+          "name": "GCR2P",
+          "count": 1
+        },
+        {
+          "name": "HADR",
+          "count": 1
+        },
+        {
+          "name": "Health Cluster",
+          "count": 1
+        },
+        {
+          "name": "IFPRI",
+          "count": 1
+        },
+        {
+          "name": "IFRC",
+          "count": 1
+        },
+        {
+          "name": "Insecurity Insight",
+          "count": 1
+        },
+        {
+          "name": "OCHA",
+          "count": 1
+        },
+        {
+          "name": "Protection Cluster",
+          "count": 1
+        },
+        {
+          "name": "UN DPPA",
+          "count": 1
+        },
+        {
+          "name": "UN Women",
+          "count": 1
+        },
+        {
+          "name": "UNFPA",
+          "count": 1
+        },
+        {
+          "name": "WHO",
+          "count": 1
+        }
+      ],
+      "topFormats": [
+        {
+          "name": "News and Press Release",
+          "count": 8
+        },
+        {
+          "name": "Situation Report",
+          "count": 8
+        },
+        {
+          "name": "Infographic",
+          "count": 5
+        },
+        {
+          "name": "Map",
+          "count": 4
+        },
+        {
+          "name": "Analysis",
+          "count": 2
+        },
+        {
+          "name": "Assessment",
+          "count": 1
+        },
+        {
+          "name": "Manual and Guideline",
+          "count": 1
+        }
+      ],
+      "disasterTypes": [
+        {
+          "name": "Flood",
+          "count": 5
+        },
+        {
+          "name": "Earthquake",
+          "count": 2
+        },
+        {
+          "name": "Epidemic",
+          "count": 1
+        },
+        {
+          "name": "Tropical Cyclone",
+          "count": 1
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-14T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-10-15T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-16T00:00:00+00:00",
+          "count": 3
+        },
+        {
+          "date": "2026-10-17T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-18T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-19T00:00:00+00:00",
+          "count": 4
+        },
+        {
+          "date": "2026-10-20T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-10-21T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-22T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-10-23T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-24T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-25T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-26T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-27T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-28T00:00:00+00:00",
+          "count": 3
+        },
+        {
+          "date": "2026-10-29T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-30T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-31T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-11-01T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-11-02T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-11-03T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-11-04T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-11-05T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-11-06T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-11-07T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-11-08T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-11-09T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-11-10T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-11-11T00:00:00+00:00",
+          "count": 2
+        }
+      ],
+      "recentReports": [
+        {
+          "id": "4237652",
+          "title": "UNHCR Regional Bureau for Asia and Pacific: Myanmar Situation Update (Bangladesh, India, Indonesia, Malaysia, Myanmar, and Thailand) Aug – Sept 2026",
+          "dateOriginal": "2026-11-11T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "UNHCR",
+          "format": "Situation Report",
+          "themes": [
+            "Coordination",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png",
+            "https://reliefweb.int/sites/default/files/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/unhcr-regional-bureau-asia-and-pacific-myanmar-situation-update-bangladesh-india-indonesia-malaysia-myanmar-and-thailand-aug-sept-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4237652.png"
+        },
+        {
+          "id": "4237910",
+          "title": "\"Red or green, a chili is still spicy\": Villager perspectives on the Burma military regime's \"transition” to a nominally civilian government amidst continued human rights violations in Southeast Burma (April – July 2026)",
+          "dateOriginal": "2026-11-11T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "KHRG",
+          "format": "Analysis",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/68/6c/686c950b-947b-537f-82f9-06f5e60b626b.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/68/6c/686c950b-947b-537f-82f9-06f5e60b626b.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/68/6c/686c950b-947b-537f-82f9-06f5e60b626b.png",
+            "https://reliefweb.int/sites/default/files/previews/68/6c/686c950b-947b-537f-82f9-06f5e60b626b.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/68/6c/686c950b-947b-537f-82f9-06f5e60b626b.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/red-or-green-chili-still-spicy-villager-perspectives-burma-military-regimes-transition-nominally-civilian-government-amidst-continued-human-rights-violations-southeast-burma-april-july-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4237910.png"
+        },
+        {
+          "id": "4237753",
+          "title": "Strengthening Child Participation and Accountability to Children in Humanitarian Action",
+          "dateOriginal": "2026-11-10T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "Protection Cluster, UNHCR",
+          "format": "News and Press Release",
+          "themes": [
+            "Coordination",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a0/92/a0926f2d-d6d3-5155-a3a5-a2305e93e39c.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a0/92/a0926f2d-d6d3-5155-a3a5-a2305e93e39c.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/a0/92/a0926f2d-d6d3-5155-a3a5-a2305e93e39c.png",
+            "https://reliefweb.int/sites/default/files/previews/a0/92/a0926f2d-d6d3-5155-a3a5-a2305e93e39c.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/a0/92/a0926f2d-d6d3-5155-a3a5-a2305e93e39c.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/strengthening-child-participation-and-accountability-children-humanitarian-action",
+          "localThumbnail": "./assets/report-thumbs/rw-4237753.png"
+        },
+        {
+          "id": "4237425",
+          "title": "Taw Oo District Short Update: Burma Army fighting, shelling, arrest, and looting caused damages and displacement in Daw Hpah Hkoh Township (August 2026)",
+          "dateOriginal": "2026-11-09T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "KHRG",
+          "format": "Situation Report",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/3f/92/3f92da07-1cd1-5335-af7c-e928a38377d4.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/3f/92/3f92da07-1cd1-5335-af7c-e928a38377d4.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/3f/92/3f92da07-1cd1-5335-af7c-e928a38377d4.png",
+            "https://reliefweb.int/sites/default/files/previews/3f/92/3f92da07-1cd1-5335-af7c-e928a38377d4.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/3f/92/3f92da07-1cd1-5335-af7c-e928a38377d4.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/taw-oo-district-short-update-burma-army-fighting-shelling-arrest-and-looting-caused-damages-and-displacement-daw-hpah-hkoh-township-august-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4237425.png"
+        },
+        {
+          "id": "4237288",
+          "title": "EU releases €16 million in humanitarian aid for Myanmar and Rohingya refugees in Bangladesh",
+          "dateOriginal": "2026-11-05T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "ECHO",
+          "format": "News and Press Release",
+          "themes": [
+            "Contributions",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/eu-releases-eur16-million-humanitarian-aid-myanmar-and-rohingya-refugees-bangladesh"
+        },
+        {
+          "id": "4236768",
+          "title": "MSF Myanmar: Deadly airstrike damages maternity ward in Mrauk-U, Rakhine State, killing five including a newborn",
+          "dateOriginal": "2026-11-03T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "MSF",
+          "format": "News and Press Release",
+          "themes": [
+            "Health"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/msf-myanmar-deadly-airstrike-damages-maternity-ward-mrauk-u-rakhine-state-killing-five-including-newborn"
+        },
+        {
+          "id": "4236311",
+          "title": "Myanmar Health Cluster Bulletin September-October 2026",
+          "dateOriginal": "2026-10-30T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "Health Cluster, WHO",
+          "format": "Situation Report",
+          "themes": [
+            "Health",
+            "Protection and Human Rights",
+            "Safety and Security"
+          ],
+          "disasterTypes": [
+            "Epidemic",
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e8/cc/e8cc853c-935e-4389-82b9-55fb25b18917.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e8/cc/e8cc853c-935e-4389-82b9-55fb25b18917.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/e8/cc/e8cc853c-935e-4389-82b9-55fb25b18917.png",
+            "https://reliefweb.int/sites/default/files/previews/e8/cc/e8cc853c-935e-4389-82b9-55fb25b18917.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/e8/cc/e8cc853c-935e-4389-82b9-55fb25b18917.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/myanmar-health-cluster-bulletin-september-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4236311.png"
+        },
+        {
+          "id": "4237082",
+          "title": "Number of internally displaced people in Myanmar (As of 26 Oct 2026)",
+          "dateOriginal": "2026-10-29T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "UNHCR",
+          "format": "Infographic",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/77/63/77630f96-2a42-5970-9f45-dfcdd0a7b3e1.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/77/63/77630f96-2a42-5970-9f45-dfcdd0a7b3e1.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/77/63/77630f96-2a42-5970-9f45-dfcdd0a7b3e1.png",
+            "https://reliefweb.int/sites/default/files/previews/77/63/77630f96-2a42-5970-9f45-dfcdd0a7b3e1.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/77/63/77630f96-2a42-5970-9f45-dfcdd0a7b3e1.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/number-internally-displaced-people-myanmar-26-oct-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4237082.png"
+        },
+        {
+          "id": "4236858",
+          "title": "2026 Myanmar Campaign Toolkit: 16 Days of Activism Against Gender-Based Violence [EN/MY]",
+          "dateOriginal": "2026-10-28T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "UN Women, UNFPA",
+          "format": "Manual and Guideline",
+          "themes": [
+            "Gender",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4f/09/4f095a69-5d29-42f6-a5ac-0d303cd04356.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4f/09/4f095a69-5d29-42f6-a5ac-0d303cd04356.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/4f/09/4f095a69-5d29-42f6-a5ac-0d303cd04356.png",
+            "https://reliefweb.int/sites/default/files/previews/4f/09/4f095a69-5d29-42f6-a5ac-0d303cd04356.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/4f/09/4f095a69-5d29-42f6-a5ac-0d303cd04356.png",
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/83/17/8317e233-634e-485e-8aa6-a1b8382a28cd.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/83/17/8317e233-634e-485e-8aa6-a1b8382a28cd.png",
+            "https://reliefweb.int/sites/default/files/previews/83/17/8317e233-634e-485e-8aa6-a1b8382a28cd.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/83/17/8317e233-634e-485e-8aa6-a1b8382a28cd.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/2026-myanmar-campaign-toolkit-16-days-activism-against-gender-based-violence-enmy",
+          "localThumbnail": "./assets/report-thumbs/rw-4236858.png"
+        },
+        {
+          "id": "4236108",
+          "title": "Remarks by Special Envoy on Myanmar to the General Assembly Third Committee Interactive Dialogue on Myanmar [as delivered] (New York, 28 October 2026)",
+          "dateOriginal": "2026-10-28T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "UN DPPA",
+          "format": "News and Press Release",
+          "themes": [
+            "Peacekeeping and Peacebuilding",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "",
+          "thumbnailCandidates": [],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/remarks-special-envoy-myanmar-general-assembly-third-committee-interactive-dialogue-myanmar-delivered-new-york-28-october-2026"
+        },
+        {
+          "id": "4235999",
+          "title": "Myanmar Principled Action Monitor - Edition No. 05 (August 2026)",
+          "dateOriginal": "2026-10-28T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "HADR",
+          "format": "Assessment",
+          "themes": [
+            "Coordination",
+            "Disaster Management",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [
+            "Flood"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d4/a4/d4a4b8e1-c8d8-4685-9fcc-a4fbf3b3d4c0.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d4/a4/d4a4b8e1-c8d8-4685-9fcc-a4fbf3b3d4c0.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/d4/a4/d4a4b8e1-c8d8-4685-9fcc-a4fbf3b3d4c0.png",
+            "https://reliefweb.int/sites/default/files/previews/d4/a4/d4a4b8e1-c8d8-4685-9fcc-a4fbf3b3d4c0.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/d4/a4/d4a4b8e1-c8d8-4685-9fcc-a4fbf3b3d4c0.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/myanmar-principled-action-monitor-edition-no-05-august-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4235999.png"
+        },
+        {
+          "id": "4235842",
+          "title": "81st Session of the Third Committee of the General Assembly: Statement by Nicholas Koumjian, Head of the Independent Investigative Mechanism for Myanmar [EN/MY]",
+          "dateOriginal": "2026-10-27T00:00:00+00:00",
+          "primaryCountry": "Myanmar",
+          "primaryCountryIso3": "mmr",
+          "primaryCountryLocation": {
+            "lat": 21.15,
+            "lon": 96.51
+          },
+          "source": "UN HRC",
+          "format": "News and Press Release",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/74/64/74642784-31f6-4218-8ba6-56c3147b2df5.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/74/64/74642784-31f6-4218-8ba6-56c3147b2df5.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/74/64/74642784-31f6-4218-8ba6-56c3147b2df5.png",
+            "https://reliefweb.int/sites/default/files/previews/74/64/74642784-31f6-4218-8ba6-56c3147b2df5.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/74/64/74642784-31f6-4218-8ba6-56c3147b2df5.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/myanmar/81st-session-third-committee-general-assembly-statement-nicholas-koumjian-head-independent-investigative-mechanism-myanmar-enmy",
+          "localThumbnail": "./assets/report-thumbs/rw-4235842.png"
+        }
+      ],
+      "enrichmentStatus": "complete"
+    },
+    {
       "name": "Central African Republic",
       "shortname": "Central African Republic",
       "iso3": "caf",
@@ -14812,10 +14834,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 25,
-      "reports7d": 7,
+      "reports30d": 26,
+      "reports7d": 8,
       "previous7d": 3,
-      "change7d": 133.33333333333331,
+      "change7d": 166.66666666666669,
       "uniqueSources": 7,
       "themeBreadth": 12,
       "formatBreadth": 5,
@@ -19037,10 +19059,10 @@
       },
       "overview": "",
       "countryUrl": "",
-      "reports30d": 19,
-      "reports7d": 1,
+      "reports30d": 20,
+      "reports7d": 2,
       "previous7d": 6,
-      "change7d": -83.33333333333334,
+      "change7d": -66.66666666666666,
       "uniqueSources": 12,
       "themeBreadth": 14,
       "formatBreadth": 8,
@@ -19633,6 +19655,623 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/uganda/uganda-ipc-acute-food-insecurity-and-acute-malnutrition-analysis-july-2026-june-2027-published-22-october-2026",
           "localThumbnail": "./assets/report-thumbs/rw-4236014.png"
+        }
+      ],
+      "enrichmentStatus": "complete"
+    },
+    {
+      "name": "Venezuela (Bolivarian Republic of)",
+      "shortname": "Venezuela (Bolivarian Republic of)",
+      "iso3": "ven",
+      "location": {
+        "lat": 7.62,
+        "lon": -65.8
+      },
+      "overview": "",
+      "countryUrl": "",
+      "reports30d": 20,
+      "reports7d": 5,
+      "previous7d": 9,
+      "change7d": -44.44444444444444,
+      "uniqueSources": 13,
+      "themeBreadth": 11,
+      "formatBreadth": 7,
+      "topThemes": [
+        {
+          "name": "Health",
+          "count": 10
+        },
+        {
+          "name": "Water Sanitation Hygiene",
+          "count": 10
+        },
+        {
+          "name": "Protection and Human Rights",
+          "count": 9
+        },
+        {
+          "name": "Shelter and Non-Food Items",
+          "count": 6
+        },
+        {
+          "name": "Food and Nutrition",
+          "count": 5
+        },
+        {
+          "name": "Camp Coordination and Camp Management",
+          "count": 4
+        },
+        {
+          "name": "Coordination",
+          "count": 4
+        },
+        {
+          "name": "Education",
+          "count": 4
+        },
+        {
+          "name": "Recovery and Reconstruction",
+          "count": 3
+        },
+        {
+          "name": "Logistics and Telecommunications",
+          "count": 2
+        },
+        {
+          "name": "Agriculture",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "IOM",
+          "count": 6
+        },
+        {
+          "name": "Logistics Cluster",
+          "count": 2
+        },
+        {
+          "name": "OCHA",
+          "count": 2
+        },
+        {
+          "name": "WFP",
+          "count": 2
+        },
+        {
+          "name": "CCCM Cluster",
+          "count": 1
+        },
+        {
+          "name": "Direct Relief",
+          "count": 1
+        },
+        {
+          "name": "FEWS NET",
+          "count": 1
+        },
+        {
+          "name": "HumVenezuela",
+          "count": 1
+        },
+        {
+          "name": "IMC",
+          "count": 1
+        },
+        {
+          "name": "R4V",
+          "count": 1
+        },
+        {
+          "name": "Shelter Cluster",
+          "count": 1
+        },
+        {
+          "name": "UNHCR",
+          "count": 1
+        },
+        {
+          "name": "UNICEF",
+          "count": 1
+        }
+      ],
+      "topFormats": [
+        {
+          "name": "Situation Report",
+          "count": 8
+        },
+        {
+          "name": "Infographic",
+          "count": 2
+        },
+        {
+          "name": "Other",
+          "count": 2
+        },
+        {
+          "name": "Analysis",
+          "count": 1
+        },
+        {
+          "name": "Assessment",
+          "count": 1
+        },
+        {
+          "name": "Manual and Guideline",
+          "count": 1
+        },
+        {
+          "name": "News and Press Release",
+          "count": 1
+        }
+      ],
+      "disasterTypes": [
+        {
+          "name": "Earthquake",
+          "count": 12
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-14T00:00:00+00:00",
+          "count": 2
+        },
+        {
+          "date": "2026-10-15T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-16T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-17T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-18T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-19T00:00:00+00:00",
+          "count": 3
+        },
+        {
+          "date": "2026-10-20T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-21T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-22T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-23T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-24T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-25T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-26T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-10-27T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-28T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-29T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-30T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-10-31T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-11-01T00:00:00+00:00",
+          "count": 0
+        },
+        {
+          "date": "2026-11-02T00:00:00+00:00",
+          "count": 1
+        },
+        {
+          "date": "2026-11-03T00:00:00+00:00",
+          "count": 4
+        },
+        {
+          "date": "2026-11-04T00:00:00+00:00",
+          "count": 3
+        },
+        {
+          "date": "2026-11-05T00:00:00+00:00",
+          "count": 1
+        }
+      ],
+      "recentReports": [
+        {
+          "id": "4238202",
+          "title": "Clúster de Coordinación de Alojamiento, Tierra y Asentamientos: Estrategia de Respuesta al Terremoto Venezuela 2026 (Septiembre 2026)",
+          "dateOriginal": "2026-11-13T00:00:00+00:00",
+          "primaryCountry": "Venezuela (Bolivarian Republic of)",
+          "primaryCountryIso3": "ven",
+          "primaryCountryLocation": {
+            "lat": 7.62,
+            "lon": -65.8
+          },
+          "source": "CCCM Cluster, IFRC, IOM, Shelter Centre, SLSC Cluster",
+          "format": "Manual and Guideline",
+          "themes": [
+            "Camp Coordination and Camp Management",
+            "Coordination",
+            "Shelter and Non-Food Items"
+          ],
+          "disasterTypes": [
+            "Earthquake"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/48/6c/486c8bed-d6b7-4c2e-9147-546c108cc279.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/48/6c/486c8bed-d6b7-4c2e-9147-546c108cc279.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/48/6c/486c8bed-d6b7-4c2e-9147-546c108cc279.png",
+            "https://reliefweb.int/sites/default/files/previews/48/6c/486c8bed-d6b7-4c2e-9147-546c108cc279.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/48/6c/486c8bed-d6b7-4c2e-9147-546c108cc279.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/cluster-de-coordinacion-de-alojamiento-tierra-y-asentamientos-estrategia-de-respuesta-al-terremoto-venezuela-2026-septiembre-2026"
+        },
+        {
+          "id": "4238203",
+          "title": "Grupo Técnico de Trabajo (GT-T) Reparación de Viviendas y Asistencia de Alojamiento: Términos de referencia",
+          "dateOriginal": "2026-11-13T00:00:00+00:00",
+          "primaryCountry": "Venezuela (Bolivarian Republic of)",
+          "primaryCountryIso3": "ven",
+          "primaryCountryLocation": {
+            "lat": 7.62,
+            "lon": -65.8
+          },
+          "source": "CCCM Cluster, IFRC, IOM, Shelter Centre, SLSC Cluster",
+          "format": "Manual and Guideline",
+          "themes": [
+            "Camp Coordination and Camp Management",
+            "Shelter and Non-Food Items"
+          ],
+          "disasterTypes": [
+            "Earthquake"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/95/53/95539317-9546-4da3-a892-e2cd226ccf27.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/95/53/95539317-9546-4da3-a892-e2cd226ccf27.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/95/53/95539317-9546-4da3-a892-e2cd226ccf27.png",
+            "https://reliefweb.int/sites/default/files/previews/95/53/95539317-9546-4da3-a892-e2cd226ccf27.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/95/53/95539317-9546-4da3-a892-e2cd226ccf27.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/grupo-tecnico-de-trabajo-gt-t-reparacion-de-viviendas-y-asistencia-de-alojamiento-terminos-de-referencia"
+        },
+        {
+          "id": "4238204",
+          "title": "Grupo Técnico de Trabajo (GT-T) Kits de Enseres Esenciales para el Hogar: Términos de referencia",
+          "dateOriginal": "2026-11-13T00:00:00+00:00",
+          "primaryCountry": "Venezuela (Bolivarian Republic of)",
+          "primaryCountryIso3": "ven",
+          "primaryCountryLocation": {
+            "lat": 7.62,
+            "lon": -65.8
+          },
+          "source": "CCCM Cluster, IFRC, IOM, Shelter Centre, SLSC Cluster",
+          "format": "Manual and Guideline",
+          "themes": [
+            "Shelter and Non-Food Items"
+          ],
+          "disasterTypes": [
+            "Earthquake"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f7/5c/f75cfab4-0cc7-47f6-a736-6f733f2232d7.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f7/5c/f75cfab4-0cc7-47f6-a736-6f733f2232d7.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/f7/5c/f75cfab4-0cc7-47f6-a736-6f733f2232d7.png",
+            "https://reliefweb.int/sites/default/files/previews/f7/5c/f75cfab4-0cc7-47f6-a736-6f733f2232d7.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/f7/5c/f75cfab4-0cc7-47f6-a736-6f733f2232d7.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/grupo-tecnico-de-trabajo-gt-t-kits-de-enseres-esenciales-para-el-hogar-terminos-de-referencia"
+        },
+        {
+          "id": "4238122",
+          "title": "Venezuela: Contactos de Coordinación Humanitaria (Noviembre 2026)",
+          "dateOriginal": "2026-11-12T00:00:00+00:00",
+          "primaryCountry": "Venezuela (Bolivarian Republic of)",
+          "primaryCountryIso3": "ven",
+          "primaryCountryLocation": {
+            "lat": 7.62,
+            "lon": -65.8
+          },
+          "source": "OCHA",
+          "format": "Other",
+          "themes": [
+            "Coordination"
+          ],
+          "disasterTypes": [
+            "Earthquake"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b9/27/b92775aa-8135-43ec-8fc8-ecb7cf20ecf5.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b9/27/b92775aa-8135-43ec-8fc8-ecb7cf20ecf5.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/b9/27/b92775aa-8135-43ec-8fc8-ecb7cf20ecf5.png",
+            "https://reliefweb.int/sites/default/files/previews/b9/27/b92775aa-8135-43ec-8fc8-ecb7cf20ecf5.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/b9/27/b92775aa-8135-43ec-8fc8-ecb7cf20ecf5.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-contactos-de-coordinacion-humanitaria-noviembre-2026"
+        },
+        {
+          "id": "4237187",
+          "title": "Regional Movement Trends and Patterns LAC - January – June 2026",
+          "dateOriginal": "2026-11-05T00:00:00+00:00",
+          "primaryCountry": "Venezuela (Bolivarian Republic of)",
+          "primaryCountryIso3": "ven",
+          "primaryCountryLocation": {
+            "lat": 7.62,
+            "lon": -65.8
+          },
+          "source": "R4V",
+          "format": "Situation Report",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/51/c2/51c262e5-9b40-57f8-bc03-76bcd52212e8.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/51/c2/51c262e5-9b40-57f8-bc03-76bcd52212e8.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/51/c2/51c262e5-9b40-57f8-bc03-76bcd52212e8.png",
+            "https://reliefweb.int/sites/default/files/previews/51/c2/51c262e5-9b40-57f8-bc03-76bcd52212e8.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/51/c2/51c262e5-9b40-57f8-bc03-76bcd52212e8.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/regional-movement-trends-and-patterns-lac-january-june-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4237187.png"
+        },
+        {
+          "id": "4236871",
+          "title": "UNICEF Venezuela Situation Report No.10 (Earthquake Response), 8 September -19 October 2026",
+          "dateOriginal": "2026-11-04T00:00:00+00:00",
+          "primaryCountry": "Venezuela (Bolivarian Republic of)",
+          "primaryCountryIso3": "ven",
+          "primaryCountryLocation": {
+            "lat": 7.62,
+            "lon": -65.8
+          },
+          "source": "UNICEF",
+          "format": "Situation Report",
+          "themes": [
+            "Coordination",
+            "Education",
+            "Food and Nutrition",
+            "Health",
+            "Protection and Human Rights",
+            "Recovery and Reconstruction",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Earthquake"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1a/39/1a392d16-5944-4659-9aad-206b6145f4e7.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1a/39/1a392d16-5944-4659-9aad-206b6145f4e7.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/1a/39/1a392d16-5944-4659-9aad-206b6145f4e7.png",
+            "https://reliefweb.int/sites/default/files/previews/1a/39/1a392d16-5944-4659-9aad-206b6145f4e7.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/1a/39/1a392d16-5944-4659-9aad-206b6145f4e7.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/unicef-venezuela-situation-report-no10-earthquake-response-8-september-19-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4236871.png"
+        },
+        {
+          "id": "4237454",
+          "title": "Venezuela - Meeting Minutes, Earthquake Response, Caracas, November 4, 2026",
+          "dateOriginal": "2026-11-04T00:00:00+00:00",
+          "primaryCountry": "Venezuela (Bolivarian Republic of)",
+          "primaryCountryIso3": "ven",
+          "primaryCountryLocation": {
+            "lat": 7.62,
+            "lon": -65.8
+          },
+          "source": "Logistics Cluster, WFP",
+          "format": "Other",
+          "themes": [
+            "Logistics and Telecommunications"
+          ],
+          "disasterTypes": [
+            "Earthquake"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/65/6a/656a2a9b-4c27-59f7-9498-669ec0c58306.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/65/6a/656a2a9b-4c27-59f7-9498-669ec0c58306.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/65/6a/656a2a9b-4c27-59f7-9498-669ec0c58306.png",
+            "https://reliefweb.int/sites/default/files/previews/65/6a/656a2a9b-4c27-59f7-9498-669ec0c58306.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/65/6a/656a2a9b-4c27-59f7-9498-669ec0c58306.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-meeting-minutes-earthquake-response-caracas-november-4-2026"
+        },
+        {
+          "id": "4237031",
+          "title": "Venezuela: Humanitarian Response - Who does what, where, when and for whom? (As of 30 September 2026)",
+          "dateOriginal": "2026-11-04T00:00:00+00:00",
+          "primaryCountry": "Venezuela (Bolivarian Republic of)",
+          "primaryCountryIso3": "ven",
+          "primaryCountryLocation": {
+            "lat": 7.62,
+            "lon": -65.8
+          },
+          "source": "OCHA",
+          "format": "Infographic",
+          "themes": [
+            "Coordination",
+            "Education",
+            "Food and Nutrition",
+            "Protection and Human Rights",
+            "Shelter and Non-Food Items",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cf/94/cf944d2c-9c83-4019-aee6-d872a18d7598.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cf/94/cf944d2c-9c83-4019-aee6-d872a18d7598.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/cf/94/cf944d2c-9c83-4019-aee6-d872a18d7598.png",
+            "https://reliefweb.int/sites/default/files/previews/cf/94/cf944d2c-9c83-4019-aee6-d872a18d7598.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/cf/94/cf944d2c-9c83-4019-aee6-d872a18d7598.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-humanitarian-response-who-does-what-where-when-and-whom-30-september-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4237031.png"
+        },
+        {
+          "id": "4236818",
+          "title": "Venezuela (Bolivarian Republic of): Earthquake Response – Situation Report #32 (1 to 31 October 2026)",
+          "dateOriginal": "2026-11-03T00:00:00+00:00",
+          "primaryCountry": "Venezuela (Bolivarian Republic of)",
+          "primaryCountryIso3": "ven",
+          "primaryCountryLocation": {
+            "lat": 7.62,
+            "lon": -65.8
+          },
+          "source": "IOM",
+          "format": "Situation Report",
+          "themes": [
+            "Health",
+            "Protection and Human Rights",
+            "Recovery and Reconstruction",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Earthquake"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8f/9e/8f9ed048-2e7f-4251-9916-3193f1e89a42.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8f/9e/8f9ed048-2e7f-4251-9916-3193f1e89a42.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/8f/9e/8f9ed048-2e7f-4251-9916-3193f1e89a42.png",
+            "https://reliefweb.int/sites/default/files/previews/8f/9e/8f9ed048-2e7f-4251-9916-3193f1e89a42.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/8f/9e/8f9ed048-2e7f-4251-9916-3193f1e89a42.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-bolivarian-republic-earthquake-response-situation-report-32-1-31-october-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4236818.png"
+        },
+        {
+          "id": "4236803",
+          "title": "Venezuela (República Bolivariana de): Respuesta a Terremotos– Reporte de Situación #32 (01 al 31 de octubre 2026)",
+          "dateOriginal": "2026-11-03T00:00:00+00:00",
+          "primaryCountry": "Venezuela (Bolivarian Republic of)",
+          "primaryCountryIso3": "ven",
+          "primaryCountryLocation": {
+            "lat": 7.62,
+            "lon": -65.8
+          },
+          "source": "IOM",
+          "format": "Situation Report",
+          "themes": [
+            "Health",
+            "Protection and Human Rights",
+            "Recovery and Reconstruction",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Earthquake"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ea/29/ea291f39-0917-4a21-969c-b80f7307f83f.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ea/29/ea291f39-0917-4a21-969c-b80f7307f83f.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ea/29/ea291f39-0917-4a21-969c-b80f7307f83f.png",
+            "https://reliefweb.int/sites/default/files/previews/ea/29/ea291f39-0917-4a21-969c-b80f7307f83f.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ea/29/ea291f39-0917-4a21-969c-b80f7307f83f.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-republica-bolivariana-de-respuesta-terremotos-reporte-de-situacion-32-01-al-31-de-octubre-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4236803.png"
+        },
+        {
+          "id": "4236786",
+          "title": "Venezuela 5W - Presencia Operativa Humanitaria 2026 - ¿Quién hace qué, dónde, cuándo y para quién? (Al 30 de septiembre de 2026)",
+          "dateOriginal": "2026-11-03T00:00:00+00:00",
+          "primaryCountry": "Venezuela (Bolivarian Republic of)",
+          "primaryCountryIso3": "ven",
+          "primaryCountryLocation": {
+            "lat": 7.62,
+            "lon": -65.8
+          },
+          "source": "OCHA",
+          "format": "Infographic",
+          "themes": [
+            "Coordination",
+            "Education",
+            "Food and Nutrition",
+            "Health",
+            "Shelter and Non-Food Items",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Earthquake"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a7/ae/a7aeed6a-3465-4559-8a8e-bdc6823ecec8.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a7/ae/a7aeed6a-3465-4559-8a8e-bdc6823ecec8.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/a7/ae/a7aeed6a-3465-4559-8a8e-bdc6823ecec8.png",
+            "https://reliefweb.int/sites/default/files/previews/a7/ae/a7aeed6a-3465-4559-8a8e-bdc6823ecec8.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/a7/ae/a7aeed6a-3465-4559-8a8e-bdc6823ecec8.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-5w-presencia-operativa-humanitaria-2026-quien-hace-que-donde-cuando-y-para-quien-al-30-de-septiembre-de-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4236786.png"
+        },
+        {
+          "id": "4236774",
+          "title": "Reporte de Diagnósticos Comunitarios, 2026",
+          "dateOriginal": "2026-11-03T00:00:00+00:00",
+          "primaryCountry": "Venezuela (Bolivarian Republic of)",
+          "primaryCountryIso3": "ven",
+          "primaryCountryLocation": {
+            "lat": 7.62,
+            "lon": -65.8
+          },
+          "source": "HumVenezuela",
+          "format": "Assessment",
+          "themes": [
+            "Education",
+            "Food and Nutrition",
+            "Health",
+            "Protection and Human Rights",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/16/6e16c66d-1267-4b59-ac72-c9341bd1b8ee.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/16/6e16c66d-1267-4b59-ac72-c9341bd1b8ee.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/6e/16/6e16c66d-1267-4b59-ac72-c9341bd1b8ee.png",
+            "https://reliefweb.int/sites/default/files/previews/6e/16/6e16c66d-1267-4b59-ac72-c9341bd1b8ee.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/6e/16/6e16c66d-1267-4b59-ac72-c9341bd1b8ee.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/reporte-de-diagnosticos-comunitarios-2026",
+          "localThumbnail": "./assets/report-thumbs/rw-4236774.png"
         }
       ],
       "enrichmentStatus": "complete"
@@ -20794,619 +21433,6 @@
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/mali/mali-compte-rendu-cluster-education-le-21-doctobre-2026-meeting-minutes",
           "localThumbnail": "./assets/report-thumbs/rw-4236917.png"
-        }
-      ],
-      "enrichmentStatus": "complete"
-    },
-    {
-      "name": "Venezuela (Bolivarian Republic of)",
-      "shortname": "Venezuela (Bolivarian Republic of)",
-      "iso3": "ven",
-      "location": {
-        "lat": 7.62,
-        "lon": -65.8
-      },
-      "overview": "",
-      "countryUrl": "",
-      "reports30d": 16,
-      "reports7d": 1,
-      "previous7d": 9,
-      "change7d": -88.88888888888889,
-      "uniqueSources": 13,
-      "themeBreadth": 11,
-      "formatBreadth": 7,
-      "topThemes": [
-        {
-          "name": "Health",
-          "count": 10
-        },
-        {
-          "name": "Water Sanitation Hygiene",
-          "count": 10
-        },
-        {
-          "name": "Protection and Human Rights",
-          "count": 9
-        },
-        {
-          "name": "Shelter and Non-Food Items",
-          "count": 6
-        },
-        {
-          "name": "Food and Nutrition",
-          "count": 5
-        },
-        {
-          "name": "Camp Coordination and Camp Management",
-          "count": 4
-        },
-        {
-          "name": "Coordination",
-          "count": 4
-        },
-        {
-          "name": "Education",
-          "count": 4
-        },
-        {
-          "name": "Recovery and Reconstruction",
-          "count": 3
-        },
-        {
-          "name": "Logistics and Telecommunications",
-          "count": 2
-        },
-        {
-          "name": "Agriculture",
-          "count": 1
-        }
-      ],
-      "topSources": [
-        {
-          "name": "IOM",
-          "count": 6
-        },
-        {
-          "name": "Logistics Cluster",
-          "count": 2
-        },
-        {
-          "name": "OCHA",
-          "count": 2
-        },
-        {
-          "name": "WFP",
-          "count": 2
-        },
-        {
-          "name": "CCCM Cluster",
-          "count": 1
-        },
-        {
-          "name": "Direct Relief",
-          "count": 1
-        },
-        {
-          "name": "FEWS NET",
-          "count": 1
-        },
-        {
-          "name": "HumVenezuela",
-          "count": 1
-        },
-        {
-          "name": "IMC",
-          "count": 1
-        },
-        {
-          "name": "R4V",
-          "count": 1
-        },
-        {
-          "name": "Shelter Cluster",
-          "count": 1
-        },
-        {
-          "name": "UNHCR",
-          "count": 1
-        },
-        {
-          "name": "UNICEF",
-          "count": 1
-        }
-      ],
-      "topFormats": [
-        {
-          "name": "Situation Report",
-          "count": 8
-        },
-        {
-          "name": "Infographic",
-          "count": 2
-        },
-        {
-          "name": "Other",
-          "count": 2
-        },
-        {
-          "name": "Analysis",
-          "count": 1
-        },
-        {
-          "name": "Assessment",
-          "count": 1
-        },
-        {
-          "name": "Manual and Guideline",
-          "count": 1
-        },
-        {
-          "name": "News and Press Release",
-          "count": 1
-        }
-      ],
-      "disasterTypes": [
-        {
-          "name": "Earthquake",
-          "count": 12
-        }
-      ],
-      "timeline": [
-        {
-          "date": "2026-10-14T00:00:00+00:00",
-          "count": 2
-        },
-        {
-          "date": "2026-10-15T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-16T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-17T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-18T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-19T00:00:00+00:00",
-          "count": 3
-        },
-        {
-          "date": "2026-10-20T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-21T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-22T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-23T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-24T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-25T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-26T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-10-27T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-28T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-29T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-30T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-10-31T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-11-01T00:00:00+00:00",
-          "count": 0
-        },
-        {
-          "date": "2026-11-02T00:00:00+00:00",
-          "count": 1
-        },
-        {
-          "date": "2026-11-03T00:00:00+00:00",
-          "count": 4
-        },
-        {
-          "date": "2026-11-04T00:00:00+00:00",
-          "count": 3
-        },
-        {
-          "date": "2026-11-05T00:00:00+00:00",
-          "count": 1
-        }
-      ],
-      "recentReports": [
-        {
-          "id": "4238122",
-          "title": "Venezuela: Contactos de Coordinación Humanitaria (Noviembre 2026)",
-          "dateOriginal": "2026-11-12T00:00:00+00:00",
-          "primaryCountry": "Venezuela (Bolivarian Republic of)",
-          "primaryCountryIso3": "ven",
-          "primaryCountryLocation": {
-            "lat": 7.62,
-            "lon": -65.8
-          },
-          "source": "OCHA",
-          "format": "Other",
-          "themes": [
-            "Coordination"
-          ],
-          "disasterTypes": [
-            "Earthquake"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b9/27/b92775aa-8135-43ec-8fc8-ecb7cf20ecf5.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b9/27/b92775aa-8135-43ec-8fc8-ecb7cf20ecf5.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/b9/27/b92775aa-8135-43ec-8fc8-ecb7cf20ecf5.png",
-            "https://reliefweb.int/sites/default/files/previews/b9/27/b92775aa-8135-43ec-8fc8-ecb7cf20ecf5.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/b9/27/b92775aa-8135-43ec-8fc8-ecb7cf20ecf5.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-contactos-de-coordinacion-humanitaria-noviembre-2026"
-        },
-        {
-          "id": "4237187",
-          "title": "Regional Movement Trends and Patterns LAC - January – June 2026",
-          "dateOriginal": "2026-11-05T00:00:00+00:00",
-          "primaryCountry": "Venezuela (Bolivarian Republic of)",
-          "primaryCountryIso3": "ven",
-          "primaryCountryLocation": {
-            "lat": 7.62,
-            "lon": -65.8
-          },
-          "source": "R4V",
-          "format": "Situation Report",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/51/c2/51c262e5-9b40-57f8-bc03-76bcd52212e8.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/51/c2/51c262e5-9b40-57f8-bc03-76bcd52212e8.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/51/c2/51c262e5-9b40-57f8-bc03-76bcd52212e8.png",
-            "https://reliefweb.int/sites/default/files/previews/51/c2/51c262e5-9b40-57f8-bc03-76bcd52212e8.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/51/c2/51c262e5-9b40-57f8-bc03-76bcd52212e8.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/regional-movement-trends-and-patterns-lac-january-june-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4237187.png"
-        },
-        {
-          "id": "4236871",
-          "title": "UNICEF Venezuela Situation Report No.10 (Earthquake Response), 8 September -19 October 2026",
-          "dateOriginal": "2026-11-04T00:00:00+00:00",
-          "primaryCountry": "Venezuela (Bolivarian Republic of)",
-          "primaryCountryIso3": "ven",
-          "primaryCountryLocation": {
-            "lat": 7.62,
-            "lon": -65.8
-          },
-          "source": "UNICEF",
-          "format": "Situation Report",
-          "themes": [
-            "Coordination",
-            "Education",
-            "Food and Nutrition",
-            "Health",
-            "Protection and Human Rights",
-            "Recovery and Reconstruction",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [
-            "Earthquake"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1a/39/1a392d16-5944-4659-9aad-206b6145f4e7.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1a/39/1a392d16-5944-4659-9aad-206b6145f4e7.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/1a/39/1a392d16-5944-4659-9aad-206b6145f4e7.png",
-            "https://reliefweb.int/sites/default/files/previews/1a/39/1a392d16-5944-4659-9aad-206b6145f4e7.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/1a/39/1a392d16-5944-4659-9aad-206b6145f4e7.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/unicef-venezuela-situation-report-no10-earthquake-response-8-september-19-october-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4236871.png"
-        },
-        {
-          "id": "4237454",
-          "title": "Venezuela - Meeting Minutes, Earthquake Response, Caracas, November 4, 2026",
-          "dateOriginal": "2026-11-04T00:00:00+00:00",
-          "primaryCountry": "Venezuela (Bolivarian Republic of)",
-          "primaryCountryIso3": "ven",
-          "primaryCountryLocation": {
-            "lat": 7.62,
-            "lon": -65.8
-          },
-          "source": "Logistics Cluster, WFP",
-          "format": "Other",
-          "themes": [
-            "Logistics and Telecommunications"
-          ],
-          "disasterTypes": [
-            "Earthquake"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/65/6a/656a2a9b-4c27-59f7-9498-669ec0c58306.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/65/6a/656a2a9b-4c27-59f7-9498-669ec0c58306.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/65/6a/656a2a9b-4c27-59f7-9498-669ec0c58306.png",
-            "https://reliefweb.int/sites/default/files/previews/65/6a/656a2a9b-4c27-59f7-9498-669ec0c58306.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/65/6a/656a2a9b-4c27-59f7-9498-669ec0c58306.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-meeting-minutes-earthquake-response-caracas-november-4-2026"
-        },
-        {
-          "id": "4237031",
-          "title": "Venezuela: Humanitarian Response - Who does what, where, when and for whom? (As of 30 September 2026)",
-          "dateOriginal": "2026-11-04T00:00:00+00:00",
-          "primaryCountry": "Venezuela (Bolivarian Republic of)",
-          "primaryCountryIso3": "ven",
-          "primaryCountryLocation": {
-            "lat": 7.62,
-            "lon": -65.8
-          },
-          "source": "OCHA",
-          "format": "Infographic",
-          "themes": [
-            "Coordination",
-            "Education",
-            "Food and Nutrition",
-            "Protection and Human Rights",
-            "Shelter and Non-Food Items",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cf/94/cf944d2c-9c83-4019-aee6-d872a18d7598.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/cf/94/cf944d2c-9c83-4019-aee6-d872a18d7598.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/cf/94/cf944d2c-9c83-4019-aee6-d872a18d7598.png",
-            "https://reliefweb.int/sites/default/files/previews/cf/94/cf944d2c-9c83-4019-aee6-d872a18d7598.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/cf/94/cf944d2c-9c83-4019-aee6-d872a18d7598.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-humanitarian-response-who-does-what-where-when-and-whom-30-september-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4237031.png"
-        },
-        {
-          "id": "4236818",
-          "title": "Venezuela (Bolivarian Republic of): Earthquake Response – Situation Report #32 (1 to 31 October 2026)",
-          "dateOriginal": "2026-11-03T00:00:00+00:00",
-          "primaryCountry": "Venezuela (Bolivarian Republic of)",
-          "primaryCountryIso3": "ven",
-          "primaryCountryLocation": {
-            "lat": 7.62,
-            "lon": -65.8
-          },
-          "source": "IOM",
-          "format": "Situation Report",
-          "themes": [
-            "Health",
-            "Protection and Human Rights",
-            "Recovery and Reconstruction",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [
-            "Earthquake"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8f/9e/8f9ed048-2e7f-4251-9916-3193f1e89a42.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/8f/9e/8f9ed048-2e7f-4251-9916-3193f1e89a42.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/8f/9e/8f9ed048-2e7f-4251-9916-3193f1e89a42.png",
-            "https://reliefweb.int/sites/default/files/previews/8f/9e/8f9ed048-2e7f-4251-9916-3193f1e89a42.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/8f/9e/8f9ed048-2e7f-4251-9916-3193f1e89a42.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-bolivarian-republic-earthquake-response-situation-report-32-1-31-october-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4236818.png"
-        },
-        {
-          "id": "4236803",
-          "title": "Venezuela (República Bolivariana de): Respuesta a Terremotos– Reporte de Situación #32 (01 al 31 de octubre 2026)",
-          "dateOriginal": "2026-11-03T00:00:00+00:00",
-          "primaryCountry": "Venezuela (Bolivarian Republic of)",
-          "primaryCountryIso3": "ven",
-          "primaryCountryLocation": {
-            "lat": 7.62,
-            "lon": -65.8
-          },
-          "source": "IOM",
-          "format": "Situation Report",
-          "themes": [
-            "Health",
-            "Protection and Human Rights",
-            "Recovery and Reconstruction",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [
-            "Earthquake"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ea/29/ea291f39-0917-4a21-969c-b80f7307f83f.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ea/29/ea291f39-0917-4a21-969c-b80f7307f83f.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/ea/29/ea291f39-0917-4a21-969c-b80f7307f83f.png",
-            "https://reliefweb.int/sites/default/files/previews/ea/29/ea291f39-0917-4a21-969c-b80f7307f83f.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/ea/29/ea291f39-0917-4a21-969c-b80f7307f83f.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-republica-bolivariana-de-respuesta-terremotos-reporte-de-situacion-32-01-al-31-de-octubre-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4236803.png"
-        },
-        {
-          "id": "4236786",
-          "title": "Venezuela 5W - Presencia Operativa Humanitaria 2026 - ¿Quién hace qué, dónde, cuándo y para quién? (Al 30 de septiembre de 2026)",
-          "dateOriginal": "2026-11-03T00:00:00+00:00",
-          "primaryCountry": "Venezuela (Bolivarian Republic of)",
-          "primaryCountryIso3": "ven",
-          "primaryCountryLocation": {
-            "lat": 7.62,
-            "lon": -65.8
-          },
-          "source": "OCHA",
-          "format": "Infographic",
-          "themes": [
-            "Coordination",
-            "Education",
-            "Food and Nutrition",
-            "Health",
-            "Shelter and Non-Food Items",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [
-            "Earthquake"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a7/ae/a7aeed6a-3465-4559-8a8e-bdc6823ecec8.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a7/ae/a7aeed6a-3465-4559-8a8e-bdc6823ecec8.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/a7/ae/a7aeed6a-3465-4559-8a8e-bdc6823ecec8.png",
-            "https://reliefweb.int/sites/default/files/previews/a7/ae/a7aeed6a-3465-4559-8a8e-bdc6823ecec8.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/a7/ae/a7aeed6a-3465-4559-8a8e-bdc6823ecec8.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-5w-presencia-operativa-humanitaria-2026-quien-hace-que-donde-cuando-y-para-quien-al-30-de-septiembre-de-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4236786.png"
-        },
-        {
-          "id": "4236774",
-          "title": "Reporte de Diagnósticos Comunitarios, 2026",
-          "dateOriginal": "2026-11-03T00:00:00+00:00",
-          "primaryCountry": "Venezuela (Bolivarian Republic of)",
-          "primaryCountryIso3": "ven",
-          "primaryCountryLocation": {
-            "lat": 7.62,
-            "lon": -65.8
-          },
-          "source": "HumVenezuela",
-          "format": "Assessment",
-          "themes": [
-            "Education",
-            "Food and Nutrition",
-            "Health",
-            "Protection and Human Rights",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/16/6e16c66d-1267-4b59-ac72-c9341bd1b8ee.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/6e/16/6e16c66d-1267-4b59-ac72-c9341bd1b8ee.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/6e/16/6e16c66d-1267-4b59-ac72-c9341bd1b8ee.png",
-            "https://reliefweb.int/sites/default/files/previews/6e/16/6e16c66d-1267-4b59-ac72-c9341bd1b8ee.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/6e/16/6e16c66d-1267-4b59-ac72-c9341bd1b8ee.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/reporte-de-diagnosticos-comunitarios-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4236774.png"
-        },
-        {
-          "id": "4236711",
-          "title": "SENIAT - Circular SNAT/2026/5076 - Guidelines for Simplifying Customs Procedures [ES]",
-          "dateOriginal": "2026-11-02T00:00:00+00:00",
-          "primaryCountry": "Venezuela (Bolivarian Republic of)",
-          "primaryCountryIso3": "ven",
-          "primaryCountryLocation": {
-            "lat": 7.62,
-            "lon": -65.8
-          },
-          "source": "Logistics Cluster, WFP",
-          "format": "Manual and Guideline",
-          "themes": [
-            "Logistics and Telecommunications"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/73/9f/739f443d-8be9-5e05-b2c2-e642295e5365.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/73/9f/739f443d-8be9-5e05-b2c2-e642295e5365.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/73/9f/739f443d-8be9-5e05-b2c2-e642295e5365.png",
-            "https://reliefweb.int/sites/default/files/previews/73/9f/739f443d-8be9-5e05-b2c2-e642295e5365.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/73/9f/739f443d-8be9-5e05-b2c2-e642295e5365.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/seniat-circular-snat20265076-guidelines-simplifying-customs-procedures-es",
-          "localThumbnail": "./assets/report-thumbs/rw-4236711.png"
-        },
-        {
-          "id": "4236333",
-          "title": "After the Earthquakes, Venezuela Faces a Longer Health Emergency",
-          "dateOriginal": "2026-10-26T00:00:00+00:00",
-          "primaryCountry": "Venezuela (Bolivarian Republic of)",
-          "primaryCountryIso3": "ven",
-          "primaryCountryLocation": {
-            "lat": 7.62,
-            "lon": -65.8
-          },
-          "source": "Direct Relief",
-          "format": "News and Press Release",
-          "themes": [
-            "Health"
-          ],
-          "disasterTypes": [
-            "Earthquake"
-          ],
-          "thumbnail": "",
-          "thumbnailCandidates": [],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/after-earthquakes-venezuela-faces-longer-health-emergency"
-        },
-        {
-          "id": "4234628",
-          "title": "Rapport de situation - septembre 2026",
-          "dateOriginal": "2026-10-19T00:00:00+00:00",
-          "primaryCountry": "Venezuela (Bolivarian Republic of)",
-          "primaryCountryIso3": "ven",
-          "primaryCountryLocation": {
-            "lat": 7.62,
-            "lon": -65.8
-          },
-          "source": "IOM",
-          "format": "Situation Report",
-          "themes": [
-            "Camp Coordination and Camp Management",
-            "Health",
-            "Protection and Human Rights",
-            "Shelter and Non-Food Items",
-            "Water Sanitation Hygiene"
-          ],
-          "disasterTypes": [
-            "Earthquake"
-          ],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/73/bf/73bfa4c3-739d-5390-9cd2-f1348f827ce4.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/73/bf/73bfa4c3-739d-5390-9cd2-f1348f827ce4.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/73/bf/73bfa4c3-739d-5390-9cd2-f1348f827ce4.png",
-            "https://reliefweb.int/sites/default/files/previews/73/bf/73bfa4c3-739d-5390-9cd2-f1348f827ce4.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/73/bf/73bfa4c3-739d-5390-9cd2-f1348f827ce4.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/rapport-de-situation-septembre-2026",
-          "localThumbnail": "./assets/report-thumbs/rw-4234628.png"
         }
       ],
       "enrichmentStatus": "complete"
@@ -23283,35 +23309,7 @@
       "topFormats": [],
       "disasterTypes": [],
       "timeline": [],
-      "recentReports": [
-        {
-          "id": "4238154",
-          "title": "WFP Dominican Republic Country Brief, November 2026",
-          "dateOriginal": "2026-11-12T00:00:00+00:00",
-          "primaryCountry": "Dominican Republic",
-          "primaryCountryIso3": "dom",
-          "primaryCountryLocation": {
-            "lat": 18.85,
-            "lon": -70.11
-          },
-          "source": "WFP",
-          "format": "Situation Report",
-          "themes": [
-            "Disaster Management",
-            "Food and Nutrition"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/b3/7cb37049-d7a9-477d-b7fe-4f994933ae3d.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/b3/7cb37049-d7a9-477d-b7fe-4f994933ae3d.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/7c/b3/7cb37049-d7a9-477d-b7fe-4f994933ae3d.png",
-            "https://reliefweb.int/sites/default/files/previews/7c/b3/7cb37049-d7a9-477d-b7fe-4f994933ae3d.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/7c/b3/7cb37049-d7a9-477d-b7fe-4f994933ae3d.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/dominican-republic/wfp-dominican-republic-country-brief-november-2026"
-        }
-      ],
+      "recentReports": [],
       "enrichmentStatus": "pending-daily"
     },
     {
@@ -28842,6 +28840,235 @@
   ],
   "reports": [
     {
+      "id": "4238202",
+      "title": "Clúster de Coordinación de Alojamiento, Tierra y Asentamientos: Estrategia de Respuesta al Terremoto Venezuela 2026 (Septiembre 2026)",
+      "dateOriginal": "2026-11-13T00:00:00+00:00",
+      "primaryCountry": "Venezuela (Bolivarian Republic of)",
+      "primaryCountryIso3": "ven",
+      "primaryCountryLocation": {
+        "lat": 7.62,
+        "lon": -65.8
+      },
+      "source": "CCCM Cluster, IFRC, IOM, Shelter Centre, SLSC Cluster",
+      "format": "Manual and Guideline",
+      "themes": [
+        "Camp Coordination and Camp Management",
+        "Coordination",
+        "Shelter and Non-Food Items"
+      ],
+      "disasterTypes": [
+        "Earthquake"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/48/6c/486c8bed-d6b7-4c2e-9147-546c108cc279.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/48/6c/486c8bed-d6b7-4c2e-9147-546c108cc279.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/48/6c/486c8bed-d6b7-4c2e-9147-546c108cc279.png",
+        "https://reliefweb.int/sites/default/files/previews/48/6c/486c8bed-d6b7-4c2e-9147-546c108cc279.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/48/6c/486c8bed-d6b7-4c2e-9147-546c108cc279.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/cluster-de-coordinacion-de-alojamiento-tierra-y-asentamientos-estrategia-de-respuesta-al-terremoto-venezuela-2026-septiembre-2026"
+    },
+    {
+      "id": "4238203",
+      "title": "Grupo Técnico de Trabajo (GT-T) Reparación de Viviendas y Asistencia de Alojamiento: Términos de referencia",
+      "dateOriginal": "2026-11-13T00:00:00+00:00",
+      "primaryCountry": "Venezuela (Bolivarian Republic of)",
+      "primaryCountryIso3": "ven",
+      "primaryCountryLocation": {
+        "lat": 7.62,
+        "lon": -65.8
+      },
+      "source": "CCCM Cluster, IFRC, IOM, Shelter Centre, SLSC Cluster",
+      "format": "Manual and Guideline",
+      "themes": [
+        "Camp Coordination and Camp Management",
+        "Shelter and Non-Food Items"
+      ],
+      "disasterTypes": [
+        "Earthquake"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/95/53/95539317-9546-4da3-a892-e2cd226ccf27.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/95/53/95539317-9546-4da3-a892-e2cd226ccf27.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/95/53/95539317-9546-4da3-a892-e2cd226ccf27.png",
+        "https://reliefweb.int/sites/default/files/previews/95/53/95539317-9546-4da3-a892-e2cd226ccf27.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/95/53/95539317-9546-4da3-a892-e2cd226ccf27.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/grupo-tecnico-de-trabajo-gt-t-reparacion-de-viviendas-y-asistencia-de-alojamiento-terminos-de-referencia",
+      "localThumbnail": "./assets/report-thumbs/rw-4238203.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/95/53/95539317-9546-4da3-a892-e2cd226ccf27.png"
+    },
+    {
+      "id": "4238204",
+      "title": "Grupo Técnico de Trabajo (GT-T) Kits de Enseres Esenciales para el Hogar: Términos de referencia",
+      "dateOriginal": "2026-11-13T00:00:00+00:00",
+      "primaryCountry": "Venezuela (Bolivarian Republic of)",
+      "primaryCountryIso3": "ven",
+      "primaryCountryLocation": {
+        "lat": 7.62,
+        "lon": -65.8
+      },
+      "source": "CCCM Cluster, IFRC, IOM, Shelter Centre, SLSC Cluster",
+      "format": "Manual and Guideline",
+      "themes": [
+        "Shelter and Non-Food Items"
+      ],
+      "disasterTypes": [
+        "Earthquake"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f7/5c/f75cfab4-0cc7-47f6-a736-6f733f2232d7.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f7/5c/f75cfab4-0cc7-47f6-a736-6f733f2232d7.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f7/5c/f75cfab4-0cc7-47f6-a736-6f733f2232d7.png",
+        "https://reliefweb.int/sites/default/files/previews/f7/5c/f75cfab4-0cc7-47f6-a736-6f733f2232d7.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f7/5c/f75cfab4-0cc7-47f6-a736-6f733f2232d7.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/grupo-tecnico-de-trabajo-gt-t-kits-de-enseres-esenciales-para-el-hogar-terminos-de-referencia"
+    },
+    {
+      "id": "4238198",
+      "title": "OIM RDC : Mouvements des PDI - DTM: Suivi de la mobilite - juillet 2026 | Nord-Kivu & Ituri",
+      "dateOriginal": "2026-11-13T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "source": "IOM",
+      "format": "Map",
+      "themes": [
+        "Health",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/26/f1/26f18b76-2a79-5da7-8bc3-5ef1dc8b99a2.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/26/f1/26f18b76-2a79-5da7-8bc3-5ef1dc8b99a2.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/26/f1/26f18b76-2a79-5da7-8bc3-5ef1dc8b99a2.png",
+        "https://reliefweb.int/sites/default/files/previews/26/f1/26f18b76-2a79-5da7-8bc3-5ef1dc8b99a2.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/26/f1/26f18b76-2a79-5da7-8bc3-5ef1dc8b99a2.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/democratic-republic-congo/oim-rdc-mouvements-des-pdi-dtm-suivi-de-la-mobilite-juillet-2026-nord-kivu-ituri"
+    },
+    {
+      "id": "4238197",
+      "title": "OIM RDC : Mouvements des PDI - Suivi des deplacements - juillet 2026 | Nord-Kivu & Ituri",
+      "dateOriginal": "2026-11-13T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "source": "IOM",
+      "format": "Map",
+      "themes": [
+        "Health",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [
+        "Epidemic"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/4c/7c4cc252-9962-5c28-8c09-54d86c9d8f72.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/4c/7c4cc252-9962-5c28-8c09-54d86c9d8f72.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/7c/4c/7c4cc252-9962-5c28-8c09-54d86c9d8f72.png",
+        "https://reliefweb.int/sites/default/files/previews/7c/4c/7c4cc252-9962-5c28-8c09-54d86c9d8f72.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/7c/4c/7c4cc252-9962-5c28-8c09-54d86c9d8f72.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/democratic-republic-congo/oim-rdc-mouvements-des-pdi-suivi-des-deplacements-juillet-2026-nord-kivu-ituri"
+    },
+    {
+      "id": "4238205",
+      "title": "Afghanistan: Emergency Border Response report (25 Oct - 07 Nov 2026)",
+      "dateOriginal": "2026-11-13T00:00:00+00:00",
+      "primaryCountry": "Afghanistan",
+      "primaryCountryIso3": "afg",
+      "primaryCountryLocation": {
+        "lat": 33.84,
+        "lon": 66.03
+      },
+      "source": "IOM",
+      "format": "Infographic",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/23/54/2354bd9f-f700-4130-acb7-03c9753cdac0.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/23/54/2354bd9f-f700-4130-acb7-03c9753cdac0.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/23/54/2354bd9f-f700-4130-acb7-03c9753cdac0.png",
+        "https://reliefweb.int/sites/default/files/previews/23/54/2354bd9f-f700-4130-acb7-03c9753cdac0.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/23/54/2354bd9f-f700-4130-acb7-03c9753cdac0.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/afghanistan/afghanistan-emergency-border-response-report-25-oct-07-nov-2026"
+    },
+    {
+      "id": "4238199",
+      "title": "OIM RDC : Mouvements des PDI - Suivi des déplacements - juillet 2026 | Province du Sud-Kivu, RDC",
+      "dateOriginal": "2026-11-13T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "source": "IOM",
+      "format": "Map",
+      "themes": [
+        "Health",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d1/15/d11532c5-4ec2-5985-8a60-c2c1647d904d.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d1/15/d11532c5-4ec2-5985-8a60-c2c1647d904d.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/d1/15/d11532c5-4ec2-5985-8a60-c2c1647d904d.png",
+        "https://reliefweb.int/sites/default/files/previews/d1/15/d11532c5-4ec2-5985-8a60-c2c1647d904d.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/d1/15/d11532c5-4ec2-5985-8a60-c2c1647d904d.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/democratic-republic-congo/oim-rdc-mouvements-des-pdi-suivi-des-deplacements-juillet-2026-province-du-sud-kivu-rdc"
+    },
+    {
+      "id": "4238200",
+      "title": "OIM RDC : Mouvements des PDI - Suivi des déplacements - juillet 2026 | Province de Tanganyika, RDC",
+      "dateOriginal": "2026-11-13T00:00:00+00:00",
+      "primaryCountry": "Democratic Republic of the Congo",
+      "primaryCountryIso3": "cod",
+      "primaryCountryLocation": {
+        "lat": -4.03833,
+        "lon": 21.7587
+      },
+      "source": "IOM",
+      "format": "Map",
+      "themes": [
+        "Health",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/45/3d/453dbbe1-636c-47f1-923e-696bace8d2fc.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/45/3d/453dbbe1-636c-47f1-923e-696bace8d2fc.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/45/3d/453dbbe1-636c-47f1-923e-696bace8d2fc.png",
+        "https://reliefweb.int/sites/default/files/previews/45/3d/453dbbe1-636c-47f1-923e-696bace8d2fc.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/45/3d/453dbbe1-636c-47f1-923e-696bace8d2fc.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/map/democratic-republic-congo/oim-rdc-mouvements-des-pdi-suivi-des-deplacements-juillet-2026-province-de-tanganyika-rdc",
+      "localThumbnail": "./assets/report-thumbs/rw-4238200.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/45/3d/453dbbe1-636c-47f1-923e-696bace8d2fc.png"
+    },
+    {
       "id": "4238081",
       "title": "Sudan: Kalma Site Factsheet - Beliel Locality, South Darfur (as of 14th July 2026)",
       "dateOriginal": "2026-11-12T00:00:00+00:00",
@@ -28928,7 +29155,9 @@
         "https://reliefweb.int/sites/default/files/styles/large/public/previews/4a/55/4a55a724-2fde-4359-b5ff-159d1dbd06d1.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/south-sudan/abiemnon-massacre-inaction-and-impunity-south-sudan"
+      "url": "https://reliefweb.int/report/south-sudan/abiemnon-massacre-inaction-and-impunity-south-sudan",
+      "localThumbnail": "./assets/report-thumbs/rw-4238070.png",
+      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/4a/55/4a55a724-2fde-4359-b5ff-159d1dbd06d1.png"
     },
     {
       "id": "4238101",
@@ -29046,8 +29275,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/timor-leste/wfp-timor-leste-country-brief-november-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4238076.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/4b/3b/4b3b3325-e42b-4f8c-8e25-8265e3791bc8.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4238076.png"
     },
     {
       "id": "4238080",
@@ -29296,8 +29524,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/afghanistan/emr-polio-bulletin-issue-no-1466-week-44-ending-08112026",
-      "localThumbnail": "./assets/report-thumbs/rw-4238117.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/30/cb/30cbd93c-dc28-5268-8ab5-e0d5b5786e3c.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4238117.png"
     },
     {
       "id": "4238102",
@@ -29353,8 +29580,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-contactos-de-coordinacion-humanitaria-noviembre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4238122.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/b9/27/b92775aa-8135-43ec-8fc8-ecb7cf20ecf5.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4238122.png"
     },
     {
       "id": "4238096",
@@ -29492,8 +29718,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/chad/tchad-situation-humanitaire-au-lac-rapport-de-situation-ndeg-02-au-30-octobre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4238109.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/9e/1a/9e1ade58-2303-440a-ac55-5512c1bb4935.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4238109.png"
     },
     {
       "id": "4238134",
@@ -29522,29 +29747,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/south-sudan/south-sudan-humanitarian-access-snapshot-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4238134.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/80/d9/80d9ac6e-de99-4cd3-87a6-fee02eb3c818.png"
-    },
-    {
-      "id": "4238137",
-      "title": "World Food Programme Executive Director Calls for End to Fighting in Sudan",
-      "dateOriginal": "2026-11-12T00:00:00+00:00",
-      "primaryCountry": "Sudan",
-      "primaryCountryIso3": "sdn",
-      "primaryCountryLocation": {
-        "lat": 15,
-        "lon": 30
-      },
-      "source": "WFP",
-      "format": "News and Press Release",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/sudan/world-food-programme-executive-director-calls-end-fighting-sudan"
+      "localThumbnail": "./assets/report-thumbs/rw-4238134.png"
     },
     {
       "id": "4238104",
@@ -29625,8 +29828,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/turkish-red-crescent-monthly-activity-bulletin-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4238148.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/94/44/944431a7-4077-4478-94fc-4f336956ed7e.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4238148.png"
     },
     {
       "id": "4238140",
@@ -29779,41 +29981,6 @@
       "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-12-nov-2026"
     },
     {
-      "id": "4238144",
-      "title": "Eastern Africa: El Niño Status and Humanitarian Impact Flash Update No. 1 (12 November 2026)",
-      "dateOriginal": "2026-11-12T00:00:00+00:00",
-      "primaryCountry": "Somalia",
-      "primaryCountryIso3": "som",
-      "primaryCountryLocation": {
-        "lat": 5.79,
-        "lon": 47.33
-      },
-      "source": "OCHA",
-      "format": "Situation Report",
-      "themes": [
-        "Climate Change and Environment",
-        "Contributions",
-        "Food and Nutrition",
-        "Health",
-        "Protection and Human Rights",
-        "Shelter and Non-Food Items",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [
-        "Drought",
-        "Flood"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e3/77/e377e3f2-0af0-44a6-a1da-b81e0b3639ef.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e3/77/e377e3f2-0af0-44a6-a1da-b81e0b3639ef.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/e3/77/e377e3f2-0af0-44a6-a1da-b81e0b3639ef.png",
-        "https://reliefweb.int/sites/default/files/previews/e3/77/e377e3f2-0af0-44a6-a1da-b81e0b3639ef.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/e3/77/e377e3f2-0af0-44a6-a1da-b81e0b3639ef.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/somalia/eastern-africa-el-nino-status-and-humanitarian-impact-flash-update-no-1-12-november-2026"
-    },
-    {
       "id": "4238184",
       "title": "Global tuberculosis report 2026",
       "dateOriginal": "2026-11-12T00:00:00+00:00",
@@ -29864,8 +30031,7 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/iraq/irq-pluvialflash-flood-11-2026-iraq-flash-flood-erbil-2026-11-12",
-      "localThumbnail": "./assets/report-thumbs/rw-4238188.png",
-      "thumbnailSourceUrl": "https://reliefweb.int/sites/default/files/styles/small/public/previews/04/c7/04c745bf-f235-4339-9f9a-6f39b82ea740.png"
+      "localThumbnail": "./assets/report-thumbs/rw-4238188.png"
     },
     {
       "id": "4238186",
@@ -29946,80 +30112,6 @@
       "url": "https://reliefweb.int/report/colombia/colombia-liberacion-de-dos-personas-en-arauca-0"
     },
     {
-      "id": "4238190",
-      "title": "Cameroon | Cholera: Early Action Protocol Activation (MDRCM040) (07/10/2026)",
-      "dateOriginal": "2026-11-12T00:00:00+00:00",
-      "primaryCountry": "Cameroon",
-      "primaryCountryIso3": "cmr",
-      "primaryCountryLocation": {
-        "lat": 4.81,
-        "lon": 12.21
-      },
-      "source": "IFRC",
-      "format": "Situation Report",
-      "themes": [
-        "Health",
-        "Protection and Human Rights",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [
-        "Epidemic"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ea/6b/ea6b747e-1be0-4e6d-90fa-187b3b6be0c1.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ea/6b/ea6b747e-1be0-4e6d-90fa-187b3b6be0c1.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/ea/6b/ea6b747e-1be0-4e6d-90fa-187b3b6be0c1.png",
-        "https://reliefweb.int/sites/default/files/previews/ea/6b/ea6b747e-1be0-4e6d-90fa-187b3b6be0c1.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/ea/6b/ea6b747e-1be0-4e6d-90fa-187b3b6be0c1.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/cameroon/cameroon-cholera-early-action-protocol-activation-mdrcm040-07102026"
-    },
-    {
-      "id": "4238193",
-      "title": "Why the Central African Republic is a peacekeeping success story",
-      "dateOriginal": "2026-11-12T00:00:00+00:00",
-      "primaryCountry": "Central African Republic",
-      "primaryCountryIso3": "caf",
-      "primaryCountryLocation": {
-        "lat": 6.57,
-        "lon": 20.48
-      },
-      "source": "MINUSCA",
-      "format": "News and Press Release",
-      "themes": [
-        "Peacekeeping and Peacebuilding"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/central-african-republic/why-central-african-republic-peacekeeping-success-story"
-    },
-    {
-      "id": "4238194",
-      "title": "MSF condemns another deadly attack on Nasser hospital",
-      "dateOriginal": "2026-11-12T00:00:00+00:00",
-      "primaryCountry": "occupied Palestinian territory",
-      "primaryCountryIso3": "pse",
-      "primaryCountryLocation": {
-        "lat": 31.9522,
-        "lon": 35.2332
-      },
-      "source": "MSF",
-      "format": "News and Press Release",
-      "themes": [
-        "Health",
-        "Protection and Human Rights",
-        "Safety and Security"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "",
-      "thumbnailCandidates": [],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/occupied-palestinian-territory/msf-condemns-another-deadly-attack-nasser-hospital"
-    },
-    {
       "id": "4238195",
       "title": "Mosul’s nine years of healing",
       "dateOriginal": "2026-11-12T00:00:00+00:00",
@@ -30041,60 +30133,25 @@
       "url": "https://reliefweb.int/report/iraq/mosuls-nine-years-healing"
     },
     {
-      "id": "4238182",
-      "title": "Haïti Master Site List avec Gestionnaire CCCM - novembre 2026",
+      "id": "4238193",
+      "title": "Why the Central African Republic is a peacekeeping success story",
       "dateOriginal": "2026-11-12T00:00:00+00:00",
-      "primaryCountry": "Haiti",
-      "primaryCountryIso3": "hti",
+      "primaryCountry": "Central African Republic",
+      "primaryCountryIso3": "caf",
       "primaryCountryLocation": {
-        "lat": 19.18,
-        "lon": -72.43
+        "lat": 6.57,
+        "lon": 20.48
       },
-      "source": "CCCM Cluster, Govt. Haiti, IOM",
-      "format": "Other",
+      "source": "MINUSCA",
+      "format": "News and Press Release",
       "themes": [
-        "Camp Coordination and Camp Management"
+        "Peacekeeping and Peacebuilding"
       ],
       "disasterTypes": [],
       "thumbnail": "",
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/haiti/haiti-master-site-list-avec-gestionnaire-cccm-novembre-2026"
-    },
-    {
-      "id": "4238176",
-      "title": "Panama: Earthquake in Azuero & Veraguas - Situation Report No. 09 (as of 11 November 2026, 12:30)",
-      "dateOriginal": "2026-11-12T00:00:00+00:00",
-      "primaryCountry": "Panama",
-      "primaryCountryIso3": "pan",
-      "primaryCountryLocation": {
-        "lat": 8.7,
-        "lon": -80.27
-      },
-      "source": "UNCT Panama, OCHA",
-      "format": "Situation Report",
-      "themes": [
-        "Camp Coordination and Camp Management",
-        "Coordination",
-        "Education",
-        "Food and Nutrition",
-        "Health",
-        "Logistics and Telecommunications",
-        "Shelter and Non-Food Items",
-        "Water Sanitation Hygiene"
-      ],
-      "disasterTypes": [
-        "Earthquake"
-      ],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png",
-        "https://reliefweb.int/sites/default/files/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/d4/f0/d4f004bb-c7a5-43fd-9dcd-2bd431e83564.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/panama/panama-earthquake-azuero-veraguas-situation-report-no-09-11-november-2026-1230"
+      "url": "https://reliefweb.int/report/central-african-republic/why-central-african-republic-peacekeeping-success-story"
     },
     {
       "id": "4238175",
@@ -30130,61 +30187,6 @@
       ],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/panama/panama-terremoto-en-azuero-y-veraguas-informe-de-situacion-no-09-al-11-de-noviembre-2026-1230pm"
-    },
-    {
-      "id": "4238154",
-      "title": "WFP Dominican Republic Country Brief, November 2026",
-      "dateOriginal": "2026-11-12T00:00:00+00:00",
-      "primaryCountry": "Dominican Republic",
-      "primaryCountryIso3": "dom",
-      "primaryCountryLocation": {
-        "lat": 18.85,
-        "lon": -70.11
-      },
-      "source": "WFP",
-      "format": "Situation Report",
-      "themes": [
-        "Disaster Management",
-        "Food and Nutrition"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/b3/7cb37049-d7a9-477d-b7fe-4f994933ae3d.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7c/b3/7cb37049-d7a9-477d-b7fe-4f994933ae3d.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/7c/b3/7cb37049-d7a9-477d-b7fe-4f994933ae3d.png",
-        "https://reliefweb.int/sites/default/files/previews/7c/b3/7cb37049-d7a9-477d-b7fe-4f994933ae3d.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/7c/b3/7cb37049-d7a9-477d-b7fe-4f994933ae3d.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/dominican-republic/wfp-dominican-republic-country-brief-november-2026"
-    },
-    {
-      "id": "4237652",
-      "title": "UNHCR Regional Bureau for Asia and Pacific: Myanmar Situation Update (Bangladesh, India, Indonesia, Malaysia, Myanmar, and Thailand) Aug – Sept 2026",
-      "dateOriginal": "2026-11-11T00:00:00+00:00",
-      "primaryCountry": "Myanmar",
-      "primaryCountryIso3": "mmr",
-      "primaryCountryLocation": {
-        "lat": 21.15,
-        "lon": 96.51
-      },
-      "source": "UNHCR",
-      "format": "Situation Report",
-      "themes": [
-        "Coordination",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png",
-        "https://reliefweb.int/sites/default/files/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/14/cc/14cc19a8-a348-5682-a88a-9d84ece5b639.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/myanmar/unhcr-regional-bureau-asia-and-pacific-myanmar-situation-update-bangladesh-india-indonesia-malaysia-myanmar-and-thailand-aug-sept-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4237652.png"
     }
   ],
   "disasters": [
@@ -31850,7 +31852,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-11-13T00:26:05.061Z",
+    "queryGeneratedAt": "2026-11-13T07:59:21.841Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -31861,7 +31863,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-11-13T00:26:06.680Z",
+    "reportThumbnailCacheAt": "2026-11-13T07:59:24.933Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
