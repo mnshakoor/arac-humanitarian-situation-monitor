@@ -1,7 +1,7 @@
 {
   "schema": "arac.ahsm.snapshot.v2",
-  "generatedAt": "2026-11-22T15:18:22.544Z",
-  "lastSyncAttemptAt": "2026-11-22T15:18:22.544Z",
+  "generatedAt": "2026-11-22T21:46:00.565Z",
+  "lastSyncAttemptAt": "2026-11-22T21:46:00.565Z",
   "enrichedAt": "2026-11-22T10:15:27.590Z",
   "status": "RELIEFWEB LIVE SNAPSHOT",
   "stale": false,
@@ -1409,6 +1409,29 @@
       ],
       "recentReports": [
         {
+          "id": "4239240",
+          "title": "WFP 2027 Global Outlook: Meeting today’s needs. Investing in tomorrow’s solutions",
+          "dateOriginal": "2026-11-20T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "WFP",
+          "format": "Analysis",
+          "themes": [
+            "Food and Nutrition"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
+            "https://reliefweb.int/sites/default/files/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/wfp-2027-global-outlook-meeting-todays-needs-investing-tomorrows-solutions"
+        },
+        {
           "id": "4239239",
           "title": "Supporting Local Leadership in Humanitarian Coordination – Stocktaking: Where we stand and where to go from here",
           "dateOriginal": "2026-11-20T00:00:00+00:00",
@@ -1448,29 +1471,6 @@
           "thumbnailCandidates": [],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/world/assemblee-generale-de-lifrc-2026-reunir-le-reseau-de-la-croix-rouge-et-du-croissant-rouge-pour-renforcer-laction-humanitaire-locale"
-        },
-        {
-          "id": "4239240",
-          "title": "WFP 2027 Global Outlook: Meeting today’s needs. Investing in tomorrow’s solutions",
-          "dateOriginal": "2026-11-20T00:00:00+00:00",
-          "primaryCountry": "World",
-          "primaryCountryIso3": "wld",
-          "primaryCountryLocation": null,
-          "source": "WFP",
-          "format": "Analysis",
-          "themes": [
-            "Food and Nutrition"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
-            "https://reliefweb.int/sites/default/files/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/wfp-2027-global-outlook-meeting-todays-needs-investing-tomorrows-solutions"
         },
         {
           "id": "4239249",
@@ -1578,6 +1578,54 @@
           "url": "https://reliefweb.int/report/world/crop-prospects-and-food-situation-triannual-global-report-no-3-november-2026"
         },
         {
+          "id": "4239004",
+          "title": "Résumé du rapport : Stop à la guerre contre les enfants - Changer la donne",
+          "dateOriginal": "2026-11-19T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "Save the Children",
+          "format": "Analysis",
+          "themes": [
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
+            "https://reliefweb.int/sites/default/files/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/resume-du-rapport-stop-la-guerre-contre-les-enfants-changer-la-donne"
+        },
+        {
+          "id": "4239002",
+          "title": "Estado de la Población Mundial 2026: Generaciones venideras - Empoderar a la juventud para que trace su propio futuro",
+          "dateOriginal": "2026-11-19T00:00:00+00:00",
+          "primaryCountry": "World",
+          "primaryCountryIso3": "wld",
+          "primaryCountryLocation": null,
+          "source": "UNFPA",
+          "format": "Analysis",
+          "themes": [
+            "Gender",
+            "Health",
+            "Protection and Human Rights"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
+            "https://reliefweb.int/sites/default/files/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/world/estado-de-la-poblacion-mundial-2026-generaciones-venideras-empoderar-la-juventud-para-que-trace-su-propio-futuro"
+        },
+        {
           "id": "4238999",
           "title": "State of World Population 2026: Succeeding Generations - Empowering young people to chart the future [EN/AR]",
           "dateOriginal": "2026-11-19T00:00:00+00:00",
@@ -1628,54 +1676,6 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/world/resumen-ejecutivo-informe-alto-la-guerra-contra-la-ninez-hacer-posible-un-futuro-mejor"
-        },
-        {
-          "id": "4239004",
-          "title": "Résumé du rapport : Stop à la guerre contre les enfants - Changer la donne",
-          "dateOriginal": "2026-11-19T00:00:00+00:00",
-          "primaryCountry": "World",
-          "primaryCountryIso3": "wld",
-          "primaryCountryLocation": null,
-          "source": "Save the Children",
-          "format": "Analysis",
-          "themes": [
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
-            "https://reliefweb.int/sites/default/files/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/resume-du-rapport-stop-la-guerre-contre-les-enfants-changer-la-donne"
-        },
-        {
-          "id": "4239002",
-          "title": "Estado de la Población Mundial 2026: Generaciones venideras - Empoderar a la juventud para que trace su propio futuro",
-          "dateOriginal": "2026-11-19T00:00:00+00:00",
-          "primaryCountry": "World",
-          "primaryCountryIso3": "wld",
-          "primaryCountryLocation": null,
-          "source": "UNFPA",
-          "format": "Analysis",
-          "themes": [
-            "Gender",
-            "Health",
-            "Protection and Human Rights"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
-            "https://reliefweb.int/sites/default/files/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/world/estado-de-la-poblacion-mundial-2026-generaciones-venideras-empoderar-la-juventud-para-que-trace-su-propio-futuro"
         }
       ],
       "enrichmentStatus": "complete"
@@ -7018,32 +7018,6 @@
           "url": "https://reliefweb.int/report/south-sudan/unhas-south-sudan-concept-operations-november-2026"
         },
         {
-          "id": "4239238",
-          "title": "South Sudan - Coordination Meeting Minutes, Juba, 19 November 2026",
-          "dateOriginal": "2026-11-20T00:00:00+00:00",
-          "primaryCountry": "South Sudan",
-          "primaryCountryIso3": "ssd",
-          "primaryCountryLocation": {
-            "lat": 6.9,
-            "lon": 30.5
-          },
-          "source": "Logistics Cluster, WFP",
-          "format": "Other",
-          "themes": [
-            "Logistics and Telecommunications"
-          ],
-          "disasterTypes": [],
-          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
-          "thumbnailCandidates": [
-            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
-            "https://reliefweb.int/sites/default/files/styles/small/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
-            "https://reliefweb.int/sites/default/files/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
-            "https://reliefweb.int/sites/default/files/styles/large/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png"
-          ],
-          "thumbnailCopyright": "",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-coordination-meeting-minutes-juba-19-november-2026"
-        },
-        {
           "id": "4239253",
           "title": "South Sudan - Access Constraints Map, 20 November 2026",
           "dateOriginal": "2026-11-20T00:00:00+00:00",
@@ -7068,6 +7042,32 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/map/south-sudan/south-sudan-access-constraints-map-20-november-2026"
+        },
+        {
+          "id": "4239238",
+          "title": "South Sudan - Coordination Meeting Minutes, Juba, 19 November 2026",
+          "dateOriginal": "2026-11-20T00:00:00+00:00",
+          "primaryCountry": "South Sudan",
+          "primaryCountryIso3": "ssd",
+          "primaryCountryLocation": {
+            "lat": 6.9,
+            "lon": 30.5
+          },
+          "source": "Logistics Cluster, WFP",
+          "format": "Other",
+          "themes": [
+            "Logistics and Telecommunications"
+          ],
+          "disasterTypes": [],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
+            "https://reliefweb.int/sites/default/files/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-coordination-meeting-minutes-juba-19-november-2026"
         },
         {
           "id": "4239081",
@@ -20955,6 +20955,39 @@
           ],
           "thumbnailCopyright": "",
           "url": "https://reliefweb.int/report/ecuador/latin-america-caribbean-weekly-situation-update-20-november-2026"
+        },
+        {
+          "id": "4238990",
+          "title": "Ecuador ENSO Floods 2026 - DREF Operational Update (MDREC032)",
+          "dateOriginal": "2026-11-19T00:00:00+00:00",
+          "primaryCountry": "Ecuador",
+          "primaryCountryIso3": "ecu",
+          "primaryCountryLocation": {
+            "lat": -1.16,
+            "lon": -78.43
+          },
+          "source": "IFRC",
+          "format": "Situation Report",
+          "themes": [
+            "Education",
+            "Health",
+            "Protection and Human Rights",
+            "Shelter and Non-Food Items",
+            "Water Sanitation Hygiene"
+          ],
+          "disasterTypes": [
+            "Flood",
+            "Land Slide"
+          ],
+          "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/29/58/295839c9-43d1-4439-8e60-a3c9e906aa6c.png",
+          "thumbnailCandidates": [
+            "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/29/58/295839c9-43d1-4439-8e60-a3c9e906aa6c.png",
+            "https://reliefweb.int/sites/default/files/styles/small/public/previews/29/58/295839c9-43d1-4439-8e60-a3c9e906aa6c.png",
+            "https://reliefweb.int/sites/default/files/previews/29/58/295839c9-43d1-4439-8e60-a3c9e906aa6c.png",
+            "https://reliefweb.int/sites/default/files/styles/large/public/previews/29/58/295839c9-43d1-4439-8e60-a3c9e906aa6c.png"
+          ],
+          "thumbnailCopyright": "",
+          "url": "https://reliefweb.int/report/ecuador/ecuador-enso-floods-2026-dref-operational-update-mdrec032"
         }
       ],
       "enrichmentStatus": "pending-daily"
@@ -28072,33 +28105,6 @@
   ],
   "reports": [
     {
-      "id": "4239178",
-      "title": "DTM Pakistan: Bi-Weekly Flow Monitoring of Afghan Nationals (16 – 31 October 2026)",
-      "dateOriginal": "2026-11-20T00:00:00+00:00",
-      "primaryCountry": "Pakistan",
-      "primaryCountryIso3": "pak",
-      "primaryCountryLocation": {
-        "lat": 29.97,
-        "lon": 69.39
-      },
-      "source": "IOM",
-      "format": "Assessment",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/02/f4/02f41b61-0590-5930-819e-5118ee5e9265.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/02/f4/02f41b61-0590-5930-819e-5118ee5e9265.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/02/f4/02f41b61-0590-5930-819e-5118ee5e9265.png",
-        "https://reliefweb.int/sites/default/files/previews/02/f4/02f41b61-0590-5930-819e-5118ee5e9265.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/02/f4/02f41b61-0590-5930-819e-5118ee5e9265.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/pakistan/dtm-pakistan-bi-weekly-flow-monitoring-afghan-nationals-16-31-october-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4239178.png"
-    },
-    {
       "id": "4239174",
       "title": "ARG: Inundación pluvial / riada - 11-2026 - Inundaciones Santa Fe (crecida del Paraná y del Salado) (2026-11-20)",
       "dateOriginal": "2026-11-20T00:00:00+00:00",
@@ -28158,6 +28164,33 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-epidemie-de-maladie-virus-ebola-apercu-de-la-situation-semaine-46-la-date-du-15-novembre-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4239194.png"
+    },
+    {
+      "id": "4239178",
+      "title": "DTM Pakistan: Bi-Weekly Flow Monitoring of Afghan Nationals (16 – 31 October 2026)",
+      "dateOriginal": "2026-11-20T00:00:00+00:00",
+      "primaryCountry": "Pakistan",
+      "primaryCountryIso3": "pak",
+      "primaryCountryLocation": {
+        "lat": 29.97,
+        "lon": 69.39
+      },
+      "source": "IOM",
+      "format": "Assessment",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/02/f4/02f41b61-0590-5930-819e-5118ee5e9265.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/02/f4/02f41b61-0590-5930-819e-5118ee5e9265.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/02/f4/02f41b61-0590-5930-819e-5118ee5e9265.png",
+        "https://reliefweb.int/sites/default/files/previews/02/f4/02f41b61-0590-5930-819e-5118ee5e9265.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/02/f4/02f41b61-0590-5930-819e-5118ee5e9265.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/pakistan/dtm-pakistan-bi-weekly-flow-monitoring-afghan-nationals-16-31-october-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4239178.png"
     },
     {
       "id": "4239223",
@@ -28502,6 +28535,30 @@
       "localThumbnail": "./assets/report-thumbs/rw-4239266.png"
     },
     {
+      "id": "4239240",
+      "title": "WFP 2027 Global Outlook: Meeting today’s needs. Investing in tomorrow’s solutions",
+      "dateOriginal": "2026-11-20T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "WFP",
+      "format": "Analysis",
+      "themes": [
+        "Food and Nutrition"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
+        "https://reliefweb.int/sites/default/files/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/wfp-2027-global-outlook-meeting-todays-needs-investing-tomorrows-solutions",
+      "localThumbnail": "./assets/report-thumbs/rw-4239240.png"
+    },
+    {
       "id": "4239232",
       "title": "Operational Update - Central African Republic - July - September 2026",
       "dateOriginal": "2026-11-20T00:00:00+00:00",
@@ -28616,33 +28673,6 @@
       "localThumbnail": "./assets/report-thumbs/rw-4239237.png"
     },
     {
-      "id": "4239238",
-      "title": "South Sudan - Coordination Meeting Minutes, Juba, 19 November 2026",
-      "dateOriginal": "2026-11-20T00:00:00+00:00",
-      "primaryCountry": "South Sudan",
-      "primaryCountryIso3": "ssd",
-      "primaryCountryLocation": {
-        "lat": 6.9,
-        "lon": 30.5
-      },
-      "source": "Logistics Cluster, WFP",
-      "format": "Other",
-      "themes": [
-        "Logistics and Telecommunications"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
-        "https://reliefweb.int/sites/default/files/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/south-sudan/south-sudan-coordination-meeting-minutes-juba-19-november-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4239238.png"
-    },
-    {
       "id": "4239241",
       "title": "“When a home and even a kindergarten are not safe, where can a child feel safe?” Children in Ukraine face mounting casualties and relentless attacks",
       "dateOriginal": "2026-11-20T00:00:00+00:00",
@@ -28680,30 +28710,6 @@
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/assemblee-generale-de-lifrc-2026-reunir-le-reseau-de-la-croix-rouge-et-du-croissant-rouge-pour-renforcer-laction-humanitaire-locale"
-    },
-    {
-      "id": "4239240",
-      "title": "WFP 2027 Global Outlook: Meeting today’s needs. Investing in tomorrow’s solutions",
-      "dateOriginal": "2026-11-20T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "WFP",
-      "format": "Analysis",
-      "themes": [
-        "Food and Nutrition"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
-        "https://reliefweb.int/sites/default/files/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/22/01/2201e883-9e10-4bce-a008-526fdc599e92.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/wfp-2027-global-outlook-meeting-todays-needs-investing-tomorrows-solutions",
-      "localThumbnail": "./assets/report-thumbs/rw-4239240.png"
     },
     {
       "id": "4239253",
@@ -28842,36 +28848,31 @@
       "localThumbnail": "./assets/report-thumbs/rw-4239264.png"
     },
     {
-      "id": "4239231",
-      "title": "République Centrafricaine (RCA) Mise à jour opérationnelle Trimestrielle | Juillet - Septembre 2026",
+      "id": "4239238",
+      "title": "South Sudan - Coordination Meeting Minutes, Juba, 19 November 2026",
       "dateOriginal": "2026-11-20T00:00:00+00:00",
-      "primaryCountry": "Central African Republic",
-      "primaryCountryIso3": "caf",
+      "primaryCountry": "South Sudan",
+      "primaryCountryIso3": "ssd",
       "primaryCountryLocation": {
-        "lat": 6.57,
-        "lon": 20.48
+        "lat": 6.9,
+        "lon": 30.5
       },
-      "source": "UNHCR",
-      "format": "Situation Report",
+      "source": "Logistics Cluster, WFP",
+      "format": "Other",
       "themes": [
-        "Coordination",
-        "Food and Nutrition",
-        "Health",
-        "Protection and Human Rights",
-        "Shelter and Non-Food Items",
-        "Water Sanitation Hygiene"
+        "Logistics and Telecommunications"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d8/4b/d84bd20e-ae66-5d3f-859f-27fd708d527d.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d8/4b/d84bd20e-ae66-5d3f-859f-27fd708d527d.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/d8/4b/d84bd20e-ae66-5d3f-859f-27fd708d527d.png",
-        "https://reliefweb.int/sites/default/files/previews/d8/4b/d84bd20e-ae66-5d3f-859f-27fd708d527d.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/d8/4b/d84bd20e-ae66-5d3f-859f-27fd708d527d.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
+        "https://reliefweb.int/sites/default/files/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/f3/49/f349f9e7-0d33-5089-9c6c-587ea2143354.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rca-mise-jour-operationnelle-trimestrielle-juillet-septembre-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4239231.png"
+      "url": "https://reliefweb.int/report/south-sudan/south-sudan-coordination-meeting-minutes-juba-19-november-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4239238.png"
     },
     {
       "id": "4239269",
@@ -28923,6 +28924,38 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4239282.png"
+    },
+    {
+      "id": "4239231",
+      "title": "République Centrafricaine (RCA) Mise à jour opérationnelle Trimestrielle | Juillet - Septembre 2026",
+      "dateOriginal": "2026-11-20T00:00:00+00:00",
+      "primaryCountry": "Central African Republic",
+      "primaryCountryIso3": "caf",
+      "primaryCountryLocation": {
+        "lat": 6.57,
+        "lon": 20.48
+      },
+      "source": "UNHCR",
+      "format": "Situation Report",
+      "themes": [
+        "Coordination",
+        "Food and Nutrition",
+        "Health",
+        "Protection and Human Rights",
+        "Shelter and Non-Food Items",
+        "Water Sanitation Hygiene"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d8/4b/d84bd20e-ae66-5d3f-859f-27fd708d527d.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d8/4b/d84bd20e-ae66-5d3f-859f-27fd708d527d.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/d8/4b/d84bd20e-ae66-5d3f-859f-27fd708d527d.png",
+        "https://reliefweb.int/sites/default/files/previews/d8/4b/d84bd20e-ae66-5d3f-859f-27fd708d527d.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/d8/4b/d84bd20e-ae66-5d3f-859f-27fd708d527d.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rca-mise-jour-operationnelle-trimestrielle-juillet-septembre-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4239231.png"
     },
     {
       "id": "4239279",
@@ -29021,6 +29054,60 @@
       "localThumbnail": "./assets/report-thumbs/rw-4239319.png"
     },
     {
+      "id": "4238977",
+      "title": "MPM Türkiye Overview of Migrant Situation: Migrant Presence Monitoring Quarterly Report Q3 - July, August, September 2026)",
+      "dateOriginal": "2026-11-19T00:00:00+00:00",
+      "primaryCountry": "Türkiye",
+      "primaryCountryIso3": "tur",
+      "primaryCountryLocation": {
+        "lat": 39.06,
+        "lon": 35.18
+      },
+      "source": "IOM",
+      "format": "Assessment",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/15/13/1513f762-1162-58ff-bff7-b0e532bc81d9.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/15/13/1513f762-1162-58ff-bff7-b0e532bc81d9.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/15/13/1513f762-1162-58ff-bff7-b0e532bc81d9.png",
+        "https://reliefweb.int/sites/default/files/previews/15/13/1513f762-1162-58ff-bff7-b0e532bc81d9.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/15/13/1513f762-1162-58ff-bff7-b0e532bc81d9.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/turkiye/mpm-turkiye-overview-migrant-situation-migrant-presence-monitoring-quarterly-report-q3-july-august-september-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4238977.png"
+    },
+    {
+      "id": "4238976",
+      "title": "Ethiopia — Flow Monitoring Snapshot Report (1 - 30 June 2026)",
+      "dateOriginal": "2026-11-19T00:00:00+00:00",
+      "primaryCountry": "Ethiopia",
+      "primaryCountryIso3": "eth",
+      "primaryCountryLocation": {
+        "lat": 8.63,
+        "lon": 39.62
+      },
+      "source": "IOM",
+      "format": "Assessment",
+      "themes": [
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1f/8e/1f8e7658-05ba-5951-851f-4eff049b46a0.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1f/8e/1f8e7658-05ba-5951-851f-4eff049b46a0.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/1f/8e/1f8e7658-05ba-5951-851f-4eff049b46a0.png",
+        "https://reliefweb.int/sites/default/files/previews/1f/8e/1f8e7658-05ba-5951-851f-4eff049b46a0.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/1f/8e/1f8e7658-05ba-5951-851f-4eff049b46a0.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/ethiopia/ethiopia-flow-monitoring-snapshot-report-1-30-june-2026",
+      "localThumbnail": "./assets/report-thumbs/rw-4238976.png"
+    },
+    {
       "id": "4238979",
       "title": "Western Balkans - Migration Routes & Dynamics Quarterly Report (July - September 2026)",
       "dateOriginal": "2026-11-19T00:00:00+00:00",
@@ -29073,33 +29160,6 @@
       "thumbnailCopyright": "",
       "url": "https://reliefweb.int/report/serbia/dtm-serbia-migration-data-and-routes-quarterly-report-july-september-2026",
       "localThumbnail": "./assets/report-thumbs/rw-4238981.png"
-    },
-    {
-      "id": "4238980",
-      "title": "Serbia — Migracioni Podaci i Rute Q3 (Jul–Septembar 2026) [SR]",
-      "dateOriginal": "2026-11-19T00:00:00+00:00",
-      "primaryCountry": "Serbia",
-      "primaryCountryIso3": "srb",
-      "primaryCountryLocation": {
-        "lat": 44.23,
-        "lon": 20.8
-      },
-      "source": "IOM",
-      "format": "Assessment",
-      "themes": [
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/73/70/73700f40-125c-5b81-bc3f-bb9e4408090c.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/73/70/73700f40-125c-5b81-bc3f-bb9e4408090c.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/73/70/73700f40-125c-5b81-bc3f-bb9e4408090c.png",
-        "https://reliefweb.int/sites/default/files/previews/73/70/73700f40-125c-5b81-bc3f-bb9e4408090c.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/73/70/73700f40-125c-5b81-bc3f-bb9e4408090c.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/serbia/serbia-migracioni-podaci-i-rute-q3-jul-septembar-2026-sr",
-      "localThumbnail": "./assets/report-thumbs/rw-4238980.png"
     },
     {
       "id": "4238982",
@@ -29156,14 +29216,14 @@
       "localThumbnail": "./assets/report-thumbs/rw-4238983.png"
     },
     {
-      "id": "4238977",
-      "title": "MPM Türkiye Overview of Migrant Situation: Migrant Presence Monitoring Quarterly Report Q3 - July, August, September 2026)",
+      "id": "4238980",
+      "title": "Serbia — Migracioni Podaci i Rute Q3 (Jul–Septembar 2026) [SR]",
       "dateOriginal": "2026-11-19T00:00:00+00:00",
-      "primaryCountry": "Türkiye",
-      "primaryCountryIso3": "tur",
+      "primaryCountry": "Serbia",
+      "primaryCountryIso3": "srb",
       "primaryCountryLocation": {
-        "lat": 39.06,
-        "lon": 35.18
+        "lat": 44.23,
+        "lon": 20.8
       },
       "source": "IOM",
       "format": "Assessment",
@@ -29171,43 +29231,66 @@
         "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/15/13/1513f762-1162-58ff-bff7-b0e532bc81d9.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/73/70/73700f40-125c-5b81-bc3f-bb9e4408090c.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/15/13/1513f762-1162-58ff-bff7-b0e532bc81d9.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/15/13/1513f762-1162-58ff-bff7-b0e532bc81d9.png",
-        "https://reliefweb.int/sites/default/files/previews/15/13/1513f762-1162-58ff-bff7-b0e532bc81d9.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/15/13/1513f762-1162-58ff-bff7-b0e532bc81d9.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/73/70/73700f40-125c-5b81-bc3f-bb9e4408090c.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/73/70/73700f40-125c-5b81-bc3f-bb9e4408090c.png",
+        "https://reliefweb.int/sites/default/files/previews/73/70/73700f40-125c-5b81-bc3f-bb9e4408090c.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/73/70/73700f40-125c-5b81-bc3f-bb9e4408090c.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/turkiye/mpm-turkiye-overview-migrant-situation-migrant-presence-monitoring-quarterly-report-q3-july-august-september-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4238977.png"
+      "url": "https://reliefweb.int/report/serbia/serbia-migracioni-podaci-i-rute-q3-jul-septembar-2026-sr",
+      "localThumbnail": "./assets/report-thumbs/rw-4238980.png"
     },
     {
-      "id": "4238976",
-      "title": "Ethiopia — Flow Monitoring Snapshot Report (1 - 30 June 2026)",
+      "id": "4239004",
+      "title": "Résumé du rapport : Stop à la guerre contre les enfants - Changer la donne",
       "dateOriginal": "2026-11-19T00:00:00+00:00",
-      "primaryCountry": "Ethiopia",
-      "primaryCountryIso3": "eth",
-      "primaryCountryLocation": {
-        "lat": 8.63,
-        "lon": 39.62
-      },
-      "source": "IOM",
-      "format": "Assessment",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "Save the Children",
+      "format": "Analysis",
       "themes": [
         "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1f/8e/1f8e7658-05ba-5951-851f-4eff049b46a0.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/1f/8e/1f8e7658-05ba-5951-851f-4eff049b46a0.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/1f/8e/1f8e7658-05ba-5951-851f-4eff049b46a0.png",
-        "https://reliefweb.int/sites/default/files/previews/1f/8e/1f8e7658-05ba-5951-851f-4eff049b46a0.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/1f/8e/1f8e7658-05ba-5951-851f-4eff049b46a0.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
+        "https://reliefweb.int/sites/default/files/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/ethiopia/ethiopia-flow-monitoring-snapshot-report-1-30-june-2026",
-      "localThumbnail": "./assets/report-thumbs/rw-4238976.png"
+      "url": "https://reliefweb.int/report/world/resume-du-rapport-stop-la-guerre-contre-les-enfants-changer-la-donne",
+      "localThumbnail": "./assets/report-thumbs/rw-4239004.png"
+    },
+    {
+      "id": "4239002",
+      "title": "Estado de la Población Mundial 2026: Generaciones venideras - Empoderar a la juventud para que trace su propio futuro",
+      "dateOriginal": "2026-11-19T00:00:00+00:00",
+      "primaryCountry": "World",
+      "primaryCountryIso3": "wld",
+      "primaryCountryLocation": null,
+      "source": "UNFPA",
+      "format": "Analysis",
+      "themes": [
+        "Gender",
+        "Health",
+        "Protection and Human Rights"
+      ],
+      "disasterTypes": [],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
+      "thumbnailCandidates": [
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
+        "https://reliefweb.int/sites/default/files/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png"
+      ],
+      "thumbnailCopyright": "",
+      "url": "https://reliefweb.int/report/world/estado-de-la-poblacion-mundial-2026-generaciones-venideras-empoderar-la-juventud-para-que-trace-su-propio-futuro",
+      "localThumbnail": "./assets/report-thumbs/rw-4239002.png"
     },
     {
       "id": "4238999",
@@ -29264,125 +29347,87 @@
       "localThumbnail": "./assets/report-thumbs/rw-4239005.png"
     },
     {
-      "id": "4239004",
-      "title": "Résumé du rapport : Stop à la guerre contre les enfants - Changer la donne",
+      "id": "4239003",
+      "title": "Children affected by armed conflict, 1990–2025",
       "dateOriginal": "2026-11-19T00:00:00+00:00",
       "primaryCountry": "World",
       "primaryCountryIso3": "wld",
       "primaryCountryLocation": null,
-      "source": "Save the Children",
+      "source": "PRIO",
       "format": "Analysis",
       "themes": [
         "Protection and Human Rights"
       ],
       "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/09/f2/09f294ab-1814-40e9-845c-e1b48480f3ac.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
-        "https://reliefweb.int/sites/default/files/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/fd/03/fd0368f1-8c88-47bc-95f3-b2611c430809.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/09/f2/09f294ab-1814-40e9-845c-e1b48480f3ac.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/09/f2/09f294ab-1814-40e9-845c-e1b48480f3ac.png",
+        "https://reliefweb.int/sites/default/files/previews/09/f2/09f294ab-1814-40e9-845c-e1b48480f3ac.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/09/f2/09f294ab-1814-40e9-845c-e1b48480f3ac.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/resume-du-rapport-stop-la-guerre-contre-les-enfants-changer-la-donne",
-      "localThumbnail": "./assets/report-thumbs/rw-4239004.png"
+      "url": "https://reliefweb.int/report/world/children-affected-armed-conflict-1990-2025",
+      "localThumbnail": "./assets/report-thumbs/rw-4239003.png"
     },
     {
-      "id": "4239002",
-      "title": "Estado de la Población Mundial 2026: Generaciones venideras - Empoderar a la juventud para que trace su propio futuro",
+      "id": "4238990",
+      "title": "Ecuador ENSO Floods 2026 - DREF Operational Update (MDREC032)",
       "dateOriginal": "2026-11-19T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "UNFPA",
-      "format": "Analysis",
+      "primaryCountry": "Ecuador",
+      "primaryCountryIso3": "ecu",
+      "primaryCountryLocation": {
+        "lat": -1.16,
+        "lon": -78.43
+      },
+      "source": "IFRC",
+      "format": "Situation Report",
       "themes": [
-        "Gender",
+        "Education",
         "Health",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
-        "https://reliefweb.int/sites/default/files/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/28/3a/283a5333-9441-4ed1-bcd8-ba6f61bb054d.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/estado-de-la-poblacion-mundial-2026-generaciones-venideras-empoderar-la-juventud-para-que-trace-su-propio-futuro",
-      "localThumbnail": "./assets/report-thumbs/rw-4239002.png"
-    },
-    {
-      "id": "4239129",
-      "title": "DG ECHO-funded WASH projects in 2026 - DG ECHO Daily Map | 19/11/2026",
-      "dateOriginal": "2026-11-19T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "ECHO",
-      "format": "Map",
-      "themes": [
+        "Protection and Human Rights",
+        "Shelter and Non-Food Items",
         "Water Sanitation Hygiene"
       ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d3/82/d3821fd5-68a4-5d1f-b2ce-216eab9912f9.png",
+      "disasterTypes": [
+        "Flood",
+        "Land Slide"
+      ],
+      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/29/58/295839c9-43d1-4439-8e60-a3c9e906aa6c.png",
       "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d3/82/d3821fd5-68a4-5d1f-b2ce-216eab9912f9.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/d3/82/d3821fd5-68a4-5d1f-b2ce-216eab9912f9.png",
-        "https://reliefweb.int/sites/default/files/previews/d3/82/d3821fd5-68a4-5d1f-b2ce-216eab9912f9.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/d3/82/d3821fd5-68a4-5d1f-b2ce-216eab9912f9.png"
+        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/29/58/295839c9-43d1-4439-8e60-a3c9e906aa6c.png",
+        "https://reliefweb.int/sites/default/files/styles/small/public/previews/29/58/295839c9-43d1-4439-8e60-a3c9e906aa6c.png",
+        "https://reliefweb.int/sites/default/files/previews/29/58/295839c9-43d1-4439-8e60-a3c9e906aa6c.png",
+        "https://reliefweb.int/sites/default/files/styles/large/public/previews/29/58/295839c9-43d1-4439-8e60-a3c9e906aa6c.png"
       ],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/map/world/dg-echo-funded-wash-projects-2026-dg-echo-daily-map-19112026",
-      "localThumbnail": "./assets/report-thumbs/rw-4239129.png"
+      "url": "https://reliefweb.int/report/ecuador/ecuador-enso-floods-2026-dref-operational-update-mdrec032",
+      "localThumbnail": "./assets/report-thumbs/rw-4238990.png"
     },
     {
-      "id": "4239001",
-      "title": "État de la population mondiale 2026 : Générations futures - Donner aux jeunes les moyens de façonner leur avenir",
+      "id": "4239015",
+      "title": "Amid pain caused by the floods, a Red Cross emergency clinic helps bring new life in Nepal | IFRC",
       "dateOriginal": "2026-11-19T00:00:00+00:00",
-      "primaryCountry": "World",
-      "primaryCountryIso3": "wld",
-      "primaryCountryLocation": null,
-      "source": "UNFPA",
-      "format": "Analysis",
-      "themes": [
-        "Gender",
-        "Health",
-        "Protection and Human Rights"
-      ],
-      "disasterTypes": [],
-      "thumbnail": "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ac/98/ac98ceaa-bbf4-446e-bec2-e02e307c0089.png",
-      "thumbnailCandidates": [
-        "https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ac/98/ac98ceaa-bbf4-446e-bec2-e02e307c0089.png",
-        "https://reliefweb.int/sites/default/files/styles/small/public/previews/ac/98/ac98ceaa-bbf4-446e-bec2-e02e307c0089.png",
-        "https://reliefweb.int/sites/default/files/previews/ac/98/ac98ceaa-bbf4-446e-bec2-e02e307c0089.png",
-        "https://reliefweb.int/sites/default/files/styles/large/public/previews/ac/98/ac98ceaa-bbf4-446e-bec2-e02e307c0089.png"
-      ],
-      "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/world/etat-de-la-population-mondiale-2026-generations-futures-donner-aux-jeunes-les-moyens-de-faconner-leur-avenir",
-      "localThumbnail": "./assets/report-thumbs/rw-4239001.png"
-    },
-    {
-      "id": "4239156",
-      "title": "UN Special Representative of the Secretary-General on Sexual Violence in Conflict, Pramila Patten, welcomes landmark judgment of the International Court of Justice on genocide against the Rohingya",
-      "dateOriginal": "2026-11-19T00:00:00+00:00",
-      "primaryCountry": "Myanmar",
-      "primaryCountryIso3": "mmr",
+      "primaryCountry": "Nepal",
+      "primaryCountryIso3": "npl",
       "primaryCountryLocation": {
-        "lat": 21.15,
-        "lon": 96.51
+        "lat": 28.25,
+        "lon": 83.94
       },
-      "source": "OSRSG Sexual Violence in Conflict",
+      "source": "IFRC",
       "format": "News and Press Release",
       "themes": [
-        "Protection and Human Rights"
+        "Health"
       ],
-      "disasterTypes": [],
+      "disasterTypes": [
+        "Flash Flood",
+        "Flood",
+        "Land Slide"
+      ],
       "thumbnail": "",
       "thumbnailCandidates": [],
       "thumbnailCopyright": "",
-      "url": "https://reliefweb.int/report/myanmar/un-special-representative-secretary-general-sexual-violence-conflict-pramila-patten-welcomes-landmark-judgment-international-court-justice-genocide-against-rohingya"
+      "url": "https://reliefweb.int/report/nepal/amid-pain-caused-floods-red-cross-emergency-clinic-helps-bring-new-life-nepal-ifrc"
     }
   ],
   "disasters": [
@@ -30938,7 +30983,7 @@
   ],
   "provenance": {
     "provider": "ReliefWeb API V2",
-    "queryGeneratedAt": "2026-11-22T15:18:22.544Z",
+    "queryGeneratedAt": "2026-11-22T21:46:00.565Z",
     "dateBasis": "date.original",
     "status": "published",
     "countryCounting": "primary_country.iso3",
@@ -30949,7 +30994,7 @@
     "analyticalBoundary": "Reporting intensity and momentum are information-environment signals, not humanitarian severity measures.",
     "reportThumbnailSource": "ReliefWeb file.preview preferred; report image fallback; invalid previews suppressed in UI",
     "reportThumbnailStrategy": "ReliefWeb preview metadata cached into GitHub Pages assets; browser hotlinking is not required.",
-    "reportThumbnailCacheAt": "2026-11-22T15:18:23.484Z",
+    "reportThumbnailCacheAt": "2026-11-22T21:46:01.506Z",
     "countryEnrichment": "Daily/manual ReliefWeb analytical enrichment for top-volume plus ARAC priority countries",
     "countryProfileTargetCount": 40,
     "countryProfileTopVolume": 30,
